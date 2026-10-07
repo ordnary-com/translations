@@ -1,0 +1,7 @@
+{
+  "accounts": {
+    "name": "Ordnary ID (sign-in and Account Center)",
+    "repository": "ordnary-com/identity",
+    "path": "apps/accounts/locales"
+  }
+}

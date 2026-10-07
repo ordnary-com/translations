@@ -1,0 +1,52 @@
+name: Sync
+
+# Every hour: English text, and new keys translated along with a feature,
+# come over from the product repositories (see products.json and
+# scripts/sync.mjs). Existing translations here are never overwritten.
+#
+# Needs the SOURCE_READ_TOKEN secret: a fine-grained GitHub token with
+# read-only "Contents" access to the product repositories.
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ordnary-com/identity
+          token: ${{ secrets.SOURCE_READ_TOKEN }}
+          path: source/ordnary-com/identity
+          sparse-checkout: apps/accounts/locales
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: node scripts/sync.mjs
+      - run: node scripts/check.mjs
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- . ':!source'; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "ordnary-translations"
+          git config user.email "translations@ordnary.com"
+          git add -- . ':!source'
+          git commit -m "Sync English and new keys from the product repositories"
+          git push

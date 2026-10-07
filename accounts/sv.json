@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Kontocenter",
+    "accountCenterSubtitle": "Hantera dina anslutna upplevelser och kontoinställningar i all Ordnary-teknik.",
+    "learnMore": "Läs mer",
+    "loading": "Laddar...",
+    "back": "Tillbaka",
+    "close": "Stäng",
+    "backToHome": "Tillbaka till startsidan"
+  },
+  "nav": {
+    "profiles": "Profiler",
+    "connectedExperiences": "Anslutna upplevelser",
+    "passwordAndSecurity": "Lösenord och säkerhet",
+    "personalDetails": "Personliga uppgifter och inställningar",
+    "education": "Utbildning",
+    "permissions": "Din information och dina behörigheter",
+    "adPreferences": "Annonsinställningar",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Prenumerationer",
+    "accounts": "Konton",
+    "activity": "Aktivitet"
+  },
+  "education": {
+    "title": "Utbildning",
+    "description": "Bekräfta med din skolmejl att du är student och få studentförmåner i Ordnary-produkter där de erbjuds.",
+    "statusLabel": "Studentstatus",
+    "statuses": {
+      "none": "Inte verifierad",
+      "pending": "Väntar på att du öppnar länken",
+      "verified": "Verifierad",
+      "revoked": "Inte längre aktiv"
+    },
+    "details": {
+      "title": "Dina uppgifter",
+      "school": "Skola",
+      "email": "Skolans e-postadress",
+      "verifiedOn": "Verifierad den"
+    },
+    "dialog": {
+      "title": "Studentverifiering",
+      "subtitle": "Bekräfta med din skolmejl att du är student. Vi använder bara adressen till det och skickar aldrig något annat dit.",
+      "close": "Stäng",
+      "verifiedTitle": "Verifierad",
+      "verifiedBody": "{email} på {school}, sedan {date}.",
+      "pendingTitle": "Väntar på att du öppnar länken",
+      "pendingBody": "Vi har skickat en länk till {email}. Öppna den inom 24 timmar för att slutföra.",
+      "revokedTitle": "Inte längre aktiv",
+      "revokedBody": "Din studentstatus har upphört. Bekräfta igen med din skolmejl.",
+      "changeEmail": "Använd en annan skolmejl",
+      "resend": "Skicka igen",
+      "cancel": "Avbryt",
+      "emailLabel": "Skolans e-postadress",
+      "detected": "{school}",
+      "notRecognised": "Vi känner inte igen detta som en skolmejl. Använd adressen du fick av din skola.",
+      "send": "Skicka länk",
+      "sending": "Skickar…",
+      "sent": "Länk skickad till {email}.",
+      "sentWhileVerified": "Vi har skickat en länk till {email}. Du förblir verifierad med din nuvarande skola tills du öppnar den.",
+      "points": [
+        {
+          "title": "Ange din skolmejl",
+          "text": "Vi visar vilken skola adressen tillhör."
+        },
+        {
+          "title": "Öppna länken",
+          "text": "Vi skickar en länk till adressen. Den fungerar i 24 timmar."
+        },
+        {
+          "title": "Du är verifierad",
+          "text": "Din studentstatus är aktiv i Ordnary-produkter som erbjuder studentförmåner."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Din studentstatus är nu aktiv.",
+      "verificationError": "Länken fungerar inte längre. Begär en ny."
+    },
+    "errors": {
+      "not_academic": "Vi känner inte igen detta som en skolmejl. Använd adressen du fick av din skola.",
+      "account": "Något gick fel med ditt konto. Försök igen senare.",
+      "send_failed": "Vi kunde inte skicka länken just nu. Försök igen senare.",
+      "no_pending": "Det finns ingen begäran att skicka igen. Ange din skolmejl.",
+      "not_authenticated": "Logga in igen för att fortsätta."
+    }
+  },
+  "profiles": {
+    "title": "Profiler",
+    "description": "Hantera dina anslutna upplevelser och kontoinställningar i all Ordnary-teknik.",
+    "addAccounts": "Lägg till konton",
+    "detail": {
+      "aboutTitle": "Om den här profilen",
+      "accessTitle": "Vad {app} har åtkomst till",
+      "linksTitle": "Policyer för {app}",
+      "mainProfile": "Huvudprofil",
+      "connected": "Ansluten app",
+      "verified": "Verifierad av Ordnary",
+      "connectedOn": "Ansluten sedan",
+      "lastUsed": "Senast använd",
+      "never": "Inte ännu",
+      "activeSignIns": "Aktiva inloggningar",
+      "profileId": "Profil-ID",
+      "email": "E-postadress",
+      "memberSince": "Medlem sedan",
+      "twoFactor": "Tvåfaktorsautentisering",
+      "on": "På",
+      "off": "Av",
+      "passkeys": "Passkeys",
+      "privacy": "Integritetspolicy",
+      "terms": "Användarvillkor",
+      "disconnect": "Koppla från",
+      "disconnectTitle": "Koppla från {app}?",
+      "disconnectText": "{app} kan inte längre använda ditt Ordnary-konto och du loggas ut därifrån. Du kan ansluta igen genom att logga in i {app} senare.",
+      "disconnecting": "Kopplar från...",
+      "cancel": "Avbryt",
+      "copied": "Kopierat",
+      "copy": "Kopiera",
+      "scopes": {
+        "openid": "Känna igen dig med ditt Ordnary-konto",
+        "profile": "Ditt namn och din profilbild",
+        "email": "Din e-postadress",
+        "offline_access": "Hålla dig inloggad när du inte använder den",
+        "phone": "Ditt telefonnummer",
+        "address": "Din adress"
+      },
+      "change": "Ändra",
+      "setUp": "Konfigurera",
+      "manage": "Hantera",
+      "add": "Lägg till",
+      "none": "Inga ännu"
+    },
+    "revokedSuccess": "Frånkopplad",
+    "revokedError": "Det gick inte att koppla från. Försök igen."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Skapa ett nytt Ordnary-konto?",
+      "registrationName": "Vad heter du?",
+      "registrationBirthday": "När fyller du år?",
+      "registrationPassword": "Skapa ett lösenord",
+      "saveLoginInfo": "Spara inloggningsuppgifter?",
+      "registrationReview": "Slutför skapandet av ditt konto",
+      "verifyEmailCode": "Ange bekräftelsekod",
+      "editEmail": "Vad är din e-postadress?",
+      "loginCodeEntry": "Kontrollera din e-post",
+      "recoveryCodeEntry": "Bekräfta ditt konto",
+      "resetPassword": "Skapa ett nytt lösenord",
+      "passwordEntry": "Ange ditt lösenord",
+      "identifierLookup": "Vad är din e-postadress?",
+      "signIn": "Logga in",
+      "mfaCodeEntry": "Ange din verifieringskod"
+    },
+    "descriptions": {
+      "identifierLookup": "Ange din e-post för att logga in på ett konto eller skapa ett nytt.",
+      "passwordEntry": "För att logga in anger du lösenordet som är kopplat till {identifier}.",
+      "accountNotFound": "Vi hittar inget Ordnary-konto för {email}. Du kanske inte har skapat något ännu. Om du har gjort det kan det använda en annan identifierare.",
+      "registrationName": "Det här namnet används för kontoåterställning och för meddelanden om ditt konto. Det är inte synligt för andra.",
+      "registrationBirthday": "Använd ditt eget födelsedatum, även om kontot är för ett företag eller något annat. Uppgiften blir inte offentlig.",
+      "registrationPassword": "Skapa ett lösenord som andra inte kan gissa.",
+      "saveLoginInfo": "Vi sparar inloggningsuppgifterna för ditt konto så att du slipper ange dem nästa gång du loggar in.",
+      "verifyEmailCode": "Ange den 6-siffriga koden som skickades till {identifier} för att bekräfta ditt konto.",
+      "editEmail": "Ange e-postadressen där vi kan nå dig. Adressen används för inloggning och kontohantering och är inte synlig för andra.",
+      "loginCodeEntry": "För att logga in anger du koden vi skickade till {identifier}. Du kan behöva kolla skräpposten eller mappen Sociala.",
+      "recoveryCodeEntry": "Vi har skickat en kod till {identifier}. Ange den för att bekräfta ditt konto.",
+      "resetPassword": "Du använder det här lösenordet för att logga in på ditt Ordnary-konto. Använd minst 6 bokstäver och siffror.",
+      "mfaCodeEntry": "Ange den 6-siffriga koden från din autentiseringsapp för att fortsätta."
+    },
+    "buttons": {
+      "createNewAccount": "Skapa nytt konto",
+      "alreadyHaveAccount": "Jag har redan ett konto",
+      "next": "Nästa",
+      "save": "Spara",
+      "notNow": "Inte nu",
+      "finish": "Slutför",
+      "resendCode": "Skicka koden igen",
+      "enterPassword": "Ange lösenord",
+      "forgotPassword": "Glömt lösenordet?",
+      "switchAccount": "Byt konto",
+      "yes": "Ja",
+      "no": "Nej",
+      "useEmailCode": "Logga in med en e-postkod",
+      "signInWithPasskey": "Logga in med en passkey",
+      "useRecoveryCode": "Använd en återställningskod",
+      "useAuthenticatorCode": "Använd din autentiseringsapp"
+    },
+    "labels": {
+      "name": "Namn",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "day": "Dag",
+      "month": "Månad",
+      "year": "År",
+      "dateOfBirth": "Födelsedatum",
+      "confirmationCode": "Bekräftelsekod",
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "newPassword": "Nytt lösenord",
+      "logoutOthers": "Logga ut överallt annars för att se till att ingen annan kan komma åt ditt konto",
+      "marketingEmails": "Jag vill få e-post om appar, rekommendationer och erbjudanden för Ordnary Identity.",
+      "showPassword": "Visa lösenord",
+      "hidePassword": "Dölj lösenord",
+      "clearInput": "Rensa fältet",
+      "recoveryCode": "Återställningskod"
+    },
+    "links": {
+      "whyNeedBirthday": "Varför måste jag ange mitt födelsedatum?",
+      "learnMore": "Läs mer",
+      "editEmail": "Redigera e-postadress",
+      "noAccessEmail": "Har du inte längre tillgång till den här e-postadressen?",
+      "termsOfService": "Användarvillkor",
+      "privacyPolicy": "Integritetspolicy",
+      "cookiePolicy": "Cookiepolicy"
+    },
+    "messages": {
+      "nameHelp": "Om du använder ditt riktiga namn blir det enklare att återställa kontot om du förlorar åtkomsten.",
+      "emailHelp": "Använd din jobbmejl eller privata e-post för att komma åt dina Ordnary-tjänster.",
+      "existingSessionTitle": "Du har redan en aktiv session",
+      "existingSessionDescription": "Du är redan inloggad. Du skickas vidare till Kontocenter om {seconds} sekunder.",
+      "summaryPrivacy": "Uppgifterna för ditt Ordnary-konto är inte offentliga.",
+      "verifyEmailLookFor": "Leta efter ett e-postmeddelande från notification@ordnary.com. Du kan behöva kolla skräpposten eller mappen Sociala.",
+      "termsAgreement": "Genom att klicka på ”Slutför” godkänner du våra användarvillkor och vår integritetspolicy, och bekräftar att du har läst vår cookiepolicy.",
+      "footerAgreement": "Genom att fortsätta bekräftar du att du har läst och godkänner våra användarvillkor, vår integritetspolicy och tillämpliga riktlinjer för databehandling. Du godkänner också att få viktiga konto- och säkerhetsmeddelanden som rör din användning av plattformen.",
+      "emailMissing": "E-postadress saknas.",
+      "resendCodeError": "Ett oväntat fel uppstod när koden skulle skickas igen.",
+      "invalidInput": "Ogiltig inmatning.",
+      "credentialsPrompt": "För att logga in anger du lösenordet som är kopplat till {identifier}.",
+      "checkEmailPrompt": "För att logga in anger du koden vi skickade till {identifier}.",
+      "termsIntro": "Genom att trycka på Slutför godkänner du våra"
+    },
+    "validation": {
+      "emailRequired": "E-postadress krävs.",
+      "passwordRequired": "Lösenord krävs.",
+      "passwordMin": "Lösenordet måste vara minst 12 tecken långt.",
+      "passwordMax": "Lösenordet får inte vara längre än 128 tecken.",
+      "emailInvalid": "Ange en giltig e-postadress.",
+      "displayNameMin": "Visningsnamnet måste vara minst 2 tecken långt.",
+      "resetTokenRequired": "Token för återställning krävs.",
+      "verificationTokenRequired": "Token för verifiering krävs."
+    },
+    "errors": {
+      "invalidInput": "Ogiltig inmatning.",
+      "genericLoginFailed": "Det gick inte att logga in dig. Försök igen.",
+      "loginInvalidCredentials": "Ogiltig e-postadress eller ogiltigt lösenord.",
+      "accountLocked": "Ditt konto är låst eller avstängt.",
+      "passwordIncorrect": "Lösenordet du angav är fel.",
+      "notAuthenticated": "Du är inte inloggad.",
+      "registrationMissingInfo": "Obligatorisk registreringsinformation saknas.",
+      "registrationEmailExists": "Det finns redan ett konto med den här e-postadressen.",
+      "systemNoDefaultTenant": "Systemfel: ingen standardtenant hittades.",
+      "registrationFailed": "Registreringen misslyckades. Försök igen.",
+      "invalidVerificationRequest": "Ogiltig verifieringsbegäran.",
+      "accountNotFound": "Kontot hittades inte.",
+      "verificationCodeInvalidOrExpired": "Ogiltig eller utgången verifieringskod.",
+      "verificationFailedTryAgain": "Verifieringen misslyckades. Försök igen.",
+      "invalidRequest": "Ogiltig begäran.",
+      "userNotFound": "Användaren hittades inte.",
+      "codeInvalidOrExpired": "Ogiltig eller utgången kod.",
+      "verificationFailed": "Verifieringen misslyckades.",
+      "missingInformation": "Information saknas.",
+      "passwordResetFailed": "Det gick inte att återställa lösenordet.",
+      "emailMissing": "E-postadress saknas.",
+      "resendCodeFailed": "Det gick inte att skicka koden igen. Försök igen.",
+      "loginRequestFailed": "Vi kunde inte behandla din inloggningsbegäran. Försök igen.",
+      "mfaDataMissing": "Verifieringsuppgifter saknas. Logga in igen.",
+      "mfaNoAuthenticator": "Ingen aktiv autentiseringsapp hittades för det här kontot.",
+      "mfaCodeInvalid": "Ogiltig verifieringskod.",
+      "mfaVerificationFailed": "Verifieringen misslyckades. Logga in igen.",
+      "requestRejected": "Vi kunde inte behandla begäran. Försök igen.",
+      "tooManyAttempts": "För många försök. Försök igen senare.",
+      "tooManyFailedLogins": "För många misslyckade inloggningsförsök. Vänta en stund innan du försöker igen.",
+      "permanentEmailRequired": "Använd en permanent e-postadress.",
+      "recoveryFileInvalid": "Den här återställningsfilen fungerar inte. Den kan ha ersatts av en nyare eller tagits bort.",
+      "passkeyFailed": "Inloggningen med passkey fungerade inte. Försök igen eller fortsätt med din e-postadress.",
+      "passwordTooWeak": "Välj ett lösenord som uppfyller alla krav nedan."
+    },
+    "months": [
+      "januari",
+      "februari",
+      "mars",
+      "april",
+      "maj",
+      "juni",
+      "juli",
+      "augusti",
+      "september",
+      "oktober",
+      "november",
+      "december"
+    ],
+    "recoveryFile": {
+      "link": "Logga in med en återställningsfil",
+      "title": "Logga in med en återställningsfil",
+      "description": "Ladda upp återställningsfilen för det här kontot som du laddade ner från Kontocenter. Du loggas in direkt.",
+      "choose": "Välj fil",
+      "reading": "Loggar in…",
+      "pasteInstead": "Klistra in koden i stället",
+      "codeLabel": "Kod från filen",
+      "signIn": "Logga in",
+      "notAFile": "Det här är ingen återställningsfil från Ordnary. Välj den PDF som du laddade ner från Kontocenter.",
+      "back": "Använd e-postkoden i stället"
+    },
+    "passwordRules": {
+      "length": "Minst 12 tecken",
+      "upper": "En versal",
+      "lower": "En gemen",
+      "digit": "En siffra"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Kontoinställningar",
+      "appearanceLabel": "Utseende",
+      "appearanceLight": "Ljust",
+      "appearanceSystem": "Följ systemet",
+      "appearanceDark": "Mörkt",
+      "logout": "Logga ut",
+      "sessionExpired": "Din session har gått ut. Logga in igen för att fortsätta.",
+      "logoutConfirmTitle": "Logga ut från Ordnary?",
+      "logoutCancel": "Avbryt",
+      "logoutConfirm": "Logga ut",
+      "language": "Språk"
+    },
+    "reactivate": {
+      "title": "Välkommen tillbaka, ditt konto är avaktiverat",
+      "description": "Vi pausade e-post och aviseringar när du avaktiverade ditt konto. Återaktivera för att få tillbaka allt, eller logga ut och bestäm dig senare. Dina data finns kvar.",
+      "reactivate": "Återaktivera mitt konto",
+      "reactivating": "Återaktiverar...",
+      "signOut": "Logga ut",
+      "signingOut": "Loggar ut...",
+      "footer": "Om du hellre vill radera ditt konto permanent loggar du in och väljer Radera konto under Personliga uppgifter.",
+      "successNotification": "Välkommen tillbaka. Ditt konto är aktivt igen.",
+      "errorGeneric": "Vi kunde inte återaktivera ditt konto. Försök igen om en stund.",
+      "deletedTitle": "Ditt konto kommer att raderas",
+      "deletedDescription": "Det raderas för gott den {date}. Återställ det för att behålla allt, eller logga ut och låt raderingen fortsätta.",
+      "restore": "Återställ mitt konto",
+      "restoring": "Återställer..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profilbild",
+        "custom": "Ditt eget foto",
+        "default": "Genererad avatar",
+        "modalTitle": "Profilbild",
+        "subtitle": "Visas med ditt namn i Ordnarys appar och i communityn. Utan eget foto får du en avatar som är unik för ditt konto.",
+        "choose": "Välj ett foto",
+        "change": "Välj ett annat",
+        "remove": "Ta bort foto",
+        "save": "Spara foto",
+        "saving": "Sparar...",
+        "hint": "JPG, PNG eller WebP. Ditt foto beskärs till en kvadrat.",
+        "errorType": "Filen är inte en bild vi kan använda. Välj en JPG, PNG eller WebP.",
+        "errorFailed": "Vi kunde inte spara ditt foto. Försök igen."
+      },
+      "title": "Personliga uppgifter och inställningar",
+      "description": "Ordnary använder de här uppgifterna för att verifiera din identitet och hjälpa till att hålla communityn säker. Du bestämmer vilka personuppgifter som syns för andra.",
+      "contactDetails": "Kontaktuppgifter",
+      "birthday": "Födelsedag",
+      "ownership": "Kontoägande och kontroll",
+      "ownershipDescription": "Hantera dina uppgifter, uppdatera din arvskontakt för minneskonton och inaktivera eller radera dina konton och profiler.",
+      "loadingName": "Användare",
+      "modal": {
+        "title": "Kontoägande och kontroll",
+        "deactivationIndexTitle": "Inaktivering eller radering",
+        "deactivationIndexDescription": "Inaktivera tillfälligt eller radera permanent dina konton och profiler.",
+        "optionsTitle": "Inaktivera eller radera ditt Ordnary-konto",
+        "optionsDescription": "Behöver du en paus? Inaktivera ditt konto och kom tillbaka när du vill. Vill du lämna Ordnary? Radera ditt konto.",
+        "deactivateTitle": "Inaktivera konto",
+        "deactivateDescription": "Inaktivering av kontot är tillfällig. Ditt konto stängs av och döljs för andra.",
+        "deleteTitle": "Radera konto",
+        "deleteDescription": "Att radera ditt konto är permanent. Efter 30 dagar kan du inte återaktivera det eller återställa dess data.",
+        "deactivateConfirmTitle": "Inaktivera ditt konto?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Du loggas ut överallt",
+            "text": "På alla dina enheter och i alla appar du använder med ditt Ordnary-konto."
+          },
+          {
+            "title": "Din profil döljs",
+            "text": "Andra kan inte se ditt namn eller din profil medan ditt konto är inaktiverat."
+          },
+          {
+            "title": "Kom tillbaka när du vill",
+            "text": "Logga in igen för att återaktivera ditt konto. Allt är som du lämnade det."
+          }
+        ],
+        "deactivateConfirmButton": "Inaktivera konto",
+        "deleteConfirmTitle": "Radera ditt konto?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Du loggas ut överallt",
+            "text": "På alla dina enheter och i alla appar du använder med ditt Ordnary-konto."
+          },
+          {
+            "title": "Du förlorar åtkomsten",
+            "text": "Till Ordnary och alla appar du loggar in på med ditt Ordnary-konto."
+          },
+          {
+            "title": "Raderas för gott efter 30 dagar",
+            "text": "Fram till dess kan du fortfarande ångra dig. Därefter kan ditt konto och dina data inte återställas."
+          }
+        ],
+        "deleteConfirmCheck": "Jag förstår att mitt konto och mina data raderas permanent efter 30 dagar.",
+        "deleteConfirmButton": "Radera konto",
+        "cancel": "Avbryt",
+        "continue": "Fortsätt",
+        "working": "Vänta...",
+        "deactivateSuccess": "Ditt konto har inaktiverats. Du skickas vidare till inloggningen...",
+        "deleteSuccess": "Ditt konto har schemalagts för radering. Du skickas vidare till inloggningen...",
+        "submitError": "Vi kunde inte uppdatera ditt konto just nu."
+      },
+      "missingBirthday": "Inte angivet",
+      "loadError": "Det gick inte att läsa in personuppgifterna.",
+      "preferences": {
+        "sectionTitle": "Inställningar",
+        "appearance": "Utseende",
+        "appearanceDescription": "Anpassa hur ditt Ordnary-konto ser ut.",
+        "cookies": "Cookieinställningar",
+        "cookiesDescription": "Hantera vilka cookies Ordnary får använda i den här webbläsaren.",
+        "processors": {
+          "title": "Vilka som behandlar dina uppgifter",
+          "intro": "Vi använder några andra företag för att driva Ordnary. Här är alla: vad de får från oss, var de förvarar det och hur det skyddas när det lämnar EU.",
+          "empty": "Inga andra företag får dina uppgifter.",
+          "loadError": "Vi kunde inte läsa in detta just nu. Försök igen senare.",
+          "loading": "Laddar…",
+          "close": "Stäng",
+          "back": "Tillbaka",
+          "fields": {
+            "purpose": "Vad de gör",
+            "receives": "Vad de får",
+            "whose": "Vems uppgifter",
+            "stored": "Var de förvaras",
+            "transfer": "Utanför EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Stannar inom Europeiska ekonomiska samarbetsområdet.",
+            "ADEQUACY_DECISION": "Tillåtet eftersom EU anser att dataskyddet i {country} är adekvat.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Skyddas av EU:s standardavtalsklausuler.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Certifierat enligt EU-US Data Privacy Framework.",
+            "sccBackup": "EU:s standardavtalsklausuler gäller som ett extra skydd."
+          },
+          "links": {
+            "dpa": "Personuppgiftsbiträdesavtal",
+            "privacy": "Integritetspolicy",
+            "website": "Webbplats",
+            "certification": "Certifiering"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Kontrollerar ditt ID när du ändrar ditt födelsedatum.",
+              "receives": [
+                "Namn",
+                "Födelsedatum",
+                "Foto av din ID-handling",
+                "Selfie",
+                "IP-adress"
+              ],
+              "whose": "Bara personer som verifierar ett nytt födelsedatum."
+            },
+            "resend": {
+              "purpose": "Skickar våra e-postmeddelanden: inloggningskoder, säkerhetsvarningar och kontoaviseringar.",
+              "receives": [
+                "E-postadress",
+                "Visningsnamn",
+                "Innehållet i e-postmeddelandet, till exempel inloggningskoder, länkar och IP-adressen i säkerhetsvarningar"
+              ],
+              "whose": "Alla som får e-post från Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Integritetsbegäranden",
+          "description": "Invänd mot eller begränsa specifika behandlingar (art. 18 / art. 21).",
+          "back": "Tillbaka",
+          "close": "Stäng",
+          "loading": "Läser in…",
+          "loadError": "Det gick inte att läsa in integritetsbegäranden.",
+          "alreadyOpen": "Du har redan en öppen begäran för detta område.",
+          "cooldown": "Du kan skicka in samma begäran igen om {hours} timme/timmar.",
+          "submitted": "Din begäran har tagits emot.",
+          "withdrawn": "Begäran har återkallats.",
+          "fileNew": "Skicka en ny begäran",
+          "pickKind": "Vad vill du göra?",
+          "kinds": {
+            "OBJECTION": "Invända mot en behandling (art. 21)",
+            "RESTRICTION": "Tillfälligt begränsa behandling (art. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Stoppa en specifik behandling framöver, utifrån din särskilda situation.",
+            "RESTRICTION": "Pausa en specifik behandling medan en tvist om dina data granskas."
+          },
+          "pickActivities": "Vilka behandlingar ska detta gälla?",
+          "activitiesHint": "Välj inga för att gälla alla våra behandlingar (en global spärr).",
+          "globalScope": "All behandling (global spärr)",
+          "yourStatement": "Din redogörelse (rekommenderas)",
+          "statementPlaceholder": "Berätta varför, till exempel att du inte längre vill att vi använder automatisk riskbedömning medan du utreder en säkerhetshändelse med oss.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Skicka begäran",
+          "submitting": "Skickar…",
+          "withdraw": "Återkalla",
+          "withdrawing": "Återkallar…",
+          "openTitle": "Öppna begäranden",
+          "emptyOpen": "Inga öppna begäranden.",
+          "historyTitle": "Tidigare begäranden",
+          "historyEmpty": "Inga tidigare begäranden.",
+          "holdsTitle": "Aktiva spärrar just nu",
+          "holdsEmpty": "Inga aktiva spärrar.",
+          "appliesTo": "Gäller för",
+          "effectiveUntil": "Gäller till",
+          "statuses": {
+            "PENDING": "Väntar",
+            "IN_REVIEW": "Under granskning",
+            "RESOLVED": "Avgjord",
+            "WITHDRAWN": "Återkallad"
+          },
+          "outcomes": {
+            "GRANTED": "Beviljad",
+            "PARTIALLY_GRANTED": "Delvis beviljad",
+            "REJECTED": "Avslagen",
+            "ESCALATED": "Eskalerad"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Kontoidentitet och autentisering",
+            "session-and-device-management": "Sessioner och enheter",
+            "oauth-issuance": "OAuth / OIDC-utfärdande",
+            "identity-verification": "Identitetsverifiering (Stripe Identity)",
+            "payment-processing": "Betalningshantering",
+            "audit-logs-and-security-events": "Granskningsloggar och säkerhetshändelser",
+            "risk-scoring": "Automatisk riskbedömning",
+            "consent-log": "Samtyckeslogg",
+            "account-deletion": "Radering av konto",
+            "risk-review-queue": "Kö för riskgranskning"
+          },
+          "title": "Invänd eller begränsa"
+        },
+        "dsar": {
+          "label": "Integritets- och databegäranden",
+          "description": "Skicka en formell begäran om tillgång, rättelse, radering eller dataportabilitet (art. 15-20).",
+          "title": "Integritets- och databegäranden",
+          "back": "Tillbaka",
+          "close": "Stäng",
+          "loading": "Läser in…",
+          "loadError": "Det gick inte att läsa in begäranden.",
+          "submitted": "Vi har tagit emot din begäran.",
+          "fastPathReady": "Din data laddas ner nu.",
+          "fastPathHint": "Vill du bara ha en snabb kopia av dina data? Använd knappen \"Exportera din information\" högst upp. Den laddar ner direkt utan att gå via den formella kön. Skicka en begäran här när du vill ha en mänsklig granskare, skickar för någon annans räkning eller behöver rättelse eller radering.",
+          "withdrawn": "Begäran har återkallats.",
+          "fileNew": "Skicka en ny begäran",
+          "pickKind": "Vad vill du göra?",
+          "kinds": {
+            "ACCESS": "Tillgång (art. 15)",
+            "RECTIFICATION": "Rättelse (art. 16)",
+            "ERASURE": "Radering (art. 17)",
+            "PORTABILITY": "Dataportabilitet (art. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Få en fullständig maskinläsbar kopia av de data vi har om dig.",
+            "RECTIFICATION": "Rätta data vi har om dig som är felaktiga eller inaktuella.",
+            "ERASURE": "Be oss radera ditt konto och de data vi har om dig.",
+            "PORTABILITY": "Få dina data i ett strukturerat, allmänt använt format."
+          },
+          "filedBy": "Vem skickar denna begäran?",
+          "filedByOptions": {
+            "SELF": "Jag skickar den för mig själv",
+            "PARENT_GUARDIAN": "Jag är förälder eller vårdnadshavare och skickar för ett minderårigt barn",
+            "AUTHORISED_AGENT": "Jag är ett behörigt ombud (t.ex. en advokat) och skickar för någon annans räkning"
+          },
+          "representativeBlock": {
+            "title": "Uppgifter om ombudet",
+            "emailLabel": "Din e-postadress",
+            "notesLabel": "Relation och behörighet",
+            "notesHint": "Beskriv kort din relation till den registrerade och bifoga hänvisningar till fullmakt eller vårdnadshandling."
+          },
+          "subjectEmailLabel": "Den registrerades e-postadress",
+          "subjectEmailHint": "Vi skickar verifieringslänken och svaret till den här adressen. För begäranden som skickas av ett ombud måste det vara den registrerades egen e-postadress.",
+          "yourStatement": "Din redogörelse (rekommenderas)",
+          "statementPlaceholder": "Vad vill du ha, exakt? Allt sammanhang som hjälper oss avgränsa svaret.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Skicka begäran",
+          "submitting": "Skickar…",
+          "withdraw": "Återkalla",
+          "withdrawing": "Återkallar…",
+          "openTitle": "Öppna begäranden",
+          "emptyOpen": "Inga öppna begäranden.",
+          "historyTitle": "Tidigare begäranden",
+          "historyEmpty": "Inga tidigare begäranden.",
+          "due": "Förfaller",
+          "extended": "Förlängd till",
+          "awaitingVerification": "Väntar på e-postverifiering",
+          "statuses": {
+            "SUBMITTED": "Väntar på verifiering",
+            "VERIFIED": "Verifierad",
+            "IN_PROGRESS": "Pågår",
+            "FULFILLED": "Uppfylld",
+            "REJECTED": "Avslagen",
+            "WITHDRAWN": "Återkallad"
+          },
+          "outcomes": {
+            "FULFILLED": "Uppfylld",
+            "PARTIALLY_FULFILLED": "Delvis uppfylld",
+            "REJECTED": "Avslagen"
+          },
+          "overdue": "Försenad"
+        },
+        "modalTitle": "Utseende",
+        "modalSubtitle": "Välj hur Kontocenter ser ut. Vi kommer ihåg ditt val på den här enheten.",
+        "options": {
+          "lightLabel": "Ljust",
+          "lightDescription": "Använd alltid en ljus bakgrund, oavsett din systeminställning.",
+          "systemLabel": "Följ systemet",
+          "systemDescription": "Växlar med enhetens inställning.",
+          "darkLabel": "Mörkt",
+          "darkDescription": "Använd alltid en mörk bakgrund, skönare på kvällen."
+        },
+        "done": "Klar"
+      },
+      "displayNameSection": {
+        "label": "Fullständigt namn",
+        "subtitle": "Ditt fullständiga namn används i alla dina konton och profiler.",
+        "editButton": "Redigera",
+        "modalTitle": "Fullständigt namn",
+        "editTitle": "Ändra fullständigt namn",
+        "modalSubtitle": "Kontakta {email} för att ändra ditt fullständiga namn.",
+        "currentLabel": "Nuvarande namn",
+        "supportNotice": "Kontakta {email} för att ändra ditt fullständiga namn.",
+        "copyEmail": "Kopiera e-postadress",
+        "openEmail": "Öppna e-post",
+        "mailSubject": "Begäran om ändring av fullständigt namn",
+        "mailBody": "Hej,\n\nJag vill ändra mitt fullständiga namn.\n\nNuvarande namn: {name}\nNytt namn: \n\nVänliga hälsningar,\n{name}"
+      },
+      "loading": "Läser in...",
+      "contact": {
+        "subtitle": "Hantera dina e-postadresser samt vem som kan se dina kontaktuppgifter. Använd dem för att komma åt profilerna och enheterna i det här kontocentret.",
+        "addNew": "Lägg till ny kontakt",
+        "detailsDescription": "Du har lagt till den här e-postadressen på dessa konton.",
+        "whoCanSee": "Vem kan se din e-postadress?",
+        "deleting": "Tar bort...",
+        "delete": "Ta bort e-postadress",
+        "deleteFailed": "Vi kunde inte ta bort den här e-postadressen.",
+        "deleted": "E-postadressen har tagits bort",
+        "addTitle": "Lägg till en e-postadress",
+        "addSubtitle": "Vi använder den här e-postadressen för dina konton i kontocentret för att anpassa din upplevelse.",
+        "learnMore": "Läs mer",
+        "emailLabel": "E-postadress",
+        "chooseAccounts": "Välj konton för den här e-postadressen",
+        "added": "E-postadressen har lagts till",
+        "addFailed": "Något gick fel. Försök igen.",
+        "next": "Nästa"
+      },
+      "birthdayModal": {
+        "subtitle": "Lägg till din födelsedag så att upplevelsen passar din ålder.",
+        "edit": "Redigera",
+        "editTitle": "Redigera din födelsedag",
+        "editSubtitle": "Den här födelsedagen används för kontona och profilerna i det här kontocentret. Alla ändringar gäller för samtliga.",
+        "day": "Dag",
+        "month": "Månad",
+        "year": "År",
+        "verificationNotice": "För att ändra din födelsedag måste du verifiera din identitet med en giltig ID-handling via vår partner Stripe Identity. När du har sparat skickar vi dig till verifieringen.",
+        "save": "Spara",
+        "saveFailed": "Något gick fel. Försök igen.",
+        "verificationStartFailed": "Vi kunde inte starta identitetsverifieringen.",
+        "completeFailed": "Vi kunde inte slutföra verifieringen.",
+        "updated": "Din födelsedag har uppdaterats efter identitetsverifiering.",
+        "dobMismatch": "Födelsedatumet på din ID-handling stämmer inte med det du angav.",
+        "dobUnavailable": "Stripe kunde inte läsa ett verifierbart födelsedatum från din ID-handling.",
+        "notFinished": "Identitetsverifieringen är inte klar än."
+      }
+    },
+    "security": {
+      "title": "Lösenord och säkerhet",
+      "loadingName": "Användare",
+      "pageLoadError": "Det gick inte att läsa in säkerhetsinställningarna.",
+      "sections": {
+        "signIn": {
+          "title": "Inloggning och återställning",
+          "description": "Hantera dina lösenord, inloggningsinställningar och återställningsmetoder."
+        },
+        "controls": {
+          "title": "Säkerhetskontroller",
+          "description": "Granska säkerhetsproblem genom att kontrollera appar, enheter och skickade e-postmeddelanden."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Byt lösenord",
+          "loading": "Laddar...",
+          "set": "Lösenord angett",
+          "missing": "Inget lösenord angett"
+        },
+        "twofactor": {
+          "label": "Tvåfaktorsautentisering",
+          "loading": "Laddar...",
+          "enabled": "Aktiverad",
+          "disabled": "Inte aktiverad än"
+        },
+        "passkeys": {
+          "label": "Passkeys",
+          "loading": "Laddar...",
+          "none": "Inga passkeys än",
+          "active": "{count} aktiva"
+        },
+        "activity": {
+          "label": "Där du är inloggad",
+          "summary": "{total} aktiva sessioner, {others} på andra enheter"
+        },
+        "automated": {
+          "label": "Automatiserade beslut",
+          "summary": "Se vilka automatiska regler som skyddar ditt konto och begär mänsklig granskning."
+        }
+      },
+      "passwordModal": {
+        "title": "Byt lösenord",
+        "subtitle": "Skapa ett lösenord med minst 12 tecken. Välj något som andra inte kan gissa.",
+        "currentPassword": "Nuvarande lösenord",
+        "newPassword": "Nytt lösenord",
+        "repeatPassword": "Upprepa nytt lösenord",
+        "forgotPassword": "Glömt lösenordet?",
+        "logoutOthers": "Logga ut på andra enheter. Välj det här om någon annan har använt ditt konto.",
+        "submit": "Byt lösenord",
+        "pending": "Vänta...",
+        "success": "Ditt lösenord har uppdaterats.",
+        "mismatch": "De nya lösenorden matchar inte.",
+        "submitError": "Det gick inte att byta lösenord.",
+        "logoutOthersTitle": "Logga ut från andra enheter",
+        "logoutOthersHint": "Rekommenderas om någon annan kan ha använt ditt konto.",
+        "incorrect": "Ditt nuvarande lösenord är fel.",
+        "tooWeak": "Välj ett lösenord som uppfyller alla krav nedan."
+      },
+      "twoFactor": {
+        "idleTitle": "Hjälp till att skydda ditt konto",
+        "idleSubtitle": "Aktivera tvåfaktorsautentisering så ber vi om en inloggningskod när någon loggar in från en enhet vi inte känner igen.",
+        "manageTitle": "Tvåfaktorsautentisering är på",
+        "manageSubtitle": "Nu ber vi om en inloggningskod varje gång du loggar in från en enhet vi inte känner igen.",
+        "appSettingsTitle": "Autentiseringsapp",
+        "extraMethodsTitle": "Ytterligare metoder",
+        "extraMethodsSubtitle": "Om dina andra säkerhetsmetoder inte är tillgängliga kan du ändå logga in med de här alternativen.",
+        "recoveryCodesTitle": "Återställningskoder",
+        "recoveryCodesSubtitle": "Varje återställningskod kan användas en gång. Förvara dem på ett säkert ställe. Utan dem kan du förlora åtkomsten om du tappar bort telefonen eller någon annan inloggningsmetod.",
+        "setupTitle": "Instruktioner",
+        "namingTitle": "Namnge din enhet",
+        "namingSubtitle": "Ge din autentiseringsapp ett igenkännbart namn så att du vet vilken enhet du använder.",
+        "verifyTitle": "Ange kod",
+        "verifySubtitle": "Ange den sexsiffriga koden från din autentiseringsapp för att slutföra installationen.",
+        "successTitle": "Tvåfaktorsautentisering är på",
+        "successSubtitle": "Nu ber vi om en inloggningskod varje gång du loggar in från en enhet vi inte känner igen. Vill du uppdatera dina kontaktuppgifter? Gå till Personuppgifter i Kontocenter.",
+        "verifiedTitle": "Reservkoder",
+        "verifiedSubtitle": "Förvara de här koderna på ett säkert ställe. Du kan använda dem om du förlorar åtkomsten till din autentiseringsapp.",
+        "learnMore": "Läs mer",
+        "receiveCodesTitle": "Välj hur du vill ta emot dina koder",
+        "authenticatorTitle": "Autentiseringsapp",
+        "authenticatorDescription": "Ta emot engångskoder via en app som Duo Mobile eller Google Authenticator.",
+        "recommended": "Rekommenderas",
+        "continue": "Fortsätt",
+        "working": "Vänta...",
+        "enabledSuccess": "Tvåfaktorsautentisering har stängts av.",
+        "disableError": "Det gick inte att inaktivera autentiseringsappen.",
+        "startError": "Det gick inte att starta konfigurationen av autentiseringsappen.",
+        "verifyError": "Det gick inte att verifiera autentiseringsappen.",
+        "regenerateError": "Det gick inte att skapa nya återställningskoder.",
+        "downloadError": "Skapa en ny uppsättning återställningskoder innan du laddar ner dem.",
+        "recoveryRegenerated": "Nya återställningskoder har skapats.",
+        "manage": {
+          "receiveCodesTitle": "Ta emot inloggningskoder",
+          "authenticatorDescription": "Du får en inloggningskod via din autentiseringsapp.",
+          "additionalMethodsTitle": "Ytterligare metoder",
+          "additionalMethodsDescription": "Se hur du ändå kan logga in säkert om andra metoder inte är tillgängliga."
+        },
+        "appSettings": {
+          "title": "Autentiseringsapp",
+          "description": "Du får en inloggningskod via din autentiseringsapp.",
+          "connectedDevicesTitle": "Anslutna enheter",
+          "add": "Lägg till",
+          "connectedDevicesDescription": "Du kan lägga till flera enheter så att varje länkad enhet kan ta emot sexsiffriga inloggningskoder från en autentiseringsapp på enheten.",
+          "noDevices": "Inga anslutna enheter än",
+          "lastUsed": "Senast använd: {date}",
+          "added": "Tillagd: {date}",
+          "active": "Aktiv autentiseringsapp"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Återställningskoder",
+          "recoveryCodesDescription": "Använd de här koderna när du inte har tillgång till din telefon."
+        },
+        "recoveryCodes": {
+          "download": "Ladda ner koder",
+          "regenerate": "Skaffa nya koder",
+          "existing": "Du har {count} oanvända återställningskoder. Klicka på ”Skaffa nya koder” för att skapa en ny uppsättning.",
+          "empty": "Du har inga synliga återställningskoder i den här sessionen än. Klicka på ”Skaffa nya koder” för att skapa en ny uppsättning."
+        },
+        "setup": {
+          "step1Title": "1. Ladda ner en autentiseringsapp",
+          "step1Description": "Vi rekommenderar att du laddar ner Duo Mobile eller Google Authenticator om du inte redan har en installerad.",
+          "step2Title": "2. Skanna QR-koden eller kopiera nyckeln",
+          "step2Description": "Skanna QR-koden i din autentiseringsapp eller kopiera nyckeln och klistra in den i appen.",
+          "copyKey": "Kopiera nyckel",
+          "step3Title": "3. Kopiera den sexsiffriga koden och ange den",
+          "step3Description": "När du har skannat QR-koden eller angett nyckeln skapar appen en sexsiffrig kod. Tryck på Ange kod nedan.",
+          "enterCode": "Ange kod",
+          "qrAlt": "QR-kod för din autentiseringsapp"
+        },
+        "naming": {
+          "label": "Enhetens namn (till exempel: Stijns iPhone)",
+          "next": "Nästa"
+        },
+        "verify": {
+          "label": "Kod från autentiseringsappen",
+          "submit": "Verifiera kod"
+        },
+        "success": {
+          "done": "Klar"
+        },
+        "ui": {
+          "on": "På",
+          "turnOff": "Stäng av",
+          "turnOffConfirm": "Stänga av tvåfaktorsautentisering? Då krävs bara ditt lösenord för att logga in.",
+          "cancel": "Avbryt",
+          "copyKey": "Kopiera",
+          "copied": "Kopierat",
+          "manualKey": "Installationsnyckel",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Återställningsfil",
+          "rowDescription": "En PDF som loggar in dig när du laddar upp den, utan lösenord eller kod.",
+          "otherMethodsTitle": "Andra sätt att komma in",
+          "title": "Återställningsfil",
+          "subtitle": "En PDF som du laddar upp när du loggar in. Den loggar in dig direkt, utan lösenord eller kod. Praktiskt om du tappar bort telefonen eller glömmer lösenordet.",
+          "download": "Ladda ner återställningsfil",
+          "downloading": "Skapar din fil…",
+          "downloaded": "Nedladdad. Förvara filen på ett säkert ställe.",
+          "made": "Skapad {date}",
+          "lastUsed": "Senast använd {date}",
+          "notUsed": "Inte använd än",
+          "remove": "Ta bort",
+          "removeConfirm": "Ta bort din återställningsfil? Den slutar fungera direkt.",
+          "removed": "Återställningsfilen har tagits bort.",
+          "cancel": "Avbryt",
+          "newTitle": "Behöver du en ny fil?",
+          "newText": "Du kan bara ladda ner en fil en gång. Bekräfta med en kod som vi mejlar till dig för att få en ny. Din nuvarande fil slutar då fungera.",
+          "requestCode": "Mejla mig en kod",
+          "sending": "Skickar…",
+          "codeSent": "Vi har skickat en kod till {email}.",
+          "codeLabel": "Kod",
+          "confirmDownload": "Bekräfta och ladda ner",
+          "loadError": "Det gick inte att ladda det här just nu. Försök igen senare.",
+          "errors": {
+            "code_invalid": "Koden stämmer inte. Kontrollera mejlet och försök igen.",
+            "code_expired": "Koden har gått ut. Be om en ny.",
+            "rate_limited": "För många försök. Försök igen senare.",
+            "send_failed": "Vi kunde inte skicka mejlet just nu. Försök igen senare.",
+            "generic": "Något gick fel. Försök igen senare."
+          },
+          "points": [
+            {
+              "title": "Ladda ner en gång",
+              "text": "Du kan bara ladda ner filen nu. För en ny senare bekräftar du med en kod som vi mejlar."
+            },
+            {
+              "title": "Förvara den säkert",
+              "text": "Till exempel utskriven eller på en krypterad enhet. Alla med den här filen kan logga in på ditt konto, så mejla eller dela den inte."
+            },
+            {
+              "title": "Logga in med den",
+              "text": "Ange din e-postadress vid inloggning, välj \"Glömt lösenordet?\", sedan \"Logga in med en återställningsfil\" och ladda upp PDF-filen."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Passkeys",
+        "subtitle": "Passkeys är ett säkert och enkelt sätt att logga in utan lösenord. Du kan använda fingeravtryck, ansikte eller enhetens skärmlås.",
+        "add": "Lägg till passkey",
+        "empty": "Du har inte lagt till några passkeys än.",
+        "unnamed": "Namnlös passkey",
+        "addedOn": "Tillagd {date}",
+        "lastUsed": "Senast använd {date}",
+        "never": "Aldrig använd",
+        "delete": "Radera",
+        "count": "Du har {count} aktiva passkeys.",
+        "none": "Du har inte konfigurerat några passkeys ännu.",
+        "success": "Passkey har registrerats!",
+        "error": "Det gick inte att registrera passkey.",
+        "pending": "Registrerar...",
+        "emptyTitle": "Inga passkeys ännu",
+        "emptyText": "Lägg till en för att logga in med fingeravtryck, ansikte eller enhetens skärmlås i stället för lösenord. Ditt lösenord fungerar fortfarande.",
+        "deleteConfirm": "Ta bort den här passkey? Du kan inte längre logga in med den.",
+        "cancel": "Avbryt",
+        "removing": "Tar bort...",
+        "createTitle": "Skapa en passkey",
+        "createSubtitle": "Med en passkey loggar du in med fingeravtryck, ansikte eller enhetens skärmlås. Den lagras av din enhet eller lösenordshanterare och lämnar den aldrig.",
+        "nameLabel": "Namn på passkey",
+        "nameHint": "Så att du kan skilja dina passkeys åt, till exempel enheten eller lösenordshanteraren den sparas i.",
+        "whatHappensTitle": "Vad händer sedan",
+        "whatHappens1": "Din webbläsare eller lösenordshanterare frågar var passkey ska sparas.",
+        "whatHappens2": "Bekräfta med fingeravtryck, ansikte eller skärmlås.",
+        "whatHappens3": "Därefter kan du välja din passkey när du loggar in.",
+        "create": "Skapa passkey",
+        "waiting": "Följ anvisningen från din webbläsare eller lösenordshanterare…",
+        "cancelled": "Ingen passkey skapades. Du kan försöka igen.",
+        "doneTitle": "Passkey tillagd",
+        "doneSubtitle": "Nu kan du logga in med \"{name}\". Ditt lösenord fungerar fortfarande också.",
+        "done": "Klar",
+        "back": "Tillbaka",
+        "removeError": "Det gick inte att ta bort passkey. Försök igen.",
+        "defaultName": "{browser} på {system}",
+        "rowDescription": "Logga in med ditt fingeravtryck, ansikte eller enhetens PIN-kod."
+      },
+      "activityModal": {
+        "title": "Kontots inloggningsaktivitet",
+        "subtitle": "Var ditt konto är inloggat just nu. Logga ut från enheter du inte känner igen.",
+        "unknownDevice": "Okänd enhet",
+        "unknownLocation": "Okänd plats",
+        "currentDevice": "Den här enheten",
+        "lastActive": "Senast aktiv {date}",
+        "revoke": "Logga ut",
+        "revokePending": "Vänta...",
+        "revokeAllTitle": "Inloggningar på andra enheter",
+        "revokeAll": "Logga ut från alla andra enheter",
+        "revokeAllPending": "Vänta...",
+        "revokeSuccess": "Sessionen har återkallats.",
+        "revokeAllSuccess": "Alla andra sessioner har loggats ut.",
+        "revokeError": "Det gick inte att återkalla sessionen.",
+        "viewMore": "+ {count} andra enheter",
+        "activeNow": "Aktiv nu",
+        "thisDeviceTitle": "Den här enheten",
+        "otherEmpty": "Du är inte inloggad på någon annan enhet.",
+        "showAll": "Visa alla {count}",
+        "revokeAllConfirm": "Logga ut från alla {count} andra enheter? Alla som använder dem måste logga in igen.",
+        "cancel": "Avbryt"
+      },
+      "automatedDecisions": {
+        "title": "Automatiserade beslut",
+        "description": "Vissa beslut om kontoskydd fattas automatiskt utifrån signaler som inloggningsmönster och misstänkt aktivitet. Du kan be en person på Ordnary granska resultatet.",
+        "back": "Tillbaka",
+        "close": "Stäng",
+        "loading": "Läser in…",
+        "currentStateTitle": "Nuvarande automatiskt tillstånd",
+        "riskLabels": {
+          "LOW": "Låg risk",
+          "MEDIUM": "Medelhög risk",
+          "HIGH": "Hög risk"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktivt",
+          "SUSPENDED": "Tillfälligt avstängt",
+          "DEACTIVATED": "Avaktiverat",
+          "DELETED": "Väntar på radering"
+        },
+        "suspendedExplanation": "Ditt konto är just nu begränsat av en automatisk regel. Du kan begära mänsklig granskning nedan. En person på Ordnary tittar på signalerna och din redogörelse och bekräftar eller upphäver beslutet.",
+        "elevatedExplanation": "Din kontorisknivå har höjts utifrån senaste aktivitet. Du kan begära mänsklig granskning om du tycker att signalerna är fel.",
+        "okExplanation": "Vi har inte markerat några automatiska begränsningar på ditt konto. Du kan fortfarande begära granskning av tidigare beslut nedan.",
+        "lastEvaluated": "Senast utvärderat",
+        "signalsTitle": "Senaste säkerhetssignaler",
+        "signalsEmpty": "Inga säkerhetssignaler har registrerats nyligen.",
+        "appealTitle": "Begär mänsklig granskning",
+        "appealSubtitle": "En granskare på Ordnary tittar på det automatiska beslutet, din redogörelse och signalerna bakom. Vi strävar efter att svara inom rimlig tid.",
+        "pickReason": "Vad vill du bestrida?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Jag tycker att avstängningen är fel",
+          "RISK_LEVEL_OBJECTION": "Jag tycker att min risknivå är fel",
+          "SECURITY_EVENT_OBJECTION": "Jag vill bestrida en specifik säkerhetssignal",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Jag vill att en person granskar automatiska beslut om mitt konto"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Ditt konto är just nu avstängt och du vill att beslutet granskas.",
+          "RISK_LEVEL_OBJECTION": "Din risknivå är högre än väntat och du vill att den bedöms igen.",
+          "SECURITY_EVENT_OBJECTION": "En säkerhetshändelse har registrerats som du inte känner igen.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Du vill att en människa tittar på automatiska beslut om ditt konto."
+        },
+        "yourStatement": "Din redogörelse (valfritt)",
+        "statementPlaceholder": "Berätta vad vi bör veta, till exempel att du var på resa, använde en ny enhet eller att någon annan har försökt ta sig in.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Skicka granskningsbegäran",
+        "submitting": "Skickar...",
+        "submitted": "Vi har tagit emot din begäran och återkommer till dig.",
+        "pendingTitle": "Granskning pågår",
+        "pendingSubtitle": "En person på Ordnary tittar på din begäran. Du får ett meddelande när det finns nyheter.",
+        "withdraw": "Återkalla begäran",
+        "withdrawing": "Återkallar...",
+        "withdrawn": "Begäran har återkallats.",
+        "withdrawableHint": "Du kan återkalla den här begäran när som helst.",
+        "historyTitle": "Tidigare granskningsbegäranden",
+        "historyEmpty": "Inga tidigare granskningsbegäranden.",
+        "outcomes": {
+          "UPHELD": "Fastställt",
+          "OVERTURNED": "Upphävt",
+          "ADJUSTED": "Justerat",
+          "ESCALATED": "Eskalerad"
+        },
+        "statuses": {
+          "PENDING": "Väntar",
+          "IN_REVIEW": "Under granskning",
+          "RESOLVED": "Avgjord",
+          "WITHDRAWN": "Återkallad"
+        },
+        "loadError": "Det gick inte att läsa in information om automatiserade beslut.",
+        "alreadyOpen": "Du har redan en öppen granskningsbegäran.",
+        "cooldown": "Du kan skicka en ny granskningsbegäran igen om {hours} timme/timmar. Den här väntetiden hjälper en granskare hinna med den förra.",
+        "showAll": "Visa alla ({count})",
+        "showLess": "Visa färre"
+      },
+      "previewBadge": "Förhandsvisning",
+      "previewBadgeTooltip": "Nytt och fortfarande under förbättring. Passkeys fungerar, men detaljer kan ändras."
+    },
+    "connections": {
+      "title": "Anslutna appar",
+      "description": "Appar som har åtkomst till uppgifterna i ditt Ordnary-konto.",
+      "empty": "Du har inte anslutit några appar än.",
+      "authorizedScopes": "Godkända behörigheter: {scopes}",
+      "granted": "Beviljad: {date}",
+      "revoke": "Återkalla åtkomst"
+    },
+    "devices": {
+      "title": "Enheter och sessioner",
+      "description": "Hantera dina aktiva sessioner på olika enheter.",
+      "logoutOthers": "Logga ut från alla andra enheter",
+      "headers": {
+        "device": "Enhet",
+        "location": "Plats / IP",
+        "lastActive": "Senast aktiv",
+        "type": "Typ",
+        "actions": "Åtgärder"
+      },
+      "unknownDevice": "Okänd enhet",
+      "currentSession": "(Aktuell session)",
+      "typeFormat": "{browser} på {os}",
+      "revoke": "Återkalla"
+    },
+    "passkeysPage": {
+      "title": "Passkeys",
+      "description": "Hantera dina biometriska uppgifter och hårdvarunycklar för inloggning utan lösenord.",
+      "add": "+ Lägg till ny passkey",
+      "empty": "Du har inte lagt till några passkeys än.",
+      "unnamed": "Namnlös passkey",
+      "addedOn": "Tillagd: {date}",
+      "lastUsed": "Senast använd: {date}",
+      "never": "Aldrig",
+      "delete": "Radera"
+    },
+    "activity": {
+      "title": "Senaste aktivitet",
+      "description": "Granska och övervaka viktiga händelser och ändringar som rör kontots säkerhet.",
+      "details": "Detaljer",
+      "dates": {
+        "today": "Idag, 17 april",
+        "yesterday": "Igår, 16 april"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Inloggad",
+        "LOGIN_FAILED": "Inloggningen misslyckades",
+        "LOGIN_LOCKED": "Inloggning blockerad",
+        "LOGOUT": "Utloggad",
+        "SESSION_CREATED": "Session skapad",
+        "SESSION_REVOKED": "Session avslutad",
+        "SESSION_ALL_REVOKED": "Utloggad överallt",
+        "PASSWORD_SET": "Lösenord skapat",
+        "PASSWORD_CHANGED": "Lösenord ändrat",
+        "PASSWORD_RESET_REQUESTED": "Återställning av lösenord begärd",
+        "PASSWORD_RESET_COMPLETED": "Lösenord återställt",
+        "PASSKEY_REGISTERED": "Passkey registrerad",
+        "PASSKEY_USED": "Inloggad med en passkey",
+        "PASSKEY_REMOVED": "Passkey borttagen",
+        "PASSKEY_COUNTER_MISMATCH": "Varning om passkey",
+        "MFA_ENABLED": "Tvåfaktorsautentisering aktiverad",
+        "MFA_DISABLED": "Tvåfaktorsautentisering inaktiverad",
+        "MFA_FACTOR_ENROLLED": "Autentiseringsapp tillagd",
+        "MFA_FACTOR_VERIFIED": "Autentiseringsapp bekräftad",
+        "MFA_FACTOR_REVOKED": "Autentiseringsapp borttagen",
+        "RECOVERY_CODES_GENERATED": "Nya återställningskoder",
+        "RECOVERY_CODE_USED": "Återställningskod använd",
+        "STEP_UP_REQUIRED": "Bekräftelse begärd",
+        "STEP_UP_COMPLETED": "Bekräftat att det är du",
+        "EMAIL_ADDED": "E-postadress tillagd",
+        "EMAIL_VERIFIED": "E-postadress bekräftad",
+        "EMAIL_REMOVED": "E-postadress borttagen",
+        "EMAIL_PRIMARY_CHANGED": "Primär e-postadress ändrad",
+        "ACCOUNT_CREATED": "Konto skapat",
+        "ACCOUNT_UPDATED": "Konto uppdaterat",
+        "ACCOUNT_DELETED": "Radering av konto påbörjad",
+        "ACCOUNT_REACTIVATED": "Konto återaktiverat",
+        "OAUTH_CONSENT_GRANTED": "App fick åtkomst",
+        "OAUTH_CONSENT_REVOKED": "Appens åtkomst borttagen",
+        "OAUTH_TOKEN_ISSUED": "App inloggad",
+        "OAUTH_TOKEN_REVOKED": "App utloggad",
+        "SUSPICIOUS_NEW_LOCATION": "Inloggning från en ny plats",
+        "SUSPICIOUS_NEW_DEVICE": "Inloggning på en ny enhet",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Ovanlig inloggning",
+        "NOTIFICATION_PREFERENCE_CHANGED": "E-postinställningar ändrade",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Avregistrerad",
+        "PRIVACY_REQUEST_FILED": "Integritetsbegäran skickad",
+        "PRIVACY_REQUEST_RESOLVED": "Integritetsbegäran hanterad",
+        "DSAR_FILED": "Databegäran skickad",
+        "DSAR_FULFILLED": "Databegäran slutförd",
+        "DSAR_REJECTED": "Databegäran avslagen",
+        "RISK_REVIEW_REQUESTED": "Granskning begärd",
+        "RISK_REVIEW_RESOLVED": "Granskning slutförd"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Medel",
+        "HIGH": "Hög",
+        "CRITICAL": "Kritisk",
+        "LOW": "Låg"
+      },
+      "empty": "Ingen aktivitet på ditt konto än.",
+      "filters": {
+        "all": "Alla",
+        "account": "Kontoändringar",
+        "security": "Säkerhetsvarningar"
+      },
+      "retention": "Aktivitet sparas i {days} dagar. Du kan ändra det under {link}.",
+      "retentionLink": "Din information och dina behörigheter",
+      "emptyFiltered": "Inget att visa i den här vyn.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Någon loggade in på ditt konto med lösenordet eller en inloggningskod.",
+        "LOGIN_FAILED": "Någon försökte logga in på ditt konto, men lösenordet eller koden var fel. Några sådana försök är oftast bara ett skrivfel.",
+        "LOGIN_LOCKED": "Efter för många felaktiga försök blockerades inloggning på ditt konto en stund för att skydda det.",
+        "LOGOUT": "En session på ditt konto loggades ut.",
+        "SESSION_CREATED": "Ditt konto loggades in på en enhet eller i en webbläsare, vilket startade en ny session.",
+        "SESSION_REVOKED": "En session på ditt konto loggades ut, av dig eller för att den inte längre var säker att behålla.",
+        "SESSION_ALL_REVOKED": "Ditt konto loggades ut på alla andra enheter.",
+        "PASSWORD_SET": "Ett lösenord lades till på ditt konto.",
+        "PASSWORD_CHANGED": "Lösenordet för ditt konto ändrades.",
+        "PASSWORD_RESET_REQUESTED": "En kod för att återställa ditt lösenord skickades till din e-postadress.",
+        "PASSWORD_RESET_COMPLETED": "Ditt lösenord återställdes med en kod från din e-post, och du loggades ut överallt.",
+        "PASSKEY_REGISTERED": "En passkey lades till, så att du kan logga in med din enhet i stället för ett lösenord.",
+        "PASSKEY_USED": "Någon loggade in på ditt konto med en av dess passkeys.",
+        "PASSKEY_REMOVED": "En passkey togs bort och kan inte längre användas för att logga in.",
+        "PASSKEY_COUNTER_MISMATCH": "En passkey rapporterade något oväntat, vilket kan betyda att den har kopierats. Inloggningen nekades.",
+        "MFA_ENABLED": "Vid inloggning efterfrågas nu även en kod från din autentiseringsapp.",
+        "MFA_DISABLED": "Vid inloggning efterfrågas inte längre en kod från din autentiseringsapp.",
+        "MFA_FACTOR_ENROLLED": "En autentiseringsapp kopplades till ditt konto.",
+        "MFA_FACTOR_VERIFIED": "En kod från din autentiseringsapp bekräftades.",
+        "MFA_FACTOR_REVOKED": "En autentiseringsapp togs bort från ditt konto.",
+        "RECOVERY_CODES_GENERATED": "En ny uppsättning återställningskoder skapades. De gamla koderna fungerar inte längre.",
+        "RECOVERY_CODE_USED": "Någon loggade in med en av dina återställningskoder i stället för en kod från autentiseringsappen. Den koden kan inte användas igen.",
+        "STEP_UP_REQUIRED": "Före en känslig ändring ombads du bekräfta att det var du med en kod via e-post.",
+        "STEP_UP_COMPLETED": "En kod via e-post bekräftade att det var du, vilket tillät en känslig ändring under en kort tid.",
+        "EMAIL_ADDED": "En e-postadress lades till på ditt konto och fick en bekräftelselänk.",
+        "EMAIL_VERIFIED": "En e-postadress på ditt konto bekräftades.",
+        "EMAIL_REMOVED": "En e-postadress togs bort från ditt konto.",
+        "EMAIL_PRIMARY_CHANGED": "En annan e-postadress blev ditt kontos huvudadress, för inloggning och meddelanden.",
+        "ACCOUNT_CREATED": "Ditt Ordnary-konto skapades.",
+        "ACCOUNT_UPDATED": "En inställning eller uppgift på ditt konto ändrades.",
+        "ACCOUNT_DELETED": "Ditt konto markerades för radering. Det kan återställas i 30 dagar.",
+        "ACCOUNT_REACTIVATED": "Ditt konto aktiverades igen efter att ha inaktiverats eller raderats.",
+        "OAUTH_CONSENT_GRANTED": "En app fick åtkomst till ditt konto med Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "En app har inte längre åtkomst till ditt konto.",
+        "OAUTH_TOKEN_ISSUED": "En app som du använder med Ordnary ID fick en ny inloggningstoken.",
+        "OAUTH_TOKEN_REVOKED": "En inloggningstoken för en app återkallades.",
+        "SUSPICIOUS_NEW_LOCATION": "Ditt konto användes från en plats där det inte har använts förut.",
+        "SUSPICIOUS_NEW_DEVICE": "Ditt konto användes på en enhet där det inte har använts förut.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Ditt konto användes från två platser som ligger för långt ifrån varandra för att en person ska hinna resa mellan dem på den tiden.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Vilka e-postmeddelanden Ordnary får skicka till dig ändrades.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "En avregistreringslänk i ett e-postmeddelande stängde av en typ av e-post.",
+        "PRIVACY_REQUEST_FILED": "En begäran om att invända mot eller begränsa behandlingen av dina uppgifter skickades.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary har hanterat din begäran om invändning eller begränsning av behandling.",
+        "DSAR_FILED": "En begäran om dina uppgifter (tillgång, rättelse, radering eller en kopia) skickades.",
+        "DSAR_FULFILLED": "Ordnary har slutfört din databegäran.",
+        "DSAR_REJECTED": "Ordnary har avslagit din databegäran; e-postmeddelandet förklarar varför.",
+        "RISK_REVIEW_REQUESTED": "En granskning av ett automatiserat beslut om ditt konto begärdes.",
+        "RISK_REVIEW_RESOLVED": "En person på Ordnary har granskat ett automatiserat beslut om ditt konto."
+      },
+      "detail": {
+        "ifNotYou": "Var det inte du? Byt lösenord och logga ut dina andra enheter under Lösenord och säkerhet.",
+        "ifNotYouLink": "Gå till Lösenord och säkerhet",
+        "generic": "Detta registrerades på ditt konto.",
+        "labels": {
+          "when": "När",
+          "where": "Var",
+          "ip": "IP-adress",
+          "session": "Session",
+          "thisDevice": "Den här enheten",
+          "event": "Händelse",
+          "source": "Registrerat i",
+          "severity": "Vikt"
+        },
+        "sources": {
+          "AUDIT_LOG": "Kontologg",
+          "SECURITY_EVENT": "Säkerhetsövervakning"
+        },
+        "unknown": "Okänd",
+        "times": "{count}×",
+        "timeSpan": "{from} till {to}"
+      },
+      "showMore": "Visa tidigare dagar",
+      "loadingMore": "Läser in…",
+      "end": "Det är all aktivitet som sparas.",
+      "loadFailed": "Det gick inte att läsa in mer. Försök igen."
+    },
+    "connectedAppsDemo": {
+      "title": "Anslutna appar",
+      "description": "Tredjepartsappar och tjänster som du har gett åtkomst till en del av dina kontouppgifter.",
+      "badges": {
+        "official": "Officiell",
+        "verified": "Verifierad"
+      },
+      "accessed": "Åtkomst {value}",
+      "revoke": "Återkalla åtkomst",
+      "apps": {
+        "consoleReason": "Hantera dina molnresurser och driftsättningspipelines.",
+        "figmaReason": "Designverktyg för samarbete kring prototyper.",
+        "unknownGameName": "Okänt spel",
+        "unknownGameReason": "En overifierad app som begärde din profilinformation.",
+        "currentSession": "Aktuell session",
+        "twoDaysAgo": "För 2 dagar sedan",
+        "lastMonth": "Förra månaden"
+      }
+    },
+    "permissions": {
+      "title": "Din information och dina behörigheter",
+      "exportTitle": "Exportera din information",
+      "searchHistory": "Aktivitet i Ordnary",
+      "externalActivity": "Din aktivitet utanför Ordnarys tekniker",
+      "appConnections": "Appanslutningar",
+      "manageContacts": "Hantera kontakter",
+      "notice": "Gå till Exportera din information för att ladda ner eller överföra en kopia av din information.",
+      "footer": "Bestäm vilken information Ordnarys tekniker får använda för att påverka dina upplevelser.",
+      "privacyRightsTitle": "Dina integritetsrättigheter",
+      "dsarTitle": "Integritets- och databegäranden",
+      "dsarSubtitle": "Skicka en formell begäran om tillgång, rättelse, radering eller dataportabilitet (art. 15-20).",
+      "privacyRequestsTitle": "Invänd eller begränsa",
+      "privacyRequestsSubtitle": "Invänd mot eller begränsa specifika behandlingar (art. 18 / art. 21).",
+      "processorsTitle": "Vilka som behandlar dina uppgifter",
+      "processorsSubtitle": "Företagen vi använder för att driva Ordnary, vad de får och var de förvarar det.",
+      "cookiesTitle": "Cookieinställningar",
+      "cookiesSubtitle": "Hantera vilka cookies Ordnary får använda i den här webbläsaren.",
+      "minorConsentTitle": "Vårdnadshavares samtycke",
+      "minorConsentSubtitle": "Om du är under samtyckesåldern i ditt land måste en förälder eller vårdnadshavare godkänna (GDPR art. 8).",
+      "notificationsTitle": "Aviseringsinställningar",
+      "notificationsSubtitle": "Välj vilka sorters e-post Ordnary får skicka till dig.",
+      "notifications": {
+        "title": "Aviseringsinställningar",
+        "close": "Stäng",
+        "loading": "Läser in…",
+        "alwaysOn": "Alltid på",
+        "description": "Välj vilka e-postmeddelanden du får från Ordnary.",
+        "loadError": "Vi kunde inte läsa in det just nu. Försök igen senare.",
+        "saveError": "Vi kunde inte spara det. Försök igen.",
+        "saved": "Sparat.",
+        "alwaysTitle": "Alltid på",
+        "alwaysText": "De här meddelandena skyddar ditt konto och bekräftar det du har bett om, så de är alltid på.",
+        "choiceTitle": "Ditt val",
+        "turnAllOff": "Stäng av alla valfria e-postmeddelanden",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Säkerhetsvarningar",
+          "TRANSACTIONAL_ACCOUNT": "Kontomeddelanden",
+          "PRODUCT_UPDATES": "Produktnyheter",
+          "RECOMMENDATIONS": "Rekommendationer",
+          "MARKETING": "Nyheter och erbjudanden"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Inloggningskoder, återställning av lösenord och varningar om nya inloggningar eller ändringar i din säkerhet.",
+          "TRANSACTIONAL_ACCOUNT": "Bekräftelser på det du har gjort, till exempel en dataexport, en integritetsbegäran eller vårdnadshavares samtycke.",
+          "PRODUCT_UPDATES": "Vad som är nytt i Ordnarys produkter, och ändringar i våra villkor.",
+          "RECOMMENDATIONS": "Förslag utifrån hur du använder Ordnary.",
+          "MARKETING": "Nyhetsbrev och erbjudanden, då och då."
+        }
+      },
+      "minorConsent": {
+        "title": "Vårdnadshavares samtycke",
+        "description": "Om du är yngre än den ålder då du själv kan godkänna saker online måste en förälder eller vårdnadshavare godkänna innan vi kan använda en del av din information. Det kommer från artikel 8 i GDPR.",
+        "close": "Stäng",
+        "loading": "Läser in…",
+        "loadError": "Vi kunde inte läsa in detta just nu. Försök igen senare.",
+        "consentAge": "Samtyckesålder i {country}: {age}",
+        "yourAge": "Din ålder: {age}",
+        "adultTitle": "Behövs inte",
+        "adultBody": "Du är gammal nog att godkänna själv, så du behöver inget samtycke från en förälder.",
+        "unknownTitle": "Vi vet inte din ålder ännu",
+        "unknownBody": "Lägg till ditt födelsedatum så att vi kan se om du behöver en förälders samtycke.",
+        "unknownAction": "Lägg till födelsedatum",
+        "blockedTitle": "Samtycke krävs",
+        "blockedBody": "Tills en förälder eller vårdnadshavare godkänner är delar av ditt konto begränsade.",
+        "pendingTitle": "Väntar på din förälder eller vårdnadshavare",
+        "pendingBody": "Vi har skickat en begäran till {email}. Länken fungerar till {date}.",
+        "verifiedTitle": "Samtycke givet",
+        "verifiedBody": "{email} godkände den {date}.",
+        "parentEmail": "Förälderns eller vårdnadshavarens e-postadress",
+        "relationship": "Vem är det, till exempel mamma (valfritt)",
+        "addMessage": "Lägg till ett meddelande (valfritt)",
+        "notes": "Meddelande till din förälder eller vårdnadshavare",
+        "submit": "Skicka begäran",
+        "submitting": "Skickar…",
+        "resend": "Skicka igen",
+        "changeEmail": "Använd en annan e-postadress",
+        "cancel": "Avbryt",
+        "revoke": "Återkalla",
+        "revokeConfirm": "Återkalla samtycket? Delar av ditt konto begränsas igen tills en förälder eller vårdnadshavare godkänner på nytt.",
+        "revoking": "Återkallar…",
+        "revoked": "Samtycket har återkallats.",
+        "notMinor": "Du är gammal nog att godkänna själv.",
+        "invalidEmail": "Ange en giltig e-postadress.",
+        "requestSent": "Begäran skickad till {email}.",
+        "points": [
+          {
+            "title": "Ange deras mejl",
+            "text": "E-postadressen till en förälder eller vårdnadshavare."
+          },
+          {
+            "title": "De godkänner",
+            "text": "De får ett mejl med en länk för att godkänna. Länken fungerar i 14 dagar."
+          },
+          {
+            "title": "Ditt konto fungerar fullt ut",
+            "text": "När de har godkänt tas begränsningarna på ditt konto bort."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Du kan exportera en kopia av din information till en extern tjänst eller till din enhet. Tillgängliga data omfattar innehåll och information du delat, din aktivitet och information vi samlar in.",
+      "exportButton": "Skicka nedladdningslänk",
+      "exportModalContentsTitle": "Det här ingår i din export:",
+      "exportModalContents": [
+        "Profildata och kontoinställningar",
+        "E-postadresser och telefonnummer",
+        "Säkerhetsinställningar (passkeys, tvåfaktorsautentisering, enheter)",
+        "Session- och inloggningshistorik",
+        "Betalningsuppgifter",
+        "Anslutna appar och OAuth-samtycken",
+        "Aktivitetslogg och säkerhetshändelser",
+        "Integritets- och cookiesamtycken"
+      ],
+      "exportModalFormat": "Format: ZIP-arkiv med strukturerade JSON-filer och en läsbar README.",
+      "exportModalRateLimit": "Du får ett e-postmeddelande med en nedladdningslänk för engångsbruk. Högst 3 exporter per 24 timmar.",
+      "exportDownload": {
+        "loading": "Ett ögonblick...",
+        "readyTitle": "Din dataexport är klar",
+        "readyDescription": "Klicka på knappen nedan för att ladda ner dina kontodata som ett ZIP-arkiv. Länken kan bara användas en gång och går ut efter 24 timmar.",
+        "downloadButton": "Ladda ner dina data",
+        "readyHint": "Filen innehåller alla dina personuppgifter, säkerhetsinställningar, aktivitetslogg och mer i strukturerade JSON-filer.",
+        "downloadingTitle": "Laddar ner...",
+        "downloadingDescription": "Din export förbereds. Det kan ta några sekunder.",
+        "successTitle": "Nedladdningen har startat",
+        "successDescription": "Din dataexport laddas ner. Spara filen på en säker plats, eftersom den innehåller känsliga personuppgifter.",
+        "successHint": "Nedladdningslänken har gått ut. Om du behöver en ny export kan du begära en från dina kontoinställningar.",
+        "backToSettings": "Tillbaka till kontoinställningar",
+        "expiredTitle": "Länken har gått ut",
+        "expiredDescription": "Nedladdningslänken har gått ut eller redan använts. Nedladdningslänkar gäller i 24 timmar och kan bara användas en gång.",
+        "newExportButton": "Begär ny export",
+        "errorTitle": "Något gick fel",
+        "errorDefault": "Ett fel uppstod när din export skulle hämtas.",
+        "noToken": "Ingen nedladdningstoken hittades."
+      },
+      "appConnectionsModalSubtitle": "Med appanslutningar kan du göra saker i olika Ordnary-produkter och hos andra företag.",
+      "connectButton": "Anslut",
+      "activityModalSubtitle": "Se och hantera din aktivitet i Ordnarys ekosystem, inklusive våra SaaS-produkter och applikationer. Vi använder informationen för att lära oss av ditt beteende och förbättra din upplevelse på alla våra plattformar.",
+      "accountsAndProfiles": "Dina konton och profiler",
+      "keepActivityFor": "Spara aktivitet i",
+      "clearActivityButton": "Rensa all aktivitet",
+      "days3": "3 dagar",
+      "days7": "7 dagar",
+      "days14": "14 dagar",
+      "standardOption": "Standard",
+      "noticeTitle": "Få en kopia av din information",
+      "noticeText": "Ladda ner dina kontodata för att behålla dem eller flytta dem till en annan tjänst.",
+      "noticeAction": "Exportera information",
+      "experimentBadge": "Experiment",
+      "userFallback": "Användare",
+      "avatarAlt": "Profilbild",
+      "exportSent": "Nedladdningslänk skickad till {email}",
+      "exportFailed": "Exporten misslyckades. Försök igen.",
+      "exportInProgress": "En export förbereds redan. Försök igen om en stund.",
+      "exportRateLimited": "Du har nått det maximala antalet exporter. Försök igen om {time}.",
+      "saveFailed": "Det gick inte att spara. Försök igen.",
+      "days30": "30 dagar",
+      "autoClear": {
+        "title": "Rensa Ordnary-aktivitet automatiskt",
+        "subtitle": "Välj hur länge vi sparar din aktivitet. Äldre aktivitet tas bort automatiskt, för alla konton och profiler i Kontocenter.",
+        "standard": "Standard",
+        "saving": "Sparar…",
+        "saved": "Sparat.",
+        "back": "Tillbaka",
+        "close": "Stäng",
+        "howTitle": "Vad som tas bort",
+        "howText": "Din inloggningshistorik och säkerhetshändelserna på ditt konto, till exempel nya inloggningar, lösenordsändringar och blockerade försök, när de är äldre än perioden du valde.",
+        "howPermanent": "Borttagen aktivitet kan inte återställas. Ladda ner en kopia först om du vill behålla den.",
+        "learnMore": "Mer om automatisk rensning i Ordnary-dokumentationen"
+      },
+      "experimentBadgeTooltip": "Fortfarande under utveckling. Du kan titta runt, men det går ännu inte att ansluta appar."
+    },
+    "payments": {
+      "title": "Pay",
+      "subtitle": "Hantera dina sparade betalningsuppgifter och vilka konton som har åtkomst till dem. {learnMore}",
+      "syncInfo": "Synkroniserad mellan 2 konton",
+      "addMethodTitle": "Lägg till en betalningsmetod",
+      "addMethodSubtitle": "Spara ett kort eller länka din PayPal för att göra nästa köp enklare.",
+      "addMethodButton": "Lägg till betalningsmetod",
+      "shippingTitle": "Leveransuppgifter",
+      "shippingAddress": "Leveransadress",
+      "emailAddress": "E-postadress",
+      "phoneNumber": "Telefonnummer",
+      "addModal": {
+        "title": "Lägg till en betalningsmetod",
+        "card": "Kredit- eller bankkort",
+        "paypal": "PayPal",
+        "footer": "Den här informationen sparas hos Ordnary Pay och synkroniseras i Kontocenter, där du kan hantera den. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Lägg till kort",
+        "subtitle": "Ditt kortnummer krypteras och lagras säkert",
+        "cardNumber": "Kortnummer",
+        "expiry": "Utgångsdatum (MM/ÅÅ)",
+        "cvv": "CVV",
+        "name": "Namn på kortet",
+        "submit": "Nästa",
+        "cvvTooltip": "Din verifieringskod (CVV) är säkerhetsnumret på kortets baksida eller framsida.",
+        "footer": "Den här informationen sparas hos Ordnary Pay och synkroniseras i Kontocenter, där du kan hantera den. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Ange leveransadress",
+        "subtitle": "Lägg till en leveransadress för Ordnary Pay. Den är skild från inställningen av kortet.",
+        "search": "Sök adress",
+        "country": "Land eller region",
+        "fullName": "Fullständigt namn",
+        "street": "Adress",
+        "street2": "Adressrad 2 (valfritt)",
+        "city": "Ort/stadsdel",
+        "state": "Delstat/provins/region",
+        "zip": "Postnummer",
+        "submit": "Spara adress"
+      }
+    },
+    "subscriptions": {
+      "description": "Hantera dina aktiva Ordnary-prenumerationer, förnyelser och faktureringsinställningar.",
+      "emptyTitle": "Inga aktiva prenumerationer",
+      "emptyDescription": "Prenumerationer visas här när de är kopplade till ditt konto.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Obegränsad åtkomst till premiummedia från Ordnary Pictures, inklusive utvalda filmer, serier, förhandsvisningar och releaser enbart för medlemmar i de Ordnary-upplevelser som stöds.",
+          "status": "Aktiv",
+          "renewal": "Förnyas varje månad",
+          "price": "9,99 € per månad"
+        }
+      },
+      "manageSubscription": "Hantera prenumeration"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Åtkomst nekad",
+        "description": "Du har inte åtkomst till kontocentret just nu. Din session kan ha gått ut eller ditt konto kan vara begränsat.",
+        "action": "Logga in igen"
+      },
+      "suspended": {
+        "title": "Kontot är inaktiverat",
+        "description": "Det här kontot är inaktiverat eller tillfälligt begränsat. Kontakta supporten om du tror att det är ett misstag.",
+        "action": "Kontakta supporten"
+      },
+      "banned": {
+        "title": "Åtkomst permanent nekad",
+        "description": "Ditt konto har blockerats permanent för brott mot våra användarvillkor.",
+        "action": "Visa villkor"
+      },
+      "offline": {
+        "title": "Ingen internetanslutning",
+        "description": "Du verkar vara offline. Kontrollera din internetanslutning för att fortsätta.",
+        "action": "Försök igen"
+      },
+      "unknown": {
+        "title": "Systemfel",
+        "description": "Något oväntat gick fel. Försök igen senare.",
+        "action": "Tillbaka till start"
+      },
+      "previousPage": "Föregående sida"
+    },
+    "common": {
+      "noResults": "Inga resultat",
+      "searchPlaceholder": "Sök..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} vill komma åt ditt konto",
+      "description": "Du är inloggad som {displayName}. Ge bara åtkomst om du litar på den här appen.",
+      "requestedPermissions": "Begärda behörigheter",
+      "approve": "Ge åtkomst",
+      "deny": "Neka",
+      "errorTitle": "Det är något fel på begäran",
+      "errorDescription": "Auktoriseringsbegäran är ogiltig eller ofullständig. Kontrollera parametrarna.",
+      "unknownAppTitle": "Det går inte att verifiera appen",
+      "unknownAppDescription": "Ordnary kan inte identifiera den här appen. Det beror oftast på ett felaktigt client_id eller redirect_uri. För din säkerhet kan vi inte gå vidare."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Sidan är inte tillgänglig",
+      "description": "Länken kan vara trasig eller sidan kan ha tagits bort. Kontrollera att länken du försöker öppna stämmer.",
+      "button": "Gå till kontoinställningar"
+    },
+    "serverError": {
+      "title": "Något gick fel",
+      "description": "Ett oväntat fel uppstod. Försök igen senare.",
+      "button": "Försök igen"
+    }
+  },
+  "cookieConsent": {
+    "title": "Tillåta cookies från Ordnary i den här webbläsaren?",
+    "description": "Vi använder cookies och liknande tekniker för att tillhandahålla innehåll i Ordnarys produkter och för att förbättra dem. Vi använder dem också för att ge en säkrare upplevelse med hjälp av information vi får på och utanför Ordnary. Dessa cookies är valfria.",
+    "essentialTitle": "Nödvändiga cookies",
+    "essentialDesc": "Dessa cookies krävs för att använda Ordnarys produkter och är nödvändiga för att våra webbplatser ska fungera som de ska.",
+    "optionalTitle": "Cookies från andra företag",
+    "optionalDesc": "Vi använder dessa cookies för att visa annonser utanför Ordnarys produkter och för att erbjuda funktioner som kartor och videor i Ordnarys produkter. Dessa cookies är valfria.",
+    "policyInfo": "Du bestämmer vilka valfria cookies vi får använda. I vår {cookiePolicy} hittar du mer information om cookies och hur vi använder dem, och du kan granska eller ändra dina val när som helst.",
+    "cookiePolicy": "cookiepolicy",
+    "infoTitle": "Information om cookies",
+    "policyRefreshNotice": "Vi har ändrat hur vi registrerar cookieval. Bekräfta dina inställningar igen så att vi kan föra en aktuell förteckning.",
+    "policyRevisionNotice": "Vår cookiepolicy har uppdaterats. Granska dina inställningar igen.",
+    "preferencesTitle": "Dina cookieinställningar",
+    "preferencesDescription": "Välj vilka kategorier av cookies Ordnary får använda i den här webbläsaren. Du kan ändra detta när som helst från ditt konto.",
+    "alwaysOn": "Alltid på",
+    "categories": {
+      "essential": {
+        "title": "Nödvändiga",
+        "description": "Krävs för inloggning, säkerhet och för att resten av produkten ska fungera."
+      },
+      "functional": {
+        "title": "Funktionella",
+        "description": "Kommer ihåg inställningar som språk, tema och senaste konton."
+      },
+      "analytics": {
+        "title": "Analys",
+        "description": "Hjälper oss förstå hur Ordnary används så att vi kan förbättra det."
+      },
+      "marketing": {
+        "title": "Marknadsföring",
+        "description": "Personliga meddelanden från Ordnary om produkter och erbjudanden."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Vad är cookies?",
+        "button": "Läs mer"
+      },
+      "why": {
+        "title": "Varför använder vi cookies?",
+        "button": "Läs mer"
+      },
+      "products": {
+        "title": "Vad är Ordnary-produkter?",
+        "button": "Läs mer"
+      },
+      "preferences": {
+        "title": "Dina cookieinställningar",
+        "button": "Läs mer"
+      }
+    },
+    "buttons": {
+      "reject": "Avvisa valfria cookies",
+      "accept": "Tillåt alla cookies",
+      "rejectShort": "Avvisa",
+      "acceptShort": "Tillåt",
+      "customize": "Anpassa",
+      "save": "Spara inställningar",
+      "saveShort": "Spara",
+      "close": "Stäng"
+    }
+  },
+  "recentAccounts": {
+    "title": "Logga in med ditt Ordnary-konto",
+    "continueAs": "Fortsätt som {name}",
+    "loginAnother": "Logga in med ett annat konto",
+    "remove": "Ta bort konto"
+  },
+  "reauthenticate": {
+    "title": "Bekräfta att det är du",
+    "description": "Hej {name}, av säkerhetsskäl måste vi verifiera att det är du innan du {action}.",
+    "codeSentTo": "Vi har skickat en kod till {email}.",
+    "codeSent": "Vi har skickat en 6-siffrig säkerhetskod till din e-post.",
+    "securityCode": "Säkerhetskod",
+    "continue": "Fortsätt",
+    "verifying": "Verifierar…",
+    "sending": "Skickar…",
+    "cancel": "Avbryt",
+    "errors": {
+      "sendFailed": "Det gick inte att skicka säkerhetskoden.",
+      "invalidCode": "Ogiltig kod.",
+      "network": "Nätverksfel. Försök igen."
+    },
+    "actions": {
+      "changePassword": "ändrar ditt lösenord",
+      "changeEmail": "hanterar dina e-postadresser",
+      "managePasskeys": "hanterar dina passkeys",
+      "manageMfa": "hanterar tvåfaktorsautentisering",
+      "revokeAllSessions": "loggar ut överallt",
+      "manageAccount": "inaktiverar eller raderar ditt konto",
+      "rotateClientSecret": "roterar den här klienthemligheten",
+      "managePaymentMethods": "hanterar dina betalningsmetoder",
+      "authorizeApp": "auktoriserar den här applikationen",
+      "generic": "fortsätter med den här känsliga åtgärden"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Bekräfta vårdnadshavares samtycke",
+    "description": "En användare har bett dig godkänna deras Ordnary-konto enligt artikel 8 i GDPR. Klicka på bekräfta nedan för att registrera ditt samtycke. Du kan när som helst återkalla det senare genom att svara på det ursprungliga e-postmeddelandet eller kontakta {email}.",
+    "idle": "Den här sidan ska öppnas från länken i e-postmeddelandet med begäran så att bekräftelsetoken ingår.",
+    "verifying": "Verifierar…",
+    "success": "Tack. Vårdnadshavares samtycke har bekräftats och vi har låst upp kontot hos användaren. Användaren får också ett meddelande.",
+    "errors": {
+      "tokenRequired": "Ingen verifieringstoken angavs.",
+      "tokenNotFound": "Den här bekräftelselänken är inte längre giltig.",
+      "alreadyVerified": "Den här bekräftelsen har redan registrerats.",
+      "requestRevoked": "Begäran har återkallats eller ersatts av en nyare.",
+      "tokenExpired": "Den här bekräftelselänken har gått ut. Be användaren skicka en ny begäran.",
+      "invalidBody": "Verifieringsbegäran var felaktigt utformad.",
+      "generic": "Vi kunde inte verifiera den här bekräftelselänken. Be användaren skicka en ny begäran."
+    }
+  },
+  "unsubscribe": {
+    "title": "Avregistrera dig",
+    "idle": "Öppna den här sidan från länken i e-postmeddelandet så att avregistreringstoken ingår.",
+    "verifying": "Sparar din inställning…",
+    "success": "Du har avregistrerats.",
+    "successWithCategory": "Du har avregistrerats från {category}.",
+    "manageAt": "Du kan finjustera alla dina aviseringsinställningar när som helst på {link}.",
+    "categories": {
+      "transactionalSecurity": "säkerhetsvarningar",
+      "transactionalAccount": "kontoaviseringar",
+      "productUpdates": "produktuppdateringar",
+      "recommendations": "rekommendationer",
+      "marketing": "marknadsföringsmejl"
+    },
+    "errors": {
+      "tokenRequired": "Ingen avregistreringstoken angavs.",
+      "tokenNotFound": "Den här avregistreringslänken är inte längre giltig.",
+      "alreadyRedeemed": "Du har redan avregistrerats från den här kategorin.",
+      "tokenExpired": "Den här avregistreringslänken har gått ut. Du kan hantera inställningarna i kontocentret när du har loggat in.",
+      "categoryMandatory": "Den här kategorin kan inte stängas av eftersom den omfattar säkerhets- och kontoaviseringar som krävs.",
+      "generic": "Vi kunde inte behandla den här avregistreringslänken. Logga in och justera dina inställningar direkt."
+    }
+  },
+  "dsarVerify": {
+    "title": "Bekräfta din integritetsbegäran",
+    "description": "Bekräfta att du skickade den här begäran om dina uppgifter till Ordnary. Om inte, stäng sidan och meddela oss på {email}.",
+    "idle": "Öppna sidan via länken i mejlet vi skickade, så att bekräftelsen följer med.",
+    "confirm": "Bekräfta begäran",
+    "verifying": "Bekräftar…",
+    "success": "Tack, din begäran är bekräftad. Vi hanterar den inom den lagstadgade tiden och mejlar dig när den är klar.",
+    "errors": {
+      "tokenRequired": "Den här länken saknar bekräftelsekoden.",
+      "tokenNotFound": "Den här länken är inte längre giltig.",
+      "tokenExpired": "Den här länken har gått ut. Skicka begäran igen från Kontocenter.",
+      "alreadyProcessed": "Den här begäran är redan bekräftad eller hanterad.",
+      "generic": "Vi kunde inte bekräfta begäran. Försök igen eller kontakta {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Du är utloggad. Logga in igen och försök på nytt.",
+    "not_authenticated": "Du är utloggad. Logga in igen och försök på nytt.",
+    "step_up_required": "Bekräfta först att det är du och försök sedan igen.",
+    "rate_limited": "För många försök. Vänta några minuter och försök igen.",
+    "first_party_only": "Det här är bara tillgängligt i Ordnarys egna appar.",
+    "invalid_request": "Något i den här begäran stämmer inte. Läs in sidan igen och försök på nytt.",
+    "invalid_body": "Något i den här begäran stämmer inte. Läs in sidan igen och försök på nytt.",
+    "invalid_action": "Den åtgärden är inte tillgänglig här.",
+    "missing_fields": "Fyll i alla fält.",
+    "internal_error": "Något gick fel hos oss. Försök igen om en stund.",
+    "internal_server_error": "Något gick fel hos oss. Försök igen om en stund.",
+    "unavailable": "Det här är inte tillgängligt just nu. Försök igen senare.",
+    "send_failed": "Vi kunde inte skicka e-postmeddelandet. Försök igen om en stund.",
+    "user_not_found": "Vi kunde inte hitta det här kontot.",
+    "invalid_email": "Ange en giltig e-postadress.",
+    "missing_address": "Ange en e-postadress.",
+    "email_already_exists": "Den e-postadressen används redan.",
+    "email_not_found": "Den e-postadressen finns inte på ditt konto.",
+    "cannot_delete_primary_email": "Du kan inte ta bort din primära e-postadress.",
+    "failed_to_add_email": "Vi kunde inte lägga till den här e-postadressen.",
+    "failed_to_delete_email": "Vi kunde inte ta bort den här e-postadressen.",
+    "failed_to_send_verification_email": "Vi kunde inte skicka verifieringsmejlet, så adressen lades inte till.",
+    "no_email": "Ditt konto har ingen e-postadress att skicka till.",
+    "no_primary_email": "Ditt konto har ingen primär e-postadress.",
+    "password_mismatch": "De nya lösenorden matchar inte.",
+    "password_incorrect": "Ditt nuvarande lösenord är fel.",
+    "password_too_weak": "Det nya lösenordet uppfyller inte kraven.",
+    "password_change_failed": "Vi kunde inte byta ditt lösenord.",
+    "no_password": "Ditt konto har inget lösenord än.",
+    "passkey_not_found": "Den passkeyn finns inte längre.",
+    "missing_passkey_id": "Välj en passkey först.",
+    "session_not_found": "Den sessionen finns inte längre.",
+    "missing_session_id": "Välj en session först.",
+    "cannot_revoke_current_session": "Du kan inte logga ut sessionen som du använder här.",
+    "code_required": "Ange koden från e-postmeddelandet.",
+    "code_invalid": "Koden är fel.",
+    "code_expired": "Koden har gått ut. Begär en ny.",
+    "exists": "Du har redan en.",
+    "not_deactivated": "Ditt konto är inte avaktiverat.",
+    "grace_period_expired": "De 30 dagarna för att återställa det här kontot har passerat.",
+    "token_required": "Den här länken är ofullständig.",
+    "token_not_found": "Den här länken är inte längre giltig.",
+    "token_expired": "Den här länken har gått ut.",
+    "already_redeemed": "Den här länken har redan använts.",
+    "already_downloaded": "Den här nedladdningen har redan använts.",
+    "already_verified": "Det här har redan bekräftats.",
+    "already_processed": "Den här begäran har redan hanterats.",
+    "already_extended": "Tidsfristen för den här begäran har redan förlängts.",
+    "invalid_date": "Ange ett giltigt datum.",
+    "birthday_verification_attempt_not_found": "Vi kunde inte hitta den ID-kontrollen. Börja om.",
+    "identity_verification_incomplete": "ID-kontrollen är inte klar än.",
+    "identity_verification_dob_mismatch": "Födelsedatumet på ditt ID stämmer inte med det du angav.",
+    "identity_verification_dob_unavailable": "Vi kunde inte läsa något födelsedatum från ditt ID.",
+    "missing_attempt_id": "ID-kontrollen saknas. Börja om.",
+    "invalid_kind": "Välj vilken typ av begäran det här är.",
+    "invalid_applies_to": "Välj vad begäran gäller.",
+    "invalid_filed_by": "Ange vem som skickar den här begäran.",
+    "subject_email_required": "Ange e-postadressen som begäran gäller.",
+    "representative_email_required": "Ange ombudets e-postadress.",
+    "request_not_found": "Vi kunde inte hitta den här begäran.",
+    "request_already_open": "Du har redan en öppen begäran av den här typen.",
+    "request_cooldown_active": "Du skickade nyligen den här begäran. Försök igen senare.",
+    "request_closed": "Den här begäran är redan stängd.",
+    "request_not_open": "Den här begäran är inte längre öppen.",
+    "request_not_verified": "Den här begäran har inte bekräftats än.",
+    "request_revoked": "Den här begäran har dragits tillbaka eller ersatts.",
+    "no_download_for_kind": "Den här typen av begäran har ingen nedladdning.",
+    "export_already_in_progress": "En export förbereds redan.",
+    "export_rate_limited": "Du gjorde nyligen en export. Försök igen senare.",
+    "invalid_retention_days": "Välj en av de erbjudna perioderna.",
+    "invalid_category": "Den aviseringskategorin finns inte.",
+    "category_mandatory": "De här e-postmeddelandena går inte att stänga av.",
+    "review_not_found": "Vi kunde inte hitta den här granskningen.",
+    "review_already_open": "Du har redan en öppen granskning.",
+    "review_cooldown_active": "Du bad nyligen om en granskning. Försök igen senare.",
+    "review_not_open": "Den här granskningen är inte längre öppen.",
+    "review_not_pending": "Den här granskningen kan inte längre ändras.",
+    "invalid_review_type": "Välj vilken typ av granskning det här är.",
+    "no_active_consent": "Det finns inget aktivt samtycke att återkalla.",
+    "not_a_minor": "Det här kontot behöver inte vårdnadshavares samtycke.",
+    "parent_email_required": "Ange e-postadressen till din förälder eller vårdnadshavare.",
+    "invalid_parent_email": "Ange en giltig e-postadress till din förälder eller vårdnadshavare.",
+    "connection_not_found": "Den appen är inte längre ansluten.",
+    "client_not_found": "Vi kunde inte hitta den appen.",
+    "too_large": "Filen är för stor.",
+    "unsupported_type": "Den filtypen stöds inte.",
+    "no_file": "Välj en fil först."
+  }
+}

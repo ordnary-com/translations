@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Pusat Akun",
+    "accountCenterSubtitle": "Kelola pengalaman yang terhubung dan pengaturan akun Anda di seluruh teknologi Ordnary.",
+    "learnMore": "Pelajari lebih lanjut",
+    "loading": "Memuat...",
+    "back": "Kembali",
+    "close": "Tutup",
+    "backToHome": "Kembali ke beranda"
+  },
+  "nav": {
+    "profiles": "Profil",
+    "connectedExperiences": "Pengalaman yang terhubung",
+    "passwordAndSecurity": "Kata sandi dan keamanan",
+    "personalDetails": "Detail pribadi dan pengaturan",
+    "education": "Pendidikan",
+    "permissions": "Informasi dan izin Anda",
+    "adPreferences": "Preferensi iklan",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Langganan",
+    "accounts": "Akun",
+    "activity": "Aktivitas"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "description": "Konfirmasi dengan email sekolah Anda bahwa Anda seorang pelajar untuk mendapatkan manfaat pelajar di produk Ordnary yang menyediakannya.",
+    "statusLabel": "Status pelajar",
+    "statuses": {
+      "none": "Belum diverifikasi",
+      "pending": "Menunggu Anda membuka tautan",
+      "verified": "Terverifikasi",
+      "revoked": "Tidak aktif lagi"
+    },
+    "details": {
+      "title": "Detail Anda",
+      "school": "Sekolah",
+      "email": "Email sekolah",
+      "verifiedOn": "Diverifikasi pada"
+    },
+    "dialog": {
+      "title": "Verifikasi pelajar",
+      "subtitle": "Konfirmasikan dengan email sekolah Anda bahwa Anda adalah pelajar. Kami hanya memakai alamat ini untuk pengecekan tersebut dan tidak pernah mengirim hal lain ke sana.",
+      "close": "Tutup",
+      "verifiedTitle": "Terverifikasi",
+      "verifiedBody": "{email} di {school}, sejak {date}.",
+      "pendingTitle": "Menunggu Anda membuka tautan",
+      "pendingBody": "Kami mengirim tautan ke {email}. Buka dalam 24 jam untuk menyelesaikan.",
+      "revokedTitle": "Tidak aktif lagi",
+      "revokedBody": "Status pelajar Anda telah berakhir. Konfirmasikan lagi dengan email sekolah Anda.",
+      "changeEmail": "Gunakan email sekolah lain",
+      "resend": "Kirim lagi",
+      "cancel": "Batal",
+      "emailLabel": "Email sekolah",
+      "detected": "{school}",
+      "notRecognised": "Kami tidak mengenali ini sebagai email sekolah. Gunakan alamat yang diberikan sekolah Anda.",
+      "send": "Kirim tautan",
+      "sending": "Mengirim…",
+      "sent": "Tautan dikirim ke {email}.",
+      "sentWhileVerified": "Kami mengirim tautan ke {email}. Anda tetap terverifikasi dengan sekolah Anda saat ini sampai Anda membukanya.",
+      "points": [
+        {
+          "title": "Masukkan email sekolah",
+          "text": "Kami menunjukkan alamat itu milik sekolah mana."
+        },
+        {
+          "title": "Buka tautan",
+          "text": "Kami mengirim tautan ke alamat itu. Tautan berlaku 24 jam."
+        },
+        {
+          "title": "Anda terverifikasi",
+          "text": "Status pelajar Anda aktif di produk Ordnary yang menawarkan manfaat pelajar."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Status pelajar Anda kini aktif.",
+      "verificationError": "Tautan ini sudah tidak berfungsi. Minta yang baru."
+    },
+    "errors": {
+      "not_academic": "Kami tidak mengenali ini sebagai email sekolah. Gunakan alamat yang diberikan sekolah Anda.",
+      "account": "Terjadi kesalahan pada akun Anda. Coba lagi nanti.",
+      "send_failed": "Kami tidak dapat mengirim tautan saat ini. Coba lagi nanti.",
+      "no_pending": "Tidak ada permintaan yang bisa dikirim ulang. Masukkan email sekolah Anda.",
+      "not_authenticated": "Masuk lagi untuk melanjutkan."
+    }
+  },
+  "profiles": {
+    "title": "Profil",
+    "description": "Kelola pengalaman yang terhubung dan pengaturan akun Anda di seluruh teknologi Ordnary.",
+    "addAccounts": "Tambahkan akun",
+    "detail": {
+      "aboutTitle": "Tentang profil ini",
+      "accessTitle": "Yang dapat diakses {app}",
+      "linksTitle": "Kebijakan {app}",
+      "mainProfile": "Profil utama",
+      "connected": "Aplikasi terhubung",
+      "verified": "Diverifikasi oleh Ordnary",
+      "connectedOn": "Terhubung pada",
+      "lastUsed": "Terakhir digunakan",
+      "never": "Belum pernah",
+      "activeSignIns": "Sesi masuk aktif",
+      "profileId": "ID profil",
+      "email": "Alamat email",
+      "memberSince": "Anggota sejak",
+      "twoFactor": "Autentikasi dua faktor",
+      "on": "Aktif",
+      "off": "Nonaktif",
+      "passkeys": "Passkey",
+      "privacy": "Kebijakan privasi",
+      "terms": "Ketentuan layanan",
+      "disconnect": "Putuskan",
+      "disconnectTitle": "Putuskan {app}?",
+      "disconnectText": "{app} tidak dapat lagi menggunakan akun Ordnary Anda, dan Anda keluar dari aplikasi tersebut. Anda dapat terhubung lagi dengan masuk ke {app} nanti.",
+      "disconnecting": "Memutuskan...",
+      "cancel": "Batal",
+      "copied": "Tersalin",
+      "copy": "Salin",
+      "scopes": {
+        "openid": "Mengenali Anda dengan akun Ordnary Anda",
+        "profile": "Nama dan foto profil Anda",
+        "email": "Alamat email Anda",
+        "offline_access": "Menjaga Anda tetap masuk saat Anda tidak menggunakannya",
+        "phone": "Nomor telepon Anda",
+        "address": "Alamat Anda"
+      },
+      "change": "Ubah",
+      "setUp": "Siapkan",
+      "manage": "Kelola",
+      "add": "Tambahkan",
+      "none": "Belum ada"
+    },
+    "revokedSuccess": "Terputus",
+    "revokedError": "Gagal memutuskan sambungan. Coba lagi."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Buat akun Ordnary baru?",
+      "registrationName": "Siapa nama Anda?",
+      "registrationBirthday": "Kapan ulang tahun Anda?",
+      "registrationPassword": "Buat kata sandi",
+      "saveLoginInfo": "Simpan info login?",
+      "registrationReview": "Selesaikan pembuatan akun Anda",
+      "verifyEmailCode": "Masukkan kode konfirmasi",
+      "editEmail": "Apa alamat email Anda?",
+      "loginCodeEntry": "Periksa email Anda",
+      "recoveryCodeEntry": "Konfirmasi akun Anda",
+      "resetPassword": "Buat kata sandi baru",
+      "passwordEntry": "Masukkan kata sandi Anda",
+      "identifierLookup": "Apa email Anda?",
+      "signIn": "Masuk",
+      "mfaCodeEntry": "Masukkan kode verifikasi Anda"
+    },
+    "descriptions": {
+      "identifierLookup": "Masukkan email Anda untuk masuk ke akun atau membuat akun baru.",
+      "passwordEntry": "Untuk masuk, masukkan kata sandi yang terkait dengan {identifier}.",
+      "accountNotFound": "Kami tidak dapat menemukan akun Ordnary untuk {email}. Mungkin Anda belum membuatnya. Jika sudah, akun tersebut mungkin menggunakan pengenal yang berbeda.",
+      "registrationName": "Nama ini akan digunakan untuk pemulihan akun dan komunikasi tentang akun Anda. Nama ini tidak akan terlihat oleh publik.",
+      "registrationBirthday": "Gunakan tanggal lahir Anda sendiri, meskipun akun ini untuk bisnis atau hal lain. Informasi ini tidak akan dipublikasikan.",
+      "registrationPassword": "Buat kata sandi yang tidak bisa ditebak orang lain.",
+      "saveLoginInfo": "Kami akan menyimpan info login akun Anda sehingga Anda tidak perlu memasukkannya lagi lain kali.",
+      "verifyEmailCode": "Masukkan kode 6 digit yang dikirim ke {identifier} untuk mengonfirmasi akun Anda.",
+      "editEmail": "Masukkan alamat email yang dapat kami hubungi. Alamat ini akan digunakan untuk login dan pengelolaan akun, serta tidak akan terlihat oleh publik.",
+      "loginCodeEntry": "Untuk masuk, masukkan kode yang kami kirim ke {identifier}. Anda mungkin perlu memeriksa folder spam atau sosial.",
+      "recoveryCodeEntry": "Kami telah mengirim kode ke {identifier}. Masukkan kode tersebut untuk mengonfirmasi akun Anda.",
+      "resetPassword": "Anda akan menggunakan kata sandi ini untuk masuk ke Akun Ordnary Anda. Gunakan setidaknya 6 huruf dan angka.",
+      "mfaCodeEntry": "Masukkan kode 6 digit dari aplikasi autentikator Anda untuk melanjutkan."
+    },
+    "buttons": {
+      "createNewAccount": "Buat akun baru",
+      "alreadyHaveAccount": "Saya sudah punya akun",
+      "next": "Berikutnya",
+      "save": "Simpan",
+      "notNow": "Nanti saja",
+      "finish": "Selesai",
+      "resendCode": "Kirim ulang kode",
+      "enterPassword": "Masukkan kata sandi",
+      "forgotPassword": "Lupa kata sandi?",
+      "switchAccount": "Ganti akun",
+      "yes": "Ya",
+      "no": "Tidak",
+      "useEmailCode": "Masuk dengan kode email",
+      "signInWithPasskey": "Masuk dengan kunci sandi",
+      "useRecoveryCode": "Gunakan kode pemulihan",
+      "useAuthenticatorCode": "Gunakan aplikasi autentikator"
+    },
+    "labels": {
+      "name": "Nama",
+      "firstName": "Nama depan",
+      "lastName": "Nama belakang",
+      "day": "Hari",
+      "month": "Bulan",
+      "year": "Tahun",
+      "dateOfBirth": "Tanggal lahir",
+      "confirmationCode": "Kode konfirmasi",
+      "email": "Alamat email",
+      "password": "Kata sandi",
+      "newPassword": "Kata sandi baru",
+      "logoutOthers": "Keluar dari semua perangkat lain untuk memastikan tidak ada orang lain yang masih bisa mengakses akun Anda",
+      "marketingEmails": "Saya ingin menerima email tentang aplikasi, rekomendasi, dan penawaran untuk Ordnary Identity.",
+      "showPassword": "Tampilkan kata sandi",
+      "hidePassword": "Sembunyikan kata sandi",
+      "clearInput": "Hapus input",
+      "recoveryCode": "Kode pemulihan"
+    },
+    "links": {
+      "whyNeedBirthday": "Mengapa saya perlu memberikan tanggal lahir?",
+      "learnMore": "Pelajari lebih lanjut",
+      "editEmail": "Ubah alamat email",
+      "noAccessEmail": "Tidak lagi memiliki akses ke alamat email ini?",
+      "termsOfService": "Ketentuan Layanan",
+      "privacyPolicy": "Kebijakan Privasi",
+      "cookiePolicy": "Kebijakan Cookie"
+    },
+    "messages": {
+      "nameHelp": "Menggunakan nama asli memudahkan pemulihan akun jika Anda kehilangan akses.",
+      "emailHelp": "Gunakan email kerja atau pribadi Anda untuk mengakses layanan Ordnary.",
+      "existingSessionTitle": "Anda sudah memiliki sesi aktif",
+      "existingSessionDescription": "Anda sudah masuk. Mengalihkan ke Pusat Akun dalam {seconds} detik.",
+      "summaryPrivacy": "Detail akun Ordnary Anda tidak bersifat publik.",
+      "verifyEmailLookFor": "Cari email dari notification@ordnary.com. Anda mungkin perlu memeriksa folder spam atau sosial.",
+      "termsAgreement": "Dengan mengeklik \"Selesai\", Anda menyetujui Ketentuan Layanan, Kebijakan Privasi, dan menyatakan bahwa Anda telah membaca Kebijakan Cookie kami.",
+      "footerAgreement": "Dengan melanjutkan, Anda mengakui bahwa Anda telah membaca dan menyetujui Ketentuan Layanan, Kebijakan Privasi, dan pedoman pemrosesan data yang berlaku. Anda juga setuju untuk menerima pemberitahuan penting terkait akun dan keamanan sehubungan dengan penggunaan platform.",
+      "emailMissing": "Alamat email wajib diisi.",
+      "resendCodeError": "Terjadi kesalahan tak terduga saat mengirim ulang kode.",
+      "invalidInput": "Input tidak valid.",
+      "credentialsPrompt": "Untuk masuk, masukkan kata sandi yang terkait dengan {identifier}.",
+      "checkEmailPrompt": "Untuk masuk, masukkan kode yang kami kirim ke {identifier}.",
+      "termsIntro": "Dengan mengetuk Selesai, Anda menyetujui"
+    },
+    "validation": {
+      "emailRequired": "Alamat email wajib diisi.",
+      "passwordRequired": "Kata sandi wajib diisi.",
+      "passwordMin": "Kata sandi harus terdiri dari minimal 12 karakter.",
+      "passwordMax": "Kata sandi tidak boleh lebih dari 128 karakter.",
+      "emailInvalid": "Masukkan alamat email yang valid.",
+      "displayNameMin": "Nama tampilan harus terdiri dari minimal 2 karakter.",
+      "resetTokenRequired": "Token reset wajib diisi.",
+      "verificationTokenRequired": "Token verifikasi wajib diisi."
+    },
+    "errors": {
+      "invalidInput": "Input tidak valid.",
+      "genericLoginFailed": "Tidak dapat masuk. Silakan coba lagi.",
+      "loginInvalidCredentials": "Email atau kata sandi tidak valid.",
+      "accountLocked": "Akun Anda dikunci atau ditangguhkan.",
+      "passwordIncorrect": "Kata sandi yang Anda masukkan salah.",
+      "notAuthenticated": "Anda belum diautentikasi.",
+      "registrationMissingInfo": "Informasi pendaftaran yang wajib masih kurang.",
+      "registrationEmailExists": "Akun dengan email ini sudah ada.",
+      "systemNoDefaultTenant": "Kesalahan sistem: tenant default tidak ditemukan.",
+      "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",
+      "invalidVerificationRequest": "Permintaan verifikasi tidak valid.",
+      "accountNotFound": "Akun tidak ditemukan.",
+      "verificationCodeInvalidOrExpired": "Kode verifikasi tidak valid atau sudah kedaluwarsa.",
+      "verificationFailedTryAgain": "Verifikasi gagal. Silakan coba lagi.",
+      "invalidRequest": "Permintaan tidak valid.",
+      "userNotFound": "Pengguna tidak ditemukan.",
+      "codeInvalidOrExpired": "Kode tidak valid atau sudah kedaluwarsa.",
+      "verificationFailed": "Verifikasi gagal.",
+      "missingInformation": "Informasi kurang.",
+      "passwordResetFailed": "Reset kata sandi gagal.",
+      "emailMissing": "Alamat email tidak ditemukan.",
+      "resendCodeFailed": "Gagal mengirim ulang kode. Silakan coba lagi.",
+      "loginRequestFailed": "Permintaan masuk Anda tidak dapat diproses. Silakan coba lagi.",
+      "mfaDataMissing": "Detail verifikasi tidak ditemukan. Silakan masuk lagi.",
+      "mfaNoAuthenticator": "Tidak ditemukan aplikasi autentikator aktif untuk akun ini.",
+      "mfaCodeInvalid": "Kode verifikasi tidak valid.",
+      "mfaVerificationFailed": "Verifikasi gagal. Silakan masuk lagi.",
+      "requestRejected": "Kami tidak dapat memproses permintaan ini. Coba lagi.",
+      "tooManyAttempts": "Terlalu banyak percobaan. Coba lagi nanti.",
+      "tooManyFailedLogins": "Terlalu banyak percobaan masuk yang gagal. Tunggu sebentar sebelum mencoba lagi.",
+      "permanentEmailRequired": "Gunakan alamat email permanen.",
+      "recoveryFileInvalid": "File pemulihan ini tidak berfungsi. Mungkin sudah diganti dengan yang lebih baru atau dihapus.",
+      "passkeyFailed": "Gagal masuk dengan kunci sandi. Coba lagi atau lanjutkan dengan email Anda.",
+      "passwordTooWeak": "Pilih kata sandi yang memenuhi semua persyaratan di bawah."
+    },
+    "months": [
+      "Januari",
+      "Februari",
+      "Maret",
+      "April",
+      "Mei",
+      "Juni",
+      "Juli",
+      "Agustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember"
+    ],
+    "recoveryFile": {
+      "link": "Masuk dengan file pemulihan",
+      "title": "Masuk dengan file pemulihan",
+      "description": "Unggah file pemulihan untuk akun ini yang Anda unduh dari Pusat Akun. Anda langsung masuk.",
+      "choose": "Pilih file",
+      "reading": "Sedang masuk…",
+      "pasteInstead": "Tempel kode saja",
+      "codeLabel": "Kode dari file",
+      "signIn": "Masuk",
+      "notAFile": "Ini bukan file pemulihan Ordnary. Pilih PDF yang Anda unduh dari Pusat Akun.",
+      "back": "Gunakan kode email saja"
+    },
+    "passwordRules": {
+      "length": "Minimal 12 karakter",
+      "upper": "Satu huruf kapital",
+      "lower": "Satu huruf kecil",
+      "digit": "Satu angka"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Pengaturan akun",
+      "appearanceLabel": "Tampilan",
+      "appearanceLight": "Terang",
+      "appearanceSystem": "Ikuti sistem",
+      "appearanceDark": "Gelap",
+      "logout": "Keluar",
+      "sessionExpired": "Sesi Anda telah berakhir. Silakan masuk lagi untuk melanjutkan.",
+      "logoutConfirmTitle": "Keluar dari Ordnary?",
+      "logoutCancel": "Batal",
+      "logoutConfirm": "Keluar",
+      "language": "Bahasa"
+    },
+    "reactivate": {
+      "title": "Selamat datang kembali, akun Anda dinonaktifkan",
+      "description": "Kami menjeda email dan notifikasi saat Anda menonaktifkan akun. Aktifkan kembali untuk memulihkan semuanya, atau keluar dan tentukan nanti. Data Anda masih ada.",
+      "reactivate": "Aktifkan kembali akun saya",
+      "reactivating": "Mengaktifkan kembali...",
+      "signOut": "Keluar",
+      "signingOut": "Keluar...",
+      "footer": "Jika Anda lebih suka menghapus akun secara permanen, masuk dan pilih Hapus akun di Detail pribadi.",
+      "successNotification": "Selamat datang kembali. Akun Anda aktif lagi.",
+      "errorGeneric": "Kami tidak dapat mengaktifkan kembali akun Anda. Coba lagi sebentar lagi.",
+      "deletedTitle": "Akun Anda akan dihapus",
+      "deletedDescription": "Akun akan dihapus permanen pada {date}. Pulihkan untuk menyimpan semuanya, atau keluar dan biarkan penghapusan berjalan.",
+      "restore": "Pulihkan akun saya",
+      "restoring": "Memulihkan..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Foto profil",
+        "custom": "Foto Anda sendiri",
+        "default": "Avatar otomatis",
+        "modalTitle": "Foto profil",
+        "subtitle": "Ditampilkan bersama nama Anda di aplikasi Ordnary dan komunitas. Tanpa foto sendiri, Anda mendapat avatar yang unik untuk akun Anda.",
+        "choose": "Pilih foto",
+        "change": "Pilih yang lain",
+        "remove": "Hapus foto",
+        "save": "Simpan foto",
+        "saving": "Menyimpan...",
+        "hint": "JPG, PNG, atau WebP. Foto Anda dipotong menjadi persegi.",
+        "errorType": "File itu bukan gambar yang dapat kami gunakan. Pilih JPG, PNG, atau WebP.",
+        "errorFailed": "Kami tidak dapat menyimpan foto Anda. Silakan coba lagi."
+      },
+      "title": "Detail pribadi dan pengaturan",
+      "description": "Ordnary menggunakan detail ini untuk memverifikasi identitas Anda dan membantu menjaga keamanan komunitas. Anda mengontrol detail pribadi mana yang terlihat oleh orang lain.",
+      "contactDetails": "Detail kontak",
+      "birthday": "Tanggal lahir",
+      "ownership": "Kepemilikan dan kontrol akun",
+      "ownershipDescription": "Kelola data Anda, perbarui kontak warisan untuk akun yang dikenang, dan nonaktifkan atau hapus akun serta profil Anda.",
+      "loadingName": "Pengguna",
+      "modal": {
+        "title": "Kepemilikan dan kontrol akun",
+        "deactivationIndexTitle": "Penonaktifan atau penghapusan",
+        "deactivationIndexDescription": "Nonaktifkan sementara atau hapus permanen akun dan profil Anda.",
+        "optionsTitle": "Nonaktifkan atau hapus akun Ordnary Anda",
+        "optionsDescription": "Butuh istirahat? Nonaktifkan akun Anda dan kembali kapan saja. Ingin meninggalkan Ordnary? Hapus akun Anda.",
+        "deactivateTitle": "Nonaktifkan akun",
+        "deactivateDescription": "Penonaktifan akun bersifat sementara. Akun Anda akan dinonaktifkan dan disembunyikan dari orang lain.",
+        "deleteTitle": "Hapus akun",
+        "deleteDescription": "Menghapus akun bersifat permanen. Setelah 30 hari, Anda tidak dapat mengaktifkannya kembali atau memulihkan datanya.",
+        "deactivateConfirmTitle": "Nonaktifkan akun Anda?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Anda akan keluar di mana saja",
+            "text": "Di semua perangkat Anda dan di setiap aplikasi yang Anda gunakan dengan akun Ordnary."
+          },
+          {
+            "title": "Profil Anda disembunyikan",
+            "text": "Orang lain tidak dapat melihat nama atau profil Anda selama akun dinonaktifkan."
+          },
+          {
+            "title": "Kembali kapan saja",
+            "text": "Masuk lagi untuk mengaktifkan kembali akun Anda. Semuanya akan seperti yang Anda tinggalkan."
+          }
+        ],
+        "deactivateConfirmButton": "Nonaktifkan akun",
+        "deleteConfirmTitle": "Hapus akun Anda?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Anda akan keluar di mana saja",
+            "text": "Di semua perangkat Anda dan di setiap aplikasi yang Anda gunakan dengan akun Ordnary."
+          },
+          {
+            "title": "Anda kehilangan akses",
+            "text": "Ke Ordnary dan setiap aplikasi yang Anda masuki dengan akun Ordnary."
+          },
+          {
+            "title": "Dihapus permanen setelah 30 hari",
+            "text": "Sampai saat itu, Anda masih bisa berubah pikiran. Setelahnya, akun dan data Anda tidak dapat dipulihkan."
+          }
+        ],
+        "deleteConfirmCheck": "Saya mengerti bahwa akun dan data saya akan dihapus secara permanen setelah 30 hari.",
+        "deleteConfirmButton": "Hapus akun",
+        "cancel": "Batal",
+        "continue": "Lanjutkan",
+        "working": "Memproses...",
+        "deactivateSuccess": "Akun Anda telah dinonaktifkan. Mengalihkan ke halaman masuk...",
+        "deleteSuccess": "Akun Anda dijadwalkan untuk dihapus. Mengalihkan ke halaman masuk...",
+        "submitError": "Kami tidak dapat memperbarui akun Anda saat ini."
+      },
+      "missingBirthday": "Belum diatur",
+      "loadError": "Gagal memuat detail pribadi.",
+      "preferences": {
+        "sectionTitle": "Preferensi",
+        "appearance": "Tampilan",
+        "appearanceDescription": "Sesuaikan tampilan akun Ordnary Anda.",
+        "cookies": "Preferensi cookie",
+        "cookiesDescription": "Kelola cookie yang boleh digunakan Ordnary di browser ini.",
+        "processors": {
+          "title": "Siapa yang memproses data Anda",
+          "intro": "Kami menggunakan beberapa perusahaan lain untuk menjalankan Ordnary. Berikut semuanya: apa yang mereka terima dari kami, di mana mereka menyimpannya, dan bagaimana data dilindungi saat keluar dari UE.",
+          "empty": "Tidak ada perusahaan lain yang menerima data Anda.",
+          "loadError": "Kami tidak dapat memuat ini sekarang. Coba lagi nanti.",
+          "loading": "Memuat...",
+          "close": "Tutup",
+          "back": "Kembali",
+          "fields": {
+            "purpose": "Apa yang mereka lakukan",
+            "receives": "Apa yang mereka terima",
+            "whose": "Data siapa",
+            "stored": "Di mana data disimpan",
+            "transfer": "Di luar UE"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Tetap berada di dalam Wilayah Ekonomi Eropa.",
+            "ADEQUACY_DECISION": "Diizinkan karena UE mengakui perlindungan data di {country} memadai.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Dilindungi oleh klausul kontrak standar UE.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Bersertifikat di bawah EU-US Data Privacy Framework.",
+            "sccBackup": "Klausul kontrak standar UE berlaku sebagai perlindungan tambahan."
+          },
+          "links": {
+            "dpa": "Perjanjian pemrosesan data",
+            "privacy": "Kebijakan privasi",
+            "website": "Situs web",
+            "certification": "Sertifikasi"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Memeriksa identitas Anda saat Anda mengubah tanggal lahir.",
+              "receives": [
+                "Nama",
+                "Tanggal lahir",
+                "Foto dokumen identitas Anda",
+                "Selfie",
+                "Alamat IP"
+              ],
+              "whose": "Hanya orang yang memverifikasi tanggal lahir baru."
+            },
+            "resend": {
+              "purpose": "Mengirim email kami: kode masuk, peringatan keamanan, dan pemberitahuan akun.",
+              "receives": [
+                "Alamat email",
+                "Nama tampilan",
+                "Isi email, seperti kode masuk, tautan, dan alamat IP dalam peringatan keamanan"
+              ],
+              "whose": "Semua orang yang menerima email dari Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Permintaan privasi",
+          "description": "Keberatan atau batasi aktivitas pemrosesan tertentu (Pasal 18 / Pasal 21).",
+          "back": "Kembali",
+          "close": "Tutup",
+          "loading": "Memuat…",
+          "loadError": "Gagal memuat permintaan privasi.",
+          "alreadyOpen": "Anda sudah memiliki permintaan terbuka untuk cakupan ini.",
+          "cooldown": "Anda dapat mengajukan permintaan yang sama lagi dalam {hours} jam.",
+          "submitted": "Permintaan Anda telah diterima.",
+          "withdrawn": "Permintaan ditarik.",
+          "fileNew": "Ajukan permintaan baru",
+          "pickKind": "Apa yang ingin Anda lakukan?",
+          "kinds": {
+            "OBJECTION": "Keberatan atas aktivitas pemrosesan (Pasal 21)",
+            "RESTRICTION": "Batasi pemrosesan sementara (Pasal 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Hentikan aktivitas pemrosesan tertentu ke depannya, berdasarkan situasi khusus Anda.",
+            "RESTRICTION": "Jeda aktivitas pemrosesan tertentu selama sengketa tentang data Anda ditinjau."
+          },
+          "pickActivities": "Aktivitas mana yang tercakup?",
+          "activitiesHint": "Jangan pilih apa pun untuk berlaku bagi semua aktivitas pemrosesan kami (penahanan global).",
+          "globalScope": "Semua pemrosesan (penahanan global)",
+          "yourStatement": "Pernyataan Anda (disarankan)",
+          "statementPlaceholder": "Ceritakan alasannya, misalnya Anda tidak ingin lagi kami menerapkan penilaian risiko otomatis saat Anda menyelidiki insiden keamanan bersama kami.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Kirim permintaan",
+          "submitting": "Mengirim…",
+          "withdraw": "Tarik",
+          "withdrawing": "Menarik…",
+          "openTitle": "Permintaan terbuka",
+          "emptyOpen": "Tidak ada permintaan terbuka.",
+          "historyTitle": "Permintaan sebelumnya",
+          "historyEmpty": "Belum ada permintaan sebelumnya.",
+          "holdsTitle": "Penahanan yang sedang aktif",
+          "holdsEmpty": "Tidak ada penahanan aktif.",
+          "appliesTo": "Berlaku untuk",
+          "effectiveUntil": "Berlaku sampai",
+          "statuses": {
+            "PENDING": "Menunggu",
+            "IN_REVIEW": "Ditinjau",
+            "RESOLVED": "Selesai",
+            "WITHDRAWN": "Ditarik"
+          },
+          "outcomes": {
+            "GRANTED": "Dikabulkan",
+            "PARTIALLY_GRANTED": "Dikabulkan sebagian",
+            "REJECTED": "Ditolak",
+            "ESCALATED": "Dieskalasi"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Identitas akun & autentikasi",
+            "session-and-device-management": "Sesi & perangkat",
+            "oauth-issuance": "Penerbitan OAuth / OIDC",
+            "identity-verification": "Verifikasi identitas (Stripe Identity)",
+            "payment-processing": "Pemrosesan pembayaran",
+            "audit-logs-and-security-events": "Log audit & peristiwa keamanan",
+            "risk-scoring": "Penilaian risiko otomatis",
+            "consent-log": "Log persetujuan",
+            "account-deletion": "Penghapusan akun",
+            "risk-review-queue": "Antrean tinjauan risiko"
+          },
+          "title": "Keberatan atau batasi"
+        },
+        "dsar": {
+          "label": "Permintaan privasi & data",
+          "description": "Ajukan permintaan resmi untuk akses, perbaikan, penghapusan, atau portabilitas (Pasal 15-20).",
+          "title": "Permintaan privasi & data",
+          "back": "Kembali",
+          "close": "Tutup",
+          "loading": "Memuat…",
+          "loadError": "Gagal memuat permintaan.",
+          "submitted": "Kami menerima permintaan Anda.",
+          "fastPathReady": "Data Anda sedang diunduh.",
+          "fastPathHint": "Hanya ingin salinan cepat data Anda? Gunakan tombol \"Ekspor informasi Anda\" di bagian atas. Data langsung diunduh tanpa melalui antrean resmi. Ajukan permintaan di sini jika Anda ingin ditinjau oleh petugas, mengajukan atas nama orang lain, atau memerlukan perbaikan atau penghapusan.",
+          "withdrawn": "Permintaan ditarik.",
+          "fileNew": "Ajukan permintaan baru",
+          "pickKind": "Apa yang ingin Anda lakukan?",
+          "kinds": {
+            "ACCESS": "Akses (Pasal 15)",
+            "RECTIFICATION": "Perbaikan (Pasal 16)",
+            "ERASURE": "Penghapusan (Pasal 17)",
+            "PORTABILITY": "Portabilitas (Pasal 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Dapatkan salinan lengkap yang dapat dibaca mesin dari data yang kami simpan tentang Anda.",
+            "RECTIFICATION": "Perbaiki data tentang Anda yang salah atau sudah usang.",
+            "ERASURE": "Minta kami menghapus akun Anda dan data yang kami simpan tentang Anda.",
+            "PORTABILITY": "Terima data Anda dalam format terstruktur yang umum digunakan."
+          },
+          "filedBy": "Siapa yang mengajukan permintaan ini?",
+          "filedByOptions": {
+            "SELF": "Saya mengajukan untuk diri sendiri",
+            "PARENT_GUARDIAN": "Saya orang tua atau wali yang mengajukan untuk anak di bawah umur",
+            "AUTHORISED_AGENT": "Saya kuasa resmi (misalnya pengacara) yang mengajukan atas nama orang lain"
+          },
+          "representativeBlock": {
+            "title": "Informasi perwakilan",
+            "emailLabel": "Alamat email Anda",
+            "notesLabel": "Hubungan dan kewenangan",
+            "notesHint": "Jelaskan singkat hubungan Anda dengan subjek data dan lampirkan referensi surat kuasa atau dokumen perwalian apa pun."
+          },
+          "subjectEmailLabel": "Email subjek",
+          "subjectEmailHint": "Kami mengirim tautan verifikasi dan jawaban ke alamat ini. Untuk permintaan yang diajukan kuasa, ini harus email milik subjek data sendiri.",
+          "yourStatement": "Pernyataan Anda (disarankan)",
+          "statementPlaceholder": "Apa tepatnya yang Anda inginkan? Konteks apa pun yang membantu kami menentukan cakupan jawaban.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Kirim permintaan",
+          "submitting": "Mengirim…",
+          "withdraw": "Tarik",
+          "withdrawing": "Menarik…",
+          "openTitle": "Permintaan terbuka",
+          "emptyOpen": "Tidak ada permintaan terbuka.",
+          "historyTitle": "Permintaan sebelumnya",
+          "historyEmpty": "Belum ada permintaan sebelumnya.",
+          "due": "Jatuh tempo",
+          "extended": "Diperpanjang sampai",
+          "awaitingVerification": "Menunggu verifikasi email",
+          "statuses": {
+            "SUBMITTED": "Menunggu verifikasi",
+            "VERIFIED": "Terverifikasi",
+            "IN_PROGRESS": "Diproses",
+            "FULFILLED": "Terpenuhi",
+            "REJECTED": "Ditolak",
+            "WITHDRAWN": "Ditarik"
+          },
+          "outcomes": {
+            "FULFILLED": "Terpenuhi",
+            "PARTIALLY_FULFILLED": "Terpenuhi sebagian",
+            "REJECTED": "Ditolak"
+          },
+          "overdue": "Terlambat"
+        },
+        "modalTitle": "Tampilan",
+        "modalSubtitle": "Pilih tampilan Pusat Akun. Kami akan mengingat preferensi Anda di perangkat ini.",
+        "options": {
+          "lightLabel": "Terang",
+          "lightDescription": "Selalu gunakan latar belakang terang, apa pun pengaturan sistem Anda.",
+          "systemLabel": "Ikuti sistem",
+          "systemDescription": "Berganti sesuai pengaturan perangkat Anda.",
+          "darkLabel": "Gelap",
+          "darkDescription": "Selalu gunakan latar belakang gelap, lebih nyaman di malam hari."
+        },
+        "done": "Selesai"
+      },
+      "displayNameSection": {
+        "label": "Nama lengkap",
+        "subtitle": "Nama lengkap Anda digunakan di semua akun dan profil Anda.",
+        "editButton": "Ubah",
+        "modalTitle": "Nama lengkap",
+        "editTitle": "Ubah nama lengkap",
+        "modalSubtitle": "Untuk mengubah nama lengkap Anda, hubungi {email}.",
+        "currentLabel": "Nama saat ini",
+        "supportNotice": "Untuk mengubah nama lengkap Anda, hubungi {email}.",
+        "copyEmail": "Salin alamat email",
+        "openEmail": "Buka email",
+        "mailSubject": "Permintaan perubahan nama lengkap",
+        "mailBody": "Halo,\n\nSaya ingin mengubah nama lengkap saya.\n\nNama saat ini: {name}\nNama baru: \n\nSalam hormat,\n{name}"
+      },
+      "loading": "Memuat...",
+      "contact": {
+        "subtitle": "Kelola alamat email Anda serta siapa yang dapat melihat detail kontak Anda. Gunakan untuk mengakses profil dan perangkat di Pusat Akun ini.",
+        "addNew": "Tambahkan kontak baru",
+        "detailsDescription": "Anda menambahkan alamat email ini ke akun-akun berikut.",
+        "whoCanSee": "Siapa yang dapat melihat alamat email Anda?",
+        "deleting": "Menghapus...",
+        "delete": "Hapus alamat email",
+        "deleteFailed": "Kami tidak dapat menghapus alamat email ini.",
+        "deleted": "Alamat email dihapus",
+        "addTitle": "Tambahkan alamat email",
+        "addSubtitle": "Kami menggunakan alamat email ini di seluruh akun Anda di Pusat Akun untuk mempersonalisasi pengalaman Anda.",
+        "learnMore": "Pelajari lebih lanjut",
+        "emailLabel": "Alamat email",
+        "chooseAccounts": "Pilih akun untuk alamat email ini",
+        "added": "Alamat email ditambahkan",
+        "addFailed": "Terjadi kesalahan. Silakan coba lagi.",
+        "next": "Berikutnya"
+      },
+      "birthdayModal": {
+        "subtitle": "Tambahkan tanggal lahir Anda agar pengalaman Anda sesuai dengan usia Anda.",
+        "edit": "Edit",
+        "editTitle": "Edit tanggal lahir Anda",
+        "editSubtitle": "Tanggal lahir ini digunakan untuk akun dan profil di Pusat Akun ini. Setiap perubahan berlaku untuk semuanya.",
+        "day": "Hari",
+        "month": "Bulan",
+        "year": "Tahun",
+        "verificationNotice": "Untuk mengubah tanggal lahir, Anda perlu memverifikasi identitas dengan dokumen identitas yang valid melalui mitra kami, Stripe Identity. Setelah Anda menyimpan, kami akan mengarahkan Anda ke proses verifikasi.",
+        "save": "Simpan",
+        "saveFailed": "Terjadi kesalahan. Silakan coba lagi.",
+        "verificationStartFailed": "Kami tidak dapat memulai verifikasi identitas.",
+        "completeFailed": "Kami tidak dapat menyelesaikan verifikasi.",
+        "updated": "Tanggal lahir Anda diperbarui setelah verifikasi identitas.",
+        "dobMismatch": "Tanggal lahir pada dokumen identitas Anda tidak cocok dengan yang Anda masukkan.",
+        "dobUnavailable": "Stripe tidak dapat membaca tanggal lahir yang dapat diverifikasi dari dokumen identitas Anda.",
+        "notFinished": "Verifikasi identitas belum selesai."
+      }
+    },
+    "security": {
+      "title": "Kata sandi dan keamanan",
+      "loadingName": "Pengguna",
+      "pageLoadError": "Gagal memuat pengaturan keamanan.",
+      "sections": {
+        "signIn": {
+          "title": "Masuk dan pemulihan",
+          "description": "Kelola kata sandi, preferensi masuk, dan metode pemulihan Anda."
+        },
+        "controls": {
+          "title": "Pemeriksaan keamanan",
+          "description": "Tinjau masalah keamanan dengan memeriksa aplikasi, perangkat, dan email terkirim."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Ubah kata sandi",
+          "loading": "Memuat...",
+          "set": "Kata sandi sudah diatur",
+          "missing": "Belum ada kata sandi"
+        },
+        "twofactor": {
+          "label": "Autentikasi dua faktor",
+          "loading": "Memuat...",
+          "enabled": "Aktif",
+          "disabled": "Belum diaktifkan"
+        },
+        "passkeys": {
+          "label": "Kunci sandi",
+          "loading": "Memuat...",
+          "none": "Belum ada kunci sandi",
+          "active": "{count} aktif"
+        },
+        "activity": {
+          "label": "Tempat Anda masuk",
+          "summary": "{total} sesi aktif, {others} di perangkat lain"
+        },
+        "automated": {
+          "label": "Keputusan otomatis",
+          "summary": "Lihat aturan otomatis apa yang melindungi akun Anda, dan minta tinjauan oleh manusia."
+        }
+      },
+      "passwordModal": {
+        "title": "Ubah kata sandi",
+        "subtitle": "Buat kata sandi dengan minimal 12 karakter. Pilih yang tidak mudah ditebak orang lain.",
+        "currentPassword": "Kata sandi saat ini",
+        "newPassword": "Kata sandi baru",
+        "repeatPassword": "Ulangi kata sandi baru",
+        "forgotPassword": "Lupa kata sandi?",
+        "logoutOthers": "Keluar di perangkat lain. Pilih ini jika orang lain pernah menggunakan akun Anda.",
+        "submit": "Ubah kata sandi",
+        "pending": "Memproses...",
+        "success": "Kata sandi Anda telah diperbarui.",
+        "mismatch": "Kata sandi baru Anda tidak cocok.",
+        "submitError": "Gagal mengubah kata sandi.",
+        "logoutOthersTitle": "Keluar dari perangkat lain",
+        "logoutOthersHint": "Disarankan jika orang lain mungkin telah menggunakan akun Anda.",
+        "incorrect": "Kata sandi Anda saat ini salah.",
+        "tooWeak": "Pilih kata sandi yang memenuhi semua persyaratan di bawah."
+      },
+      "twoFactor": {
+        "idleTitle": "Bantu lindungi akun Anda",
+        "idleSubtitle": "Siapkan autentikasi dua faktor dan kami akan meminta kode masuk saat seseorang masuk dari perangkat yang tidak kami kenali.",
+        "manageTitle": "Autentikasi dua faktor aktif",
+        "manageSubtitle": "Kami kini meminta kode masuk setiap kali Anda masuk dari perangkat yang tidak kami kenali.",
+        "appSettingsTitle": "Aplikasi autentikasi",
+        "extraMethodsTitle": "Metode tambahan",
+        "extraMethodsSubtitle": "Jika metode keamanan lainnya tidak tersedia, Anda tetap dapat masuk dengan opsi ini.",
+        "recoveryCodesTitle": "Kode pemulihan",
+        "recoveryCodesSubtitle": "Setiap kode pemulihan hanya dapat digunakan satu kali. Simpan di tempat yang aman. Tanpa kode ini, Anda bisa kehilangan akses jika ponsel atau metode masuk lainnya hilang.",
+        "setupTitle": "Petunjuk penyiapan",
+        "namingTitle": "Beri nama perangkat Anda",
+        "namingSubtitle": "Beri aplikasi autentikator Anda nama yang mudah dikenali agar Anda tahu perangkat mana yang digunakan.",
+        "verifyTitle": "Masukkan kode",
+        "verifySubtitle": "Masukkan kode 6 digit dari aplikasi autentikator Anda untuk menyelesaikan penyiapan.",
+        "successTitle": "Autentikasi dua faktor aktif",
+        "successSubtitle": "Kami kini meminta kode masuk setiap kali Anda masuk dari perangkat yang tidak kami kenali. Ingin memperbarui detail kontak? Buka Detail pribadi di Pusat Akun.",
+        "verifiedTitle": "Kode cadangan",
+        "verifiedSubtitle": "Simpan kode ini di tempat yang aman. Anda dapat menggunakannya jika kehilangan akses ke aplikasi autentikator.",
+        "learnMore": "Pelajari lebih lanjut",
+        "receiveCodesTitle": "Pilih cara menerima kode Anda",
+        "authenticatorTitle": "Aplikasi autentikasi",
+        "authenticatorDescription": "Terima kode sekali pakai melalui aplikasi seperti Duo Mobile atau Google Authenticator.",
+        "recommended": "Disarankan",
+        "continue": "Lanjutkan",
+        "working": "Memproses...",
+        "enabledSuccess": "Autentikasi dua faktor telah dimatikan.",
+        "disableError": "Gagal menonaktifkan aplikasi autentikator.",
+        "startError": "Gagal memulai penyiapan autentikator.",
+        "verifyError": "Gagal memverifikasi aplikasi autentikator.",
+        "regenerateError": "Gagal membuat ulang kode pemulihan.",
+        "downloadError": "Buat set kode pemulihan baru sebelum mengunduhnya.",
+        "recoveryRegenerated": "Kode pemulihan baru telah dibuat.",
+        "manage": {
+          "receiveCodesTitle": "Terima kode masuk",
+          "authenticatorDescription": "Anda menerima kode masuk melalui aplikasi autentikasi.",
+          "additionalMethodsTitle": "Metode tambahan",
+          "additionalMethodsDescription": "Lihat cara tetap masuk dengan aman jika metode lain tidak tersedia."
+        },
+        "appSettings": {
+          "title": "Aplikasi autentikasi",
+          "description": "Anda menerima kode masuk melalui aplikasi autentikasi.",
+          "connectedDevicesTitle": "Perangkat terhubung",
+          "add": "Tambah",
+          "connectedDevicesDescription": "Anda dapat menambahkan beberapa perangkat agar setiap perangkat yang terhubung dapat menerima kode masuk 6 digit dari aplikasi autentikator di perangkat tersebut.",
+          "noDevices": "Belum ada perangkat terhubung",
+          "lastUsed": "Terakhir digunakan: {date}",
+          "added": "Ditambahkan: {date}",
+          "active": "Aplikasi autentikasi aktif"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Kode pemulihan",
+          "recoveryCodesDescription": "Gunakan kode ini saat Anda tidak dapat mengakses ponsel."
+        },
+        "recoveryCodes": {
+          "download": "Unduh kode",
+          "regenerate": "Dapatkan kode baru",
+          "existing": "Anda memiliki {count} kode pemulihan yang belum digunakan. Klik \"Dapatkan kode baru\" untuk membuat set baru.",
+          "empty": "Belum ada kode pemulihan yang terlihat di sesi ini. Klik \"Dapatkan kode baru\" untuk membuat set baru."
+        },
+        "setup": {
+          "step1Title": "1. Unduh aplikasi autentikasi",
+          "step1Description": "Kami menyarankan mengunduh Duo Mobile atau Google Authenticator jika Anda belum memilikinya.",
+          "step2Title": "2. Pindai kode QR ini atau salin kuncinya",
+          "step2Description": "Pindai kode QR ini di aplikasi autentikator Anda, atau salin kuncinya dan tempel ke aplikasi.",
+          "copyKey": "Salin kunci",
+          "step3Title": "3. Salin kode enam digit dan masukkan",
+          "step3Description": "Setelah memindai kode QR atau memasukkan kunci, aplikasi Anda akan membuat kode 6 digit. Ketuk Masukkan kode di bawah.",
+          "enterCode": "Masukkan kode",
+          "qrAlt": "Kode QR untuk aplikasi autentikator Anda"
+        },
+        "naming": {
+          "label": "Nama perangkat (contoh: iPhone Stijn)",
+          "next": "Berikutnya"
+        },
+        "verify": {
+          "label": "Kode dari aplikasi autentikasi",
+          "submit": "Verifikasi kode"
+        },
+        "success": {
+          "done": "Selesai"
+        },
+        "ui": {
+          "on": "Aktif",
+          "turnOff": "Nonaktifkan",
+          "turnOffConfirm": "Nonaktifkan autentikasi dua faktor? Setelah itu, masuk hanya memerlukan kata sandi Anda.",
+          "cancel": "Batal",
+          "copyKey": "Salin",
+          "copied": "Tersalin",
+          "manualKey": "Kunci penyiapan",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "File pemulihan",
+          "rowDescription": "PDF yang memasukkan Anda saat diunggah, tanpa kata sandi atau kode.",
+          "otherMethodsTitle": "Cara lain untuk masuk",
+          "title": "File pemulihan",
+          "subtitle": "PDF yang Anda unggah saat masuk. File ini langsung memasukkan Anda, tanpa kata sandi atau kode. Berguna jika ponsel Anda hilang atau Anda lupa kata sandi.",
+          "download": "Unduh file pemulihan",
+          "downloading": "Sedang membuat file Anda…",
+          "downloaded": "Terunduh. Simpan file di tempat yang aman.",
+          "made": "Dibuat pada {date}",
+          "lastUsed": "Terakhir digunakan pada {date}",
+          "notUsed": "Belum pernah digunakan",
+          "remove": "Hapus",
+          "removeConfirm": "Hapus file pemulihan Anda? File ini langsung berhenti berfungsi.",
+          "removed": "File pemulihan dihapus.",
+          "cancel": "Batal",
+          "newTitle": "Perlu file baru?",
+          "newText": "File hanya bisa diunduh satu kali. Untuk mendapatkan yang baru, konfirmasi dengan kode yang kami kirim lewat email. File Anda saat ini lalu berhenti berfungsi.",
+          "requestCode": "Kirim kode lewat email",
+          "sending": "Mengirim…",
+          "codeSent": "Kami telah mengirim kode ke {email}.",
+          "codeLabel": "Kode",
+          "confirmDownload": "Konfirmasi dan unduh",
+          "loadError": "Kami tidak dapat memuat ini sekarang. Coba lagi nanti.",
+          "errors": {
+            "code_invalid": "Kode itu salah. Periksa email Anda dan coba lagi.",
+            "code_expired": "Kode ini sudah kedaluwarsa. Minta kode baru.",
+            "rate_limited": "Terlalu banyak percobaan. Coba lagi nanti.",
+            "send_failed": "Kami tidak dapat mengirim email sekarang. Coba lagi nanti.",
+            "generic": "Terjadi kesalahan. Coba lagi nanti."
+          },
+          "points": [
+            {
+              "title": "Unduh sekali",
+              "text": "File hanya bisa diunduh sekarang. Untuk yang baru nanti, Anda konfirmasi dengan kode yang kami kirim lewat email."
+            },
+            {
+              "title": "Simpan dengan aman",
+              "text": "Misalnya dicetak atau di drive terenkripsi. Siapa pun yang memiliki file ini dapat masuk ke akun Anda, jadi jangan kirim lewat email atau bagikan."
+            },
+            {
+              "title": "Masuk dengannya",
+              "text": "Masukkan email Anda saat masuk, pilih \"Lupa kata sandi?\", lalu \"Masuk dengan file pemulihan\", dan unggah PDF-nya."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Kunci sandi",
+        "subtitle": "Gunakan Touch ID, Face ID, Windows Hello, atau kunci keamanan perangkat keras sebagai metode masuk yang kuat di perangkat tepercaya.",
+        "add": "Tambahkan kunci sandi",
+        "empty": "Anda belum menambahkan kunci sandi.",
+        "unnamed": "Kunci sandi tanpa nama",
+        "addedOn": "Ditambahkan pada {date}",
+        "lastUsed": "Terakhir digunakan {date}",
+        "never": "Belum pernah digunakan",
+        "delete": "Hapus",
+        "count": "Anda memiliki {count} kunci sandi aktif.",
+        "none": "Anda belum mendaftarkan kunci sandi apa pun.",
+        "success": "Kunci sandi berhasil didaftarkan!",
+        "error": "Pendaftaran kunci sandi gagal.",
+        "pending": "Mendaftarkan...",
+        "emptyTitle": "Belum ada passkey",
+        "emptyText": "Tambahkan satu untuk masuk dengan sidik jari, wajah, atau kunci layar perangkat sebagai pengganti kata sandi. Kata sandi Anda tetap berfungsi.",
+        "deleteConfirm": "Hapus passkey ini? Anda tidak dapat lagi masuk dengannya.",
+        "cancel": "Batal",
+        "removing": "Menghapus...",
+        "createTitle": "Buat passkey",
+        "createSubtitle": "Passkey memungkinkan Anda masuk dengan sidik jari, wajah, atau kunci layar perangkat. Passkey disimpan oleh perangkat atau pengelola kata sandi Anda dan tidak pernah keluar darinya.",
+        "nameLabel": "Nama passkey",
+        "nameHint": "Agar Anda bisa membedakan passkey, misalnya perangkat atau pengelola kata sandi tempat passkey disimpan.",
+        "whatHappensTitle": "Langkah berikutnya",
+        "whatHappens1": "Browser atau pengelola kata sandi Anda menanyakan tempat menyimpan passkey.",
+        "whatHappens2": "Konfirmasikan dengan sidik jari, wajah, atau kunci layar Anda.",
+        "whatHappens3": "Sejak itu Anda dapat memilih passkey saat masuk.",
+        "create": "Buat passkey",
+        "waiting": "Ikuti petunjuk dari browser atau pengelola kata sandi Anda…",
+        "cancelled": "Tidak ada passkey yang dibuat. Anda dapat mencoba lagi.",
+        "doneTitle": "Passkey ditambahkan",
+        "doneSubtitle": "Sekarang Anda dapat masuk dengan \"{name}\". Kata sandi Anda juga tetap berfungsi.",
+        "done": "Selesai",
+        "back": "Kembali",
+        "removeError": "Gagal menghapus kunci sandi. Coba lagi.",
+        "defaultName": "{browser} di {system}",
+        "rowDescription": "Masuk dengan sidik jari, wajah, atau PIN perangkat Anda."
+      },
+      "activityModal": {
+        "title": "Aktivitas masuk akun",
+        "subtitle": "Tempat akun Anda sedang masuk saat ini. Keluar dari perangkat yang tidak Anda kenali.",
+        "unknownDevice": "Perangkat tidak dikenal",
+        "unknownLocation": "Lokasi tidak dikenal",
+        "currentDevice": "Perangkat ini",
+        "lastActive": "Terakhir aktif {date}",
+        "revoke": "Keluar",
+        "revokePending": "Memproses...",
+        "revokeAllTitle": "Sesi masuk di perangkat lain",
+        "revokeAll": "Keluar dari semua perangkat lain",
+        "revokeAllPending": "Memproses...",
+        "revokeSuccess": "Sesi telah dicabut.",
+        "revokeAllSuccess": "Semua sesi lain telah dikeluarkan.",
+        "revokeError": "Gagal mencabut sesi.",
+        "viewMore": "+ {count} perangkat lain",
+        "activeNow": "Aktif sekarang",
+        "thisDeviceTitle": "Perangkat ini",
+        "otherEmpty": "Anda tidak masuk di perangkat lain mana pun.",
+        "showAll": "Tampilkan semua {count}",
+        "revokeAllConfirm": "Keluar dari semua {count} perangkat lain? Siapa pun yang menggunakannya harus masuk lagi.",
+        "cancel": "Batal"
+      },
+      "automatedDecisions": {
+        "title": "Keputusan otomatis",
+        "description": "Beberapa keputusan perlindungan akun dibuat secara otomatis berdasarkan sinyal seperti pola masuk dan aktivitas mencurigakan. Anda dapat meminta orang di Ordnary untuk meninjau hasilnya.",
+        "back": "Kembali",
+        "close": "Tutup",
+        "loading": "Memuat…",
+        "currentStateTitle": "Status otomatis saat ini",
+        "riskLabels": {
+          "LOW": "Risiko rendah",
+          "MEDIUM": "Risiko sedang",
+          "HIGH": "Risiko tinggi"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktif",
+          "SUSPENDED": "Ditangguhkan sementara",
+          "DEACTIVATED": "Dinonaktifkan",
+          "DELETED": "Menunggu penghapusan"
+        },
+        "suspendedExplanation": "Akun Anda saat ini dibatasi oleh aturan otomatis. Anda dapat meminta tinjauan manusia di bawah. Seseorang di Ordnary akan melihat sinyal dan pernyataan Anda, lalu menegaskan atau membatalkan keputusan tersebut.",
+        "elevatedExplanation": "Tingkat risiko akun Anda dinaikkan berdasarkan aktivitas terbaru. Anda dapat meminta tinjauan manusia jika menurut Anda sinyalnya keliru.",
+        "okExplanation": "Kami tidak menandai pembatasan otomatis apa pun pada akun Anda. Anda tetap dapat meminta tinjauan atas keputusan sebelumnya di bawah.",
+        "lastEvaluated": "Terakhir dievaluasi",
+        "signalsTitle": "Sinyal keamanan terbaru",
+        "signalsEmpty": "Belum ada sinyal keamanan yang tercatat baru-baru ini.",
+        "appealTitle": "Minta tinjauan manusia",
+        "appealSubtitle": "Peninjau di Ordnary akan melihat keputusan otomatis, pernyataan Anda, dan sinyal yang mendasarinya. Kami berusaha menjawab dalam waktu wajar.",
+        "pickReason": "Apa yang Anda sanggah?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Saya yakin penangguhan ini keliru",
+          "RISK_LEVEL_OBJECTION": "Saya yakin tingkat risiko saya tidak benar",
+          "SECURITY_EVENT_OBJECTION": "Saya ingin menyanggah sinyal keamanan tertentu",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Saya ingin seseorang meninjau keputusan otomatis pada akun saya"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Akun Anda saat ini ditangguhkan dan Anda ingin keputusan itu ditinjau.",
+          "RISK_LEVEL_OBJECTION": "Tingkat risiko Anda lebih tinggi dari yang diharapkan dan Anda ingin dievaluasi ulang.",
+          "SECURITY_EVENT_OBJECTION": "Ada peristiwa keamanan tercatat yang tidak Anda kenali.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Anda ingin seseorang melihat keputusan otomatis pada akun Anda."
+        },
+        "yourStatement": "Pernyataan Anda (opsional)",
+        "statementPlaceholder": "Beri tahu kami hal yang perlu kami ketahui, misalnya Anda sedang bepergian, memakai perangkat baru, atau orang lain mencoba membobol akun Anda.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Kirim permintaan tinjauan",
+        "submitting": "Mengirim...",
+        "submitted": "Kami menerima permintaan Anda dan akan menghubungi Anda kembali.",
+        "pendingTitle": "Tinjauan sedang berlangsung",
+        "pendingSubtitle": "Seseorang di Ordnary sedang melihat permintaan Anda. Anda akan diberi tahu saat ada pembaruan.",
+        "withdraw": "Tarik permintaan",
+        "withdrawing": "Menarik...",
+        "withdrawn": "Permintaan ditarik.",
+        "withdrawableHint": "Anda dapat menarik permintaan ini kapan saja.",
+        "historyTitle": "Permintaan tinjauan sebelumnya",
+        "historyEmpty": "Belum ada permintaan tinjauan sebelumnya.",
+        "outcomes": {
+          "UPHELD": "Dikuatkan",
+          "OVERTURNED": "Dibatalkan",
+          "ADJUSTED": "Disesuaikan",
+          "ESCALATED": "Dieskalasi"
+        },
+        "statuses": {
+          "PENDING": "Menunggu",
+          "IN_REVIEW": "Ditinjau",
+          "RESOLVED": "Selesai",
+          "WITHDRAWN": "Ditarik"
+        },
+        "loadError": "Gagal memuat detail keputusan otomatis.",
+        "alreadyOpen": "Anda sudah memiliki permintaan tinjauan yang terbuka.",
+        "cooldown": "Anda dapat mengirim permintaan tinjauan baru lagi dalam {hours} jam. Jeda ini membantu peninjau menyelesaikan permintaan sebelumnya.",
+        "showAll": "Tampilkan semua ({count})",
+        "showLess": "Tampilkan lebih sedikit"
+      },
+      "previewBadge": "Pratinjau",
+      "previewBadgeTooltip": "Baru dan masih terus disempurnakan. Passkey berfungsi, tetapi detailnya bisa berubah."
+    },
+    "connections": {
+      "title": "Aplikasi terhubung",
+      "description": "Aplikasi yang memiliki akses ke data akun Ordnary Anda.",
+      "empty": "Anda belum menghubungkan aplikasi apa pun.",
+      "authorizedScopes": "Cakupan yang diizinkan: {scopes}",
+      "granted": "Diberikan: {date}",
+      "revoke": "Cabut akses"
+    },
+    "devices": {
+      "title": "Perangkat dan sesi",
+      "description": "Kelola sesi aktif Anda di berbagai perangkat.",
+      "logoutOthers": "Keluar dari semua perangkat lain",
+      "headers": {
+        "device": "Perangkat",
+        "location": "Lokasi / IP",
+        "lastActive": "Terakhir aktif",
+        "type": "Jenis",
+        "actions": "Tindakan"
+      },
+      "unknownDevice": "Perangkat tidak dikenal",
+      "currentSession": "(Sesi saat ini)",
+      "typeFormat": "{browser} di {os}",
+      "revoke": "Cabut"
+    },
+    "passkeysPage": {
+      "title": "Kunci sandi",
+      "description": "Kelola biometrik dan kunci perangkat keras untuk masuk tanpa kata sandi.",
+      "add": "+ Tambah kunci sandi baru",
+      "empty": "Anda belum menambahkan kunci sandi.",
+      "unnamed": "Kunci sandi tanpa nama",
+      "addedOn": "Ditambahkan pada: {date}",
+      "lastUsed": "Terakhir digunakan: {date}",
+      "never": "Tidak pernah",
+      "delete": "Hapus"
+    },
+    "activity": {
+      "title": "Aktivitas terbaru",
+      "description": "Tinjau dan pantau peristiwa serta perubahan penting terkait keamanan akun Anda.",
+      "details": "Detail",
+      "dates": {
+        "today": "Hari ini, 17 April",
+        "yesterday": "Kemarin, 16 April"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Masuk",
+        "LOGIN_FAILED": "Gagal masuk",
+        "LOGIN_LOCKED": "Upaya masuk diblokir",
+        "LOGOUT": "Keluar",
+        "SESSION_CREATED": "Sesi dibuat",
+        "SESSION_REVOKED": "Sesi diakhiri",
+        "SESSION_ALL_REVOKED": "Keluar di semua perangkat",
+        "PASSWORD_SET": "Kata sandi ditetapkan",
+        "PASSWORD_CHANGED": "Kata sandi diubah",
+        "PASSWORD_RESET_REQUESTED": "Reset kata sandi diminta",
+        "PASSWORD_RESET_COMPLETED": "Kata sandi direset",
+        "PASSKEY_REGISTERED": "Kunci sandi terdaftar",
+        "PASSKEY_USED": "Masuk dengan kunci sandi",
+        "PASSKEY_REMOVED": "Kunci sandi dihapus",
+        "PASSKEY_COUNTER_MISMATCH": "Peringatan kunci sandi",
+        "MFA_ENABLED": "Autentikasi dua faktor diaktifkan",
+        "MFA_DISABLED": "Autentikasi dua faktor dinonaktifkan",
+        "MFA_FACTOR_ENROLLED": "Aplikasi autentikator ditambahkan",
+        "MFA_FACTOR_VERIFIED": "Aplikasi autentikator dikonfirmasi",
+        "MFA_FACTOR_REVOKED": "Aplikasi autentikator dihapus",
+        "RECOVERY_CODES_GENERATED": "Kode pemulihan baru",
+        "RECOVERY_CODE_USED": "Kode pemulihan digunakan",
+        "STEP_UP_REQUIRED": "Konfirmasi diminta",
+        "STEP_UP_COMPLETED": "Dikonfirmasi bahwa ini Anda",
+        "EMAIL_ADDED": "Alamat email ditambahkan",
+        "EMAIL_VERIFIED": "Alamat email dikonfirmasi",
+        "EMAIL_REMOVED": "Alamat email dihapus",
+        "EMAIL_PRIMARY_CHANGED": "Email utama diubah",
+        "ACCOUNT_CREATED": "Akun dibuat",
+        "ACCOUNT_UPDATED": "Akun diperbarui",
+        "ACCOUNT_DELETED": "Penghapusan akun dimulai",
+        "ACCOUNT_REACTIVATED": "Akun diaktifkan kembali",
+        "OAUTH_CONSENT_GRANTED": "Aplikasi diberi akses",
+        "OAUTH_CONSENT_REVOKED": "Akses aplikasi dicabut",
+        "OAUTH_TOKEN_ISSUED": "Aplikasi masuk",
+        "OAUTH_TOKEN_REVOKED": "Aplikasi keluar",
+        "SUSPICIOUS_NEW_LOCATION": "Masuk dari lokasi baru",
+        "SUSPICIOUS_NEW_DEVICE": "Masuk di perangkat baru",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Aktivitas masuk tidak biasa",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Preferensi email diubah",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Berhenti berlangganan",
+        "PRIVACY_REQUEST_FILED": "Permintaan privasi diajukan",
+        "PRIVACY_REQUEST_RESOLVED": "Permintaan privasi ditangani",
+        "DSAR_FILED": "Permintaan data diajukan",
+        "DSAR_FULFILLED": "Permintaan data dipenuhi",
+        "DSAR_REJECTED": "Permintaan data ditolak",
+        "RISK_REVIEW_REQUESTED": "Peninjauan diminta",
+        "RISK_REVIEW_RESOLVED": "Peninjauan selesai"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Sedang",
+        "HIGH": "Tinggi",
+        "CRITICAL": "Kritis",
+        "LOW": "Rendah"
+      },
+      "empty": "Belum ada aktivitas di akun Anda.",
+      "filters": {
+        "all": "Semua",
+        "account": "Perubahan akun",
+        "security": "Peringatan keamanan"
+      },
+      "retention": "Aktivitas disimpan selama {days} hari. Anda dapat mengubahnya di {link}.",
+      "retentionLink": "Informasi dan izin Anda",
+      "emptyFiltered": "Tidak ada yang dapat ditampilkan di tampilan ini.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Seseorang masuk ke akun Anda dengan kata sandi atau kode masuk.",
+        "LOGIN_FAILED": "Seseorang mencoba masuk ke akun Anda, tetapi kata sandi atau kodenya salah. Jika hanya beberapa kali, biasanya ini salah ketik.",
+        "LOGIN_LOCKED": "Setelah terlalu banyak percobaan yang salah, upaya masuk ke akun Anda diblokir untuk sementara demi keamanan.",
+        "LOGOUT": "Sebuah sesi di akun Anda telah keluar.",
+        "SESSION_CREATED": "Akun Anda masuk di perangkat atau browser, sehingga sesi baru dimulai.",
+        "SESSION_REVOKED": "Satu sesi di akun Anda dikeluarkan, oleh Anda atau karena sesi tersebut tidak lagi aman.",
+        "SESSION_ALL_REVOKED": "Akun Anda dikeluarkan dari semua perangkat lain.",
+        "PASSWORD_SET": "Kata sandi ditambahkan ke akun Anda.",
+        "PASSWORD_CHANGED": "Kata sandi akun Anda diubah.",
+        "PASSWORD_RESET_REQUESTED": "Kode untuk mereset kata sandi Anda dikirim ke alamat email Anda.",
+        "PASSWORD_RESET_COMPLETED": "Kata sandi Anda direset dengan kode dari email Anda, dan Anda dikeluarkan dari semua perangkat.",
+        "PASSKEY_REGISTERED": "Kunci sandi ditambahkan, sehingga Anda dapat masuk dengan perangkat Anda alih-alih kata sandi.",
+        "PASSKEY_USED": "Seseorang masuk ke akun Anda dengan salah satu kunci sandinya.",
+        "PASSKEY_REMOVED": "Kunci sandi dihapus dan tidak dapat lagi digunakan untuk masuk.",
+        "PASSKEY_COUNTER_MISMATCH": "Kunci sandi melaporkan sesuatu yang tidak terduga, yang bisa berarti kunci tersebut telah disalin. Upaya masuk ditolak.",
+        "MFA_ENABLED": "Saat masuk, kini Anda juga diminta kode dari aplikasi autentikator.",
+        "MFA_DISABLED": "Saat masuk, Anda tidak lagi diminta kode dari aplikasi autentikator.",
+        "MFA_FACTOR_ENROLLED": "Aplikasi autentikator ditautkan ke akun Anda.",
+        "MFA_FACTOR_VERIFIED": "Kode dari aplikasi autentikator Anda dikonfirmasi.",
+        "MFA_FACTOR_REVOKED": "Aplikasi autentikator dihapus dari akun Anda.",
+        "RECOVERY_CODES_GENERATED": "Kumpulan kode pemulihan baru dibuat. Kode lama tidak berlaku lagi.",
+        "RECOVERY_CODE_USED": "Seseorang masuk dengan salah satu kode pemulihan Anda, bukan dengan kode autentikator. Kode tersebut tidak dapat digunakan lagi.",
+        "STEP_UP_REQUIRED": "Sebelum perubahan sensitif, Anda diminta mengonfirmasi bahwa ini Anda dengan kode melalui email.",
+        "STEP_UP_COMPLETED": "Kode melalui email mengonfirmasi bahwa ini Anda, sehingga perubahan sensitif diizinkan untuk sementara.",
+        "EMAIL_ADDED": "Alamat email ditambahkan ke akun Anda dan dikirimi tautan konfirmasi.",
+        "EMAIL_VERIFIED": "Alamat email di akun Anda dikonfirmasi.",
+        "EMAIL_REMOVED": "Alamat email dihapus dari akun Anda.",
+        "EMAIL_PRIMARY_CHANGED": "Alamat email lain menjadi alamat utama akun Anda, untuk masuk dan menerima pesan.",
+        "ACCOUNT_CREATED": "Akun Ordnary Anda dibuat.",
+        "ACCOUNT_UPDATED": "Pengaturan atau detail di akun Anda diubah.",
+        "ACCOUNT_DELETED": "Akun Anda dijadwalkan untuk dihapus. Akun dapat dipulihkan selama 30 hari.",
+        "ACCOUNT_REACTIVATED": "Akun Anda diaktifkan kembali setelah dinonaktifkan atau dihapus.",
+        "OAUTH_CONSENT_GRANTED": "Sebuah aplikasi mendapatkan akses ke akun Anda dengan Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "Sebuah aplikasi tidak lagi memiliki akses ke akun Anda.",
+        "OAUTH_TOKEN_ISSUED": "Aplikasi yang Anda gunakan dengan Ordnary ID mendapatkan token masuk baru.",
+        "OAUTH_TOKEN_REVOKED": "Token masuk untuk sebuah aplikasi dicabut.",
+        "SUSPICIOUS_NEW_LOCATION": "Akun Anda digunakan dari lokasi yang belum pernah digunakan sebelumnya.",
+        "SUSPICIOUS_NEW_DEVICE": "Akun Anda digunakan di perangkat yang belum pernah digunakan sebelumnya.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Akun Anda digunakan dari dua lokasi yang terlalu jauh untuk ditempuh satu orang dalam waktu tersebut.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Jenis email yang boleh dikirim Ordnary kepada Anda diubah.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Tautan berhenti berlangganan di sebuah email menonaktifkan satu jenis email.",
+        "PRIVACY_REQUEST_FILED": "Permintaan untuk menolak atau membatasi pemrosesan data Anda diajukan.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary telah menangani permintaan Anda untuk menolak atau membatasi pemrosesan.",
+        "DSAR_FILED": "Permintaan terkait data Anda (akses, koreksi, penghapusan, atau salinan) diajukan.",
+        "DSAR_FULFILLED": "Ordnary telah menyelesaikan permintaan data Anda.",
+        "DSAR_REJECTED": "Ordnary menolak permintaan data Anda; email yang dikirim menjelaskan alasannya.",
+        "RISK_REVIEW_REQUESTED": "Peninjauan atas keputusan otomatis terkait akun Anda diminta.",
+        "RISK_REVIEW_RESOLVED": "Seorang staf Ordnary meninjau keputusan otomatis terkait akun Anda."
+      },
+      "detail": {
+        "ifNotYou": "Bukan Anda? Ubah kata sandi Anda dan keluarkan perangkat lain di Kata sandi dan keamanan.",
+        "ifNotYouLink": "Buka Kata sandi dan keamanan",
+        "generic": "Ini tercatat di akun Anda.",
+        "labels": {
+          "when": "Waktu",
+          "where": "Lokasi",
+          "ip": "Alamat IP",
+          "session": "Sesi",
+          "thisDevice": "Perangkat ini",
+          "event": "Peristiwa",
+          "source": "Dicatat di",
+          "severity": "Tingkat kepentingan"
+        },
+        "sources": {
+          "AUDIT_LOG": "Log akun",
+          "SECURITY_EVENT": "Pemantauan keamanan"
+        },
+        "unknown": "Tidak diketahui",
+        "times": "{count}×",
+        "timeSpan": "{from} sampai {to}"
+      },
+      "showMore": "Tampilkan hari sebelumnya",
+      "loadingMore": "Memuat…",
+      "end": "Itu semua aktivitas yang disimpan.",
+      "loadFailed": "Tidak dapat memuat lagi. Coba lagi."
+    },
+    "connectedAppsDemo": {
+      "title": "Aplikasi terhubung",
+      "description": "Aplikasi dan layanan pihak ketiga yang Anda beri akses ke sebagian data akun Anda.",
+      "badges": {
+        "official": "Resmi",
+        "verified": "Terverifikasi"
+      },
+      "accessed": "Diakses {value}",
+      "revoke": "Cabut akses",
+      "apps": {
+        "consoleReason": "Kelola sumber daya cloud dan pipeline deployment Anda.",
+        "figmaReason": "Alat desain untuk prototipe kolaboratif.",
+        "unknownGameName": "Game tidak dikenal",
+        "unknownGameReason": "Aplikasi belum terverifikasi yang meminta info profil Anda.",
+        "currentSession": "Sesi saat ini",
+        "twoDaysAgo": "2 hari lalu",
+        "lastMonth": "Bulan lalu"
+      }
+    },
+    "permissions": {
+      "title": "Informasi dan izin Anda",
+      "exportTitle": "Ekspor informasi Anda",
+      "searchHistory": "Aktivitas Ordnary",
+      "externalActivity": "Aktivitas Anda di luar teknologi Ordnary",
+      "appConnections": "Koneksi aplikasi",
+      "manageContacts": "Kelola kontak",
+      "notice": "Buka Ekspor informasi Anda untuk mengunduh atau memindahkan salinan informasi Anda.",
+      "footer": "Tentukan informasi apa yang boleh digunakan teknologi Ordnary untuk memengaruhi pengalaman Anda.",
+      "privacyRightsTitle": "Hak privasi Anda",
+      "dsarTitle": "Permintaan privasi & data",
+      "dsarSubtitle": "Ajukan permintaan resmi untuk akses, perbaikan, penghapusan, atau portabilitas (Pasal 15-20).",
+      "privacyRequestsTitle": "Keberatan atau batasi",
+      "privacyRequestsSubtitle": "Keberatan atau batasi aktivitas pemrosesan tertentu (Pasal 18 / Pasal 21).",
+      "processorsTitle": "Siapa yang memproses data Anda",
+      "processorsSubtitle": "Perusahaan yang kami gunakan untuk menjalankan Ordnary, apa yang mereka terima, dan di mana mereka menyimpannya.",
+      "cookiesTitle": "Preferensi cookie",
+      "cookiesSubtitle": "Kelola cookie yang boleh digunakan Ordnary di browser ini.",
+      "minorConsentTitle": "Persetujuan orang tua",
+      "minorConsentSubtitle": "Jika Anda di bawah usia persetujuan di negara Anda, orang tua atau wali harus menyetujui (GDPR Pasal 8).",
+      "notificationsTitle": "Preferensi notifikasi",
+      "notificationsSubtitle": "Pilih jenis email yang boleh dikirim Ordnary kepada Anda.",
+      "notifications": {
+        "title": "Preferensi notifikasi",
+        "close": "Tutup",
+        "loading": "Memuat…",
+        "alwaysOn": "Selalu aktif",
+        "description": "Pilih email apa yang Anda terima dari Ordnary.",
+        "loadError": "Kami tidak dapat memuatnya saat ini. Coba lagi nanti.",
+        "saveError": "Kami tidak dapat menyimpannya. Coba lagi.",
+        "saved": "Tersimpan.",
+        "alwaysTitle": "Selalu aktif",
+        "alwaysText": "Email ini menjaga akun Anda tetap aman dan mengonfirmasi hal yang Anda minta, jadi selalu aktif.",
+        "choiceTitle": "Pilihan Anda",
+        "turnAllOff": "Matikan semua email opsional",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Peringatan keamanan",
+          "TRANSACTIONAL_ACCOUNT": "Pesan akun",
+          "PRODUCT_UPDATES": "Pembaruan produk",
+          "RECOMMENDATIONS": "Rekomendasi",
+          "MARKETING": "Berita dan penawaran"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Kode masuk, pengaturan ulang kata sandi, dan peringatan tentang proses masuk baru atau perubahan pada keamanan Anda.",
+          "TRANSACTIONAL_ACCOUNT": "Konfirmasi atas hal yang Anda lakukan, seperti ekspor data, permintaan privasi, atau persetujuan orang tua.",
+          "PRODUCT_UPDATES": "Hal baru di produk Ordnary, dan perubahan pada ketentuan kami.",
+          "RECOMMENDATIONS": "Saran berdasarkan cara Anda menggunakan Ordnary.",
+          "MARKETING": "Buletin dan penawaran, sesekali."
+        }
+      },
+      "minorConsent": {
+        "title": "Persetujuan orang tua",
+        "description": "Jika Anda lebih muda dari usia di mana Anda dapat menyetujui sesuatu secara daring sendiri, orang tua atau wali harus menyetujui sebelum kami dapat menggunakan sebagian informasi Anda. Ini berasal dari Pasal 8 GDPR.",
+        "close": "Tutup",
+        "loading": "Memuat…",
+        "loadError": "Kami tidak dapat memuat ini saat ini. Coba lagi nanti.",
+        "consentAge": "Usia persetujuan di {country}: {age}",
+        "yourAge": "Usia Anda: {age}",
+        "adultTitle": "Tidak diperlukan",
+        "adultBody": "Anda cukup umur untuk menyetujui sendiri, jadi Anda tidak memerlukan persetujuan orang tua.",
+        "unknownTitle": "Kami belum tahu usia Anda",
+        "unknownBody": "Tambahkan tanggal lahir Anda agar kami dapat mengetahui apakah Anda memerlukan persetujuan orang tua.",
+        "unknownAction": "Tambahkan tanggal lahir",
+        "blockedTitle": "Persetujuan diperlukan",
+        "blockedBody": "Sampai orang tua atau wali menyetujui, sebagian fitur akun Anda dibatasi.",
+        "pendingTitle": "Menunggu orang tua atau wali Anda",
+        "pendingBody": "Kami mengirim permintaan ke {email}. Tautannya berlaku sampai {date}.",
+        "verifiedTitle": "Persetujuan diberikan",
+        "verifiedBody": "{email} menyetujui pada {date}.",
+        "parentEmail": "Email orang tua atau wali",
+        "relationship": "Siapa ini, misalnya ibu (opsional)",
+        "addMessage": "Tambahkan pesan (opsional)",
+        "notes": "Pesan untuk orang tua atau wali Anda",
+        "submit": "Kirim permintaan",
+        "submitting": "Mengirim…",
+        "resend": "Kirim lagi",
+        "changeEmail": "Gunakan email lain",
+        "cancel": "Batal",
+        "revoke": "Tarik",
+        "revokeConfirm": "Tarik persetujuan? Sebagian fitur akun Anda akan dibatasi lagi sampai orang tua atau wali menyetujui kembali.",
+        "revoking": "Menarik…",
+        "revoked": "Persetujuan ditarik.",
+        "notMinor": "Anda cukup umur untuk menyetujui sendiri.",
+        "invalidEmail": "Masukkan alamat email yang valid.",
+        "requestSent": "Permintaan dikirim ke {email}.",
+        "points": [
+          {
+            "title": "Masukkan email mereka",
+            "text": "Alamat email orang tua atau wali."
+          },
+          {
+            "title": "Mereka menyetujui",
+            "text": "Mereka menerima email berisi tautan untuk menyetujui. Tautan berlaku 14 hari."
+          },
+          {
+            "title": "Akun Anda berfungsi penuh",
+            "text": "Setelah mereka menyetujui, batasan pada akun Anda dicabut."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Anda dapat mengekspor salinan informasi Anda ke layanan eksternal atau ke perangkat Anda. Data yang tersedia mencakup konten dan informasi yang Anda bagikan, aktivitas Anda, dan informasi yang kami kumpulkan.",
+      "exportButton": "Kirim tautan unduhan",
+      "exportModalContentsTitle": "Yang termasuk dalam ekspor Anda:",
+      "exportModalContents": [
+        "Data profil dan pengaturan akun",
+        "Alamat email dan nomor telepon",
+        "Pengaturan keamanan (passkey, MFA, perangkat)",
+        "Riwayat sesi dan masuk",
+        "Detail pembayaran",
+        "Aplikasi terhubung dan persetujuan OAuth",
+        "Log aktivitas dan peristiwa keamanan",
+        "Persetujuan privasi dan cookie"
+      ],
+      "exportModalFormat": "Format: arsip ZIP berisi file JSON terstruktur dan README yang mudah dibaca.",
+      "exportModalRateLimit": "Anda akan menerima email berisi tautan unduhan sekali pakai. Maksimal 3 ekspor per 24 jam.",
+      "exportDownload": {
+        "loading": "Sebentar...",
+        "readyTitle": "Ekspor data Anda sudah siap",
+        "readyDescription": "Klik tombol di bawah untuk mengunduh data akun Anda sebagai arsip ZIP. Tautan ini sekali pakai dan kedaluwarsa setelah 24 jam.",
+        "downloadButton": "Unduh data Anda",
+        "readyHint": "File ini berisi semua data pribadi, pengaturan keamanan, log aktivitas Anda, dan lainnya dalam file JSON terstruktur.",
+        "downloadingTitle": "Mengunduh...",
+        "downloadingDescription": "Ekspor Anda sedang disiapkan. Ini mungkin memakan waktu beberapa detik.",
+        "successTitle": "Unduhan dimulai",
+        "successDescription": "Ekspor data Anda sedang diunduh. Simpan file di tempat aman karena berisi informasi pribadi yang sensitif.",
+        "successHint": "Tautan unduhan ini sekarang sudah kedaluwarsa. Jika Anda memerlukan ekspor baru, Anda dapat memintanya dari pengaturan akun.",
+        "backToSettings": "Kembali ke pengaturan akun",
+        "expiredTitle": "Tautan kedaluwarsa",
+        "expiredDescription": "Tautan unduhan ini sudah kedaluwarsa atau sudah digunakan. Tautan unduhan berlaku 24 jam dan hanya dapat dipakai sekali.",
+        "newExportButton": "Minta ekspor baru",
+        "errorTitle": "Terjadi kesalahan",
+        "errorDefault": "Terjadi kesalahan saat mengambil ekspor Anda.",
+        "noToken": "Token unduhan tidak ditemukan."
+      },
+      "appConnectionsModalSubtitle": "Dengan koneksi aplikasi, Anda dapat melakukan berbagai hal di berbagai produk Ordnary dan dengan perusahaan lain.",
+      "connectButton": "Hubungkan",
+      "activityModalSubtitle": "Lihat dan kelola aktivitas Anda di ekosistem Ordnary, termasuk produk dan aplikasi SaaS kami. Kami menggunakan informasi ini untuk mempelajari perilaku Anda dan mengoptimalkan pengalaman Anda di semua platform kami.",
+      "accountsAndProfiles": "Akun dan profil Anda",
+      "keepActivityFor": "Simpan aktivitas selama",
+      "clearActivityButton": "Hapus semua aktivitas",
+      "days3": "3 hari",
+      "days7": "7 hari",
+      "days14": "14 hari",
+      "standardOption": "Standar",
+      "noticeTitle": "Dapatkan salinan informasi Anda",
+      "noticeText": "Unduh data akun Anda untuk disimpan, atau pindahkan ke layanan lain.",
+      "noticeAction": "Ekspor informasi",
+      "experimentBadge": "Eksperimen",
+      "userFallback": "Pengguna",
+      "avatarAlt": "Foto profil",
+      "exportSent": "Tautan unduhan dikirim ke {email}",
+      "exportFailed": "Ekspor gagal. Coba lagi.",
+      "exportInProgress": "Sebuah ekspor sedang disiapkan. Coba lagi sebentar lagi.",
+      "exportRateLimited": "Anda telah mencapai jumlah ekspor maksimum. Coba lagi dalam {time}.",
+      "saveFailed": "Gagal menyimpan. Coba lagi.",
+      "days30": "30 hari",
+      "autoClear": {
+        "title": "Hapus otomatis aktivitas Ordnary",
+        "subtitle": "Pilih berapa lama kami menyimpan aktivitas Anda. Aktivitas yang lebih lama dihapus otomatis, untuk semua akun dan profil di Pusat Akun.",
+        "standard": "Standar",
+        "saving": "Menyimpan…",
+        "saved": "Tersimpan.",
+        "back": "Kembali",
+        "close": "Tutup",
+        "howTitle": "Apa yang dihapus",
+        "howText": "Riwayat masuk Anda dan peristiwa keamanan di akun Anda, seperti proses masuk baru, perubahan kata sandi, dan percobaan yang diblokir, setelah lebih lama dari periode yang Anda pilih.",
+        "howPermanent": "Aktivitas yang dihapus tidak dapat dikembalikan. Unduh salinannya dulu jika ingin menyimpannya.",
+        "learnMore": "Selengkapnya tentang hapus otomatis di dokumentasi Ordnary"
+      },
+      "experimentBadgeTooltip": "Masih dalam pengembangan. Anda bisa melihat-lihat, tetapi menghubungkan aplikasi belum berfungsi."
+    },
+    "payments": {
+      "title": "Pay",
+      "subtitle": "Kelola informasi pembayaran tersimpan Anda dan akun mana yang memiliki akses ke sana. {learnMore}",
+      "syncInfo": "Disinkronkan antara 2 akun",
+      "addMethodTitle": "Tambahkan metode pembayaran",
+      "addMethodSubtitle": "Simpan kartu atau tautkan PayPal Anda agar pembelian berikutnya lebih mudah.",
+      "addMethodButton": "Tambahkan metode pembayaran",
+      "shippingTitle": "Detail pengiriman",
+      "shippingAddress": "Alamat pengiriman",
+      "emailAddress": "Alamat email",
+      "phoneNumber": "Nomor telepon",
+      "addModal": {
+        "title": "Tambahkan metode pembayaran",
+        "card": "Kartu kredit atau debit",
+        "paypal": "PayPal",
+        "footer": "Informasi ini akan disimpan di Ordnary Pay dan disinkronkan di Pusat Akun, tempat informasi dapat dikelola. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Tambahkan kartu",
+        "subtitle": "Nomor kartu Anda dienkripsi dan disimpan dengan aman",
+        "cardNumber": "Nomor kartu",
+        "expiry": "Tanggal kedaluwarsa (BB/TT)",
+        "cvv": "CVV",
+        "name": "Nama pada kartu",
+        "submit": "Berikutnya",
+        "cvvTooltip": "Kode verifikasi (CVV) adalah nomor keamanan di bagian belakang atau depan kartu Anda.",
+        "footer": "Informasi ini akan disimpan di Ordnary Pay dan disinkronkan di Pusat Akun, tempat informasi dapat dikelola. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Atur alamat pengiriman",
+        "subtitle": "Tambahkan alamat pengiriman untuk Ordnary Pay. Ini terpisah dari proses penyiapan kartu Anda.",
+        "search": "Cari alamat",
+        "country": "Negara atau wilayah",
+        "fullName": "Nama lengkap",
+        "street": "Alamat",
+        "street2": "Baris alamat 2 (opsional)",
+        "city": "Kota/kecamatan",
+        "state": "Provinsi/wilayah",
+        "zip": "Kode pos",
+        "submit": "Simpan alamat"
+      }
+    },
+    "subscriptions": {
+      "description": "Kelola langganan Ordnary aktif, perpanjangan, dan pengaturan penagihan Anda.",
+      "emptyTitle": "Tidak ada langganan aktif",
+      "emptyDescription": "Langganan akan muncul di sini setelah ditautkan ke akun Anda.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Akses tanpa batas ke media premium dari Ordnary Pictures, termasuk film pilihan, serial, pratinjau, dan rilisan khusus anggota di berbagai layanan Ordnary yang didukung.",
+          "status": "Aktif",
+          "renewal": "Diperpanjang setiap bulan",
+          "price": "€9,99 per bulan"
+        }
+      },
+      "manageSubscription": "Kelola langganan"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Akses ditolak",
+        "description": "Anda tidak memiliki akses ke Pusat Akun saat ini. Sesi Anda mungkin telah berakhir, atau akun Anda dibatasi.",
+        "action": "Masuk lagi"
+      },
+      "suspended": {
+        "title": "Akun dinonaktifkan",
+        "description": "Akun ini dinonaktifkan atau dibatasi sementara. Hubungi dukungan jika Anda merasa ini keliru.",
+        "action": "Hubungi dukungan"
+      },
+      "banned": {
+        "title": "Akses ditolak permanen",
+        "description": "Akun Anda diblokir secara permanen karena melanggar Ketentuan Layanan kami.",
+        "action": "Lihat ketentuan"
+      },
+      "offline": {
+        "title": "Tidak ada koneksi internet",
+        "description": "Sepertinya Anda sedang offline. Periksa koneksi internet Anda untuk melanjutkan.",
+        "action": "Coba lagi"
+      },
+      "unknown": {
+        "title": "Kesalahan sistem",
+        "description": "Terjadi kesalahan yang tidak terduga. Coba lagi nanti.",
+        "action": "Kembali ke awal"
+      },
+      "previousPage": "Halaman sebelumnya"
+    },
+    "common": {
+      "noResults": "Tidak ada hasil",
+      "searchPlaceholder": "Cari..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} ingin mengakses akun Anda",
+      "description": "Anda masuk sebagai {displayName}. Berikan akses hanya jika Anda memercayai aplikasi ini.",
+      "requestedPermissions": "Izin yang diminta",
+      "approve": "Beri akses",
+      "deny": "Tolak",
+      "errorTitle": "Ada masalah dengan permintaan",
+      "errorDescription": "Permintaan otorisasi tidak valid atau tidak lengkap. Periksa parameternya.",
+      "unknownAppTitle": "Tidak dapat memverifikasi aplikasi",
+      "unknownAppDescription": "Ordnary tidak dapat mengidentifikasi aplikasi ini. Biasanya karena client_id atau redirect_uri salah. Demi keamanan Anda, kami tidak dapat melanjutkan."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Halaman ini tidak tersedia",
+      "description": "Tautannya mungkin rusak, atau halamannya telah dihapus. Periksa apakah tautan yang ingin Anda buka sudah benar.",
+      "button": "Buka pengaturan akun"
+    },
+    "serverError": {
+      "title": "Terjadi kesalahan",
+      "description": "Terjadi kesalahan tak terduga. Silakan coba lagi nanti.",
+      "button": "Coba lagi"
+    }
+  },
+  "cookieConsent": {
+    "title": "Izinkan penggunaan cookie dari Ordnary di browser ini?",
+    "description": "Kami menggunakan cookie dan teknologi serupa untuk menyediakan konten di produk Ordnary dan meningkatkannya. Kami juga menggunakannya untuk memberikan pengalaman yang lebih aman dengan memakai informasi yang kami terima di dalam dan di luar Ordnary. Cookie ini bersifat opsional.",
+    "essentialTitle": "Cookie esensial",
+    "essentialDesc": "Cookie ini diperlukan untuk menggunakan produk Ordnary dan penting agar situs kami berfungsi dengan baik.",
+    "optionalTitle": "Cookie dari perusahaan lain",
+    "optionalDesc": "Kami menggunakan cookie ini untuk menampilkan iklan di luar produk Ordnary dan menyediakan fitur seperti peta dan video di produk Ordnary. Cookie ini bersifat opsional.",
+    "policyInfo": "Anda yang menentukan cookie opsional mana yang boleh kami gunakan. Di {cookiePolicy} kami, Anda akan menemukan informasi lebih lanjut tentang cookie dan cara kami menggunakannya, dan Anda dapat meninjau atau mengubah pilihan kapan saja.",
+    "cookiePolicy": "kebijakan cookie",
+    "infoTitle": "Informasi tentang cookie",
+    "policyRefreshNotice": "Kami telah memperbarui cara kami mencatat pilihan cookie. Harap konfirmasi preferensi Anda lagi agar kami dapat menyimpan catatan terbaru.",
+    "policyRevisionNotice": "Kebijakan cookie kami telah diperbarui. Harap tinjau preferensi Anda lagi.",
+    "preferencesTitle": "Preferensi cookie Anda",
+    "preferencesDescription": "Pilih kategori cookie yang boleh digunakan Ordnary di browser ini. Anda dapat mengubah pengaturan ini kapan saja dari akun Anda.",
+    "alwaysOn": "Selalu aktif",
+    "categories": {
+      "essential": {
+        "title": "Esensial",
+        "description": "Diperlukan agar proses masuk, keamanan, dan bagian produk lainnya berfungsi."
+      },
+      "functional": {
+        "title": "Fungsional",
+        "description": "Mengingat preferensi seperti bahasa, tema, dan akun terbaru."
+      },
+      "analytics": {
+        "title": "Analitik",
+        "description": "Membantu kami memahami cara Ordnary digunakan agar dapat kami tingkatkan."
+      },
+      "marketing": {
+        "title": "Pemasaran",
+        "description": "Pesan yang dipersonalisasi dari Ordnary tentang produk dan penawaran."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Apa itu cookie?",
+        "button": "Pelajari lebih lanjut"
+      },
+      "why": {
+        "title": "Mengapa kami menggunakan cookie?",
+        "button": "Pelajari lebih lanjut"
+      },
+      "products": {
+        "title": "Apa itu produk Ordnary?",
+        "button": "Pelajari lebih lanjut"
+      },
+      "preferences": {
+        "title": "Preferensi cookie Anda",
+        "button": "Pelajari lebih lanjut"
+      }
+    },
+    "buttons": {
+      "reject": "Tolak cookie opsional",
+      "accept": "Izinkan semua cookie",
+      "rejectShort": "Tolak",
+      "acceptShort": "Izinkan",
+      "customize": "Sesuaikan",
+      "save": "Simpan preferensi",
+      "saveShort": "Simpan",
+      "close": "Tutup"
+    }
+  },
+  "recentAccounts": {
+    "title": "Masuk dengan akun Ordnary Anda",
+    "continueAs": "Lanjutkan sebagai {name}",
+    "loginAnother": "Masuk dengan akun lain",
+    "remove": "Hapus akun"
+  },
+  "reauthenticate": {
+    "title": "Konfirmasi bahwa ini Anda",
+    "description": "Halo {name}, demi keamanan Anda, kami perlu memverifikasi bahwa ini Anda sebelum Anda {action}.",
+    "codeSentTo": "Kami mengirim kode ke {email}.",
+    "codeSent": "Kami telah mengirim kode keamanan 6 digit ke email Anda.",
+    "securityCode": "Kode keamanan",
+    "continue": "Lanjutkan",
+    "verifying": "Memverifikasi…",
+    "sending": "Mengirim…",
+    "cancel": "Batal",
+    "errors": {
+      "sendFailed": "Gagal mengirim kode keamanan.",
+      "invalidCode": "Kode tidak valid.",
+      "network": "Kesalahan jaringan. Silakan coba lagi."
+    },
+    "actions": {
+      "changePassword": "mengubah kata sandi Anda",
+      "changeEmail": "mengelola alamat email Anda",
+      "managePasskeys": "mengelola kunci sandi Anda",
+      "manageMfa": "mengelola autentikasi dua faktor",
+      "revokeAllSessions": "keluar di semua perangkat",
+      "manageAccount": "menonaktifkan atau menghapus akun Anda",
+      "rotateClientSecret": "memutar rahasia klien ini",
+      "managePaymentMethods": "mengelola metode pembayaran Anda",
+      "authorizeApp": "mengotorisasi aplikasi ini",
+      "generic": "melanjutkan tindakan sensitif ini"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Konfirmasi persetujuan orang tua",
+    "description": "Seorang pengguna meminta Anda untuk mengotorisasi akun Ordnary mereka berdasarkan Pasal 8 GDPR. Klik konfirmasi di bawah untuk mencatat persetujuan Anda. Anda dapat mencabutnya kapan saja dengan membalas email asli atau menghubungi {email}.",
+    "idle": "Halaman ini harus dibuka dari tautan di email permintaan agar token konfirmasi disertakan.",
+    "verifying": "Memverifikasi…",
+    "success": "Terima kasih. Persetujuan orang tua telah dikonfirmasi dan kami telah membuka akun di sisi pengguna. Mereka juga akan menerima notifikasi.",
+    "errors": {
+      "tokenRequired": "Token verifikasi tidak diberikan.",
+      "tokenNotFound": "Tautan konfirmasi ini tidak lagi valid.",
+      "alreadyVerified": "Konfirmasi ini sudah dicatat.",
+      "requestRevoked": "Permintaan ini telah ditarik atau diganti dengan yang lebih baru.",
+      "tokenExpired": "Tautan konfirmasi ini telah kedaluwarsa. Mintalah pengguna mengirim permintaan baru.",
+      "invalidBody": "Permintaan verifikasi tidak valid.",
+      "generic": "Kami tidak dapat memverifikasi tautan konfirmasi ini. Mintalah pengguna mengirim permintaan baru."
+    }
+  },
+  "unsubscribe": {
+    "title": "Berhenti berlangganan",
+    "idle": "Buka halaman ini dari tautan di email agar token berhenti berlangganan disertakan.",
+    "verifying": "Menyimpan preferensi Anda…",
+    "success": "Anda telah berhenti berlangganan.",
+    "successWithCategory": "Anda telah berhenti berlangganan dari {category}.",
+    "manageAt": "Anda dapat menyesuaikan semua preferensi notifikasi kapan saja di {link}.",
+    "categories": {
+      "transactionalSecurity": "peringatan keamanan",
+      "transactionalAccount": "notifikasi akun",
+      "productUpdates": "pembaruan produk",
+      "recommendations": "rekomendasi",
+      "marketing": "email pemasaran"
+    },
+    "errors": {
+      "tokenRequired": "Token berhenti berlangganan tidak diberikan.",
+      "tokenNotFound": "Tautan berhenti berlangganan ini tidak lagi valid.",
+      "alreadyRedeemed": "Anda sudah berhenti berlangganan dari kategori ini.",
+      "tokenExpired": "Tautan berhenti berlangganan ini telah kedaluwarsa. Anda dapat mengelola preferensi dari Pusat Akun setelah masuk.",
+      "categoryMandatory": "Kategori ini tidak dapat dimatikan karena mencakup notifikasi keamanan dan notifikasi wajib akun.",
+      "generic": "Kami tidak dapat memproses tautan berhenti berlangganan ini. Silakan masuk dan sesuaikan preferensi Anda langsung."
+    }
+  },
+  "dsarVerify": {
+    "title": "Konfirmasi permintaan privasi Anda",
+    "description": "Konfirmasi bahwa Anda mengirim permintaan tentang data Anda ini ke Ordnary. Jika tidak, tutup halaman ini dan beri tahu kami di {email}.",
+    "idle": "Buka halaman ini dari tautan di email yang kami kirim agar konfirmasinya ikut.",
+    "confirm": "Konfirmasi permintaan",
+    "verifying": "Mengonfirmasi…",
+    "success": "Terima kasih, permintaan Anda sudah dikonfirmasi. Kami akan menanganinya dalam batas waktu hukum dan mengirim email saat selesai.",
+    "errors": {
+      "tokenRequired": "Tautan ini tidak memiliki kode konfirmasi.",
+      "tokenNotFound": "Tautan ini sudah tidak berlaku.",
+      "tokenExpired": "Tautan ini sudah kedaluwarsa. Ajukan permintaan lagi dari Pusat Akun.",
+      "alreadyProcessed": "Permintaan ini sudah dikonfirmasi atau ditangani.",
+      "generic": "Kami tidak dapat mengonfirmasi permintaan ini. Coba lagi atau hubungi {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Anda sudah keluar. Masuk lagi, lalu coba kembali.",
+    "not_authenticated": "Anda sudah keluar. Masuk lagi, lalu coba kembali.",
+    "step_up_required": "Konfirmasikan bahwa ini memang Anda, lalu coba lagi.",
+    "rate_limited": "Terlalu banyak percobaan. Tunggu beberapa menit, lalu coba lagi.",
+    "first_party_only": "Ini hanya tersedia di aplikasi Ordnary sendiri.",
+    "invalid_request": "Ada yang tidak benar dalam permintaan ini. Muat ulang halaman, lalu coba lagi.",
+    "invalid_body": "Ada yang tidak benar dalam permintaan ini. Muat ulang halaman, lalu coba lagi.",
+    "invalid_action": "Tindakan tersebut tidak tersedia di sini.",
+    "missing_fields": "Isi semua kolom.",
+    "internal_error": "Terjadi kesalahan di pihak kami. Coba lagi sebentar lagi.",
+    "internal_server_error": "Terjadi kesalahan di pihak kami. Coba lagi sebentar lagi.",
+    "unavailable": "Ini sedang tidak tersedia. Coba lagi nanti.",
+    "send_failed": "Kami tidak dapat mengirim email. Coba lagi sebentar lagi.",
+    "user_not_found": "Kami tidak dapat menemukan akun ini.",
+    "invalid_email": "Masukkan alamat email yang valid.",
+    "missing_address": "Masukkan alamat email.",
+    "email_already_exists": "Alamat email tersebut sudah digunakan.",
+    "email_not_found": "Alamat email tersebut tidak ada di akun Anda.",
+    "cannot_delete_primary_email": "Anda tidak dapat menghapus alamat email utama Anda.",
+    "failed_to_add_email": "Kami tidak dapat menambahkan alamat email ini.",
+    "failed_to_delete_email": "Kami tidak dapat menghapus alamat email ini.",
+    "failed_to_send_verification_email": "Kami tidak dapat mengirim email verifikasi, jadi alamat tersebut tidak ditambahkan.",
+    "no_email": "Akun Anda tidak memiliki alamat email untuk dikirimi.",
+    "no_primary_email": "Akun Anda tidak memiliki alamat email utama.",
+    "password_mismatch": "Kata sandi baru tidak cocok.",
+    "password_incorrect": "Kata sandi Anda saat ini salah.",
+    "password_too_weak": "Kata sandi baru tidak memenuhi persyaratan.",
+    "password_change_failed": "Kami tidak dapat mengubah kata sandi Anda.",
+    "no_password": "Akun Anda belum memiliki kata sandi.",
+    "passkey_not_found": "Kunci sandi tersebut sudah tidak ada.",
+    "missing_passkey_id": "Pilih kunci sandi terlebih dahulu.",
+    "session_not_found": "Sesi tersebut sudah tidak ada.",
+    "missing_session_id": "Pilih sesi terlebih dahulu.",
+    "cannot_revoke_current_session": "Anda tidak dapat mengeluarkan sesi yang sedang Anda gunakan di sini.",
+    "code_required": "Masukkan kode dari email.",
+    "code_invalid": "Kode tersebut salah.",
+    "code_expired": "Kode tersebut sudah kedaluwarsa. Minta kode baru.",
+    "exists": "Anda sudah memilikinya.",
+    "not_deactivated": "Akun Anda tidak dinonaktifkan.",
+    "grace_period_expired": "Batas 30 hari untuk memulihkan akun ini sudah lewat.",
+    "token_required": "Tautan ini tidak lengkap.",
+    "token_not_found": "Tautan ini sudah tidak berlaku.",
+    "token_expired": "Tautan ini sudah kedaluwarsa.",
+    "already_redeemed": "Tautan ini sudah pernah digunakan.",
+    "already_downloaded": "Unduhan ini sudah pernah digunakan.",
+    "already_verified": "Ini sudah dikonfirmasi.",
+    "already_processed": "Permintaan ini sudah ditangani.",
+    "already_extended": "Tenggat permintaan ini sudah diperpanjang.",
+    "invalid_date": "Masukkan tanggal yang valid.",
+    "birthday_verification_attempt_not_found": "Kami tidak dapat menemukan verifikasi identitas tersebut. Mulai lagi.",
+    "identity_verification_incomplete": "Verifikasi identitas belum selesai.",
+    "identity_verification_dob_mismatch": "Tanggal lahir di kartu identitas Anda tidak cocok dengan yang Anda masukkan.",
+    "identity_verification_dob_unavailable": "Kami tidak dapat membaca tanggal lahir dari kartu identitas Anda.",
+    "missing_attempt_id": "Verifikasi identitas tidak ditemukan. Mulai lagi.",
+    "invalid_kind": "Pilih jenis permintaan ini.",
+    "invalid_applies_to": "Pilih untuk apa permintaan ini berlaku.",
+    "invalid_filed_by": "Sebutkan siapa yang mengajukan permintaan ini.",
+    "subject_email_required": "Masukkan alamat email yang menjadi subjek permintaan.",
+    "representative_email_required": "Masukkan alamat email perwakilan.",
+    "request_not_found": "Kami tidak dapat menemukan permintaan ini.",
+    "request_already_open": "Anda sudah memiliki permintaan terbuka dengan jenis ini.",
+    "request_cooldown_active": "Anda baru saja mengajukan permintaan ini. Coba lagi nanti.",
+    "request_closed": "Permintaan ini sudah ditutup.",
+    "request_not_open": "Permintaan ini sudah tidak terbuka.",
+    "request_not_verified": "Permintaan ini belum dikonfirmasi.",
+    "request_revoked": "Permintaan ini telah ditarik atau diganti.",
+    "no_download_for_kind": "Jenis permintaan ini tidak memiliki unduhan.",
+    "export_already_in_progress": "Ekspor sedang disiapkan.",
+    "export_rate_limited": "Anda baru saja melakukan ekspor. Coba lagi nanti.",
+    "invalid_retention_days": "Pilih salah satu periode yang tersedia.",
+    "invalid_category": "Kategori notifikasi tersebut tidak ada.",
+    "category_mandatory": "Email ini tidak dapat dinonaktifkan.",
+    "review_not_found": "Kami tidak dapat menemukan tinjauan ini.",
+    "review_already_open": "Anda sudah memiliki tinjauan yang terbuka.",
+    "review_cooldown_active": "Anda baru saja meminta tinjauan. Coba lagi nanti.",
+    "review_not_open": "Tinjauan ini sudah tidak terbuka.",
+    "review_not_pending": "Tinjauan ini tidak dapat diubah lagi.",
+    "invalid_review_type": "Pilih jenis tinjauan ini.",
+    "no_active_consent": "Tidak ada persetujuan aktif untuk ditarik.",
+    "not_a_minor": "Akun ini tidak memerlukan persetujuan orang tua.",
+    "parent_email_required": "Masukkan alamat email orang tua atau wali Anda.",
+    "invalid_parent_email": "Masukkan alamat email yang valid untuk orang tua atau wali Anda.",
+    "connection_not_found": "Aplikasi tersebut sudah tidak terhubung.",
+    "client_not_found": "Kami tidak dapat menemukan aplikasi tersebut.",
+    "too_large": "File tersebut terlalu besar.",
+    "unsupported_type": "Jenis file tersebut tidak didukung.",
+    "no_file": "Pilih file terlebih dahulu."
+  }
+}

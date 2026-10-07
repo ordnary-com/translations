@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "アカウントセンター",
+    "accountCenterSubtitle": "Ordnary の各種テクノロジー全体で、接続された体験とアカウント設定を管理します。",
+    "learnMore": "詳しく見る",
+    "loading": "読み込み中...",
+    "back": "戻る",
+    "close": "閉じる",
+    "backToHome": "ホームに戻る"
+  },
+  "nav": {
+    "profiles": "プロフィール",
+    "connectedExperiences": "接続された体験",
+    "passwordAndSecurity": "パスワードとセキュリティ",
+    "personalDetails": "個人情報と設定",
+    "education": "教育",
+    "permissions": "あなたの情報と権限",
+    "adPreferences": "広告設定",
+    "payments": "Ordnary Pay",
+    "subscriptions": "サブスクリプション",
+    "accounts": "アカウント",
+    "activity": "アクティビティ"
+  },
+  "education": {
+    "title": "教育",
+    "description": "学校のメールアドレスで学生であることを確認すると、学生向けの特典がある Ordnary のプロダクトで利用できます。",
+    "statusLabel": "学生ステータス",
+    "statuses": {
+      "none": "未確認",
+      "pending": "リンクが開かれるのを待っています",
+      "verified": "確認済み",
+      "revoked": "利用終了"
+    },
+    "details": {
+      "title": "あなたの情報",
+      "school": "学校",
+      "email": "学校のメールアドレス",
+      "verifiedOn": "確認日"
+    },
+    "dialog": {
+      "title": "学生認証",
+      "subtitle": "学校のメールアドレスで学生であることを確認します。このアドレスは確認にのみ使用し、それ以外のメールは送りません。",
+      "close": "閉じる",
+      "verifiedTitle": "確認済み",
+      "verifiedBody": "{school} の {email}、{date} から。",
+      "pendingTitle": "リンクを開くのをお待ちしています",
+      "pendingBody": "{email} にリンクを送信しました。完了するには 24 時間以内に開いてください。",
+      "revokedTitle": "利用終了",
+      "revokedBody": "学生ステータスが終了しました。学校のメールアドレスでもう一度確認してください。",
+      "changeEmail": "別の学校のメールアドレスを使う",
+      "resend": "再送信",
+      "cancel": "キャンセル",
+      "emailLabel": "学校のメールアドレス",
+      "detected": "{school}",
+      "notRecognised": "学校のメールアドレスとして認識できません。学校から発行されたアドレスを使用してください。",
+      "send": "リンクを送信",
+      "sending": "送信中…",
+      "sent": "{email} にリンクを送信しました。",
+      "sentWhileVerified": "{email} にリンクを送信しました。リンクを開くまでは、現在の学校で確認済みのままです。",
+      "points": [
+        {
+          "title": "学校のメールアドレスを入力",
+          "text": "アドレスがどの学校のものかを表示します。"
+        },
+        {
+          "title": "リンクを開く",
+          "text": "そのアドレスにリンクを送信します。24 時間有効です。"
+        },
+        {
+          "title": "認証完了",
+          "text": "学生向け特典がある Ordnary 製品で、学生ステータスが有効になります。"
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "学生ステータスが有効になりました。",
+      "verificationError": "このリンクは使えなくなりました。新しいリンクをリクエストしてください。"
+    },
+    "errors": {
+      "not_academic": "学校のメールアドレスとして認識できません。学校から発行されたアドレスを使用してください。",
+      "account": "アカウントに問題が発生しました。しばらくしてからもう一度お試しください。",
+      "send_failed": "今はリンクを送信できませんでした。しばらくしてからもう一度お試しください。",
+      "no_pending": "再送信するリクエストがありません。学校のメールアドレスを入力してください。",
+      "not_authenticated": "続行するには、もう一度ログインしてください。"
+    }
+  },
+  "profiles": {
+    "title": "プロフィール",
+    "description": "Ordnary の各種テクノロジー全体で、接続された体験とアカウント設定を管理します。",
+    "addAccounts": "アカウントを追加",
+    "detail": {
+      "aboutTitle": "このプロフィールについて",
+      "accessTitle": "{app} がアクセスできる情報",
+      "linksTitle": "{app} のポリシー",
+      "mainProfile": "メインプロフィール",
+      "connected": "接続済みのアプリ",
+      "verified": "Ordnary により確認済み",
+      "connectedOn": "接続日",
+      "lastUsed": "最終使用",
+      "never": "まだありません",
+      "activeSignIns": "有効なログイン",
+      "profileId": "プロフィール ID",
+      "email": "メールアドレス",
+      "memberSince": "登録日",
+      "twoFactor": "二要素認証",
+      "on": "オン",
+      "off": "オフ",
+      "passkeys": "パスキー",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "disconnect": "接続を解除",
+      "disconnectTitle": "{app} の接続を解除しますか？",
+      "disconnectText": "{app} は Ordnary アカウントを使用できなくなり、ログアウトされます。後で {app} にログインすれば、再び接続できます。",
+      "disconnecting": "接続を解除中...",
+      "cancel": "キャンセル",
+      "copied": "コピーしました",
+      "copy": "コピー",
+      "scopes": {
+        "openid": "Ordnary アカウントであなたを識別",
+        "profile": "名前とプロフィール写真",
+        "email": "メールアドレス",
+        "offline_access": "使用していないときもログイン状態を維持",
+        "phone": "電話番号",
+        "address": "住所"
+      },
+      "change": "変更",
+      "setUp": "設定",
+      "manage": "管理",
+      "add": "追加",
+      "none": "まだありません"
+    },
+    "revokedSuccess": "接続を解除しました",
+    "revokedError": "接続を解除できませんでした。もう一度お試しください。"
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "新しい Ordnary アカウントを作成しますか？",
+      "registrationName": "お名前を教えてください",
+      "registrationBirthday": "誕生日を教えてください",
+      "registrationPassword": "パスワードを作成",
+      "saveLoginInfo": "ログイン情報を保存しますか？",
+      "registrationReview": "アカウント作成を完了してください",
+      "verifyEmailCode": "確認コードを入力",
+      "editEmail": "メールアドレスを教えてください",
+      "loginCodeEntry": "メールを確認してください",
+      "recoveryCodeEntry": "アカウントを確認してください",
+      "resetPassword": "新しいパスワードを作成",
+      "passwordEntry": "パスワードを入力",
+      "identifierLookup": "メールアドレスを教えてください",
+      "signIn": "ログイン",
+      "mfaCodeEntry": "確認コードを入力"
+    },
+    "descriptions": {
+      "identifierLookup": "メールアドレスを入力して、アカウントにログインするか、新しいアカウントを作成します。",
+      "passwordEntry": "ログインするには、{identifier} に関連付けられたパスワードを入力してください。",
+      "accountNotFound": "{email} に対応する Ordnary アカウントが見つかりません。まだ作成していない可能性があります。すでに作成している場合は、別の識別子を使用している可能性があります。",
+      "registrationName": "この名前はアカウント復旧やアカウントに関する連絡に使用されます。一般には公開されません。",
+      "registrationBirthday": "このアカウントが会社用などであっても、あなた自身の生年月日を使用してください。この情報は公開されません。",
+      "registrationPassword": "他の人に推測されないパスワードを作成してください。",
+      "saveLoginInfo": "次回ログイン時に再入力しなくて済むように、アカウントのログイン情報を保存します。",
+      "verifyEmailCode": "アカウント確認のため、{identifier} に送信された 6 桁のコードを入力してください。",
+      "editEmail": "連絡可能なメールアドレスを入力してください。このアドレスはログインとアカウント管理に使用され、一般には公開されません。",
+      "loginCodeEntry": "ログインするには、{identifier} に送信したコードを入力してください。迷惑メールフォルダーやソーシャルフォルダーも確認してください。",
+      "recoveryCodeEntry": "{identifier} にコードを送信しました。アカウントを確認するためにそのコードを入力してください。",
+      "resetPassword": "このパスワードを使って Ordnary アカウントにログインします。6 文字以上の英字と数字を使用してください。",
+      "mfaCodeEntry": "続行するには、認証アプリの 6 桁のコードを入力してください。"
+    },
+    "buttons": {
+      "createNewAccount": "新しいアカウントを作成",
+      "alreadyHaveAccount": "すでにアカウントを持っています",
+      "next": "次へ",
+      "save": "保存",
+      "notNow": "今はしない",
+      "finish": "完了",
+      "resendCode": "コードを再送信",
+      "enterPassword": "パスワードを入力",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "switchAccount": "アカウントを切り替え",
+      "yes": "はい",
+      "no": "いいえ",
+      "useEmailCode": "メールのコードでログイン",
+      "signInWithPasskey": "パスキーでサインイン",
+      "useRecoveryCode": "リカバリーコードを使う",
+      "useAuthenticatorCode": "認証アプリを使う"
+    },
+    "labels": {
+      "name": "名前",
+      "firstName": "名",
+      "lastName": "姓",
+      "day": "日",
+      "month": "月",
+      "year": "年",
+      "dateOfBirth": "生年月日",
+      "confirmationCode": "確認コード",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "newPassword": "新しいパスワード",
+      "logoutOthers": "他のすべての場所からログアウトして、他の誰もあなたのアカウントにアクセスできないようにします",
+      "marketingEmails": "Ordnary Identity のアプリ、推奨事項、オファーに関するメールを受け取りたいです。",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを非表示",
+      "clearInput": "入力をクリア",
+      "recoveryCode": "リカバリーコード"
+    },
+    "links": {
+      "whyNeedBirthday": "なぜ生年月日が必要なのですか？",
+      "learnMore": "詳しく見る",
+      "editEmail": "メールアドレスを編集",
+      "noAccessEmail": "このメールアドレスにもうアクセスできませんか？",
+      "termsOfService": "利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "cookiePolicy": "クッキーポリシー"
+    },
+    "messages": {
+      "nameHelp": "本名を使用すると、アクセスを失った場合でもアカウントを回復しやすくなります。",
+      "emailHelp": "仕事用または個人用のメールアドレスで、Ordnary のサービスを利用できます。",
+      "existingSessionTitle": "すでにアクティブなセッションがあります",
+      "existingSessionDescription": "すでにログインしています。{seconds} 秒後にアカウントセンターに移動します。",
+      "summaryPrivacy": "あなたの Ordnary アカウント情報は公開されません。",
+      "verifyEmailLookFor": "notification@ordnary.com からのメールを確認してください。迷惑メールフォルダーやソーシャルフォルダーも確認が必要な場合があります。",
+      "termsAgreement": "「完了」をクリックすると、利用規約とプライバシーポリシーに同意し、クッキーポリシーを読んだことを確認したものとみなされます。",
+      "footerAgreement": "続行することで、利用規約、プライバシーポリシー、および適用されるデータ処理ガイドラインを読み、同意したことを認めます。また、プラットフォームの利用に関する重要なアカウントおよびセキュリティ通知を受け取ることにも同意します。",
+      "emailMissing": "メールアドレスは必須です。",
+      "resendCodeError": "コードの再送信中に予期しないエラーが発生しました。",
+      "invalidInput": "無効な入力です。",
+      "credentialsPrompt": "ログインするには、{identifier} に関連付けられたパスワードを入力してください。",
+      "checkEmailPrompt": "ログインするには、{identifier} に送信したコードを入力してください。",
+      "termsIntro": "「完了」をタップすると、次の内容に同意したことになります"
+    },
+    "validation": {
+      "emailRequired": "メールアドレスは必須です。",
+      "passwordRequired": "パスワードは必須です。",
+      "passwordMin": "パスワードは 12 文字以上である必要があります。",
+      "passwordMax": "パスワードは 128 文字を超えることはできません。",
+      "emailInvalid": "有効なメールアドレスを入力してください。",
+      "displayNameMin": "表示名は 2 文字以上である必要があります。",
+      "resetTokenRequired": "リセットトークンは必須です。",
+      "verificationTokenRequired": "確認トークンは必須です。"
+    },
+    "errors": {
+      "invalidInput": "無効な入力です。",
+      "genericLoginFailed": "サインインできませんでした。もう一度お試しください。",
+      "loginInvalidCredentials": "メールアドレスまたはパスワードが正しくありません。",
+      "accountLocked": "アカウントがロックされているか停止されています。",
+      "passwordIncorrect": "入力したパスワードが正しくありません。",
+      "notAuthenticated": "認証されていません。",
+      "registrationMissingInfo": "必要な登録情報が不足しています。",
+      "registrationEmailExists": "このメールアドレスのアカウントはすでに存在します。",
+      "systemNoDefaultTenant": "システムエラー：デフォルトのテナントが見つかりません。",
+      "registrationFailed": "登録に失敗しました。もう一度お試しください。",
+      "invalidVerificationRequest": "無効な確認リクエストです。",
+      "accountNotFound": "アカウントが見つかりません。",
+      "verificationCodeInvalidOrExpired": "確認コードが無効か期限切れです。",
+      "verificationFailedTryAgain": "確認に失敗しました。もう一度お試しください。",
+      "invalidRequest": "無効なリクエストです。",
+      "userNotFound": "ユーザーが見つかりません。",
+      "codeInvalidOrExpired": "コードが無効か期限切れです。",
+      "verificationFailed": "確認に失敗しました。",
+      "missingInformation": "情報が不足しています。",
+      "passwordResetFailed": "パスワードのリセットに失敗しました。",
+      "emailMissing": "メールアドレスがありません。",
+      "resendCodeFailed": "コードの再送信に失敗しました。もう一度お試しください。",
+      "loginRequestFailed": "ログインリクエストを処理できませんでした。もう一度お試しください。",
+      "mfaDataMissing": "確認情報が見つかりません。もう一度ログインしてください。",
+      "mfaNoAuthenticator": "このアカウントに有効な認証アプリが見つかりませんでした。",
+      "mfaCodeInvalid": "確認コードが正しくありません。",
+      "mfaVerificationFailed": "確認に失敗しました。もう一度ログインしてください。",
+      "requestRejected": "このリクエストを処理できませんでした。もう一度お試しください。",
+      "tooManyAttempts": "試行回数が多すぎます。しばらくしてからもう一度お試しください。",
+      "tooManyFailedLogins": "ログインの失敗が多すぎます。しばらく待ってからもう一度お試しください。",
+      "permanentEmailRequired": "恒久的なメールアドレスを使用してください。",
+      "recoveryFileInvalid": "このファイルは使用できません。新しいファイルに置き換えられたか、削除された可能性があります。",
+      "passkeyFailed": "パスキーでサインインできませんでした。もう一度試すか、メールアドレスで続けてください。",
+      "passwordTooWeak": "下のすべての条件を満たすパスワードを選んでください。"
+    },
+    "months": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "recoveryFile": {
+      "link": "復旧ファイルでログイン",
+      "title": "復旧ファイルでログイン",
+      "description": "このアカウントの復旧ファイルを、アカウントセンターでダウンロードしたものからアップロードしてください。すぐにログインできます。",
+      "choose": "ファイルを選択",
+      "reading": "ログイン中…",
+      "pasteInstead": "代わりにコードを貼り付ける",
+      "codeLabel": "ファイルのコード",
+      "signIn": "ログイン",
+      "notAFile": "これは Ordnary の復旧ファイルではありません。アカウントセンターでダウンロードした PDF を選択してください。",
+      "back": "代わりにメールのコードを使う"
+    },
+    "passwordRules": {
+      "length": "12 文字以上",
+      "upper": "大文字を 1 文字",
+      "lower": "小文字を 1 文字",
+      "digit": "数字を 1 文字"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "アカウント設定",
+      "appearanceLabel": "外観",
+      "appearanceLight": "ライト",
+      "appearanceSystem": "システムに合わせる",
+      "appearanceDark": "ダーク",
+      "logout": "ログアウト",
+      "sessionExpired": "セッションの有効期限が切れました。続行するには、もう一度ログインしてください。",
+      "logoutConfirmTitle": "Ordnary からログアウトしますか？",
+      "logoutCancel": "キャンセル",
+      "logoutConfirm": "ログアウト",
+      "language": "言語"
+    },
+    "reactivate": {
+      "title": "おかえりなさい。アカウントは無効になっています",
+      "description": "アカウントを無効にしたとき、メールと通知を一時停止しました。再び有効にするとすべて元に戻ります。後で決める場合はログアウトしてください。データはそのまま残っています。",
+      "reactivate": "アカウントを再び有効にする",
+      "reactivating": "再び有効にしています...",
+      "signOut": "ログアウト",
+      "signingOut": "ログアウト中...",
+      "footer": "アカウントを完全に削除したい場合は、ログインして「個人情報」の「アカウントを削除」を選んでください。",
+      "successNotification": "おかえりなさい。アカウントが再び有効になりました。",
+      "errorGeneric": "アカウントを再び有効にできませんでした。しばらくしてからもう一度お試しください。",
+      "deletedTitle": "アカウントの削除が予定されています",
+      "deletedDescription": "{date} に完全に削除されます。すべてを残すには復元してください。そのまま削除する場合はログアウトしてください。",
+      "restore": "アカウントを復元",
+      "restoring": "復元しています..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "プロフィール写真",
+        "custom": "自分の写真",
+        "default": "自動生成アバター",
+        "modalTitle": "プロフィール写真",
+        "subtitle": "Ordnary のアプリやコミュニティで名前と一緒に表示されます。自分の写真がない場合は、アカウント固有のアバターが使われます。",
+        "choose": "写真を選択",
+        "change": "別の写真を選択",
+        "remove": "写真を削除",
+        "save": "写真を保存",
+        "saving": "保存中...",
+        "hint": "JPG、PNG、WebP に対応しています。写真は正方形に切り抜かれます。",
+        "errorType": "使用できない画像ファイルです。JPG、PNG、WebP を選択してください。",
+        "errorFailed": "写真を保存できませんでした。もう一度お試しください。"
+      },
+      "title": "個人情報と設定",
+      "description": "Ordnary はこれらの情報を使って本人確認を行い、コミュニティの安全を守ります。他のユーザーに表示される個人情報は、あなたが管理できます。",
+      "contactDetails": "連絡先情報",
+      "birthday": "誕生日",
+      "ownership": "アカウントの所有と管理",
+      "ownershipDescription": "データの管理、追悼アカウントの管理人の更新、アカウントやプロフィールの無効化または削除ができます。",
+      "loadingName": "ユーザー",
+      "modal": {
+        "title": "アカウントの所有と管理",
+        "deactivationIndexTitle": "無効化または削除",
+        "deactivationIndexDescription": "アカウントやプロフィールを一時的に無効化するか、完全に削除します。",
+        "optionsTitle": "Ordnary アカウントを無効化または削除",
+        "optionsDescription": "少し休みたいときは、アカウントを一時停止して、いつでも戻ってこられます。Ordnary をやめる場合は、アカウントを削除してください。",
+        "deactivateTitle": "アカウントを無効化",
+        "deactivateDescription": "アカウントの無効化は一時的なものです。アカウントは停止され、他のユーザーには表示されなくなります。",
+        "deleteTitle": "アカウントを削除",
+        "deleteDescription": "アカウントの削除は取り消せません。30日を過ぎると、再開することもデータを復元することもできなくなります。",
+        "deactivateConfirmTitle": "アカウントを一時停止しますか？",
+        "deactivateConfirmPoints": [
+          {
+            "title": "すべての場所でログアウトされます",
+            "text": "すべてのデバイスと、Ordnary アカウントで使っているすべてのアプリが対象です。"
+          },
+          {
+            "title": "プロフィールは非表示になります",
+            "text": "一時停止中は、ほかの人があなたの名前やプロフィールを見ることはできません。"
+          },
+          {
+            "title": "いつでも戻れます",
+            "text": "もう一度ログインするとアカウントが再開されます。すべてそのままの状態です。"
+          }
+        ],
+        "deactivateConfirmButton": "アカウントを一時停止",
+        "deleteConfirmTitle": "アカウントを削除しますか？",
+        "deleteConfirmPoints": [
+          {
+            "title": "すべての場所でログアウトされます",
+            "text": "すべてのデバイスと、Ordnary アカウントで使っているすべてのアプリが対象です。"
+          },
+          {
+            "title": "アクセスできなくなります",
+            "text": "Ordnary と、Ordnary アカウントでログインしているすべてのアプリが対象です。"
+          },
+          {
+            "title": "30日後に完全に削除されます",
+            "text": "それまでは考え直すことができます。その後は、アカウントとデータを復元できません。"
+          }
+        ],
+        "deleteConfirmCheck": "30日後にアカウントとデータが完全に削除されることを理解しました。",
+        "deleteConfirmButton": "アカウントを削除",
+        "cancel": "キャンセル",
+        "continue": "続ける",
+        "working": "処理中...",
+        "deactivateSuccess": "アカウントを無効化しました。ログインページに移動します...",
+        "deleteSuccess": "アカウントの削除を予約しました。ログインページに移動します...",
+        "submitError": "現在、アカウントを更新できませんでした。"
+      },
+      "missingBirthday": "未設定",
+      "loadError": "個人情報を読み込めませんでした。",
+      "preferences": {
+        "sectionTitle": "設定",
+        "appearance": "外観",
+        "appearanceDescription": "Ordnary アカウントの見た目を調整します。",
+        "cookies": "Cookie の設定",
+        "cookiesDescription": "このブラウザーで Ordnary が使用できる Cookie を管理します。",
+        "processors": {
+          "title": "データの処理者",
+          "intro": "Ordnaryの運営には、いくつかの他社のサービスを利用しています。ここにすべて掲載しています。受け取る情報、保管場所、EU域外へ出るときの保護方法を確認できます。",
+          "empty": "あなたのデータを受け取る他社はありません。",
+          "loadError": "今は読み込めませんでした。後でもう一度お試しください。",
+          "loading": "読み込み中...",
+          "close": "閉じる",
+          "back": "戻る",
+          "fields": {
+            "purpose": "役割",
+            "receives": "受け取る情報",
+            "whose": "対象となる人",
+            "stored": "保管場所",
+            "transfer": "EU域外"
+          },
+          "mechanism": {
+            "INTRA_EEA": "欧州経済領域(EEA)内にとどまります。",
+            "ADEQUACY_DECISION": "{country}のデータ保護が十分な水準であるとEUが認めているため、移転が認められています。",
+            "STANDARD_CONTRACTUAL_CLAUSES": "EUの標準契約条項で保護されています。",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "EU-US Data Privacy Frameworkの認証を受けています。",
+            "sccBackup": "追加の保護措置として、EUの標準契約条項も適用されます。"
+          },
+          "links": {
+            "dpa": "データ処理契約",
+            "privacy": "プライバシーポリシー",
+            "website": "ウェブサイト",
+            "certification": "認証"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "生年月日を変更するときに、本人確認書類を確認します。",
+              "receives": [
+                "氏名",
+                "生年月日",
+                "本人確認書類の写真",
+                "自撮り写真",
+                "IPアドレス"
+              ],
+              "whose": "新しい生年月日の確認を行う人のみ。"
+            },
+            "resend": {
+              "purpose": "サインインコード、セキュリティ通知、アカウントのお知らせなど、当社のメールを送信します。",
+              "receives": [
+                "メールアドレス",
+                "表示名",
+                "メールの内容(サインインコード、リンク、セキュリティ通知に含まれるIPアドレスなど)"
+              ],
+              "whose": "Ordnaryからメールを受け取るすべての人。"
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "プライバシーに関するリクエスト",
+          "description": "特定の処理活動に異議を申し立てるか、制限します（第 18 条 / 第 21 条）。",
+          "back": "戻る",
+          "close": "閉じる",
+          "loading": "読み込み中…",
+          "loadError": "プライバシーに関するリクエストを読み込めませんでした。",
+          "alreadyOpen": "この範囲にはすでに未処理のリクエストがあります。",
+          "cooldown": "同じリクエストは {hours} 時間後に再度送信できます。",
+          "submitted": "リクエストを受け付けました。",
+          "withdrawn": "リクエストを取り下げました。",
+          "fileNew": "新しいリクエストを送信",
+          "pickKind": "どうしますか？",
+          "kinds": {
+            "OBJECTION": "処理活動に異議を申し立てる（第 21 条）",
+            "RESTRICTION": "処理を一時的に制限する（第 18 条）"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "あなたの個別の事情に基づき、特定の処理活動を今後停止します。",
+            "RESTRICTION": "データに関する争いが審査されている間、特定の処理活動を一時停止します。"
+          },
+          "pickActivities": "どの活動に適用しますか？",
+          "activitiesHint": "何も選択しない場合は、すべての処理活動に適用されます（全体的な保留）。",
+          "globalScope": "すべての処理（全体的な保留）",
+          "yourStatement": "あなたの説明（推奨）",
+          "statementPlaceholder": "理由をお聞かせください。たとえば、当社とセキュリティ上の問題を調査している間は、自動リスクスコアリングを適用してほしくない、など。",
+          "statementCounter": "{count} / {max}",
+          "submit": "リクエストを送信",
+          "submitting": "送信中…",
+          "withdraw": "取り下げる",
+          "withdrawing": "取り下げ中…",
+          "openTitle": "未処理のリクエスト",
+          "emptyOpen": "未処理のリクエストはありません。",
+          "historyTitle": "過去のリクエスト",
+          "historyEmpty": "過去のリクエストはありません。",
+          "holdsTitle": "現在有効な保留",
+          "holdsEmpty": "有効な保留はありません。",
+          "appliesTo": "適用先",
+          "effectiveUntil": "有効期限",
+          "statuses": {
+            "PENDING": "保留中",
+            "IN_REVIEW": "審査中",
+            "RESOLVED": "解決済み",
+            "WITHDRAWN": "取り下げ済み"
+          },
+          "outcomes": {
+            "GRANTED": "認容",
+            "PARTIALLY_GRANTED": "一部認容",
+            "REJECTED": "却下",
+            "ESCALATED": "上位に引き継ぎ"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "アカウントの識別と認証",
+            "session-and-device-management": "セッションとデバイス",
+            "oauth-issuance": "OAuth / OIDC の発行",
+            "identity-verification": "本人確認（Stripe Identity）",
+            "payment-processing": "支払い処理",
+            "audit-logs-and-security-events": "監査ログとセキュリティイベント",
+            "risk-scoring": "自動リスクスコアリング",
+            "consent-log": "同意ログ",
+            "account-deletion": "アカウントの削除",
+            "risk-review-queue": "リスク審査キュー"
+          },
+          "title": "異議申し立てまたは制限"
+        },
+        "dsar": {
+          "label": "プライバシーとデータに関するリクエスト",
+          "description": "アクセス、訂正、消去、データポータビリティに関する正式なリクエストを送信します（第 15〜20 条）。",
+          "title": "プライバシーとデータに関するリクエスト",
+          "back": "戻る",
+          "close": "閉じる",
+          "loading": "読み込み中…",
+          "loadError": "リクエストを読み込めませんでした。",
+          "submitted": "リクエストを受け付けました。",
+          "fastPathReady": "データをダウンロードしています。",
+          "fastPathHint": "データのコピーがすぐ必要ですか？上部の「情報をエクスポート」ボタンを使ってください。正式なキューを通さず、すぐにダウンロードできます。担当者による確認が必要な場合、他の人の代わりに申請する場合、訂正や消去が必要な場合は、ここからリクエストを送信してください。",
+          "withdrawn": "リクエストを取り下げました。",
+          "fileNew": "新しいリクエストを送信",
+          "pickKind": "どうしますか？",
+          "kinds": {
+            "ACCESS": "アクセス（第 15 条）",
+            "RECTIFICATION": "訂正（第 16 条）",
+            "ERASURE": "消去（第 17 条）",
+            "PORTABILITY": "ポータビリティ（第 20 条）"
+          },
+          "kindDescriptions": {
+            "ACCESS": "当社が保有するあなたのデータの、機械で読み取れる完全なコピーを受け取ります。",
+            "RECTIFICATION": "当社が保有するあなたの誤ったデータや古いデータを訂正します。",
+            "ERASURE": "アカウントと、当社が保有するあなたのデータを削除してもらいます。",
+            "PORTABILITY": "構造化された一般的な形式でデータを受け取ります。"
+          },
+          "filedBy": "誰が申請しますか？",
+          "filedByOptions": {
+            "SELF": "自分自身のために申請します",
+            "PARENT_GUARDIAN": "未成年者のために申請する親または保護者です",
+            "AUTHORISED_AGENT": "他の人に代わって申請する代理人（弁護士など）です"
+          },
+          "representativeBlock": {
+            "title": "代理人の情報",
+            "emailLabel": "あなたのメールアドレス",
+            "notesLabel": "関係と権限",
+            "notesHint": "データ主体との関係を簡単に説明し、委任状や後見に関する書類があれば、その参照情報を添えてください。"
+          },
+          "subjectEmailLabel": "対象者のメールアドレス",
+          "subjectEmailHint": "確認リンクと回答はこのアドレスに送信します。代理人による申請の場合は、データ主体本人のメールアドレスにしてください。",
+          "yourStatement": "あなたの説明（推奨）",
+          "statementPlaceholder": "具体的に何を希望しますか？回答の範囲を決めるのに役立つ情報があればご記入ください。",
+          "statementCounter": "{count} / {max}",
+          "submit": "リクエストを送信",
+          "submitting": "送信中…",
+          "withdraw": "取り下げる",
+          "withdrawing": "取り下げ中…",
+          "openTitle": "未処理のリクエスト",
+          "emptyOpen": "未処理のリクエストはありません。",
+          "historyTitle": "過去のリクエスト",
+          "historyEmpty": "過去のリクエストはありません。",
+          "due": "期限",
+          "extended": "延長期限",
+          "awaitingVerification": "メールの確認待ち",
+          "statuses": {
+            "SUBMITTED": "確認待ち",
+            "VERIFIED": "確認済み",
+            "IN_PROGRESS": "対応中",
+            "FULFILLED": "対応済み",
+            "REJECTED": "却下",
+            "WITHDRAWN": "取り下げ済み"
+          },
+          "outcomes": {
+            "FULFILLED": "対応済み",
+            "PARTIALLY_FULFILLED": "一部対応済み",
+            "REJECTED": "却下"
+          },
+          "overdue": "期限超過"
+        },
+        "modalTitle": "外観",
+        "modalSubtitle": "アカウントセンターの見た目を選択します。設定はこのデバイスに保存されます。",
+        "options": {
+          "lightLabel": "ライト",
+          "lightDescription": "システムの設定に関係なく、常に明るい背景を使用します。",
+          "systemLabel": "システムに合わせる",
+          "systemDescription": "デバイスの設定に合わせて切り替わります。",
+          "darkLabel": "ダーク",
+          "darkDescription": "常に暗い背景を使用します。夜に見やすくなります。"
+        },
+        "done": "完了"
+      },
+      "displayNameSection": {
+        "label": "氏名",
+        "subtitle": "氏名は、あなたのアカウントとプロフィール全体で使用されます。",
+        "editButton": "編集",
+        "modalTitle": "氏名",
+        "editTitle": "氏名を変更",
+        "modalSubtitle": "氏名を変更するには、{email} までご連絡ください。",
+        "currentLabel": "現在の名前",
+        "supportNotice": "氏名を変更するには、{email} までご連絡ください。",
+        "copyEmail": "メールアドレスをコピー",
+        "openEmail": "メールを開く",
+        "mailSubject": "氏名変更のリクエスト",
+        "mailBody": "お世話になっております。\n\n氏名を変更したいです。\n\n現在の氏名: {name}\n新しい氏名: \n\nよろしくお願いいたします。\n{name}"
+      },
+      "loading": "読み込み中...",
+      "contact": {
+        "subtitle": "メールアドレスと、連絡先を表示できる相手を管理します。このアカウントセンターのプロフィールやデバイスへのアクセスに使用できます。",
+        "addNew": "新しい連絡先を追加",
+        "detailsDescription": "このメールアドレスは、次のアカウントに追加されています。",
+        "whoCanSee": "メールアドレスを表示できる相手",
+        "deleting": "削除中...",
+        "delete": "メールアドレスを削除",
+        "deleteFailed": "このメールアドレスを削除できませんでした。",
+        "deleted": "メールアドレスを削除しました",
+        "addTitle": "メールアドレスを追加",
+        "addSubtitle": "このメールアドレスは、アカウントセンター内のすべてのアカウントで、体験のパーソナライズに使用されます。",
+        "learnMore": "詳しく見る",
+        "emailLabel": "メールアドレス",
+        "chooseAccounts": "このメールアドレスを使うアカウントを選択",
+        "added": "メールアドレスを追加しました",
+        "addFailed": "問題が発生しました。もう一度お試しください。",
+        "next": "次へ"
+      },
+      "birthdayModal": {
+        "subtitle": "年齢に合った体験のために、生年月日を追加してください。",
+        "edit": "編集",
+        "editTitle": "生年月日を編集",
+        "editSubtitle": "この生年月日は、このアカウントセンターのアカウントとプロフィールに使用されます。変更はすべてに反映されます。",
+        "day": "日",
+        "month": "月",
+        "year": "年",
+        "verificationNotice": "生年月日を変更するには、パートナーの Stripe Identity で有効な身分証明書による本人確認が必要です。保存後、確認の手順に移動します。",
+        "save": "保存",
+        "saveFailed": "問題が発生しました。もう一度お試しください。",
+        "verificationStartFailed": "本人確認を開始できませんでした。",
+        "completeFailed": "確認を完了できませんでした。",
+        "updated": "本人確認後、生年月日を更新しました。",
+        "dobMismatch": "身分証明書の生年月日が、入力した生年月日と一致しません。",
+        "dobUnavailable": "Stripe が身分証明書から確認可能な生年月日を読み取れませんでした。",
+        "notFinished": "本人確認がまだ完了していません。"
+      }
+    },
+    "security": {
+      "title": "パスワードとセキュリティ",
+      "loadingName": "ユーザー",
+      "pageLoadError": "セキュリティ設定を読み込めませんでした。",
+      "sections": {
+        "signIn": {
+          "title": "ログインと復旧",
+          "description": "パスワード、ログイン設定、復旧方法を管理します。"
+        },
+        "controls": {
+          "title": "セキュリティ チェック",
+          "description": "アプリ、デバイス、送信済みメールを確認して、セキュリティ上の問題をチェックします。"
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "パスワードを変更",
+          "loading": "読み込み中...",
+          "set": "パスワード設定済み",
+          "missing": "パスワード未設定"
+        },
+        "twofactor": {
+          "label": "2 段階認証",
+          "loading": "読み込み中...",
+          "enabled": "有効",
+          "disabled": "まだ有効ではありません"
+        },
+        "passkeys": {
+          "label": "パスキー",
+          "loading": "読み込み中...",
+          "none": "パスキーはまだありません",
+          "active": "{count} 件が有効"
+        },
+        "activity": {
+          "label": "ログイン中の場所",
+          "summary": "アクティブなセッション {total} 件（他のデバイス {others} 件）"
+        },
+        "automated": {
+          "label": "自動化された決定",
+          "summary": "アカウントを守る自動ルールを確認し、担当者による審査をリクエストできます。"
+        }
+      },
+      "passwordModal": {
+        "title": "パスワードを変更",
+        "subtitle": "12 文字以上のパスワードを作成してください。他の人が推測できないものにしましょう。",
+        "currentPassword": "現在のパスワード",
+        "newPassword": "新しいパスワード",
+        "repeatPassword": "新しいパスワードを再入力",
+        "forgotPassword": "パスワードをお忘れですか？",
+        "logoutOthers": "他のデバイスからログアウトします。他の人がアカウントを使用した可能性がある場合は、これを選択してください。",
+        "submit": "パスワードを変更",
+        "pending": "処理中...",
+        "success": "パスワードを更新しました。",
+        "mismatch": "新しいパスワードが一致しません。",
+        "submitError": "パスワードを変更できませんでした。",
+        "logoutOthersTitle": "他のデバイスからログアウト",
+        "logoutOthersHint": "他の誰かがあなたのアカウントを使った可能性がある場合におすすめです。",
+        "incorrect": "現在のパスワードが正しくありません。",
+        "tooWeak": "下のすべての条件を満たすパスワードを選んでください。"
+      },
+      "twoFactor": {
+        "idleTitle": "アカウントを保護しましょう",
+        "idleSubtitle": "2 段階認証を設定すると、未知のデバイスからログインしようとしたときにログインコードが求められます。",
+        "manageTitle": "2 段階認証は有効です",
+        "manageSubtitle": "未知のデバイスからログインするたびに、ログインコードが求められるようになりました。",
+        "appSettingsTitle": "認証アプリ",
+        "extraMethodsTitle": "その他の方法",
+        "extraMethodsSubtitle": "他のセキュリティ方法を使用できない場合でも、これらの方法でログインできます。",
+        "recoveryCodesTitle": "復旧コード",
+        "recoveryCodesSubtitle": "各復旧コードは 1 回だけ使用できます。安全な場所に保管してください。コードがないと、スマートフォンなどのログイン方法を紛失した場合にアクセスできなくなる可能性があります。",
+        "setupTitle": "設定手順",
+        "namingTitle": "デバイスに名前を付ける",
+        "namingSubtitle": "どのデバイスか分かるように、認証アプリに分かりやすい名前を付けてください。",
+        "verifyTitle": "コードを入力",
+        "verifySubtitle": "認証アプリに表示される 6 桁のコードを入力して、設定を完了します。",
+        "successTitle": "2 段階認証は有効です",
+        "successSubtitle": "未知のデバイスからログインするたびに、ログインコードが求められるようになりました。連絡先情報を更新するには、アカウントセンターの「個人情報」に移動してください。",
+        "verifiedTitle": "バックアップ コード",
+        "verifiedSubtitle": "これらのコードは安全な場所に保管してください。認証アプリにアクセスできなくなった場合に使用できます。",
+        "learnMore": "詳細",
+        "receiveCodesTitle": "コードの受け取り方法を選択",
+        "authenticatorTitle": "認証アプリ",
+        "authenticatorDescription": "Duo Mobile や Google Authenticator などのアプリでワンタイム コードを受け取ります。",
+        "recommended": "おすすめ",
+        "continue": "続ける",
+        "working": "処理中...",
+        "enabledSuccess": "2 段階認証をオフにしました。",
+        "disableError": "認証アプリを無効にできませんでした。",
+        "startError": "認証アプリの設定を開始できませんでした。",
+        "verifyError": "認証アプリを確認できませんでした。",
+        "regenerateError": "復旧コードを再生成できませんでした。",
+        "downloadError": "ダウンロードする前に、新しい復旧コードを生成してください。",
+        "recoveryRegenerated": "新しい復旧コードを生成しました。",
+        "manage": {
+          "receiveCodesTitle": "ログインコードの受け取り",
+          "authenticatorDescription": "ログインコードは認証アプリで受け取ります。",
+          "additionalMethodsTitle": "その他の方法",
+          "additionalMethodsDescription": "他の方法を使用できない場合でも、安全にログインする方法を確認できます。"
+        },
+        "appSettings": {
+          "title": "認証アプリ",
+          "description": "ログインコードは認証アプリで受け取ります。",
+          "connectedDevicesTitle": "接続済みのデバイス",
+          "add": "追加",
+          "connectedDevicesDescription": "複数のデバイスを追加でき、各デバイスの認証アプリで 6 桁のログインコードを受け取れます。",
+          "noDevices": "接続済みのデバイスはまだありません",
+          "lastUsed": "最終使用日: {date}",
+          "added": "追加日: {date}",
+          "active": "有効な認証アプリ"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "復旧コード",
+          "recoveryCodesDescription": "スマートフォンを使用できないときは、これらのコードを使用します。"
+        },
+        "recoveryCodes": {
+          "download": "コードをダウンロード",
+          "regenerate": "新しいコードを取得",
+          "existing": "未使用の復旧コードが {count} 件あります。新しいセットを生成するには「新しいコードを取得」をクリックしてください。",
+          "empty": "このセッションでは、表示できる復旧コードはまだありません。新しいセットを生成するには「新しいコードを取得」をクリックしてください。"
+        },
+        "setup": {
+          "step1Title": "1. 認証アプリをダウンロード",
+          "step1Description": "まだインストールしていない場合は、Duo Mobile または Google Authenticator をおすすめします。",
+          "step2Title": "2. この QR コードをスキャンするか、キーをコピー",
+          "step2Description": "認証アプリでこの QR コードをスキャンするか、キーをコピーしてアプリに貼り付けてください。",
+          "copyKey": "キーをコピー",
+          "step3Title": "3. 6 桁のコードをコピーして入力",
+          "step3Description": "QR コードをスキャンするかキーを入力すると、アプリが 6 桁のコードを生成します。下の「コードを入力」をタップしてください。",
+          "enterCode": "コードを入力",
+          "qrAlt": "認証アプリ用の QR コード"
+        },
+        "naming": {
+          "label": "デバイス名(例: Stijn の iPhone)",
+          "next": "次へ"
+        },
+        "verify": {
+          "label": "認証アプリのコード",
+          "submit": "コードを確認"
+        },
+        "success": {
+          "done": "完了"
+        },
+        "ui": {
+          "on": "オン",
+          "turnOff": "オフにする",
+          "turnOffConfirm": "二要素認証をオフにしますか？オフにすると、ログインにはパスワードだけが必要になります。",
+          "cancel": "キャンセル",
+          "copyKey": "コピー",
+          "copied": "コピーしました",
+          "manualKey": "セットアップキー",
+          "status": "ステータス"
+        },
+        "recoveryDocument": {
+          "rowTitle": "復旧ファイル",
+          "rowDescription": "アップロードするだけで、パスワードやコードなしでログインできる PDF です。",
+          "otherMethodsTitle": "その他の方法",
+          "title": "復旧ファイル",
+          "subtitle": "ログイン時にアップロードする PDF です。パスワードやコードなしですぐにログインできます。スマートフォンを紛失した場合やパスワードを忘れた場合に役立ちます。",
+          "download": "復旧ファイルをダウンロード",
+          "downloading": "ファイルを作成中…",
+          "downloaded": "ダウンロードしました。ファイルは安全な場所に保管してください。",
+          "made": "作成日: {date}",
+          "lastUsed": "最終使用日: {date}",
+          "notUsed": "未使用",
+          "remove": "削除",
+          "removeConfirm": "復旧ファイルを削除しますか？ すぐに使用できなくなります。",
+          "removed": "復旧ファイルを削除しました。",
+          "cancel": "キャンセル",
+          "newTitle": "新しいファイルが必要ですか？",
+          "newText": "ファイルをダウンロードできるのは 1 回だけです。新しいファイルを入手するには、メールで届くコードで確認してください。現在のファイルは使用できなくなります。",
+          "requestCode": "コードをメールで送る",
+          "sending": "送信中…",
+          "codeSent": "{email} にコードを送信しました。",
+          "codeLabel": "コード",
+          "confirmDownload": "確認してダウンロード",
+          "loadError": "今は読み込めませんでした。後でもう一度お試しください。",
+          "errors": {
+            "code_invalid": "コードが正しくありません。メールを確認して、もう一度お試しください。",
+            "code_expired": "このコードは有効期限が切れています。新しいコードをリクエストしてください。",
+            "rate_limited": "試行回数が多すぎます。後でもう一度お試しください。",
+            "send_failed": "今はメールを送信できませんでした。後でもう一度お試しください。",
+            "generic": "問題が発生しました。後でもう一度お試しください。"
+          },
+          "points": [
+            {
+              "title": "一度だけ保存",
+              "text": "ファイルは今だけ保存できます。後で新しく取得するには、メールで届くコードで確認します。"
+            },
+            {
+              "title": "安全に保管",
+              "text": "印刷したり、暗号化されたドライブに保存したりしてください。このファイルがあれば誰でもアカウントにログインできるため、メール送信や共有はしないでください。"
+            },
+            {
+              "title": "ログインに使う",
+              "text": "ログイン時にメールアドレスを入力し、「パスワードをお忘れですか？」を選んでから「復旧ファイルでログイン」を選び、PDFをアップロードしてください。"
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "パスキー",
+        "subtitle": "信頼できるデバイスで、Touch ID、Face ID、Windows Hello、またはハードウェア キーを安全なログイン方法として使えます。",
+        "add": "パスキーを追加",
+        "empty": "パスキーはまだ追加されていません。",
+        "unnamed": "名前のないパスキー",
+        "addedOn": "追加日: {date}",
+        "lastUsed": "最終使用 {date}",
+        "never": "未使用",
+        "delete": "削除",
+        "count": "有効なパスキーが {count} 件あります。",
+        "none": "パスキーはまだ登録されていません。",
+        "success": "パスキーを登録しました。",
+        "error": "パスキーを登録できませんでした。",
+        "pending": "登録中...",
+        "emptyTitle": "パスキーはまだありません",
+        "emptyText": "追加すると、パスワードの代わりに指紋、顔、またはデバイスの画面ロックでログインできます。パスワードも引き続き使えます。",
+        "deleteConfirm": "このパスキーを削除しますか？削除すると、このパスキーではログインできなくなります。",
+        "cancel": "キャンセル",
+        "removing": "削除中...",
+        "createTitle": "パスキーを作成",
+        "createSubtitle": "パスキーを使うと、指紋、顔、またはデバイスの画面ロックでログインできます。パスキーはお使いのデバイスやパスワードマネージャーに保存され、そこから外に出ることはありません。",
+        "nameLabel": "パスキーの名前",
+        "nameHint": "パスキーを区別しやすくするための名前です。たとえば、保存先のデバイスやパスワードマネージャーの名前など。",
+        "whatHappensTitle": "このあとの流れ",
+        "whatHappens1": "ブラウザーまたはパスワードマネージャーが、パスキーの保存先を尋ねます。",
+        "whatHappens2": "指紋、顔、または画面ロックで確認します。",
+        "whatHappens3": "次回からは、ログイン時にパスキーを選べます。",
+        "create": "パスキーを作成",
+        "waiting": "ブラウザーまたはパスワードマネージャーの案内に従ってください…",
+        "cancelled": "パスキーは作成されませんでした。もう一度お試しください。",
+        "doneTitle": "パスキーを追加しました",
+        "doneSubtitle": "「{name}」でログインできるようになりました。パスワードも引き続き使えます。",
+        "done": "完了",
+        "back": "戻る",
+        "removeError": "パスキーを削除できませんでした。もう一度お試しください。",
+        "defaultName": "{system} の {browser}",
+        "rowDescription": "指紋、顔、またはデバイスのPINでログインします。"
+      },
+      "activityModal": {
+        "title": "アカウントのログイン アクティビティ",
+        "subtitle": "現在アカウントにログインしている場所です。見覚えのないデバイスからはログアウトしてください。",
+        "unknownDevice": "不明なデバイス",
+        "unknownLocation": "不明な場所",
+        "currentDevice": "このデバイス",
+        "lastActive": "最終アクティブ {date}",
+        "revoke": "ログアウト",
+        "revokePending": "処理中...",
+        "revokeAllTitle": "他のデバイスでのログイン",
+        "revokeAll": "他のすべてのデバイスからログアウト",
+        "revokeAllPending": "処理中...",
+        "revokeSuccess": "セッションを取り消しました。",
+        "revokeAllSuccess": "他のすべてのセッションからログアウトしました。",
+        "revokeError": "セッションを取り消せませんでした。",
+        "viewMore": "他 {count} 台のデバイス",
+        "activeNow": "現在アクティブ",
+        "thisDeviceTitle": "このデバイス",
+        "otherEmpty": "他のデバイスではログインしていません。",
+        "showAll": "{count} 件すべてを表示",
+        "revokeAllConfirm": "他の {count} 台のデバイスすべてからログアウトしますか？それらを使っている人は、もう一度ログインする必要があります。",
+        "cancel": "キャンセル"
+      },
+      "automatedDecisions": {
+        "title": "自動化された決定",
+        "description": "アカウント保護に関する一部の決定は、ログインパターンや不審なアクティビティなどのシグナルに基づいて自動的に行われます。その結果について、Ordnary の担当者による審査をリクエストできます。",
+        "back": "戻る",
+        "close": "閉じる",
+        "loading": "読み込み中…",
+        "currentStateTitle": "現在の自動判定の状態",
+        "riskLabels": {
+          "LOW": "低リスク",
+          "MEDIUM": "中リスク",
+          "HIGH": "高リスク"
+        },
+        "statusLabels": {
+          "ACTIVE": "有効",
+          "SUSPENDED": "一時停止中",
+          "DEACTIVATED": "無効",
+          "DELETED": "削除待ち"
+        },
+        "suspendedExplanation": "アカウントは現在、自動ルールにより制限されています。下から担当者による審査をリクエストできます。Ordnary の担当者がシグナルとあなたの説明を確認し、決定を維持するか覆します。",
+        "elevatedExplanation": "最近のアクティビティに基づいて、アカウントのリスクレベルが引き上げられました。シグナルが誤っていると思う場合は、担当者による審査をリクエストできます。",
+        "okExplanation": "アカウントに自動的な制限は設定されていません。過去の決定についても、下から審査をリクエストできます。",
+        "lastEvaluated": "最終評価",
+        "signalsTitle": "最近のセキュリティシグナル",
+        "signalsEmpty": "最近記録されたセキュリティシグナルはありません。",
+        "appealTitle": "担当者による審査をリクエスト",
+        "appealSubtitle": "Ordnary の担当者が、自動化された決定、あなたの説明、元になったシグナルを確認します。妥当な期間内に回答するよう努めます。",
+        "pickReason": "何に異議がありますか？",
+        "reasons": {
+          "SUSPENSION_APPEAL": "停止は誤りだと思う",
+          "RISK_LEVEL_OBJECTION": "リスクレベルが正しくないと思う",
+          "SECURITY_EVENT_OBJECTION": "特定のセキュリティシグナルに異議を申し立てたい",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "アカウントに対する自動化された決定を担当者に審査してほしい"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "アカウントが現在停止されていて、その決定を審査してほしい。",
+          "RISK_LEVEL_OBJECTION": "リスクレベルが想定より高く、再評価してほしい。",
+          "SECURITY_EVENT_OBJECTION": "身に覚えのない特定のセキュリティイベントが記録されている。",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "アカウントに対する自動化された決定を、担当者に確認してほしい。"
+        },
+        "yourStatement": "あなたの説明（任意）",
+        "statementPlaceholder": "お知らせいただきたいことがあればご記入ください。たとえば、旅行中だった、新しいデバイスを使った、誰かが不正アクセスを試みていた、など。",
+        "statementCounter": "{count} / {max}",
+        "submit": "審査をリクエスト",
+        "submitting": "送信中...",
+        "submitted": "リクエストを受け付けました。追ってご連絡します。",
+        "pendingTitle": "審査中",
+        "pendingSubtitle": "Ordnary の担当者がリクエストを確認しています。更新があればお知らせします。",
+        "withdraw": "リクエストを取り下げる",
+        "withdrawing": "取り下げ中...",
+        "withdrawn": "リクエストを取り下げました。",
+        "withdrawableHint": "このリクエストはいつでも取り下げられます。",
+        "historyTitle": "過去の審査リクエスト",
+        "historyEmpty": "過去の審査リクエストはありません。",
+        "outcomes": {
+          "UPHELD": "維持",
+          "OVERTURNED": "覆された",
+          "ADJUSTED": "修正",
+          "ESCALATED": "上位に引き継ぎ"
+        },
+        "statuses": {
+          "PENDING": "保留中",
+          "IN_REVIEW": "審査中",
+          "RESOLVED": "解決済み",
+          "WITHDRAWN": "取り下げ済み"
+        },
+        "loadError": "自動化された決定の詳細を読み込めませんでした。",
+        "alreadyOpen": "未処理の審査リクエストがすでにあります。",
+        "cooldown": "{hours} 時間後に、新しい審査リクエストを送信できます。この間隔は、担当者が前のリクエストに対応できるようにするためのものです。",
+        "showAll": "すべて表示（{count}）",
+        "showLess": "表示を減らす"
+      },
+      "previewBadge": "プレビュー",
+      "previewBadgeTooltip": "新機能で、まだ改善中です。パスキーは使えますが、詳細は変わる場合があります。"
+    },
+    "connections": {
+      "title": "接続済みのアプリ",
+      "description": "Ordnary アカウントのデータにアクセスできるアプリです。",
+      "empty": "接続済みのアプリはまだありません。",
+      "authorizedScopes": "許可されたスコープ: {scopes}",
+      "granted": "許可日: {date}",
+      "revoke": "アクセス権を取り消す"
+    },
+    "devices": {
+      "title": "デバイスとセッション",
+      "description": "さまざまなデバイスでのアクティブなセッションを管理します。",
+      "logoutOthers": "他のすべてのデバイスからログアウト",
+      "headers": {
+        "device": "デバイス",
+        "location": "場所 / IP",
+        "lastActive": "最終アクティビティ",
+        "type": "種類",
+        "actions": "操作"
+      },
+      "unknownDevice": "不明なデバイス",
+      "currentSession": "(現在のセッション)",
+      "typeFormat": "{os} の {browser}",
+      "revoke": "取り消す"
+    },
+    "passkeysPage": {
+      "title": "パスキー",
+      "description": "パスワードなしでログインするための生体認証とハードウェア キーを管理します。",
+      "add": "+ 新しいパスキーを追加",
+      "empty": "パスキーはまだ追加されていません。",
+      "unnamed": "名前のないパスキー",
+      "addedOn": "追加日: {date}",
+      "lastUsed": "最終使用日: {date}",
+      "never": "なし",
+      "delete": "削除"
+    },
+    "activity": {
+      "title": "最近のアクティビティ",
+      "description": "アカウントのセキュリティに関する重要なイベントや変更を確認・監視します。",
+      "details": "詳細",
+      "dates": {
+        "today": "今日、4月17日",
+        "yesterday": "昨日、4月16日"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "ログインしました",
+        "LOGIN_FAILED": "ログインに失敗しました",
+        "LOGIN_LOCKED": "ログインがブロックされました",
+        "LOGOUT": "ログアウトしました",
+        "SESSION_CREATED": "セッションを作成しました",
+        "SESSION_REVOKED": "セッションを終了しました",
+        "SESSION_ALL_REVOKED": "すべての場所からログアウトしました",
+        "PASSWORD_SET": "パスワードを設定しました",
+        "PASSWORD_CHANGED": "パスワードを変更しました",
+        "PASSWORD_RESET_REQUESTED": "パスワードのリセットがリクエストされました",
+        "PASSWORD_RESET_COMPLETED": "パスワードをリセットしました",
+        "PASSKEY_REGISTERED": "パスキーを登録しました",
+        "PASSKEY_USED": "パスキーでログインしました",
+        "PASSKEY_REMOVED": "パスキーを削除しました",
+        "PASSKEY_COUNTER_MISMATCH": "パスキーに関する警告",
+        "MFA_ENABLED": "2 段階認証を有効にしました",
+        "MFA_DISABLED": "2 段階認証を無効にしました",
+        "MFA_FACTOR_ENROLLED": "認証アプリを追加しました",
+        "MFA_FACTOR_VERIFIED": "認証アプリを確認しました",
+        "MFA_FACTOR_REVOKED": "認証アプリを削除しました",
+        "RECOVERY_CODES_GENERATED": "新しい復旧コード",
+        "RECOVERY_CODE_USED": "復旧コードが使用されました",
+        "STEP_UP_REQUIRED": "本人確認が求められました",
+        "STEP_UP_COMPLETED": "本人確認が完了しました",
+        "EMAIL_ADDED": "メールアドレスを追加しました",
+        "EMAIL_VERIFIED": "メールアドレスを確認しました",
+        "EMAIL_REMOVED": "メールアドレスを削除しました",
+        "EMAIL_PRIMARY_CHANGED": "メインのメールアドレスを変更しました",
+        "ACCOUNT_CREATED": "アカウントを作成しました",
+        "ACCOUNT_UPDATED": "アカウントを更新しました",
+        "ACCOUNT_DELETED": "アカウントの削除を開始しました",
+        "ACCOUNT_REACTIVATED": "アカウントを再開しました",
+        "OAUTH_CONSENT_GRANTED": "アプリにアクセスを許可しました",
+        "OAUTH_CONSENT_REVOKED": "アプリのアクセスを取り消しました",
+        "OAUTH_TOKEN_ISSUED": "アプリがログインしました",
+        "OAUTH_TOKEN_REVOKED": "アプリがログアウトしました",
+        "SUSPICIOUS_NEW_LOCATION": "新しい場所からのログイン",
+        "SUSPICIOUS_NEW_DEVICE": "新しいデバイスでのログイン",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "通常とは異なるログイン",
+        "NOTIFICATION_PREFERENCE_CHANGED": "メール設定を変更しました",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "配信を停止しました",
+        "PRIVACY_REQUEST_FILED": "プライバシーに関するリクエストを送信しました",
+        "PRIVACY_REQUEST_RESOLVED": "プライバシーに関するリクエストが処理されました",
+        "DSAR_FILED": "データに関するリクエストを送信しました",
+        "DSAR_FULFILLED": "データに関するリクエストが完了しました",
+        "DSAR_REJECTED": "データに関するリクエストが却下されました",
+        "RISK_REVIEW_REQUESTED": "審査をリクエストしました",
+        "RISK_REVIEW_RESOLVED": "審査が完了しました"
+      },
+      "severities": {
+        "INFO": "情報",
+        "MEDIUM": "中",
+        "HIGH": "高",
+        "CRITICAL": "重大",
+        "LOW": "低"
+      },
+      "empty": "このアカウントにはまだアクティビティがありません。",
+      "filters": {
+        "all": "すべて",
+        "account": "アカウントの変更",
+        "security": "セキュリティ通知"
+      },
+      "retention": "アクティビティは {days} 日間保存されます。この設定は {link} で変更できます。",
+      "retentionLink": "あなたの情報と権限",
+      "emptyFiltered": "この表示には項目がありません。",
+      "explanations": {
+        "LOGIN_SUCCESS": "パスワードまたはログインコードを使って、誰かがあなたのアカウントにログインしました。",
+        "LOGIN_FAILED": "誰かがあなたのアカウントにログインしようとしましたが、パスワードまたはコードが間違っていました。数回程度であれば、通常は入力ミスです。",
+        "LOGIN_LOCKED": "誤った試行が多すぎたため、安全のためにアカウントへのログインが一時的にブロックされました。",
+        "LOGOUT": "アカウントのセッションの 1 つからログアウトしました。",
+        "SESSION_CREATED": "デバイスまたはブラウザでアカウントにログインし、新しいセッションが開始されました。",
+        "SESSION_REVOKED": "アカウントのセッションの 1 つが、あなたの操作により、または安全に維持できなくなったためにログアウトされました。",
+        "SESSION_ALL_REVOKED": "ほかのすべてのデバイスでアカウントからログアウトしました。",
+        "PASSWORD_SET": "アカウントにパスワードが追加されました。",
+        "PASSWORD_CHANGED": "アカウントのパスワードが変更されました。",
+        "PASSWORD_RESET_REQUESTED": "パスワードをリセットするためのコードがあなたのメールアドレスに送信されました。",
+        "PASSWORD_RESET_COMPLETED": "メールで届いたコードを使ってパスワードがリセットされ、すべての場所からログアウトしました。",
+        "PASSKEY_REGISTERED": "パスキーが追加されたため、パスワードの代わりにデバイスでログインできるようになりました。",
+        "PASSKEY_USED": "アカウントのパスキーの 1 つを使って、誰かがログインしました。",
+        "PASSKEY_REMOVED": "パスキーが削除され、ログインに使用できなくなりました。",
+        "PASSKEY_COUNTER_MISMATCH": "パスキーから予期しない情報が報告されました。パスキーが複製された可能性があります。このログインは拒否されました。",
+        "MFA_ENABLED": "ログイン時に、認証アプリのコードも求められるようになりました。",
+        "MFA_DISABLED": "ログイン時に、認証アプリのコードが求められなくなりました。",
+        "MFA_FACTOR_ENROLLED": "認証アプリがアカウントにリンクされました。",
+        "MFA_FACTOR_VERIFIED": "認証アプリのコードが確認されました。",
+        "MFA_FACTOR_REVOKED": "認証アプリがアカウントから削除されました。",
+        "RECOVERY_CODES_GENERATED": "新しい復旧コードのセットが作成されました。以前のコードは使用できなくなりました。",
+        "RECOVERY_CODE_USED": "認証アプリのコードの代わりに、復旧コードの 1 つを使って誰かがログインしました。そのコードは再利用できません。",
+        "STEP_UP_REQUIRED": "重要な変更を行う前に、メールで届くコードによる本人確認が求められました。",
+        "STEP_UP_COMPLETED": "メールで届いたコードで本人確認が完了し、一定時間、重要な変更が許可されました。",
+        "EMAIL_ADDED": "メールアドレスがアカウントに追加され、確認用リンクが送信されました。",
+        "EMAIL_VERIFIED": "アカウントのメールアドレスが確認されました。",
+        "EMAIL_REMOVED": "メールアドレスがアカウントから削除されました。",
+        "EMAIL_PRIMARY_CHANGED": "別のメールアドレスが、ログインや連絡に使うアカウントのメインアドレスになりました。",
+        "ACCOUNT_CREATED": "Ordnary アカウントが作成されました。",
+        "ACCOUNT_UPDATED": "アカウントの設定または情報が変更されました。",
+        "ACCOUNT_DELETED": "アカウントの削除が予定されました。30 日間は復元できます。",
+        "ACCOUNT_REACTIVATED": "無効化または削除されたアカウントが再び有効になりました。",
+        "OAUTH_CONSENT_GRANTED": "アプリが Ordnary ID を通じてアカウントへのアクセス権を取得しました。",
+        "OAUTH_CONSENT_REVOKED": "アプリがアカウントにアクセスできなくなりました。",
+        "OAUTH_TOKEN_ISSUED": "Ordnary ID で使用しているアプリに新しいログイントークンが発行されました。",
+        "OAUTH_TOKEN_REVOKED": "アプリのログイントークンが取り消されました。",
+        "SUSPICIOUS_NEW_LOCATION": "これまでに使用されたことのない場所からアカウントが使用されました。",
+        "SUSPICIOUS_NEW_DEVICE": "これまでに使用されたことのないデバイスでアカウントが使用されました。",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "同じ人がその時間内に移動できないほど離れた 2 か所から、アカウントが使用されました。",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Ordnary から受け取るメールの種類が変更されました。",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "メール内の配信停止リンクにより、ある種類のメールがオフになりました。",
+        "PRIVACY_REQUEST_FILED": "データの処理に対する異議申し立てまたは制限のリクエストが送信されました。",
+        "PRIVACY_REQUEST_RESOLVED": "処理に対する異議申し立てまたは制限のリクエストを Ordnary が処理しました。",
+        "DSAR_FILED": "データに関するリクエスト (アクセス、訂正、削除、またはコピー) が送信されました。",
+        "DSAR_FULFILLED": "Ordnary がデータに関するリクエストを完了しました。",
+        "DSAR_REJECTED": "Ordnary はデータに関するリクエストを却下しました。理由はメールでご確認ください。",
+        "RISK_REVIEW_REQUESTED": "アカウントに関する自動判定の審査がリクエストされました。",
+        "RISK_REVIEW_RESOLVED": "Ordnary の担当者が、アカウントに関する自動判定を審査しました。"
+      },
+      "detail": {
+        "ifNotYou": "心当たりがない場合は、「パスワードとセキュリティ」でパスワードを変更し、ほかのデバイスからログアウトしてください。",
+        "ifNotYouLink": "パスワードとセキュリティに移動",
+        "generic": "これはアカウントに記録されました。",
+        "labels": {
+          "when": "日時",
+          "where": "場所",
+          "ip": "IP アドレス",
+          "session": "セッション",
+          "thisDevice": "このデバイス",
+          "event": "イベント",
+          "source": "記録元",
+          "severity": "重要度"
+        },
+        "sources": {
+          "AUDIT_LOG": "アカウントログ",
+          "SECURITY_EVENT": "セキュリティ監視"
+        },
+        "unknown": "不明",
+        "times": "{count}×",
+        "timeSpan": "{from} から {to}"
+      },
+      "showMore": "以前の日を表示",
+      "loadingMore": "読み込み中…",
+      "end": "保存されているアクティビティは以上です。",
+      "loadFailed": "これ以上読み込めませんでした。もう一度お試しください。"
+    },
+    "connectedAppsDemo": {
+      "title": "接続済みのアプリ",
+      "description": "アカウントデータの一部へのアクセスを許可したサードパーティのアプリやサービスです。",
+      "badges": {
+        "official": "公式",
+        "verified": "確認済み"
+      },
+      "accessed": "アクセス: {value}",
+      "revoke": "アクセス権を取り消す",
+      "apps": {
+        "consoleReason": "クラウド リソースとデプロイ パイプラインを管理します。",
+        "figmaReason": "共同でプロトタイプを作成するためのデザイン ツールです。",
+        "unknownGameName": "不明なゲーム",
+        "unknownGameReason": "プロフィール情報をリクエストした未確認のアプリです。",
+        "currentSession": "現在のセッション",
+        "twoDaysAgo": "2 日前",
+        "lastMonth": "先月"
+      }
+    },
+    "permissions": {
+      "title": "あなたの情報と権限",
+      "exportTitle": "情報をエクスポート",
+      "searchHistory": "Ordnary のアクティビティ",
+      "externalActivity": "Ordnary のテクノロジー外でのアクティビティ",
+      "appConnections": "アプリの接続",
+      "manageContacts": "連絡先を管理",
+      "notice": "情報のコピーをダウンロードまたは移行するには、「情報をエクスポート」に移動してください。",
+      "footer": "Ordnary のテクノロジーがあなたの体験に影響を与えるために使用できる情報を決めます。",
+      "privacyRightsTitle": "プライバシーに関する権利",
+      "dsarTitle": "プライバシーとデータに関するリクエスト",
+      "dsarSubtitle": "アクセス、訂正、消去、データポータビリティに関する正式なリクエストを送信します（第 15〜20 条）。",
+      "privacyRequestsTitle": "異議申し立てまたは制限",
+      "privacyRequestsSubtitle": "特定の処理活動に異議を申し立てるか、制限します（第 18 条 / 第 21 条）。",
+      "processorsTitle": "データの処理者",
+      "processorsSubtitle": "Ordnaryの運営に利用している企業、その企業が受け取る情報、保管場所です。",
+      "cookiesTitle": "Cookie の設定",
+      "cookiesSubtitle": "このブラウザーで Ordnary が使用できる Cookie を管理します。",
+      "minorConsentTitle": "保護者の同意",
+      "minorConsentSubtitle": "お住まいの国の同意年齢に満たない場合は、親または保護者の同意が必要です（GDPR 第 8 条）。",
+      "notificationsTitle": "通知の設定",
+      "notificationsSubtitle": "Ordnary から送信するメールの種類を選択します。",
+      "notifications": {
+        "title": "通知の設定",
+        "close": "閉じる",
+        "loading": "読み込み中…",
+        "alwaysOn": "常にオン",
+        "description": "Ordnaryから受け取るメールを選んでください。",
+        "loadError": "今は読み込めませんでした。後でもう一度お試しください。",
+        "saveError": "保存できませんでした。もう一度お試しください。",
+        "saved": "保存しました。",
+        "alwaysTitle": "常にオン",
+        "alwaysText": "これらのメールはアカウントを守り、ご依頼の内容を確認するためのものなので、常にオンです。",
+        "choiceTitle": "お客様の選択",
+        "turnAllOff": "任意のメールをすべてオフにする",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "セキュリティ通知",
+          "TRANSACTIONAL_ACCOUNT": "アカウントのお知らせ",
+          "PRODUCT_UPDATES": "製品アップデート",
+          "RECOMMENDATIONS": "おすすめ",
+          "MARKETING": "ニュースとお得な情報"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "ログインコード、パスワードのリセット、新しいログインやセキュリティの変更についての通知です。",
+          "TRANSACTIONAL_ACCOUNT": "データのエクスポート、プライバシーに関するリクエスト、保護者の同意など、行った操作の確認です。",
+          "PRODUCT_UPDATES": "Ordnary製品の最新情報と、規約の変更についてです。",
+          "RECOMMENDATIONS": "Ordnaryの使い方に合わせたご提案です。",
+          "MARKETING": "ニュースレターやお得な情報を、ときどきお届けします。"
+        }
+      },
+      "minorConsent": {
+        "title": "保護者の同意",
+        "description": "オンラインで自分で同意できる年齢に達していない場合、一部の情報を使用する前に、親または保護者の同意が必要です。これは GDPR 第 8 条に基づきます。",
+        "close": "閉じる",
+        "loading": "読み込み中…",
+        "loadError": "今は読み込めませんでした。しばらくしてからもう一度お試しください。",
+        "consentAge": "{country} の同意年齢: {age}",
+        "yourAge": "あなたの年齢: {age}",
+        "adultTitle": "不要です",
+        "adultBody": "ご自身で同意できる年齢のため、親の同意は必要ありません。",
+        "unknownTitle": "年齢がまだわかりません",
+        "unknownBody": "親の同意が必要かどうかを確認できるよう、生年月日を追加してください。",
+        "unknownAction": "生年月日を追加",
+        "blockedTitle": "同意が必要です",
+        "blockedBody": "親または保護者が同意するまで、アカウントの一部の機能が制限されます。",
+        "pendingTitle": "親または保護者の返答を待っています",
+        "pendingBody": "{email} にリクエストを送信しました。リンクは {date} まで有効です。",
+        "verifiedTitle": "同意済み",
+        "verifiedBody": "{email} が {date} に同意しました。",
+        "parentEmail": "親または保護者のメールアドレス",
+        "relationship": "続柄（例: 母）（任意）",
+        "addMessage": "メッセージを追加（任意）",
+        "notes": "親または保護者へのメッセージ",
+        "submit": "リクエストを送信",
+        "submitting": "送信中…",
+        "resend": "再送信",
+        "changeEmail": "別のメールアドレスを使う",
+        "cancel": "キャンセル",
+        "revoke": "取り下げる",
+        "revokeConfirm": "同意を取り下げますか？親または保護者が再び同意するまで、アカウントの一部の機能が再び制限されます。",
+        "revoking": "取り下げ中…",
+        "revoked": "同意を取り下げました。",
+        "notMinor": "ご自身で同意できる年齢です。",
+        "invalidEmail": "有効なメールアドレスを入力してください。",
+        "requestSent": "{email} にリクエストを送信しました。",
+        "points": [
+          {
+            "title": "保護者のメールアドレスを入力",
+            "text": "親または保護者のメールアドレスです。"
+          },
+          {
+            "title": "保護者が同意",
+            "text": "同意用のリンクを記載したメールが届きます。リンクは 14 日間有効です。"
+          },
+          {
+            "title": "アカウントをフルに利用可能",
+            "text": "保護者が同意すると、アカウントの制限が解除されます。"
+          }
+        ]
+      },
+      "exportModalSubtitle": "情報のコピーを外部サービスまたはお使いのデバイスにエクスポートできます。対象データには、共有したコンテンツや情報、アクティビティ、当社が収集した情報が含まれます。",
+      "exportButton": "ダウンロードリンクを送信",
+      "exportModalContentsTitle": "エクスポートに含まれるもの:",
+      "exportModalContents": [
+        "プロフィールデータとアカウント設定",
+        "メールアドレスと電話番号",
+        "セキュリティ設定（パスキー、MFA、デバイス）",
+        "セッションとログインの履歴",
+        "お支払いの詳細",
+        "接続済みのアプリと OAuth の同意",
+        "アクティビティログとセキュリティイベント",
+        "プライバシーと Cookie の同意"
+      ],
+      "exportModalFormat": "形式: 構造化された JSON ファイルと読みやすい README を含む ZIP アーカイブ。",
+      "exportModalRateLimit": "1 回限り使えるダウンロードリンクをメールでお送りします。エクスポートは 24 時間につき最大 3 回までです。",
+      "exportDownload": {
+        "loading": "しばらくお待ちください...",
+        "readyTitle": "データのエクスポートの準備ができました",
+        "readyDescription": "下のボタンを押して、アカウントデータを ZIP アーカイブでダウンロードしてください。このリンクは 1 回限り有効で、24 時間後に期限切れになります。",
+        "downloadButton": "データをダウンロード",
+        "readyHint": "このファイルには、すべての個人データ、セキュリティ設定、アクティビティログなどが、構造化された JSON ファイルで含まれています。",
+        "downloadingTitle": "ダウンロード中...",
+        "downloadingDescription": "エクスポートを準備しています。数秒かかる場合があります。",
+        "successTitle": "ダウンロードを開始しました",
+        "successDescription": "データのエクスポートをダウンロードしています。機密性の高い個人情報が含まれているため、ファイルは安全な場所に保管してください。",
+        "successHint": "このダウンロードリンクは期限切れになりました。新しいエクスポートが必要な場合は、アカウント設定からリクエストできます。",
+        "backToSettings": "アカウント設定に戻る",
+        "expiredTitle": "リンクの期限が切れました",
+        "expiredDescription": "このダウンロードリンクは期限切れか、すでに使用されています。ダウンロードリンクは 24 時間有効で、1 回のみ使用できます。",
+        "newExportButton": "新しいエクスポートをリクエスト",
+        "errorTitle": "問題が発生しました",
+        "errorDefault": "エクスポートの取得中にエラーが発生しました。",
+        "noToken": "ダウンロードトークンが見つかりません。"
+      },
+      "appConnectionsModalSubtitle": "アプリの接続を使うと、さまざまな Ordnary の製品や他社のサービスで操作ができます。",
+      "connectButton": "接続",
+      "activityModalSubtitle": "Ordnary のエコシステム内でのアクティビティを表示および管理します。SaaS 製品やアプリケーションも含まれます。この情報は、あなたの行動から学び、すべてのプラットフォームでの体験を最適化するために使用します。",
+      "accountsAndProfiles": "アカウントとプロフィール",
+      "keepActivityFor": "アクティビティの保存期間",
+      "clearActivityButton": "すべてのアクティビティを消去",
+      "days3": "3 日",
+      "days7": "7 日",
+      "days14": "14 日",
+      "standardOption": "標準",
+      "noticeTitle": "情報のコピーを入手",
+      "noticeText": "アカウントデータをダウンロードして保管するか、別のサービスに移行できます。",
+      "noticeAction": "情報をエクスポート",
+      "experimentBadge": "実験",
+      "userFallback": "ユーザー",
+      "avatarAlt": "プロフィール写真",
+      "exportSent": "ダウンロードリンクを {email} に送信しました",
+      "exportFailed": "エクスポートに失敗しました。もう一度お試しください。",
+      "exportInProgress": "エクスポートはすでに準備中です。しばらくしてからもう一度お試しください。",
+      "exportRateLimited": "エクスポートの上限に達しました。{time}後にもう一度お試しください。",
+      "saveFailed": "保存できませんでした。もう一度お試しください。",
+      "days30": "30 日",
+      "autoClear": {
+        "title": "Ordnary のアクティビティを自動削除",
+        "subtitle": "アクティビティを保存する期間を選びます。古いアクティビティは、アカウントセンター内のすべてのアカウントとプロフィールで自動的に削除されます。",
+        "standard": "標準",
+        "saving": "保存中…",
+        "saved": "保存しました。",
+        "back": "戻る",
+        "close": "閉じる",
+        "howTitle": "削除されるもの",
+        "howText": "ログイン履歴と、新しいログイン、パスワードの変更、ブロックされた試行など、アカウントのセキュリティイベントのうち、選んだ期間より古くなったもの。",
+        "howPermanent": "削除されたアクティビティは元に戻せません。残したい場合は、先にコピーをダウンロードしてください。",
+        "learnMore": "Ordnary ドキュメントで自動削除について詳しく見る"
+      },
+      "experimentBadgeTooltip": "開発中です。見て回ることはできますが、アプリの接続はまだ使えません。"
+    },
+    "payments": {
+      "title": "支払い",
+      "subtitle": "保存した支払い情報と、それにアクセスできるアカウントを管理します。{learnMore}",
+      "syncInfo": "2 つのアカウント間で同期済み",
+      "addMethodTitle": "支払い方法を追加",
+      "addMethodSubtitle": "カードを保存するか PayPal をリンクすると、次回のお支払いがかんたんになります。",
+      "addMethodButton": "支払い方法を追加",
+      "shippingTitle": "配送情報",
+      "shippingAddress": "配送先住所",
+      "emailAddress": "メールアドレス",
+      "phoneNumber": "電話番号",
+      "addModal": {
+        "title": "支払い方法を追加",
+        "card": "クレジットカードまたはデビットカード",
+        "paypal": "PayPal",
+        "footer": "この情報は Ordnary Pay に保存され、アカウントセンターで同期されます。情報はアカウントセンターで管理できます。{learnMore}"
+      },
+      "creditCard": {
+        "title": "カードを追加",
+        "subtitle": "カード番号は暗号化され、安全に保存されます",
+        "cardNumber": "カード番号",
+        "expiry": "有効期限（MM/YY）",
+        "cvv": "CVV",
+        "name": "カード名義人",
+        "submit": "次へ",
+        "cvvTooltip": "確認コード（CVV）は、カードの裏面または表面に記載されているセキュリティ番号です。",
+        "footer": "この情報は Ordnary Pay に保存され、アカウントセンターで同期されます。情報はアカウントセンターで管理できます。{learnMore}"
+      },
+      "billingAddress": {
+        "title": "配送先住所を設定",
+        "subtitle": "Ordnary Pay の配送先住所を追加します。カードの設定手順とは別です。",
+        "search": "住所を検索",
+        "country": "国または地域",
+        "fullName": "氏名",
+        "street": "住所",
+        "street2": "住所 2（任意）",
+        "city": "市区町村",
+        "state": "都道府県",
+        "zip": "郵便番号",
+        "submit": "住所を保存"
+      }
+    },
+    "subscriptions": {
+      "description": "有効な Ordnary サブスクリプション、更新、請求設定を管理します。",
+      "emptyTitle": "有効なサブスクリプションはありません",
+      "emptyDescription": "アカウントにリンクされたサブスクリプションがここに表示されます。",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Ordnary Pictures のプレミアム メディアを無制限に利用できます。対応する Ordnary サービスで、厳選した映画、シリーズ、プレビュー、メンバー限定作品をお楽しみいただけます。",
+          "status": "有効",
+          "renewal": "毎月更新",
+          "price": "月額 €9.99"
+        }
+      },
+      "manageSubscription": "サブスクリプションを管理"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "アクセスが拒否されました",
+        "description": "現在、アカウントセンターにアクセスできません。セッションの有効期限が切れたか、アカウントが制限されている可能性があります。",
+        "action": "もう一度ログイン"
+      },
+      "suspended": {
+        "title": "アカウントが無効です",
+        "description": "このアカウントは無効、または一時的に制限されています。誤りだと思われる場合はサポートにお問い合わせください。",
+        "action": "サポートに問い合わせる"
+      },
+      "banned": {
+        "title": "アクセスが永久に拒否されました",
+        "description": "利用規約への違反により、アカウントは永久にブロックされました。",
+        "action": "規約を見る"
+      },
+      "offline": {
+        "title": "インターネット接続なし",
+        "description": "オフラインのようです。続行するには、インターネット接続を確認してください。",
+        "action": "もう一度試す"
+      },
+      "unknown": {
+        "title": "システムエラー",
+        "description": "予期しないエラーが発生しました。しばらくしてからもう一度お試しください。",
+        "action": "最初に戻る"
+      },
+      "previousPage": "前のページ"
+    },
+    "common": {
+      "noResults": "結果がありません",
+      "searchPlaceholder": "検索..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} がアカウントへのアクセスを求めています",
+      "description": "{displayName} としてログインしています。このアプリを信頼できる場合のみアクセスを許可してください。",
+      "requestedPermissions": "リクエストされた権限",
+      "approve": "アクセスを許可",
+      "deny": "拒否",
+      "errorTitle": "リクエストに問題があります",
+      "errorDescription": "認可リクエストが無効か、不完全です。パラメーターを確認してください。",
+      "unknownAppTitle": "アプリを確認できません",
+      "unknownAppDescription": "Ordnary はこのアプリを識別できません。多くの場合、client_id または redirect_uri が正しくないことが原因です。安全のため、続行できません。"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "このページは利用できません",
+      "description": "リンクが壊れているか、ページが削除された可能性があります。開こうとしているリンクが正しいか確認してください。",
+      "button": "アカウント設定に移動"
+    },
+    "serverError": {
+      "title": "問題が発生しました",
+      "description": "予期しないエラーが発生しました。しばらくしてからもう一度お試しください。",
+      "button": "もう一度試す"
+    }
+  },
+  "cookieConsent": {
+    "title": "このブラウザーで Ordnary の Cookie の使用を許可しますか？",
+    "description": "Ordnary の製品でコンテンツを提供し、改善するために、Cookie と類似の技術を使用します。また、Ordnary 内外で受け取る情報を使って、より安全な体験を提供するためにも使用します。これらの Cookie は任意です。",
+    "essentialTitle": "必須 Cookie",
+    "essentialDesc": "これらの Cookie は Ordnary の製品を利用するために必要で、サイトが正しく動作するために欠かせません。",
+    "optionalTitle": "他社の Cookie",
+    "optionalDesc": "これらの Cookie は、Ordnary の製品外で広告を表示したり、Ordnary の製品で地図や動画などの機能を提供したりするために使用します。これらの Cookie は任意です。",
+    "policyInfo": "任意の Cookie を使用してよいかどうかは、あなたが決めます。{cookiePolicy}では、Cookie と使用方法の詳細を確認でき、選択内容はいつでも確認・変更できます。",
+    "cookiePolicy": "Cookie ポリシー",
+    "infoTitle": "Cookie について",
+    "policyRefreshNotice": "Cookie の選択の記録方法を更新しました。最新の記録を保持できるよう、設定をもう一度確認してください。",
+    "policyRevisionNotice": "Cookie ポリシーを更新しました。設定をもう一度確認してください。",
+    "preferencesTitle": "Cookie の設定",
+    "preferencesDescription": "このブラウザーで Ordnary が使用できる Cookie のカテゴリーを選択します。この設定は、アカウントからいつでも変更できます。",
+    "alwaysOn": "常にオン",
+    "categories": {
+      "essential": {
+        "title": "必須",
+        "description": "ログイン、セキュリティ、その他の製品機能の動作に必要です。"
+      },
+      "functional": {
+        "title": "機能",
+        "description": "言語、テーマ、最近使ったアカウントなどの設定を記憶します。"
+      },
+      "analytics": {
+        "title": "分析",
+        "description": "Ordnary の利用状況を把握し、改善するために役立てます。"
+      },
+      "marketing": {
+        "title": "マーケティング",
+        "description": "Ordnary からの製品やオファーに関するパーソナライズされたメッセージ。"
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Cookie とは？",
+        "button": "詳しく見る"
+      },
+      "why": {
+        "title": "Cookie を使用する理由",
+        "button": "詳しく見る"
+      },
+      "products": {
+        "title": "Ordnary の製品とは？",
+        "button": "詳しく見る"
+      },
+      "preferences": {
+        "title": "Cookie の設定",
+        "button": "詳しく見る"
+      }
+    },
+    "buttons": {
+      "reject": "任意の Cookie を拒否",
+      "accept": "すべての Cookie を許可",
+      "rejectShort": "拒否",
+      "acceptShort": "許可",
+      "customize": "カスタマイズ",
+      "save": "設定を保存",
+      "saveShort": "保存",
+      "close": "閉じる"
+    }
+  },
+  "recentAccounts": {
+    "title": "Ordnary アカウントでログイン",
+    "continueAs": "{name} として続行",
+    "loginAnother": "別のアカウントでログイン",
+    "remove": "アカウントを削除"
+  },
+  "reauthenticate": {
+    "title": "ご本人であることの確認",
+    "description": "{name} さん、セキュリティのため、{action}前にご本人であることを確認する必要があります。",
+    "codeSentTo": "{email} にコードを送信しました。",
+    "codeSent": "6 桁のセキュリティコードをメールに送信しました。",
+    "securityCode": "セキュリティコード",
+    "continue": "続行",
+    "verifying": "確認中…",
+    "sending": "送信中…",
+    "cancel": "キャンセル",
+    "errors": {
+      "sendFailed": "セキュリティコードを送信できませんでした。",
+      "invalidCode": "コードが正しくありません。",
+      "network": "ネットワークエラーです。もう一度お試しください。"
+    },
+    "actions": {
+      "changePassword": "パスワードを変更する",
+      "changeEmail": "メールアドレスを管理する",
+      "managePasskeys": "パスキーを管理する",
+      "manageMfa": "2 段階認証を管理する",
+      "revokeAllSessions": "すべての端末からログアウトする",
+      "manageAccount": "アカウントを停止または削除する",
+      "rotateClientSecret": "このクライアントシークレットをローテーションする",
+      "managePaymentMethods": "お支払い方法を管理する",
+      "authorizeApp": "このアプリを承認する",
+      "generic": "この重要な操作を続行する"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "保護者の同意の確認",
+    "description": "ユーザーから、GDPR 第 8 条に基づく Ordnary アカウントの承認を依頼されました。同意を記録するには、下の確認をクリックしてください。元のメールに返信するか {email} に連絡すれば、あとからいつでも撤回できます。",
+    "idle": "確認トークンが含まれるよう、このページはリクエストメール内のリンクから開いてください。",
+    "verifying": "確認中…",
+    "success": "ありがとうございます。保護者の同意が確認され、ユーザー側のアカウントのロックを解除しました。ユーザーにも通知が届きます。",
+    "errors": {
+      "tokenRequired": "確認トークンが指定されていません。",
+      "tokenNotFound": "この確認リンクは無効になっています。",
+      "alreadyVerified": "この確認はすでに記録されています。",
+      "requestRevoked": "このリクエストは取り下げられたか、新しいリクエストに置き換えられました。",
+      "tokenExpired": "この確認リンクの有効期限が切れました。ユーザーに新しいリクエストを送るよう依頼してください。",
+      "invalidBody": "確認リクエストの形式が正しくありません。",
+      "generic": "この確認リンクを確認できませんでした。ユーザーに新しいリクエストを送るよう依頼してください。"
+    }
+  },
+  "unsubscribe": {
+    "title": "配信停止",
+    "idle": "配信停止トークンが含まれるよう、このページはメール内のリンクから開いてください。",
+    "verifying": "設定を保存中…",
+    "success": "配信を停止しました。",
+    "successWithCategory": "{category}の配信を停止しました。",
+    "manageAt": "通知設定は、{link} でいつでも細かく調整できます。",
+    "categories": {
+      "transactionalSecurity": "セキュリティ通知",
+      "transactionalAccount": "アカウント通知",
+      "productUpdates": "製品アップデート",
+      "recommendations": "おすすめ",
+      "marketing": "マーケティングメール"
+    },
+    "errors": {
+      "tokenRequired": "配信停止トークンが指定されていません。",
+      "tokenNotFound": "この配信停止リンクは無効になっています。",
+      "alreadyRedeemed": "このカテゴリはすでに配信停止済みです。",
+      "tokenExpired": "この配信停止リンクの有効期限が切れました。ログイン後にアカウントセンターから設定を管理できます。",
+      "categoryMandatory": "このカテゴリには、セキュリティやアカウントに必要な通知が含まれるため、オフにできません。",
+      "generic": "この配信停止リンクを処理できませんでした。ログインして、設定を直接変更してください。"
+    }
+  },
+  "dsarVerify": {
+    "title": "プライバシーに関するリクエストの確認",
+    "description": "あなたのデータに関するこのリクエストを Ordnary に送ったことを確認してください。心当たりがない場合は、このページを閉じて {email} までお知らせください。",
+    "idle": "確認情報を含めるため、お送りしたメールのリンクからこのページを開いてください。",
+    "confirm": "リクエストを確認",
+    "verifying": "確認しています…",
+    "success": "ありがとうございます。リクエストを確認しました。法定期限内に対応し、完了したらメールでお知らせします。",
+    "errors": {
+      "tokenRequired": "このリンクには確認コードが含まれていません。",
+      "tokenNotFound": "このリンクは無効になっています。",
+      "tokenExpired": "このリンクは期限切れです。アカウントセンターからもう一度リクエストしてください。",
+      "alreadyProcessed": "このリクエストはすでに確認済みか、対応済みです。",
+      "generic": "リクエストを確認できませんでした。もう一度お試しいただくか、{email} までご連絡ください。"
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "ログアウトしています。もう一度ログインしてからお試しください。",
+    "not_authenticated": "ログアウトしています。もう一度ログインしてからお試しください。",
+    "step_up_required": "まず本人であることを確認してから、もう一度お試しください。",
+    "rate_limited": "試行回数が多すぎます。数分待ってからもう一度お試しください。",
+    "first_party_only": "この機能は Ordnary 公式のアプリでのみ利用できます。",
+    "invalid_request": "このリクエストに問題があります。ページを再読み込みして、もう一度お試しください。",
+    "invalid_body": "このリクエストに問題があります。ページを再読み込みして、もう一度お試しください。",
+    "invalid_action": "この操作はここでは利用できません。",
+    "missing_fields": "すべての項目を入力してください。",
+    "internal_error": "こちら側で問題が発生しました。しばらくしてからもう一度お試しください。",
+    "internal_server_error": "こちら側で問題が発生しました。しばらくしてからもう一度お試しください。",
+    "unavailable": "現在ご利用いただけません。後でもう一度お試しください。",
+    "send_failed": "メールを送信できませんでした。しばらくしてからもう一度お試しください。",
+    "user_not_found": "このアカウントが見つかりませんでした。",
+    "invalid_email": "有効なメールアドレスを入力してください。",
+    "missing_address": "メールアドレスを入力してください。",
+    "email_already_exists": "このメールアドレスはすでに使用されています。",
+    "email_not_found": "このメールアドレスはあなたのアカウントに登録されていません。",
+    "cannot_delete_primary_email": "メインのメールアドレスは削除できません。",
+    "failed_to_add_email": "このメールアドレスを追加できませんでした。",
+    "failed_to_delete_email": "このメールアドレスを削除できませんでした。",
+    "failed_to_send_verification_email": "確認メールを送信できなかったため、このアドレスは追加されませんでした。",
+    "no_email": "アカウントに送信先のメールアドレスがありません。",
+    "no_primary_email": "アカウントにメインのメールアドレスがありません。",
+    "password_mismatch": "新しいパスワードが一致しません。",
+    "password_incorrect": "現在のパスワードが正しくありません。",
+    "password_too_weak": "新しいパスワードが条件を満たしていません。",
+    "password_change_failed": "パスワードを変更できませんでした。",
+    "no_password": "アカウントにはまだパスワードが設定されていません。",
+    "passkey_not_found": "そのパスキーはもう存在しません。",
+    "missing_passkey_id": "先にパスキーを選択してください。",
+    "session_not_found": "そのセッションはもう存在しません。",
+    "missing_session_id": "先にセッションを選択してください。",
+    "cannot_revoke_current_session": "現在ここで使用しているセッションはログアウトできません。",
+    "code_required": "メールに記載されたコードを入力してください。",
+    "code_invalid": "コードが正しくありません。",
+    "code_expired": "コードの有効期限が切れています。新しいコードをリクエストしてください。",
+    "exists": "すでに登録されています。",
+    "not_deactivated": "アカウントは無効化されていません。",
+    "grace_period_expired": "このアカウントを復元できる 30 日間が過ぎました。",
+    "token_required": "このリンクは不完全です。",
+    "token_not_found": "このリンクは無効になっています。",
+    "token_expired": "このリンクの有効期限が切れています。",
+    "already_redeemed": "このリンクはすでに使用されています。",
+    "already_downloaded": "このダウンロードはすでに使用されています。",
+    "already_verified": "これはすでに確認済みです。",
+    "already_processed": "このリクエストはすでに処理されています。",
+    "already_extended": "このリクエストの期限はすでに延長されています。",
+    "invalid_date": "有効な日付を入力してください。",
+    "birthday_verification_attempt_not_found": "その本人確認が見つかりませんでした。最初からやり直してください。",
+    "identity_verification_incomplete": "本人確認がまだ完了していません。",
+    "identity_verification_dob_mismatch": "身分証明書の生年月日が、入力した生年月日と一致しません。",
+    "identity_verification_dob_unavailable": "身分証明書から生年月日を読み取れませんでした。",
+    "missing_attempt_id": "本人確認の情報がありません。最初からやり直してください。",
+    "invalid_kind": "リクエストの種類を選択してください。",
+    "invalid_applies_to": "リクエストの対象を選択してください。",
+    "invalid_filed_by": "このリクエストを申請する人を指定してください。",
+    "subject_email_required": "リクエストの対象となるメールアドレスを入力してください。",
+    "representative_email_required": "代理人のメールアドレスを入力してください。",
+    "request_not_found": "このリクエストが見つかりませんでした。",
+    "request_already_open": "この種類の未完了のリクエストがすでにあります。",
+    "request_cooldown_active": "このリクエストは最近申請済みです。後でもう一度お試しください。",
+    "request_closed": "このリクエストはすでに終了しています。",
+    "request_not_open": "このリクエストはもう受付中ではありません。",
+    "request_not_verified": "このリクエストはまだ確認されていません。",
+    "request_revoked": "このリクエストは取り下げられたか、置き換えられました。",
+    "no_download_for_kind": "この種類のリクエストにはダウンロードがありません。",
+    "export_already_in_progress": "エクスポートはすでに準備中です。",
+    "export_rate_limited": "最近エクスポートを行いました。後でもう一度お試しください。",
+    "invalid_retention_days": "表示されている期間から選択してください。",
+    "invalid_category": "その通知カテゴリは存在しません。",
+    "category_mandatory": "これらのメールはオフにできません。",
+    "review_not_found": "この審査が見つかりませんでした。",
+    "review_already_open": "未完了の審査がすでにあります。",
+    "review_cooldown_active": "最近審査をリクエストしました。後でもう一度お試しください。",
+    "review_not_open": "この審査はもう受付中ではありません。",
+    "review_not_pending": "この審査はもう変更できません。",
+    "invalid_review_type": "審査の種類を選択してください。",
+    "no_active_consent": "取り消せる有効な同意はありません。",
+    "not_a_minor": "このアカウントには保護者の同意は必要ありません。",
+    "parent_email_required": "保護者のメールアドレスを入力してください。",
+    "invalid_parent_email": "保護者の有効なメールアドレスを入力してください。",
+    "connection_not_found": "そのアプリはもう連携されていません。",
+    "client_not_found": "そのアプリが見つかりませんでした。",
+    "too_large": "ファイルが大きすぎます。",
+    "unsupported_type": "このファイル形式には対応していません。",
+    "no_file": "先にファイルを選択してください。"
+  }
+}

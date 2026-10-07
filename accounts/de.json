@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Kontozentrum",
+    "accountCenterSubtitle": "Verwalte deine verbundenen Erlebnisse und Kontoeinstellungen in allen Ordnary-Technologien.",
+    "learnMore": "Mehr erfahren",
+    "loading": "Wird geladen...",
+    "back": "Zurück",
+    "close": "Schließen",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "nav": {
+    "profiles": "Profile",
+    "connectedExperiences": "Verbundene Erlebnisse",
+    "passwordAndSecurity": "Passwort und Sicherheit",
+    "personalDetails": "Persönliche Angaben und Einstellungen",
+    "education": "Bildung",
+    "permissions": "Deine Informationen und Berechtigungen",
+    "adPreferences": "Anzeigenpräferenzen",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Abonnements",
+    "accounts": "Konten",
+    "activity": "Aktivität"
+  },
+  "education": {
+    "title": "Bildung",
+    "description": "Bestätige mit deiner Schul-E-Mail, dass du Schüler oder Student bist, um Vorteile für Lernende in Ordnary-Produkten zu erhalten, in denen sie angeboten werden.",
+    "statusLabel": "Studentenstatus",
+    "statuses": {
+      "none": "Nicht verifiziert",
+      "pending": "Warten darauf, dass du den Link öffnest",
+      "verified": "Bestätigt",
+      "revoked": "Nicht mehr aktiv"
+    },
+    "details": {
+      "title": "Deine Angaben",
+      "school": "Schule",
+      "email": "Schul-E-Mail",
+      "verifiedOn": "Bestätigt am"
+    },
+    "dialog": {
+      "title": "Schülerverifizierung",
+      "subtitle": "Bestätige mit deiner Schul-E-Mail, dass du Schüler oder Student bist. Wir verwenden diese Adresse nur dafür und senden sonst nichts dorthin.",
+      "close": "Schließen",
+      "verifiedTitle": "Bestätigt",
+      "verifiedBody": "{email} an {school}, seit {date}.",
+      "pendingTitle": "Warten darauf, dass du den Link öffnest",
+      "pendingBody": "Wir haben einen Link an {email} gesendet. Öffne ihn innerhalb von 24 Stunden, um fertig zu werden.",
+      "revokedTitle": "Nicht mehr aktiv",
+      "revokedBody": "Dein Status als Schüler oder Student ist abgelaufen. Bestätige ihn erneut mit deiner Schul-E-Mail.",
+      "changeEmail": "Andere Schul-E-Mail verwenden",
+      "resend": "Erneut senden",
+      "cancel": "Abbrechen",
+      "emailLabel": "Schul-E-Mail",
+      "detected": "{school}",
+      "notRecognised": "Diese Adresse erkennen wir nicht als Schul-E-Mail. Verwende die Adresse, die deine Schule dir gegeben hat.",
+      "send": "Link senden",
+      "sending": "Wird gesendet…",
+      "sent": "Link an {email} gesendet.",
+      "sentWhileVerified": "Wir haben einen Link an {email} gesendet. Du bleibst bei deiner aktuellen Schule bestätigt, bis du ihn öffnest.",
+      "points": [
+        {
+          "title": "Schul-E-Mail eingeben",
+          "text": "Wir zeigen, zu welcher Schule die Adresse gehört."
+        },
+        {
+          "title": "Link öffnen",
+          "text": "Wir senden einen Link an diese Adresse. Er funktioniert 24 Stunden."
+        },
+        {
+          "title": "Du bist bestätigt",
+          "text": "Dein Schülerstatus ist in Ordnary-Produkten mit Vorteilen für Schüler und Studenten aktiv."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Dein Status als Schüler oder Student ist jetzt aktiv.",
+      "verificationError": "Dieser Link funktioniert nicht mehr. Fordere einen neuen an."
+    },
+    "errors": {
+      "not_academic": "Diese Adresse erkennen wir nicht als Schul-E-Mail. Verwende die Adresse, die deine Schule dir gegeben hat.",
+      "account": "Mit deinem Konto ist etwas schiefgelaufen. Versuche es später erneut.",
+      "send_failed": "Wir konnten den Link gerade nicht senden. Versuche es später erneut.",
+      "no_pending": "Es gibt keine Anfrage, die erneut gesendet werden kann. Gib deine Schul-E-Mail ein.",
+      "not_authenticated": "Melde dich erneut an, um fortzufahren."
+    }
+  },
+  "profiles": {
+    "title": "Profile",
+    "description": "Verwalte deine verbundenen Erlebnisse und Kontoeinstellungen in allen Ordnary-Technologien.",
+    "addAccounts": "Konten hinzufügen",
+    "detail": {
+      "aboutTitle": "Über dieses Profil",
+      "accessTitle": "Worauf {app} zugreifen kann",
+      "linksTitle": "Richtlinien von {app}",
+      "mainProfile": "Hauptprofil",
+      "connected": "Verbundene App",
+      "verified": "Von Ordnary verifiziert",
+      "connectedOn": "Verbunden am",
+      "lastUsed": "Zuletzt verwendet",
+      "never": "Noch nie",
+      "activeSignIns": "Aktive Anmeldungen",
+      "profileId": "Profil-ID",
+      "email": "E-Mail-Adresse",
+      "memberSince": "Mitglied seit",
+      "twoFactor": "Zwei-Faktor-Authentifizierung",
+      "on": "An",
+      "off": "Aus",
+      "passkeys": "Passkeys",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen",
+      "disconnect": "Trennen",
+      "disconnectTitle": "{app} trennen?",
+      "disconnectText": "{app} kann dein Ordnary-Konto nicht mehr verwenden und du wirst dort abgemeldet. Du kannst dich später wieder verbinden, indem du dich bei {app} anmeldest.",
+      "disconnecting": "Wird getrennt...",
+      "cancel": "Abbrechen",
+      "copied": "Kopiert",
+      "copy": "Kopieren",
+      "scopes": {
+        "openid": "Dich mit deinem Ordnary-Konto erkennen",
+        "profile": "Dein Name und dein Profilfoto",
+        "email": "Deine E-Mail-Adresse",
+        "offline_access": "Dich angemeldet halten, wenn du die App nicht nutzt",
+        "phone": "Deine Telefonnummer",
+        "address": "Deine Adresse"
+      },
+      "change": "Ändern",
+      "setUp": "Einrichten",
+      "manage": "Verwalten",
+      "add": "Hinzufügen",
+      "none": "Noch keine"
+    },
+    "revokedSuccess": "Getrennt",
+    "revokedError": "Trennen nicht möglich. Versuche es erneut."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Ein neues Ordnary-Konto erstellen?",
+      "registrationName": "Wie heißt du?",
+      "registrationBirthday": "Wann hast du Geburtstag?",
+      "registrationPassword": "Erstelle ein Passwort",
+      "saveLoginInfo": "Anmeldedaten speichern?",
+      "registrationReview": "Schließe die Erstellung deines Kontos ab",
+      "verifyEmailCode": "Bestätigungscode eingeben",
+      "editEmail": "Wie lautet deine E-Mail-Adresse?",
+      "loginCodeEntry": "Prüfe deine E-Mails",
+      "recoveryCodeEntry": "Bestätige dein Konto",
+      "resetPassword": "Erstelle ein neues Passwort",
+      "passwordEntry": "Gib dein Passwort ein",
+      "identifierLookup": "Wie lautet deine E-Mail-Adresse?",
+      "signIn": "Anmelden",
+      "mfaCodeEntry": "Gib deinen Bestätigungscode ein"
+    },
+    "descriptions": {
+      "identifierLookup": "Gib deine E-Mail-Adresse ein, um dich bei einem Konto anzumelden oder ein neues zu erstellen.",
+      "passwordEntry": "Gib zum Anmelden das Passwort ein, das mit {identifier} verknüpft ist.",
+      "accountNotFound": "Wir können kein Ordnary-Konto für {email} finden. Vielleicht hast du noch keines erstellt. Falls doch, wird möglicherweise ein anderer Identifikator verwendet.",
+      "registrationName": "Dieser Name wird für die Kontowiederherstellung und Mitteilungen zu deinem Konto verwendet. Er ist nicht öffentlich sichtbar.",
+      "registrationBirthday": "Verwende dein echtes Geburtsdatum, auch wenn dieses Konto für ein Unternehmen oder etwas anderes ist. Diese Information ist nicht öffentlich.",
+      "registrationPassword": "Erstelle ein Passwort, das andere nicht erraten können.",
+      "saveLoginInfo": "Wir speichern deine Anmeldedaten, damit du sie beim nächsten Mal nicht erneut eingeben musst.",
+      "verifyEmailCode": "Gib den 6-stelligen Code ein, der an {identifier} gesendet wurde, um dein Konto zu bestätigen.",
+      "editEmail": "Gib die E-Mail-Adresse ein, unter der wir dich erreichen können. Diese Adresse wird für Anmeldung und Kontoverwaltung verwendet und ist nicht öffentlich sichtbar.",
+      "loginCodeEntry": "Gib zum Anmelden den Code ein, den wir an {identifier} gesendet haben. Prüfe gegebenenfalls auch deinen Spam- oder Social-Ordner.",
+      "recoveryCodeEntry": "Wir haben einen Code an {identifier} gesendet. Gib diesen Code ein, um dein Konto zu bestätigen.",
+      "resetPassword": "Mit diesem Passwort meldest du dich bei deinem Ordnary-Konto an. Verwende mindestens 6 Buchstaben und Zahlen.",
+      "mfaCodeEntry": "Gib den 6-stelligen Code aus deiner Authenticator-App ein, um fortzufahren."
+    },
+    "buttons": {
+      "createNewAccount": "Neues Konto erstellen",
+      "alreadyHaveAccount": "Ich habe bereits ein Konto",
+      "next": "Weiter",
+      "save": "Speichern",
+      "notNow": "Nicht jetzt",
+      "finish": "Fertigstellen",
+      "resendCode": "Code erneut senden",
+      "enterPassword": "Passwort eingeben",
+      "forgotPassword": "Passwort vergessen?",
+      "switchAccount": "Konto wechseln",
+      "yes": "Ja",
+      "no": "Nein",
+      "useEmailCode": "Mit einem E-Mail-Code anmelden",
+      "signInWithPasskey": "Mit einem Passkey anmelden",
+      "useRecoveryCode": "Einen Wiederherstellungscode verwenden",
+      "useAuthenticatorCode": "Deine Authentifizierungs-App verwenden"
+    },
+    "labels": {
+      "name": "Name",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "day": "Tag",
+      "month": "Monat",
+      "year": "Jahr",
+      "dateOfBirth": "Geburtsdatum",
+      "confirmationCode": "Bestätigungscode",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "newPassword": "Neues Passwort",
+      "logoutOthers": "Melde dich überall sonst ab, damit niemand anderes noch auf dein Konto zugreifen kann",
+      "marketingEmails": "Ich möchte E-Mails zu Apps, Empfehlungen und Angeboten für Ordnary Identity erhalten.",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort ausblenden",
+      "clearInput": "Eingabe löschen",
+      "recoveryCode": "Wiederherstellungscode"
+    },
+    "links": {
+      "whyNeedBirthday": "Warum muss ich mein Geburtsdatum angeben?",
+      "learnMore": "Mehr erfahren",
+      "editEmail": "E-Mail-Adresse bearbeiten",
+      "noAccessEmail": "Kein Zugriff mehr auf diese E-Mail-Adresse?",
+      "termsOfService": "Nutzungsbedingungen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "cookiePolicy": "Cookie-Richtlinie"
+    },
+    "messages": {
+      "nameHelp": "Die Verwendung deines echten Namens erleichtert die Wiederherstellung deines Kontos, falls du den Zugriff verlierst.",
+      "emailHelp": "Verwende deine geschäftliche oder private E-Mail-Adresse, um auf deine Ordnary-Dienste zuzugreifen.",
+      "existingSessionTitle": "Du hast bereits eine aktive Sitzung",
+      "existingSessionDescription": "Du bist bereits angemeldet. Du wirst in {seconds} Sekunden zum Kontozentrum weitergeleitet.",
+      "summaryPrivacy": "Deine Ordnary-Kontodaten sind nicht öffentlich.",
+      "verifyEmailLookFor": "Achte auf eine E-Mail von notification@ordnary.com. Prüfe gegebenenfalls auch deinen Spam- oder Social-Ordner.",
+      "termsAgreement": "Mit einem Klick auf „Fertigstellen“ stimmst du unseren Nutzungsbedingungen und der Datenschutzrichtlinie zu und bestätigst, dass du unsere Cookie-Richtlinie gelesen hast.",
+      "footerAgreement": "Indem du fortfährst, bestätigst du, dass du unsere Nutzungsbedingungen, Datenschutzrichtlinie und geltenden Richtlinien zur Datenverarbeitung gelesen hast und ihnen zustimmst. Du stimmst außerdem zu, wichtige Konto- und Sicherheitsbenachrichtigungen im Zusammenhang mit deiner Nutzung der Plattform zu erhalten.",
+      "emailMissing": "E-Mail-Adresse ist erforderlich.",
+      "resendCodeError": "Beim erneuten Senden des Codes ist ein unerwarteter Fehler aufgetreten.",
+      "invalidInput": "Ungültige Eingabe.",
+      "credentialsPrompt": "Gib zum Anmelden das Passwort ein, das mit {identifier} verknüpft ist.",
+      "checkEmailPrompt": "Gib zum Anmelden den Code ein, den wir an {identifier} gesendet haben.",
+      "termsIntro": "Durch Tippen auf Fertigstellen stimmst du unseren"
+    },
+    "validation": {
+      "emailRequired": "E-Mail-Adresse ist erforderlich.",
+      "passwordRequired": "Passwort ist erforderlich.",
+      "passwordMin": "Das Passwort muss mindestens 12 Zeichen lang sein.",
+      "passwordMax": "Das Passwort darf nicht länger als 128 Zeichen sein.",
+      "emailInvalid": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "displayNameMin": "Der Anzeigename muss mindestens 2 Zeichen lang sein.",
+      "resetTokenRequired": "Reset-Token ist erforderlich.",
+      "verificationTokenRequired": "Verifizierungs-Token ist erforderlich."
+    },
+    "errors": {
+      "invalidInput": "Ungültige Eingabe.",
+      "genericLoginFailed": "Anmeldung nicht möglich. Bitte versuche es erneut.",
+      "loginInvalidCredentials": "Ungültige E-Mail-Adresse oder ungültiges Passwort.",
+      "accountLocked": "Dein Konto ist gesperrt oder deaktiviert.",
+      "passwordIncorrect": "Das eingegebene Passwort ist falsch.",
+      "notAuthenticated": "Du bist nicht authentifiziert.",
+      "registrationMissingInfo": "Erforderliche Registrierungsinformationen fehlen.",
+      "registrationEmailExists": "Ein Konto mit dieser E-Mail-Adresse existiert bereits.",
+      "systemNoDefaultTenant": "Systemfehler: Kein Standard-Tenant gefunden.",
+      "registrationFailed": "Registrierung fehlgeschlagen. Bitte versuche es erneut.",
+      "invalidVerificationRequest": "Ungültige Verifizierungsanfrage.",
+      "accountNotFound": "Konto nicht gefunden.",
+      "verificationCodeInvalidOrExpired": "Ungültiger oder abgelaufener Verifizierungscode.",
+      "verificationFailedTryAgain": "Verifizierung fehlgeschlagen. Bitte versuche es erneut.",
+      "invalidRequest": "Ungültige Anfrage.",
+      "userNotFound": "Benutzer nicht gefunden.",
+      "codeInvalidOrExpired": "Ungültiger oder abgelaufener Code.",
+      "verificationFailed": "Verifizierung fehlgeschlagen.",
+      "missingInformation": "Informationen fehlen.",
+      "passwordResetFailed": "Zurücksetzen des Passworts fehlgeschlagen.",
+      "emailMissing": "E-Mail-Adresse fehlt.",
+      "resendCodeFailed": "Code konnte nicht erneut gesendet werden. Bitte versuche es erneut.",
+      "loginRequestFailed": "Deine Anmeldeanfrage konnte nicht verarbeitet werden. Bitte versuche es erneut.",
+      "mfaDataMissing": "Die Bestätigungsdaten fehlen. Bitte melde dich erneut an.",
+      "mfaNoAuthenticator": "Für dieses Konto wurde keine aktive Authenticator-App gefunden.",
+      "mfaCodeInvalid": "Ungültiger Bestätigungscode.",
+      "mfaVerificationFailed": "Bestätigung fehlgeschlagen. Bitte melde dich erneut an.",
+      "requestRejected": "Wir konnten diese Anfrage nicht verarbeiten. Versuche es erneut.",
+      "tooManyAttempts": "Zu viele Versuche. Versuche es später erneut.",
+      "tooManyFailedLogins": "Zu viele fehlgeschlagene Anmeldeversuche. Warte einen Moment, bevor du es erneut versuchst.",
+      "permanentEmailRequired": "Verwende eine dauerhafte E-Mail-Adresse.",
+      "recoveryFileInvalid": "Diese Wiederherstellungsdatei funktioniert nicht. Sie wurde vielleicht durch eine neuere ersetzt oder entfernt.",
+      "passkeyFailed": "Die Anmeldung mit einem Passkey hat nicht funktioniert. Versuche es erneut oder fahre mit deiner E-Mail-Adresse fort.",
+      "passwordTooWeak": "Wähle ein Passwort, das alle Anforderungen unten erfüllt."
+    },
+    "months": [
+      "Januar",
+      "Februar",
+      "Maerz",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "recoveryFile": {
+      "link": "Mit einer Wiederherstellungsdatei anmelden",
+      "title": "Mit einer Wiederherstellungsdatei anmelden",
+      "description": "Lade die Wiederherstellungsdatei für dieses Konto hoch, die du im Kontozentrum heruntergeladen hast. Du bist sofort angemeldet.",
+      "choose": "Datei auswählen",
+      "reading": "Anmeldung läuft…",
+      "pasteInstead": "Stattdessen den Code einfügen",
+      "codeLabel": "Code aus der Datei",
+      "signIn": "Anmelden",
+      "notAFile": "Das ist keine Ordnary-Wiederherstellungsdatei. Wähle das PDF aus, das du im Kontozentrum heruntergeladen hast.",
+      "back": "Stattdessen den E-Mail-Code verwenden"
+    },
+    "passwordRules": {
+      "length": "Mindestens 12 Zeichen",
+      "upper": "Ein Großbuchstabe",
+      "lower": "Ein Kleinbuchstabe",
+      "digit": "Eine Zahl"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Kontoeinstellungen",
+      "appearanceLabel": "Darstellung",
+      "appearanceLight": "Hell",
+      "appearanceSystem": "Wie das System",
+      "appearanceDark": "Dunkel",
+      "logout": "Abmelden",
+      "sessionExpired": "Deine Sitzung ist abgelaufen. Bitte melde dich erneut an, um fortzufahren.",
+      "logoutConfirmTitle": "Von Ordnary abmelden?",
+      "logoutCancel": "Abbrechen",
+      "logoutConfirm": "Abmelden",
+      "language": "Sprache"
+    },
+    "reactivate": {
+      "title": "Willkommen zurück, dein Konto ist deaktiviert",
+      "description": "Wir haben E-Mails und Benachrichtigungen pausiert, als du dein Konto deaktiviert hast. Reaktiviere es, um alles zurückzubekommen, oder melde dich ab und entscheide später. Deine Daten sind noch da.",
+      "reactivate": "Mein Konto reaktivieren",
+      "reactivating": "Wird reaktiviert...",
+      "signOut": "Abmelden",
+      "signingOut": "Abmeldung läuft...",
+      "footer": "Wenn du dein Konto lieber endgültig löschen möchtest, melde dich an und wähle unter Persönliche Daten die Option Konto löschen.",
+      "successNotification": "Willkommen zurück. Dein Konto ist wieder aktiv.",
+      "errorGeneric": "Wir konnten dein Konto nicht reaktivieren. Versuche es gleich noch einmal.",
+      "deletedTitle": "Dein Konto wird gelöscht",
+      "deletedDescription": "Es wird am {date} endgültig gelöscht. Stelle es wieder her, um alles zu behalten, oder melde dich ab und lass die Löschung laufen.",
+      "restore": "Mein Konto wiederherstellen",
+      "restoring": "Wird wiederhergestellt..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profilfoto",
+        "custom": "Dein eigenes Foto",
+        "default": "Generierter Avatar",
+        "modalTitle": "Profilfoto",
+        "subtitle": "Wird mit deinem Namen in Ordnary-Apps und in der Community angezeigt. Ohne eigenes Foto bekommst du einen Avatar, der einzigartig für dein Konto ist.",
+        "choose": "Foto auswählen",
+        "change": "Anderes auswählen",
+        "remove": "Foto entfernen",
+        "save": "Foto speichern",
+        "saving": "Wird gespeichert...",
+        "hint": "JPG, PNG oder WebP. Dein Foto wird quadratisch zugeschnitten.",
+        "errorType": "Diese Datei ist kein Bild, das wir verwenden können. Wähle ein JPG, PNG oder WebP.",
+        "errorFailed": "Wir konnten dein Foto nicht speichern. Bitte versuche es erneut."
+      },
+      "title": "Persönliche Angaben und Einstellungen",
+      "description": "Ordnary verwendet diese Angaben, um deine Identität zu bestätigen und die Community sicher zu halten. Du bestimmst, welche persönlichen Angaben für andere sichtbar sind.",
+      "contactDetails": "Kontaktdaten",
+      "birthday": "Geburtstag",
+      "ownership": "Kontoinhaberschaft und Kontrolle",
+      "ownershipDescription": "Verwalte deine Daten, aktualisiere deinen Nachlasskontakt für Gedenkkonten und deaktiviere oder lösche deine Konten und Profile.",
+      "loadingName": "Nutzer",
+      "modal": {
+        "title": "Kontoinhaberschaft und Kontrolle",
+        "deactivationIndexTitle": "Deaktivierung oder Löschung",
+        "deactivationIndexDescription": "Deaktiviere deine Konten und Profile vorübergehend oder lösche sie dauerhaft.",
+        "optionsTitle": "Deaktiviere oder lösche dein Ordnary-Konto",
+        "optionsDescription": "Brauchst du eine Pause? Deaktiviere dein Konto und komm zurück, wann immer du willst. Möchtest du Ordnary verlassen? Lösche dein Konto.",
+        "deactivateTitle": "Konto deaktivieren",
+        "deactivateDescription": "Das Deaktivieren deines Kontos ist vorübergehend. Dein Konto wird gesperrt und für andere ausgeblendet.",
+        "deleteTitle": "Konto löschen",
+        "deleteDescription": "Das Löschen deines Kontos ist endgültig. Nach 30 Tagen kannst du es nicht mehr reaktivieren und deine Daten nicht wiederherstellen.",
+        "deactivateConfirmTitle": "Dein Konto deaktivieren?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Du wirst überall abgemeldet",
+            "text": "Auf all deinen Geräten und in jeder App, die du mit deinem Ordnary-Konto nutzt."
+          },
+          {
+            "title": "Dein Profil wird ausgeblendet",
+            "text": "Andere sehen deinen Namen und dein Profil nicht, solange dein Konto deaktiviert ist."
+          },
+          {
+            "title": "Komm jederzeit zurück",
+            "text": "Melde dich wieder an, um dein Konto zu reaktivieren. Alles bleibt so, wie du es verlassen hast."
+          }
+        ],
+        "deactivateConfirmButton": "Konto deaktivieren",
+        "deleteConfirmTitle": "Dein Konto löschen?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Du wirst überall abgemeldet",
+            "text": "Auf all deinen Geräten und in jeder App, die du mit deinem Ordnary-Konto nutzt."
+          },
+          {
+            "title": "Du verlierst den Zugriff",
+            "text": "Auf Ordnary und jede App, bei der du dich mit deinem Ordnary-Konto anmeldest."
+          },
+          {
+            "title": "Nach 30 Tagen endgültig gelöscht",
+            "text": "Bis dahin kannst du es dir noch anders überlegen. Danach lassen sich dein Konto und deine Daten nicht wiederherstellen."
+          }
+        ],
+        "deleteConfirmCheck": "Ich verstehe, dass mein Konto und meine Daten nach 30 Tagen endgültig gelöscht werden.",
+        "deleteConfirmButton": "Konto löschen",
+        "cancel": "Abbrechen",
+        "continue": "Weiter",
+        "working": "Wird bearbeitet...",
+        "deactivateSuccess": "Dein Konto wurde deaktiviert. Du wirst zur Anmeldung weitergeleitet...",
+        "deleteSuccess": "Dein Konto wurde zur Löschung vorgemerkt. Du wirst zur Anmeldung weitergeleitet...",
+        "submitError": "Wir konnten dein Konto gerade nicht aktualisieren."
+      },
+      "missingBirthday": "Nicht festgelegt",
+      "loadError": "Persönliche Angaben konnten nicht geladen werden.",
+      "preferences": {
+        "sectionTitle": "Einstellungen",
+        "appearance": "Darstellung",
+        "appearanceDescription": "Passe das Aussehen deines Ordnary-Kontos an.",
+        "cookies": "Cookie-Einstellungen",
+        "cookiesDescription": "Verwalte, welche Cookies Ordnary in diesem Browser verwenden darf.",
+        "processors": {
+          "title": "Wer deine Daten verarbeitet",
+          "intro": "Wir nutzen einige andere Unternehmen, um Ordnary zu betreiben. Hier sind alle: was sie von uns erhalten, wo sie es speichern und wie es geschützt ist, wenn es die EU verlässt.",
+          "empty": "Keine anderen Unternehmen erhalten deine Daten.",
+          "loadError": "Das konnte gerade nicht geladen werden. Versuche es später noch einmal.",
+          "loading": "Wird geladen…",
+          "close": "Schließen",
+          "back": "Zurück",
+          "fields": {
+            "purpose": "Was sie tun",
+            "receives": "Was sie erhalten",
+            "whose": "Wessen Daten",
+            "stored": "Wo sie gespeichert werden",
+            "transfer": "Außerhalb der EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Bleibt im Europäischen Wirtschaftsraum.",
+            "ADEQUACY_DECISION": "Erlaubt, weil die EU den Datenschutz in {country} als angemessen anerkennt.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Geschützt durch die Standardvertragsklauseln der EU.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Zertifiziert im Rahmen des EU-US Data Privacy Framework.",
+            "sccBackup": "Zusätzlich gelten die Standardvertragsklauseln der EU als weitere Absicherung."
+          },
+          "links": {
+            "dpa": "Auftragsverarbeitungsvertrag",
+            "privacy": "Datenschutzrichtlinie",
+            "website": "Website",
+            "certification": "Zertifizierung"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Prüft deinen Ausweis, wenn du dein Geburtsdatum änderst.",
+              "receives": [
+                "Name",
+                "Geburtsdatum",
+                "Foto deines Ausweisdokuments",
+                "Selfie",
+                "IP-Adresse"
+              ],
+              "whose": "Nur Personen, die ein neues Geburtsdatum bestätigen."
+            },
+            "resend": {
+              "purpose": "Versendet unsere E-Mails: Anmeldecodes, Sicherheitswarnungen und Kontobenachrichtigungen.",
+              "receives": [
+                "E-Mail-Adresse",
+                "Anzeigename",
+                "Den Inhalt der E-Mail, etwa Anmeldecodes, Links und die IP-Adresse in Sicherheitswarnungen"
+              ],
+              "whose": "Alle, die E-Mails von Ordnary erhalten."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Datenschutzanfragen",
+          "description": "Widersprich bestimmten Verarbeitungen oder schränke sie ein (Art. 18 / Art. 21).",
+          "back": "Zurück",
+          "close": "Schließen",
+          "loading": "Wird geladen…",
+          "loadError": "Datenschutzanfragen konnten nicht geladen werden.",
+          "alreadyOpen": "Für diesen Bereich hast du bereits eine offene Anfrage.",
+          "cooldown": "Du kannst dieselbe Anfrage in {hours} Stunde(n) erneut stellen.",
+          "submitted": "Deine Anfrage ist eingegangen.",
+          "withdrawn": "Anfrage zurückgezogen.",
+          "fileNew": "Neue Anfrage stellen",
+          "pickKind": "Was möchtest du tun?",
+          "kinds": {
+            "OBJECTION": "Einer Verarbeitung widersprechen (Art. 21)",
+            "RESTRICTION": "Verarbeitung vorübergehend einschränken (Art. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Eine bestimmte Verarbeitung künftig stoppen, basierend auf deiner besonderen Situation.",
+            "RESTRICTION": "Eine bestimmte Verarbeitung pausieren, während ein Streit über deine Daten geprüft wird."
+          },
+          "pickActivities": "Für welche Verarbeitungen soll das gelten?",
+          "activitiesHint": "Wähle keine aus, damit es für alle unsere Verarbeitungen gilt (globale Sperre).",
+          "globalScope": "Alle Verarbeitungen (globale Sperre)",
+          "yourStatement": "Deine Erklärung (empfohlen)",
+          "statementPlaceholder": "Sag uns, warum, zum Beispiel dass wir keine automatisierte Risikobewertung mehr anwenden sollen, während du einen Sicherheitsvorfall mit uns klärst.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Anfrage senden",
+          "submitting": "Wird gesendet…",
+          "withdraw": "Zurückziehen",
+          "withdrawing": "Wird zurückgezogen…",
+          "openTitle": "Offene Anfragen",
+          "emptyOpen": "Keine offenen Anfragen.",
+          "historyTitle": "Frühere Anfragen",
+          "historyEmpty": "Keine früheren Anfragen.",
+          "holdsTitle": "Aktuell aktive Sperren",
+          "holdsEmpty": "Keine aktiven Sperren.",
+          "appliesTo": "Gilt für",
+          "effectiveUntil": "Gültig bis",
+          "statuses": {
+            "PENDING": "Ausstehend",
+            "IN_REVIEW": "In Prüfung",
+            "RESOLVED": "Abgeschlossen",
+            "WITHDRAWN": "Zurückgezogen"
+          },
+          "outcomes": {
+            "GRANTED": "Stattgegeben",
+            "PARTIALLY_GRANTED": "Teilweise stattgegeben",
+            "REJECTED": "Abgelehnt",
+            "ESCALATED": "Eskaliert"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Kontoidentität und Authentifizierung",
+            "session-and-device-management": "Sitzungen und Geräte",
+            "oauth-issuance": "OAuth- / OIDC-Ausstellung",
+            "identity-verification": "Identitätsprüfung (Stripe Identity)",
+            "payment-processing": "Zahlungsabwicklung",
+            "audit-logs-and-security-events": "Audit-Logs und Sicherheitsereignisse",
+            "risk-scoring": "Automatisierte Risikobewertung",
+            "consent-log": "Einwilligungsprotokoll",
+            "account-deletion": "Kontolöschung",
+            "risk-review-queue": "Warteschlange für Risikoprüfungen"
+          },
+          "title": "Widersprechen oder einschränken"
+        },
+        "dsar": {
+          "label": "Datenschutz- und Datenanfragen",
+          "description": "Stelle eine formelle Anfrage auf Auskunft, Berichtigung, Löschung oder Datenübertragbarkeit (Art. 15-20).",
+          "title": "Datenschutz- und Datenanfragen",
+          "back": "Zurück",
+          "close": "Schließen",
+          "loading": "Wird geladen…",
+          "loadError": "Anfragen konnten nicht geladen werden.",
+          "submitted": "Wir haben deine Anfrage erhalten.",
+          "fastPathReady": "Deine Daten werden jetzt heruntergeladen.",
+          "fastPathHint": "Du möchtest nur schnell eine Kopie deiner Daten? Nutze oben die Schaltfläche \"Deine Informationen exportieren\". Der Download startet sofort, ohne die formelle Warteschlange. Stelle hier eine Anfrage, wenn du eine Prüfung durch einen Menschen möchtest, für jemand anderen anfragst oder eine Berichtigung oder Löschung brauchst.",
+          "withdrawn": "Anfrage zurückgezogen.",
+          "fileNew": "Neue Anfrage stellen",
+          "pickKind": "Was möchtest du tun?",
+          "kinds": {
+            "ACCESS": "Auskunft (Art. 15)",
+            "RECTIFICATION": "Berichtigung (Art. 16)",
+            "ERASURE": "Löschung (Art. 17)",
+            "PORTABILITY": "Datenübertragbarkeit (Art. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Erhalte eine vollständige, maschinenlesbare Kopie der Daten, die wir über dich gespeichert haben.",
+            "RECTIFICATION": "Lass falsche oder veraltete Daten korrigieren, die wir über dich gespeichert haben.",
+            "ERASURE": "Wir löschen dein Konto und die Daten, die wir über dich gespeichert haben.",
+            "PORTABILITY": "Erhalte deine Daten in einem strukturierten, gängigen Format."
+          },
+          "filedBy": "Wer stellt diese Anfrage?",
+          "filedByOptions": {
+            "SELF": "Ich stelle sie für mich selbst",
+            "PARENT_GUARDIAN": "Ich bin Elternteil oder Erziehungsberechtigter und stelle sie für ein minderjähriges Kind",
+            "AUTHORISED_AGENT": "Ich bin bevollmächtigter Vertreter (z. B. Anwalt) und stelle sie im Namen einer anderen Person"
+          },
+          "representativeBlock": {
+            "title": "Angaben zum Vertreter",
+            "emailLabel": "Deine E-Mail-Adresse",
+            "notesLabel": "Beziehung und Vollmacht",
+            "notesHint": "Beschreibe kurz deine Beziehung zur betroffenen Person und gib Verweise auf eine Vollmacht oder einen Nachweis der Sorgeberechtigung an."
+          },
+          "subjectEmailLabel": "E-Mail der betroffenen Person",
+          "subjectEmailHint": "Den Bestätigungslink und die Antwort senden wir an diese Adresse. Bei Anfragen durch Vertreter muss dies die eigene E-Mail der betroffenen Person sein.",
+          "yourStatement": "Deine Erklärung (empfohlen)",
+          "statementPlaceholder": "Was genau möchtest du? Alles, was uns hilft, die Antwort einzugrenzen.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Anfrage senden",
+          "submitting": "Wird gesendet…",
+          "withdraw": "Zurückziehen",
+          "withdrawing": "Wird zurückgezogen…",
+          "openTitle": "Offene Anfragen",
+          "emptyOpen": "Keine offenen Anfragen.",
+          "historyTitle": "Frühere Anfragen",
+          "historyEmpty": "Keine früheren Anfragen.",
+          "due": "Fällig",
+          "extended": "Verlängert bis",
+          "awaitingVerification": "Wartet auf E-Mail-Bestätigung",
+          "statuses": {
+            "SUBMITTED": "Wartet auf Bestätigung",
+            "VERIFIED": "Bestätigt",
+            "IN_PROGRESS": "In Bearbeitung",
+            "FULFILLED": "Erfüllt",
+            "REJECTED": "Abgelehnt",
+            "WITHDRAWN": "Zurückgezogen"
+          },
+          "outcomes": {
+            "FULFILLED": "Erfüllt",
+            "PARTIALLY_FULFILLED": "Teilweise erfüllt",
+            "REJECTED": "Abgelehnt"
+          },
+          "overdue": "Überfällig"
+        },
+        "modalTitle": "Darstellung",
+        "modalSubtitle": "Wähle, wie das Kontocenter aussieht. Wir merken uns deine Auswahl auf diesem Gerät.",
+        "options": {
+          "lightLabel": "Hell",
+          "lightDescription": "Immer ein heller Hintergrund, unabhängig von deiner Systemeinstellung.",
+          "systemLabel": "Wie das System",
+          "systemDescription": "Wechselt mit der Einstellung deines Geräts.",
+          "darkLabel": "Dunkel",
+          "darkDescription": "Immer ein dunkler Hintergrund, angenehmer am Abend."
+        },
+        "done": "Fertig"
+      },
+      "displayNameSection": {
+        "label": "Vollständiger Name",
+        "subtitle": "Dein vollständiger Name wird in all deinen Konten und Profilen verwendet.",
+        "editButton": "Bearbeiten",
+        "modalTitle": "Vollständiger Name",
+        "editTitle": "Vollständigen Namen ändern",
+        "modalSubtitle": "Wenn du deinen vollständigen Namen ändern möchtest, schreibe an {email}.",
+        "currentLabel": "Aktueller Name",
+        "supportNotice": "Wenn du deinen vollständigen Namen ändern möchtest, schreibe an {email}.",
+        "copyEmail": "E-Mail-Adresse kopieren",
+        "openEmail": "E-Mail öffnen",
+        "mailSubject": "Anfrage zur Änderung des vollständigen Namens",
+        "mailBody": "Hallo,\n\nich möchte meinen vollständigen Namen ändern.\n\nAktueller Name: {name}\nNeuer Name: \n\nViele Grüße\n{name}"
+      },
+      "loading": "Wird geladen...",
+      "contact": {
+        "subtitle": "Verwalte deine E-Mail-Adressen und lege fest, wer deine Kontaktdaten sehen kann. Damit greifst du auf die Profile und Geräte in diesem Kontozentrum zu.",
+        "addNew": "Neuen Kontakt hinzufügen",
+        "detailsDescription": "Du hast diese E-Mail-Adresse diesen Konten hinzugefügt.",
+        "whoCanSee": "Wer kann deine E-Mail-Adresse sehen?",
+        "deleting": "Wird entfernt...",
+        "delete": "E-Mail-Adresse entfernen",
+        "deleteFailed": "Wir konnten diese E-Mail-Adresse nicht entfernen.",
+        "deleted": "E-Mail-Adresse entfernt",
+        "addTitle": "E-Mail-Adresse hinzufügen",
+        "addSubtitle": "Wir verwenden diese E-Mail-Adresse in all deinen Konten im Kontozentrum, um dein Erlebnis zu personalisieren.",
+        "learnMore": "Mehr erfahren",
+        "emailLabel": "E-Mail-Adresse",
+        "chooseAccounts": "Konten für diese E-Mail-Adresse auswählen",
+        "added": "E-Mail-Adresse hinzugefügt",
+        "addFailed": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+        "next": "Weiter"
+      },
+      "birthdayModal": {
+        "subtitle": "Füge deinen Geburtstag hinzu, damit dein Erlebnis zu deinem Alter passt.",
+        "edit": "Bearbeiten",
+        "editTitle": "Geburtstag bearbeiten",
+        "editSubtitle": "Dieser Geburtstag gilt für die Konten und Profile in diesem Kontozentrum. Änderungen wirken sich auf alle aus.",
+        "day": "Tag",
+        "month": "Monat",
+        "year": "Jahr",
+        "verificationNotice": "Um deinen Geburtstag zu ändern, musst du deine Identität mit einem gültigen Ausweisdokument über unseren Partner Stripe Identity bestätigen. Nach dem Speichern leiten wir dich zur Verifizierung weiter.",
+        "save": "Speichern",
+        "saveFailed": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+        "verificationStartFailed": "Wir konnten die Identitätsprüfung nicht starten.",
+        "completeFailed": "Wir konnten die Verifizierung nicht abschließen.",
+        "updated": "Dein Geburtstag wurde nach der Identitätsprüfung aktualisiert.",
+        "dobMismatch": "Das Geburtsdatum auf deinem Ausweisdokument stimmt nicht mit deiner Eingabe überein.",
+        "dobUnavailable": "Stripe konnte kein überprüfbares Geburtsdatum aus deinem Ausweisdokument lesen.",
+        "notFinished": "Die Identitätsprüfung ist noch nicht abgeschlossen."
+      }
+    },
+    "security": {
+      "title": "Passwort und Sicherheit",
+      "loadingName": "Nutzer",
+      "pageLoadError": "Sicherheitseinstellungen konnten nicht geladen werden.",
+      "sections": {
+        "signIn": {
+          "title": "Anmeldung und Wiederherstellung",
+          "description": "Verwalte deine Passwörter, Anmeldeeinstellungen und Wiederherstellungsmethoden."
+        },
+        "controls": {
+          "title": "Sicherheitsprüfungen",
+          "description": "Prüfe Sicherheitsprobleme, indem du Apps, Geräte und gesendete E-Mails kontrollierst."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Passwort ändern",
+          "loading": "Wird geladen...",
+          "set": "Passwort festgelegt",
+          "missing": "Kein Passwort festgelegt"
+        },
+        "twofactor": {
+          "label": "Zwei-Faktor-Authentifizierung",
+          "loading": "Wird geladen...",
+          "enabled": "Aktiviert",
+          "disabled": "Noch nicht aktiviert"
+        },
+        "passkeys": {
+          "label": "Passkeys",
+          "loading": "Wird geladen...",
+          "none": "Noch keine Passkeys",
+          "active": "{count} aktiv"
+        },
+        "activity": {
+          "label": "Wo du angemeldet bist",
+          "summary": "{total} aktive Sitzungen, {others} auf anderen Geräten"
+        },
+        "automated": {
+          "label": "Automatisierte Entscheidungen",
+          "summary": "Sieh, welche automatischen Regeln dein Konto schützen, und fordere eine Prüfung durch einen Menschen an."
+        }
+      },
+      "passwordModal": {
+        "title": "Passwort ändern",
+        "subtitle": "Erstelle ein Passwort mit mindestens 12 Zeichen. Wähle etwas, das andere nicht erraten können.",
+        "currentPassword": "Aktuelles Passwort",
+        "newPassword": "Neues Passwort",
+        "repeatPassword": "Neues Passwort wiederholen",
+        "forgotPassword": "Passwort vergessen?",
+        "logoutOthers": "Auf anderen Geräten abmelden. Wähle das, wenn jemand anderes dein Konto benutzt hat.",
+        "submit": "Passwort ändern",
+        "pending": "Wird bearbeitet...",
+        "success": "Dein Passwort wurde aktualisiert.",
+        "mismatch": "Deine neuen Passwörter stimmen nicht überein.",
+        "submitError": "Passwort konnte nicht geändert werden.",
+        "logoutOthersTitle": "Von anderen Geräten abmelden",
+        "logoutOthersHint": "Empfohlen, falls jemand anderes dein Konto verwendet haben könnte.",
+        "incorrect": "Dein aktuelles Passwort ist falsch.",
+        "tooWeak": "Wähle ein Passwort, das alle Anforderungen unten erfüllt."
+      },
+      "twoFactor": {
+        "idleTitle": "Schütze dein Konto besser",
+        "idleSubtitle": "Richte die Zwei-Faktor-Authentifizierung ein. Wir fragen dann nach einem Anmeldecode, wenn sich jemand von einem unbekannten Gerät aus anmeldet.",
+        "manageTitle": "Zwei-Faktor-Authentifizierung ist aktiviert",
+        "manageSubtitle": "Wir fragen jetzt nach einem Anmeldecode, wenn du dich von einem unbekannten Gerät aus anmeldest.",
+        "appSettingsTitle": "Authentifizierungs-App",
+        "extraMethodsTitle": "Zusätzliche Methoden",
+        "extraMethodsSubtitle": "Falls deine anderen Sicherheitsmethoden nicht verfügbar sind, kannst du dich weiterhin mit diesen Optionen anmelden.",
+        "recoveryCodesTitle": "Wiederherstellungscodes",
+        "recoveryCodesSubtitle": "Jeden Wiederherstellungscode kannst du nur einmal verwenden. Bewahre sie sicher auf. Ohne sie verlierst du möglicherweise den Zugriff, wenn du dein Handy oder eine andere Anmeldemethode verlierst.",
+        "setupTitle": "Einrichtungsanleitung",
+        "namingTitle": "Gib deinem Gerät einen Namen",
+        "namingSubtitle": "Gib deiner Authentifizierungs-App einen wiedererkennbaren Namen, damit du weißt, welches Gerät du verwendest.",
+        "verifyTitle": "Code eingeben",
+        "verifySubtitle": "Gib den 6-stelligen Code aus deiner Authentifizierungs-App ein, um die Einrichtung abzuschließen.",
+        "successTitle": "Zwei-Faktor-Authentifizierung ist aktiviert",
+        "successSubtitle": "Wir fragen jetzt nach einem Anmeldecode, wenn du dich von einem unbekannten Gerät aus anmeldest. Möchtest du deine Kontaktdaten aktualisieren? Gehe im Kontozentrum zu Persönliche Angaben.",
+        "verifiedTitle": "Backup-Codes",
+        "verifiedSubtitle": "Bewahre diese Codes an einem sicheren Ort auf. Du kannst sie verwenden, wenn du den Zugriff auf deine Authentifizierungs-App verlierst.",
+        "learnMore": "Mehr erfahren",
+        "receiveCodesTitle": "Wähle, wie du deine Codes erhalten möchtest",
+        "authenticatorTitle": "Authentifizierungs-App",
+        "authenticatorDescription": "Erhalte Einmalcodes über eine App wie Duo Mobile oder Google Authenticator.",
+        "recommended": "Empfohlen",
+        "continue": "Weiter",
+        "working": "Wird bearbeitet...",
+        "enabledSuccess": "Die Zwei-Faktor-Authentifizierung wurde ausgeschaltet.",
+        "disableError": "Authentifizierungs-App konnte nicht deaktiviert werden.",
+        "startError": "Einrichtung der Authentifizierung konnte nicht gestartet werden.",
+        "verifyError": "Authentifizierungs-App konnte nicht verifiziert werden.",
+        "regenerateError": "Wiederherstellungscodes konnten nicht neu erstellt werden.",
+        "downloadError": "Erstelle neue Wiederherstellungscodes, bevor du sie herunterlädst.",
+        "recoveryRegenerated": "Neue Wiederherstellungscodes wurden erstellt.",
+        "manage": {
+          "receiveCodesTitle": "Anmeldecodes erhalten",
+          "authenticatorDescription": "Du erhältst einen Anmeldecode über deine Authentifizierungs-App.",
+          "additionalMethodsTitle": "Zusätzliche Methoden",
+          "additionalMethodsDescription": "Sieh nach, wie du dich auch dann sicher anmelden kannst, wenn andere Methoden nicht verfügbar sind."
+        },
+        "appSettings": {
+          "title": "Authentifizierungs-App",
+          "description": "Du erhältst einen Anmeldecode über deine Authentifizierungs-App.",
+          "connectedDevicesTitle": "Verbundene Geräte",
+          "add": "Hinzufügen",
+          "connectedDevicesDescription": "Du kannst mehrere Geräte hinzufügen, damit jedes verknüpfte Gerät 6-stellige Anmeldecodes von einer Authentifizierungs-App auf diesem Gerät erhalten kann.",
+          "noDevices": "Noch keine verbundenen Geräte",
+          "lastUsed": "Zuletzt verwendet: {date}",
+          "added": "Hinzugefügt: {date}",
+          "active": "Aktive Authentifizierungs-App"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Wiederherstellungscodes",
+          "recoveryCodesDescription": "Verwende diese Codes, wenn du keinen Zugriff auf dein Handy hast."
+        },
+        "recoveryCodes": {
+          "download": "Codes herunterladen",
+          "regenerate": "Neue Codes holen",
+          "existing": "Du hast {count} ungenutzte Wiederherstellungscodes. Klicke auf „Neue Codes holen“, um einen neuen Satz zu erstellen.",
+          "empty": "In dieser Sitzung sind noch keine Wiederherstellungscodes sichtbar. Klicke auf „Neue Codes holen“, um einen neuen Satz zu erstellen."
+        },
+        "setup": {
+          "step1Title": "1. Authentifizierungs-App herunterladen",
+          "step1Description": "Wir empfehlen Duo Mobile oder Google Authenticator, falls du noch keine App installiert hast.",
+          "step2Title": "2. QR-Code scannen oder Schlüssel kopieren",
+          "step2Description": "Scanne diesen QR-Code in deiner Authentifizierungs-App oder kopiere den Schlüssel und füge ihn in die App ein.",
+          "copyKey": "Schlüssel kopieren",
+          "step3Title": "3. Sechsstelligen Code kopieren und eingeben",
+          "step3Description": "Nach dem Scannen des QR-Codes oder der Eingabe des Schlüssels erzeugt deine App einen 6-stelligen Code. Tippe unten auf Code eingeben.",
+          "enterCode": "Code eingeben",
+          "qrAlt": "QR-Code für deine Authenticator-App"
+        },
+        "naming": {
+          "label": "Gerätename (zum Beispiel: Stijns iPhone)",
+          "next": "Weiter"
+        },
+        "verify": {
+          "label": "Code aus der Authentifizierungs-App",
+          "submit": "Code verifizieren"
+        },
+        "success": {
+          "done": "Fertig"
+        },
+        "ui": {
+          "on": "An",
+          "turnOff": "Ausschalten",
+          "turnOffConfirm": "Zwei-Faktor-Authentifizierung ausschalten? Zum Anmelden brauchst du dann nur noch dein Passwort.",
+          "cancel": "Abbrechen",
+          "copyKey": "Kopieren",
+          "copied": "Kopiert",
+          "manualKey": "Einrichtungsschlüssel",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Wiederherstellungsdatei",
+          "rowDescription": "Ein PDF, das dich beim Hochladen anmeldet, ohne Passwort oder Code.",
+          "otherMethodsTitle": "Weitere Möglichkeiten zum Anmelden",
+          "title": "Wiederherstellungsdatei",
+          "subtitle": "Ein PDF, das du bei der Anmeldung hochlädst. Es meldet dich sofort an, ohne Passwort oder Code. Praktisch, wenn du dein Handy verlierst oder dein Passwort vergisst.",
+          "download": "Wiederherstellungsdatei herunterladen",
+          "downloading": "Datei wird erstellt…",
+          "downloaded": "Heruntergeladen. Bewahre die Datei an einem sicheren Ort auf.",
+          "made": "Erstellt am {date}",
+          "lastUsed": "Zuletzt verwendet am {date}",
+          "notUsed": "Noch nicht verwendet",
+          "remove": "Entfernen",
+          "removeConfirm": "Wiederherstellungsdatei entfernen? Sie funktioniert dann sofort nicht mehr.",
+          "removed": "Wiederherstellungsdatei entfernt.",
+          "cancel": "Abbrechen",
+          "newTitle": "Neue Datei nötig?",
+          "newText": "Du kannst eine Datei nur einmal herunterladen. Für eine neue bestätige mit einem Code, den wir dir per E-Mail senden. Deine aktuelle Datei funktioniert dann nicht mehr.",
+          "requestCode": "Code per E-Mail senden",
+          "sending": "Wird gesendet…",
+          "codeSent": "Wir haben einen Code an {email} gesendet.",
+          "codeLabel": "Code",
+          "confirmDownload": "Bestätigen und herunterladen",
+          "loadError": "Das konnte gerade nicht geladen werden. Versuche es später erneut.",
+          "errors": {
+            "code_invalid": "Dieser Code ist nicht richtig. Prüfe die E-Mail und versuche es erneut.",
+            "code_expired": "Dieser Code ist abgelaufen. Fordere einen neuen an.",
+            "rate_limited": "Zu viele Versuche. Versuche es später erneut.",
+            "send_failed": "Die E-Mail konnte gerade nicht gesendet werden. Versuche es später erneut.",
+            "generic": "Etwas ist schiefgelaufen. Versuche es später erneut."
+          },
+          "points": [
+            {
+              "title": "Einmal herunterladen",
+              "text": "Du kannst die Datei nur jetzt herunterladen. Für eine neue bestätigst du später mit einem Code, den wir dir per E-Mail senden."
+            },
+            {
+              "title": "Sicher aufbewahren",
+              "text": "Zum Beispiel ausgedruckt oder auf einem verschlüsselten Laufwerk. Jeder mit dieser Datei kann sich in dein Konto einloggen, also versende oder teile sie nicht."
+            },
+            {
+              "title": "Damit anmelden",
+              "text": "Gib beim Anmelden deine E-Mail-Adresse ein, wähle \"Passwort vergessen?\", dann \"Mit einer Wiederherstellungsdatei anmelden\" und lade das PDF hoch."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Passkeys",
+        "subtitle": "Mit Passkeys meldest du dich sicher und einfach ohne Passwort an. Du kannst deinen Fingerabdruck, dein Gesicht oder die Displaysperre deines Geräts verwenden.",
+        "add": "Passkey hinzufügen",
+        "empty": "Du hast noch keine Passkeys hinzugefügt.",
+        "unnamed": "Unbenannter Passkey",
+        "addedOn": "Hinzugefügt am {date}",
+        "lastUsed": "Zuletzt verwendet {date}",
+        "never": "Nie verwendet",
+        "delete": "Löschen",
+        "count": "Du hast {count} aktive Passkeys.",
+        "none": "Du hast noch keine Passkeys eingerichtet.",
+        "success": "Passkey erfolgreich registriert!",
+        "error": "Registrierung des Passkeys fehlgeschlagen.",
+        "pending": "Wird registriert...",
+        "emptyTitle": "Noch keine Passkeys",
+        "emptyText": "Füge einen hinzu, um dich mit Fingerabdruck, Gesicht oder der Bildschirmsperre deines Geräts statt mit deinem Passwort anzumelden. Dein Passwort funktioniert weiterhin.",
+        "deleteConfirm": "Diesen Passkey entfernen? Du kannst dich dann nicht mehr damit anmelden.",
+        "cancel": "Abbrechen",
+        "removing": "Wird entfernt...",
+        "createTitle": "Passkey erstellen",
+        "createSubtitle": "Mit einem Passkey meldest du dich per Fingerabdruck, Gesicht oder Bildschirmsperre deines Geräts an. Er wird von deinem Gerät oder Passwortmanager gespeichert und verlässt es nie.",
+        "nameLabel": "Name des Passkeys",
+        "nameHint": "Damit du deine Passkeys unterscheiden kannst, zum Beispiel das Gerät oder der Passwortmanager, in dem er gespeichert ist.",
+        "whatHappensTitle": "Wie es weitergeht",
+        "whatHappens1": "Dein Browser oder Passwortmanager fragt, wo der Passkey gespeichert werden soll.",
+        "whatHappens2": "Bestätige mit Fingerabdruck, Gesicht oder Bildschirmsperre.",
+        "whatHappens3": "Danach kannst du beim Anmelden den Passkey auswählen.",
+        "create": "Passkey erstellen",
+        "waiting": "Folge der Aufforderung deines Browsers oder Passwortmanagers…",
+        "cancelled": "Es wurde kein Passkey erstellt. Du kannst es erneut versuchen.",
+        "doneTitle": "Passkey hinzugefügt",
+        "doneSubtitle": "Du kannst dich jetzt mit \"{name}\" anmelden. Dein Passwort funktioniert weiterhin.",
+        "done": "Fertig",
+        "back": "Zurück",
+        "removeError": "Passkey konnte nicht entfernt werden. Versuche es erneut.",
+        "defaultName": "{browser} auf {system}",
+        "rowDescription": "Melde dich mit deinem Fingerabdruck, Gesicht oder der Geräte-PIN an."
+      },
+      "activityModal": {
+        "title": "Anmeldeaktivität des Kontos",
+        "subtitle": "Wo dein Konto gerade angemeldet ist. Melde dich auf jedem Gerät ab, das du nicht kennst.",
+        "unknownDevice": "Unbekanntes Gerät",
+        "unknownLocation": "Unbekannter Standort",
+        "currentDevice": "Dieses Gerät",
+        "lastActive": "Zuletzt aktiv {date}",
+        "revoke": "Abmelden",
+        "revokePending": "Wird bearbeitet...",
+        "revokeAllTitle": "Anmeldungen auf anderen Geräten",
+        "revokeAll": "Auf allen anderen Geräten abmelden",
+        "revokeAllPending": "Wird bearbeitet...",
+        "revokeSuccess": "Die Sitzung wurde beendet.",
+        "revokeAllSuccess": "Alle anderen Sitzungen wurden abgemeldet.",
+        "revokeError": "Sitzung konnte nicht beendet werden.",
+        "viewMore": "+ {count} weitere Geräte",
+        "activeNow": "Jetzt aktiv",
+        "thisDeviceTitle": "Dieses Gerät",
+        "otherEmpty": "Du bist auf keinem anderen Gerät angemeldet.",
+        "showAll": "Alle {count} anzeigen",
+        "revokeAllConfirm": "Von allen {count} anderen Geräten abmelden? Wer sie nutzt, muss sich erneut anmelden.",
+        "cancel": "Abbrechen"
+      },
+      "automatedDecisions": {
+        "title": "Automatisierte Entscheidungen",
+        "description": "Einige Entscheidungen zum Schutz deines Kontos werden automatisch getroffen, auf Grundlage von Signalen wie Anmeldemustern und verdächtigen Aktivitäten. Du kannst eine Person bei Ordnary bitten, das Ergebnis zu prüfen.",
+        "back": "Zurück",
+        "close": "Schließen",
+        "loading": "Wird geladen…",
+        "currentStateTitle": "Aktueller automatisierter Status",
+        "riskLabels": {
+          "LOW": "Geringes Risiko",
+          "MEDIUM": "Mittleres Risiko",
+          "HIGH": "Hohes Risiko"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktiv",
+          "SUSPENDED": "Vorübergehend gesperrt",
+          "DEACTIVATED": "Deaktiviert",
+          "DELETED": "Löschung ausstehend"
+        },
+        "suspendedExplanation": "Dein Konto ist derzeit durch eine automatische Regel eingeschränkt. Du kannst unten eine Prüfung durch einen Menschen anfordern. Eine Person bei Ordnary sieht sich die Signale und deine Erklärung an und bestätigt oder ändert die Entscheidung.",
+        "elevatedExplanation": "Das Risikoniveau deines Kontos wurde aufgrund neuer Aktivitäten erhöht. Du kannst eine Prüfung durch einen Menschen anfordern, wenn du glaubst, dass die Signale falsch sind.",
+        "okExplanation": "Wir haben bei deinem Konto keine automatischen Einschränkungen festgestellt. Unten kannst du trotzdem eine Prüfung früherer Entscheidungen anfordern.",
+        "lastEvaluated": "Zuletzt bewertet",
+        "signalsTitle": "Aktuelle Sicherheitssignale",
+        "signalsEmpty": "In letzter Zeit wurden keine Sicherheitssignale erfasst.",
+        "appealTitle": "Prüfung durch einen Menschen anfordern",
+        "appealSubtitle": "Eine Person bei Ordnary prüft die automatische Entscheidung, deine Erklärung und die zugrunde liegenden Signale. Wir antworten in angemessener Zeit.",
+        "pickReason": "Was möchtest du anfechten?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Ich glaube, die Sperrung ist falsch",
+          "RISK_LEVEL_OBJECTION": "Ich glaube, mein Risikoniveau ist falsch",
+          "SECURITY_EVENT_OBJECTION": "Ich möchte ein bestimmtes Sicherheitssignal anfechten",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Ich möchte, dass eine Person automatisierte Entscheidungen zu meinem Konto prüft"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Dein Konto ist derzeit gesperrt und du möchtest, dass diese Entscheidung geprüft wird.",
+          "RISK_LEVEL_OBJECTION": "Dein Risikoniveau ist höher als erwartet und du möchtest es neu bewerten lassen.",
+          "SECURITY_EVENT_OBJECTION": "Es wurde ein bestimmtes Sicherheitsereignis erfasst, das du nicht kennst.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Du möchtest, dass ein Mensch automatisierte Entscheidungen zu deinem Konto prüft."
+        },
+        "yourStatement": "Deine Erklärung (optional)",
+        "statementPlaceholder": "Sag uns alles, was wir wissen sollten, zum Beispiel dass du unterwegs warst, ein neues Gerät genutzt hast oder jemand anderes versucht hat, sich Zugang zu verschaffen.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Prüfungsanfrage senden",
+        "submitting": "Wird gesendet...",
+        "submitted": "Wir haben deine Anfrage erhalten und melden uns bei dir.",
+        "pendingTitle": "Prüfung läuft",
+        "pendingSubtitle": "Eine Person bei Ordnary sieht sich deine Anfrage an. Du wirst benachrichtigt, sobald es etwas Neues gibt.",
+        "withdraw": "Anfrage zurückziehen",
+        "withdrawing": "Wird zurückgezogen...",
+        "withdrawn": "Anfrage zurückgezogen.",
+        "withdrawableHint": "Du kannst diese Anfrage jederzeit zurückziehen.",
+        "historyTitle": "Frühere Prüfungsanfragen",
+        "historyEmpty": "Keine früheren Prüfungsanfragen.",
+        "outcomes": {
+          "UPHELD": "Bestätigt",
+          "OVERTURNED": "Aufgehoben",
+          "ADJUSTED": "Angepasst",
+          "ESCALATED": "Eskaliert"
+        },
+        "statuses": {
+          "PENDING": "Ausstehend",
+          "IN_REVIEW": "In Prüfung",
+          "RESOLVED": "Abgeschlossen",
+          "WITHDRAWN": "Zurückgezogen"
+        },
+        "loadError": "Details zu automatisierten Entscheidungen konnten nicht geladen werden.",
+        "alreadyOpen": "Du hast bereits eine offene Prüfungsanfrage.",
+        "cooldown": "Du kannst in {hours} Stunde(n) eine neue Prüfungsanfrage stellen. Diese Wartezeit hilft, die vorherige Anfrage zu bearbeiten.",
+        "showAll": "Alle anzeigen ({count})",
+        "showLess": "Weniger anzeigen"
+      },
+      "previewBadge": "Vorschau",
+      "previewBadgeTooltip": "Neu und wird noch verbessert. Passkeys funktionieren, aber Details können sich ändern."
+    },
+    "connections": {
+      "title": "Verbundene Apps",
+      "description": "Anwendungen, die Zugriff auf die Daten deines Ordnary-Kontos haben.",
+      "empty": "Du hast noch keine Apps verbunden.",
+      "authorizedScopes": "Autorisierte Bereiche: {scopes}",
+      "granted": "Erteilt: {date}",
+      "revoke": "Zugriff widerrufen"
+    },
+    "devices": {
+      "title": "Geräte und Sitzungen",
+      "description": "Verwalte deine aktiven Sitzungen auf verschiedenen Geräten.",
+      "logoutOthers": "Auf allen anderen Geräten abmelden",
+      "headers": {
+        "device": "Gerät",
+        "location": "Standort / IP",
+        "lastActive": "Zuletzt aktiv",
+        "type": "Typ",
+        "actions": "Aktionen"
+      },
+      "unknownDevice": "Unbekanntes Gerät",
+      "currentSession": "(Aktuelle Sitzung)",
+      "typeFormat": "{browser} auf {os}",
+      "revoke": "Widerrufen"
+    },
+    "passkeysPage": {
+      "title": "Passkeys",
+      "description": "Verwalte deine Biometrie und Hardware-Schlüssel für die Anmeldung ohne Passwort.",
+      "add": "+ Neuen Passkey hinzufügen",
+      "empty": "Du hast noch keine Passkeys hinzugefügt.",
+      "unnamed": "Unbenannter Passkey",
+      "addedOn": "Hinzugefügt am: {date}",
+      "lastUsed": "Zuletzt verwendet: {date}",
+      "never": "Nie",
+      "delete": "Löschen"
+    },
+    "activity": {
+      "title": "Letzte Aktivität",
+      "description": "Prüfe und überwache wichtige Ereignisse und Änderungen rund um die Sicherheit deines Kontos.",
+      "details": "Details",
+      "dates": {
+        "today": "Heute, 17. April",
+        "yesterday": "Gestern, 16. April"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Angemeldet",
+        "LOGIN_FAILED": "Anmeldung fehlgeschlagen",
+        "LOGIN_LOCKED": "Anmeldung gesperrt",
+        "LOGOUT": "Abgemeldet",
+        "SESSION_CREATED": "Sitzung erstellt",
+        "SESSION_REVOKED": "Sitzung beendet",
+        "SESSION_ALL_REVOKED": "Überall abgemeldet",
+        "PASSWORD_SET": "Passwort festgelegt",
+        "PASSWORD_CHANGED": "Passwort geändert",
+        "PASSWORD_RESET_REQUESTED": "Passwort-Zurücksetzung angefordert",
+        "PASSWORD_RESET_COMPLETED": "Passwort zurückgesetzt",
+        "PASSKEY_REGISTERED": "Passkey registriert",
+        "PASSKEY_USED": "Mit einem Passkey angemeldet",
+        "PASSKEY_REMOVED": "Passkey entfernt",
+        "PASSKEY_COUNTER_MISMATCH": "Passkey-Warnung",
+        "MFA_ENABLED": "Zwei-Faktor-Authentifizierung aktiviert",
+        "MFA_DISABLED": "Zwei-Faktor-Authentifizierung deaktiviert",
+        "MFA_FACTOR_ENROLLED": "Authenticator hinzugefügt",
+        "MFA_FACTOR_VERIFIED": "Authenticator bestätigt",
+        "MFA_FACTOR_REVOKED": "Authenticator entfernt",
+        "RECOVERY_CODES_GENERATED": "Neue Wiederherstellungscodes",
+        "RECOVERY_CODE_USED": "Wiederherstellungscode verwendet",
+        "STEP_UP_REQUIRED": "Bestätigung angefordert",
+        "STEP_UP_COMPLETED": "Bestätigt, dass du es bist",
+        "EMAIL_ADDED": "E-Mail-Adresse hinzugefügt",
+        "EMAIL_VERIFIED": "E-Mail-Adresse bestätigt",
+        "EMAIL_REMOVED": "E-Mail-Adresse entfernt",
+        "EMAIL_PRIMARY_CHANGED": "Primäre E-Mail-Adresse geändert",
+        "ACCOUNT_CREATED": "Konto erstellt",
+        "ACCOUNT_UPDATED": "Konto aktualisiert",
+        "ACCOUNT_DELETED": "Kontolöschung gestartet",
+        "ACCOUNT_REACTIVATED": "Konto reaktiviert",
+        "OAUTH_CONSENT_GRANTED": "App hat Zugriff erhalten",
+        "OAUTH_CONSENT_REVOKED": "App-Zugriff entfernt",
+        "OAUTH_TOKEN_ISSUED": "App angemeldet",
+        "OAUTH_TOKEN_REVOKED": "App abgemeldet",
+        "SUSPICIOUS_NEW_LOCATION": "Anmeldung von einem neuen Ort",
+        "SUSPICIOUS_NEW_DEVICE": "Anmeldung auf einem neuen Gerät",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Ungewöhnliche Anmeldung",
+        "NOTIFICATION_PREFERENCE_CHANGED": "E-Mail-Einstellungen geändert",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "E-Mails abbestellt",
+        "PRIVACY_REQUEST_FILED": "Datenschutzanfrage gestellt",
+        "PRIVACY_REQUEST_RESOLVED": "Datenschutzanfrage bearbeitet",
+        "DSAR_FILED": "Datenanfrage gestellt",
+        "DSAR_FULFILLED": "Datenanfrage erledigt",
+        "DSAR_REJECTED": "Datenanfrage abgelehnt",
+        "RISK_REVIEW_REQUESTED": "Überprüfung angefordert",
+        "RISK_REVIEW_RESOLVED": "Überprüfung abgeschlossen"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Mittel",
+        "HIGH": "Hoch",
+        "CRITICAL": "Kritisch",
+        "LOW": "Niedrig"
+      },
+      "empty": "Noch keine Aktivität in deinem Konto.",
+      "filters": {
+        "all": "Alle",
+        "account": "Kontoänderungen",
+        "security": "Sicherheitswarnungen"
+      },
+      "retention": "Aktivitäten werden {days} Tage aufbewahrt. Du kannst das unter {link} ändern.",
+      "retentionLink": "Deine Informationen und Berechtigungen",
+      "emptyFiltered": "In dieser Ansicht gibt es nichts anzuzeigen.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Jemand hat sich mit dem Passwort oder einem Anmeldecode bei deinem Konto angemeldet.",
+        "LOGIN_FAILED": "Jemand hat versucht, sich bei deinem Konto anzumelden, aber das Passwort oder der Code war falsch. Ein paar solcher Versuche sind meist nur ein Tippfehler.",
+        "LOGIN_LOCKED": "Nach zu vielen falschen Versuchen wurde die Anmeldung bei deinem Konto zum Schutz eine Zeit lang gesperrt.",
+        "LOGOUT": "Eine Sitzung in deinem Konto wurde abgemeldet.",
+        "SESSION_CREATED": "Dein Konto wurde auf einem Gerät oder in einem Browser angemeldet, wodurch eine neue Sitzung gestartet wurde.",
+        "SESSION_REVOKED": "Eine Sitzung in deinem Konto wurde abgemeldet, von dir oder weil sie nicht mehr sicher war.",
+        "SESSION_ALL_REVOKED": "Dein Konto wurde auf allen anderen Geräten abgemeldet.",
+        "PASSWORD_SET": "Deinem Konto wurde ein Passwort hinzugefügt.",
+        "PASSWORD_CHANGED": "Das Passwort deines Kontos wurde geändert.",
+        "PASSWORD_RESET_REQUESTED": "Ein Code zum Zurücksetzen deines Passworts wurde an deine E-Mail-Adresse gesendet.",
+        "PASSWORD_RESET_COMPLETED": "Dein Passwort wurde mit einem Code aus deiner E-Mail zurückgesetzt, und du wurdest überall abgemeldet.",
+        "PASSKEY_REGISTERED": "Ein Passkey wurde hinzugefügt, sodass du dich mit deinem Gerät statt mit einem Passwort anmelden kannst.",
+        "PASSKEY_USED": "Jemand hat sich mit einem der Passkeys bei deinem Konto angemeldet.",
+        "PASSKEY_REMOVED": "Ein Passkey wurde entfernt und kann nicht mehr zur Anmeldung verwendet werden.",
+        "PASSKEY_COUNTER_MISMATCH": "Ein Passkey hat etwas Unerwartetes gemeldet, was bedeuten kann, dass er kopiert wurde. Die Anmeldung wurde abgelehnt.",
+        "MFA_ENABLED": "Bei der Anmeldung wird jetzt auch ein Code aus deiner Authenticator-App abgefragt.",
+        "MFA_DISABLED": "Bei der Anmeldung wird kein Code aus deiner Authenticator-App mehr abgefragt.",
+        "MFA_FACTOR_ENROLLED": "Eine Authenticator-App wurde mit deinem Konto verknüpft.",
+        "MFA_FACTOR_VERIFIED": "Ein Code aus deiner Authenticator-App wurde bestätigt.",
+        "MFA_FACTOR_REVOKED": "Eine Authenticator-App wurde aus deinem Konto entfernt.",
+        "RECOVERY_CODES_GENERATED": "Neue Wiederherstellungscodes wurden erstellt. Die alten Codes funktionieren nicht mehr.",
+        "RECOVERY_CODE_USED": "Jemand hat sich mit einem deiner Wiederherstellungscodes statt mit einem Authenticator-Code angemeldet. Dieser Code kann nicht erneut verwendet werden.",
+        "STEP_UP_REQUIRED": "Vor einer sensiblen Änderung wurdest du gebeten, mit einem Code per E-Mail zu bestätigen, dass du es bist.",
+        "STEP_UP_COMPLETED": "Ein Code per E-Mail hat bestätigt, dass du es warst, und eine sensible Änderung für kurze Zeit erlaubt.",
+        "EMAIL_ADDED": "Deinem Konto wurde eine E-Mail-Adresse hinzugefügt und ein Bestätigungslink an sie gesendet.",
+        "EMAIL_VERIFIED": "Eine E-Mail-Adresse in deinem Konto wurde bestätigt.",
+        "EMAIL_REMOVED": "Eine E-Mail-Adresse wurde aus deinem Konto entfernt.",
+        "EMAIL_PRIMARY_CHANGED": "Eine andere E-Mail-Adresse ist jetzt die Hauptadresse deines Kontos, für die Anmeldung und für Nachrichten.",
+        "ACCOUNT_CREATED": "Dein Ordnary-Konto wurde erstellt.",
+        "ACCOUNT_UPDATED": "Eine Einstellung oder Angabe in deinem Konto wurde geändert.",
+        "ACCOUNT_DELETED": "Dein Konto wurde zur Löschung vorgemerkt. Es kann 30 Tage lang wiederhergestellt werden.",
+        "ACCOUNT_REACTIVATED": "Dein Konto wurde nach einer Deaktivierung oder Löschung wieder aktiviert.",
+        "OAUTH_CONSENT_GRANTED": "Eine App hat über Ordnary ID Zugriff auf dein Konto erhalten.",
+        "OAUTH_CONSENT_REVOKED": "Eine App hat keinen Zugriff mehr auf dein Konto.",
+        "OAUTH_TOKEN_ISSUED": "Eine App, die du mit Ordnary ID nutzt, hat ein neues Anmeldetoken erhalten.",
+        "OAUTH_TOKEN_REVOKED": "Ein Anmeldetoken einer App wurde widerrufen.",
+        "SUSPICIOUS_NEW_LOCATION": "Dein Konto wurde von einem Ort aus verwendet, von dem es bisher nicht verwendet wurde.",
+        "SUSPICIOUS_NEW_DEVICE": "Dein Konto wurde auf einem Gerät verwendet, auf dem es bisher nicht verwendet wurde.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Dein Konto wurde von zwei Orten aus verwendet, die zu weit auseinanderliegen, als dass eine Person in dieser Zeit zwischen ihnen reisen könnte.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Es wurde geändert, welche E-Mails Ordnary dir senden darf.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Über einen Abmeldelink in einer E-Mail wurde eine Art von E-Mails abbestellt.",
+        "PRIVACY_REQUEST_FILED": "Ein Widerspruch gegen die Verarbeitung deiner Daten oder ein Antrag auf deren Einschränkung wurde gestellt.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary hat deinen Widerspruch oder deinen Antrag auf Einschränkung der Verarbeitung bearbeitet.",
+        "DSAR_FILED": "Eine Anfrage zu deinen Daten (Auskunft, Berichtigung, Löschung oder Kopie) wurde gestellt.",
+        "DSAR_FULFILLED": "Ordnary hat deine Datenanfrage erledigt.",
+        "DSAR_REJECTED": "Ordnary hat deine Datenanfrage abgelehnt; die E-Mail erklärt den Grund.",
+        "RISK_REVIEW_REQUESTED": "Eine Überprüfung einer automatisierten Entscheidung zu deinem Konto wurde angefordert.",
+        "RISK_REVIEW_RESOLVED": "Eine Person bei Ordnary hat eine automatisierte Entscheidung zu deinem Konto überprüft."
+      },
+      "detail": {
+        "ifNotYou": "Warst du das nicht? Ändere dein Passwort und melde deine anderen Geräte unter Passwort und Sicherheit ab.",
+        "ifNotYouLink": "Zu Passwort und Sicherheit",
+        "generic": "Dies wurde in deinem Konto erfasst.",
+        "labels": {
+          "when": "Wann",
+          "where": "Wo",
+          "ip": "IP-Adresse",
+          "session": "Sitzung",
+          "thisDevice": "Dieses Gerät",
+          "event": "Ereignis",
+          "source": "Erfasst in",
+          "severity": "Wichtigkeit"
+        },
+        "sources": {
+          "AUDIT_LOG": "Kontoprotokoll",
+          "SECURITY_EVENT": "Sicherheitsüberwachung"
+        },
+        "unknown": "Unbekannt",
+        "times": "{count}×",
+        "timeSpan": "{from} bis {to}"
+      },
+      "showMore": "Frühere Tage anzeigen",
+      "loadingMore": "Wird geladen…",
+      "end": "Das ist alle Aktivität, die aufbewahrt wird.",
+      "loadFailed": "Weitere Einträge konnten nicht geladen werden. Versuche es erneut."
+    },
+    "connectedAppsDemo": {
+      "title": "Verbundene Apps",
+      "description": "Drittanbieter-Anwendungen und -Dienste, denen du Zugriff auf einige deiner Kontodaten gegeben hast.",
+      "badges": {
+        "official": "Offiziell",
+        "verified": "Verifiziert"
+      },
+      "accessed": "Zugriff {value}",
+      "revoke": "Zugriff widerrufen",
+      "apps": {
+        "consoleReason": "Verwalte deine Cloud-Ressourcen und Deployment-Pipelines.",
+        "figmaReason": "Design-Tool für gemeinsames Prototyping.",
+        "unknownGameName": "Unbekanntes Spiel",
+        "unknownGameReason": "Eine nicht verifizierte App, die deine Profilinformationen angefordert hat.",
+        "currentSession": "Aktuelle Sitzung",
+        "twoDaysAgo": "vor 2 Tagen",
+        "lastMonth": "Letzten Monat"
+      }
+    },
+    "permissions": {
+      "title": "Deine Informationen und Berechtigungen",
+      "exportTitle": "Deine Informationen exportieren",
+      "searchHistory": "Ordnary-Aktivität",
+      "externalActivity": "Deine Aktivität außerhalb von Ordnary-Technologien",
+      "appConnections": "App-Verbindungen",
+      "manageContacts": "Kontakte verwalten",
+      "notice": "Gehe zu Deine Informationen exportieren, um eine Kopie deiner Informationen herunterzuladen oder zu übertragen.",
+      "footer": "Entscheide, welche Informationen Ordnary-Technologien verwenden dürfen, um deine Erlebnisse zu beeinflussen.",
+      "privacyRightsTitle": "Deine Datenschutzrechte",
+      "dsarTitle": "Datenschutz- und Datenanfragen",
+      "dsarSubtitle": "Stelle eine formelle Anfrage auf Auskunft, Berichtigung, Löschung oder Datenübertragbarkeit (Art. 15-20).",
+      "privacyRequestsTitle": "Widersprechen oder einschränken",
+      "privacyRequestsSubtitle": "Widersprich bestimmten Verarbeitungen oder schränke sie ein (Art. 18 / Art. 21).",
+      "processorsTitle": "Wer deine Daten verarbeitet",
+      "processorsSubtitle": "Die Unternehmen, die wir für den Betrieb von Ordnary nutzen, was sie erhalten und wo sie es speichern.",
+      "cookiesTitle": "Cookie-Einstellungen",
+      "cookiesSubtitle": "Verwalte, welche Cookies Ordnary in diesem Browser verwenden darf.",
+      "minorConsentTitle": "Einwilligung der Eltern",
+      "minorConsentSubtitle": "Wenn du unter dem Alter der Einwilligung in deinem Land bist, müssen deine Eltern oder Erziehungsberechtigten zustimmen (DSGVO Art. 8).",
+      "notificationsTitle": "Benachrichtigungseinstellungen",
+      "notificationsSubtitle": "Wähle, welche Arten von E-Mails Ordnary dir senden darf.",
+      "notifications": {
+        "title": "Benachrichtigungseinstellungen",
+        "close": "Schließen",
+        "loading": "Wird geladen…",
+        "alwaysOn": "Immer an",
+        "description": "Wähle, welche E-Mails du von Ordnary bekommst.",
+        "loadError": "Das konnten wir gerade nicht laden. Versuche es später noch einmal.",
+        "saveError": "Das konnten wir nicht speichern. Versuche es noch einmal.",
+        "saved": "Gespeichert.",
+        "alwaysTitle": "Immer aktiv",
+        "alwaysText": "Diese E-Mails schützen dein Konto und bestätigen, was du angefordert hast. Deshalb bleiben sie an.",
+        "choiceTitle": "Deine Wahl",
+        "turnAllOff": "Alle optionalen E-Mails ausschalten",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Sicherheitswarnungen",
+          "TRANSACTIONAL_ACCOUNT": "Kontonachrichten",
+          "PRODUCT_UPDATES": "Produktneuigkeiten",
+          "RECOMMENDATIONS": "Empfehlungen",
+          "MARKETING": "Neuigkeiten und Angebote"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Anmeldecodes, Passwort-Zurücksetzungen und Warnungen bei neuen Anmeldungen oder Änderungen an deiner Sicherheit.",
+          "TRANSACTIONAL_ACCOUNT": "Bestätigungen für Dinge, die du getan hast, etwa einen Datenexport, eine Datenschutzanfrage oder die Einwilligung der Eltern.",
+          "PRODUCT_UPDATES": "Was es Neues bei den Produkten von Ordnary gibt, und Änderungen an unseren Bedingungen.",
+          "RECOMMENDATIONS": "Vorschläge dazu, wie du Ordnary nutzt.",
+          "MARKETING": "Newsletter und Angebote, ab und zu."
+        }
+      },
+      "minorConsent": {
+        "title": "Einwilligung der Eltern",
+        "description": "Wenn du noch nicht in dem Alter bist, in dem du online selbst zustimmen kannst, müssen deine Eltern oder Erziehungsberechtigten zustimmen, bevor wir einige deiner Informationen verwenden dürfen. Das ergibt sich aus Artikel 8 der DSGVO.",
+        "close": "Schließen",
+        "loading": "Wird geladen…",
+        "loadError": "Wir konnten das gerade nicht laden. Versuche es später erneut.",
+        "consentAge": "Alter der Einwilligung in {country}: {age}",
+        "yourAge": "Dein Alter: {age}",
+        "adultTitle": "Nicht nötig",
+        "adultBody": "Du bist alt genug, um selbst zuzustimmen, deshalb brauchst du keine Einwilligung der Eltern.",
+        "unknownTitle": "Wir kennen dein Alter noch nicht",
+        "unknownBody": "Gib dein Geburtsdatum an, damit wir feststellen können, ob du die Einwilligung deiner Eltern brauchst.",
+        "unknownAction": "Geburtsdatum hinzufügen",
+        "blockedTitle": "Einwilligung nötig",
+        "blockedBody": "Bis ein Elternteil oder Erziehungsberechtigter zustimmt, sind einige Teile deines Kontos eingeschränkt.",
+        "pendingTitle": "Warten auf deine Eltern oder Erziehungsberechtigten",
+        "pendingBody": "Wir haben eine Anfrage an {email} gesendet. Der Link funktioniert bis {date}.",
+        "verifiedTitle": "Einwilligung erteilt",
+        "verifiedBody": "{email} hat am {date} zugestimmt.",
+        "parentEmail": "E-Mail der Eltern oder Erziehungsberechtigten",
+        "relationship": "Wer ist das, zum Beispiel Mutter (optional)",
+        "addMessage": "Nachricht hinzufügen (optional)",
+        "notes": "Nachricht an deine Eltern oder Erziehungsberechtigten",
+        "submit": "Anfrage senden",
+        "submitting": "Wird gesendet…",
+        "resend": "Erneut senden",
+        "changeEmail": "Andere E-Mail verwenden",
+        "cancel": "Abbrechen",
+        "revoke": "Zurückziehen",
+        "revokeConfirm": "Einwilligung zurückziehen? Teile deines Kontos sind dann wieder eingeschränkt, bis ein Elternteil oder Erziehungsberechtigter erneut zustimmt.",
+        "revoking": "Wird zurückgezogen…",
+        "revoked": "Einwilligung zurückgezogen.",
+        "notMinor": "Du bist alt genug, um selbst zuzustimmen.",
+        "invalidEmail": "Gib eine gültige E-Mail-Adresse ein.",
+        "requestSent": "Anfrage an {email} gesendet.",
+        "points": [
+          {
+            "title": "E-Mail der Eltern eingeben",
+            "text": "Die E-Mail-Adresse eines Elternteils oder Erziehungsberechtigten."
+          },
+          {
+            "title": "Sie stimmen zu",
+            "text": "Sie erhalten eine E-Mail mit einem Link zum Zustimmen. Der Link funktioniert 14 Tage."
+          },
+          {
+            "title": "Dein Konto funktioniert voll",
+            "text": "Sobald sie zustimmen, werden die Einschränkungen deines Kontos aufgehoben."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Du kannst eine Kopie deiner Informationen an einen externen Dienst oder auf dein Gerät exportieren. Zu den verfügbaren Daten gehören Inhalte und Informationen, die du geteilt hast, deine Aktivität und Informationen, die wir erfassen.",
+      "exportButton": "Download-Link senden",
+      "exportModalContentsTitle": "Das ist in deinem Export enthalten:",
+      "exportModalContents": [
+        "Profildaten und Kontoeinstellungen",
+        "E-Mail-Adressen und Telefonnummern",
+        "Sicherheitseinstellungen (Passkeys, MFA, Geräte)",
+        "Sitzungs- und Anmeldeverlauf",
+        "Zahlungsdetails",
+        "Verbundene Apps und OAuth-Einwilligungen",
+        "Aktivitätsprotokoll und Sicherheitsereignisse",
+        "Datenschutz- und Cookie-Einwilligungen"
+      ],
+      "exportModalFormat": "Format: ZIP-Archiv mit strukturierten JSON-Dateien und einer lesbaren README.",
+      "exportModalRateLimit": "Du erhältst eine E-Mail mit einem einmaligen Download-Link. Maximal 3 Exporte pro 24 Stunden.",
+      "exportDownload": {
+        "loading": "Einen Moment...",
+        "readyTitle": "Dein Datenexport ist bereit",
+        "readyDescription": "Klicke auf die Schaltfläche unten, um deine Kontodaten als ZIP-Archiv herunterzuladen. Dieser Link ist nur einmal gültig und läuft nach 24 Stunden ab.",
+        "downloadButton": "Deine Daten herunterladen",
+        "readyHint": "Die Datei enthält alle deine personenbezogenen Daten, Sicherheitseinstellungen, dein Aktivitätsprotokoll und mehr in strukturierten JSON-Dateien.",
+        "downloadingTitle": "Wird heruntergeladen...",
+        "downloadingDescription": "Dein Export wird vorbereitet. Das kann einige Sekunden dauern.",
+        "successTitle": "Download gestartet",
+        "successDescription": "Dein Datenexport wird heruntergeladen. Bewahre die Datei an einem sicheren Ort auf, denn sie enthält sensible personenbezogene Daten.",
+        "successHint": "Dieser Download-Link ist jetzt abgelaufen. Wenn du einen neuen Export brauchst, kannst du ihn in deinen Kontoeinstellungen anfordern.",
+        "backToSettings": "Zurück zu den Kontoeinstellungen",
+        "expiredTitle": "Link abgelaufen",
+        "expiredDescription": "Dieser Download-Link ist abgelaufen oder wurde bereits verwendet. Download-Links sind 24 Stunden gültig und nur einmal nutzbar.",
+        "newExportButton": "Neuen Export anfordern",
+        "errorTitle": "Etwas ist schiefgelaufen",
+        "errorDefault": "Beim Abrufen deines Exports ist ein Fehler aufgetreten.",
+        "noToken": "Kein Download-Token gefunden."
+      },
+      "appConnectionsModalSubtitle": "Mit App-Verbindungen kannst du Dinge in verschiedenen Ordnary-Produkten und bei anderen Unternehmen erledigen.",
+      "connectButton": "Verbinden",
+      "activityModalSubtitle": "Sieh und verwalte deine Aktivität im Ordnary-Ökosystem, einschließlich unserer SaaS-Produkte und Anwendungen. Wir nutzen diese Informationen, um aus deinem Verhalten zu lernen und dein Erlebnis auf allen unseren Plattformen zu verbessern.",
+      "accountsAndProfiles": "Deine Konten und Profile",
+      "keepActivityFor": "Aktivität aufbewahren für",
+      "clearActivityButton": "Gesamte Aktivität löschen",
+      "days3": "3 Tage",
+      "days7": "7 Tage",
+      "days14": "14 Tage",
+      "standardOption": "Standard",
+      "noticeTitle": "Eine Kopie deiner Informationen erhalten",
+      "noticeText": "Lade deine Kontodaten herunter, um sie zu behalten oder zu einem anderen Dienst mitzunehmen.",
+      "noticeAction": "Informationen exportieren",
+      "experimentBadge": "Experiment",
+      "userFallback": "Nutzer",
+      "avatarAlt": "Profilbild",
+      "exportSent": "Download-Link an {email} gesendet",
+      "exportFailed": "Export fehlgeschlagen. Versuche es erneut.",
+      "exportInProgress": "Ein Export wird bereits vorbereitet. Versuche es in Kürze erneut.",
+      "exportRateLimited": "Du hast die maximale Anzahl an Exporten erreicht. Versuche es in {time} erneut.",
+      "saveFailed": "Speichern nicht möglich. Versuche es erneut.",
+      "days30": "30 Tage",
+      "autoClear": {
+        "title": "Ordnary-Aktivität automatisch löschen",
+        "subtitle": "Lege fest, wie lange wir deine Aktivität speichern. Ältere Aktivität wird automatisch entfernt, für alle Konten und Profile im Kontozentrum.",
+        "standard": "Standard",
+        "saving": "Wird gespeichert…",
+        "saved": "Gespeichert.",
+        "back": "Zurück",
+        "close": "Schließen",
+        "howTitle": "Was entfernt wird",
+        "howText": "Dein Anmeldeverlauf und die Sicherheitsereignisse deines Kontos, etwa neue Anmeldungen, Passwortänderungen und blockierte Versuche, sobald sie älter sind als der gewählte Zeitraum.",
+        "howPermanent": "Entfernte Aktivität kann nicht wiederhergestellt werden. Lade vorher eine Kopie herunter, wenn du sie behalten möchtest.",
+        "learnMore": "Mehr zum automatischen Löschen in der Ordnary-Dokumentation"
+      },
+      "experimentBadgeTooltip": "Noch in Entwicklung. Du kannst dich umsehen, aber das Verbinden von Apps funktioniert noch nicht."
+    },
+    "payments": {
+      "title": "Bezahlen",
+      "subtitle": "Verwalte deine gespeicherten Zahlungsinformationen und welche Konten darauf zugreifen können. {learnMore}",
+      "syncInfo": "Zwischen 2 Konten synchronisiert",
+      "addMethodTitle": "Zahlungsmethode hinzufügen",
+      "addMethodSubtitle": "Speichere eine Karte oder verknüpfe dein PayPal, damit dein nächster Kauf einfacher wird.",
+      "addMethodButton": "Zahlungsmethode hinzufügen",
+      "shippingTitle": "Lieferdetails",
+      "shippingAddress": "Lieferadresse",
+      "emailAddress": "E-Mail-Adresse",
+      "phoneNumber": "Telefonnummer",
+      "addModal": {
+        "title": "Zahlungsmethode hinzufügen",
+        "card": "Kredit- oder Debitkarte",
+        "paypal": "PayPal",
+        "footer": "Diese Informationen werden bei Ordnary Pay gespeichert und im Kontocenter synchronisiert, wo du sie verwalten kannst. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Karte hinzufügen",
+        "subtitle": "Deine Kartennummer wird verschlüsselt und sicher gespeichert",
+        "cardNumber": "Kartennummer",
+        "expiry": "Ablaufdatum (MM/JJ)",
+        "cvv": "CVV",
+        "name": "Name auf der Karte",
+        "submit": "Weiter",
+        "cvvTooltip": "Dein Prüfcode (CVV) ist die Sicherheitsnummer auf der Rück- oder Vorderseite deiner Karte.",
+        "footer": "Diese Informationen werden bei Ordnary Pay gespeichert und im Kontocenter synchronisiert, wo du sie verwalten kannst. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Lieferadresse festlegen",
+        "subtitle": "Füge eine Lieferadresse für Ordnary Pay hinzu. Das ist getrennt vom Einrichten deiner Karte.",
+        "search": "Adresse suchen",
+        "country": "Land oder Region",
+        "fullName": "Vollständiger Name",
+        "street": "Adresse",
+        "street2": "Adresszeile 2 (optional)",
+        "city": "Stadt/Bezirk",
+        "state": "Bundesland/Provinz/Region",
+        "zip": "Postleitzahl",
+        "submit": "Adresse speichern"
+      }
+    },
+    "subscriptions": {
+      "description": "Verwalte deine aktiven Ordnary-Abonnements, Verlängerungen und Abrechnungseinstellungen.",
+      "emptyTitle": "Keine aktiven Abonnements",
+      "emptyDescription": "Abonnements werden hier angezeigt, sobald sie mit deinem Konto verknüpft sind.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Unbegrenzter Zugriff auf Premium-Medien von Ordnary Pictures, darunter ausgewählte Filme, Serien, Vorschauen und Veröffentlichungen nur für Mitglieder in unterstützten Ordnary-Erlebnissen.",
+          "status": "Aktiv",
+          "renewal": "Verlängert sich monatlich",
+          "price": "9,99 € pro Monat"
+        }
+      },
+      "manageSubscription": "Abonnement verwalten"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Zugriff verweigert",
+        "description": "Du hast derzeit keinen Zugriff auf das Kontozentrum. Möglicherweise ist deine Sitzung abgelaufen oder dein Konto eingeschränkt.",
+        "action": "Erneut anmelden"
+      },
+      "suspended": {
+        "title": "Konto deaktiviert",
+        "description": "Dieses Konto ist deaktiviert oder vorübergehend eingeschränkt. Wende dich an den Support, wenn du glaubst, dass das ein Fehler ist.",
+        "action": "Support kontaktieren"
+      },
+      "banned": {
+        "title": "Zugriff dauerhaft verweigert",
+        "description": "Dein Konto wurde wegen eines Verstoßes gegen unsere Nutzungsbedingungen dauerhaft gesperrt.",
+        "action": "Bedingungen ansehen"
+      },
+      "offline": {
+        "title": "Keine Internetverbindung",
+        "description": "Du scheinst offline zu sein. Prüfe deine Internetverbindung, um fortzufahren.",
+        "action": "Erneut versuchen"
+      },
+      "unknown": {
+        "title": "Systemfehler",
+        "description": "Etwas Unerwartetes ist schiefgelaufen. Versuche es später erneut.",
+        "action": "Zurück zum Anfang"
+      },
+      "previousPage": "Vorherige Seite"
+    },
+    "common": {
+      "noResults": "Keine Ergebnisse",
+      "searchPlaceholder": "Suchen..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} möchte auf dein Konto zugreifen",
+      "description": "Du bist als {displayName} angemeldet. Gib nur Zugriff, wenn du dieser App vertraust.",
+      "requestedPermissions": "Angeforderte Berechtigungen",
+      "approve": "Zugriff erteilen",
+      "deny": "Ablehnen",
+      "errorTitle": "Es gibt ein Problem mit der Anfrage",
+      "errorDescription": "Die Autorisierungsanfrage ist ungültig oder unvollständig. Bitte prüfe die Parameter.",
+      "unknownAppTitle": "App kann nicht verifiziert werden",
+      "unknownAppDescription": "Diese App kann von Ordnary nicht identifiziert werden. Meist liegt das an einer falschen client_id oder redirect_uri. Zu deiner Sicherheit können wir nicht fortfahren."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Diese Seite ist nicht verfügbar",
+      "description": "Der Link ist möglicherweise defekt oder die Seite wurde entfernt. Prüfe, ob der Link, den du öffnen möchtest, richtig ist.",
+      "button": "Zu den Kontoeinstellungen"
+    },
+    "serverError": {
+      "title": "Etwas ist schiefgelaufen",
+      "description": "Es ist ein unerwarteter Fehler aufgetreten. Bitte versuche es später erneut.",
+      "button": "Erneut versuchen"
+    }
+  },
+  "cookieConsent": {
+    "title": "Cookies von Ordnary in diesem Browser zulassen?",
+    "description": "Wir verwenden Cookies und ähnliche Technologien, um Inhalte in Ordnary-Produkten bereitzustellen und sie zu verbessern. Außerdem sorgen wir damit für mehr Sicherheit, indem wir Informationen nutzen, die wir auf und außerhalb von Ordnary erhalten. Diese Cookies sind optional.",
+    "essentialTitle": "Essenzielle Cookies",
+    "essentialDesc": "Diese Cookies sind für die Nutzung von Ordnary-Produkten erforderlich und notwendig, damit unsere Seiten richtig funktionieren.",
+    "optionalTitle": "Cookies von anderen Unternehmen",
+    "optionalDesc": "Wir verwenden diese Cookies, um dir Werbung außerhalb von Ordnary-Produkten zu zeigen und Funktionen wie Karten und Videos in Ordnary-Produkten bereitzustellen. Diese Cookies sind optional.",
+    "policyInfo": "Du entscheidest, welche optionalen Cookies wir verwenden dürfen. In unserer {cookiePolicy} findest du mehr Informationen zu Cookies und wie wir sie verwenden, und du kannst deine Auswahl jederzeit prüfen oder ändern.",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "infoTitle": "Informationen zu Cookies",
+    "policyRefreshNotice": "Wir haben geändert, wie wir Cookie-Entscheidungen erfassen. Bitte bestätige deine Einstellungen erneut, damit wir einen aktuellen Nachweis führen können.",
+    "policyRevisionNotice": "Unsere Cookie-Richtlinie wurde aktualisiert. Bitte prüfe deine Einstellungen erneut.",
+    "preferencesTitle": "Deine Cookie-Einstellungen",
+    "preferencesDescription": "Wähle, welche Kategorien von Cookies Ordnary in diesem Browser verwenden darf. Du kannst diese Einstellungen jederzeit in deinem Konto ändern.",
+    "alwaysOn": "Immer an",
+    "categories": {
+      "essential": {
+        "title": "Essenziell",
+        "description": "Erforderlich für die Anmeldung, die Sicherheit und das Funktionieren des restlichen Produkts."
+      },
+      "functional": {
+        "title": "Funktional",
+        "description": "Speichern Einstellungen wie Sprache, Design und zuletzt verwendete Konten."
+      },
+      "analytics": {
+        "title": "Analyse",
+        "description": "Helfen uns zu verstehen, wie Ordnary genutzt wird, damit wir es verbessern können."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Personalisierte Nachrichten von Ordnary zu Produkten und Angeboten."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Was sind Cookies?",
+        "button": "Mehr erfahren"
+      },
+      "why": {
+        "title": "Warum verwenden wir Cookies?",
+        "button": "Mehr erfahren"
+      },
+      "products": {
+        "title": "Was sind Ordnary-Produkte?",
+        "button": "Mehr erfahren"
+      },
+      "preferences": {
+        "title": "Deine Cookie-Einstellungen",
+        "button": "Mehr erfahren"
+      }
+    },
+    "buttons": {
+      "reject": "Optionale Cookies ablehnen",
+      "accept": "Alle Cookies zulassen",
+      "rejectShort": "Ablehnen",
+      "acceptShort": "Zulassen",
+      "customize": "Anpassen",
+      "save": "Einstellungen speichern",
+      "saveShort": "Speichern",
+      "close": "Schließen"
+    }
+  },
+  "recentAccounts": {
+    "title": "Mit deinem Ordnary-Konto anmelden",
+    "continueAs": "Weiter als {name}",
+    "loginAnother": "Mit einem anderen Konto anmelden",
+    "remove": "Konto entfernen"
+  },
+  "reauthenticate": {
+    "title": "Bestätige, dass du es bist",
+    "description": "Hallo {name}, zu deiner Sicherheit müssen wir bestätigen, dass du es bist, bevor du {action}.",
+    "codeSentTo": "Wir haben einen Code an {email} gesendet.",
+    "codeSent": "Wir haben einen 6-stelligen Sicherheitscode an deine E-Mail-Adresse gesendet.",
+    "securityCode": "Sicherheitscode",
+    "continue": "Weiter",
+    "verifying": "Wird überprüft…",
+    "sending": "Wird gesendet…",
+    "cancel": "Abbrechen",
+    "errors": {
+      "sendFailed": "Sicherheitscode konnte nicht gesendet werden.",
+      "invalidCode": "Ungültiger Code.",
+      "network": "Netzwerkfehler. Bitte versuche es erneut."
+    },
+    "actions": {
+      "changePassword": "dein Passwort änderst",
+      "changeEmail": "deine E-Mail-Adressen verwaltest",
+      "managePasskeys": "deine Passkeys verwaltest",
+      "manageMfa": "die Zwei-Faktor-Authentifizierung verwaltest",
+      "revokeAllSessions": "dich überall abmeldest",
+      "manageAccount": "dein Konto deaktivierst oder löschst",
+      "rotateClientSecret": "dieses Client-Secret erneuerst",
+      "managePaymentMethods": "deine Zahlungsmethoden verwaltest",
+      "authorizeApp": "diese Anwendung autorisierst",
+      "generic": "diese sensible Aktion fortsetzt"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Elterliche Einwilligung bestätigen",
+    "description": "Eine Person hat dich gebeten, ihr Ordnary-Konto gemäß DSGVO Art. 8 zu genehmigen. Klicke unten auf Bestätigen, um deine Einwilligung zu erfassen. Du kannst sie später jederzeit widerrufen, indem du auf die ursprüngliche E-Mail antwortest oder {email} kontaktierst.",
+    "idle": "Diese Seite sollte über den Link in der Anfrage-E-Mail geöffnet werden, damit das Bestätigungstoken enthalten ist.",
+    "verifying": "Wird überprüft…",
+    "success": "Vielen Dank. Die elterliche Einwilligung wurde bestätigt und wir haben das Konto auf der Seite der Nutzerin oder des Nutzers freigeschaltet. Sie oder er erhält ebenfalls eine Benachrichtigung.",
+    "errors": {
+      "tokenRequired": "Es wurde kein Bestätigungstoken angegeben.",
+      "tokenNotFound": "Dieser Bestätigungslink ist nicht mehr gültig.",
+      "alreadyVerified": "Diese Bestätigung wurde bereits erfasst.",
+      "requestRevoked": "Diese Anfrage wurde zurückgezogen oder durch eine neuere ersetzt.",
+      "tokenExpired": "Dieser Bestätigungslink ist abgelaufen. Bitte die Person, eine neue Anfrage zu senden.",
+      "invalidBody": "Die Bestätigungsanfrage war fehlerhaft.",
+      "generic": "Wir konnten diesen Bestätigungslink nicht überprüfen. Bitte die Person, eine neue Anfrage zu senden."
+    }
+  },
+  "unsubscribe": {
+    "title": "Abbestellen",
+    "idle": "Öffne diese Seite über den Link in der E-Mail, damit das Abmelde-Token enthalten ist.",
+    "verifying": "Deine Einstellung wird gespeichert…",
+    "success": "Du wurdest abgemeldet.",
+    "successWithCategory": "Du wurdest von {category} abgemeldet.",
+    "manageAt": "Alle deine Benachrichtigungseinstellungen kannst du jederzeit unter {link} anpassen.",
+    "categories": {
+      "transactionalSecurity": "Sicherheitswarnungen",
+      "transactionalAccount": "Kontobenachrichtigungen",
+      "productUpdates": "Produktneuigkeiten",
+      "recommendations": "Empfehlungen",
+      "marketing": "Marketing-E-Mails"
+    },
+    "errors": {
+      "tokenRequired": "Es wurde kein Abmelde-Token angegeben.",
+      "tokenNotFound": "Dieser Abmeldelink ist nicht mehr gültig.",
+      "alreadyRedeemed": "Du hast diese Kategorie bereits abbestellt.",
+      "tokenExpired": "Dieser Abmeldelink ist abgelaufen. Du kannst die Einstellungen nach der Anmeldung im Kontozentrum verwalten.",
+      "categoryMandatory": "Diese Kategorie kann nicht deaktiviert werden, da sie sicherheits- und kontobezogene Benachrichtigungen umfasst.",
+      "generic": "Wir konnten diesen Abmeldelink nicht verarbeiten. Bitte melde dich an und passe deine Einstellungen direkt an."
+    }
+  },
+  "dsarVerify": {
+    "title": "Bestätige deine Datenschutzanfrage",
+    "description": "Bestätige, dass du diese Anfrage zu deinen Daten bei Ordnary gestellt hast. Falls nicht, schließe diese Seite und melde dich unter {email}.",
+    "idle": "Öffne diese Seite über den Link in der E-Mail, die wir dir geschickt haben, damit die Bestätigung enthalten ist.",
+    "confirm": "Anfrage bestätigen",
+    "verifying": "Wird bestätigt…",
+    "success": "Danke, deine Anfrage ist bestätigt. Wir bearbeiten sie innerhalb der gesetzlichen Frist und schreiben dir, sobald sie erledigt ist.",
+    "errors": {
+      "tokenRequired": "Diesem Link fehlt der Bestätigungscode.",
+      "tokenNotFound": "Dieser Link ist nicht mehr gültig.",
+      "tokenExpired": "Dieser Link ist abgelaufen. Stelle die Anfrage erneut im Account Center.",
+      "alreadyProcessed": "Diese Anfrage wurde bereits bestätigt oder bearbeitet.",
+      "generic": "Wir konnten diese Anfrage nicht bestätigen. Versuche es erneut oder wende dich an {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Du bist abgemeldet. Melde dich erneut an und versuche es noch einmal.",
+    "not_authenticated": "Du bist abgemeldet. Melde dich erneut an und versuche es noch einmal.",
+    "step_up_required": "Bestätige zuerst, dass du es bist, und versuche es dann erneut.",
+    "rate_limited": "Zu viele Versuche. Warte ein paar Minuten und versuche es erneut.",
+    "first_party_only": "Das ist nur in den eigenen Apps von Ordnary verfügbar.",
+    "invalid_request": "Mit dieser Anfrage stimmt etwas nicht. Lade die Seite neu und versuche es erneut.",
+    "invalid_body": "Mit dieser Anfrage stimmt etwas nicht. Lade die Seite neu und versuche es erneut.",
+    "invalid_action": "Diese Aktion ist hier nicht verfügbar.",
+    "missing_fields": "Fülle alle Felder aus.",
+    "internal_error": "Bei uns ist etwas schiefgelaufen. Versuche es gleich noch einmal.",
+    "internal_server_error": "Bei uns ist etwas schiefgelaufen. Versuche es gleich noch einmal.",
+    "unavailable": "Das ist gerade nicht verfügbar. Versuche es später erneut.",
+    "send_failed": "Wir konnten die E-Mail nicht senden. Versuche es gleich noch einmal.",
+    "user_not_found": "Wir konnten dieses Konto nicht finden.",
+    "invalid_email": "Gib eine gültige E-Mail-Adresse ein.",
+    "missing_address": "Gib eine E-Mail-Adresse ein.",
+    "email_already_exists": "Diese E-Mail-Adresse wird bereits verwendet.",
+    "email_not_found": "Diese E-Mail-Adresse gehört nicht zu deinem Konto.",
+    "cannot_delete_primary_email": "Deine primäre E-Mail-Adresse kannst du nicht entfernen.",
+    "failed_to_add_email": "Wir konnten diese E-Mail-Adresse nicht hinzufügen.",
+    "failed_to_delete_email": "Wir konnten diese E-Mail-Adresse nicht entfernen.",
+    "failed_to_send_verification_email": "Wir konnten die Bestätigungs-E-Mail nicht senden, daher wurde die Adresse nicht hinzugefügt.",
+    "no_email": "Dein Konto hat keine E-Mail-Adresse, an die wir senden können.",
+    "no_primary_email": "Dein Konto hat keine primäre E-Mail-Adresse.",
+    "password_mismatch": "Die neuen Passwörter stimmen nicht überein.",
+    "password_incorrect": "Dein aktuelles Passwort ist falsch.",
+    "password_too_weak": "Das neue Passwort erfüllt die Anforderungen nicht.",
+    "password_change_failed": "Wir konnten dein Passwort nicht ändern.",
+    "no_password": "Dein Konto hat noch kein Passwort.",
+    "passkey_not_found": "Dieser Passkey existiert nicht mehr.",
+    "missing_passkey_id": "Wähle zuerst einen Passkey aus.",
+    "session_not_found": "Diese Sitzung existiert nicht mehr.",
+    "missing_session_id": "Wähle zuerst eine Sitzung aus.",
+    "cannot_revoke_current_session": "Die Sitzung, die du gerade hier verwendest, kannst du nicht abmelden.",
+    "code_required": "Gib den Code aus der E-Mail ein.",
+    "code_invalid": "Dieser Code ist falsch.",
+    "code_expired": "Dieser Code ist abgelaufen. Fordere einen neuen an.",
+    "exists": "Du hast bereits eins.",
+    "not_deactivated": "Dein Konto ist nicht deaktiviert.",
+    "grace_period_expired": "Die 30 Tage zum Wiederherstellen dieses Kontos sind abgelaufen.",
+    "token_required": "Dieser Link ist unvollständig.",
+    "token_not_found": "Dieser Link ist nicht mehr gültig.",
+    "token_expired": "Dieser Link ist abgelaufen.",
+    "already_redeemed": "Dieser Link wurde bereits verwendet.",
+    "already_downloaded": "Dieser Download wurde bereits verwendet.",
+    "already_verified": "Das wurde bereits bestätigt.",
+    "already_processed": "Diese Anfrage wurde bereits bearbeitet.",
+    "already_extended": "Die Frist dieser Anfrage wurde bereits verlängert.",
+    "invalid_date": "Gib ein gültiges Datum ein.",
+    "birthday_verification_attempt_not_found": "Wir konnten diese Ausweisprüfung nicht finden. Beginne von vorn.",
+    "identity_verification_incomplete": "Die Ausweisprüfung ist noch nicht abgeschlossen.",
+    "identity_verification_dob_mismatch": "Das Geburtsdatum auf deinem Ausweis stimmt nicht mit deiner Eingabe überein.",
+    "identity_verification_dob_unavailable": "Wir konnten kein Geburtsdatum von deinem Ausweis lesen.",
+    "missing_attempt_id": "Die Ausweisprüfung fehlt. Beginne von vorn.",
+    "invalid_kind": "Wähle aus, um welche Art von Anfrage es sich handelt.",
+    "invalid_applies_to": "Wähle aus, worauf sich die Anfrage bezieht.",
+    "invalid_filed_by": "Gib an, wer diese Anfrage stellt.",
+    "subject_email_required": "Gib die E-Mail-Adresse ein, um die es in der Anfrage geht.",
+    "representative_email_required": "Gib die E-Mail-Adresse des Vertreters ein.",
+    "request_not_found": "Wir konnten diese Anfrage nicht finden.",
+    "request_already_open": "Du hast bereits eine offene Anfrage dieser Art.",
+    "request_cooldown_active": "Du hast diese Anfrage vor Kurzem gestellt. Versuche es später erneut.",
+    "request_closed": "Diese Anfrage ist bereits geschlossen.",
+    "request_not_open": "Diese Anfrage ist nicht mehr offen.",
+    "request_not_verified": "Diese Anfrage wurde noch nicht bestätigt.",
+    "request_revoked": "Diese Anfrage wurde zurückgezogen oder ersetzt.",
+    "no_download_for_kind": "Für diese Art von Anfrage gibt es keinen Download.",
+    "export_already_in_progress": "Ein Export wird bereits vorbereitet.",
+    "export_rate_limited": "Du hast vor Kurzem einen Export erstellt. Versuche es später erneut.",
+    "invalid_retention_days": "Wähle einen der angebotenen Zeiträume.",
+    "invalid_category": "Diese Benachrichtigungskategorie gibt es nicht.",
+    "category_mandatory": "Diese E-Mails kannst du nicht abschalten.",
+    "review_not_found": "Wir konnten diese Prüfung nicht finden.",
+    "review_already_open": "Du hast bereits eine offene Prüfung.",
+    "review_cooldown_active": "Du hast vor Kurzem eine Prüfung angefordert. Versuche es später erneut.",
+    "review_not_open": "Diese Prüfung ist nicht mehr offen.",
+    "review_not_pending": "Diese Prüfung kann nicht mehr geändert werden.",
+    "invalid_review_type": "Wähle aus, um welche Art von Prüfung es sich handelt.",
+    "no_active_consent": "Es gibt keine aktive Einwilligung, die du widerrufen kannst.",
+    "not_a_minor": "Für dieses Konto ist keine Einwilligung der Eltern nötig.",
+    "parent_email_required": "Gib die E-Mail-Adresse deines Elternteils oder Erziehungsberechtigten ein.",
+    "invalid_parent_email": "Gib eine gültige E-Mail-Adresse für deinen Elternteil oder Erziehungsberechtigten ein.",
+    "connection_not_found": "Diese App ist nicht mehr verbunden.",
+    "client_not_found": "Wir konnten diese App nicht finden.",
+    "too_large": "Diese Datei ist zu groß.",
+    "unsupported_type": "Dieser Dateityp wird nicht unterstützt.",
+    "no_file": "Wähle zuerst eine Datei aus."
+  }
+}

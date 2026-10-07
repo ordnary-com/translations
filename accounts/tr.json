@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Hesap Merkezi",
+    "accountCenterSubtitle": "Bağlı deneyimlerini ve hesap ayarlarını Ordnary teknolojileri genelinde yönet.",
+    "learnMore": "Daha fazla bilgi",
+    "loading": "Yükleniyor...",
+    "back": "Geri",
+    "close": "Kapat",
+    "backToHome": "Ana sayfaya dön"
+  },
+  "nav": {
+    "profiles": "Profiller",
+    "connectedExperiences": "Bağlı deneyimler",
+    "passwordAndSecurity": "Parola ve güvenlik",
+    "personalDetails": "Kişisel bilgiler ve ayarlar",
+    "education": "Eğitim",
+    "permissions": "Bilgilerin ve izinlerin",
+    "adPreferences": "Reklam tercihleri",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Abonelikler",
+    "accounts": "Hesaplar",
+    "activity": "Etkinlik"
+  },
+  "education": {
+    "title": "Eğitim",
+    "description": "Okul e-postanla öğrenci olduğunu doğrula ve Ordnary ürünlerinde sunulan öğrenci avantajlarından yararlan.",
+    "statusLabel": "Öğrenci durumu",
+    "statuses": {
+      "none": "Doğrulanmadı",
+      "pending": "Bağlantıyı açmanı bekliyoruz",
+      "verified": "Doğrulandı",
+      "revoked": "Artık etkin değil"
+    },
+    "details": {
+      "title": "Bilgilerin",
+      "school": "Okul",
+      "email": "Okul e-postası",
+      "verifiedOn": "Doğrulanma tarihi"
+    },
+    "dialog": {
+      "title": "Öğrenci doğrulaması",
+      "subtitle": "Öğrenci olduğunu okul e-postanla onayla. Bu adresi yalnızca bunu kontrol etmek için kullanırız ve başka hiçbir şey göndermeyiz.",
+      "close": "Kapat",
+      "verifiedTitle": "Doğrulandı",
+      "verifiedBody": "{email}, {school}, {date} tarihinden beri.",
+      "pendingTitle": "Bağlantıyı açmanı bekliyoruz",
+      "pendingBody": "{email} adresine bir bağlantı gönderdik. Tamamlamak için 24 saat içinde aç.",
+      "revokedTitle": "Artık etkin değil",
+      "revokedBody": "Öğrenci durumun sona erdi. Okul e-postanla yeniden onayla.",
+      "changeEmail": "Başka bir okul e-postası kullan",
+      "resend": "Yeniden gönder",
+      "cancel": "İptal",
+      "emailLabel": "Okul e-postası",
+      "detected": "{school}",
+      "notRecognised": "Bunu bir okul e-postası olarak tanımıyoruz. Okulunun verdiği adresi kullan.",
+      "send": "Bağlantı gönder",
+      "sending": "Gönderiliyor…",
+      "sent": "Bağlantı {email} adresine gönderildi.",
+      "sentWhileVerified": "{email} adresine bir bağlantı gönderdik. Bağlantıyı açana kadar mevcut okulunla doğrulanmış kalırsın.",
+      "points": [
+        {
+          "title": "Okul e-postanı gir",
+          "text": "Adresin hangi okula ait olduğunu gösteririz."
+        },
+        {
+          "title": "Bağlantıyı aç",
+          "text": "O adrese bir bağlantı göndeririz. 24 saat geçerlidir."
+        },
+        {
+          "title": "Doğrulandın",
+          "text": "Öğrenci durumun, öğrenci avantajı sunan Ordnary ürünlerinde etkin olur."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Öğrenci durumun artık etkin.",
+      "verificationError": "Bu bağlantı artık çalışmıyor. Yeni bir tane iste."
+    },
+    "errors": {
+      "not_academic": "Bunu bir okul e-postası olarak tanımıyoruz. Okulunun verdiği adresi kullan.",
+      "account": "Hesabınla ilgili bir sorun oluştu. Daha sonra tekrar dene.",
+      "send_failed": "Bağlantıyı şu anda gönderemedik. Daha sonra tekrar dene.",
+      "no_pending": "Yeniden gönderilecek bir istek yok. Okul e-postanı gir.",
+      "not_authenticated": "Devam etmek için yeniden giriş yap."
+    }
+  },
+  "profiles": {
+    "title": "Profiller",
+    "description": "Bağlı deneyimlerini ve hesap ayarlarını Ordnary teknolojileri genelinde yönet.",
+    "addAccounts": "Hesap ekle",
+    "detail": {
+      "aboutTitle": "Bu profil hakkında",
+      "accessTitle": "{app} nelere erişebilir",
+      "linksTitle": "{app} politikaları",
+      "mainProfile": "Ana profil",
+      "connected": "Bağlı uygulama",
+      "verified": "Ordnary tarafından doğrulandı",
+      "connectedOn": "Bağlanma tarihi",
+      "lastUsed": "Son kullanım",
+      "never": "Henüz değil",
+      "activeSignIns": "Etkin oturumlar",
+      "profileId": "Profil kimliği",
+      "email": "E-posta adresi",
+      "memberSince": "Üyelik başlangıcı",
+      "twoFactor": "İki aşamalı doğrulama",
+      "on": "Açık",
+      "off": "Kapalı",
+      "passkeys": "Geçiş anahtarları",
+      "privacy": "Gizlilik politikası",
+      "terms": "Hizmet koşulları",
+      "disconnect": "Bağlantıyı kes",
+      "disconnectTitle": "{app} bağlantısı kesilsin mi?",
+      "disconnectText": "{app} artık Ordnary hesabını kullanamaz ve oradaki oturumun kapatılır. Daha sonra {app} uygulamasına giriş yaparak yeniden bağlanabilirsin.",
+      "disconnecting": "Bağlantı kesiliyor...",
+      "cancel": "İptal",
+      "copied": "Kopyalandı",
+      "copy": "Kopyala",
+      "scopes": {
+        "openid": "Seni Ordnary hesabınla tanır",
+        "profile": "Adın ve profil fotoğrafın",
+        "email": "E-posta adresin",
+        "offline_access": "Kullanmadığın zamanlarda da oturumunu açık tutar",
+        "phone": "Telefon numaran",
+        "address": "Adresin"
+      },
+      "change": "Değiştir",
+      "setUp": "Ayarla",
+      "manage": "Yönet",
+      "add": "Ekle",
+      "none": "Henüz yok"
+    },
+    "revokedSuccess": "Bağlantı kesildi",
+    "revokedError": "Bağlantı kesilemedi. Tekrar dene."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Yeni bir Ordnary hesabı oluşturulsun mu?",
+      "registrationName": "Adın ne?",
+      "registrationBirthday": "Doğum günün ne zaman?",
+      "registrationPassword": "Bir parola oluştur",
+      "saveLoginInfo": "Giriş bilgileri kaydedilsin mi?",
+      "registrationReview": "Hesabını oluşturmayı tamamla",
+      "verifyEmailCode": "Onay kodunu gir",
+      "editEmail": "E-posta adresin nedir?",
+      "loginCodeEntry": "E-postanı kontrol et",
+      "recoveryCodeEntry": "Hesabını doğrula",
+      "resetPassword": "Yeni bir parola oluştur",
+      "passwordEntry": "Parolanı gir",
+      "identifierLookup": "E-postan nedir?",
+      "signIn": "Giriş yap",
+      "mfaCodeEntry": "Doğrulama kodunu gir"
+    },
+    "descriptions": {
+      "identifierLookup": "Bir hesapta oturum açmak veya yeni hesap oluşturmak için e-postanı gir.",
+      "passwordEntry": "Oturum açmak için {identifier} ile ilişkili parolayı gir.",
+      "accountNotFound": "{email} için bir Ordnary hesabı bulamıyoruz. Henüz oluşturmamış olabilirsin. Oluşturduysan farklı bir tanımlayıcı kullanıyor olabilir.",
+      "registrationName": "Bu ad, hesap kurtarma ve hesabınla ilgili iletişimler için kullanılacak. Herkese açık olarak görünmez.",
+      "registrationBirthday": "Bu hesap bir işletme ya da başka bir şey için olsa bile kendi doğum tarihini kullan. Bu bilgi herkese açık olmaz.",
+      "registrationPassword": "Başkalarının tahmin edemeyeceği bir şifre oluştur.",
+      "saveLoginInfo": "Bir dahaki sefere tekrar girmek zorunda kalmaman için hesabının giriş bilgilerini kaydedeceğiz.",
+      "verifyEmailCode": "Hesabını doğrulamak için {identifier} adresine gönderilen 6 haneli kodu gir.",
+      "editEmail": "Sana ulaşabileceğimiz e-posta adresini gir. Bu adres oturum açma ve hesap yönetimi için kullanılır, herkese açık olarak görünmez.",
+      "loginCodeEntry": "Oturum açmak için {identifier} adresine gönderdiğimiz kodu gir. Spam veya sosyal klasörünü de kontrol etmen gerekebilir.",
+      "recoveryCodeEntry": "{identifier} adresine bir kod gönderdik. Hesabını doğrulamak için o kodu gir.",
+      "resetPassword": "Bu parolayı Ordnary hesabında oturum açmak için kullanacaksın. En az 6 harf ve rakam kullan.",
+      "mfaCodeEntry": "Devam etmek için kimlik doğrulayıcı uygulamandaki 6 haneli kodu gir."
+    },
+    "buttons": {
+      "createNewAccount": "Yeni hesap oluştur",
+      "alreadyHaveAccount": "Zaten bir hesabım var",
+      "next": "İleri",
+      "save": "Kaydet",
+      "notNow": "Şimdi değil",
+      "finish": "Bitir",
+      "resendCode": "Kodu yeniden gönder",
+      "enterPassword": "Parolayı gir",
+      "forgotPassword": "Parolanı mı unuttun?",
+      "switchAccount": "Hesap değiştir",
+      "yes": "Evet",
+      "no": "Hayır",
+      "useEmailCode": "E-posta koduyla giriş yap",
+      "signInWithPasskey": "Geçiş anahtarıyla oturum aç",
+      "useRecoveryCode": "Kurtarma kodu kullan",
+      "useAuthenticatorCode": "Kimlik doğrulama uygulamanı kullan"
+    },
+    "labels": {
+      "name": "Ad",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "day": "Gün",
+      "month": "Ay",
+      "year": "Yıl",
+      "dateOfBirth": "Doğum tarihi",
+      "confirmationCode": "Onay kodu",
+      "email": "E-posta adresi",
+      "password": "Parola",
+      "newPassword": "Yeni parola",
+      "logoutOthers": "Hesabına başka kimsenin erişememesi için diğer tüm yerlerden çıkış yap",
+      "marketingEmails": "Ordnary Identity uygulamaları, önerileri ve teklifleri hakkında e-posta almak istiyorum.",
+      "showPassword": "Şifreyi göster",
+      "hidePassword": "Şifreyi gizle",
+      "clearInput": "Girişi temizle",
+      "recoveryCode": "Kurtarma kodu"
+    },
+    "links": {
+      "whyNeedBirthday": "Doğum tarihimi neden vermem gerekiyor?",
+      "learnMore": "Daha fazla bilgi",
+      "editEmail": "E-posta adresini düzenle",
+      "noAccessEmail": "Bu e-posta adresine artık erişemiyor musun?",
+      "termsOfService": "Hizmet Şartları",
+      "privacyPolicy": "Gizlilik Politikası",
+      "cookiePolicy": "Çerez Politikası"
+    },
+    "messages": {
+      "nameHelp": "Gerçek adını kullanmak, erişimi kaybedersen hesabını kurtarmanı kolaylaştırır.",
+      "emailHelp": "Ordnary hizmetlerine erişmek için iş veya kişisel e-postanı kullan.",
+      "existingSessionTitle": "Zaten etkin bir oturumun var",
+      "existingSessionDescription": "Zaten oturum açtın. {seconds} saniye içinde Hesap Merkezi'ne yönlendiriliyorsun.",
+      "summaryPrivacy": "Ordnary hesap bilgilerin herkese açık değildir.",
+      "verifyEmailLookFor": "notification@ordnary.com adresinden gelen bir e-posta ara. Spam veya sosyal klasörlerini de kontrol etmen gerekebilir.",
+      "termsAgreement": "\"Bitir\"e tıklayarak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş, Çerez Politikamızı okuduğunu onaylamış olursun.",
+      "footerAgreement": "Devam ederek Hizmet Şartlarımızı, Gizlilik Politikamızı ve geçerli veri işleme yönergelerini okuduğunu ve kabul ettiğini onaylarsın. Ayrıca platformu kullanımınla ilgili temel hesap ve güvenlik bildirimlerini almayı da kabul edersin.",
+      "emailMissing": "E-posta adresi eksik.",
+      "resendCodeError": "Kod yeniden gönderilirken beklenmeyen bir hata oluştu.",
+      "invalidInput": "Geçersiz giriş.",
+      "credentialsPrompt": "Oturum açmak için {identifier} ile ilişkili parolayı gir.",
+      "checkEmailPrompt": "Oturum açmak için {identifier} adresine gönderdiğimiz kodu gir.",
+      "termsIntro": "Bitir'e dokunarak şunları kabul edersin:"
+    },
+    "validation": {
+      "emailRequired": "E-posta adresi gerekli.",
+      "passwordRequired": "Parola gerekli.",
+      "passwordMin": "Parola en az 12 karakter olmalıdır.",
+      "passwordMax": "Parola 128 karakterden uzun olamaz.",
+      "emailInvalid": "Lütfen geçerli bir e-posta adresi gir.",
+      "displayNameMin": "Görünen ad en az 2 karakter olmalı.",
+      "resetTokenRequired": "Sıfırlama belirteci gerekli.",
+      "verificationTokenRequired": "Doğrulama belirteci gerekli."
+    },
+    "errors": {
+      "invalidInput": "Geçersiz giriş.",
+      "genericLoginFailed": "Oturum açılamadı. Lütfen tekrar dene.",
+      "loginInvalidCredentials": "E-posta veya parola geçersiz.",
+      "accountLocked": "Hesabın kilitli veya askıya alınmış.",
+      "passwordIncorrect": "Girdiğin parola yanlış.",
+      "notAuthenticated": "Kimliğin doğrulanmadı.",
+      "registrationMissingInfo": "Gerekli kayıt bilgileri eksik.",
+      "registrationEmailExists": "Bu e-posta ile zaten bir hesap var.",
+      "systemNoDefaultTenant": "Sistem hatası: varsayılan kiracı bulunamadı.",
+      "registrationFailed": "Kayıt başarısız oldu. Lütfen tekrar dene.",
+      "invalidVerificationRequest": "Geçersiz doğrulama isteği.",
+      "accountNotFound": "Hesap bulunamadı.",
+      "verificationCodeInvalidOrExpired": "Doğrulama kodu geçersiz veya süresi dolmuş.",
+      "verificationFailedTryAgain": "Doğrulama başarısız oldu. Lütfen tekrar dene.",
+      "invalidRequest": "Geçersiz istek.",
+      "userNotFound": "Kullanıcı bulunamadı.",
+      "codeInvalidOrExpired": "Kod geçersiz veya süresi dolmuş.",
+      "verificationFailed": "Doğrulama başarısız oldu.",
+      "missingInformation": "Bilgi eksik.",
+      "passwordResetFailed": "Parola sıfırlanamadı.",
+      "emailMissing": "E-posta adresi eksik.",
+      "resendCodeFailed": "Kod yeniden gönderilemedi. Lütfen tekrar dene.",
+      "loginRequestFailed": "Giriş isteğin işlenemedi. Lütfen tekrar dene.",
+      "mfaDataMissing": "Doğrulama bilgileri eksik. Lütfen yeniden giriş yap.",
+      "mfaNoAuthenticator": "Bu hesap için etkin bir kimlik doğrulayıcı uygulama bulunamadı.",
+      "mfaCodeInvalid": "Doğrulama kodu geçersiz.",
+      "mfaVerificationFailed": "Doğrulama başarısız oldu. Lütfen yeniden giriş yap.",
+      "requestRejected": "Bu isteği işleyemedik. Tekrar dene.",
+      "tooManyAttempts": "Çok fazla deneme yapıldı. Daha sonra tekrar dene.",
+      "tooManyFailedLogins": "Çok fazla başarısız giriş denemesi yapıldı. Tekrar denemeden önce biraz bekle.",
+      "permanentEmailRequired": "Kalıcı bir e-posta adresi kullan.",
+      "recoveryFileInvalid": "Bu kurtarma dosyası çalışmıyor. Yenisiyle değiştirilmiş veya kaldırılmış olabilir.",
+      "passkeyFailed": "Geçiş anahtarıyla oturum açılamadı. Tekrar dene veya e-posta adresinle devam et.",
+      "passwordTooWeak": "Aşağıdaki tüm gereksinimleri karşılayan bir şifre seç."
+    },
+    "months": [
+      "Ocak",
+      "Subat",
+      "Mart",
+      "Nisan",
+      "Mayis",
+      "Haziran",
+      "Temmuz",
+      "Agustos",
+      "Eylul",
+      "Ekim",
+      "Kasim",
+      "Aralik"
+    ],
+    "recoveryFile": {
+      "link": "Kurtarma dosyasıyla giriş yap",
+      "title": "Kurtarma dosyasıyla giriş yap",
+      "description": "Bu hesap için Hesap Merkezi'nden indirdiğin kurtarma dosyasını yükle. Hemen giriş yaparsın.",
+      "choose": "Dosya seç",
+      "reading": "Giriş yapılıyor…",
+      "pasteInstead": "Bunun yerine kodu yapıştır",
+      "codeLabel": "Dosyadaki kod",
+      "signIn": "Giriş yap",
+      "notAFile": "Bu bir Ordnary kurtarma dosyası değil. Hesap Merkezi'nden indirdiğin PDF'yi seç.",
+      "back": "Bunun yerine e-posta kodunu kullan"
+    },
+    "passwordRules": {
+      "length": "En az 12 karakter",
+      "upper": "Bir büyük harf",
+      "lower": "Bir küçük harf",
+      "digit": "Bir rakam"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Hesap ayarları",
+      "appearanceLabel": "Görünüm",
+      "appearanceLight": "Açık",
+      "appearanceSystem": "Sistemle aynı",
+      "appearanceDark": "Koyu",
+      "logout": "Çıkış yap",
+      "sessionExpired": "Oturumunun süresi doldu. Devam etmek için lütfen yeniden giriş yap.",
+      "logoutConfirmTitle": "Ordnary'den çıkış yapılsın mı?",
+      "logoutCancel": "İptal",
+      "logoutConfirm": "Çıkış yap",
+      "language": "Dil"
+    },
+    "reactivate": {
+      "title": "Tekrar hoş geldin, hesabın devre dışı",
+      "description": "Hesabını devre dışı bıraktığında e-postaları ve bildirimleri duraklattık. Her şeyi geri getirmek için yeniden etkinleştir ya da oturumu kapatıp sonra karar ver. Verilerin hâlâ burada.",
+      "reactivate": "Hesabımı yeniden etkinleştir",
+      "reactivating": "Yeniden etkinleştiriliyor...",
+      "signOut": "Oturumu kapat",
+      "signingOut": "Oturum kapatılıyor...",
+      "footer": "Hesabını kalıcı olarak silmek istersen giriş yap ve Kişisel bilgiler bölümünde Hesabı sil seçeneğini seç.",
+      "successNotification": "Tekrar hoş geldin. Hesabın yeniden etkin.",
+      "errorGeneric": "Hesabını yeniden etkinleştiremedik. Birazdan tekrar dene.",
+      "deletedTitle": "Hesabın silinecek",
+      "deletedDescription": "{date} tarihinde kalıcı olarak silinecek. Her şeyi korumak için geri yükle ya da oturumu kapatıp silme işleminin sürmesine izin ver.",
+      "restore": "Hesabımı geri yükle",
+      "restoring": "Geri yükleniyor..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profil fotoğrafı",
+        "custom": "Kendi fotoğrafın",
+        "default": "Oluşturulmuş avatar",
+        "modalTitle": "Profil fotoğrafı",
+        "subtitle": "Adınla birlikte Ordnary uygulamalarında ve toplulukta gösterilir. Kendi fotoğrafın yoksa hesabına özel bir avatar alırsın.",
+        "choose": "Fotoğraf seç",
+        "change": "Başka birini seç",
+        "remove": "Fotoğrafı kaldır",
+        "save": "Fotoğrafı kaydet",
+        "saving": "Kaydediliyor...",
+        "hint": "JPG, PNG veya WebP. Fotoğrafın kare olarak kırpılır.",
+        "errorType": "Bu dosya kullanabileceğimiz bir görsel değil. JPG, PNG veya WebP seç.",
+        "errorFailed": "Fotoğrafını kaydedemedik. Lütfen tekrar dene."
+      },
+      "title": "Kişisel bilgiler ve ayarlar",
+      "description": "Ordnary bu bilgileri kimliğini doğrulamak ve topluluğu güvende tutmaya yardımcı olmak için kullanır. Kişisel bilgilerinden hangilerinin başkalarına görüneceğini sen belirlersin.",
+      "contactDetails": "İletişim bilgileri",
+      "birthday": "Doğum günü",
+      "ownership": "Hesap sahipliği ve kontrolü",
+      "ownershipDescription": "Verilerini yönet, anma hesapları için varis kişini güncelle, hesaplarını ve profillerini devre dışı bırak veya sil.",
+      "loadingName": "Kullanıcı",
+      "modal": {
+        "title": "Hesap sahipliği ve kontrolü",
+        "deactivationIndexTitle": "Devre dışı bırakma veya silme",
+        "deactivationIndexDescription": "Hesaplarını ve profillerini geçici olarak devre dışı bırak veya kalıcı olarak sil.",
+        "optionsTitle": "Ordnary hesabını devre dışı bırak veya sil",
+        "optionsDescription": "Biraz ara mı vermek istiyorsun? Hesabını devre dışı bırak ve istediğin zaman geri dön. Ordnary'den ayrılmak mı istiyorsun? Hesabını sil.",
+        "deactivateTitle": "Hesabı devre dışı bırak",
+        "deactivateDescription": "Hesabı devre dışı bırakmak geçicidir. Hesabın askıya alınır ve başkalarından gizlenir.",
+        "deleteTitle": "Hesabı sil",
+        "deleteDescription": "Hesabını silmek kalıcıdır. 30 gün sonra hesabını yeniden etkinleştiremez ve verilerini geri alamazsın.",
+        "deactivateConfirmTitle": "Hesabın devre dışı bırakılsın mı?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Her yerde oturumun kapatılır",
+            "text": "Tüm cihazlarında ve Ordnary hesabınla kullandığın her uygulamada."
+          },
+          {
+            "title": "Profilin gizlenir",
+            "text": "Hesabın devre dışıyken başkaları adını ve profilini göremez."
+          },
+          {
+            "title": "İstediğin zaman geri dön",
+            "text": "Hesabını yeniden etkinleştirmek için tekrar oturum aç. Her şey bıraktığın gibi olur."
+          }
+        ],
+        "deactivateConfirmButton": "Hesabı devre dışı bırak",
+        "deleteConfirmTitle": "Hesabın silinsin mi?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Her yerde oturumun kapatılır",
+            "text": "Tüm cihazlarında ve Ordnary hesabınla kullandığın her uygulamada."
+          },
+          {
+            "title": "Erişimini kaybedersin",
+            "text": "Ordnary'ye ve Ordnary hesabınla oturum açtığın her uygulamaya."
+          },
+          {
+            "title": "30 gün sonra kalıcı olarak silinir",
+            "text": "O zamana kadar fikrini değiştirebilirsin. Sonrasında hesabın ve verilerin geri alınamaz."
+          }
+        ],
+        "deleteConfirmCheck": "Hesabımın ve verilerimin 30 gün sonra kalıcı olarak silineceğini anlıyorum.",
+        "deleteConfirmButton": "Hesabı sil",
+        "cancel": "İptal",
+        "continue": "Devam",
+        "working": "Çalışıyor...",
+        "deactivateSuccess": "Hesabın devre dışı bırakıldı. Girişe yönlendiriliyorsun...",
+        "deleteSuccess": "Hesabının silinmesi planlandı. Girişe yönlendiriliyorsun...",
+        "submitError": "Hesabını şu anda güncelleyemedik."
+      },
+      "missingBirthday": "Ayarlanmadı",
+      "loadError": "Kişisel bilgiler yüklenemedi.",
+      "preferences": {
+        "sectionTitle": "Tercihler",
+        "appearance": "Görünüm",
+        "appearanceDescription": "Ordnary hesabının görünümünü ayarla.",
+        "cookies": "Çerez tercihleri",
+        "cookiesDescription": "Ordnary'nin bu tarayıcıda hangi çerezleri kullanabileceğini yönet.",
+        "processors": {
+          "title": "Verilerini kimler işliyor",
+          "intro": "Ordnary'yi çalıştırmak için birkaç başka şirketten yararlanıyoruz. Hepsi burada: bizden neler alıyorlar, nerede saklıyorlar ve veriler AB'den çıkarken nasıl korunuyor.",
+          "empty": "Verilerini başka hiçbir şirket almıyor.",
+          "loadError": "Şu anda yüklenemedi. Daha sonra tekrar dene.",
+          "loading": "Yükleniyor…",
+          "close": "Kapat",
+          "back": "Geri",
+          "fields": {
+            "purpose": "Ne yapıyorlar",
+            "receives": "Neler alıyorlar",
+            "whose": "Kimin verileri",
+            "stored": "Nerede saklanıyor",
+            "transfer": "AB dışında"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Avrupa Ekonomik Alanı içinde kalır.",
+            "ADEQUACY_DECISION": "İzin verilir, çünkü AB, {country} ülkesindeki veri korumasını yeterli kabul ediyor.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "AB'nin standart sözleşme maddeleriyle korunur.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "EU-US Data Privacy Framework kapsamında sertifikalıdır.",
+            "sccBackup": "AB'nin standart sözleşme maddeleri ek bir güvence olarak uygulanır."
+          },
+          "links": {
+            "dpa": "Veri işleme sözleşmesi",
+            "privacy": "Gizlilik politikası",
+            "website": "Web sitesi",
+            "certification": "Sertifika"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Doğum tarihini değiştirdiğinde kimliğini kontrol eder.",
+              "receives": [
+                "Ad",
+                "Doğum tarihi",
+                "Kimlik belgesinin fotoğrafı",
+                "Selfie",
+                "IP adresi"
+              ],
+              "whose": "Yalnızca yeni bir doğum tarihini doğrulayan kişiler."
+            },
+            "resend": {
+              "purpose": "E-postalarımızı gönderir: giriş kodları, güvenlik uyarıları ve hesap bildirimleri.",
+              "receives": [
+                "E-posta adresi",
+                "Görünen ad",
+                "E-postanın içeriği, örneğin giriş kodları, bağlantılar ve güvenlik uyarılarındaki IP adresi"
+              ],
+              "whose": "Ordnary'den e-posta alan herkes."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Gizlilik talepleri",
+          "description": "Belirli işleme faaliyetlerine itiraz et veya bunları kısıtla (Md. 18 / Md. 21).",
+          "back": "Geri",
+          "close": "Kapat",
+          "loading": "Yükleniyor…",
+          "loadError": "Gizlilik talepleri yüklenemedi.",
+          "alreadyOpen": "Bu kapsam için zaten açık bir talebin var.",
+          "cooldown": "Aynı talebi {hours} saat sonra yeniden gönderebilirsin.",
+          "submitted": "Talebin alındı.",
+          "withdrawn": "Talep geri çekildi.",
+          "fileNew": "Yeni talep oluştur",
+          "pickKind": "Ne yapmak istiyorsun?",
+          "kinds": {
+            "OBJECTION": "Bir işleme faaliyetine itiraz et (Md. 21)",
+            "RESTRICTION": "İşlemeyi geçici olarak kısıtla (Md. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Kendi özel durumuna dayanarak belirli bir işleme faaliyetini bundan sonra durdur.",
+            "RESTRICTION": "Verilerinle ilgili bir uyuşmazlık incelenirken belirli bir işleme faaliyetini duraklat."
+          },
+          "pickActivities": "Bu hangi faaliyetler için geçerli olsun?",
+          "activitiesHint": "Hiçbirini seçmezsen tüm işleme faaliyetlerimiz için geçerli olur (genel durdurma).",
+          "globalScope": "Tüm işleme (genel durdurma)",
+          "yourStatement": "Açıklaman (önerilir)",
+          "statementPlaceholder": "Nedenini anlat; örneğin bizimle bir güvenlik olayını incelerken otomatik risk puanlamasını artık uygulamamızı istemiyorsun.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Talebi gönder",
+          "submitting": "Gönderiliyor…",
+          "withdraw": "Geri çek",
+          "withdrawing": "Geri çekiliyor…",
+          "openTitle": "Açık talepler",
+          "emptyOpen": "Açık talep yok.",
+          "historyTitle": "Geçmiş talepler",
+          "historyEmpty": "Önceki talep yok.",
+          "holdsTitle": "Şu anda etkin durdurmalar",
+          "holdsEmpty": "Etkin durdurma yok.",
+          "appliesTo": "Kapsam",
+          "effectiveUntil": "Geçerlilik sonu",
+          "statuses": {
+            "PENDING": "Beklemede",
+            "IN_REVIEW": "İnceleniyor",
+            "RESOLVED": "Çözüldü",
+            "WITHDRAWN": "Geri çekildi"
+          },
+          "outcomes": {
+            "GRANTED": "Kabul edildi",
+            "PARTIALLY_GRANTED": "Kısmen kabul edildi",
+            "REJECTED": "Reddedildi",
+            "ESCALATED": "Üst birime iletildi"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Hesap kimliği ve kimlik doğrulama",
+            "session-and-device-management": "Oturumlar ve cihazlar",
+            "oauth-issuance": "OAuth / OIDC düzenleme",
+            "identity-verification": "Kimlik doğrulama (Stripe Identity)",
+            "payment-processing": "Ödeme işleme",
+            "audit-logs-and-security-events": "Denetim kayıtları ve güvenlik olayları",
+            "risk-scoring": "Otomatik risk puanlaması",
+            "consent-log": "Onay kaydı",
+            "account-deletion": "Hesap silme",
+            "risk-review-queue": "Risk inceleme kuyruğu"
+          },
+          "title": "İtiraz et veya kısıtla"
+        },
+        "dsar": {
+          "label": "Gizlilik ve veri talepleri",
+          "description": "Erişim, düzeltme, silme veya taşınabilirlik için resmi bir talep oluştur (Md. 15-20).",
+          "title": "Gizlilik ve veri talepleri",
+          "back": "Geri",
+          "close": "Kapat",
+          "loading": "Yükleniyor…",
+          "loadError": "Talepler yüklenemedi.",
+          "submitted": "Talebini aldık.",
+          "fastPathReady": "Verilerin şu anda indiriliyor.",
+          "fastPathHint": "Verilerinin hızlı bir kopyasını mı istiyorsun? En üstteki \"Bilgilerini dışa aktar\" düğmesini kullan. Resmi kuyruğa girmeden anında iner. Bir insan incelemecisi istediğinde, başkası adına talep oluşturduğunda veya düzeltme ya da silme gerektiğinde burada talep oluştur.",
+          "withdrawn": "Talep geri çekildi.",
+          "fileNew": "Yeni talep oluştur",
+          "pickKind": "Ne yapmak istiyorsun?",
+          "kinds": {
+            "ACCESS": "Erişim (Md. 15)",
+            "RECTIFICATION": "Düzeltme (Md. 16)",
+            "ERASURE": "Silme (Md. 17)",
+            "PORTABILITY": "Taşınabilirlik (Md. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Hakkında tuttuğumuz verilerin makine tarafından okunabilir tam bir kopyasını al.",
+            "RECTIFICATION": "Hakkında tuttuğumuz yanlış veya güncel olmayan verileri düzelt.",
+            "ERASURE": "Hesabını ve hakkında tuttuğumuz verileri silmemizi iste.",
+            "PORTABILITY": "Verilerini yapılandırılmış, yaygın kullanılan bir biçimde al."
+          },
+          "filedBy": "Bu talebi kim oluşturuyor?",
+          "filedByOptions": {
+            "SELF": "Kendim için oluşturuyorum",
+            "PARENT_GUARDIAN": "Reşit olmayan biri için veli veya vasi olarak oluşturuyorum",
+            "AUTHORISED_AGENT": "Başkası adına hareket eden yetkili bir temsilciyim (ör. avukat)"
+          },
+          "representativeBlock": {
+            "title": "Temsilci bilgileri",
+            "emailLabel": "E-posta adresin",
+            "notesLabel": "İlişki ve yetki",
+            "notesHint": "İlgili kişiyle ilişkini kısaca anlat ve varsa vekâletname veya vesayet belgesine referansları ekle."
+          },
+          "subjectEmailLabel": "İlgili kişinin e-postası",
+          "subjectEmailHint": "Doğrulama bağlantısını ve yanıtı bu adrese göndeririz. Temsilci tarafından oluşturulan taleplerde bu, ilgili kişinin kendi e-postası olmalıdır.",
+          "yourStatement": "Açıklaman (önerilir)",
+          "statementPlaceholder": "Tam olarak ne istiyorsun? Yanıtın kapsamını belirlememize yardımcı olacak her türlü bağlamı yaz.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Talebi gönder",
+          "submitting": "Gönderiliyor…",
+          "withdraw": "Geri çek",
+          "withdrawing": "Geri çekiliyor…",
+          "openTitle": "Açık talepler",
+          "emptyOpen": "Açık talep yok.",
+          "historyTitle": "Geçmiş talepler",
+          "historyEmpty": "Önceki talep yok.",
+          "due": "Son tarih",
+          "extended": "Uzatılan son tarih",
+          "awaitingVerification": "E-posta doğrulaması bekleniyor",
+          "statuses": {
+            "SUBMITTED": "Doğrulama bekleniyor",
+            "VERIFIED": "Doğrulandı",
+            "IN_PROGRESS": "Devam ediyor",
+            "FULFILLED": "Karşılandı",
+            "REJECTED": "Reddedildi",
+            "WITHDRAWN": "Geri çekildi"
+          },
+          "outcomes": {
+            "FULFILLED": "Karşılandı",
+            "PARTIALLY_FULFILLED": "Kısmen karşılandı",
+            "REJECTED": "Reddedildi"
+          },
+          "overdue": "Gecikmiş"
+        },
+        "modalTitle": "Görünüm",
+        "modalSubtitle": "Hesap Merkezi'nin nasıl görüneceğini seç. Tercihini bu cihazda hatırlarız.",
+        "options": {
+          "lightLabel": "Açık",
+          "lightDescription": "Sistem ayarından bağımsız olarak her zaman açık arka plan kullan.",
+          "systemLabel": "Sistemle aynı",
+          "systemDescription": "Cihazının ayarıyla birlikte değişir.",
+          "darkLabel": "Koyu",
+          "darkDescription": "Her zaman koyu arka plan kullan, akşamları daha rahattır."
+        },
+        "done": "Bitti"
+      },
+      "displayNameSection": {
+        "label": "Ad soyad",
+        "subtitle": "Ad soyadın hesaplarında ve profillerinde kullanılır.",
+        "editButton": "Düzenle",
+        "modalTitle": "Ad soyad",
+        "editTitle": "Ad soyadı değiştir",
+        "modalSubtitle": "Ad soyadını değiştirmek için {email} ile iletişime geç.",
+        "currentLabel": "Mevcut ad",
+        "supportNotice": "Ad soyadını değiştirmek için {email} ile iletişime geç.",
+        "copyEmail": "E-posta adresini kopyala",
+        "openEmail": "E-postayı aç",
+        "mailSubject": "Ad soyad değişikliği talebi",
+        "mailBody": "Merhaba,\n\nAd soyadımı değiştirmek istiyorum.\n\nMevcut ad: {name}\nYeni ad: \n\nSaygılarımla,\n{name}"
+      },
+      "loading": "Yükleniyor...",
+      "contact": {
+        "subtitle": "E-posta adreslerini ve iletişim bilgilerini kimlerin görebileceğini yönet. Bunları bu Hesap Merkezi'ndeki profillere ve cihazlara erişmek için kullan.",
+        "addNew": "Yeni kişi ekle",
+        "detailsDescription": "Bu e-posta adresini şu hesaplara ekledin.",
+        "whoCanSee": "E-posta adresini kimler görebilir?",
+        "deleting": "Kaldırılıyor...",
+        "delete": "E-posta adresini kaldır",
+        "deleteFailed": "Bu e-posta adresini kaldıramadık.",
+        "deleted": "E-posta adresi kaldırıldı",
+        "addTitle": "E-posta adresi ekle",
+        "addSubtitle": "Bu e-posta adresini, deneyimini kişiselleştirmek için Hesap Merkezi'ndeki hesapların genelinde kullanırız.",
+        "learnMore": "Daha fazla bilgi",
+        "emailLabel": "E-posta adresi",
+        "chooseAccounts": "Bu e-posta adresi için hesapları seç",
+        "added": "E-posta adresi eklendi",
+        "addFailed": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+        "next": "İleri"
+      },
+      "birthdayModal": {
+        "subtitle": "Deneyimin yaşına uygun olsun diye doğum gününü ekle.",
+        "edit": "Düzenle",
+        "editTitle": "Doğum gününü düzenle",
+        "editSubtitle": "Bu doğum günü, bu Hesap Merkezi'ndeki hesaplar ve profiller için kullanılır. Yaptığın değişiklikler hepsine uygulanır.",
+        "day": "Gün",
+        "month": "Ay",
+        "year": "Yıl",
+        "verificationNotice": "Doğum gününü değiştirmek için iş ortağımız Stripe Identity üzerinden geçerli bir kimlik belgesiyle kimliğini doğrulaman gerekir. Kaydettikten sonra seni doğrulama akışına yönlendireceğiz.",
+        "save": "Kaydet",
+        "saveFailed": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+        "verificationStartFailed": "Kimlik doğrulamayı başlatamadık.",
+        "completeFailed": "Doğrulamayı tamamlayamadık.",
+        "updated": "Doğum günün kimlik doğrulamasının ardından güncellendi.",
+        "dobMismatch": "Kimlik belgendeki doğum tarihi girdiğin tarihle eşleşmiyor.",
+        "dobUnavailable": "Stripe, kimlik belgendeki doğum tarihini doğrulanabilir şekilde okuyamadı.",
+        "notFinished": "Kimlik doğrulama henüz tamamlanmadı."
+      }
+    },
+    "security": {
+      "title": "Parola ve güvenlik",
+      "loadingName": "Kullanıcı",
+      "pageLoadError": "Güvenlik ayarları yüklenemedi.",
+      "sections": {
+        "signIn": {
+          "title": "Oturum açma ve kurtarma",
+          "description": "Parolalarını, oturum açma tercihlerini ve kurtarma yöntemlerini yönet."
+        },
+        "controls": {
+          "title": "Güvenlik kontrolleri",
+          "description": "Uygulamaları, cihazları ve gönderilen e-postaları kontrol ederek güvenlik sorunlarını incele."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Parolayı değiştir",
+          "loading": "Yükleniyor...",
+          "set": "Parola belirlendi",
+          "missing": "Parola belirlenmedi"
+        },
+        "twofactor": {
+          "label": "İki adımlı doğrulama",
+          "loading": "Yükleniyor...",
+          "enabled": "Açık",
+          "disabled": "Henüz açık değil"
+        },
+        "passkeys": {
+          "label": "Geçiş anahtarları",
+          "loading": "Yükleniyor...",
+          "none": "Henüz geçiş anahtarı yok",
+          "active": "{count} etkin"
+        },
+        "activity": {
+          "label": "Oturum açtığın yerler",
+          "summary": "{total} etkin oturum, {others} tanesi diğer cihazlarda"
+        },
+        "automated": {
+          "label": "Otomatik kararlar",
+          "summary": "Hesabını hangi otomatik kuralların koruduğunu gör ve insan incelemesi iste."
+        }
+      },
+      "passwordModal": {
+        "title": "Parolayı değiştir",
+        "subtitle": "En az 12 karakterden oluşan bir parola oluştur. Başkalarının tahmin edemeyeceği bir şey seç.",
+        "currentPassword": "Mevcut parola",
+        "newPassword": "Yeni parola",
+        "repeatPassword": "Yeni parolayı tekrarla",
+        "forgotPassword": "Parolanı mı unuttun?",
+        "logoutOthers": "Diğer cihazlardaki oturumları kapat. Hesabını başkası kullandıysa bunu seç.",
+        "submit": "Parolayı değiştir",
+        "pending": "Çalışıyor...",
+        "success": "Parolan güncellendi.",
+        "mismatch": "Yeni parolaların eşleşmiyor.",
+        "submitError": "Parola değiştirilemedi.",
+        "logoutOthersTitle": "Diğer cihazlardaki oturumları kapat",
+        "logoutOthersHint": "Hesabını başkası kullanmış olabilirse önerilir.",
+        "incorrect": "Mevcut şifren yanlış.",
+        "tooWeak": "Aşağıdaki tüm gereksinimleri karşılayan bir şifre seç."
+      },
+      "twoFactor": {
+        "idleTitle": "Hesabını korumaya yardım et",
+        "idleSubtitle": "İki adımlı doğrulamayı kur; tanımadığımız bir cihazdan oturum açıldığında senden bir giriş kodu isteyelim.",
+        "manageTitle": "İki adımlı doğrulama açık",
+        "manageSubtitle": "Artık tanımadığımız bir cihazdan oturum açtığında senden bir giriş kodu istiyoruz.",
+        "appSettingsTitle": "Kimlik doğrulama uygulaması",
+        "extraMethodsTitle": "Ek yöntemler",
+        "extraMethodsSubtitle": "Diğer güvenlik yöntemlerin kullanılamıyorsa yine de bu seçeneklerle oturum açabilirsin.",
+        "recoveryCodesTitle": "Kurtarma kodları",
+        "recoveryCodesSubtitle": "Her kurtarma kodunu yalnızca bir kez kullanabilirsin. Onları güvenli bir yerde sakla. Bunlar olmadan telefonunu veya başka bir oturum açma yöntemini kaybedersen erişimini yitirebilirsin.",
+        "setupTitle": "Kurulum talimatları",
+        "namingTitle": "Cihazına ad ver",
+        "namingSubtitle": "Doğrulayıcı uygulamana tanıyabileceğin bir ad ver; böylece hangi cihazı kullandığını bilirsin.",
+        "verifyTitle": "Kodu gir",
+        "verifySubtitle": "Kurulumu tamamlamak için doğrulayıcı uygulamandaki 6 haneli kodu gir.",
+        "successTitle": "İki adımlı doğrulama açık",
+        "successSubtitle": "Artık tanımadığımız bir cihazdan oturum açtığında senden bir giriş kodu istiyoruz. İletişim bilgilerini güncellemek mi istiyorsun? Hesap Merkezi'nde Kişisel bilgiler bölümüne git.",
+        "verifiedTitle": "Yedek kodlar",
+        "verifiedSubtitle": "Bu kodları güvenli bir yerde sakla. Doğrulayıcı uygulamana erişimini kaybedersen bunları kullanabilirsin.",
+        "learnMore": "Daha fazla bilgi",
+        "receiveCodesTitle": "Kodlarını nasıl almak istediğini seç",
+        "authenticatorTitle": "Kimlik doğrulama uygulaması",
+        "authenticatorDescription": "Duo Mobile veya Google Authenticator gibi bir uygulamayla tek kullanımlık kodlar al.",
+        "recommended": "Önerilen",
+        "continue": "Devam",
+        "working": "Çalışıyor...",
+        "enabledSuccess": "İki adımlı doğrulama kapatıldı.",
+        "disableError": "Kimlik doğrulama uygulaması devre dışı bırakılamadı.",
+        "startError": "Doğrulayıcı kurulumu başlatılamadı.",
+        "verifyError": "Kimlik doğrulama uygulaması doğrulanamadı.",
+        "regenerateError": "Kurtarma kodları yeniden oluşturulamadı.",
+        "downloadError": "Kodları indirmeden önce yeni bir kurtarma kodu seti oluştur.",
+        "recoveryRegenerated": "Yeni kurtarma kodları oluşturuldu.",
+        "manage": {
+          "receiveCodesTitle": "Giriş kodlarını al",
+          "authenticatorDescription": "Giriş kodunu kimlik doğrulama uygulaman aracılığıyla alırsın.",
+          "additionalMethodsTitle": "Ek yöntemler",
+          "additionalMethodsDescription": "Diğer yöntemler kullanılamadığında yine de nasıl güvenle oturum açabileceğini gör."
+        },
+        "appSettings": {
+          "title": "Kimlik doğrulama uygulaması",
+          "description": "Giriş kodunu kimlik doğrulama uygulaman aracılığıyla alırsın.",
+          "connectedDevicesTitle": "Bağlı cihazlar",
+          "add": "Ekle",
+          "connectedDevicesDescription": "Birden fazla cihaz ekleyebilirsin; böylece bağlı her cihaz, kendi doğrulayıcı uygulamasından 6 haneli giriş kodları alabilir.",
+          "noDevices": "Henüz bağlı cihaz yok",
+          "lastUsed": "Son kullanım: {date}",
+          "added": "Eklenme: {date}",
+          "active": "Etkin kimlik doğrulama uygulaması"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Kurtarma kodları",
+          "recoveryCodesDescription": "Telefonuna erişemediğinde bu kodları kullan."
+        },
+        "recoveryCodes": {
+          "download": "Kodları indir",
+          "regenerate": "Yeni kodlar al",
+          "existing": "Kullanılmamış {count} kurtarma kodun var. Yeni bir set oluşturmak için \"Yeni kodlar al\"a tıkla.",
+          "empty": "Bu oturumda henüz görünür bir kurtarma kodun yok. Yeni bir set oluşturmak için \"Yeni kodlar al\"a tıkla."
+        },
+        "setup": {
+          "step1Title": "1. Bir kimlik doğrulama uygulaması indir",
+          "step1Description": "Henüz yüklü bir uygulaman yoksa Duo Mobile veya Google Authenticator indirmeni öneririz.",
+          "step2Title": "2. Bu QR kodunu tara veya anahtarı kopyala",
+          "step2Description": "Bu QR kodunu doğrulayıcı uygulamanda tara veya anahtarı kopyalayıp uygulamaya yapıştır.",
+          "copyKey": "Anahtarı kopyala",
+          "step3Title": "3. Altı haneli kodu kopyala ve gir",
+          "step3Description": "QR kodunu taradıktan veya anahtarı girdikten sonra uygulaman 6 haneli bir kod oluşturacak. Aşağıdaki Kodu gir'e dokun.",
+          "enterCode": "Kodu gir",
+          "qrAlt": "Kimlik doğrulayıcı uygulaman için QR kodu"
+        },
+        "naming": {
+          "label": "Cihaz adı (örneğin: Stijn'in iPhone'u)",
+          "next": "İleri"
+        },
+        "verify": {
+          "label": "Kimlik doğrulama uygulamasındaki kod",
+          "submit": "Kodu doğrula"
+        },
+        "success": {
+          "done": "Bitti"
+        },
+        "ui": {
+          "on": "Açık",
+          "turnOff": "Kapat",
+          "turnOffConfirm": "İki aşamalı doğrulama kapatılsın mı? Giriş yapmak için o zaman yalnızca şifren gerekir.",
+          "cancel": "İptal",
+          "copyKey": "Kopyala",
+          "copied": "Kopyalandı",
+          "manualKey": "Kurulum anahtarı",
+          "status": "Durum"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Kurtarma dosyası",
+          "rowDescription": "Yüklediğinde parola veya kod olmadan giriş yapmanı sağlayan bir PDF.",
+          "otherMethodsTitle": "Giriş yapmanın diğer yolları",
+          "title": "Kurtarma dosyası",
+          "subtitle": "Giriş yaparken yüklediğin bir PDF. Parola veya kod olmadan hemen giriş yapmanı sağlar. Telefonunu kaybedersen veya parolanı unutursan işe yarar.",
+          "download": "Kurtarma dosyasını indir",
+          "downloading": "Dosyan hazırlanıyor…",
+          "downloaded": "İndirildi. Dosyayı güvenli bir yerde sakla.",
+          "made": "{date} tarihinde oluşturuldu",
+          "lastUsed": "Son kullanım: {date}",
+          "notUsed": "Henüz kullanılmadı",
+          "remove": "Kaldır",
+          "removeConfirm": "Kurtarma dosyan kaldırılsın mı? Dosya hemen çalışmayı bırakır.",
+          "removed": "Kurtarma dosyası kaldırıldı.",
+          "cancel": "İptal",
+          "newTitle": "Yeni bir dosya mı lazım?",
+          "newText": "Bir dosyayı yalnızca bir kez indirebilirsin. Yenisini almak için sana e-postayla gönderdiğimiz kodla onayla. Mevcut dosyan çalışmayı bırakır.",
+          "requestCode": "Bana kod gönder",
+          "sending": "Gönderiliyor…",
+          "codeSent": "{email} adresine bir kod gönderdik.",
+          "codeLabel": "Kod",
+          "confirmDownload": "Onayla ve indir",
+          "loadError": "Şu anda yüklenemedi. Daha sonra tekrar dene.",
+          "errors": {
+            "code_invalid": "Kod doğru değil. E-postanı kontrol et ve tekrar dene.",
+            "code_expired": "Bu kodun süresi doldu. Yeni bir kod iste.",
+            "rate_limited": "Çok fazla deneme yapıldı. Daha sonra tekrar dene.",
+            "send_failed": "E-posta şu anda gönderilemedi. Daha sonra tekrar dene.",
+            "generic": "Bir şeyler ters gitti. Daha sonra tekrar dene."
+          },
+          "points": [
+            {
+              "title": "Bir kez indirin",
+              "text": "Dosyayı yalnızca şimdi indirebilirsiniz. Daha sonra yenisi için e-postayla gönderdiğimiz kodla onaylarsınız."
+            },
+            {
+              "title": "Güvende tutun",
+              "text": "Örneğin yazdırılmış olarak veya şifreli bir sürücüde. Bu dosyaya sahip olan herkes hesabınıza giriş yapabilir, bu yüzden e-postayla göndermeyin ve paylaşmayın."
+            },
+            {
+              "title": "Onunla giriş yapın",
+              "text": "Giriş yaparken e-postanı gir, \"Parolanı mı unuttun?\" seçeneğini seç, ardından \"Kurtarma dosyasıyla giriş yap\" seçeneğini seçip PDF'yi yükle."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Geçiş anahtarları",
+        "subtitle": "Parmak izini, yüzünü veya cihazının ekran kilidini kullanarak parolasız oturum açmanın güvenli ve kolay yolu olan geçiş anahtarlarıyla tanış.",
+        "add": "Geçiş anahtarı ekle",
+        "empty": "Henüz geçiş anahtarı eklemedin.",
+        "unnamed": "Adsız geçiş anahtarı",
+        "addedOn": "{date} tarihinde eklendi",
+        "lastUsed": "Son kullanım {date}",
+        "never": "Hiç kullanılmadı",
+        "delete": "Sil",
+        "count": "{count} etkin geçiş anahtarın var.",
+        "none": "Henüz hiç geçiş anahtarı kurmadın.",
+        "success": "Geçiş anahtarı başarıyla kaydedildi!",
+        "error": "Geçiş anahtarı kaydedilemedi.",
+        "pending": "Kaydediliyor...",
+        "emptyTitle": "Henüz geçiş anahtarı yok",
+        "emptyText": "Şifre yerine parmak izin, yüzün veya cihazının ekran kilidiyle giriş yapmak için bir tane ekle. Şifren de çalışmaya devam eder.",
+        "deleteConfirm": "Bu geçiş anahtarı kaldırılsın mı? Artık onunla giriş yapamazsın.",
+        "cancel": "İptal",
+        "removing": "Kaldırılıyor...",
+        "createTitle": "Geçiş anahtarı oluştur",
+        "createSubtitle": "Geçiş anahtarı, parmak izin, yüzün veya cihazının ekran kilidiyle giriş yapmanı sağlar. Cihazın veya şifre yöneticin tarafından saklanır ve oradan hiç çıkmaz.",
+        "nameLabel": "Geçiş anahtarı adı",
+        "nameHint": "Geçiş anahtarlarını birbirinden ayırabilmen için, örneğin kaydedildiği cihaz veya şifre yöneticisi.",
+        "whatHappensTitle": "Sırada ne var",
+        "whatHappens1": "Tarayıcın veya şifre yöneticin geçiş anahtarını nereye kaydedeceğini sorar.",
+        "whatHappens2": "Parmak izin, yüzün veya ekran kilidinle onayla.",
+        "whatHappens3": "Bundan sonra giriş yaparken geçiş anahtarını seçebilirsin.",
+        "create": "Geçiş anahtarı oluştur",
+        "waiting": "Tarayıcının veya şifre yöneticinin istemini takip et…",
+        "cancelled": "Geçiş anahtarı oluşturulmadı. Tekrar deneyebilirsin.",
+        "doneTitle": "Geçiş anahtarı eklendi",
+        "doneSubtitle": "Artık \"{name}\" ile giriş yapabilirsin. Şifren de çalışmaya devam eder.",
+        "done": "Bitti",
+        "back": "Geri",
+        "removeError": "Geçiş anahtarı kaldırılamadı. Tekrar dene.",
+        "defaultName": "{system} üzerinde {browser}",
+        "rowDescription": "Parmak izin, yüzün veya cihaz PIN'in ile giriş yap."
+      },
+      "activityModal": {
+        "title": "Hesap oturum açma etkinliği",
+        "subtitle": "Hesabının şu anda oturum açık olduğu yerler. Tanımadığın cihazlardan çıkış yap.",
+        "unknownDevice": "Bilinmeyen cihaz",
+        "unknownLocation": "Bilinmeyen konum",
+        "currentDevice": "Bu cihaz",
+        "lastActive": "Son etkinlik {date}",
+        "revoke": "Oturumu kapat",
+        "revokePending": "Çalışıyor...",
+        "revokeAllTitle": "Diğer cihazlardaki oturumlar",
+        "revokeAll": "Diğer tüm cihazlardaki oturumları kapat",
+        "revokeAllPending": "Çalışıyor...",
+        "revokeSuccess": "Oturum iptal edildi.",
+        "revokeAllSuccess": "Diğer tüm oturumlar kapatıldı.",
+        "revokeError": "Oturum iptal edilemedi.",
+        "viewMore": "+ {count} diğer cihaz",
+        "activeNow": "Şu anda etkin",
+        "thisDeviceTitle": "Bu cihaz",
+        "otherEmpty": "Başka hiçbir cihazda oturumun açık değil.",
+        "showAll": "Tümünü göster ({count})",
+        "revokeAllConfirm": "Diğer {count} cihazın tümündeki oturum kapatılsın mı? Onları kullanan herkesin yeniden giriş yapması gerekir.",
+        "cancel": "İptal"
+      },
+      "automatedDecisions": {
+        "title": "Otomatik kararlar",
+        "description": "Bazı hesap koruma kararları, giriş örüntüleri ve şüpheli etkinlik gibi sinyallere göre otomatik olarak verilir. Ordnary'de bir kişiden sonucu incelemesini isteyebilirsin.",
+        "back": "Geri",
+        "close": "Kapat",
+        "loading": "Yükleniyor…",
+        "currentStateTitle": "Mevcut otomatik durum",
+        "riskLabels": {
+          "LOW": "Düşük risk",
+          "MEDIUM": "Orta risk",
+          "HIGH": "Yüksek risk"
+        },
+        "statusLabels": {
+          "ACTIVE": "Etkin",
+          "SUSPENDED": "Geçici olarak askıya alındı",
+          "DEACTIVATED": "Devre dışı",
+          "DELETED": "Silinmeyi bekliyor"
+        },
+        "suspendedExplanation": "Hesabın şu anda otomatik bir kuralla kısıtlanmış durumda. Aşağıdan insan incelemesi isteyebilirsin. Ordnary'de bir kişi sinyallere ve açıklamana bakacak, kararı onaylayacak veya değiştirecek.",
+        "elevatedExplanation": "Hesabının risk düzeyi son etkinliklere göre yükseltildi. Sinyallerin yanlış olduğunu düşünüyorsan insan incelemesi isteyebilirsin.",
+        "okExplanation": "Hesabında otomatik bir kısıtlama işaretlemedik. Yine de aşağıdan geçmiş herhangi bir kararın incelenmesini isteyebilirsin.",
+        "lastEvaluated": "Son değerlendirme",
+        "signalsTitle": "Son güvenlik sinyalleri",
+        "signalsEmpty": "Yakın zamanda kaydedilmiş güvenlik sinyali yok.",
+        "appealTitle": "İnsan incelemesi iste",
+        "appealSubtitle": "Ordnary'de bir inceleyici otomatik karara, açıklamana ve altta yatan sinyallere bakacak. Makul bir süre içinde yanıt vermeye çalışırız.",
+        "pickReason": "Neye itiraz ediyorsun?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Askıya alma işleminin yanlış olduğunu düşünüyorum",
+          "RISK_LEVEL_OBJECTION": "Risk düzeyimin yanlış olduğunu düşünüyorum",
+          "SECURITY_EVENT_OBJECTION": "Belirli bir güvenlik sinyaline itiraz etmek istiyorum",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Hesabımdaki otomatik kararları bir kişinin incelemesini istiyorum"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Hesabın şu anda askıya alınmış ve bu kararın incelenmesini istiyorsun.",
+          "RISK_LEVEL_OBJECTION": "Risk düzeyin beklenenden yüksek ve yeniden değerlendirilmesini istiyorsun.",
+          "SECURITY_EVENT_OBJECTION": "Tanımadığın belirli bir güvenlik olayı kaydedilmiş.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Hesabındaki otomatik kararlara bir insanın bakmasını istiyorsun."
+        },
+        "yourStatement": "Açıklaman (isteğe bağlı)",
+        "statementPlaceholder": "Bilmemiz gereken her şeyi yaz; örneğin seyahat ettiğini, yeni bir cihaz kullandığını veya başka birinin hesabına girmeye çalıştığını.",
+        "statementCounter": "{count} / {max}",
+        "submit": "İnceleme talebini gönder",
+        "submitting": "Gönderiliyor...",
+        "submitted": "Talebini aldık, sana geri döneceğiz.",
+        "pendingTitle": "İnceleme sürüyor",
+        "pendingSubtitle": "Ordnary'de bir kişi talebine bakıyor. Bir güncelleme olduğunda bilgilendirileceksin.",
+        "withdraw": "Talebi geri çek",
+        "withdrawing": "Geri çekiliyor...",
+        "withdrawn": "Talep geri çekildi.",
+        "withdrawableHint": "Bu talebi istediğin zaman geri çekebilirsin.",
+        "historyTitle": "Geçmiş inceleme talepleri",
+        "historyEmpty": "Önceki inceleme talebi yok.",
+        "outcomes": {
+          "UPHELD": "Onaylandı",
+          "OVERTURNED": "Bozuldu",
+          "ADJUSTED": "Düzeltildi",
+          "ESCALATED": "Üst birime iletildi"
+        },
+        "statuses": {
+          "PENDING": "Beklemede",
+          "IN_REVIEW": "İnceleniyor",
+          "RESOLVED": "Çözüldü",
+          "WITHDRAWN": "Geri çekildi"
+        },
+        "loadError": "Otomatik karar ayrıntıları yüklenemedi.",
+        "alreadyOpen": "Zaten açık bir inceleme talebin var.",
+        "cooldown": "{hours} saat sonra yeniden yeni bir inceleme talebi gönderebilirsin. Bu bekleme süresi, bir inceleyicinin önceki talebe ulaşmasına yardımcı olur.",
+        "showAll": "Tümünü göster ({count})",
+        "showLess": "Daha az göster"
+      },
+      "previewBadge": "Önizleme",
+      "previewBadgeTooltip": "Yeni ve hâlâ geliştiriliyor. Geçiş anahtarları çalışıyor, ancak ayrıntılar değişebilir."
+    },
+    "connections": {
+      "title": "Bağlı uygulamalar",
+      "description": "Ordnary hesap verilerine erişimi olan uygulamalar.",
+      "empty": "Henüz hiçbir uygulama bağlamadın.",
+      "authorizedScopes": "Yetkili kapsamlar: {scopes}",
+      "granted": "Verilme: {date}",
+      "revoke": "Erişimi kaldır"
+    },
+    "devices": {
+      "title": "Cihazlar ve oturumlar",
+      "description": "Farklı cihazlardaki etkin oturumlarını yönet.",
+      "logoutOthers": "Diğer tüm cihazlardaki oturumları kapat",
+      "headers": {
+        "device": "Cihaz",
+        "location": "Konum / IP",
+        "lastActive": "Son etkinlik",
+        "type": "Tür",
+        "actions": "İşlemler"
+      },
+      "unknownDevice": "Bilinmeyen cihaz",
+      "currentSession": "(Mevcut oturum)",
+      "typeFormat": "{os} üzerinde {browser}",
+      "revoke": "İptal et"
+    },
+    "passkeysPage": {
+      "title": "Geçiş anahtarları",
+      "description": "Parolasız oturum açma için biyometrik verilerini ve donanım anahtarlarını yönet.",
+      "add": "+ Yeni geçiş anahtarı ekle",
+      "empty": "Henüz geçiş anahtarı eklemedin.",
+      "unnamed": "Adsız geçiş anahtarı",
+      "addedOn": "Eklenme: {date}",
+      "lastUsed": "Son kullanım: {date}",
+      "never": "Hiç",
+      "delete": "Sil"
+    },
+    "activity": {
+      "title": "Son etkinlik",
+      "description": "Hesap güvenliğinle ilgili önemli olayları ve değişiklikleri incele ve izle.",
+      "details": "Ayrıntılar",
+      "dates": {
+        "today": "Bugün, 17 Nisan",
+        "yesterday": "Dün, 16 Nisan"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Oturum açıldı",
+        "LOGIN_FAILED": "Oturum açılamadı",
+        "LOGIN_LOCKED": "Oturum açma engellendi",
+        "LOGOUT": "Oturum kapatıldı",
+        "SESSION_CREATED": "Oturum oluşturuldu",
+        "SESSION_REVOKED": "Oturum sonlandırıldı",
+        "SESSION_ALL_REVOKED": "Her yerde oturum kapatıldı",
+        "PASSWORD_SET": "Parola belirlendi",
+        "PASSWORD_CHANGED": "Parola değiştirildi",
+        "PASSWORD_RESET_REQUESTED": "Parola sıfırlama istendi",
+        "PASSWORD_RESET_COMPLETED": "Parola sıfırlandı",
+        "PASSKEY_REGISTERED": "Geçiş anahtarı kaydedildi",
+        "PASSKEY_USED": "Geçiş anahtarıyla oturum açıldı",
+        "PASSKEY_REMOVED": "Geçiş anahtarı kaldırıldı",
+        "PASSKEY_COUNTER_MISMATCH": "Geçiş anahtarı uyarısı",
+        "MFA_ENABLED": "İki adımlı doğrulama açıldı",
+        "MFA_DISABLED": "İki adımlı doğrulama kapatıldı",
+        "MFA_FACTOR_ENROLLED": "Doğrulayıcı eklendi",
+        "MFA_FACTOR_VERIFIED": "Doğrulayıcı onaylandı",
+        "MFA_FACTOR_REVOKED": "Doğrulayıcı kaldırıldı",
+        "RECOVERY_CODES_GENERATED": "Yeni kurtarma kodları",
+        "RECOVERY_CODE_USED": "Kurtarma kodu kullanıldı",
+        "STEP_UP_REQUIRED": "Onay istendi",
+        "STEP_UP_COMPLETED": "Sen olduğun onaylandı",
+        "EMAIL_ADDED": "E-posta adresi eklendi",
+        "EMAIL_VERIFIED": "E-posta adresi onaylandı",
+        "EMAIL_REMOVED": "E-posta adresi kaldırıldı",
+        "EMAIL_PRIMARY_CHANGED": "Birincil e-posta değiştirildi",
+        "ACCOUNT_CREATED": "Hesap oluşturuldu",
+        "ACCOUNT_UPDATED": "Hesap güncellendi",
+        "ACCOUNT_DELETED": "Hesap silme işlemi başlatıldı",
+        "ACCOUNT_REACTIVATED": "Hesap yeniden etkinleştirildi",
+        "OAUTH_CONSENT_GRANTED": "Uygulamaya erişim verildi",
+        "OAUTH_CONSENT_REVOKED": "Uygulamanın erişimi kaldırıldı",
+        "OAUTH_TOKEN_ISSUED": "Uygulama oturum açtı",
+        "OAUTH_TOKEN_REVOKED": "Uygulamanın oturumu kapatıldı",
+        "SUSPICIOUS_NEW_LOCATION": "Yeni bir yerden oturum açıldı",
+        "SUSPICIOUS_NEW_DEVICE": "Yeni bir cihazda oturum açıldı",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Olağan dışı oturum açma",
+        "NOTIFICATION_PREFERENCE_CHANGED": "E-posta tercihleri değiştirildi",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Abonelikten çıkıldı",
+        "PRIVACY_REQUEST_FILED": "Gizlilik talebi gönderildi",
+        "PRIVACY_REQUEST_RESOLVED": "Gizlilik talebi sonuçlandırıldı",
+        "DSAR_FILED": "Veri talebi gönderildi",
+        "DSAR_FULFILLED": "Veri talebi karşılandı",
+        "DSAR_REJECTED": "Veri talebi reddedildi",
+        "RISK_REVIEW_REQUESTED": "İnceleme istendi",
+        "RISK_REVIEW_RESOLVED": "İnceleme tamamlandı"
+      },
+      "severities": {
+        "INFO": "Bilgi",
+        "MEDIUM": "Orta",
+        "HIGH": "Yüksek",
+        "CRITICAL": "Kritik",
+        "LOW": "Düşük"
+      },
+      "empty": "Hesabında henüz etkinlik yok.",
+      "filters": {
+        "all": "Tümü",
+        "account": "Hesap değişiklikleri",
+        "security": "Güvenlik uyarıları"
+      },
+      "retention": "Etkinlik {days} gün saklanır. Bunu {link} bölümünden değiştirebilirsin.",
+      "retentionLink": "Bilgilerin ve izinlerin",
+      "emptyFiltered": "Bu görünümde gösterilecek bir şey yok.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Biri, parolayla veya bir giriş koduyla hesabında oturum açtı.",
+        "LOGIN_FAILED": "Biri hesabında oturum açmayı denedi ama parola veya kod yanlıştı. Bunlardan birkaç tane olması genellikle bir yazım hatasıdır.",
+        "LOGIN_LOCKED": "Çok fazla hatalı denemeden sonra, hesabını korumak için hesabında oturum açma bir süreliğine engellendi.",
+        "LOGOUT": "Hesabındaki bir oturum kapatıldı.",
+        "SESSION_CREATED": "Hesabında bir cihazda veya tarayıcıda oturum açıldı ve yeni bir oturum başladı.",
+        "SESSION_REVOKED": "Hesabındaki bir oturum, senin tarafından veya artık açık tutmak güvenli olmadığı için kapatıldı.",
+        "SESSION_ALL_REVOKED": "Hesabının diğer tüm cihazlardaki oturumları kapatıldı.",
+        "PASSWORD_SET": "Hesabına bir parola eklendi.",
+        "PASSWORD_CHANGED": "Hesabının parolası değiştirildi.",
+        "PASSWORD_RESET_REQUESTED": "Parolanı sıfırlamak için e-posta adresine bir kod gönderildi.",
+        "PASSWORD_RESET_COMPLETED": "Parolan e-postandaki bir kodla sıfırlandı ve her yerdeki oturumların kapatıldı.",
+        "PASSKEY_REGISTERED": "Bir geçiş anahtarı eklendi; artık parola yerine cihazınla oturum açabilirsin.",
+        "PASSKEY_USED": "Biri, hesabının geçiş anahtarlarından biriyle hesabında oturum açtı.",
+        "PASSKEY_REMOVED": "Bir geçiş anahtarı kaldırıldı ve artık oturum açmak için kullanılamaz.",
+        "PASSKEY_COUNTER_MISMATCH": "Bir geçiş anahtarı beklenmedik bir şey bildirdi; bu, anahtarın kopyalandığı anlamına gelebilir. Oturum açma reddedildi.",
+        "MFA_ENABLED": "Oturum açarken artık kimlik doğrulayıcı uygulamandan bir kod da isteniyor.",
+        "MFA_DISABLED": "Oturum açarken artık kimlik doğrulayıcı uygulamandan kod istenmiyor.",
+        "MFA_FACTOR_ENROLLED": "Hesabına bir kimlik doğrulayıcı uygulama bağlandı.",
+        "MFA_FACTOR_VERIFIED": "Kimlik doğrulayıcı uygulamandan gelen bir kod onaylandı.",
+        "MFA_FACTOR_REVOKED": "Hesabından bir kimlik doğrulayıcı uygulama kaldırıldı.",
+        "RECOVERY_CODES_GENERATED": "Yeni bir kurtarma kodu seti oluşturuldu. Eski kodlar artık çalışmıyor.",
+        "RECOVERY_CODE_USED": "Biri, doğrulayıcı kodu yerine kurtarma kodlarından biriyle oturum açtı. O kod tekrar kullanılamaz.",
+        "STEP_UP_REQUIRED": "Hassas bir değişiklikten önce, e-postayla gelen bir kodla sen olduğunu onaylaman istendi.",
+        "STEP_UP_COMPLETED": "E-postayla gelen bir kod sen olduğunu onayladı ve bu, bir süreliğine hassas bir değişikliğe izin verdi.",
+        "EMAIL_ADDED": "Hesabına bir e-posta adresi eklendi ve bu adrese bir onay bağlantısı gönderildi.",
+        "EMAIL_VERIFIED": "Hesabındaki bir e-posta adresi onaylandı.",
+        "EMAIL_REMOVED": "Hesabından bir e-posta adresi kaldırıldı.",
+        "EMAIL_PRIMARY_CHANGED": "Farklı bir e-posta adresi, oturum açma ve mesajlar için hesabının ana adresi oldu.",
+        "ACCOUNT_CREATED": "Ordnary hesabın oluşturuldu.",
+        "ACCOUNT_UPDATED": "Hesabındaki bir ayar veya bilgi değiştirildi.",
+        "ACCOUNT_DELETED": "Hesabın silinmek üzere ayarlandı. 30 gün boyunca geri yüklenebilir.",
+        "ACCOUNT_REACTIVATED": "Hesabın, devre dışı bırakıldıktan veya silindikten sonra yeniden açıldı.",
+        "OAUTH_CONSENT_GRANTED": "Bir uygulama, Ordnary ID ile hesabına erişim aldı.",
+        "OAUTH_CONSENT_REVOKED": "Bir uygulamanın artık hesabına erişimi yok.",
+        "OAUTH_TOKEN_ISSUED": "Ordnary ID ile kullandığın bir uygulama yeni bir oturum açma belirteci aldı.",
+        "OAUTH_TOKEN_REVOKED": "Bir uygulamanın oturum açma belirteci iptal edildi.",
+        "SUSPICIOUS_NEW_LOCATION": "Hesabın, daha önce kullanılmadığı bir yerden kullanıldı.",
+        "SUSPICIOUS_NEW_DEVICE": "Hesabın, daha önce kullanılmadığı bir cihazda kullanıldı.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Hesabın, bir kişinin o sürede aralarında yolculuk edemeyeceği kadar birbirinden uzak iki yerden kullanıldı.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Ordnary'nin sana hangi e-postaları gönderebileceği değiştirildi.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Bir e-postadaki abonelikten çıkma bağlantısıyla bir e-posta türü kapatıldı.",
+        "PRIVACY_REQUEST_FILED": "Verilerinin işlenmesine itiraz etmek veya işlenmesini kısıtlamak için bir talep gönderildi.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary, işlemeye itiraz veya işlemeyi kısıtlama talebini sonuçlandırdı.",
+        "DSAR_FILED": "Verilerinle ilgili bir talep (erişim, düzeltme, silme veya kopya) gönderildi.",
+        "DSAR_FULFILLED": "Ordnary veri talebini tamamladı.",
+        "DSAR_REJECTED": "Ordnary veri talebini reddetti; nedeni e-postada açıklanıyor.",
+        "RISK_REVIEW_REQUESTED": "Hesabınla ilgili otomatik bir kararın incelenmesi istendi.",
+        "RISK_REVIEW_RESOLVED": "Ordnary'den bir kişi, hesabınla ilgili otomatik bir kararı inceledi."
+      },
+      "detail": {
+        "ifNotYou": "Sen değil miydin? Parola ve güvenlik bölümünden parolanı değiştir ve diğer cihazlardaki oturumlarını kapat.",
+        "ifNotYouLink": "Parola ve güvenlik bölümüne git",
+        "generic": "Bu, hesabına kaydedildi.",
+        "labels": {
+          "when": "Ne zaman",
+          "where": "Nerede",
+          "ip": "IP adresi",
+          "session": "Oturum",
+          "thisDevice": "Bu cihaz",
+          "event": "Olay",
+          "source": "Kaydedildiği yer",
+          "severity": "Önem"
+        },
+        "sources": {
+          "AUDIT_LOG": "Hesap günlüğü",
+          "SECURITY_EVENT": "Güvenlik izleme"
+        },
+        "unknown": "Bilinmiyor",
+        "times": "{count}×",
+        "timeSpan": "{from} ile {to} arası"
+      },
+      "showMore": "Önceki günleri göster",
+      "loadingMore": "Yükleniyor…",
+      "end": "Saklanan etkinliklerin hepsi bu kadar.",
+      "loadFailed": "Daha fazlası yüklenemedi. Tekrar dene."
+    },
+    "connectedAppsDemo": {
+      "title": "Bağlı uygulamalar",
+      "description": "Hesap verilerinin bir kısmına erişim verdiğin üçüncü taraf uygulamalar ve hizmetler.",
+      "badges": {
+        "official": "Resmi",
+        "verified": "Doğrulanmış"
+      },
+      "accessed": "Erişim: {value}",
+      "revoke": "Erişimi kaldır",
+      "apps": {
+        "consoleReason": "Bulut kaynaklarını ve dağıtım hatlarını yönet.",
+        "figmaReason": "Ortak prototip oluşturma için kullanılan tasarım aracı.",
+        "unknownGameName": "Bilinmeyen oyun",
+        "unknownGameReason": "Profil bilgilerini isteyen doğrulanmamış bir uygulama.",
+        "currentSession": "Mevcut oturum",
+        "twoDaysAgo": "2 gün önce",
+        "lastMonth": "Geçen ay"
+      }
+    },
+    "permissions": {
+      "title": "Bilgilerin ve izinlerin",
+      "exportTitle": "Bilgilerini dışa aktar",
+      "searchHistory": "Ordnary etkinliği",
+      "externalActivity": "Ordnary teknolojileri dışındaki etkinliğin",
+      "appConnections": "Uygulama bağlantıları",
+      "manageContacts": "Kişileri yönet",
+      "notice": "Bilgilerinin bir kopyasını indirmek veya aktarmak için Bilgilerini dışa aktar bölümüne git.",
+      "footer": "Ordnary teknolojilerinin deneyimlerini etkilemek için hangi bilgileri kullanabileceğine karar ver.",
+      "privacyRightsTitle": "Gizlilik hakların",
+      "dsarTitle": "Gizlilik ve veri talepleri",
+      "dsarSubtitle": "Erişim, düzeltme, silme veya taşınabilirlik için resmi bir talep oluştur (Md. 15-20).",
+      "privacyRequestsTitle": "İtiraz et veya kısıtla",
+      "privacyRequestsSubtitle": "Belirli işleme faaliyetlerine itiraz et veya bunları kısıtla (Md. 18 / Md. 21).",
+      "processorsTitle": "Verilerini kimler işliyor",
+      "processorsSubtitle": "Ordnary'yi çalıştırmak için kullandığımız şirketler, neler aldıkları ve verileri nerede sakladıkları.",
+      "cookiesTitle": "Çerez tercihleri",
+      "cookiesSubtitle": "Ordnary'nin bu tarayıcıda hangi çerezleri kullanabileceğini yönet.",
+      "minorConsentTitle": "Ebeveyn onayı",
+      "minorConsentSubtitle": "Ülkende onay yaşının altındaysan bir ebeveynin veya vasinin onay vermesi gerekir (GDPR Md. 8).",
+      "notificationsTitle": "Bildirim tercihleri",
+      "notificationsSubtitle": "Ordnary'nin sana hangi türde e-posta gönderebileceğini seç.",
+      "notifications": {
+        "title": "Bildirim tercihleri",
+        "close": "Kapat",
+        "loading": "Yükleniyor…",
+        "alwaysOn": "Her zaman açık",
+        "description": "Ordnary'den hangi e-postaları alacağını seç.",
+        "loadError": "Bunu şu anda yükleyemedik. Lütfen daha sonra tekrar dene.",
+        "saveError": "Bunu kaydedemedik. Tekrar dene.",
+        "saved": "Kaydedildi.",
+        "alwaysTitle": "Her zaman açık",
+        "alwaysText": "Bu e-postalar hesabını güvende tutar ve istediğin işlemleri onaylar, bu yüzden açık kalır.",
+        "choiceTitle": "Senin seçimin",
+        "turnAllOff": "Tüm isteğe bağlı e-postaları kapat",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Güvenlik uyarıları",
+          "TRANSACTIONAL_ACCOUNT": "Hesap mesajları",
+          "PRODUCT_UPDATES": "Ürün güncellemeleri",
+          "RECOMMENDATIONS": "Öneriler",
+          "MARKETING": "Haberler ve teklifler"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Giriş kodları, parola sıfırlamaları ve yeni girişler ya da güvenliğinde yapılan değişiklikler hakkında uyarılar.",
+          "TRANSACTIONAL_ACCOUNT": "Yaptığın işlemlerin onayları, örneğin veri dışa aktarma, gizlilik talebi veya ebeveyn onayı.",
+          "PRODUCT_UPDATES": "Ordnary ürünlerindeki yenilikler ve şartlarımızdaki değişiklikler.",
+          "RECOMMENDATIONS": "Ordnary'yi nasıl kullandığına göre öneriler.",
+          "MARKETING": "Bültenler ve teklifler, ara sıra."
+        }
+      },
+      "minorConsent": {
+        "title": "Ebeveyn onayı",
+        "description": "Kendi başına çevrimiçi onay verebileceğin yaştan küçüksen, bilgilerinin bir kısmını kullanabilmemiz için bir ebeveynin veya vasinin onay vermesi gerekir. Bu, GDPR'nin 8. maddesinden gelir.",
+        "close": "Kapat",
+        "loading": "Yükleniyor…",
+        "loadError": "Bu şu anda yüklenemedi. Daha sonra tekrar dene.",
+        "consentAge": "{country} için onay yaşı: {age}",
+        "yourAge": "Yaşın: {age}",
+        "adultTitle": "Gerekmiyor",
+        "adultBody": "Kendi adına onay verecek yaştasın, bu yüzden ebeveyn onayına gerek yok.",
+        "unknownTitle": "Yaşını henüz bilmiyoruz",
+        "unknownBody": "Ebeveyn onayına ihtiyacın olup olmadığını anlayabilmemiz için doğum tarihini ekle.",
+        "unknownAction": "Doğum tarihi ekle",
+        "blockedTitle": "Onay gerekli",
+        "blockedBody": "Bir ebeveyn veya vasi onay verene kadar hesabının bazı bölümleri sınırlıdır.",
+        "pendingTitle": "Ebeveynin veya vasin bekleniyor",
+        "pendingBody": "{email} adresine bir talep gönderdik. Bağlantı {date} tarihine kadar çalışır.",
+        "verifiedTitle": "Onay verildi",
+        "verifiedBody": "{email}, {date} tarihinde onay verdi.",
+        "parentEmail": "Ebeveyn veya vasinin e-postası",
+        "relationship": "Bu kişi kim, örneğin anne (isteğe bağlı)",
+        "addMessage": "Mesaj ekle (isteğe bağlı)",
+        "notes": "Ebeveynin veya vasin için mesaj",
+        "submit": "Talep gönder",
+        "submitting": "Gönderiliyor…",
+        "resend": "Yeniden gönder",
+        "changeEmail": "Başka bir e-posta kullan",
+        "cancel": "İptal",
+        "revoke": "Geri çek",
+        "revokeConfirm": "Onay geri çekilsin mi? Bir ebeveyn veya vasi yeniden onay verene kadar hesabının bazı bölümleri tekrar sınırlanır.",
+        "revoking": "Geri çekiliyor…",
+        "revoked": "Onay geri çekildi.",
+        "notMinor": "Kendi adına onay verecek yaştasın.",
+        "invalidEmail": "Geçerli bir e-posta adresi gir.",
+        "requestSent": "Talep {email} adresine gönderildi.",
+        "points": [
+          {
+            "title": "Onların e-postasını gir",
+            "text": "Bir ebeveynin veya vasinin e-posta adresi."
+          },
+          {
+            "title": "Onay verirler",
+            "text": "Onay bağlantısı içeren bir e-posta alırlar. Bağlantı 14 gün geçerlidir."
+          },
+          {
+            "title": "Hesabın tam çalışır",
+            "text": "Onay verdiklerinde hesabındaki sınırlar kalkar."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Bilgilerinin bir kopyasını harici bir hizmete veya cihazına aktarabilirsin. Kullanılabilir veriler arasında paylaştığın içerik ve bilgiler, etkinliğin ve topladığımız bilgiler bulunur.",
+      "exportButton": "İndirme bağlantısı gönder",
+      "exportModalContentsTitle": "Dışa aktarmana şunlar dahildir:",
+      "exportModalContents": [
+        "Profil verileri ve hesap ayarları",
+        "E-posta adresleri ve telefon numaraları",
+        "Güvenlik ayarları (geçiş anahtarları, çok aşamalı doğrulama, cihazlar)",
+        "Oturum ve giriş geçmişi",
+        "Ödeme bilgileri",
+        "Bağlı uygulamalar ve OAuth izinleri",
+        "Etkinlik günlüğü ve güvenlik olayları",
+        "Gizlilik ve çerez onayları"
+      ],
+      "exportModalFormat": "Biçim: Yapılandırılmış JSON dosyaları ve okunabilir bir README içeren ZIP arşivi.",
+      "exportModalRateLimit": "Tek kullanımlık bir indirme bağlantısı içeren bir e-posta alacaksın. 24 saatte en fazla 3 dışa aktarma yapılabilir.",
+      "exportDownload": {
+        "loading": "Bir saniye...",
+        "readyTitle": "Veri dışa aktarman hazır",
+        "readyDescription": "Hesap verilerini ZIP arşivi olarak indirmek için aşağıdaki düğmeye tıkla. Bu bağlantı tek kullanımlıktır ve 24 saat sonra sona erer.",
+        "downloadButton": "Verilerini indir",
+        "readyHint": "Dosya, tüm kişisel verilerini, güvenlik ayarlarını, etkinlik günlüğünü ve daha fazlasını yapılandırılmış JSON dosyalarında içerir.",
+        "downloadingTitle": "İndiriliyor...",
+        "downloadingDescription": "Dışa aktarman hazırlanıyor. Bu birkaç saniye sürebilir.",
+        "successTitle": "İndirme başladı",
+        "successDescription": "Veri dışa aktarman indiriliyor. Hassas kişisel bilgiler içerdiği için dosyayı güvenli bir yerde sakla.",
+        "successHint": "Bu indirme bağlantısının süresi doldu. Yeni bir dışa aktarmaya ihtiyacın olursa hesap ayarlarından isteyebilirsin.",
+        "backToSettings": "Hesap ayarlarına dön",
+        "expiredTitle": "Bağlantının süresi doldu",
+        "expiredDescription": "Bu indirme bağlantısının süresi dolmuş veya zaten kullanılmış. İndirme bağlantıları 24 saat geçerlidir ve yalnızca bir kez kullanılabilir.",
+        "newExportButton": "Yeni dışa aktarma iste",
+        "errorTitle": "Bir şeyler ters gitti",
+        "errorDefault": "Dışa aktarman alınırken bir hata oluştu.",
+        "noToken": "İndirme jetonu bulunamadı."
+      },
+      "appConnectionsModalSubtitle": "Uygulama bağlantılarıyla çeşitli Ordnary ürünlerinde ve diğer şirketlerle işlemler yapabilirsin.",
+      "connectButton": "Bağlan",
+      "activityModalSubtitle": "Ordnary ekosistemindeki etkinliğini, SaaS ürünlerimiz ve uygulamalarımız dahil, görüntüle ve yönet. Bu bilgileri davranışlarından öğrenmek ve tüm platformlarımızdaki deneyimini iyileştirmek için kullanırız.",
+      "accountsAndProfiles": "Hesapların ve profillerin",
+      "keepActivityFor": "Etkinliği şu süre sakla",
+      "clearActivityButton": "Tüm etkinliği temizle",
+      "days3": "3 gün",
+      "days7": "7 gün",
+      "days14": "14 gün",
+      "standardOption": "Standart",
+      "noticeTitle": "Bilgilerinin bir kopyasını al",
+      "noticeText": "Hesap verilerini saklamak veya başka bir hizmete taşımak için indir.",
+      "noticeAction": "Bilgileri dışa aktar",
+      "experimentBadge": "Deney",
+      "userFallback": "Kullanıcı",
+      "avatarAlt": "Profil fotoğrafı",
+      "exportSent": "İndirme bağlantısı {email} adresine gönderildi",
+      "exportFailed": "Dışa aktarma başarısız oldu. Tekrar dene.",
+      "exportInProgress": "Bir dışa aktarma zaten hazırlanıyor. Kısa süre sonra tekrar dene.",
+      "exportRateLimited": "Maksimum dışa aktarma sayısına ulaştın. {time} sonra tekrar dene.",
+      "saveFailed": "Kaydedilemedi. Tekrar dene.",
+      "days30": "30 gün",
+      "autoClear": {
+        "title": "Ordnary etkinliğini otomatik temizle",
+        "subtitle": "Etkinliğini ne kadar süre tuttuğumuzu seç. Daha eski etkinlik, Hesap Merkezi'ndeki tüm hesaplar ve profiller için otomatik olarak kaldırılır.",
+        "standard": "Standart",
+        "saving": "Kaydediliyor…",
+        "saved": "Kaydedildi.",
+        "back": "Geri",
+        "close": "Kapat",
+        "howTitle": "Neler kaldırılır",
+        "howText": "Oturum açma geçmişin ve hesabındaki yeni oturum açmalar, parola değişiklikleri ve engellenen denemeler gibi güvenlik olayları, seçtiğin süreden eski olduklarında.",
+        "howPermanent": "Kaldırılan etkinlik geri getirilemez. Saklamak istiyorsan önce bir kopya indir.",
+        "learnMore": "Ordnary belgelerinde otomatik temizleme hakkında daha fazla bilgi"
+      },
+      "experimentBadgeTooltip": "Hâlâ geliştirme aşamasında. Göz atabilirsin, ancak uygulama bağlama henüz çalışmıyor."
+    },
+    "payments": {
+      "title": "Öde",
+      "subtitle": "Kayıtlı ödeme bilgilerini ve hangi hesapların bunlara erişebildiğini yönet. {learnMore}",
+      "syncInfo": "2 hesap arasında eşitlendi",
+      "addMethodTitle": "Ödeme yöntemi ekle",
+      "addMethodSubtitle": "Bir sonraki alışverişini kolaylaştırmak için bir kart kaydet veya PayPal'ını bağla.",
+      "addMethodButton": "Ödeme yöntemi ekle",
+      "shippingTitle": "Teslimat bilgileri",
+      "shippingAddress": "Teslimat adresi",
+      "emailAddress": "E-posta adresi",
+      "phoneNumber": "Telefon numarası",
+      "addModal": {
+        "title": "Ödeme yöntemi ekle",
+        "card": "Kredi veya banka kartı",
+        "paypal": "PayPal",
+        "footer": "Bu bilgiler Ordnary Pay ile kaydedilir ve bilgilerin yönetilebildiği Hesap Merkezi'nde eşitlenir. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Kart ekle",
+        "subtitle": "Kart numaran şifrelenir ve güvenle saklanır",
+        "cardNumber": "Kart numarası",
+        "expiry": "Son kullanma tarihi (AA/YY)",
+        "cvv": "CVV",
+        "name": "Karttaki ad",
+        "submit": "İleri",
+        "cvvTooltip": "Doğrulama kodun (CVV), kartının arkasındaki veya önündeki güvenlik numarasıdır.",
+        "footer": "Bu bilgiler Ordnary Pay ile kaydedilir ve bilgilerin yönetilebildiği Hesap Merkezi'nde eşitlenir. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Teslimat adresini ayarla",
+        "subtitle": "Ordnary Pay için bir teslimat adresi ekle. Bu, kart kurulum akışından ayrıdır.",
+        "search": "Adres ara",
+        "country": "Ülke veya bölge",
+        "fullName": "Ad soyad",
+        "street": "Adres",
+        "street2": "Adres satırı 2 (isteğe bağlı)",
+        "city": "Şehir/ilçe",
+        "state": "Eyalet/il/bölge",
+        "zip": "Posta kodu",
+        "submit": "Adresi kaydet"
+      }
+    },
+    "subscriptions": {
+      "description": "Etkin Ordnary aboneliklerini, yenilemelerini ve faturalandırma ayarlarını yönet.",
+      "emptyTitle": "Etkin abonelik yok",
+      "emptyDescription": "Abonelikler hesabınla ilişkilendirildiğinde burada görünür.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Ordnary Pictures'tan seçili filmler, diziler, ön izlemeler ve desteklenen Ordnary deneyimlerinde yalnızca üyelere özel yayınlar dahil premium medyaya sınırsız erişim.",
+          "status": "Etkin",
+          "renewal": "Aylık yenilenir",
+          "price": "Ayda 9,99 €"
+        }
+      },
+      "manageSubscription": "Aboneliği yönet"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Erişim reddedildi",
+        "description": "Şu anda Hesap Merkezi'ne erişimin yok. Oturumunun süresi dolmuş veya hesabın kısıtlanmış olabilir.",
+        "action": "Yeniden giriş yap"
+      },
+      "suspended": {
+        "title": "Hesap devre dışı",
+        "description": "Bu hesap devre dışı bırakılmış veya geçici olarak kısıtlanmış. Bunun bir hata olduğunu düşünüyorsan destekle iletişime geç.",
+        "action": "Destekle iletişime geç"
+      },
+      "banned": {
+        "title": "Erişim kalıcı olarak reddedildi",
+        "description": "Hesabın, Hizmet Şartlarımızı ihlal ettiği için kalıcı olarak engellendi.",
+        "action": "Şartları görüntüle"
+      },
+      "offline": {
+        "title": "İnternet bağlantısı yok",
+        "description": "Çevrimdışı görünüyorsun. Devam etmek için internet bağlantını kontrol et.",
+        "action": "Tekrar dene"
+      },
+      "unknown": {
+        "title": "Sistem hatası",
+        "description": "Beklenmedik bir sorun oluştu. Daha sonra tekrar dene.",
+        "action": "Başa dön"
+      },
+      "previousPage": "Önceki sayfa"
+    },
+    "common": {
+      "noResults": "Sonuç yok",
+      "searchPlaceholder": "Ara..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} hesabına erişmek istiyor",
+      "description": "{displayName} olarak oturum açtın. Yalnızca bu uygulamaya güveniyorsan erişim ver.",
+      "requestedPermissions": "İstenen izinler",
+      "approve": "Erişim ver",
+      "deny": "Reddet",
+      "errorTitle": "İstekle ilgili bir sorun var",
+      "errorDescription": "Yetkilendirme isteği geçersiz veya eksik. Lütfen parametreleri kontrol et.",
+      "unknownAppTitle": "Uygulama doğrulanamıyor",
+      "unknownAppDescription": "Bu uygulama Ordnary tarafından tanımlanamıyor. Bunun nedeni genellikle hatalı bir client_id veya redirect_uri'dir. Güvenliğin için devam edemiyoruz."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Bu sayfa kullanılamıyor",
+      "description": "Bağlantı bozuk olabilir veya sayfa kaldırılmış olabilir. Açmaya çalıştığın bağlantının doğru olduğundan emin ol.",
+      "button": "Hesap ayarlarına git"
+    },
+    "serverError": {
+      "title": "Bir şeyler ters gitti",
+      "description": "Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar dene.",
+      "button": "Tekrar dene"
+    }
+  },
+  "cookieConsent": {
+    "title": "Bu tarayıcıda Ordnary çerezlerinin kullanılmasına izin verilsin mi?",
+    "description": "Ordnary ürünlerinde içerik sunmak ve bunları geliştirmek için çerezler ve benzer teknolojiler kullanıyoruz. Ayrıca Ordnary içinde ve dışında aldığımız bilgileri kullanarak daha güvenli bir deneyim sunmak için de kullanıyoruz. Bu çerezler isteğe bağlıdır.",
+    "essentialTitle": "Zorunlu çerezler",
+    "essentialDesc": "Bu çerezler Ordnary ürünlerini kullanmak için gereklidir ve sitelerimizin düzgün çalışması için şarttır.",
+    "optionalTitle": "Diğer şirketlerin çerezleri",
+    "optionalDesc": "Bu çerezleri sana Ordnary ürünleri dışında reklamlar göstermek ve Ordnary ürünlerinde harita ve video gibi özellikler sunmak için kullanırız. Bu çerezler isteğe bağlıdır.",
+    "policyInfo": "Hangi isteğe bağlı çerezleri kullanabileceğimize sen karar verirsin. {cookiePolicy} sayfamızda çerezler ve bunları nasıl kullandığımız hakkında daha fazla bilgi bulabilir, seçimlerini istediğin zaman gözden geçirebilir veya değiştirebilirsin.",
+    "cookiePolicy": "çerez politikamız",
+    "infoTitle": "Çerezler hakkında bilgi",
+    "policyRefreshNotice": "Çerez seçimlerini kaydetme şeklimizi güncelledik. Güncel bir kayıt tutabilmemiz için lütfen tercihlerini yeniden onayla.",
+    "policyRevisionNotice": "Çerez politikamız güncellendi. Lütfen tercihlerini yeniden gözden geçir.",
+    "preferencesTitle": "Çerez tercihlerin",
+    "preferencesDescription": "Ordnary'nin bu tarayıcıda hangi çerez kategorilerini kullanabileceğini seç. Bu ayarları istediğin zaman hesabından değiştirebilirsin.",
+    "alwaysOn": "Her zaman açık",
+    "categories": {
+      "essential": {
+        "title": "Zorunlu",
+        "description": "Giriş, güvenlik ve ürünün geri kalanının çalışması için gereklidir."
+      },
+      "functional": {
+        "title": "İşlevsel",
+        "description": "Dil, tema ve son kullanılan hesaplar gibi tercihleri hatırlar."
+      },
+      "analytics": {
+        "title": "Analitik",
+        "description": "Ordnary'nin nasıl kullanıldığını anlamamıza ve geliştirmemize yardımcı olur."
+      },
+      "marketing": {
+        "title": "Pazarlama",
+        "description": "Ordnary'den ürünler ve tekliflerle ilgili kişiselleştirilmiş mesajlar."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Çerezler nedir?",
+        "button": "Daha fazla bilgi"
+      },
+      "why": {
+        "title": "Çerezleri neden kullanıyoruz?",
+        "button": "Daha fazla bilgi"
+      },
+      "products": {
+        "title": "Ordnary ürünleri nedir?",
+        "button": "Daha fazla bilgi"
+      },
+      "preferences": {
+        "title": "Çerez tercihlerin",
+        "button": "Daha fazla bilgi"
+      }
+    },
+    "buttons": {
+      "reject": "İsteğe bağlı çerezleri reddet",
+      "accept": "Tüm çerezlere izin ver",
+      "rejectShort": "Reddet",
+      "acceptShort": "İzin ver",
+      "customize": "Özelleştir",
+      "save": "Tercihleri kaydet",
+      "saveShort": "Kaydet",
+      "close": "Kapat"
+    }
+  },
+  "recentAccounts": {
+    "title": "Ordnary hesabınla giriş yap",
+    "continueAs": "{name} olarak devam et",
+    "loginAnother": "Başka bir hesapla giriş yap",
+    "remove": "Hesabı kaldır"
+  },
+  "reauthenticate": {
+    "title": "Sen olduğunu doğrula",
+    "description": "Merhaba {name}, güvenliğin için {action} önce senin olduğunu doğrulamamız gerekiyor.",
+    "codeSentTo": "{email} adresine bir kod gönderdik.",
+    "codeSent": "E-postana 6 haneli bir güvenlik kodu gönderdik.",
+    "securityCode": "Güvenlik kodu",
+    "continue": "Devam",
+    "verifying": "Doğrulanıyor…",
+    "sending": "Gönderiliyor…",
+    "cancel": "İptal",
+    "errors": {
+      "sendFailed": "Güvenlik kodu gönderilemedi.",
+      "invalidCode": "Geçersiz kod.",
+      "network": "Ağ hatası. Lütfen tekrar dene."
+    },
+    "actions": {
+      "changePassword": "şifreni değiştirmeden",
+      "changeEmail": "e-posta adreslerini yönetmeden",
+      "managePasskeys": "geçiş anahtarlarını yönetmeden",
+      "manageMfa": "iki adımlı doğrulamayı yönetmeden",
+      "revokeAllSessions": "her yerden çıkış yapmadan",
+      "manageAccount": "hesabını devre dışı bırakmadan veya silmeden",
+      "rotateClientSecret": "bu istemci gizli anahtarını yenilemeden",
+      "managePaymentMethods": "ödeme yöntemlerini yönetmeden",
+      "authorizeApp": "bu uygulamaya yetki vermeden",
+      "generic": "bu hassas işleme devam etmeden"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Ebeveyn onayını doğrula",
+    "description": "Bir kullanıcı, GDPR Madde 8 kapsamında Ordnary hesabını onaylamanı istedi. Onayını kaydetmek için aşağıdaki onayla düğmesine tıkla. Onayını daha sonra istediğin zaman, özgün e-postayı yanıtlayarak veya {email} adresiyle iletişime geçerek geri alabilirsin.",
+    "idle": "Bu sayfa, doğrulama anahtarının dahil olması için istek e-postasındaki bağlantıdan açılmalıdır.",
+    "verifying": "Doğrulanıyor…",
+    "success": "Teşekkürler. Ebeveyn onayı doğrulandı ve hesabın kullanıcı tarafındaki kilidini açtık. Kullanıcı da bir bildirim alacak.",
+    "errors": {
+      "tokenRequired": "Doğrulama anahtarı sağlanmadı.",
+      "tokenNotFound": "Bu onay bağlantısı artık geçerli değil.",
+      "alreadyVerified": "Bu onay zaten kaydedildi.",
+      "requestRevoked": "Bu istek geri çekildi veya daha yeni bir istekle değiştirildi.",
+      "tokenExpired": "Bu onay bağlantısının süresi doldu. Lütfen kullanıcıdan yeni bir istek göndermesini iste.",
+      "invalidBody": "Doğrulama isteği hatalı biçimlendirilmişti.",
+      "generic": "Bu onay bağlantısını doğrulayamadık. Lütfen kullanıcıdan yeni bir istek göndermesini iste."
+    }
+  },
+  "unsubscribe": {
+    "title": "Abonelikten çık",
+    "idle": "Abonelikten çıkma anahtarının dahil olması için bu sayfayı e-postadaki bağlantıdan aç.",
+    "verifying": "Tercihin kaydediliyor…",
+    "success": "Abonelikten çıktın.",
+    "successWithCategory": "{category} aboneliğinden çıktın.",
+    "manageAt": "Tüm bildirim tercihlerini istediğin zaman {link} adresinden ayarlayabilirsin.",
+    "categories": {
+      "transactionalSecurity": "güvenlik uyarıları",
+      "transactionalAccount": "hesap bildirimleri",
+      "productUpdates": "ürün güncellemeleri",
+      "recommendations": "öneriler",
+      "marketing": "pazarlama e-postaları"
+    },
+    "errors": {
+      "tokenRequired": "Abonelikten çıkma anahtarı sağlanmadı.",
+      "tokenNotFound": "Bu abonelikten çıkma bağlantısı artık geçerli değil.",
+      "alreadyRedeemed": "Bu kategoriden zaten abonelikten çıktın.",
+      "tokenExpired": "Bu abonelikten çıkma bağlantısının süresi doldu. Giriş yaptıktan sonra tercihlerini Hesap Merkezi'nden yönetebilirsin.",
+      "categoryMandatory": "Bu kategori güvenlik ve hesap için zorunlu bildirimleri kapsadığından kapatılamaz.",
+      "generic": "Bu abonelikten çıkma bağlantısını işleyemedik. Lütfen giriş yap ve tercihlerini doğrudan ayarla."
+    }
+  },
+  "dsarVerify": {
+    "title": "Gizlilik talebini onayla",
+    "description": "Verilerinle ilgili bu talebi Ordnary'ye senin gönderdiğini onayla. Göndermediysen bu sayfayı kapat ve {email} adresinden bize bildir.",
+    "idle": "Onayın dahil olması için bu sayfayı gönderdiğimiz e-postadaki bağlantıdan aç.",
+    "confirm": "Talebi onayla",
+    "verifying": "Onaylanıyor…",
+    "success": "Teşekkürler, talebin onaylandı. Yasal süre içinde ele alacağız ve tamamlandığında sana e-posta göndereceğiz.",
+    "errors": {
+      "tokenRequired": "Bu bağlantıda onay kodu eksik.",
+      "tokenNotFound": "Bu bağlantı artık geçerli değil.",
+      "tokenExpired": "Bu bağlantının süresi doldu. Talebi Hesap Merkezi'nden yeniden gönder.",
+      "alreadyProcessed": "Bu talep zaten onaylandı veya ele alındı.",
+      "generic": "Bu talep onaylanamadı. Tekrar dene veya {email} ile iletişime geç."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Oturumun kapandı. Yeniden oturum aç ve tekrar dene.",
+    "not_authenticated": "Oturumun kapandı. Yeniden oturum aç ve tekrar dene.",
+    "step_up_required": "Önce sen olduğunu doğrula, sonra tekrar dene.",
+    "rate_limited": "Çok fazla deneme yapıldı. Birkaç dakika bekle ve tekrar dene.",
+    "first_party_only": "Bu yalnızca Ordnary'nin kendi uygulamalarında kullanılabilir.",
+    "invalid_request": "Bu istekte bir sorun var. Sayfayı yenile ve tekrar dene.",
+    "invalid_body": "Bu istekte bir sorun var. Sayfayı yenile ve tekrar dene.",
+    "invalid_action": "Bu işlem burada kullanılamıyor.",
+    "missing_fields": "Tüm alanları doldur.",
+    "internal_error": "Bizim tarafımızda bir sorun oluştu. Biraz sonra tekrar dene.",
+    "internal_server_error": "Bizim tarafımızda bir sorun oluştu. Biraz sonra tekrar dene.",
+    "unavailable": "Bu şu anda kullanılamıyor. Daha sonra tekrar dene.",
+    "send_failed": "E-posta gönderilemedi. Biraz sonra tekrar dene.",
+    "user_not_found": "Bu hesap bulunamadı.",
+    "invalid_email": "Geçerli bir e-posta adresi gir.",
+    "missing_address": "Bir e-posta adresi gir.",
+    "email_already_exists": "Bu e-posta adresi zaten kullanılıyor.",
+    "email_not_found": "Bu e-posta adresi hesabında kayıtlı değil.",
+    "cannot_delete_primary_email": "Birincil e-posta adresini kaldıramazsın.",
+    "failed_to_add_email": "Bu e-posta adresi eklenemedi.",
+    "failed_to_delete_email": "Bu e-posta adresi kaldırılamadı.",
+    "failed_to_send_verification_email": "Doğrulama e-postası gönderilemediği için adres eklenmedi.",
+    "no_email": "Hesabında e-posta gönderilebilecek bir adres yok.",
+    "no_primary_email": "Hesabında birincil e-posta adresi yok.",
+    "password_mismatch": "Yeni parolalar eşleşmiyor.",
+    "password_incorrect": "Mevcut parolan yanlış.",
+    "password_too_weak": "Yeni parola gereksinimleri karşılamıyor.",
+    "password_change_failed": "Parolan değiştirilemedi.",
+    "no_password": "Hesabının henüz bir parolası yok.",
+    "passkey_not_found": "Bu geçiş anahtarı artık mevcut değil.",
+    "missing_passkey_id": "Önce bir geçiş anahtarı seç.",
+    "session_not_found": "Bu oturum artık mevcut değil.",
+    "missing_session_id": "Önce bir oturum seç.",
+    "cannot_revoke_current_session": "Şu anda burada kullandığın oturumu kapatamazsın.",
+    "code_required": "E-postadaki kodu gir.",
+    "code_invalid": "Bu kod yanlış.",
+    "code_expired": "Bu kodun süresi doldu. Yeni bir kod iste.",
+    "exists": "Zaten bir tane var.",
+    "not_deactivated": "Hesabın devre dışı bırakılmamış.",
+    "grace_period_expired": "Bu hesabı geri yüklemek için tanınan 30 gün doldu.",
+    "token_required": "Bu bağlantı eksik.",
+    "token_not_found": "Bu bağlantı artık geçerli değil.",
+    "token_expired": "Bu bağlantının süresi doldu.",
+    "already_redeemed": "Bu bağlantı zaten kullanıldı.",
+    "already_downloaded": "Bu indirme zaten kullanıldı.",
+    "already_verified": "Bu zaten onaylandı.",
+    "already_processed": "Bu istek zaten işlendi.",
+    "already_extended": "Bu isteğin süresi zaten uzatıldı.",
+    "invalid_date": "Geçerli bir tarih gir.",
+    "birthday_verification_attempt_not_found": "Bu kimlik kontrolü bulunamadı. Baştan başla.",
+    "identity_verification_incomplete": "Kimlik kontrolü henüz tamamlanmadı.",
+    "identity_verification_dob_mismatch": "Kimliğindeki doğum tarihi girdiğin tarihle eşleşmiyor.",
+    "identity_verification_dob_unavailable": "Kimliğinden doğum tarihi okunamadı.",
+    "missing_attempt_id": "Kimlik kontrolü eksik. Baştan başla.",
+    "invalid_kind": "Bunun ne tür bir istek olduğunu seç.",
+    "invalid_applies_to": "İsteğin neyle ilgili olduğunu seç.",
+    "invalid_filed_by": "Bu isteği kimin oluşturduğunu belirt.",
+    "subject_email_required": "İsteğin ilgili olduğu e-posta adresini gir.",
+    "representative_email_required": "Temsilcinin e-posta adresini gir.",
+    "request_not_found": "Bu istek bulunamadı.",
+    "request_already_open": "Bu türde zaten açık bir isteğin var.",
+    "request_cooldown_active": "Bu isteği kısa süre önce oluşturdun. Daha sonra tekrar dene.",
+    "request_closed": "Bu istek zaten kapatıldı.",
+    "request_not_open": "Bu istek artık açık değil.",
+    "request_not_verified": "Bu istek henüz onaylanmadı.",
+    "request_revoked": "Bu istek geri çekildi veya yenisiyle değiştirildi.",
+    "no_download_for_kind": "Bu tür isteğin indirilecek bir dosyası yok.",
+    "export_already_in_progress": "Bir dışa aktarma zaten hazırlanıyor.",
+    "export_rate_limited": "Kısa süre önce dışa aktarma yaptın. Daha sonra tekrar dene.",
+    "invalid_retention_days": "Sunulan sürelerden birini seç.",
+    "invalid_category": "Bu bildirim kategorisi mevcut değil.",
+    "category_mandatory": "Bu e-postalar kapatılamaz.",
+    "review_not_found": "Bu inceleme bulunamadı.",
+    "review_already_open": "Zaten açık bir incelemen var.",
+    "review_cooldown_active": "Kısa süre önce inceleme istedin. Daha sonra tekrar dene.",
+    "review_not_open": "Bu inceleme artık açık değil.",
+    "review_not_pending": "Bu inceleme artık değiştirilemez.",
+    "invalid_review_type": "Bunun ne tür bir inceleme olduğunu seç.",
+    "no_active_consent": "Geri çekilecek etkin bir onay yok.",
+    "not_a_minor": "Bu hesap için ebeveyn onayı gerekmiyor.",
+    "parent_email_required": "Ebeveyninin veya vasinin e-posta adresini gir.",
+    "invalid_parent_email": "Ebeveynin veya vasin için geçerli bir e-posta adresi gir.",
+    "connection_not_found": "Bu uygulama artık bağlı değil.",
+    "client_not_found": "Bu uygulama bulunamadı.",
+    "too_large": "Bu dosya çok büyük.",
+    "unsupported_type": "Bu dosya türü desteklenmiyor.",
+    "no_file": "Önce bir dosya seç."
+  }
+}

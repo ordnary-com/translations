@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Tilikeskus",
+    "accountCenterSubtitle": "Hallitse yhdistettyjä kokemuksia ja tiliasetuksiasi kaikissa Ordnaryn teknologioissa.",
+    "learnMore": "Lue lisää",
+    "loading": "Ladataan...",
+    "back": "Takaisin",
+    "close": "Sulje",
+    "backToHome": "Takaisin etusivulle"
+  },
+  "nav": {
+    "profiles": "Profiilit",
+    "connectedExperiences": "Yhdistetyt kokemukset",
+    "passwordAndSecurity": "Salasana ja turvallisuus",
+    "personalDetails": "Henkilötiedot ja asetukset",
+    "education": "Koulutus",
+    "permissions": "Tietosi ja oikeutesi",
+    "adPreferences": "Mainosasetukset",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Tilaukset",
+    "accounts": "Tilit",
+    "activity": "Toiminta"
+  },
+  "education": {
+    "title": "Koulutus",
+    "description": "Vahvista koulusähköpostillasi, että olet opiskelija, ja saat opiskelijaedut Ordnary-tuotteissa, joissa niitä tarjotaan.",
+    "statusLabel": "Opiskelijastatus",
+    "statuses": {
+      "none": "Ei vahvistettu",
+      "pending": "Odotetaan, että avaat linkin",
+      "verified": "Vahvistettu",
+      "revoked": "Ei enää voimassa"
+    },
+    "details": {
+      "title": "Tietosi",
+      "school": "Koulu",
+      "email": "Koulun sähköposti",
+      "verifiedOn": "Vahvistettu"
+    },
+    "dialog": {
+      "title": "Opiskelijan vahvistus",
+      "subtitle": "Vahvista koulusi sähköpostilla, että olet opiskelija. Käytämme osoitetta vain tähän emmekä lähetä sinne mitään muuta.",
+      "close": "Sulje",
+      "verifiedTitle": "Vahvistettu",
+      "verifiedBody": "{email}, {school}, {date} alkaen.",
+      "pendingTitle": "Odotamme, että avaat linkin",
+      "pendingBody": "Lähetimme linkin osoitteeseen {email}. Avaa se 24 tunnin sisällä viimeistelläksesi.",
+      "revokedTitle": "Ei enää voimassa",
+      "revokedBody": "Opiskelijastatuksesi on päättynyt. Vahvista uudelleen koulusi sähköpostilla.",
+      "changeEmail": "Käytä toista koulun sähköpostia",
+      "resend": "Lähetä uudelleen",
+      "cancel": "Peruuta",
+      "emailLabel": "Koulun sähköposti",
+      "detected": "{school}",
+      "notRecognised": "Emme tunnista tätä koulun sähköpostiksi. Käytä osoitetta, jonka koulusi antoi sinulle.",
+      "send": "Lähetä linkki",
+      "sending": "Lähetetään…",
+      "sent": "Linkki lähetetty osoitteeseen {email}.",
+      "sentWhileVerified": "Lähetimme linkin osoitteeseen {email}. Pysyt vahvistettuna nykyisen koulusi kanssa, kunnes avaat sen.",
+      "points": [
+        {
+          "title": "Anna koulusi sähköposti",
+          "text": "Näytämme, mihin kouluun osoite kuuluu."
+        },
+        {
+          "title": "Avaa linkki",
+          "text": "Lähetämme osoitteeseen linkin. Se toimii 24 tuntia."
+        },
+        {
+          "title": "Olet vahvistettu",
+          "text": "Opiskelijastatuksesi on voimassa Ordnary-tuotteissa, joissa on opiskelijaetuja."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Opiskelijastatuksesi on nyt voimassa.",
+      "verificationError": "Tämä linkki ei enää toimi. Pyydä uusi."
+    },
+    "errors": {
+      "not_academic": "Emme tunnista tätä koulun sähköpostiksi. Käytä osoitetta, jonka koulusi antoi sinulle.",
+      "account": "Tilisi kanssa tapahtui virhe. Yritä myöhemmin uudelleen.",
+      "send_failed": "Linkin lähetys ei onnistunut juuri nyt. Yritä myöhemmin uudelleen.",
+      "no_pending": "Uudelleen lähetettävää pyyntöä ei ole. Anna koulusi sähköpostiosoite.",
+      "not_authenticated": "Kirjaudu sisään uudelleen jatkaaksesi."
+    }
+  },
+  "profiles": {
+    "title": "Profiilit",
+    "description": "Hallitse yhdistettyjä kokemuksia ja tiliasetuksiasi kaikissa Ordnaryn teknologioissa.",
+    "addAccounts": "Lisää tilejä",
+    "detail": {
+      "aboutTitle": "Tietoja tästä profiilista",
+      "accessTitle": "Mihin {app} pääsee käsiksi",
+      "linksTitle": "{app}: käytännöt",
+      "mainProfile": "Pääprofiili",
+      "connected": "Yhdistetty sovellus",
+      "verified": "Ordnaryn vahvistama",
+      "connectedOn": "Yhdistetty",
+      "lastUsed": "Viimeksi käytetty",
+      "never": "Ei vielä",
+      "activeSignIns": "Aktiiviset kirjautumiset",
+      "profileId": "Profiilin tunnus",
+      "email": "Sähköpostiosoite",
+      "memberSince": "Jäsen alkaen",
+      "twoFactor": "Kaksivaiheinen tunnistautuminen",
+      "on": "Päällä",
+      "off": "Pois päältä",
+      "passkeys": "Passkeyt",
+      "privacy": "Tietosuojakäytäntö",
+      "terms": "Käyttöehdot",
+      "disconnect": "Katkaise yhteys",
+      "disconnectTitle": "Katkaistaanko yhteys: {app}?",
+      "disconnectText": "{app} ei voi enää käyttää Ordnary-tiliäsi, ja sinut kirjataan ulos siitä. Voit yhdistää uudelleen myöhemmin kirjautumalla sovellukseen {app}.",
+      "disconnecting": "Katkaistaan yhteyttä...",
+      "cancel": "Peruuta",
+      "copied": "Kopioitu",
+      "copy": "Kopioi",
+      "scopes": {
+        "openid": "Tunnistaa sinut Ordnary-tililläsi",
+        "profile": "Nimesi ja profiilikuvasi",
+        "email": "Sähköpostiosoitteesi",
+        "offline_access": "Pitää sinut kirjautuneena, kun et käytä sitä",
+        "phone": "Puhelinnumerosi",
+        "address": "Osoitteesi"
+      },
+      "change": "Vaihda",
+      "setUp": "Ota käyttöön",
+      "manage": "Hallitse",
+      "add": "Lisää",
+      "none": "Ei vielä"
+    },
+    "revokedSuccess": "Yhteys katkaistu",
+    "revokedError": "Yhteyden katkaisu epäonnistui. Yritä uudelleen."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Luodaanko uusi Ordnary-tili?",
+      "registrationName": "Mikä nimesi on?",
+      "registrationBirthday": "Milloin syntymäpäiväsi on?",
+      "registrationPassword": "Luo salasana",
+      "saveLoginInfo": "Tallennetaanko kirjautumistiedot?",
+      "registrationReview": "Viimeistele tilin luominen",
+      "verifyEmailCode": "Syötä vahvistuskoodi",
+      "editEmail": "Mikä on sähköpostiosoitteesi?",
+      "loginCodeEntry": "Tarkista sähköpostisi",
+      "recoveryCodeEntry": "Vahvista tilisi",
+      "resetPassword": "Luo uusi salasana",
+      "passwordEntry": "Syötä salasanasi",
+      "identifierLookup": "Mikä on sähköpostiosoitteesi?",
+      "signIn": "Kirjaudu sisään",
+      "mfaCodeEntry": "Anna vahvistuskoodisi"
+    },
+    "descriptions": {
+      "identifierLookup": "Syötä sähköpostisi kirjautuaksesi tiliin tai luodaksesi uuden.",
+      "passwordEntry": "Kirjaudu sisään syöttämällä salasana, joka liittyy tunnukseen {identifier}.",
+      "accountNotFound": "Emme löydä Ordnary-tiliä osoitteelle {email}. Et ehkä ole vielä luonut tiliä. Jos olet, se saattaa käyttää toista tunnistetta.",
+      "registrationName": "Tätä nimeä käytetään tilin palautukseen ja tiliäsi koskevaan viestintään. Se ei näy julkisesti.",
+      "registrationBirthday": "Käytä omaa syntymäpäiväsi, vaikka tämä tili olisi yritystä tai jotakin muuta varten. Tieto ei ole julkinen.",
+      "registrationPassword": "Luo salasana, jota muut eivät voi arvata.",
+      "saveLoginInfo": "Tallennamme tilisi kirjautumistiedot, jotta sinun ei tarvitse syöttää niitä uudelleen ensi kerralla.",
+      "verifyEmailCode": "Syötä 6-numeroinen koodi, joka lähetettiin osoitteeseen {identifier}, vahvistaaksesi tilisi.",
+      "editEmail": "Syötä sähköpostiosoite, josta sinut tavoittaa. Osoitetta käytetään kirjautumiseen ja tilin hallintaan, eikä sitä näytetä julkisesti.",
+      "loginCodeEntry": "Kirjaudu sisään syöttämällä koodi, jonka lähetimme osoitteeseen {identifier}. Saatat joutua tarkistamaan roskaposti- tai sosiaalisen median kansiosi.",
+      "recoveryCodeEntry": "Lähetimme koodin osoitteeseen {identifier}. Syötä koodi vahvistaaksesi tilisi.",
+      "resetPassword": "Käytät tätä salasanaa kirjautuaksesi Ordnary-tilillesi. Käytä vähintään 6 kirjainta ja numeroa.",
+      "mfaCodeEntry": "Jatka antamalla todennussovelluksesi 6-numeroinen koodi."
+    },
+    "buttons": {
+      "createNewAccount": "Luo uusi tili",
+      "alreadyHaveAccount": "Minulla on jo tili",
+      "next": "Seuraava",
+      "save": "Tallenna",
+      "notNow": "Ei nyt",
+      "finish": "Valmis",
+      "resendCode": "Lähetä koodi uudelleen",
+      "enterPassword": "Syötä salasana",
+      "forgotPassword": "Unohditko salasanan?",
+      "switchAccount": "Vaihda tiliä",
+      "yes": "Kyllä",
+      "no": "Ei",
+      "useEmailCode": "Kirjaudu sähköpostikoodilla",
+      "signInWithPasskey": "Kirjaudu pääsyavaimella",
+      "useRecoveryCode": "Käytä palautuskoodia",
+      "useAuthenticatorCode": "Käytä todennussovellusta"
+    },
+    "labels": {
+      "name": "Nimi",
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "day": "Päivä",
+      "month": "Kuukausi",
+      "year": "Vuosi",
+      "dateOfBirth": "Syntymäpäivä",
+      "confirmationCode": "Vahvistuskoodi",
+      "email": "Sähköpostiosoite",
+      "password": "Salasana",
+      "newPassword": "Uusi salasana",
+      "logoutOthers": "Kirjaudu ulos kaikista muista paikoista varmistaaksesi, ettei kukaan muu voi enää käyttää tiliäsi",
+      "marketingEmails": "Haluan saada sähköposteja Ordnary Identityn sovelluksista, suosituksista ja tarjouksista.",
+      "showPassword": "Näytä salasana",
+      "hidePassword": "Piilota salasana",
+      "clearInput": "Tyhjennä kenttä",
+      "recoveryCode": "Palautuskoodi"
+    },
+    "links": {
+      "whyNeedBirthday": "Miksi minun on annettava syntymäpäiväni?",
+      "learnMore": "Lue lisää",
+      "editEmail": "Muokkaa sähköpostiosoitetta",
+      "noAccessEmail": "Eikö sinulla ole enää pääsyä tähän sähköpostiosoitteeseen?",
+      "termsOfService": "Käyttöehdot",
+      "privacyPolicy": "Tietosuojakäytäntö",
+      "cookiePolicy": "Evästekäytäntö"
+    },
+    "messages": {
+      "nameHelp": "Oikean nimen käyttäminen helpottaa tilin palauttamista, jos menetat pääsyn.",
+      "emailHelp": "Käytä työ- tai henkilökohtaista sähköpostiasi Ordnary-palvelujen käyttöön.",
+      "existingSessionTitle": "Sinulla on jo aktiivinen istunto",
+      "existingSessionDescription": "Olet jo kirjautunut sisään. Sinut ohjataan Tilikeskukseen {seconds} sekunnin kuluttua.",
+      "summaryPrivacy": "Ordnary-tilisi tiedot eivät ole julkisia.",
+      "verifyEmailLookFor": "Etsi viesti osoitteesta notification@ordnary.com. Saatat joutua tarkistamaan myös roskaposti- tai sosiaalisen median kansiosi.",
+      "termsAgreement": "Napsauttamalla ”Valmis” hyväksyt käyttöehdot ja tietosuojakäytännön sekä vahvistat lukeneesi evästekäytännön.",
+      "footerAgreement": "Jatkamalla vahvistat lukeneesi käyttöehdot, tietosuojakäytännön ja sovellettavat tietojenkäsittelyohjeet sekä hyväksyväsi ne. Hyväksyt myös välttämättömien tili- ja turvallisuusilmoitusten vastaanottamisen, jotka liittyvät palvelun käyttöösi.",
+      "emailMissing": "Sähköpostiosoite puuttuu.",
+      "resendCodeError": "Koodin uudelleenlähetyksessä tapahtui odottamaton virhe.",
+      "invalidInput": "Virheellinen syöte.",
+      "credentialsPrompt": "Kirjaudu sisään syöttämällä salasana, joka liittyy tunnukseen {identifier}.",
+      "checkEmailPrompt": "Kirjaudu sisään syöttämällä koodi, jonka lähetimme osoitteeseen {identifier}.",
+      "termsIntro": "Napauttamalla Valmis hyväksyt seuraavat:"
+    },
+    "validation": {
+      "emailRequired": "Anna sähköpostiosoite.",
+      "passwordRequired": "Anna salasana.",
+      "passwordMin": "Salasanan on oltava vähintään 12 merkkiä pitkä.",
+      "passwordMax": "Salasana ei saa olla yli 128 merkkiä pitkä.",
+      "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+      "displayNameMin": "Näyttönimen on oltava vähintään 2 merkkiä pitkä.",
+      "resetTokenRequired": "Nollausavain vaaditaan.",
+      "verificationTokenRequired": "Vahvistustunnus vaaditaan."
+    },
+    "errors": {
+      "invalidInput": "Virheellinen syöte.",
+      "genericLoginFailed": "Kirjautuminen ei onnistunut. Yritä uudelleen.",
+      "loginInvalidCredentials": "Virheellinen sähköposti tai salasana.",
+      "accountLocked": "Tilisi on lukittu tai keskeytetty.",
+      "passwordIncorrect": "Syöttämäsi salasana on väärin.",
+      "notAuthenticated": "Sinua ei ole todennettu.",
+      "registrationMissingInfo": "Pakollisia rekisteröintitietoja puuttuu.",
+      "registrationEmailExists": "Tällä sähköpostiosoitteella on jo tili.",
+      "systemNoDefaultTenant": "Järjestelmävirhe: oletus-tenantia ei löytynyt.",
+      "registrationFailed": "Rekisteröinti epäonnistui. Yritä uudelleen.",
+      "invalidVerificationRequest": "Virheellinen vahvistuspyynto.",
+      "accountNotFound": "Tiliä ei löytynyt.",
+      "verificationCodeInvalidOrExpired": "Virheellinen tai vanhentunut vahvistuskoodi.",
+      "verificationFailedTryAgain": "Vahvistus epäonnistui. Yritä uudelleen.",
+      "invalidRequest": "Virheellinen pyyntö.",
+      "userNotFound": "Käyttäjää ei löytynyt.",
+      "codeInvalidOrExpired": "Virheellinen tai vanhentunut koodi.",
+      "verificationFailed": "Vahvistus epäonnistui.",
+      "missingInformation": "Tietoja puuttuu.",
+      "passwordResetFailed": "Salasanan nollaus epäonnistui.",
+      "emailMissing": "Sähköpostiosoite puuttuu.",
+      "resendCodeFailed": "Koodin uudelleenlähetys epäonnistui. Yritä uudelleen.",
+      "loginRequestFailed": "Kirjautumispyyntöäsi ei voitu käsitellä. Yritä uudelleen.",
+      "mfaDataMissing": "Vahvistustiedot puuttuvat. Kirjaudu sisään uudelleen.",
+      "mfaNoAuthenticator": "Tälle tilille ei löytynyt aktiivista todennussovellusta.",
+      "mfaCodeInvalid": "Virheellinen vahvistuskoodi.",
+      "mfaVerificationFailed": "Vahvistus epäonnistui. Kirjaudu sisään uudelleen.",
+      "requestRejected": "Tätä pyyntöä ei voitu käsitellä. Yritä uudelleen.",
+      "tooManyAttempts": "Liian monta yritystä. Yritä myöhemmin uudelleen.",
+      "tooManyFailedLogins": "Liian monta epäonnistunutta kirjautumisyritystä. Odota hetki ennen kuin yrität uudelleen.",
+      "permanentEmailRequired": "Käytä pysyvää sähköpostiosoitetta.",
+      "recoveryFileInvalid": "Tämä palautustiedosto ei toimi. Se on voitu korvata uudemmalla tai poistaa.",
+      "passkeyFailed": "Kirjautuminen pääsyavaimella ei onnistunut. Yritä uudelleen tai jatka sähköpostiosoitteella.",
+      "passwordTooWeak": "Valitse salasana, joka täyttää kaikki alla olevat vaatimukset."
+    },
+    "months": [
+      "tammikuu",
+      "helmikuu",
+      "maaliskuu",
+      "huhtikuu",
+      "toukokuu",
+      "kesakuu",
+      "heinakuu",
+      "elokuu",
+      "syyskuu",
+      "lokakuu",
+      "marraskuu",
+      "joulukuu"
+    ],
+    "recoveryFile": {
+      "link": "Kirjaudu sisään palautustiedostolla",
+      "title": "Kirjaudu sisään palautustiedostolla",
+      "description": "Lataa tämän tilin palautustiedosto, jonka latasit Tilikeskuksesta. Sinut kirjataan sisään heti.",
+      "choose": "Valitse tiedosto",
+      "reading": "Kirjaudutaan sisään…",
+      "pasteInstead": "Liitä koodi sen sijaan",
+      "codeLabel": "Tiedoston koodi",
+      "signIn": "Kirjaudu sisään",
+      "notAFile": "Tämä ei ole Ordnaryn palautustiedosto. Valitse PDF, jonka latasit Tilikeskuksesta.",
+      "back": "Käytä sen sijaan sähköpostikoodia"
+    },
+    "passwordRules": {
+      "length": "Vähintään 12 merkkiä",
+      "upper": "Iso kirjain",
+      "lower": "Pieni kirjain",
+      "digit": "Numero"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Tilin asetukset",
+      "appearanceLabel": "Ulkoasu",
+      "appearanceLight": "Vaalea",
+      "appearanceSystem": "Järjestelmän mukaan",
+      "appearanceDark": "Tumma",
+      "logout": "Kirjaudu ulos",
+      "sessionExpired": "Istuntosi on vanhentunut. Kirjaudu sisään uudelleen jatkaaksesi.",
+      "logoutConfirmTitle": "Kirjaudutaanko ulos Ordnarysta?",
+      "logoutCancel": "Peruuta",
+      "logoutConfirm": "Kirjaudu ulos",
+      "language": "Kieli"
+    },
+    "reactivate": {
+      "title": "Tervetuloa takaisin, tilisi on poistettu käytöstä",
+      "description": "Keskeytimme sähköpostit ja ilmoitukset, kun poistit tilisi käytöstä. Aktivoi tili uudelleen, niin kaikki palaa, tai kirjaudu ulos ja päätä myöhemmin. Tietosi ovat edelleen tallessa.",
+      "reactivate": "Aktivoi tilini uudelleen",
+      "reactivating": "Aktivoidaan uudelleen...",
+      "signOut": "Kirjaudu ulos",
+      "signingOut": "Kirjaudutaan ulos...",
+      "footer": "Jos haluat mieluummin poistaa tilisi pysyvästi, kirjaudu sisään ja valitse Henkilötiedoissa Poista tili.",
+      "successNotification": "Tervetuloa takaisin. Tilisi on taas aktiivinen.",
+      "errorGeneric": "Tilin aktivointi uudelleen ei onnistunut. Yritä hetken kuluttua uudelleen.",
+      "deletedTitle": "Tilisi poistetaan",
+      "deletedDescription": "Se poistetaan lopullisesti {date}. Palauta se säilyttääksesi kaiken, tai kirjaudu ulos ja anna poiston edetä.",
+      "restore": "Palauta tilini",
+      "restoring": "Palautetaan..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profiilikuva",
+        "custom": "Oma kuvasi",
+        "default": "Luotu avatar",
+        "modalTitle": "Profiilikuva",
+        "subtitle": "Näkyy nimesi vieressä Ordnary-sovelluksissa ja yhteisössä. Ilman omaa kuvaa saat avatarin, joka on ainutlaatuinen tilillesi.",
+        "choose": "Valitse kuva",
+        "change": "Valitse toinen",
+        "remove": "Poista kuva",
+        "save": "Tallenna kuva",
+        "saving": "Tallennetaan...",
+        "hint": "JPG, PNG tai WebP. Kuva rajataan neliöksi.",
+        "errorType": "Tämä tiedosto ei ole käyttökelpoinen kuva. Valitse JPG, PNG tai WebP.",
+        "errorFailed": "Kuvan tallennus ei onnistunut. Yritä uudelleen."
+      },
+      "title": "Henkilötiedot ja asetukset",
+      "description": "Ordnary käyttää näitä tietoja henkilöllisyytesi vahvistamiseen ja yhteisön turvallisuuden ylläpitoon. Päätät itse, mitkä henkilötiedot ovat muiden nähtävillä.",
+      "contactDetails": "Yhteystiedot",
+      "birthday": "Syntymäpäivä",
+      "ownership": "Tilin omistus ja hallinta",
+      "ownershipDescription": "Hallitse tietojasi, päivitä muistotilien edunvalvojan yhteystiedot sekä poista tilisi ja profiilisi käytöstä tai poista ne.",
+      "loadingName": "Käyttäjä",
+      "modal": {
+        "title": "Tilin omistus ja hallinta",
+        "deactivationIndexTitle": "Käytöstä poisto tai poistaminen",
+        "deactivationIndexDescription": "Poista tilisi ja profiilisi tilapäisesti käytöstä tai poista ne pysyvästi.",
+        "optionsTitle": "Poista Ordnary-tilisi käytöstä tai poista se",
+        "optionsDescription": "Tarvitsetko taukoa? Poista tilisi käytöstä ja palaa milloin haluat. Haluatko lähteä Ordnarysta? Poista tilisi.",
+        "deactivateTitle": "Poista tili käytöstä",
+        "deactivateDescription": "Tilin käytöstä poisto on tilapäinen. Tilisi poistetaan käytöstä ja piilotetaan muilta.",
+        "deleteTitle": "Poista tili",
+        "deleteDescription": "Tilin poistaminen on pysyvää. 30 päivän jälkeen et voi enää aktivoida sitä uudelleen tai palauttaa sen tietoja.",
+        "deactivateConfirmTitle": "Poistetaanko tilisi käytöstä?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Sinut kirjataan ulos kaikkialta",
+            "text": "Kaikilla laitteillasi ja kaikissa sovelluksissa, joita käytät Ordnary-tililläsi."
+          },
+          {
+            "title": "Profiilisi piilotetaan",
+            "text": "Muut eivät näe nimeäsi tai profiiliasi, kun tilisi on poistettu käytöstä."
+          },
+          {
+            "title": "Palaa milloin tahansa",
+            "text": "Kirjaudu uudelleen sisään aktivoidaksesi tilisi. Kaikki on niin kuin jätit sen."
+          }
+        ],
+        "deactivateConfirmButton": "Poista tili käytöstä",
+        "deleteConfirmTitle": "Poistetaanko tilisi?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Sinut kirjataan ulos kaikkialta",
+            "text": "Kaikilla laitteillasi ja kaikissa sovelluksissa, joita käytät Ordnary-tililläsi."
+          },
+          {
+            "title": "Menetät pääsyn",
+            "text": "Ordnaryyn ja kaikkiin sovelluksiin, joihin kirjaudut Ordnary-tililläsi."
+          },
+          {
+            "title": "Poistetaan lopullisesti 30 päivän kuluttua",
+            "text": "Siihen asti voit vielä muuttaa mielesi. Sen jälkeen tiliäsi ja tietojasi ei voi palauttaa."
+          }
+        ],
+        "deleteConfirmCheck": "Ymmärrän, että tilini ja tietoni poistetaan pysyvästi 30 päivän kuluttua.",
+        "deleteConfirmButton": "Poista tili",
+        "cancel": "Peruuta",
+        "continue": "Jatka",
+        "working": "Käsitellään...",
+        "deactivateSuccess": "Tilisi on poistettu käytöstä. Siirrytään kirjautumiseen...",
+        "deleteSuccess": "Tilisi on ajastettu poistettavaksi. Siirrytään kirjautumiseen...",
+        "submitError": "Tilisi päivittäminen ei onnistunut juuri nyt."
+      },
+      "missingBirthday": "Ei asetettu",
+      "loadError": "Henkilötietojen lataaminen epäonnistui.",
+      "preferences": {
+        "sectionTitle": "Asetukset",
+        "appearance": "Ulkoasu",
+        "appearanceDescription": "Säädä Ordnary-tilisi ulkoasua.",
+        "cookies": "Evästeasetukset",
+        "cookiesDescription": "Hallitse, mitä evästeitä Ordnary voi käyttää tässä selaimessa.",
+        "processors": {
+          "title": "Ketkä käsittelevät tietojasi",
+          "intro": "Käytämme muutamaa muuta yritystä Ordnaryn pyörittämiseen. Tässä ne kaikki: mitä tietoja ne meiltä saavat, missä ne säilyttävät niitä ja miten tiedot suojataan, kun ne lähtevät EU:sta.",
+          "empty": "Mikään muu yritys ei saa tietojasi.",
+          "loadError": "Tietojen lataus ei onnistunut juuri nyt. Yritä myöhemmin uudelleen.",
+          "loading": "Ladataan...",
+          "close": "Sulje",
+          "back": "Takaisin",
+          "fields": {
+            "purpose": "Mitä se tekee",
+            "receives": "Mitä tietoja se saa",
+            "whose": "Kenen tiedot",
+            "stored": "Missä tiedot säilytetään",
+            "transfer": "EU:n ulkopuolella"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Pysyy Euroopan talousalueen sisällä.",
+            "ADEQUACY_DECISION": "Sallittu, koska EU pitää tietosuojaa maassa {country} riittävänä.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Suojattu EU:n vakiosopimuslausekkeilla.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Sertifioitu EU-US Data Privacy Framework -puitteiden mukaisesti.",
+            "sccBackup": "EU:n vakiosopimuslausekkeet ovat lisäsuojana."
+          },
+          "links": {
+            "dpa": "Tietojenkäsittelysopimus",
+            "privacy": "Tietosuojakäytäntö",
+            "website": "Verkkosivusto",
+            "certification": "Sertifikaatti"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Tarkistaa henkilöllisyytesi, kun muutat syntymäaikaasi.",
+              "receives": [
+                "Nimi",
+                "Syntymäaika",
+                "Kuva henkilöllisyysasiakirjastasi",
+                "Selfie",
+                "IP-osoite"
+              ],
+              "whose": "Vain ne, jotka vahvistavat uuden syntymäajan."
+            },
+            "resend": {
+              "purpose": "Lähettää sähköpostimme: kirjautumiskoodit, turvallisuushälytykset ja tiliilmoitukset.",
+              "receives": [
+                "Sähköpostiosoite",
+                "Näyttönimi",
+                "Sähköpostin sisältö, kuten kirjautumiskoodit, linkit ja IP-osoite turvallisuushälytyksissä"
+              ],
+              "whose": "Kaikki, jotka saavat sähköpostia Ordnarylta."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Tietosuojapyynnöt",
+          "description": "Vastusta tai rajoita tiettyjä käsittelytoimia (18 art. / 21 art.).",
+          "back": "Takaisin",
+          "close": "Sulje",
+          "loading": "Ladataan…",
+          "loadError": "Tietosuojapyyntöjen lataus epäonnistui.",
+          "alreadyOpen": "Sinulla on jo avoin pyyntö tälle alueelle.",
+          "cooldown": "Voit jättää saman pyynnön uudelleen {hours} tunnin kuluttua.",
+          "submitted": "Pyyntösi on vastaanotettu.",
+          "withdrawn": "Pyyntö peruttu.",
+          "fileNew": "Jätä uusi pyyntö",
+          "pickKind": "Mitä haluat tehdä?",
+          "kinds": {
+            "OBJECTION": "Vastusta käsittelytoimea (21 art.)",
+            "RESTRICTION": "Rajoita käsittelyä tilapäisesti (18 art.)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Lopeta tietty käsittelytoimi tästä eteenpäin henkilökohtaisen tilanteesi perusteella.",
+            "RESTRICTION": "Keskeytä tietty käsittelytoimi, kun tietojasi koskevaa kiistaa tarkastellaan."
+          },
+          "pickActivities": "Mihin toimiin tämä koskee?",
+          "activitiesHint": "Älä valitse mitään, jos haluat sen koskevan kaikkia käsittelytoimiamme (yleinen keskeytys).",
+          "globalScope": "Kaikki käsittely (yleinen keskeytys)",
+          "yourStatement": "Perustelusi (suositeltu)",
+          "statementPlaceholder": "Kerro syy, esimerkiksi ettet enää halua automaattista riskipisteytystä, kun selvität kanssamme tietoturvatapahtumaa.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Lähetä pyyntö",
+          "submitting": "Lähetetään…",
+          "withdraw": "Peru",
+          "withdrawing": "Perutaan…",
+          "openTitle": "Avoimet pyynnöt",
+          "emptyOpen": "Ei avoimia pyyntöjä.",
+          "historyTitle": "Aiemmat pyynnöt",
+          "historyEmpty": "Ei aiempia pyyntöjä.",
+          "holdsTitle": "Voimassa olevat keskeytykset",
+          "holdsEmpty": "Ei voimassa olevia keskeytyksiä.",
+          "appliesTo": "Koskee",
+          "effectiveUntil": "Voimassa asti",
+          "statuses": {
+            "PENDING": "Odottaa",
+            "IN_REVIEW": "Tarkastettavana",
+            "RESOLVED": "Ratkaistu",
+            "WITHDRAWN": "Peruttu"
+          },
+          "outcomes": {
+            "GRANTED": "Hyväksytty",
+            "PARTIALLY_GRANTED": "Hyväksytty osittain",
+            "REJECTED": "Hylätty",
+            "ESCALATED": "Siirretty eteenpäin"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Tilin identiteetti ja tunnistautuminen",
+            "session-and-device-management": "Istunnot ja laitteet",
+            "oauth-issuance": "OAuth / OIDC -myöntö",
+            "identity-verification": "Henkilöllisyyden vahvistus (Stripe Identity)",
+            "payment-processing": "Maksujen käsittely",
+            "audit-logs-and-security-events": "Auditointilokit ja tietoturvatapahtumat",
+            "risk-scoring": "Automaattinen riskipisteytys",
+            "consent-log": "Suostumusloki",
+            "account-deletion": "Tilin poisto",
+            "risk-review-queue": "Riskitarkastusjono"
+          },
+          "title": "Vastusta tai rajoita"
+        },
+        "dsar": {
+          "label": "Tietosuoja- ja tietopyynnöt",
+          "description": "Jätä muodollinen pyyntö tietojen saamisesta, oikaisusta, poistosta tai siirrettävyydestä (15-20 art.).",
+          "title": "Tietosuoja- ja tietopyynnöt",
+          "back": "Takaisin",
+          "close": "Sulje",
+          "loading": "Ladataan…",
+          "loadError": "Pyyntöjen lataus epäonnistui.",
+          "submitted": "Saimme pyyntösi.",
+          "fastPathReady": "Tietosi latautuvat nyt.",
+          "fastPathHint": "Haluatko vain nopean kopion tiedoistasi? Käytä ylhäällä olevaa painiketta \"Vie tietosi\". Se latautuu heti ilman virallista jonoa. Jätä pyyntö tässä, kun haluat ihmistarkastajan, toimit jonkun toisen puolesta tai tarvitset oikaisun tai poiston.",
+          "withdrawn": "Pyyntö peruttu.",
+          "fileNew": "Jätä uusi pyyntö",
+          "pickKind": "Mitä haluat tehdä?",
+          "kinds": {
+            "ACCESS": "Tiedonsaanti (15 art.)",
+            "RECTIFICATION": "Oikaisu (16 art.)",
+            "ERASURE": "Poisto (17 art.)",
+            "PORTABILITY": "Siirrettävyys (20 art.)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Saat täyden koneluettavan kopion sinusta säilyttämistämme tiedoista.",
+            "RECTIFICATION": "Korjaa sinusta säilyttämämme virheelliset tai vanhentuneet tiedot.",
+            "ERASURE": "Pyydä meitä poistamaan tilisi ja sinusta säilyttämämme tiedot.",
+            "PORTABILITY": "Saat tietosi jäsennellyssä, yleisesti käytetyssä muodossa."
+          },
+          "filedBy": "Kuka jättää tämän pyynnön?",
+          "filedByOptions": {
+            "SELF": "Jätän pyynnön itselleni",
+            "PARENT_GUARDIAN": "Olen vanhempi tai huoltaja ja jätän pyynnön alaikäisen puolesta",
+            "AUTHORISED_AGENT": "Olen valtuutettu edustaja (esim. lakimies) ja jätän pyynnön jonkun toisen puolesta"
+          },
+          "representativeBlock": {
+            "title": "Edustajan tiedot",
+            "emailLabel": "Sähköpostiosoitteesi",
+            "notesLabel": "Suhde ja valtuudet",
+            "notesHint": "Kuvaile lyhyesti suhteesi rekisteröityyn ja liitä viittaukset valtakirjaan tai huoltajuusasiakirjaan."
+          },
+          "subjectEmailLabel": "Rekisteröidyn sähköposti",
+          "subjectEmailHint": "Lähetämme vahvistuslinkin ja vastauksen tähän osoitteeseen. Edustajan jättämissä pyynnöissä tämän on oltava rekisteröidyn oma sähköposti.",
+          "yourStatement": "Perustelusi (suositeltu)",
+          "statementPlaceholder": "Mitä tarkalleen haluat? Kaikki tieto, joka auttaa meitä rajaamaan vastauksen.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Lähetä pyyntö",
+          "submitting": "Lähetetään…",
+          "withdraw": "Peru",
+          "withdrawing": "Perutaan…",
+          "openTitle": "Avoimet pyynnöt",
+          "emptyOpen": "Ei avoimia pyyntöjä.",
+          "historyTitle": "Aiemmat pyynnöt",
+          "historyEmpty": "Ei aiempia pyyntöjä.",
+          "due": "Määräaika",
+          "extended": "Jatkettu asti",
+          "awaitingVerification": "Odottaa sähköpostin vahvistusta",
+          "statuses": {
+            "SUBMITTED": "Odottaa vahvistusta",
+            "VERIFIED": "Vahvistettu",
+            "IN_PROGRESS": "Käsittelyssä",
+            "FULFILLED": "Toteutettu",
+            "REJECTED": "Hylätty",
+            "WITHDRAWN": "Peruttu"
+          },
+          "outcomes": {
+            "FULFILLED": "Toteutettu",
+            "PARTIALLY_FULFILLED": "Toteutettu osittain",
+            "REJECTED": "Hylätty"
+          },
+          "overdue": "Myöhässä"
+        },
+        "modalTitle": "Ulkoasu",
+        "modalSubtitle": "Valitse, miltä Tilikeskus näyttää. Muistamme valintasi tällä laitteella.",
+        "options": {
+          "lightLabel": "Vaalea",
+          "lightDescription": "Käyttää aina vaaleaa taustaa järjestelmäasetuksestasi riippumatta.",
+          "systemLabel": "Järjestelmän mukaan",
+          "systemDescription": "Vaihtuu laitteesi asetuksen mukana.",
+          "darkLabel": "Tumma",
+          "darkDescription": "Käyttää aina tummaa taustaa, helpompi iltaisin."
+        },
+        "done": "Valmis"
+      },
+      "displayNameSection": {
+        "label": "Koko nimi",
+        "subtitle": "Koko nimeäsi käytetään kaikilla tileilläsi ja profiileissasi.",
+        "editButton": "Muokkaa",
+        "modalTitle": "Koko nimi",
+        "editTitle": "Vaihda koko nimi",
+        "modalSubtitle": "Jos haluat vaihtaa koko nimesi, ota yhteyttä osoitteeseen {email}.",
+        "currentLabel": "Nykyinen nimi",
+        "supportNotice": "Jos haluat vaihtaa koko nimesi, ota yhteyttä osoitteeseen {email}.",
+        "copyEmail": "Kopioi sähköpostiosoite",
+        "openEmail": "Avaa sähköposti",
+        "mailSubject": "Pyyntö koko nimen muuttamisesta",
+        "mailBody": "Hei,\n\nhaluaisin muuttaa koko nimeni.\n\nNykyinen nimi: {name}\nUusi nimi: \n\nYstävällisin terveisin\n{name}"
+      },
+      "loading": "Ladataan...",
+      "contact": {
+        "subtitle": "Hallitse sähköpostiosoitteitasi sekä sitä, ketkä näkevät yhteystietosi. Niillä pääset tämän tilikeskuksen profiileihin ja laitteisiin.",
+        "addNew": "Lisää uusi yhteystieto",
+        "detailsDescription": "Olet lisännyt tämän sähköpostiosoitteen näille tileille.",
+        "whoCanSee": "Ketkä näkevät sähköpostiosoitteesi?",
+        "deleting": "Poistetaan...",
+        "delete": "Poista sähköpostiosoite",
+        "deleteFailed": "Tämän sähköpostiosoitteen poistaminen epäonnistui.",
+        "deleted": "Sähköpostiosoite poistettu",
+        "addTitle": "Lisää sähköpostiosoite",
+        "addSubtitle": "Käytämme tätä sähköpostiosoitetta kaikilla tileilläsi tilikeskuksessa kokemuksesi personointiin.",
+        "learnMore": "Lue lisää",
+        "emailLabel": "Sähköpostiosoite",
+        "chooseAccounts": "Valitse tilit tälle sähköpostiosoitteelle",
+        "added": "Sähköpostiosoite lisätty",
+        "addFailed": "Jokin meni pieleen. Yritä uudelleen.",
+        "next": "Seuraava"
+      },
+      "birthdayModal": {
+        "subtitle": "Lisää syntymäpäiväsi, jotta kokemuksesi sopii ikääsi.",
+        "edit": "Muokkaa",
+        "editTitle": "Muokkaa syntymäpäivääsi",
+        "editSubtitle": "Tätä syntymäpäivää käytetään tämän tilikeskuksen tileillä ja profiileissa. Tekemäsi muutokset koskevat kaikkia niitä.",
+        "day": "Päivä",
+        "month": "Kuukausi",
+        "year": "Vuosi",
+        "verificationNotice": "Syntymäpäivän muuttaminen edellyttää henkilöllisyytesi vahvistamista voimassa olevalla henkilöllisyysasiakirjalla kumppanimme Stripe Identityn kautta. Tallennuksen jälkeen ohjaamme sinut vahvistukseen.",
+        "save": "Tallenna",
+        "saveFailed": "Jokin meni pieleen. Yritä uudelleen.",
+        "verificationStartFailed": "Henkilöllisyyden vahvistuksen aloittaminen epäonnistui.",
+        "completeFailed": "Vahvistuksen viimeistely epäonnistui.",
+        "updated": "Syntymäpäiväsi päivitettiin henkilöllisyyden vahvistuksen jälkeen.",
+        "dobMismatch": "Henkilöllisyysasiakirjasi syntymäaika ei vastaa antamaasi.",
+        "dobUnavailable": "Stripe ei voinut lukea todennettavaa syntymäaikaa henkilöllisyysasiakirjastasi.",
+        "notFinished": "Henkilöllisyyden vahvistus ei ole vielä valmis."
+      }
+    },
+    "security": {
+      "title": "Salasana ja turvallisuus",
+      "loadingName": "Käyttäjä",
+      "pageLoadError": "Turva-asetusten lataaminen epäonnistui.",
+      "sections": {
+        "signIn": {
+          "title": "Kirjautuminen ja palautus",
+          "description": "Hallitse salasanojasi, kirjautumisasetuksiasi ja palautustapojasi."
+        },
+        "controls": {
+          "title": "Turvatarkistukset",
+          "description": "Tarkista turvallisuusongelmat sovellusten, laitteiden ja lähetettyjen sähköpostien kautta."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Vaihda salasana",
+          "loading": "Ladataan...",
+          "set": "Salasana asetettu",
+          "missing": "Salasanaa ei ole asetettu"
+        },
+        "twofactor": {
+          "label": "Kaksivaiheinen todennus",
+          "loading": "Ladataan...",
+          "enabled": "Käytössä",
+          "disabled": "Ei vielä käytössä"
+        },
+        "passkeys": {
+          "label": "Passkeyt",
+          "loading": "Ladataan...",
+          "none": "Ei vielä passkeyja",
+          "active": "{count} aktiivista"
+        },
+        "activity": {
+          "label": "Missä olet kirjautuneena",
+          "summary": "{total} aktiivista istuntoa, {others} muilla laitteilla"
+        },
+        "automated": {
+          "label": "Automaattiset päätökset",
+          "summary": "Katso, mitkä automaattiset säännöt suojaavat tiliäsi, ja pyydä ihmisen tekemää tarkastusta."
+        }
+      },
+      "passwordModal": {
+        "title": "Vaihda salasana",
+        "subtitle": "Luo vähintään 12 merkin salasana. Valitse jotain, mitä muut eivät voi arvata.",
+        "currentPassword": "Nykyinen salasana",
+        "newPassword": "Uusi salasana",
+        "repeatPassword": "Toista uusi salasana",
+        "forgotPassword": "Unohditko salasanan?",
+        "logoutOthers": "Kirjaudu ulos muilta laitteilta. Valitse tämä, jos joku muu on käyttänyt tiliäsi.",
+        "submit": "Vaihda salasana",
+        "pending": "Käsitellään...",
+        "success": "Salasanasi on päivitetty.",
+        "mismatch": "Uudet salasanat eivät täsmää.",
+        "submitError": "Salasanan vaihtaminen epäonnistui.",
+        "logoutOthersTitle": "Kirjaudu ulos muilta laitteilta",
+        "logoutOthersHint": "Suositeltu, jos joku muu on voinut käyttää tiliäsi.",
+        "incorrect": "Nykyinen salasanasi on väärä.",
+        "tooWeak": "Valitse salasana, joka täyttää kaikki alla olevat vaatimukset."
+      },
+      "twoFactor": {
+        "idleTitle": "Suojaa tiliäsi paremmin",
+        "idleSubtitle": "Ota kaksivaiheinen todennus käyttöön, niin pyydämme kirjautumiskoodin, kun joku kirjautuu sisään laitteelta, jota emme tunnista.",
+        "manageTitle": "Kaksivaiheinen todennus on käytössä",
+        "manageSubtitle": "Pyydämme nyt kirjautumiskoodin, kun kirjaudut sisään laitteelta, jota emme tunnista.",
+        "appSettingsTitle": "Todennussovellus",
+        "extraMethodsTitle": "Lisätavat",
+        "extraMethodsSubtitle": "Jos muut suojaustapasi eivät ole käytettävissä, voit silti kirjautua sisään näillä vaihtoehdoilla.",
+        "recoveryCodesTitle": "Palautuskoodit",
+        "recoveryCodesSubtitle": "Jokaisen palautuskoodin voi käyttää vain kerran. Säilytä ne turvallisessa paikassa. Ilman niitä voit menettää pääsyn, jos menetät puhelimesi tai muun kirjautumistavan.",
+        "setupTitle": "Asennusohjeet",
+        "namingTitle": "Nimeä laitteesi",
+        "namingSubtitle": "Anna todennussovelluksellesi tunnistettava nimi, jotta tiedät, mitä laitetta käytät.",
+        "verifyTitle": "Anna koodi",
+        "verifySubtitle": "Viimeistele asennus syöttämällä todennussovelluksen 6-numeroinen koodi.",
+        "successTitle": "Kaksivaiheinen todennus on käytössä",
+        "successSubtitle": "Pyydämme nyt kirjautumiskoodin, kun kirjaudut sisään laitteelta, jota emme tunnista. Haluatko päivittää yhteystietosi? Siirry Tilikeskuksessa kohtaan Henkilötiedot.",
+        "verifiedTitle": "Varakoodit",
+        "verifiedSubtitle": "Säilytä nämä koodit turvallisessa paikassa. Voit käyttää niitä, jos menetät pääsyn todennussovellukseesi.",
+        "learnMore": "Lue lisää",
+        "receiveCodesTitle": "Valitse, miten haluat vastaanottaa koodisi",
+        "authenticatorTitle": "Todennussovellus",
+        "authenticatorDescription": "Vastaanota kertakäyttökoodit sovelluksella, kuten Duo Mobile tai Google Authenticator.",
+        "recommended": "Suositeltu",
+        "continue": "Jatka",
+        "working": "Käsitellään...",
+        "enabledSuccess": "Kaksivaiheinen todennus on poistettu käytöstä.",
+        "disableError": "Todennussovelluksen poistaminen käytöstä epäonnistui.",
+        "startError": "Todentimen asennuksen aloittaminen epäonnistui.",
+        "verifyError": "Todennussovelluksen vahvistaminen epäonnistui.",
+        "regenerateError": "Palautuskoodien luominen uudelleen epäonnistui.",
+        "downloadError": "Luo uusi palautuskoodisarja ennen lataamista.",
+        "recoveryRegenerated": "Uudet palautuskoodit on luotu.",
+        "manage": {
+          "receiveCodesTitle": "Vastaanota kirjautumiskoodit",
+          "authenticatorDescription": "Saat kirjautumiskoodin todennussovelluksesi kautta.",
+          "additionalMethodsTitle": "Lisätavat",
+          "additionalMethodsDescription": "Katso, miten voit silti kirjautua turvallisesti, jos muut tavat eivät ole käytettävissä."
+        },
+        "appSettings": {
+          "title": "Todennussovellus",
+          "description": "Saat kirjautumiskoodin todennussovelluksesi kautta.",
+          "connectedDevicesTitle": "Yhdistetyt laitteet",
+          "add": "Lisää",
+          "connectedDevicesDescription": "Voit lisätä useita laitteita, jotta jokainen linkitetty laite voi vastaanottaa 6-numeroisia kirjautumiskoodeja laitteen todennussovelluksesta.",
+          "noDevices": "Ei vielä yhdistettyjä laitteita",
+          "lastUsed": "Viimeksi käytetty: {date}",
+          "added": "Lisätty: {date}",
+          "active": "Aktiivinen todennussovellus"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Palautuskoodit",
+          "recoveryCodesDescription": "Käytä näitä koodeja, kun puhelimesi ei ole käytettävissä."
+        },
+        "recoveryCodes": {
+          "download": "Lataa koodit",
+          "regenerate": "Hae uudet koodit",
+          "existing": "Sinulla on {count} käyttämätöntä palautuskoodia. Luo uusi sarja napsauttamalla kohtaa ”Hae uudet koodit”.",
+          "empty": "Tässä istunnossa ei ole vielä näkyviä palautuskoodeja. Luo uusi sarja napsauttamalla kohtaa ”Hae uudet koodit”."
+        },
+        "setup": {
+          "step1Title": "1. Lataa todennussovellus",
+          "step1Description": "Suosittelemme lataamaan Duo Mobilen tai Google Authenticatorin, jos sinulla ei vielä ole sovellusta.",
+          "step2Title": "2. Skannaa tämä QR-koodi tai kopioi avain",
+          "step2Description": "Skannaa tämä QR-koodi todennussovelluksellasi tai kopioi avain ja liitä se sovellukseen.",
+          "copyKey": "Kopioi avain",
+          "step3Title": "3. Kopioi kuusinumeroinen koodi ja syötä se",
+          "step3Description": "QR-koodin skannaamisen tai avaimen syöttämisen jälkeen sovelluksesi luo 6-numeroisen koodin. Napauta alla kohtaa Anna koodi.",
+          "enterCode": "Anna koodi",
+          "qrAlt": "QR-koodi todennussovellustasi varten"
+        },
+        "naming": {
+          "label": "Laitteen nimi (esimerkiksi: Stijnin iPhone)",
+          "next": "Seuraava"
+        },
+        "verify": {
+          "label": "Todennussovelluksen koodi",
+          "submit": "Vahvista koodi"
+        },
+        "success": {
+          "done": "Valmis"
+        },
+        "ui": {
+          "on": "Päällä",
+          "turnOff": "Poista käytöstä",
+          "turnOffConfirm": "Poistetaanko kaksivaiheinen tunnistautuminen käytöstä? Sisäänkirjautuminen vaatii silloin vain salasanasi.",
+          "cancel": "Peruuta",
+          "copyKey": "Kopioi",
+          "copied": "Kopioitu",
+          "manualKey": "Asennusavain",
+          "status": "Tila"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Palautustiedosto",
+          "rowDescription": "PDF, jolla kirjaudut sisään lataamalla sen, ilman salasanaa tai koodia.",
+          "otherMethodsTitle": "Muita tapoja päästä sisään",
+          "title": "Palautustiedosto",
+          "subtitle": "PDF, jonka lataat kirjautuessasi. Se kirjaa sinut sisään heti, ilman salasanaa tai koodia. Hyödyllinen, jos kadotat puhelimesi tai unohdat salasanasi.",
+          "download": "Lataa palautustiedosto",
+          "downloading": "Tiedostoa tehdään…",
+          "downloaded": "Ladattu. Säilytä tiedostoa turvallisessa paikassa.",
+          "made": "Tehty {date}",
+          "lastUsed": "Viimeksi käytetty {date}",
+          "notUsed": "Ei vielä käytetty",
+          "remove": "Poista",
+          "removeConfirm": "Poistetaanko palautustiedosto? Se lakkaa toimimasta heti.",
+          "removed": "Palautustiedosto poistettu.",
+          "cancel": "Peruuta",
+          "newTitle": "Tarvitsetko uuden tiedoston?",
+          "newText": "Tiedoston voi ladata vain kerran. Saat uuden vahvistamalla sähköpostitse lähetettävällä koodilla. Nykyinen tiedostosi lakkaa silloin toimimasta.",
+          "requestCode": "Lähetä minulle koodi sähköpostilla",
+          "sending": "Lähetetään…",
+          "codeSent": "Lähetimme koodin osoitteeseen {email}.",
+          "codeLabel": "Koodi",
+          "confirmDownload": "Vahvista ja lataa",
+          "loadError": "Tätä ei voitu ladata nyt. Yritä myöhemmin uudelleen.",
+          "errors": {
+            "code_invalid": "Koodi ei ole oikein. Tarkista sähköposti ja yritä uudelleen.",
+            "code_expired": "Tämä koodi on vanhentunut. Pyydä uusi.",
+            "rate_limited": "Liian monta yritystä. Yritä myöhemmin uudelleen.",
+            "send_failed": "Sähköpostia ei voitu lähettää nyt. Yritä myöhemmin uudelleen.",
+            "generic": "Jokin meni pieleen. Yritä myöhemmin uudelleen."
+          },
+          "points": [
+            {
+              "title": "Lataa kerran",
+              "text": "Tiedoston voi ladata vain nyt. Uuden saat myöhemmin vahvistamalla sähköpostitse lähetettävällä koodilla."
+            },
+            {
+              "title": "Säilytä turvassa",
+              "text": "Esimerkiksi tulostettuna tai salatulla asemalla. Kuka tahansa tämän tiedoston haltija voi kirjautua tilillesi, joten älä lähetä sitä sähköpostilla äläkä jaa sitä."
+            },
+            {
+              "title": "Kirjaudu sillä",
+              "text": "Kirjoita sähköpostiosoitteesi sisäänkirjautumisessa, valitse \"Unohditko salasanan?\", sitten \"Kirjaudu sisään palautustiedostolla\" ja lataa PDF."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Passkeyt",
+        "subtitle": "Passkeyt ovat turvallinen ja helppo tapa kirjautua sisään ilman salasanaa. Voit käyttää sormenjälkeäsi, kasvojasi tai laitteen näytön lukitusta.",
+        "add": "Lisää passkey",
+        "empty": "Et ole vielä lisännyt passkeyja.",
+        "unnamed": "Nimeämätön passkey",
+        "addedOn": "Lisätty {date}",
+        "lastUsed": "Viimeksi käytetty {date}",
+        "never": "Ei koskaan käytetty",
+        "delete": "Poista",
+        "count": "Sinulla on {count} aktiivista passkeyta.",
+        "none": "Et ole vielä määrittänyt passkeyja.",
+        "success": "Passkey rekisteröitiin onnistuneesti!",
+        "error": "Passkeyn rekisteröinti epäonnistui.",
+        "pending": "Rekisteröidään...",
+        "emptyTitle": "Ei vielä passkeyja",
+        "emptyText": "Lisää yksi, niin voit kirjautua sormenjäljellä, kasvoilla tai laitteen näytön lukituksella salasanan sijaan. Salasanasi toimii edelleen.",
+        "deleteConfirm": "Poistetaanko tämä passkey? Et voi enää kirjautua sillä.",
+        "cancel": "Peruuta",
+        "removing": "Poistetaan...",
+        "createTitle": "Luo passkey",
+        "createSubtitle": "Passkeyn avulla voit kirjautua sormenjäljellä, kasvoilla tai laitteen näytön lukituksella. Laitteesi tai salasanahallintasi säilyttää sen, eikä se koskaan poistu sieltä.",
+        "nameLabel": "Passkeyn nimi",
+        "nameHint": "Jotta erotat passkeysi toisistaan, esimerkiksi laite tai salasanahallinta, johon se on tallennettu.",
+        "whatHappensTitle": "Mitä seuraavaksi tapahtuu",
+        "whatHappens1": "Selaimesi tai salasanahallintasi kysyy, minne passkey tallennetaan.",
+        "whatHappens2": "Vahvista sormenjäljellä, kasvoilla tai näytön lukituksella.",
+        "whatHappens3": "Tästä lähtien voit valita passkeyn kirjautuessasi.",
+        "create": "Luo passkey",
+        "waiting": "Seuraa selaimesi tai salasanahallintasi ohjetta…",
+        "cancelled": "Passkeyta ei luotu. Voit yrittää uudelleen.",
+        "doneTitle": "Passkey lisätty",
+        "doneSubtitle": "Voit nyt kirjautua passkeylla \"{name}\". Salasanasi toimii myös edelleen.",
+        "done": "Valmis",
+        "back": "Takaisin",
+        "removeError": "Passkeyn poistaminen epäonnistui. Yritä uudelleen.",
+        "defaultName": "{browser}, {system}",
+        "rowDescription": "Kirjaudu sisään sormenjäljellä, kasvoilla tai laitteen PIN-koodilla."
+      },
+      "activityModal": {
+        "title": "Tilin kirjautumisaktiviteetti",
+        "subtitle": "Missä tilisi on tällä hetkellä kirjautuneena. Kirjaudu ulos laitteilta, joita et tunnista.",
+        "unknownDevice": "Tuntematon laite",
+        "unknownLocation": "Tuntematon sijainti",
+        "currentDevice": "Tämä laite",
+        "lastActive": "Viimeksi aktiivinen {date}",
+        "revoke": "Kirjaudu ulos",
+        "revokePending": "Käsitellään...",
+        "revokeAllTitle": "Kirjautumiset muilla laitteilla",
+        "revokeAll": "Kirjaudu ulos kaikilta muilta laitteilta",
+        "revokeAllPending": "Käsitellään...",
+        "revokeSuccess": "Istunto on mitätöity.",
+        "revokeAllSuccess": "Kaikki muut istunnot on kirjattu ulos.",
+        "revokeError": "Istunnon mitätöinti epäonnistui.",
+        "viewMore": "+ {count} muuta laitetta",
+        "activeNow": "Aktiivinen nyt",
+        "thisDeviceTitle": "Tämä laite",
+        "otherEmpty": "Et ole kirjautuneena millään muulla laitteella.",
+        "showAll": "Näytä kaikki {count}",
+        "revokeAllConfirm": "Kirjaudutaanko ulos kaikilta {count} muulta laitteelta? Kaikkien, jotka niitä käyttävät, on kirjauduttava uudelleen.",
+        "cancel": "Peruuta"
+      },
+      "automatedDecisions": {
+        "title": "Automaattiset päätökset",
+        "description": "Jotkin tilin suojaukseen liittyvät päätökset tehdään automaattisesti signaalien, kuten kirjautumiskuvioiden ja epäilyttävän toiminnan, perusteella. Voit pyytää Ordnaryn työntekijää tarkastamaan tuloksen.",
+        "back": "Takaisin",
+        "close": "Sulje",
+        "loading": "Ladataan…",
+        "currentStateTitle": "Nykyinen automaattinen tila",
+        "riskLabels": {
+          "LOW": "Matala riski",
+          "MEDIUM": "Keskitason riski",
+          "HIGH": "Korkea riski"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktiivinen",
+          "SUSPENDED": "Tilapäisesti jäädytetty",
+          "DEACTIVATED": "Poistettu käytöstä",
+          "DELETED": "Poisto odottaa"
+        },
+        "suspendedExplanation": "Tilisi on tällä hetkellä rajoitettu automaattisen säännön vuoksi. Voit pyytää ihmisen tekemää tarkastusta alla. Ordnaryn työntekijä katsoo signaalit ja perustelusi ja joko vahvistaa tai kumoaa päätöksen.",
+        "elevatedExplanation": "Tilisi riskitasoa on nostettu viimeaikaisen toiminnan perusteella. Voit pyytää ihmisen tekemää tarkastusta, jos uskot signaalien olevan väärin.",
+        "okExplanation": "Emme ole merkinneet tilillesi automaattisia rajoituksia. Voit silti pyytää aiemman päätöksen tarkastusta alla.",
+        "lastEvaluated": "Viimeksi arvioitu",
+        "signalsTitle": "Viimeaikaiset tietoturvasignaalit",
+        "signalsEmpty": "Tietoturvasignaaleja ei ole viime aikoina kirjattu.",
+        "appealTitle": "Pyydä ihmisen tekemää tarkastusta",
+        "appealSubtitle": "Ordnaryn tarkastaja katsoo automaattisen päätöksen, perustelusi ja taustalla olevat signaalit. Pyrimme vastaamaan kohtuullisessa ajassa.",
+        "pickReason": "Mitä haluat kiistää?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Uskon, että jäädytys on virheellinen",
+          "RISK_LEVEL_OBJECTION": "Uskon, että riskitasoni on väärä",
+          "SECURITY_EVENT_OBJECTION": "Haluan kiistää tietyn tietoturvasignaalin",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Haluan ihmisen tarkastavan tilini automaattiset päätökset"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Tilisi on tällä hetkellä jäädytetty ja haluat päätöksen tarkastettavaksi.",
+          "RISK_LEVEL_OBJECTION": "Riskitasosi on odotettua korkeampi ja haluat sen arvioitavaksi uudelleen.",
+          "SECURITY_EVENT_OBJECTION": "Tietty tietoturvatapahtuma on kirjattu, jota et tunnista.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Haluat ihmisen katsovan tilisi automaattisia päätöksiä."
+        },
+        "yourStatement": "Perustelusi (valinnainen)",
+        "statementPlaceholder": "Kerro kaikki, mitä meidän pitäisi tietää, esimerkiksi että matkustit, käytit uutta laitetta tai joku muu on yrittänyt murtautua tilillesi.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Lähetä tarkastuspyyntö",
+        "submitting": "Lähetetään...",
+        "submitted": "Saimme pyyntösi ja palaamme asiaan.",
+        "pendingTitle": "Tarkastus käynnissä",
+        "pendingSubtitle": "Ordnaryn työntekijä käsittelee pyyntöäsi. Saat ilmoituksen, kun tilanne päivittyy.",
+        "withdraw": "Peru pyyntö",
+        "withdrawing": "Perutaan...",
+        "withdrawn": "Pyyntö peruttu.",
+        "withdrawableHint": "Voit perua tämän pyynnön milloin tahansa.",
+        "historyTitle": "Aiemmat tarkastuspyynnöt",
+        "historyEmpty": "Ei aiempia tarkastuspyyntöjä.",
+        "outcomes": {
+          "UPHELD": "Vahvistettu",
+          "OVERTURNED": "Kumottu",
+          "ADJUSTED": "Muutettu",
+          "ESCALATED": "Siirretty eteenpäin"
+        },
+        "statuses": {
+          "PENDING": "Odottaa",
+          "IN_REVIEW": "Tarkastettavana",
+          "RESOLVED": "Ratkaistu",
+          "WITHDRAWN": "Peruttu"
+        },
+        "loadError": "Automaattisen päätöksen tietojen lataus epäonnistui.",
+        "alreadyOpen": "Sinulla on jo avoin tarkastuspyyntö.",
+        "cooldown": "Voit jättää uuden tarkastuspyynnön {hours} tunnin kuluttua. Tämä odotusaika auttaa tarkastajaa ehtimään edellisen pyynnön.",
+        "showAll": "Näytä kaikki ({count})",
+        "showLess": "Näytä vähemmän"
+      },
+      "previewBadge": "Esikatselu",
+      "previewBadgeTooltip": "Uusi ja vielä kehitteillä. Passkeyt toimivat, mutta yksityiskohdat voivat muuttua."
+    },
+    "connections": {
+      "title": "Yhdistetyt sovellukset",
+      "description": "Sovellukset, joilla on pääsy Ordnary-tilisi tietoihin.",
+      "empty": "Et ole vielä yhdistänyt sovelluksia.",
+      "authorizedScopes": "Sallitut käyttöoikeudet: {scopes}",
+      "granted": "Myönnetty: {date}",
+      "revoke": "Peruuta käyttöoikeus"
+    },
+    "devices": {
+      "title": "Laitteet ja istunnot",
+      "description": "Hallitse aktiivisia istuntojasi eri laitteilla.",
+      "logoutOthers": "Kirjaudu ulos kaikilta muilta laitteilta",
+      "headers": {
+        "device": "Laite",
+        "location": "Sijainti / IP",
+        "lastActive": "Viimeksi aktiivinen",
+        "type": "Tyyppi",
+        "actions": "Toiminnot"
+      },
+      "unknownDevice": "Tuntematon laite",
+      "currentSession": "(Nykyinen istunto)",
+      "typeFormat": "{browser}, {os}",
+      "revoke": "Peruuta"
+    },
+    "passkeysPage": {
+      "title": "Passkeyt",
+      "description": "Hallitse biometrisiä tunnisteitasi ja laiteavaimiasi salasanattomaan kirjautumiseen.",
+      "add": "+ Lisää uusi passkey",
+      "empty": "Et ole vielä lisännyt passkeyja.",
+      "unnamed": "Nimeämätön passkey",
+      "addedOn": "Lisätty: {date}",
+      "lastUsed": "Viimeksi käytetty: {date}",
+      "never": "Ei koskaan",
+      "delete": "Poista"
+    },
+    "activity": {
+      "title": "Viimeaikainen toiminta",
+      "description": "Tarkista ja seuraa tilisi turvallisuuteen liittyviä tärkeitä tapahtumia ja muutoksia.",
+      "details": "Tiedot",
+      "dates": {
+        "today": "Tänään, 17. huhtikuuta",
+        "yesterday": "Eilen, 16. huhtikuuta"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Kirjauduttu sisään",
+        "LOGIN_FAILED": "Kirjautuminen epäonnistui",
+        "LOGIN_LOCKED": "Kirjautuminen estetty",
+        "LOGOUT": "Kirjauduttu ulos",
+        "SESSION_CREATED": "Istunto luotu",
+        "SESSION_REVOKED": "Istunto päättynyt",
+        "SESSION_ALL_REVOKED": "Kirjauduttu ulos kaikkialta",
+        "PASSWORD_SET": "Salasana asetettu",
+        "PASSWORD_CHANGED": "Salasana vaihdettu",
+        "PASSWORD_RESET_REQUESTED": "Salasanan palautusta pyydetty",
+        "PASSWORD_RESET_COMPLETED": "Salasana palautettu",
+        "PASSKEY_REGISTERED": "Passkey rekisteröity",
+        "PASSKEY_USED": "Kirjauduttu passkeylla",
+        "PASSKEY_REMOVED": "Passkey poistettu",
+        "PASSKEY_COUNTER_MISMATCH": "Passkey-varoitus",
+        "MFA_ENABLED": "Kaksivaiheinen todennus otettu käyttöön",
+        "MFA_DISABLED": "Kaksivaiheinen todennus poistettu käytöstä",
+        "MFA_FACTOR_ENROLLED": "Todennussovellus lisätty",
+        "MFA_FACTOR_VERIFIED": "Todennussovellus vahvistettu",
+        "MFA_FACTOR_REVOKED": "Todennussovellus poistettu",
+        "RECOVERY_CODES_GENERATED": "Uudet palautuskoodit",
+        "RECOVERY_CODE_USED": "Palautuskoodia käytetty",
+        "STEP_UP_REQUIRED": "Vahvistusta pyydetty",
+        "STEP_UP_COMPLETED": "Henkilöllisyys vahvistettu",
+        "EMAIL_ADDED": "Sähköpostiosoite lisätty",
+        "EMAIL_VERIFIED": "Sähköpostiosoite vahvistettu",
+        "EMAIL_REMOVED": "Sähköpostiosoite poistettu",
+        "EMAIL_PRIMARY_CHANGED": "Ensisijainen sähköposti vaihdettu",
+        "ACCOUNT_CREATED": "Tili luotu",
+        "ACCOUNT_UPDATED": "Tili päivitetty",
+        "ACCOUNT_DELETED": "Tilin poisto aloitettu",
+        "ACCOUNT_REACTIVATED": "Tili aktivoitu uudelleen",
+        "OAUTH_CONSENT_GRANTED": "Sovellukselle annettu käyttöoikeus",
+        "OAUTH_CONSENT_REVOKED": "Sovelluksen käyttöoikeus poistettu",
+        "OAUTH_TOKEN_ISSUED": "Sovellus kirjautui sisään",
+        "OAUTH_TOKEN_REVOKED": "Sovellus kirjattu ulos",
+        "SUSPICIOUS_NEW_LOCATION": "Kirjautuminen uudesta paikasta",
+        "SUSPICIOUS_NEW_DEVICE": "Kirjautuminen uudella laitteella",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Epätavallinen kirjautuminen",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Sähköpostiasetukset muutettu",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Tilaus peruttu",
+        "PRIVACY_REQUEST_FILED": "Tietosuojapyyntö jätetty",
+        "PRIVACY_REQUEST_RESOLVED": "Tietosuojapyyntö käsitelty",
+        "DSAR_FILED": "Tietopyyntö jätetty",
+        "DSAR_FULFILLED": "Tietopyyntö täytetty",
+        "DSAR_REJECTED": "Tietopyyntö hylätty",
+        "RISK_REVIEW_REQUESTED": "Tarkistusta pyydetty",
+        "RISK_REVIEW_RESOLVED": "Tarkistus valmis"
+      },
+      "severities": {
+        "INFO": "Tieto",
+        "MEDIUM": "Keskitaso",
+        "HIGH": "Korkea",
+        "CRITICAL": "Kriittinen",
+        "LOW": "Matala"
+      },
+      "empty": "Tililläsi ei ole vielä toimintaa.",
+      "filters": {
+        "all": "Kaikki",
+        "account": "Tilin muutokset",
+        "security": "Turvallisuushälytykset"
+      },
+      "retention": "Toimintaa säilytetään {days} päivää. Voit muuttaa tätä kohdassa {link}.",
+      "retentionLink": "Tietosi ja oikeutesi",
+      "emptyFiltered": "Tässä näkymässä ei ole mitään näytettävää.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Joku kirjautui tilillesi sen salasanalla tai kirjautumiskoodilla.",
+        "LOGIN_FAILED": "Joku yritti kirjautua tilillesi, mutta salasana tai koodi oli väärä. Muutama tällainen johtuu yleensä kirjoitusvirheestä.",
+        "LOGIN_LOCKED": "Liian monen väärän yrityksen jälkeen kirjautuminen tilillesi estettiin hetkeksi tilin suojaamiseksi.",
+        "LOGOUT": "Tilisi istunto kirjattiin ulos.",
+        "SESSION_CREATED": "Tilillesi kirjauduttiin laitteella tai selaimella, mikä aloitti uuden istunnon.",
+        "SESSION_REVOKED": "Yksi tilisi istunto kirjattiin ulos joko sinun toimestasi tai koska sen säilyttäminen ei ollut enää turvallista.",
+        "SESSION_ALL_REVOKED": "Tilisi kirjattiin ulos kaikilla muilla laitteilla.",
+        "PASSWORD_SET": "Tilillesi lisättiin salasana.",
+        "PASSWORD_CHANGED": "Tilisi salasana vaihdettiin.",
+        "PASSWORD_RESET_REQUESTED": "Salasanan palautuskoodi lähetettiin sähköpostiosoitteeseesi.",
+        "PASSWORD_RESET_COMPLETED": "Salasanasi palautettiin sähköpostiisi lähetetyllä koodilla, ja sinut kirjattiin ulos kaikkialta.",
+        "PASSKEY_REGISTERED": "Tilillesi lisättiin passkey, joten voit kirjautua laitteellasi salasanan sijaan.",
+        "PASSKEY_USED": "Joku kirjautui tilillesi yhdellä sen passkeyista.",
+        "PASSKEY_REMOVED": "Passkey poistettiin, eikä sillä voi enää kirjautua.",
+        "PASSKEY_COUNTER_MISMATCH": "Passkey ilmoitti jotain odottamatonta, mikä voi tarkoittaa, että se on kopioitu. Kirjautuminen estettiin.",
+        "MFA_ENABLED": "Kirjautuessa kysytään nyt myös koodia todennussovelluksestasi.",
+        "MFA_DISABLED": "Kirjautuessa ei enää kysytä koodia todennussovelluksestasi.",
+        "MFA_FACTOR_ENROLLED": "Tiliisi yhdistettiin todennussovellus.",
+        "MFA_FACTOR_VERIFIED": "Todennussovelluksesi koodi vahvistettiin.",
+        "MFA_FACTOR_REVOKED": "Tililtäsi poistettiin todennussovellus.",
+        "RECOVERY_CODES_GENERATED": "Uudet palautuskoodit luotiin. Vanhat koodit eivät enää toimi.",
+        "RECOVERY_CODE_USED": "Joku kirjautui yhdellä palautuskoodeistasi todennussovelluksen koodin sijaan. Samaa koodia ei voi käyttää uudelleen.",
+        "STEP_UP_REQUIRED": "Ennen arkaluonteista muutosta sinua pyydettiin vahvistamaan henkilöllisyytesi sähköpostiin lähetetyllä koodilla.",
+        "STEP_UP_COMPLETED": "Sähköpostiin lähetetty koodi vahvisti, että kyse oli sinusta, mikä salli arkaluonteisen muutoksen hetken ajan.",
+        "EMAIL_ADDED": "Tilillesi lisättiin sähköpostiosoite, ja siihen lähetettiin vahvistuslinkki.",
+        "EMAIL_VERIFIED": "Tilisi sähköpostiosoite vahvistettiin.",
+        "EMAIL_REMOVED": "Tililtäsi poistettiin sähköpostiosoite.",
+        "EMAIL_PRIMARY_CHANGED": "Toisesta sähköpostiosoitteesta tuli tilisi pääosoite kirjautumista ja viestejä varten.",
+        "ACCOUNT_CREATED": "Ordnary-tilisi luotiin.",
+        "ACCOUNT_UPDATED": "Tilisi asetusta tai tietoa muutettiin.",
+        "ACCOUNT_DELETED": "Tilisi merkittiin poistettavaksi. Sen voi palauttaa 30 päivän ajan.",
+        "ACCOUNT_REACTIVATED": "Tilisi otettiin uudelleen käyttöön sen jälkeen, kun se oli poistettu käytöstä tai poistettu.",
+        "OAUTH_CONSENT_GRANTED": "Sovellus sai pääsyn tiliisi Ordnary ID:n kautta.",
+        "OAUTH_CONSENT_REVOKED": "Sovelluksella ei ole enää pääsyä tiliisi.",
+        "OAUTH_TOKEN_ISSUED": "Sovellus, jota käytät Ordnary ID:llä, sai uuden kirjautumistunnuksen.",
+        "OAUTH_TOKEN_REVOKED": "Sovelluksen kirjautumistunnus mitätöitiin.",
+        "SUSPICIOUS_NEW_LOCATION": "Tiliäsi käytettiin paikasta, josta sitä ei ole aiemmin käytetty.",
+        "SUSPICIOUS_NEW_DEVICE": "Tiliäsi käytettiin laitteella, jolla sitä ei ole aiemmin käytetty.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Tiliäsi käytettiin kahdesta paikasta, jotka ovat liian kaukana toisistaan, jotta yksi ihminen olisi ehtinyt matkustaa niiden välillä siinä ajassa.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Sitä, mitä sähköposteja Ordnary saa lähettää sinulle, muutettiin.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Sähköpostissa ollut tilauksen peruutuslinkki poisti käytöstä yhden sähköpostityypin.",
+        "PRIVACY_REQUEST_FILED": "Tietojesi käsittelyn vastustamista tai rajoittamista koskeva pyyntö jätettiin.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary käsitteli pyyntösi vastustaa tai rajoittaa käsittelyä.",
+        "DSAR_FILED": "Tietojasi koskeva pyyntö (pääsy, oikaisu, poisto tai kopio) jätettiin.",
+        "DSAR_FULFILLED": "Ordnary täytti tietopyyntösi.",
+        "DSAR_REJECTED": "Ordnary hylkäsi tietopyyntösi; sähköpostissa kerrotaan miksi.",
+        "RISK_REVIEW_REQUESTED": "Tiliäsi koskevan automaattisen päätöksen tarkistusta pyydettiin.",
+        "RISK_REVIEW_RESOLVED": "Ordnaryn työntekijä tarkisti tiliäsi koskevan automaattisen päätöksen."
+      },
+      "detail": {
+        "ifNotYou": "Etkö se ollut sinä? Vaihda salasanasi ja kirjaa muut laitteesi ulos kohdassa Salasana ja turvallisuus.",
+        "ifNotYouLink": "Siirry kohtaan Salasana ja turvallisuus",
+        "generic": "Tämä kirjattiin tilillesi.",
+        "labels": {
+          "when": "Milloin",
+          "where": "Missä",
+          "ip": "IP-osoite",
+          "session": "Istunto",
+          "thisDevice": "Tämä laite",
+          "event": "Tapahtuma",
+          "source": "Kirjattu",
+          "severity": "Tärkeys"
+        },
+        "sources": {
+          "AUDIT_LOG": "Tililoki",
+          "SECURITY_EVENT": "Turvallisuusvalvonta"
+        },
+        "unknown": "Tuntematon",
+        "times": "{count}×",
+        "timeSpan": "{from} - {to}"
+      },
+      "showMore": "Näytä aiemmat päivät",
+      "loadingMore": "Ladataan…",
+      "end": "Siinä on kaikki säilytetty toiminta.",
+      "loadFailed": "Lisää ei voitu ladata. Yritä uudelleen."
+    },
+    "connectedAppsDemo": {
+      "title": "Yhdistetyt sovellukset",
+      "description": "Kolmannen osapuolen sovellukset ja palvelut, joille olet antanut pääsyn joihinkin tilisi tietoihin.",
+      "badges": {
+        "official": "Virallinen",
+        "verified": "Vahvistettu"
+      },
+      "accessed": "Käytetty {value}",
+      "revoke": "Peruuta käyttöoikeus",
+      "apps": {
+        "consoleReason": "Hallitse pilviresurssejasi ja käyttöönottoputkiasi.",
+        "figmaReason": "Suunnittelutyökalu yhteistyönä tehtävään prototyyppien luontiin.",
+        "unknownGameName": "Tuntematon peli",
+        "unknownGameReason": "Vahvistamaton sovellus, joka pyysi profiilitietojasi.",
+        "currentSession": "Nykyinen istunto",
+        "twoDaysAgo": "2 päivää sitten",
+        "lastMonth": "Viime kuussa"
+      }
+    },
+    "permissions": {
+      "title": "Tietosi ja oikeutesi",
+      "exportTitle": "Vie tietosi",
+      "searchHistory": "Ordnary-toiminta",
+      "externalActivity": "Toimintasi Ordnary-teknologioiden ulkopuolella",
+      "appConnections": "Sovellusyhteydet",
+      "manageContacts": "Hallitse yhteystietoja",
+      "notice": "Siirry kohtaan Vie tietosi ladataksesi tai siirtääksesi kopion tiedoistasi.",
+      "footer": "Päätä, mitä tietoja Ordnary-teknologiat voivat käyttää kokemuksiesi muokkaamiseen.",
+      "privacyRightsTitle": "Tietosuojaoikeutesi",
+      "dsarTitle": "Tietosuoja- ja tietopyynnöt",
+      "dsarSubtitle": "Jätä muodollinen pyyntö tietojen saamisesta, oikaisusta, poistosta tai siirrettävyydestä (15-20 art.).",
+      "privacyRequestsTitle": "Vastusta tai rajoita",
+      "privacyRequestsSubtitle": "Vastusta tai rajoita tiettyjä käsittelytoimia (18 art. / 21 art.).",
+      "processorsTitle": "Ketkä käsittelevät tietojasi",
+      "processorsSubtitle": "Yritykset, joiden palveluita käytämme Ordnaryn pyörittämiseen, mitä tietoja ne saavat ja missä ne säilyttävät niitä.",
+      "cookiesTitle": "Evästeasetukset",
+      "cookiesSubtitle": "Hallitse, mitä evästeitä Ordnary saa käyttää tässä selaimessa.",
+      "minorConsentTitle": "Vanhemman suostumus",
+      "minorConsentSubtitle": "Jos olet alle maasi suostumusiän, vanhemman tai huoltajan on annettava suostumus (GDPR 8 art.).",
+      "notificationsTitle": "Ilmoitusasetukset",
+      "notificationsSubtitle": "Valitse, minkä tyyppisiä sähköposteja Ordnary saa lähettää sinulle.",
+      "notifications": {
+        "title": "Ilmoitusasetukset",
+        "close": "Sulje",
+        "loading": "Ladataan…",
+        "alwaysOn": "Aina päällä",
+        "description": "Valitse, mitä sähköpostia saat Ordnarylta.",
+        "loadError": "Tätä ei voitu ladata juuri nyt. Yritä myöhemmin uudelleen.",
+        "saveError": "Tätä ei voitu tallentaa. Yritä uudelleen.",
+        "saved": "Tallennettu.",
+        "alwaysTitle": "Aina käytössä",
+        "alwaysText": "Nämä viestit pitävät tilisi turvassa ja vahvistavat sen, mitä olet pyytänyt, joten ne pysyvät käytössä.",
+        "choiceTitle": "Sinun valintasi",
+        "turnAllOff": "Poista kaikki valinnaiset sähköpostit käytöstä",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Turvahälytykset",
+          "TRANSACTIONAL_ACCOUNT": "Tiliviestit",
+          "PRODUCT_UPDATES": "Tuotepäivitykset",
+          "RECOMMENDATIONS": "Suositukset",
+          "MARKETING": "Uutiset ja tarjoukset"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Kirjautumiskoodit, salasanan palautukset ja hälytykset uusista kirjautumisista tai turvallisuutesi muutoksista.",
+          "TRANSACTIONAL_ACCOUNT": "Vahvistukset tekemistäsi asioista, kuten tietojen viennistä, tietosuojapyynnöstä tai vanhemman suostumuksesta.",
+          "PRODUCT_UPDATES": "Mitä uutta Ordnaryn tuotteissa on, ja muutokset ehtoihimme.",
+          "RECOMMENDATIONS": "Ehdotuksia sen perusteella, miten käytät Ordnarya.",
+          "MARKETING": "Uutiskirjeitä ja tarjouksia silloin tällöin."
+        }
+      },
+      "minorConsent": {
+        "title": "Vanhemman suostumus",
+        "description": "Jos olet nuorempi kuin ikä, jossa voit itse antaa suostumuksen verkossa, vanhemman tai huoltajan on annettava suostumus, ennen kuin voimme käyttää joitakin tietojasi. Tämä perustuu GDPR:n 8 artiklaan.",
+        "close": "Sulje",
+        "loading": "Ladataan…",
+        "loadError": "Tämän lataus ei onnistunut juuri nyt. Yritä myöhemmin uudelleen.",
+        "consentAge": "Suostumusikä maassa {country}: {age}",
+        "yourAge": "Ikäsi: {age}",
+        "adultTitle": "Ei tarvita",
+        "adultBody": "Olet tarpeeksi vanha antamaan suostumuksen itse, joten et tarvitse vanhemman suostumusta.",
+        "unknownTitle": "Emme vielä tiedä ikääsi",
+        "unknownBody": "Lisää syntymäaikasi, niin näemme, tarvitsetko vanhemman suostumuksen.",
+        "unknownAction": "Lisää syntymäaika",
+        "blockedTitle": "Suostumus tarvitaan",
+        "blockedBody": "Kunnes vanhempi tai huoltaja antaa suostumuksen, osa tilisi toiminnoista on rajoitettu.",
+        "pendingTitle": "Odotamme vanhempaasi tai huoltajaasi",
+        "pendingBody": "Lähetimme pyynnön osoitteeseen {email}. Linkki toimii {date} asti.",
+        "verifiedTitle": "Suostumus annettu",
+        "verifiedBody": "{email} antoi suostumuksen {date}.",
+        "parentEmail": "Vanhemman tai huoltajan sähköposti",
+        "relationship": "Kuka tämä on, esimerkiksi äiti (valinnainen)",
+        "addMessage": "Lisää viesti (valinnainen)",
+        "notes": "Viesti vanhemmallesi tai huoltajallesi",
+        "submit": "Lähetä pyyntö",
+        "submitting": "Lähetetään…",
+        "resend": "Lähetä uudelleen",
+        "changeEmail": "Käytä toista sähköpostia",
+        "cancel": "Peruuta",
+        "revoke": "Peru",
+        "revokeConfirm": "Perutaanko suostumus? Osa tilisi toiminnoista rajoitetaan uudelleen, kunnes vanhempi tai huoltaja antaa suostumuksen uudelleen.",
+        "revoking": "Perutaan…",
+        "revoked": "Suostumus peruttu.",
+        "notMinor": "Olet tarpeeksi vanha antamaan suostumuksen itse.",
+        "invalidEmail": "Anna kelvollinen sähköpostiosoite.",
+        "requestSent": "Pyyntö lähetetty osoitteeseen {email}.",
+        "points": [
+          {
+            "title": "Anna heidän sähköpostinsa",
+            "text": "Vanhemman tai huoltajan sähköpostiosoite."
+          },
+          {
+            "title": "He hyväksyvät",
+            "text": "He saavat sähköpostin, jossa on hyväksymislinkki. Linkki toimii 14 päivää."
+          },
+          {
+            "title": "Tilisi toimii täysin",
+            "text": "Kun he ovat hyväksyneet, tilisi rajoitukset poistuvat."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Voit viedä kopion tiedoistasi ulkoiseen palveluun tai laitteellesi. Saatavilla olevia tietoja ovat sisältö ja tiedot, joita olet jakanut, toimintasi sekä keräämämme tiedot.",
+      "exportButton": "Lähetä latauslinkki",
+      "exportModalContentsTitle": "Mitä viennissäsi on:",
+      "exportModalContents": [
+        "Profiilitiedot ja tiliasetukset",
+        "Sähköpostiosoitteet ja puhelinnumerot",
+        "Turva-asetukset (passkeyt, MFA, laitteet)",
+        "Istunto- ja kirjautumishistoria",
+        "Maksutiedot",
+        "Yhdistetyt sovellukset ja OAuth-suostumukset",
+        "Toimintaloki ja tietoturvatapahtumat",
+        "Tietosuoja- ja evästesuostumukset"
+      ],
+      "exportModalFormat": "Muoto: ZIP-arkisto, jossa on jäsenneltyjä JSON-tiedostoja ja luettava README.",
+      "exportModalRateLimit": "Saat sähköpostin, jossa on kertakäyttöinen latauslinkki. Enintään 3 vientiä 24 tunnissa.",
+      "exportDownload": {
+        "loading": "Hetki...",
+        "readyTitle": "Tietojesi vienti on valmis",
+        "readyDescription": "Lataa tilisi tiedot ZIP-arkistona napsauttamalla alla olevaa painiketta. Linkki on kertakäyttöinen ja vanhenee 24 tunnin kuluttua.",
+        "downloadButton": "Lataa tietosi",
+        "readyHint": "Tiedosto sisältää kaikki henkilötietosi, turva-asetuksesi, toimintalokisi ja muuta jäsennellyissä JSON-tiedostoissa.",
+        "downloadingTitle": "Ladataan...",
+        "downloadingDescription": "Vientiäsi valmistellaan. Tämä voi kestää muutaman sekunnin.",
+        "successTitle": "Lataus alkoi",
+        "successDescription": "Tietojesi vientiä ladataan. Säilytä tiedosto turvallisessa paikassa, sillä se sisältää arkaluonteisia henkilötietoja.",
+        "successHint": "Tämä latauslinkki on nyt vanhentunut. Jos tarvitset uuden viennin, voit pyytää sen tilisi asetuksista.",
+        "backToSettings": "Takaisin tilin asetuksiin",
+        "expiredTitle": "Linkki on vanhentunut",
+        "expiredDescription": "Tämä latauslinkki on vanhentunut tai se on jo käytetty. Latauslinkit ovat voimassa 24 tuntia, ja ne voi käyttää vain kerran.",
+        "newExportButton": "Pyydä uusi vienti",
+        "errorTitle": "Jotain meni pieleen",
+        "errorDefault": "Virhe tapahtui haettaessa vientiäsi.",
+        "noToken": "Latauksen tunnistetta ei löytynyt."
+      },
+      "appConnectionsModalSubtitle": "Sovellusyhteyksien avulla voit tehdä asioita eri Ordnary-tuotteissa ja muiden yritysten kanssa.",
+      "connectButton": "Yhdistä",
+      "activityModalSubtitle": "Katso ja hallitse toimintaasi Ordnary-ekosysteemissä, mukaan lukien SaaS-tuotteemme ja sovelluksemme. Käytämme näitä tietoja oppiaksemme käyttäytymisestäsi ja optimoidaksemme kokemustasi kaikilla alustoillamme.",
+      "accountsAndProfiles": "Tilisi ja profiilisi",
+      "keepActivityFor": "Säilytä toiminta",
+      "clearActivityButton": "Tyhjennä kaikki toiminta",
+      "days3": "3 päivää",
+      "days7": "7 päivää",
+      "days14": "14 päivää",
+      "standardOption": "Oletus",
+      "noticeTitle": "Hanki kopio tiedoistasi",
+      "noticeText": "Lataa tilisi tiedot talteen tai siirrä ne toiseen palveluun.",
+      "noticeAction": "Vie tiedot",
+      "experimentBadge": "Kokeilu",
+      "userFallback": "Käyttäjä",
+      "avatarAlt": "Profiilikuva",
+      "exportSent": "Latauslinkki lähetetty osoitteeseen {email}",
+      "exportFailed": "Vienti epäonnistui. Yritä uudelleen.",
+      "exportInProgress": "Vientiä valmistellaan jo. Yritä hetken kuluttua uudelleen.",
+      "exportRateLimited": "Olet saavuttanut vientien enimmäismäärän. Yritä uudelleen {time} kuluttua.",
+      "saveFailed": "Tallennus epäonnistui. Yritä uudelleen.",
+      "days30": "30 päivää",
+      "autoClear": {
+        "title": "Tyhjennä Ordnary-toiminta automaattisesti",
+        "subtitle": "Valitse, kuinka kauan säilytämme toimintasi. Vanhempi toiminta poistetaan automaattisesti kaikilta Tilikeskuksen tileiltä ja profiileilta.",
+        "standard": "Vakio",
+        "saving": "Tallennetaan…",
+        "saved": "Tallennettu.",
+        "back": "Takaisin",
+        "close": "Sulje",
+        "howTitle": "Mitä poistetaan",
+        "howText": "Kirjautumishistoriasi ja tilisi tietoturvatapahtumat, kuten uudet kirjautumiset, salasanan vaihdot ja estetyt yritykset, kun ne ovat valitsemaasi aikaa vanhempia.",
+        "howPermanent": "Poistettua toimintaa ei voi palauttaa. Lataa ensin kopio, jos haluat säilyttää sen.",
+        "learnMore": "Lisätietoja automaattisesta tyhjentämisestä Ordnaryn dokumentaatiossa"
+      },
+      "experimentBadgeTooltip": "Vielä kehitteillä. Voit katsella ympärillesi, mutta sovellusten yhdistäminen ei vielä toimi."
+    },
+    "payments": {
+      "title": "Maksa",
+      "subtitle": "Hallitse tallennettuja maksutietojasi ja sitä, millä tileillä on niihin pääsy. {learnMore}",
+      "syncInfo": "Synkronoitu 2 tilin välillä",
+      "addMethodTitle": "Lisää maksutapa",
+      "addMethodSubtitle": "Tallenna kortti tai yhdistä PayPal, niin seuraava ostoksesi on helpompi.",
+      "addMethodButton": "Lisää maksutapa",
+      "shippingTitle": "Toimitustiedot",
+      "shippingAddress": "Toimitusosoite",
+      "emailAddress": "Sähköpostiosoite",
+      "phoneNumber": "Puhelinnumero",
+      "addModal": {
+        "title": "Lisää maksutapa",
+        "card": "Luotto- tai pankkikortti",
+        "paypal": "PayPal",
+        "footer": "Nämä tiedot tallennetaan Ordnary Payhin ja synkronoidaan Tilikeskukseen, jossa niitä voi hallita. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Lisää kortti",
+        "subtitle": "Korttinumerosi salataan ja tallennetaan turvallisesti",
+        "cardNumber": "Korttinumero",
+        "expiry": "Voimassaolo (KK/VV)",
+        "cvv": "CVV",
+        "name": "Nimi kortissa",
+        "submit": "Seuraava",
+        "cvvTooltip": "Vahvistuskoodi (CVV) on kortin takana tai edessä oleva turvanumero.",
+        "footer": "Nämä tiedot tallennetaan Ordnary Payhin ja synkronoidaan Tilikeskukseen, jossa niitä voi hallita. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Aseta toimitusosoite",
+        "subtitle": "Lisää toimitusosoite Ordnary Paylle. Tämä on erillinen korttisi asennuksesta.",
+        "search": "Hae osoitetta",
+        "country": "Maa tai alue",
+        "fullName": "Koko nimi",
+        "street": "Osoite",
+        "street2": "Osoiterivi 2 (valinnainen)",
+        "city": "Kaupunki/kunta",
+        "state": "Osavaltio/lääni/alue",
+        "zip": "Postinumero",
+        "submit": "Tallenna osoite"
+      }
+    },
+    "subscriptions": {
+      "description": "Hallitse aktiivisia Ordnary-tilauksiasi, uusimisia ja laskutusasetuksia.",
+      "emptyTitle": "Ei aktiivisia tilauksia",
+      "emptyDescription": "Tilaukset näkyvät täällä, kun ne on yhdistetty tiliisi.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Rajaton pääsy Ordnary Picturesin premium-sisältöihin, mukaan lukien valitut elokuvat, sarjat, ennakkonäytökset ja vain jäsenille tarkoitetut julkaisut tuetuissa Ordnary-kokemuksissa.",
+          "status": "Aktiivinen",
+          "renewal": "Uusiutuu kuukausittain",
+          "price": "9,99 € kuukaudessa"
+        }
+      },
+      "manageSubscription": "Hallitse tilausta"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Pääsy estetty",
+        "description": "Sinulla ei ole tällä hetkellä pääsyä tilikeskukseen. Istuntosi on ehkä vanhentunut tai tilisi on rajoitettu.",
+        "action": "Kirjaudu sisään uudelleen"
+      },
+      "suspended": {
+        "title": "Tili poistettu käytöstä",
+        "description": "Tämä tili on poistettu käytöstä tai tilapäisesti rajoitettu. Ota yhteyttä tukeen, jos epäilet virhettä.",
+        "action": "Ota yhteyttä tukeen"
+      },
+      "banned": {
+        "title": "Pääsy estetty pysyvästi",
+        "description": "Tilisi on estetty pysyvästi käyttöehtojemme rikkomisen vuoksi.",
+        "action": "Näytä ehdot"
+      },
+      "offline": {
+        "title": "Ei internetyhteyttä",
+        "description": "Näytät olevan offline-tilassa. Tarkista internetyhteytesi jatkaaksesi.",
+        "action": "Yritä uudelleen"
+      },
+      "unknown": {
+        "title": "Järjestelmävirhe",
+        "description": "Jotain odottamatonta meni pieleen. Yritä myöhemmin uudelleen.",
+        "action": "Takaisin alkuun"
+      },
+      "previousPage": "Edellinen sivu"
+    },
+    "common": {
+      "noResults": "Ei tuloksia",
+      "searchPlaceholder": "Hae..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} haluaa käyttää tiliäsi",
+      "description": "Olet kirjautunut käyttäjänä {displayName}. Anna käyttöoikeus vain, jos luotat tähän sovellukseen.",
+      "requestedPermissions": "Pyydetyt käyttöoikeudet",
+      "approve": "Anna käyttöoikeus",
+      "deny": "Estä",
+      "errorTitle": "Pyynnössä on ongelma",
+      "errorDescription": "Valtuutuspyyntö on virheellinen tai puutteellinen. Tarkista parametrit.",
+      "unknownAppTitle": "Sovellusta ei voi vahvistaa",
+      "unknownAppDescription": "Ordnary ei pysty tunnistamaan tätä sovellusta. Syynä on yleensä virheellinen client_id tai redirect_uri. Turvallisuutesi vuoksi emme voi jatkaa."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Tämä sivu ei ole saatavilla",
+      "description": "Linkki voi olla rikki tai sivu on voitu poistaa. Tarkista, että avaamasi linkki on oikein.",
+      "button": "Siirry tilin asetuksiin"
+    },
+    "serverError": {
+      "title": "Jotain meni pieleen",
+      "description": "Tapahtui odottamaton virhe. Yritä myöhemmin uudelleen.",
+      "button": "Yritä uudelleen"
+    }
+  },
+  "cookieConsent": {
+    "title": "Sallitaanko Ordnaryn evästeiden käyttö tässä selaimessa?",
+    "description": "Käytämme evästeitä ja vastaavia teknologioita sisällön tarjoamiseen Ordnary-tuotteissa ja niiden parantamiseen. Käytämme niitä myös turvallisemman kokemuksen tarjoamiseen hyödyntämällä tietoja, joita saamme Ordnaryssa ja sen ulkopuolella. Nämä evästeet ovat valinnaisia.",
+    "essentialTitle": "Välttämättömät evästeet",
+    "essentialDesc": "Nämä evästeet tarvitaan Ordnary-tuotteiden käyttöön, ja ne ovat välttämättömiä sivustojemme asianmukaiselle toiminnalle.",
+    "optionalTitle": "Muiden yritysten evästeet",
+    "optionalDesc": "Käytämme näitä evästeitä mainosten näyttämiseen Ordnary-tuotteiden ulkopuolella sekä ominaisuuksien, kuten karttojen ja videoiden, tarjoamiseen Ordnary-tuotteissa. Nämä evästeet ovat valinnaisia.",
+    "policyInfo": "Sinä päätät, mitä valinnaisia evästeitä saamme käyttää. {cookiePolicy} kertoo lisää evästeistä ja niiden käytöstämme, ja voit tarkistaa tai muuttaa valintojasi milloin tahansa.",
+    "cookiePolicy": "evästekäytäntö",
+    "infoTitle": "Tietoa evästeistä",
+    "policyRefreshNotice": "Olemme päivittäneet tapaa, jolla tallennamme evästevalinnat. Vahvista asetuksesi uudelleen, jotta voimme pitää tietueen ajan tasalla.",
+    "policyRevisionNotice": "Evästekäytäntömme on päivitetty. Tarkista asetuksesi uudelleen.",
+    "preferencesTitle": "Evästeasetuksesi",
+    "preferencesDescription": "Valitse, mitä evästeluokkia Ordnary saa käyttää tässä selaimessa. Voit muuttaa näitä asetuksia milloin tahansa tililtäsi.",
+    "alwaysOn": "Aina päällä",
+    "categories": {
+      "essential": {
+        "title": "Välttämättömät",
+        "description": "Tarvitaan kirjautumiseen, turvallisuuteen ja muun tuotteen toimintaan."
+      },
+      "functional": {
+        "title": "Toiminnalliset",
+        "description": "Muistavat asetuksia, kuten kielen, teeman ja viimeisimmät tilit."
+      },
+      "analytics": {
+        "title": "Analytiikka",
+        "description": "Auttavat meitä ymmärtämään, miten Ordnarya käytetään, jotta voimme parantaa sitä."
+      },
+      "marketing": {
+        "title": "Markkinointi",
+        "description": "Personoitu viestintä Ordnarylta tuotteista ja tarjouksista."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Mitä evästeet ovat?",
+        "button": "Lue lisää"
+      },
+      "why": {
+        "title": "Miksi käytämme evästeitä?",
+        "button": "Lue lisää"
+      },
+      "products": {
+        "title": "Mitä Ordnary-tuotteet ovat?",
+        "button": "Lue lisää"
+      },
+      "preferences": {
+        "title": "Evästeasetuksesi",
+        "button": "Lue lisää"
+      }
+    },
+    "buttons": {
+      "reject": "Hylkää valinnaiset evästeet",
+      "accept": "Salli kaikki evästeet",
+      "rejectShort": "Hylkää",
+      "acceptShort": "Salli",
+      "customize": "Mukauta",
+      "save": "Tallenna asetukset",
+      "saveShort": "Tallenna",
+      "close": "Sulje"
+    }
+  },
+  "recentAccounts": {
+    "title": "Kirjaudu Ordnary-tililläsi",
+    "continueAs": "Jatka käyttäjänä {name}",
+    "loginAnother": "Kirjaudu toisella tilillä",
+    "remove": "Poista tili"
+  },
+  "reauthenticate": {
+    "title": "Vahvista, että se olet sinä",
+    "description": "Hei {name}, turvallisuutesi vuoksi meidän on varmistettava, että se olet sinä, ennen kuin voit {action}.",
+    "codeSentTo": "Lähetimme koodin osoitteeseen {email}.",
+    "codeSent": "Lähetimme 6-numeroisen turvakoodin sähköpostiisi.",
+    "securityCode": "Turvakoodi",
+    "continue": "Jatka",
+    "verifying": "Vahvistetaan…",
+    "sending": "Lähetetään…",
+    "cancel": "Peruuta",
+    "errors": {
+      "sendFailed": "Turvakoodin lähettäminen epäonnistui.",
+      "invalidCode": "Virheellinen koodi.",
+      "network": "Verkkovirhe. Yritä uudelleen."
+    },
+    "actions": {
+      "changePassword": "vaihtaa salasanasi",
+      "changeEmail": "hallita sähköpostiosoitteitasi",
+      "managePasskeys": "hallita passkeyjäsi",
+      "manageMfa": "hallita kaksivaiheista todennusta",
+      "revokeAllSessions": "kirjautua ulos kaikkialta",
+      "manageAccount": "poistaa tilisi käytöstä tai poistaa sen",
+      "rotateClientSecret": "uusia tämän asiakassalaisuuden",
+      "managePaymentMethods": "hallita maksutapojasi",
+      "authorizeApp": "valtuuttaa tämän sovelluksen",
+      "generic": "jatkaa tätä arkaluonteista toimintoa"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Vahvista vanhempien suostumus",
+    "description": "Käyttäjä on pyytänyt sinua hyväksymään hänen Ordnary-tilinsä GDPR:n 8 artiklan mukaisesti. Tallenna suostumuksesi napsauttamalla Vahvista alla. Voit peruuttaa sen milloin tahansa myöhemmin vastaamalla alkuperäiseen sähköpostiin tai ottamalla yhteyttä osoitteeseen {email}.",
+    "idle": "Tämä sivu pitää avata pyyntösähköpostin linkistä, jotta vahvistustunniste tulee mukaan.",
+    "verifying": "Vahvistetaan…",
+    "success": "Kiitos. Vanhempien suostumus on vahvistettu ja olemme avanneet tilin käyttäjän puolella. Hän saa myös ilmoituksen.",
+    "errors": {
+      "tokenRequired": "Vahvistustunnistetta ei annettu.",
+      "tokenNotFound": "Tämä vahvistuslinkki ei ole enää voimassa.",
+      "alreadyVerified": "Tämä vahvistus on jo tallennettu.",
+      "requestRevoked": "Tämä pyyntö on peruutettu tai korvattu uudemmalla.",
+      "tokenExpired": "Tämä vahvistuslinkki on vanhentunut. Pyydä käyttäjää lähettämään uusi pyyntö.",
+      "invalidBody": "Vahvistuspyyntö oli virheellinen.",
+      "generic": "Tätä vahvistuslinkkiä ei voitu vahvistaa. Pyydä käyttäjää lähettämään uusi pyyntö."
+    }
+  },
+  "unsubscribe": {
+    "title": "Peruuta tilaus",
+    "idle": "Avaa tämä sivu sähköpostin linkistä, jotta peruutustunniste tulee mukaan.",
+    "verifying": "Tallennetaan valintaasi…",
+    "success": "Tilauksesi on peruutettu.",
+    "successWithCategory": "Tilauksesi kategoriaan {category} on peruutettu.",
+    "manageAt": "Voit säätää kaikkia ilmoitusasetuksiasi milloin tahansa osoitteessa {link}.",
+    "categories": {
+      "transactionalSecurity": "turvahälytykset",
+      "transactionalAccount": "tilin ilmoitukset",
+      "productUpdates": "tuotepäivitykset",
+      "recommendations": "suositukset",
+      "marketing": "markkinointisähköpostit"
+    },
+    "errors": {
+      "tokenRequired": "Peruutustunnistetta ei annettu.",
+      "tokenNotFound": "Tämä peruutuslinkki ei ole enää voimassa.",
+      "alreadyRedeemed": "Olet jo peruuttanut tämän kategorian tilauksen.",
+      "tokenExpired": "Tämä peruutuslinkki on vanhentunut. Voit hallita asetuksia tilikeskuksessa kirjautumisen jälkeen.",
+      "categoryMandatory": "Tätä kategoriaa ei voi poistaa käytöstä, koska se kattaa turvallisuus- ja tilin edellyttämät ilmoitukset.",
+      "generic": "Tätä peruutuslinkkiä ei voitu käsitellä. Kirjaudu sisään ja muuta asetuksiasi suoraan."
+    }
+  },
+  "dsarVerify": {
+    "title": "Vahvista tietosuojapyyntösi",
+    "description": "Vahvista, että lähetit Ordnarylle tämän tietojasi koskevan pyynnön. Jos et lähettänyt, sulje sivu ja ilmoita meille osoitteeseen {email}.",
+    "idle": "Avaa tämä sivu lähettämämme sähköpostin linkistä, jotta vahvistus on mukana.",
+    "confirm": "Vahvista pyyntö",
+    "verifying": "Vahvistetaan…",
+    "success": "Kiitos, pyyntösi on vahvistettu. Käsittelemme sen lakisääteisessä ajassa ja ilmoitamme sähköpostitse, kun se on valmis.",
+    "errors": {
+      "tokenRequired": "Linkistä puuttuu vahvistuskoodi.",
+      "tokenNotFound": "Tämä linkki ei ole enää voimassa.",
+      "tokenExpired": "Tämä linkki on vanhentunut. Lähetä pyyntö uudelleen Tilikeskuksesta.",
+      "alreadyProcessed": "Tämä pyyntö on jo vahvistettu tai käsitelty.",
+      "generic": "Pyyntöä ei voitu vahvistaa. Yritä uudelleen tai ota yhteyttä osoitteeseen {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Olet kirjautunut ulos. Kirjaudu sisään uudelleen ja yritä uudelleen.",
+    "not_authenticated": "Olet kirjautunut ulos. Kirjaudu sisään uudelleen ja yritä uudelleen.",
+    "step_up_required": "Vahvista ensin, että se olet sinä, ja yritä sitten uudelleen.",
+    "rate_limited": "Liian monta yritystä. Odota muutama minuutti ja yritä uudelleen.",
+    "first_party_only": "Tämä on käytettävissä vain Ordnaryn omissa sovelluksissa.",
+    "invalid_request": "Tässä pyynnössä on jotain vialla. Lataa sivu uudelleen ja yritä uudelleen.",
+    "invalid_body": "Tässä pyynnössä on jotain vialla. Lataa sivu uudelleen ja yritä uudelleen.",
+    "invalid_action": "Tämä toiminto ei ole käytettävissä täällä.",
+    "missing_fields": "Täytä kaikki kentät.",
+    "internal_error": "Jokin meni vikaan meidän päässämme. Yritä hetken kuluttua uudelleen.",
+    "internal_server_error": "Jokin meni vikaan meidän päässämme. Yritä hetken kuluttua uudelleen.",
+    "unavailable": "Tämä ei ole juuri nyt käytettävissä. Yritä myöhemmin uudelleen.",
+    "send_failed": "Sähköpostin lähettäminen ei onnistunut. Yritä hetken kuluttua uudelleen.",
+    "user_not_found": "Emme löytäneet tätä tiliä.",
+    "invalid_email": "Anna kelvollinen sähköpostiosoite.",
+    "missing_address": "Anna sähköpostiosoite.",
+    "email_already_exists": "Tämä sähköpostiosoite on jo käytössä.",
+    "email_not_found": "Tämä sähköpostiosoite ei ole tililläsi.",
+    "cannot_delete_primary_email": "Et voi poistaa ensisijaista sähköpostiosoitettasi.",
+    "failed_to_add_email": "Emme voineet lisätä tätä sähköpostiosoitetta.",
+    "failed_to_delete_email": "Emme voineet poistaa tätä sähköpostiosoitetta.",
+    "failed_to_send_verification_email": "Emme voineet lähettää vahvistusviestiä, joten osoitetta ei lisätty.",
+    "no_email": "Tililläsi ei ole sähköpostiosoitetta, johon voisimme lähettää viestin.",
+    "no_primary_email": "Tililläsi ei ole ensisijaista sähköpostiosoitetta.",
+    "password_mismatch": "Uudet salasanat eivät täsmää.",
+    "password_incorrect": "Nykyinen salasanasi on väärä.",
+    "password_too_weak": "Uusi salasana ei täytä vaatimuksia.",
+    "password_change_failed": "Emme voineet vaihtaa salasanaasi.",
+    "no_password": "Tililläsi ei ole vielä salasanaa.",
+    "passkey_not_found": "Tätä passkeytä ei ole enää olemassa.",
+    "missing_passkey_id": "Valitse ensin passkey.",
+    "session_not_found": "Tätä istuntoa ei ole enää olemassa.",
+    "missing_session_id": "Valitse ensin istunto.",
+    "cannot_revoke_current_session": "Et voi kirjata ulos istuntoa, jota käytät tässä.",
+    "code_required": "Anna sähköpostissa saamasi koodi.",
+    "code_invalid": "Koodi on väärä.",
+    "code_expired": "Koodi on vanhentunut. Pyydä uusi.",
+    "exists": "Sinulla on jo sellainen.",
+    "not_deactivated": "Tiliäsi ei ole poistettu käytöstä.",
+    "grace_period_expired": "Tämän tilin palauttamiseen varattu 30 päivän aika on kulunut umpeen.",
+    "token_required": "Tämä linkki on puutteellinen.",
+    "token_not_found": "Tämä linkki ei ole enää voimassa.",
+    "token_expired": "Tämä linkki on vanhentunut.",
+    "already_redeemed": "Tätä linkkiä on jo käytetty.",
+    "already_downloaded": "Tämä lataus on jo käytetty.",
+    "already_verified": "Tämä on jo vahvistettu.",
+    "already_processed": "Tämä pyyntö on jo käsitelty.",
+    "already_extended": "Tämän pyynnön määräaikaa on jo pidennetty.",
+    "invalid_date": "Anna kelvollinen päivämäärä.",
+    "birthday_verification_attempt_not_found": "Emme löytäneet tätä henkilöllisyyden tarkistusta. Aloita alusta.",
+    "identity_verification_incomplete": "Henkilöllisyyden tarkistus ei ole vielä valmis.",
+    "identity_verification_dob_mismatch": "Henkilöllisyystodistuksesi syntymäaika ei vastaa antamaasi.",
+    "identity_verification_dob_unavailable": "Emme pystyneet lukemaan syntymäaikaa henkilöllisyystodistuksestasi.",
+    "missing_attempt_id": "Henkilöllisyyden tarkistus puuttuu. Aloita alusta.",
+    "invalid_kind": "Valitse, minkä tyyppinen pyyntö tämä on.",
+    "invalid_applies_to": "Valitse, mitä pyyntö koskee.",
+    "invalid_filed_by": "Kerro, kuka jättää tämän pyynnön.",
+    "subject_email_required": "Anna sähköpostiosoite, jota pyyntö koskee.",
+    "representative_email_required": "Anna edustajan sähköpostiosoite.",
+    "request_not_found": "Emme löytäneet tätä pyyntöä.",
+    "request_already_open": "Sinulla on jo avoin tämän tyyppinen pyyntö.",
+    "request_cooldown_active": "Jätit tämän pyynnön äskettäin. Yritä myöhemmin uudelleen.",
+    "request_closed": "Tämä pyyntö on jo suljettu.",
+    "request_not_open": "Tämä pyyntö ei ole enää avoinna.",
+    "request_not_verified": "Tätä pyyntöä ei ole vielä vahvistettu.",
+    "request_revoked": "Tämä pyyntö on peruttu tai korvattu.",
+    "no_download_for_kind": "Tämän tyyppiseen pyyntöön ei liity latausta.",
+    "export_already_in_progress": "Vientiä valmistellaan jo.",
+    "export_rate_limited": "Teit äskettäin viennin. Yritä myöhemmin uudelleen.",
+    "invalid_retention_days": "Valitse jokin tarjolla olevista ajanjaksoista.",
+    "invalid_category": "Tätä ilmoitusluokkaa ei ole olemassa.",
+    "category_mandatory": "Näitä sähköposteja ei voi poistaa käytöstä.",
+    "review_not_found": "Emme löytäneet tätä tarkistusta.",
+    "review_already_open": "Sinulla on jo avoin tarkistus.",
+    "review_cooldown_active": "Pyysit äskettäin tarkistusta. Yritä myöhemmin uudelleen.",
+    "review_not_open": "Tämä tarkistus ei ole enää avoinna.",
+    "review_not_pending": "Tätä tarkistusta ei voi enää muuttaa.",
+    "invalid_review_type": "Valitse, minkä tyyppinen tarkistus tämä on.",
+    "no_active_consent": "Peruttavaa voimassa olevaa suostumusta ei ole.",
+    "not_a_minor": "Tälle tilille ei tarvita huoltajan suostumusta.",
+    "parent_email_required": "Anna vanhempasi tai huoltajasi sähköpostiosoite.",
+    "invalid_parent_email": "Anna vanhemmallesi tai huoltajallesi kelvollinen sähköpostiosoite.",
+    "connection_not_found": "Tämä sovellus ei ole enää yhdistetty.",
+    "client_not_found": "Emme löytäneet tätä sovellusta.",
+    "too_large": "Tiedosto on liian suuri.",
+    "unsupported_type": "Tätä tiedostotyyppiä ei tueta.",
+    "no_file": "Valitse ensin tiedosto."
+  }
+}

@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "账户中心",
+    "accountCenterSubtitle": "在 Ordnary 各项技术中管理你已连接的体验和账户设置。",
+    "learnMore": "了解更多",
+    "loading": "加载中...",
+    "back": "返回",
+    "close": "关闭",
+    "backToHome": "返回首页"
+  },
+  "nav": {
+    "profiles": "个人资料",
+    "connectedExperiences": "已连接的体验",
+    "passwordAndSecurity": "密码与安全",
+    "personalDetails": "个人信息和设置",
+    "education": "教育",
+    "permissions": "你的信息和权限",
+    "adPreferences": "广告偏好",
+    "payments": "Ordnary Pay",
+    "subscriptions": "订阅",
+    "accounts": "账户",
+    "activity": "活动"
+  },
+  "education": {
+    "title": "教育",
+    "description": "用学校邮箱确认你的学生身份，即可在提供学生权益的 Ordnary 产品中享受优惠。",
+    "statusLabel": "学生状态",
+    "statuses": {
+      "none": "未验证",
+      "pending": "正在等你打开链接",
+      "verified": "已验证",
+      "revoked": "已失效"
+    },
+    "details": {
+      "title": "你的详细信息",
+      "school": "学校",
+      "email": "学校邮箱",
+      "verifiedOn": "验证日期"
+    },
+    "dialog": {
+      "title": "学生身份验证",
+      "subtitle": "请用学校邮箱确认你是学生。我们只用这个地址进行验证，不会向它发送任何其他内容。",
+      "close": "关闭",
+      "verifiedTitle": "已验证",
+      "verifiedBody": "{email}，{school}，自 {date} 起。",
+      "pendingTitle": "等待你打开链接",
+      "pendingBody": "我们已向 {email} 发送了一个链接。请在 24 小时内打开以完成验证。",
+      "revokedTitle": "已失效",
+      "revokedBody": "你的学生身份已结束。请再次使用学校邮箱确认。",
+      "changeEmail": "使用其他学校邮箱",
+      "resend": "重新发送",
+      "cancel": "取消",
+      "emailLabel": "学校邮箱",
+      "detected": "{school}",
+      "notRecognised": "我们无法识别这是学校邮箱。请使用学校提供给你的地址。",
+      "send": "发送链接",
+      "sending": "正在发送…",
+      "sent": "链接已发送至 {email}。",
+      "sentWhileVerified": "我们已向 {email} 发送了一个链接。在你打开它之前，你仍将保持与当前学校的验证状态。",
+      "points": [
+        {
+          "title": "输入学校邮箱",
+          "text": "我们会显示该地址属于哪所学校。"
+        },
+        {
+          "title": "打开链接",
+          "text": "我们会向该地址发送一个链接，有效期 24 小时。"
+        },
+        {
+          "title": "验证完成",
+          "text": "在提供学生优惠的 Ordnary 产品中，你的学生身份将生效。"
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "你的学生身份现已生效。",
+      "verificationError": "此链接已失效，请重新申请。"
+    },
+    "errors": {
+      "not_academic": "我们无法识别这是学校邮箱。请使用学校提供给你的地址。",
+      "account": "你的账户出了点问题。请稍后重试。",
+      "send_failed": "我们暂时无法发送链接。请稍后重试。",
+      "no_pending": "没有可重新发送的请求。请输入你的学校邮箱。",
+      "not_authenticated": "请重新登录以继续。"
+    }
+  },
+  "profiles": {
+    "title": "个人资料",
+    "description": "在 Ordnary 各项技术中管理你已连接的体验和账户设置。",
+    "addAccounts": "添加账户",
+    "detail": {
+      "aboutTitle": "关于此资料",
+      "accessTitle": "{app} 可以访问的内容",
+      "linksTitle": "{app} 的政策",
+      "mainProfile": "主资料",
+      "connected": "已连接的应用",
+      "verified": "已通过 Ordnary 验证",
+      "connectedOn": "连接时间",
+      "lastUsed": "上次使用",
+      "never": "尚未使用",
+      "activeSignIns": "活跃的登录",
+      "profileId": "资料 ID",
+      "email": "电子邮件地址",
+      "memberSince": "注册时间",
+      "twoFactor": "双重验证",
+      "on": "已开启",
+      "off": "已关闭",
+      "passkeys": "Passkey",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "disconnect": "断开连接",
+      "disconnectTitle": "断开与 {app} 的连接？",
+      "disconnectText": "{app} 将无法再使用你的 Ordnary 账户，你也会退出它的登录。之后你可以通过登录 {app} 重新连接。",
+      "disconnecting": "正在断开连接...",
+      "cancel": "取消",
+      "copied": "已复制",
+      "copy": "复制",
+      "scopes": {
+        "openid": "通过你的 Ordnary 账户识别你",
+        "profile": "你的姓名和头像",
+        "email": "你的电子邮件地址",
+        "offline_access": "在你未使用时保持登录",
+        "phone": "你的手机号码",
+        "address": "你的地址"
+      },
+      "change": "更改",
+      "setUp": "设置",
+      "manage": "管理",
+      "add": "添加",
+      "none": "暂无"
+    },
+    "revokedSuccess": "已断开连接",
+    "revokedError": "无法断开连接。请重试。"
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "创建新的 Ordnary 账户？",
+      "registrationName": "你叫什么名字？",
+      "registrationBirthday": "你的生日是什么时候？",
+      "registrationPassword": "创建密码",
+      "saveLoginInfo": "保存登录信息？",
+      "registrationReview": "完成创建你的账户",
+      "verifyEmailCode": "输入确认代码",
+      "editEmail": "你的电子邮件地址是什么？",
+      "loginCodeEntry": "检查你的电子邮件",
+      "recoveryCodeEntry": "确认你的账户",
+      "resetPassword": "创建新密码",
+      "passwordEntry": "输入你的密码",
+      "identifierLookup": "你的电子邮件是什么？",
+      "signIn": "登录",
+      "mfaCodeEntry": "输入你的验证码"
+    },
+    "descriptions": {
+      "identifierLookup": "输入你的电子邮件以登录账户或创建新账户。",
+      "passwordEntry": "要登录，请输入与 {identifier} 关联的密码。",
+      "accountNotFound": "我们找不到与 {email} 对应的 Ordnary 账户。你可能还没有创建账户。如果你已经创建过，它可能使用了其他标识符。",
+      "registrationName": "此姓名将用于账户恢复以及与你账户相关的通信，不会向公众显示。",
+      "registrationBirthday": "请使用你自己的出生日期，即使该账户用于企业或其他用途。此信息不会公开。",
+      "registrationPassword": "创建一个别人猜不到的密码。",
+      "saveLoginInfo": "我们会保存你的登录信息，这样你下次登录时就不必再次输入。",
+      "verifyEmailCode": "输入发送到 {identifier} 的 6 位代码以确认你的账户。",
+      "editEmail": "输入可以联系到你的电子邮件地址。该地址将用于登录和账户管理，并且不会公开显示。",
+      "loginCodeEntry": "要登录，请输入我们发送到 {identifier} 的代码。你可能需要检查垃圾邮件或社交邮件文件夹。",
+      "recoveryCodeEntry": "我们已向 {identifier} 发送了一个代码。输入该代码以确认你的账户。",
+      "resetPassword": "你将使用此密码登录你的 Ordnary 账户。请至少使用 6 个字母和数字。",
+      "mfaCodeEntry": "输入验证器应用中的 6 位代码以继续。"
+    },
+    "buttons": {
+      "createNewAccount": "创建新账户",
+      "alreadyHaveAccount": "我已经有账户",
+      "next": "下一步",
+      "save": "保存",
+      "notNow": "暂不",
+      "finish": "完成",
+      "resendCode": "重新发送代码",
+      "enterPassword": "输入密码",
+      "forgotPassword": "忘记密码？",
+      "switchAccount": "切换账户",
+      "yes": "是",
+      "no": "否",
+      "useEmailCode": "使用邮件验证码登录",
+      "signInWithPasskey": "使用通行密钥登录",
+      "useRecoveryCode": "使用恢复码",
+      "useAuthenticatorCode": "使用身份验证器应用"
+    },
+    "labels": {
+      "name": "姓名",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "day": "日",
+      "month": "月",
+      "year": "年",
+      "dateOfBirth": "出生日期",
+      "confirmationCode": "确认代码",
+      "email": "电子邮件地址",
+      "password": "密码",
+      "newPassword": "新密码",
+      "logoutOthers": "从其他所有地方退出登录，以确保没有其他人仍可访问你的账户",
+      "marketingEmails": "我希望接收有关 Ordnary Identity 的应用、推荐和优惠的电子邮件。",
+      "showPassword": "显示密码",
+      "hidePassword": "隐藏密码",
+      "clearInput": "清除输入",
+      "recoveryCode": "恢复码"
+    },
+    "links": {
+      "whyNeedBirthday": "为什么我需要提供出生日期？",
+      "learnMore": "了解更多",
+      "editEmail": "编辑电子邮件地址",
+      "noAccessEmail": "你是否无法再访问此电子邮件地址？",
+      "termsOfService": "服务条款",
+      "privacyPolicy": "隐私政策",
+      "cookiePolicy": "Cookie 政策"
+    },
+    "messages": {
+      "nameHelp": "使用真实姓名有助于你在失去访问权限时更容易恢复账户。",
+      "emailHelp": "使用你的工作或个人电子邮件访问 Ordnary 服务。",
+      "existingSessionTitle": "你已有一个活动会话",
+      "existingSessionDescription": "你已登录。{seconds} 秒后将跳转到账户中心。",
+      "summaryPrivacy": "你的 Ordnary 账户详细信息不会公开。",
+      "verifyEmailLookFor": "请查找来自 notification@ordnary.com 的电子邮件。你可能还需要检查垃圾邮件或社交邮件文件夹。",
+      "termsAgreement": "点击“完成”即表示你同意我们的服务条款、隐私政策，并确认你已阅读我们的 Cookie 政策。",
+      "footerAgreement": "继续操作即表示你确认已阅读并同意我们的服务条款、隐私政策以及适用的数据处理指南。你还同意接收与你使用本平台相关的重要账户和安全通知。",
+      "emailMissing": "电子邮件地址为必填项。",
+      "resendCodeError": "重新发送代码时发生意外错误。",
+      "invalidInput": "输入无效。",
+      "credentialsPrompt": "要登录，请输入与 {identifier} 关联的密码。",
+      "checkEmailPrompt": "要登录，请输入我们发送到 {identifier} 的代码。",
+      "termsIntro": "点击完成即表示你同意我们的"
+    },
+    "validation": {
+      "emailRequired": "电子邮件地址为必填项。",
+      "passwordRequired": "密码为必填项。",
+      "passwordMin": "密码长度至少为 12 个字符。",
+      "passwordMax": "密码不能超过 128 个字符。",
+      "emailInvalid": "请输入有效的电子邮件地址。",
+      "displayNameMin": "显示名称至少需要 2 个字符。",
+      "resetTokenRequired": "重置令牌为必填项。",
+      "verificationTokenRequired": "验证令牌为必填项。"
+    },
+    "errors": {
+      "invalidInput": "输入无效。",
+      "genericLoginFailed": "无法登录。请重试。",
+      "loginInvalidCredentials": "电子邮件或密码无效。",
+      "accountLocked": "你的账户已被锁定或暂停。",
+      "passwordIncorrect": "你输入的密码不正确。",
+      "notAuthenticated": "你尚未通过身份验证。",
+      "registrationMissingInfo": "缺少必需的注册信息。",
+      "registrationEmailExists": "此电子邮件地址已存在账户。",
+      "systemNoDefaultTenant": "系统错误：未找到默认租户。",
+      "registrationFailed": "注册失败。请重试。",
+      "invalidVerificationRequest": "无效的验证请求。",
+      "accountNotFound": "未找到账户。",
+      "verificationCodeInvalidOrExpired": "验证码无效或已过期。",
+      "verificationFailedTryAgain": "验证失败。请重试。",
+      "invalidRequest": "无效请求。",
+      "userNotFound": "未找到用户。",
+      "codeInvalidOrExpired": "代码无效或已过期。",
+      "verificationFailed": "验证失败。",
+      "missingInformation": "缺少信息。",
+      "passwordResetFailed": "密码重置失败。",
+      "emailMissing": "缺少电子邮件地址。",
+      "resendCodeFailed": "重新发送代码失败。请重试。",
+      "loginRequestFailed": "无法处理你的登录请求。请重试。",
+      "mfaDataMissing": "缺少验证信息。请重新登录。",
+      "mfaNoAuthenticator": "未找到此账户的有效验证器应用。",
+      "mfaCodeInvalid": "验证码无效。",
+      "mfaVerificationFailed": "验证失败。请重新登录。",
+      "requestRejected": "我们无法处理此请求。请重试。",
+      "tooManyAttempts": "尝试次数过多。请稍后再试。",
+      "tooManyFailedLogins": "登录失败次数过多。请稍等片刻再试。",
+      "permanentEmailRequired": "请使用永久电子邮件地址。",
+      "recoveryFileInvalid": "此恢复文件无法使用。它可能已被新文件替换或已被删除。",
+      "passkeyFailed": "无法使用通行密钥登录。请重试，或使用你的电子邮件继续。",
+      "passwordTooWeak": "请选择符合以下所有要求的密码。"
+    },
+    "months": [
+      "一月",
+      "二月",
+      "三月",
+      "四月",
+      "五月",
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "recoveryFile": {
+      "link": "使用恢复文件登录",
+      "title": "使用恢复文件登录",
+      "description": "上传你从账户中心下载的此账户的恢复文件，即可立即登录。",
+      "choose": "选择文件",
+      "reading": "正在登录…",
+      "pasteInstead": "改为粘贴代码",
+      "codeLabel": "文件中的代码",
+      "signIn": "登录",
+      "notAFile": "这不是 Ordnary 恢复文件。请选择你从账户中心下载的 PDF。",
+      "back": "改用邮件验证码"
+    },
+    "passwordRules": {
+      "length": "至少 12 个字符",
+      "upper": "一个大写字母",
+      "lower": "一个小写字母",
+      "digit": "一个数字"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "账户设置",
+      "appearanceLabel": "外观",
+      "appearanceLight": "浅色",
+      "appearanceSystem": "跟随系统",
+      "appearanceDark": "深色",
+      "logout": "退出登录",
+      "sessionExpired": "你的会话已过期。请重新登录以继续。",
+      "logoutConfirmTitle": "要退出 Ordnary 吗？",
+      "logoutCancel": "取消",
+      "logoutConfirm": "退出",
+      "language": "语言"
+    },
+    "reactivate": {
+      "title": "欢迎回来，你的账户已停用",
+      "description": "你停用账户时，我们暂停了邮件和通知。重新启用即可恢复一切，也可以先退出登录，稍后再决定。你的数据仍然保留。",
+      "reactivate": "重新启用我的账户",
+      "reactivating": "正在重新启用...",
+      "signOut": "退出登录",
+      "signingOut": "正在退出登录...",
+      "footer": "如果你想永久删除账户，请登录并在“个人详细信息”中选择“删除账户”。",
+      "successNotification": "欢迎回来。你的账户已重新启用。",
+      "errorGeneric": "我们无法重新启用你的账户。请稍后重试。",
+      "deletedTitle": "你的账号将被删除",
+      "deletedDescription": "账号将于 {date} 被永久删除。恢复账号即可保留所有内容，或退出登录让删除继续进行。",
+      "restore": "恢复我的账号",
+      "restoring": "正在恢复..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "头像",
+        "custom": "你自己的照片",
+        "default": "自动生成的头像",
+        "modalTitle": "头像",
+        "subtitle": "会与你的姓名一起显示在 Ordnary 应用和社区中。如果没有自己的照片，你会得到一个专属于你账户的头像。",
+        "choose": "选择照片",
+        "change": "选择其他照片",
+        "remove": "移除照片",
+        "save": "保存照片",
+        "saving": "正在保存...",
+        "hint": "JPG、PNG 或 WebP。照片会被裁剪为正方形。",
+        "errorType": "该文件不是我们可以使用的图片。请选择 JPG、PNG 或 WebP。",
+        "errorFailed": "我们无法保存你的照片。请重试。"
+      },
+      "title": "个人信息和设置",
+      "description": "Ordnary 使用这些信息来验证你的身份，并帮助维护社区安全。你可以控制哪些个人信息对他人可见。",
+      "contactDetails": "联系信息",
+      "birthday": "生日",
+      "ownership": "账户所有权和控制",
+      "ownershipDescription": "管理你的数据，更新纪念账户的继承联系人，以及停用或删除你的账户和个人资料。",
+      "loadingName": "用户",
+      "modal": {
+        "title": "账户所有权和控制",
+        "deactivationIndexTitle": "停用或删除",
+        "deactivationIndexDescription": "暂时停用或永久删除你的账户和个人资料。",
+        "optionsTitle": "停用或删除你的 Ordnary 账户",
+        "optionsDescription": "想休息一下？停用你的账号，随时都可以回来。想离开 Ordnary？删除你的账号。",
+        "deactivateTitle": "停用账户",
+        "deactivateDescription": "停用账户只是暂时的。你的账户将被禁用，并对他人隐藏。",
+        "deleteTitle": "删除账户",
+        "deleteDescription": "删除账号是永久性的。30 天后，你将无法重新激活账号，也无法恢复其中的数据。",
+        "deactivateConfirmTitle": "要停用你的账号吗？",
+        "deactivateConfirmPoints": [
+          {
+            "title": "你将在所有地方退出登录",
+            "text": "包括你的所有设备，以及你使用 Ordnary 账号的每个应用。"
+          },
+          {
+            "title": "你的个人资料将被隐藏",
+            "text": "账号停用期间，其他人看不到你的姓名或个人资料。"
+          },
+          {
+            "title": "随时都可以回来",
+            "text": "再次登录即可重新激活账号，一切都会保持原样。"
+          }
+        ],
+        "deactivateConfirmButton": "停用账号",
+        "deleteConfirmTitle": "要删除你的账号吗？",
+        "deleteConfirmPoints": [
+          {
+            "title": "你将在所有地方退出登录",
+            "text": "包括你的所有设备，以及你使用 Ordnary 账号的每个应用。"
+          },
+          {
+            "title": "你将失去访问权限",
+            "text": "包括 Ordnary 以及你用 Ordnary 账号登录的每个应用。"
+          },
+          {
+            "title": "30 天后永久删除",
+            "text": "在此之前你仍可以改变主意。之后，你的账号和数据将无法恢复。"
+          }
+        ],
+        "deleteConfirmCheck": "我了解我的账号和数据将在 30 天后被永久删除。",
+        "deleteConfirmButton": "删除账号",
+        "cancel": "取消",
+        "continue": "继续",
+        "working": "处理中...",
+        "deactivateSuccess": "你的账户已停用。正在跳转到登录页面...",
+        "deleteSuccess": "你的账户已安排删除。正在跳转到登录页面...",
+        "submitError": "我们暂时无法更新你的账户。"
+      },
+      "missingBirthday": "未设置",
+      "loadError": "无法加载个人信息。",
+      "preferences": {
+        "sectionTitle": "偏好设置",
+        "appearance": "外观",
+        "appearanceDescription": "调整你的 Ordnary 账户的外观。",
+        "cookies": "Cookie 偏好",
+        "cookiesDescription": "管理 Ordnary 可在此浏览器中使用哪些 Cookie。",
+        "processors": {
+          "title": "谁在处理你的数据",
+          "intro": "我们使用少数其他公司来运营 Ordnary。以下是全部名单:它们从我们这里收到什么、数据存放在哪里,以及数据离开欧盟时如何受到保护。",
+          "empty": "没有其他公司收到你的数据。",
+          "loadError": "暂时无法加载。请稍后再试。",
+          "loading": "加载中…",
+          "close": "关闭",
+          "back": "返回",
+          "fields": {
+            "purpose": "它们做什么",
+            "receives": "它们收到什么",
+            "whose": "谁的数据",
+            "stored": "存放在哪里",
+            "transfer": "欧盟以外"
+          },
+          "mechanism": {
+            "INTRA_EEA": "保留在欧洲经济区内。",
+            "ADEQUACY_DECISION": "之所以允许,是因为欧盟认可 {country} 的数据保护水平足够。",
+            "STANDARD_CONTRACTUAL_CLAUSES": "受欧盟标准合同条款保护。",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "已通过 EU-US Data Privacy Framework 认证。",
+            "sccBackup": "欧盟标准合同条款作为额外保障适用。"
+          },
+          "links": {
+            "dpa": "数据处理协议",
+            "privacy": "隐私政策",
+            "website": "网站",
+            "certification": "认证"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "在你更改出生日期时核验你的身份证件。",
+              "receives": [
+                "姓名",
+                "出生日期",
+                "身份证件照片",
+                "自拍照",
+                "IP 地址"
+              ],
+              "whose": "仅限验证新出生日期的人。"
+            },
+            "resend": {
+              "purpose": "发送我们的邮件:登录验证码、安全提醒和账户通知。",
+              "receives": [
+                "电子邮件地址",
+                "显示名称",
+                "邮件内容,例如登录验证码、链接以及安全提醒中的 IP 地址"
+              ],
+              "whose": "所有收到 Ordnary 邮件的人。"
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "隐私请求",
+          "description": "反对或限制特定的处理活动（第 18 条 / 第 21 条）。",
+          "back": "返回",
+          "close": "关闭",
+          "loading": "正在加载…",
+          "loadError": "无法加载隐私请求。",
+          "alreadyOpen": "你已针对此范围提交了一个未结请求。",
+          "cooldown": "你可以在 {hours} 小时后重新提交相同的请求。",
+          "submitted": "我们已收到你的请求。",
+          "withdrawn": "请求已撤回。",
+          "fileNew": "提交新请求",
+          "pickKind": "你想做什么？",
+          "kinds": {
+            "OBJECTION": "反对某项处理活动（第 21 条）",
+            "RESTRICTION": "暂时限制处理（第 18 条）"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "根据你的具体情况，今后停止某项特定的处理活动。",
+            "RESTRICTION": "在你的数据争议审核期间，暂停某项特定的处理活动。"
+          },
+          "pickActivities": "这适用于哪些活动？",
+          "activitiesHint": "不选则适用于我们所有的处理活动（全面暂停）。",
+          "globalScope": "所有处理（全面暂停）",
+          "yourStatement": "你的说明（建议填写）",
+          "statementPlaceholder": "请告诉我们原因，例如你在与我们调查安全事件期间，不希望我们再进行自动风险评分。",
+          "statementCounter": "{count} / {max}",
+          "submit": "提交请求",
+          "submitting": "正在提交…",
+          "withdraw": "撤回",
+          "withdrawing": "正在撤回…",
+          "openTitle": "未结请求",
+          "emptyOpen": "没有未结请求。",
+          "historyTitle": "过往请求",
+          "historyEmpty": "没有以往的请求。",
+          "holdsTitle": "当前生效的暂停",
+          "holdsEmpty": "没有生效的暂停。",
+          "appliesTo": "适用于",
+          "effectiveUntil": "有效期至",
+          "statuses": {
+            "PENDING": "待处理",
+            "IN_REVIEW": "审核中",
+            "RESOLVED": "已解决",
+            "WITHDRAWN": "已撤回"
+          },
+          "outcomes": {
+            "GRANTED": "已批准",
+            "PARTIALLY_GRANTED": "部分批准",
+            "REJECTED": "已拒绝",
+            "ESCALATED": "已上报"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "账户身份与身份验证",
+            "session-and-device-management": "会话与设备",
+            "oauth-issuance": "OAuth / OIDC 签发",
+            "identity-verification": "身份验证（Stripe Identity）",
+            "payment-processing": "支付处理",
+            "audit-logs-and-security-events": "审计日志与安全事件",
+            "risk-scoring": "自动风险评分",
+            "consent-log": "同意记录",
+            "account-deletion": "账户删除",
+            "risk-review-queue": "风险审核队列"
+          },
+          "title": "反对或限制"
+        },
+        "dsar": {
+          "label": "隐私与数据请求",
+          "description": "提交正式的访问、更正、删除或可携带性请求（第 15-20 条）。",
+          "title": "隐私与数据请求",
+          "back": "返回",
+          "close": "关闭",
+          "loading": "正在加载…",
+          "loadError": "无法加载请求。",
+          "submitted": "我们已收到你的请求。",
+          "fastPathReady": "你的数据正在下载。",
+          "fastPathHint": "只想快速获取一份数据副本？请使用顶部的“导出你的信息”按钮。它会立即下载，无需经过正式队列。如果你需要人工审核、代他人提交，或需要更正或删除数据，请在此提交请求。",
+          "withdrawn": "请求已撤回。",
+          "fileNew": "提交新请求",
+          "pickKind": "你想做什么？",
+          "kinds": {
+            "ACCESS": "访问（第 15 条）",
+            "RECTIFICATION": "更正（第 16 条）",
+            "ERASURE": "删除（第 17 条）",
+            "PORTABILITY": "可携带性（第 20 条）"
+          },
+          "kindDescriptions": {
+            "ACCESS": "获取我们所持有的关于你的数据的完整机器可读副本。",
+            "RECTIFICATION": "更正我们所持有的关于你的错误或过时的数据。",
+            "ERASURE": "请我们删除你的账户以及我们所持有的关于你的数据。",
+            "PORTABILITY": "以结构化、常用的格式接收你的数据。"
+          },
+          "filedBy": "谁在提交这个请求？",
+          "filedByOptions": {
+            "SELF": "我为自己提交",
+            "PARENT_GUARDIAN": "我是家长或监护人，为未成年人提交",
+            "AUTHORISED_AGENT": "我是授权代理人（例如律师），代表他人提交"
+          },
+          "representativeBlock": {
+            "title": "代理人信息",
+            "emailLabel": "你的电子邮件地址",
+            "notesLabel": "关系与授权",
+            "notesHint": "请简要说明你与数据主体的关系，并附上任何授权委托书或监护文件的参考信息。"
+          },
+          "subjectEmailLabel": "数据主体邮箱",
+          "subjectEmailHint": "我们会将验证链接和答复发送到此地址。对于由代理人提交的请求，这必须是数据主体本人的邮箱。",
+          "yourStatement": "你的说明（建议填写）",
+          "statementPlaceholder": "你具体想要什么？任何有助于我们确定答复范围的背景信息都可以写在这里。",
+          "statementCounter": "{count} / {max}",
+          "submit": "提交请求",
+          "submitting": "正在提交…",
+          "withdraw": "撤回",
+          "withdrawing": "正在撤回…",
+          "openTitle": "未结请求",
+          "emptyOpen": "没有未结请求。",
+          "historyTitle": "过往请求",
+          "historyEmpty": "没有以往的请求。",
+          "due": "截止日期",
+          "extended": "延期至",
+          "awaitingVerification": "等待邮箱验证",
+          "statuses": {
+            "SUBMITTED": "等待验证",
+            "VERIFIED": "已验证",
+            "IN_PROGRESS": "处理中",
+            "FULFILLED": "已完成",
+            "REJECTED": "已拒绝",
+            "WITHDRAWN": "已撤回"
+          },
+          "outcomes": {
+            "FULFILLED": "已完成",
+            "PARTIALLY_FULFILLED": "部分完成",
+            "REJECTED": "已拒绝"
+          },
+          "overdue": "已逾期"
+        },
+        "modalTitle": "外观",
+        "modalSubtitle": "选择账户中心的外观。我们会在此设备上记住你的偏好。",
+        "options": {
+          "lightLabel": "浅色",
+          "lightDescription": "无论系统设置如何，始终使用浅色背景。",
+          "systemLabel": "跟随系统",
+          "systemDescription": "随设备设置自动切换。",
+          "darkLabel": "深色",
+          "darkDescription": "始终使用深色背景，晚上更舒适。"
+        },
+        "done": "完成"
+      },
+      "displayNameSection": {
+        "label": "全名",
+        "subtitle": "你的全名会用于你的各个账户和资料。",
+        "editButton": "编辑",
+        "modalTitle": "全名",
+        "editTitle": "更改全名",
+        "modalSubtitle": "如需更改全名，请联系 {email}。",
+        "currentLabel": "当前姓名",
+        "supportNotice": "如需更改全名，请联系 {email}。",
+        "copyEmail": "复制邮箱地址",
+        "openEmail": "打开邮件",
+        "mailSubject": "更改姓名的请求",
+        "mailBody": "你好，\n\n我想更改我的姓名。\n\n当前姓名：{name}\n新姓名：\n\n此致，\n{name}"
+      },
+      "loading": "加载中...",
+      "contact": {
+        "subtitle": "管理你的电子邮件地址，以及谁可以看到你的联系信息。使用它们来访问此账户中心内的个人资料和设备。",
+        "addNew": "添加新联系方式",
+        "detailsDescription": "你已将此电子邮件地址添加到以下账户。",
+        "whoCanSee": "谁可以看到你的电子邮件地址？",
+        "deleting": "正在移除...",
+        "delete": "移除电子邮件地址",
+        "deleteFailed": "我们无法移除此电子邮件地址。",
+        "deleted": "电子邮件地址已移除",
+        "addTitle": "添加电子邮件地址",
+        "addSubtitle": "我们会在账户中心内你的各个账户中使用此电子邮件地址，以个性化你的体验。",
+        "learnMore": "了解更多",
+        "emailLabel": "电子邮件地址",
+        "chooseAccounts": "为此电子邮件地址选择账户",
+        "added": "电子邮件地址已添加",
+        "addFailed": "出了点问题。请重试。",
+        "next": "下一步"
+      },
+      "birthdayModal": {
+        "subtitle": "添加你的生日，让体验更适合你的年龄。",
+        "edit": "编辑",
+        "editTitle": "编辑你的生日",
+        "editSubtitle": "此生日将用于此账户中心内的账户和个人资料。你所做的任何更改都会应用于所有这些账户和资料。",
+        "day": "日",
+        "month": "月",
+        "year": "年",
+        "verificationNotice": "要更改生日，你需要通过我们的合作伙伴 Stripe Identity，使用有效的身份证件验证身份。保存后，我们会将你转到验证流程。",
+        "save": "保存",
+        "saveFailed": "出了点问题。请重试。",
+        "verificationStartFailed": "我们无法启动身份验证。",
+        "completeFailed": "我们无法完成验证。",
+        "updated": "身份验证后，你的生日已更新。",
+        "dobMismatch": "身份证件上的出生日期与你输入的不一致。",
+        "dobUnavailable": "Stripe 无法从你的身份证件中读取可验证的出生日期。",
+        "notFinished": "身份验证尚未完成。"
+      }
+    },
+    "security": {
+      "title": "密码和安全",
+      "loadingName": "用户",
+      "pageLoadError": "无法加载安全设置。",
+      "sections": {
+        "signIn": {
+          "title": "登录和恢复",
+          "description": "管理你的密码、登录偏好和恢复方式。"
+        },
+        "controls": {
+          "title": "安全检查",
+          "description": "通过检查应用、设备和已发送的邮件来查看安全问题。"
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "更改密码",
+          "loading": "加载中...",
+          "set": "已设置密码",
+          "missing": "未设置密码"
+        },
+        "twofactor": {
+          "label": "双重验证",
+          "loading": "加载中...",
+          "enabled": "已开启",
+          "disabled": "尚未开启"
+        },
+        "passkeys": {
+          "label": "通行密钥",
+          "loading": "加载中...",
+          "none": "暂无通行密钥",
+          "active": "{count} 个有效"
+        },
+        "activity": {
+          "label": "你的登录位置",
+          "summary": "{total} 个活动会话，其中 {others} 个在其他设备上"
+        },
+        "automated": {
+          "label": "自动决策",
+          "summary": "查看哪些自动规则在保护你的账户，并申请人工审核。"
+        }
+      },
+      "passwordModal": {
+        "title": "更改密码",
+        "subtitle": "创建至少 12 个字符的密码。请选择别人猜不到的内容。",
+        "currentPassword": "当前密码",
+        "newPassword": "新密码",
+        "repeatPassword": "重复新密码",
+        "forgotPassword": "忘记密码？",
+        "logoutOthers": "在其他设备上退出登录。如果有其他人使用过你的账户，请选择此项。",
+        "submit": "更改密码",
+        "pending": "处理中...",
+        "success": "你的密码已更新。",
+        "mismatch": "两次输入的新密码不一致。",
+        "submitError": "无法更改密码。",
+        "logoutOthersTitle": "退出其他设备的登录",
+        "logoutOthersHint": "如果其他人可能使用过你的账户，建议这样做。",
+        "incorrect": "你当前的密码不正确。",
+        "tooWeak": "请选择符合以下所有要求的密码。"
+      },
+      "twoFactor": {
+        "idleTitle": "帮助保护你的账户",
+        "idleSubtitle": "设置双重验证后，当有人从我们无法识别的设备登录时，我们会要求输入登录代码。",
+        "manageTitle": "双重验证已开启",
+        "manageSubtitle": "现在，每当你从我们无法识别的设备登录时，我们都会要求输入登录代码。",
+        "appSettingsTitle": "身份验证应用",
+        "extraMethodsTitle": "其他方式",
+        "extraMethodsSubtitle": "如果你的其他安全方式不可用，你仍可使用这些选项登录。",
+        "recoveryCodesTitle": "恢复代码",
+        "recoveryCodesSubtitle": "每个恢复代码只能使用一次。请妥善保管。如果没有它们，在你丢失手机或其他登录方式时，可能会无法访问账户。",
+        "setupTitle": "设置说明",
+        "namingTitle": "为你的设备命名",
+        "namingSubtitle": "为你的身份验证应用起一个易于识别的名称，这样你就知道自己使用的是哪台设备。",
+        "verifyTitle": "输入代码",
+        "verifySubtitle": "输入身份验证应用中的 6 位代码以完成设置。",
+        "successTitle": "双重验证已开启",
+        "successSubtitle": "现在，每当你从我们无法识别的设备登录时，我们都会要求输入登录代码。想更新联系信息？请前往账户中心的“个人信息”。",
+        "verifiedTitle": "备用代码",
+        "verifiedSubtitle": "请将这些代码存放在安全的地方。如果你无法访问身份验证应用，可以使用它们。",
+        "learnMore": "了解更多",
+        "receiveCodesTitle": "选择你接收代码的方式",
+        "authenticatorTitle": "身份验证应用",
+        "authenticatorDescription": "通过 Duo Mobile 或 Google Authenticator 等应用接收一次性代码。",
+        "recommended": "推荐",
+        "continue": "继续",
+        "working": "处理中...",
+        "enabledSuccess": "双重验证已关闭。",
+        "disableError": "无法停用身份验证应用。",
+        "startError": "无法开始身份验证器设置。",
+        "verifyError": "无法验证身份验证应用。",
+        "regenerateError": "无法重新生成恢复代码。",
+        "downloadError": "下载前请先生成一组新的恢复代码。",
+        "recoveryRegenerated": "已生成新的恢复代码。",
+        "manage": {
+          "receiveCodesTitle": "接收登录代码",
+          "authenticatorDescription": "你通过身份验证应用接收登录代码。",
+          "additionalMethodsTitle": "其他方式",
+          "additionalMethodsDescription": "了解在其他方式不可用时，你仍可如何安全登录。"
+        },
+        "appSettings": {
+          "title": "身份验证应用",
+          "description": "你通过身份验证应用接收登录代码。",
+          "connectedDevicesTitle": "已连接的设备",
+          "add": "添加",
+          "connectedDevicesDescription": "你可以添加多台设备，这样每台已关联的设备都能通过其上的身份验证应用接收 6 位登录代码。",
+          "noDevices": "暂无已连接的设备",
+          "lastUsed": "上次使用：{date}",
+          "added": "添加时间：{date}",
+          "active": "正在使用的身份验证应用"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "恢复代码",
+          "recoveryCodesDescription": "无法使用手机时，请使用这些代码。"
+        },
+        "recoveryCodes": {
+          "download": "下载代码",
+          "regenerate": "获取新代码",
+          "existing": "你有 {count} 个未使用的恢复代码。点击“获取新代码”可生成一组新代码。",
+          "empty": "此会话中暂无可见的恢复代码。点击“获取新代码”可生成一组新代码。"
+        },
+        "setup": {
+          "step1Title": "1. 下载身份验证应用",
+          "step1Description": "如果你尚未安装，我们建议下载 Duo Mobile 或 Google Authenticator。",
+          "step2Title": "2. 扫描此二维码或复制密钥",
+          "step2Description": "在身份验证应用中扫描此二维码，或复制密钥并粘贴到应用中。",
+          "copyKey": "复制密钥",
+          "step3Title": "3. 复制六位数代码并输入",
+          "step3Description": "扫描二维码或输入密钥后，你的应用会生成一个 6 位代码。请点击下方的“输入代码”。",
+          "enterCode": "输入代码",
+          "qrAlt": "用于验证器应用的二维码"
+        },
+        "naming": {
+          "label": "设备名称（例如：Stijn 的 iPhone）",
+          "next": "下一步"
+        },
+        "verify": {
+          "label": "身份验证应用中的代码",
+          "submit": "验证代码"
+        },
+        "success": {
+          "done": "完成"
+        },
+        "ui": {
+          "on": "已开启",
+          "turnOff": "关闭",
+          "turnOffConfirm": "要关闭双重验证吗？之后登录只需要你的密码。",
+          "cancel": "取消",
+          "copyKey": "复制",
+          "copied": "已复制",
+          "manualKey": "设置密钥",
+          "status": "状态"
+        },
+        "recoveryDocument": {
+          "rowTitle": "恢复文件",
+          "rowDescription": "上传后即可登录的 PDF，无需密码或代码。",
+          "otherMethodsTitle": "其他登录方式",
+          "title": "恢复文件",
+          "subtitle": "登录时上传的 PDF。它能让你立即登录，无需密码或代码。丢失手机或忘记密码时很有用。",
+          "download": "下载恢复文件",
+          "downloading": "正在生成文件…",
+          "downloaded": "已下载。请把文件保存在安全的地方。",
+          "made": "生成于 {date}",
+          "lastUsed": "上次使用：{date}",
+          "notUsed": "尚未使用",
+          "remove": "移除",
+          "removeConfirm": "要移除你的恢复文件吗？它会立即失效。",
+          "removed": "恢复文件已移除。",
+          "cancel": "取消",
+          "newTitle": "需要新文件？",
+          "newText": "文件只能下载一次。要获取新文件，请输入我们通过邮件发给你的代码进行确认。你当前的文件随后会失效。",
+          "requestCode": "通过邮件发送代码",
+          "sending": "正在发送…",
+          "codeSent": "我们已将代码发送到 {email}。",
+          "codeLabel": "代码",
+          "confirmDownload": "确认并下载",
+          "loadError": "暂时无法加载。请稍后再试。",
+          "errors": {
+            "code_invalid": "代码不正确。请检查邮件后重试。",
+            "code_expired": "此代码已过期。请重新获取。",
+            "rate_limited": "尝试次数过多。请稍后再试。",
+            "send_failed": "暂时无法发送邮件。请稍后再试。",
+            "generic": "出现问题。请稍后再试。"
+          },
+          "points": [
+            {
+              "title": "仅下载一次",
+              "text": "文件只能现在下载。之后如需新文件,需用我们通过邮件发送的验证码确认。"
+            },
+            {
+              "title": "妥善保管",
+              "text": "例如打印出来,或存放在加密磁盘上。任何拥有此文件的人都能登录你的账户,所以请勿通过邮件发送或分享。"
+            },
+            {
+              "title": "用它登录",
+              "text": "登录时输入你的邮箱，选择“忘记密码？”，再选择“使用恢复文件登录”，然后上传 PDF。"
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "通行密钥",
+        "subtitle": "通行密钥是无需密码的安全便捷登录方式。你可以使用指纹、面容或设备屏幕锁。",
+        "add": "添加通行密钥",
+        "empty": "你还没有添加任何通行密钥。",
+        "unnamed": "未命名的通行密钥",
+        "addedOn": "添加于 {date}",
+        "lastUsed": "上次使用 {date}",
+        "never": "从未使用",
+        "delete": "删除",
+        "count": "你有 {count} 个有效的通行密钥。",
+        "none": "你还没有设置任何通行密钥。",
+        "success": "通行密钥注册成功！",
+        "error": "通行密钥注册失败。",
+        "pending": "注册中...",
+        "emptyTitle": "还没有 passkey",
+        "emptyText": "添加一个，即可用指纹、面容或设备屏幕锁代替密码登录。你的密码仍然可用。",
+        "deleteConfirm": "移除此 passkey？你将无法再用它登录。",
+        "cancel": "取消",
+        "removing": "正在移除...",
+        "createTitle": "创建 passkey",
+        "createSubtitle": "passkey 让你可以用指纹、面容或设备屏幕锁登录。它由你的设备或密码管理器保存，不会离开它。",
+        "nameLabel": "Passkey 名称",
+        "nameHint": "便于区分你的 passkey，例如保存它的设备或密码管理器。",
+        "whatHappensTitle": "接下来会发生什么",
+        "whatHappens1": "你的浏览器或密码管理器会询问把 passkey 保存在哪里。",
+        "whatHappens2": "用指纹、面容或屏幕锁确认。",
+        "whatHappens3": "之后登录时就可以选择该 passkey。",
+        "create": "创建 passkey",
+        "waiting": "请按照浏览器或密码管理器的提示操作…",
+        "cancelled": "没有创建 passkey。你可以再试一次。",
+        "doneTitle": "已添加 passkey",
+        "doneSubtitle": "现在你可以使用“{name}”登录了。你的密码仍然可用。",
+        "done": "完成",
+        "back": "返回",
+        "removeError": "无法移除通行密钥。请重试。",
+        "defaultName": "{system} 上的 {browser}",
+        "rowDescription": "使用你的指纹、面部或设备 PIN 码登录。"
+      },
+      "activityModal": {
+        "title": "账户登录活动",
+        "subtitle": "你的账户目前登录的位置。请退出登录任何你不认识的设备。",
+        "unknownDevice": "未知设备",
+        "unknownLocation": "未知位置",
+        "currentDevice": "此设备",
+        "lastActive": "上次活动 {date}",
+        "revoke": "退出登录",
+        "revokePending": "处理中...",
+        "revokeAllTitle": "其他设备上的登录",
+        "revokeAll": "退出所有其他设备",
+        "revokeAllPending": "处理中...",
+        "revokeSuccess": "该会话已被撤销。",
+        "revokeAllSuccess": "所有其他会话已退出登录。",
+        "revokeError": "无法撤销会话。",
+        "viewMore": "+ {count} 台其他设备",
+        "activeNow": "当前活跃",
+        "thisDeviceTitle": "此设备",
+        "otherEmpty": "你没有在任何其他设备上登录。",
+        "showAll": "显示全部 {count} 个",
+        "revokeAllConfirm": "要退出其他全部 {count} 台设备的登录吗？正在使用这些设备的人需要重新登录。",
+        "cancel": "取消"
+      },
+      "automatedDecisions": {
+        "title": "自动决策",
+        "description": "部分账户保护决策是根据登录模式和可疑活动等信号自动做出的。你可以请 Ordnary 的工作人员审核结果。",
+        "back": "返回",
+        "close": "关闭",
+        "loading": "正在加载…",
+        "currentStateTitle": "当前自动状态",
+        "riskLabels": {
+          "LOW": "低风险",
+          "MEDIUM": "中风险",
+          "HIGH": "高风险"
+        },
+        "statusLabels": {
+          "ACTIVE": "正常",
+          "SUSPENDED": "暂时停用",
+          "DEACTIVATED": "已停用",
+          "DELETED": "待删除"
+        },
+        "suspendedExplanation": "你的账户目前受到自动规则限制。你可以在下方申请人工审核。Ordnary 的工作人员会查看相关信号和你的说明，然后确认或推翻该决定。",
+        "elevatedExplanation": "根据近期活动，你账户的风险等级已被提高。如果你认为这些信号有误，可以申请人工审核。",
+        "okExplanation": "我们没有对你的账户标记任何自动限制。你仍可在下方申请审核过去的任何决定。",
+        "lastEvaluated": "上次评估",
+        "signalsTitle": "近期安全信号",
+        "signalsEmpty": "近期没有记录到安全信号。",
+        "appealTitle": "申请人工审核",
+        "appealSubtitle": "Ordnary 的审核人员会查看自动决策、你的说明以及相关信号。我们会在合理时间内答复。",
+        "pickReason": "你想对什么提出异议？",
+        "reasons": {
+          "SUSPENSION_APPEAL": "我认为停用有误",
+          "RISK_LEVEL_OBJECTION": "我认为我的风险等级不正确",
+          "SECURITY_EVENT_OBJECTION": "我想对某个特定的安全信号提出异议",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "我希望由人工审核我账户上的自动决策"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "你的账户目前被停用，你希望对该决定进行审核。",
+          "RISK_LEVEL_OBJECTION": "你的风险等级高于预期，你希望重新评估。",
+          "SECURITY_EVENT_OBJECTION": "记录了一个你不认识的特定安全事件。",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "你希望由人工查看你账户上的自动决策。"
+        },
+        "yourStatement": "你的说明（选填）",
+        "statementPlaceholder": "请告诉我们需要了解的任何情况，例如你在旅行、使用了新设备，或有人一直试图闯入。",
+        "statementCounter": "{count} / {max}",
+        "submit": "提交审核请求",
+        "submitting": "正在提交...",
+        "submitted": "我们已收到你的请求，会尽快回复你。",
+        "pendingTitle": "审核进行中",
+        "pendingSubtitle": "Ordnary 的工作人员正在处理你的请求。有更新时我们会通知你。",
+        "withdraw": "撤回请求",
+        "withdrawing": "正在撤回...",
+        "withdrawn": "请求已撤回。",
+        "withdrawableHint": "你可以随时撤回此请求。",
+        "historyTitle": "过往审核请求",
+        "historyEmpty": "没有以往的审核请求。",
+        "outcomes": {
+          "UPHELD": "维持原决定",
+          "OVERTURNED": "已推翻",
+          "ADJUSTED": "已调整",
+          "ESCALATED": "已上报"
+        },
+        "statuses": {
+          "PENDING": "待处理",
+          "IN_REVIEW": "审核中",
+          "RESOLVED": "已解决",
+          "WITHDRAWN": "已撤回"
+        },
+        "loadError": "无法加载自动决策详情。",
+        "alreadyOpen": "你已有一个未结的审核请求。",
+        "cooldown": "你可以在 {hours} 小时后再次提交新的审核请求。这段冷却时间有助于审核人员处理上一个请求。",
+        "showAll": "显示全部（{count}）",
+        "showLess": "收起"
+      },
+      "previewBadge": "预览",
+      "previewBadgeTooltip": "新功能,仍在改进中。Passkey 可以使用,但细节可能会变化。"
+    },
+    "connections": {
+      "title": "已连接的应用",
+      "description": "有权访问你的 Ordnary 账户数据的应用。",
+      "empty": "你还没有连接任何应用。",
+      "authorizedScopes": "已授权范围：{scopes}",
+      "granted": "授权时间：{date}",
+      "revoke": "撤销访问权限"
+    },
+    "devices": {
+      "title": "设备和会话",
+      "description": "管理你在不同设备上的活动会话。",
+      "logoutOthers": "退出所有其他设备",
+      "headers": {
+        "device": "设备",
+        "location": "位置 / IP",
+        "lastActive": "上次活动",
+        "type": "类型",
+        "actions": "操作"
+      },
+      "unknownDevice": "未知设备",
+      "currentSession": "（当前会话）",
+      "typeFormat": "{browser}（{os}）",
+      "revoke": "撤销"
+    },
+    "passkeysPage": {
+      "title": "通行密钥",
+      "description": "管理你的生物识别和硬件密钥，用于无密码登录。",
+      "add": "+ 添加新的通行密钥",
+      "empty": "你还没有添加任何通行密钥。",
+      "unnamed": "未命名的通行密钥",
+      "addedOn": "添加时间：{date}",
+      "lastUsed": "上次使用：{date}",
+      "never": "从未",
+      "delete": "删除"
+    },
+    "activity": {
+      "title": "最近活动",
+      "description": "查看并监控与你的账户安全相关的重要事件和更改。",
+      "details": "详情",
+      "dates": {
+        "today": "今天，4 月 17 日",
+        "yesterday": "昨天，4 月 16 日"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "已登录",
+        "LOGIN_FAILED": "登录失败",
+        "LOGIN_LOCKED": "登录已被阻止",
+        "LOGOUT": "已退出登录",
+        "SESSION_CREATED": "会话已创建",
+        "SESSION_REVOKED": "会话已结束",
+        "SESSION_ALL_REVOKED": "已在所有设备上退出登录",
+        "PASSWORD_SET": "已设置密码",
+        "PASSWORD_CHANGED": "密码已更改",
+        "PASSWORD_RESET_REQUESTED": "已请求重置密码",
+        "PASSWORD_RESET_COMPLETED": "密码已重置",
+        "PASSKEY_REGISTERED": "通行密钥已注册",
+        "PASSKEY_USED": "已使用通行密钥登录",
+        "PASSKEY_REMOVED": "通行密钥已移除",
+        "PASSKEY_COUNTER_MISMATCH": "通行密钥警告",
+        "MFA_ENABLED": "双重验证已开启",
+        "MFA_DISABLED": "双重验证已停用",
+        "MFA_FACTOR_ENROLLED": "已添加身份验证器应用",
+        "MFA_FACTOR_VERIFIED": "身份验证器应用已确认",
+        "MFA_FACTOR_REVOKED": "身份验证器应用已移除",
+        "RECOVERY_CODES_GENERATED": "新的恢复代码",
+        "RECOVERY_CODE_USED": "已使用恢复代码",
+        "STEP_UP_REQUIRED": "已要求确认身份",
+        "STEP_UP_COMPLETED": "已确认是你本人",
+        "EMAIL_ADDED": "已添加电子邮件地址",
+        "EMAIL_VERIFIED": "电子邮件地址已确认",
+        "EMAIL_REMOVED": "电子邮件地址已移除",
+        "EMAIL_PRIMARY_CHANGED": "主电子邮件已更改",
+        "ACCOUNT_CREATED": "账户已创建",
+        "ACCOUNT_UPDATED": "账户已更新",
+        "ACCOUNT_DELETED": "已开始删除账户",
+        "ACCOUNT_REACTIVATED": "账户已重新激活",
+        "OAUTH_CONSENT_GRANTED": "已授予应用访问权限",
+        "OAUTH_CONSENT_REVOKED": "已移除应用访问权限",
+        "OAUTH_TOKEN_ISSUED": "应用已登录",
+        "OAUTH_TOKEN_REVOKED": "应用已退出登录",
+        "SUSPICIOUS_NEW_LOCATION": "从新位置登录",
+        "SUSPICIOUS_NEW_DEVICE": "在新设备上登录",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "异常登录",
+        "NOTIFICATION_PREFERENCE_CHANGED": "电子邮件偏好已更改",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "已退订",
+        "PRIVACY_REQUEST_FILED": "已提交隐私请求",
+        "PRIVACY_REQUEST_RESOLVED": "隐私请求已处理",
+        "DSAR_FILED": "已提交数据请求",
+        "DSAR_FULFILLED": "数据请求已完成",
+        "DSAR_REJECTED": "数据请求已被拒绝",
+        "RISK_REVIEW_REQUESTED": "已请求审核",
+        "RISK_REVIEW_RESOLVED": "审核已完成"
+      },
+      "severities": {
+        "INFO": "信息",
+        "MEDIUM": "中",
+        "HIGH": "高",
+        "CRITICAL": "严重",
+        "LOW": "低"
+      },
+      "empty": "你的账户还没有任何活动。",
+      "filters": {
+        "all": "全部",
+        "account": "账户更改",
+        "security": "安全提醒"
+      },
+      "retention": "活动记录会保留 {days} 天。你可以在{link}中更改此设置。",
+      "retentionLink": "你的信息和权限",
+      "emptyFiltered": "此视图中没有可显示的内容。",
+      "explanations": {
+        "LOGIN_SUCCESS": "有人使用密码或登录验证码登录了你的账户。",
+        "LOGIN_FAILED": "有人尝试登录你的账户，但密码或验证码错误。如果只有几次，通常是输入错误。",
+        "LOGIN_LOCKED": "由于错误尝试次数过多，为保护账户安全，登录你的账户已被暂时阻止。",
+        "LOGOUT": "你账户上的一个会话已退出登录。",
+        "SESSION_CREATED": "你的账户在某个设备或浏览器上登录，从而开始了一个新会话。",
+        "SESSION_REVOKED": "你账户上的一个会话已被退出登录，可能是你本人操作，也可能是因为该会话已不再安全。",
+        "SESSION_ALL_REVOKED": "你的账户已在所有其他设备上退出登录。",
+        "PASSWORD_SET": "你的账户已添加密码。",
+        "PASSWORD_CHANGED": "你的账户密码已更改。",
+        "PASSWORD_RESET_REQUESTED": "用于重置密码的验证码已发送到你的电子邮件地址。",
+        "PASSWORD_RESET_COMPLETED": "你的密码已通过电子邮件中的验证码重置，并且你已在所有设备上退出登录。",
+        "PASSKEY_REGISTERED": "已添加通行密钥，你可以使用设备而不是密码登录。",
+        "PASSKEY_USED": "有人使用该账户的一个通行密钥登录了你的账户。",
+        "PASSKEY_REMOVED": "通行密钥已被移除，无法再用于登录。",
+        "PASSKEY_COUNTER_MISMATCH": "通行密钥报告了异常情况，这可能意味着它已被复制。该登录已被拒绝。",
+        "MFA_ENABLED": "现在登录时还会要求输入身份验证器应用中的代码。",
+        "MFA_DISABLED": "登录时将不再要求输入身份验证器应用中的代码。",
+        "MFA_FACTOR_ENROLLED": "身份验证器应用已关联到你的账户。",
+        "MFA_FACTOR_VERIFIED": "来自你的身份验证器应用的代码已确认。",
+        "MFA_FACTOR_REVOKED": "身份验证器应用已从你的账户中移除。",
+        "RECOVERY_CODES_GENERATED": "已生成一组新的恢复代码。旧代码已失效。",
+        "RECOVERY_CODE_USED": "有人使用你的一个恢复代码而不是身份验证器代码登录。该代码无法再次使用。",
+        "STEP_UP_REQUIRED": "在进行敏感更改之前，系统要求你通过电子邮件验证码确认是你本人。",
+        "STEP_UP_COMPLETED": "电子邮件验证码已确认是你本人，因此在一段时间内允许进行敏感更改。",
+        "EMAIL_ADDED": "你的账户已添加一个电子邮件地址，并已向其发送确认链接。",
+        "EMAIL_VERIFIED": "你账户中的一个电子邮件地址已确认。",
+        "EMAIL_REMOVED": "一个电子邮件地址已从你的账户中移除。",
+        "EMAIL_PRIMARY_CHANGED": "另一个电子邮件地址已成为你账户的主地址，用于登录和接收消息。",
+        "ACCOUNT_CREATED": "你的 Ordnary 账户已创建。",
+        "ACCOUNT_UPDATED": "你账户中的某项设置或信息已更改。",
+        "ACCOUNT_DELETED": "你的账户已被设置为删除。30 天内可以恢复。",
+        "ACCOUNT_REACTIVATED": "你的账户在被停用或删除后已重新启用。",
+        "OAUTH_CONSENT_GRANTED": "某个应用已通过 Ordnary ID 获得访问你账户的权限。",
+        "OAUTH_CONSENT_REVOKED": "某个应用已不再拥有访问你账户的权限。",
+        "OAUTH_TOKEN_ISSUED": "你通过 Ordnary ID 使用的某个应用获得了新的登录令牌。",
+        "OAUTH_TOKEN_REVOKED": "某个应用的登录令牌已被撤销。",
+        "SUSPICIOUS_NEW_LOCATION": "你的账户在一个以前从未使用过的位置被使用。",
+        "SUSPICIOUS_NEW_DEVICE": "你的账户在一台以前从未使用过的设备上被使用。",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "你的账户在两个相距过远的位置被使用，同一个人不可能在这段时间内往返两地。",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Ordnary 可以向你发送的电子邮件类型已更改。",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "某封电子邮件中的退订链接关闭了一类电子邮件。",
+        "PRIVACY_REQUEST_FILED": "已提交反对或限制处理你的数据的请求。",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary 已处理你提出的反对或限制处理的请求。",
+        "DSAR_FILED": "已提交有关你的数据的请求（访问、更正、删除或获取副本）。",
+        "DSAR_FULFILLED": "Ordnary 已完成你的数据请求。",
+        "DSAR_REJECTED": "Ordnary 已拒绝你的数据请求；电子邮件中说明了原因。",
+        "RISK_REVIEW_REQUESTED": "已请求审核针对你账户的一项自动决定。",
+        "RISK_REVIEW_RESOLVED": "Ordnary 的工作人员已审核针对你账户的一项自动决定。"
+      },
+      "detail": {
+        "ifNotYou": "不是你本人？请在“密码与安全”中更改密码，并让其他设备退出登录。",
+        "ifNotYouLink": "前往密码与安全",
+        "generic": "此活动已记录在你的账户中。",
+        "labels": {
+          "when": "时间",
+          "where": "位置",
+          "ip": "IP 地址",
+          "session": "会话",
+          "thisDevice": "此设备",
+          "event": "事件",
+          "source": "记录来源",
+          "severity": "重要程度"
+        },
+        "sources": {
+          "AUDIT_LOG": "账户日志",
+          "SECURITY_EVENT": "安全监控"
+        },
+        "unknown": "未知",
+        "times": "{count}×",
+        "timeSpan": "{from} 至 {to}"
+      },
+      "showMore": "显示更早的日期",
+      "loadingMore": "正在加载…",
+      "end": "以上是保留的全部活动。",
+      "loadFailed": "无法加载更多内容。请重试。"
+    },
+    "connectedAppsDemo": {
+      "title": "已连接的应用",
+      "description": "你已授予其访问部分账户数据权限的第三方应用和服务。",
+      "badges": {
+        "official": "官方",
+        "verified": "已验证"
+      },
+      "accessed": "访问于 {value}",
+      "revoke": "撤销访问权限",
+      "apps": {
+        "consoleReason": "管理你的云资源和部署流水线。",
+        "figmaReason": "用于协作原型设计的设计工具。",
+        "unknownGameName": "未知游戏",
+        "unknownGameReason": "一个请求了你个人资料信息的未验证应用。",
+        "currentSession": "当前会话",
+        "twoDaysAgo": "2 天前",
+        "lastMonth": "上个月"
+      }
+    },
+    "permissions": {
+      "title": "你的信息和权限",
+      "exportTitle": "导出你的信息",
+      "searchHistory": "Ordnary 活动",
+      "externalActivity": "你在 Ordnary 技术之外的活动",
+      "appConnections": "应用连接",
+      "manageContacts": "管理联系人",
+      "notice": "前往“导出你的信息”，下载或转移你的信息副本。",
+      "footer": "决定 Ordnary 技术可以使用哪些信息来影响你的体验。",
+      "privacyRightsTitle": "你的隐私权利",
+      "dsarTitle": "隐私与数据请求",
+      "dsarSubtitle": "提交正式的访问、更正、删除或可携带性请求（第 15-20 条）。",
+      "privacyRequestsTitle": "反对或限制",
+      "privacyRequestsSubtitle": "反对或限制特定的处理活动（第 18 条 / 第 21 条）。",
+      "processorsTitle": "谁在处理你的数据",
+      "processorsSubtitle": "我们为运营 Ordnary 而使用的公司、它们会收到什么,以及它们把数据存放在哪里。",
+      "cookiesTitle": "Cookie 偏好",
+      "cookiesSubtitle": "管理 Ordnary 可在此浏览器中使用哪些 Cookie。",
+      "minorConsentTitle": "家长同意",
+      "minorConsentSubtitle": "如果你未达到所在国家的同意年龄，需要家长或监护人同意（GDPR 第 8 条）。",
+      "notificationsTitle": "通知偏好",
+      "notificationsSubtitle": "选择 Ordnary 可以向你发送哪些类型的邮件。",
+      "notifications": {
+        "title": "通知偏好",
+        "close": "关闭",
+        "loading": "正在加载…",
+        "alwaysOn": "始终开启",
+        "description": "选择你想接收哪些来自 Ordnary 的邮件。",
+        "loadError": "暂时无法加载。请稍后再试。",
+        "saveError": "无法保存。请重试。",
+        "saved": "已保存。",
+        "alwaysTitle": "始终开启",
+        "alwaysText": "这些邮件用于保护你的账户安全，并确认你提出的请求，因此始终开启。",
+        "choiceTitle": "由你选择",
+        "turnAllOff": "关闭所有可选邮件",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "安全提醒",
+          "TRANSACTIONAL_ACCOUNT": "账户消息",
+          "PRODUCT_UPDATES": "产品更新",
+          "RECOMMENDATIONS": "推荐",
+          "MARKETING": "新闻和优惠"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "登录代码、密码重置，以及有关新登录或安全设置变更的提醒。",
+          "TRANSACTIONAL_ACCOUNT": "对你所做操作的确认，例如数据导出、隐私请求或家长同意。",
+          "PRODUCT_UPDATES": "Ordnary 产品的新动态，以及我们条款的变更。",
+          "RECOMMENDATIONS": "根据你使用 Ordnary 的方式提供的建议。",
+          "MARKETING": "偶尔发送的新闻通讯和优惠。"
+        }
+      },
+      "minorConsent": {
+        "title": "家长同意",
+        "description": "如果你还没到可以自行在网上表示同意的年龄，我们在使用你的部分信息之前，需要家长或监护人同意。这源自 GDPR 第 8 条。",
+        "close": "关闭",
+        "loading": "正在加载…",
+        "loadError": "我们暂时无法加载此内容。请稍后重试。",
+        "consentAge": "{country} 的同意年龄：{age}",
+        "yourAge": "你的年龄：{age}",
+        "adultTitle": "无需办理",
+        "adultBody": "你已达到可自行同意的年龄，因此不需要家长同意。",
+        "unknownTitle": "我们还不知道你的年龄",
+        "unknownBody": "请添加你的出生日期，以便我们判断你是否需要家长同意。",
+        "unknownAction": "添加出生日期",
+        "blockedTitle": "需要同意",
+        "blockedBody": "在家长或监护人同意之前，你账户的部分功能会受到限制。",
+        "pendingTitle": "等待你的家长或监护人",
+        "pendingBody": "我们已向 {email} 发送了请求。链接在 {date} 前有效。",
+        "verifiedTitle": "已同意",
+        "verifiedBody": "{email} 已于 {date} 同意。",
+        "parentEmail": "家长或监护人的邮箱",
+        "relationship": "这是谁，例如母亲（选填）",
+        "addMessage": "添加留言（选填）",
+        "notes": "给家长或监护人的留言",
+        "submit": "发送请求",
+        "submitting": "正在发送…",
+        "resend": "重新发送",
+        "changeEmail": "使用其他邮箱",
+        "cancel": "取消",
+        "revoke": "撤回",
+        "revokeConfirm": "要撤回同意吗？在家长或监护人再次同意之前，你账户的部分功能会再次受到限制。",
+        "revoking": "正在撤回…",
+        "revoked": "同意已撤回。",
+        "notMinor": "你已达到可自行同意的年龄。",
+        "invalidEmail": "请输入有效的邮箱地址。",
+        "requestSent": "请求已发送至 {email}。",
+        "points": [
+          {
+            "title": "输入家长的邮箱",
+            "text": "家长或监护人的电子邮箱地址。"
+          },
+          {
+            "title": "家长同意",
+            "text": "他们会收到一封带有同意链接的邮件，链接有效期 14 天。"
+          },
+          {
+            "title": "账号功能完整可用",
+            "text": "他们同意后，你账号上的限制将被解除。"
+          }
+        ]
+      },
+      "exportModalSubtitle": "你可以将自己的信息副本导出到外部服务或你的设备。可导出的数据包括你分享的内容和信息、你的活动，以及我们收集的信息。",
+      "exportButton": "发送下载链接",
+      "exportModalContentsTitle": "导出内容包括：",
+      "exportModalContents": [
+        "个人资料数据和账户设置",
+        "邮箱地址和手机号码",
+        "安全设置（passkey、MFA、设备）",
+        "会话和登录历史",
+        "付款详情",
+        "已连接的应用和 OAuth 授权",
+        "活动日志和安全事件",
+        "隐私和 Cookie 同意记录"
+      ],
+      "exportModalFormat": "格式：ZIP 压缩包，内含结构化 JSON 文件和一份易读的 README。",
+      "exportModalRateLimit": "你会收到一封带有一次性下载链接的邮件。每 24 小时最多导出 3 次。",
+      "exportDownload": {
+        "loading": "请稍候...",
+        "readyTitle": "你的数据导出已准备就绪",
+        "readyDescription": "点击下方按钮，将你的账户数据下载为 ZIP 压缩包。此链接仅可使用一次，24 小时后失效。",
+        "downloadButton": "下载你的数据",
+        "readyHint": "该文件以结构化 JSON 文件包含你的全部个人数据、安全设置、活动日志等内容。",
+        "downloadingTitle": "正在下载...",
+        "downloadingDescription": "正在准备你的导出内容。这可能需要几秒钟。",
+        "successTitle": "已开始下载",
+        "successDescription": "你的数据导出正在下载。请将文件保存在安全的地方，因为其中包含敏感的个人信息。",
+        "successHint": "此下载链接现已失效。如需新的导出，你可以在账户设置中申请。",
+        "backToSettings": "返回账户设置",
+        "expiredTitle": "链接已失效",
+        "expiredDescription": "此下载链接已过期或已被使用。下载链接有效期为 24 小时，且只能使用一次。",
+        "newExportButton": "申请新的导出",
+        "errorTitle": "出了点问题",
+        "errorDefault": "获取你的导出内容时出错。",
+        "noToken": "未找到下载令牌。"
+      },
+      "appConnectionsModalSubtitle": "通过应用连接，你可以在多个 Ordnary 产品中以及与其他公司一起完成各种操作。",
+      "connectButton": "连接",
+      "activityModalSubtitle": "查看和管理你在 Ordnary 生态系统中的活动，包括我们的 SaaS 产品和应用。我们使用这些信息了解你的行为，并在所有平台上优化你的体验。",
+      "accountsAndProfiles": "你的账户和资料",
+      "keepActivityFor": "活动保留时长",
+      "clearActivityButton": "清除所有活动",
+      "days3": "3 天",
+      "days7": "7 天",
+      "days14": "14 天",
+      "standardOption": "标准",
+      "noticeTitle": "获取你的信息副本",
+      "noticeText": "下载你的账户数据以便保存，或转移到其他服务。",
+      "noticeAction": "导出信息",
+      "experimentBadge": "实验",
+      "userFallback": "用户",
+      "avatarAlt": "头像",
+      "exportSent": "下载链接已发送至 {email}",
+      "exportFailed": "导出失败。请重试。",
+      "exportInProgress": "已有导出正在准备中。请稍后再试。",
+      "exportRateLimited": "你已达到导出次数上限。请在 {time}后重试。",
+      "saveFailed": "无法保存。请重试。",
+      "days30": "30 天",
+      "autoClear": {
+        "title": "自动清除 Ordnary 活动",
+        "subtitle": "选择我们保留你的活动多长时间。更早的活动会自动删除，适用于账户中心内的所有账户和个人资料。",
+        "standard": "标准",
+        "saving": "正在保存…",
+        "saved": "已保存。",
+        "back": "返回",
+        "close": "关闭",
+        "howTitle": "会删除什么",
+        "howText": "你的登录记录和账户的安全事件，例如新的登录、密码更改和被拦截的尝试，一旦超过你所选的期限就会删除。",
+        "howPermanent": "已删除的活动无法恢复。如果想保留，请先下载一份副本。",
+        "learnMore": "在 Ordnary 文档中进一步了解自动清除"
+      },
+      "experimentBadgeTooltip": "仍在开发中。你可以先看看,但暂时还不能连接应用。"
+    },
+    "payments": {
+      "title": "支付",
+      "subtitle": "管理你已保存的付款信息，以及哪些账户可以访问这些信息。{learnMore}",
+      "syncInfo": "在 2 个账户之间同步",
+      "addMethodTitle": "添加付款方式",
+      "addMethodSubtitle": "保存银行卡或关联你的 PayPal，让下次购物更轻松。",
+      "addMethodButton": "添加付款方式",
+      "shippingTitle": "配送信息",
+      "shippingAddress": "配送地址",
+      "emailAddress": "电子邮件地址",
+      "phoneNumber": "手机号码",
+      "addModal": {
+        "title": "添加付款方式",
+        "card": "信用卡或借记卡",
+        "paypal": "PayPal",
+        "footer": "此信息将保存在 Ordnary Pay 中，并同步到账户中心，你可以在那里管理这些信息。{learnMore}"
+      },
+      "creditCard": {
+        "title": "添加银行卡",
+        "subtitle": "你的卡号已加密并安全存储",
+        "cardNumber": "卡号",
+        "expiry": "有效期（MM/YY）",
+        "cvv": "CVV",
+        "name": "持卡人姓名",
+        "submit": "下一步",
+        "cvvTooltip": "验证码（CVV）是印在卡片背面或正面的安全码。",
+        "footer": "此信息将保存在 Ordnary Pay 中，并同步到账户中心，你可以在那里管理这些信息。{learnMore}"
+      },
+      "billingAddress": {
+        "title": "设置配送地址",
+        "subtitle": "为 Ordnary Pay 添加配送地址。这与你的银行卡设置流程是分开的。",
+        "search": "搜索地址",
+        "country": "国家或地区",
+        "fullName": "全名",
+        "street": "地址",
+        "street2": "地址第 2 行（选填）",
+        "city": "城市/区",
+        "state": "州/省/地区",
+        "zip": "邮政编码",
+        "submit": "保存地址"
+      }
+    },
+    "subscriptions": {
+      "description": "管理你的有效 Ordnary 订阅、续订和账单设置。",
+      "emptyTitle": "没有有效订阅",
+      "emptyDescription": "订阅关联到你的账户后会显示在这里。",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "不限次数访问 Ordnary Pictures 的优质媒体内容，包括精选电影、剧集、预告片，以及各受支持的 Ordnary 体验中的会员专属发行内容。",
+          "status": "有效",
+          "renewal": "按月续订",
+          "price": "每月 €9.99"
+        }
+      },
+      "manageSubscription": "管理订阅"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "访问被拒绝",
+        "description": "你目前无法访问账户中心。你的会话可能已过期，或你的账户受到限制。",
+        "action": "重新登录"
+      },
+      "suspended": {
+        "title": "账户已停用",
+        "description": "此账户已被停用或暂时受限。如果你认为这是误判，请联系支持团队。",
+        "action": "联系支持"
+      },
+      "banned": {
+        "title": "访问被永久拒绝",
+        "description": "你的账户因违反我们的服务条款而被永久封禁。",
+        "action": "查看条款"
+      },
+      "offline": {
+        "title": "无网络连接",
+        "description": "你似乎已离线。请检查网络连接后继续。",
+        "action": "重试"
+      },
+      "unknown": {
+        "title": "系统错误",
+        "description": "发生了意外错误。请稍后再试。",
+        "action": "返回首页"
+      },
+      "previousPage": "上一页"
+    },
+    "common": {
+      "noResults": "无结果",
+      "searchPlaceholder": "搜索..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} 想要访问你的账户",
+      "description": "你已以 {displayName} 的身份登录。仅在你信任此应用时才授予访问权限。",
+      "requestedPermissions": "请求的权限",
+      "approve": "授予访问权限",
+      "deny": "拒绝",
+      "errorTitle": "请求有问题",
+      "errorDescription": "授权请求无效或不完整。请检查参数。",
+      "unknownAppTitle": "无法验证应用",
+      "unknownAppDescription": "Ordnary 无法识别此应用。这通常是由于 client_id 或 redirect_uri 不正确。为了你的安全，我们无法继续。"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "此页面不可用",
+      "description": "链接可能已失效，或页面已被删除。请检查你要打开的链接是否正确。",
+      "button": "前往账户设置"
+    },
+    "serverError": {
+      "title": "出了点问题",
+      "description": "发生了意外错误。请稍后重试。",
+      "button": "重试"
+    }
+  },
+  "cookieConsent": {
+    "title": "允许在此浏览器中使用 Ordnary 的 Cookie 吗？",
+    "description": "我们使用 Cookie 和类似技术，在 Ordnary 产品中提供内容并加以改进。我们还会利用在 Ordnary 内外收到的信息，提供更安全的体验。这些 Cookie 是可选的。",
+    "essentialTitle": "必要 Cookie",
+    "essentialDesc": "这些 Cookie 是使用 Ordnary 产品所必需的，也是我们网站正常运行所必需的。",
+    "optionalTitle": "其他公司的 Cookie",
+    "optionalDesc": "我们使用这些 Cookie 在 Ordnary 产品之外向你展示广告，并在 Ordnary 产品中提供地图和视频等功能。这些 Cookie 是可选的。",
+    "policyInfo": "你决定我们可以使用哪些可选 Cookie。在我们的{cookiePolicy}中，你可以了解更多关于 Cookie 以及我们如何使用它们的信息，并且可以随时查看或更改你的选择。",
+    "cookiePolicy": "Cookie 政策",
+    "infoTitle": "关于 Cookie 的信息",
+    "policyRefreshNotice": "我们更新了记录 Cookie 选择的方式。请再次确认你的偏好，以便我们保存最新记录。",
+    "policyRevisionNotice": "我们的 Cookie 政策已更新。请重新查看你的偏好。",
+    "preferencesTitle": "你的 Cookie 偏好",
+    "preferencesDescription": "选择 Ordnary 可在此浏览器中使用哪些类别的 Cookie。你可以随时在账户中更改这些设置。",
+    "alwaysOn": "始终开启",
+    "categories": {
+      "essential": {
+        "title": "必要",
+        "description": "登录、安全以及产品其余部分正常运行所必需。"
+      },
+      "functional": {
+        "title": "功能性",
+        "description": "记住语言、主题和最近使用的账户等偏好。"
+      },
+      "analytics": {
+        "title": "分析",
+        "description": "帮助我们了解 Ordnary 的使用情况，以便改进。"
+      },
+      "marketing": {
+        "title": "营销",
+        "description": "来自 Ordnary 的关于产品和优惠的个性化信息。"
+      }
+    },
+    "items": {
+      "what": {
+        "title": "什么是 Cookie？",
+        "button": "了解更多"
+      },
+      "why": {
+        "title": "我们为什么使用 Cookie？",
+        "button": "了解更多"
+      },
+      "products": {
+        "title": "什么是 Ordnary 产品？",
+        "button": "了解更多"
+      },
+      "preferences": {
+        "title": "你的 Cookie 偏好",
+        "button": "了解更多"
+      }
+    },
+    "buttons": {
+      "reject": "拒绝可选 Cookie",
+      "accept": "允许所有 Cookie",
+      "rejectShort": "拒绝",
+      "acceptShort": "允许",
+      "customize": "自定义",
+      "save": "保存偏好",
+      "saveShort": "保存",
+      "close": "关闭"
+    }
+  },
+  "recentAccounts": {
+    "title": "使用你的 Ordnary 账户登录",
+    "continueAs": "以 {name} 的身份继续",
+    "loginAnother": "使用其他账户登录",
+    "remove": "移除账户"
+  },
+  "reauthenticate": {
+    "title": "确认是你本人",
+    "description": "你好 {name}，为了你的安全，在你{action}之前，我们需要验证是你本人。",
+    "codeSentTo": "我们已向 {email} 发送了一个代码。",
+    "codeSent": "我们已向你的邮箱发送了 6 位安全码。",
+    "securityCode": "安全码",
+    "continue": "继续",
+    "verifying": "正在验证…",
+    "sending": "正在发送…",
+    "cancel": "取消",
+    "errors": {
+      "sendFailed": "无法发送安全码。",
+      "invalidCode": "代码无效。",
+      "network": "网络错误。请重试。"
+    },
+    "actions": {
+      "changePassword": "更改密码",
+      "changeEmail": "管理电子邮件地址",
+      "managePasskeys": "管理通行密钥",
+      "manageMfa": "管理双重验证",
+      "revokeAllSessions": "在所有设备上退出登录",
+      "manageAccount": "停用或删除账号",
+      "rotateClientSecret": "轮换此客户端密钥",
+      "managePaymentMethods": "管理支付方式",
+      "authorizeApp": "授权此应用",
+      "generic": "继续此敏感操作"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "确认家长同意",
+    "description": "有用户请你根据 GDPR 第 8 条授权其 Ordnary 账户。点击下方的确认以记录你的同意。你之后可随时撤销，只需回复原邮件或联系 {email}。",
+    "idle": "应通过请求邮件中的链接打开此页面，以便包含确认令牌。",
+    "verifying": "正在验证…",
+    "success": "谢谢。家长同意已确认，我们已在用户端解锁该账户。用户也会收到通知。",
+    "errors": {
+      "tokenRequired": "未提供验证令牌。",
+      "tokenNotFound": "此确认链接已失效。",
+      "alreadyVerified": "此确认已被记录。",
+      "requestRevoked": "此请求已被撤回或被更新的请求取代。",
+      "tokenExpired": "此确认链接已过期。请让用户重新发送请求。",
+      "invalidBody": "验证请求格式不正确。",
+      "generic": "我们无法验证此确认链接。请让用户重新发送请求。"
+    }
+  },
+  "unsubscribe": {
+    "title": "取消订阅",
+    "idle": "请通过邮件中的链接打开此页面，以便包含取消订阅令牌。",
+    "verifying": "正在保存你的偏好…",
+    "success": "你已取消订阅。",
+    "successWithCategory": "你已取消订阅{category}。",
+    "manageAt": "你可以随时在 {link} 微调所有通知偏好。",
+    "categories": {
+      "transactionalSecurity": "安全提醒",
+      "transactionalAccount": "账户通知",
+      "productUpdates": "产品更新",
+      "recommendations": "推荐",
+      "marketing": "营销邮件"
+    },
+    "errors": {
+      "tokenRequired": "未提供取消订阅令牌。",
+      "tokenNotFound": "此取消订阅链接已失效。",
+      "alreadyRedeemed": "你已取消订阅此类别。",
+      "tokenExpired": "此取消订阅链接已过期。登录后你可以在账户中心管理偏好。",
+      "categoryMandatory": "此类别无法关闭，因为它包含安全及账户必需的通知。",
+      "generic": "我们无法处理此取消订阅链接。请登录后直接调整你的偏好。"
+    }
+  },
+  "dsarVerify": {
+    "title": "确认你的隐私请求",
+    "description": "请确认是你向 Ordnary 提交了这项关于你数据的请求。如果不是，请关闭此页面并通过 {email} 告诉我们。",
+    "idle": "请通过我们发送的邮件中的链接打开此页面，以便包含确认信息。",
+    "confirm": "确认请求",
+    "verifying": "正在确认…",
+    "success": "谢谢，你的请求已确认。我们会在法定期限内处理，完成后通过邮件通知你。",
+    "errors": {
+      "tokenRequired": "此链接缺少确认码。",
+      "tokenNotFound": "此链接已失效。",
+      "tokenExpired": "此链接已过期。请在账号中心重新提交请求。",
+      "alreadyProcessed": "此请求已确认或已处理。",
+      "generic": "无法确认此请求。请重试，或联系 {email}。"
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "你已退出登录。请重新登录后再试。",
+    "not_authenticated": "你已退出登录。请重新登录后再试。",
+    "step_up_required": "请先确认是你本人，然后再试一次。",
+    "rate_limited": "尝试次数过多。请等几分钟后再试。",
+    "first_party_only": "此功能仅在 Ordnary 自己的应用中可用。",
+    "invalid_request": "此请求有误。请刷新页面后再试。",
+    "invalid_body": "此请求有误。请刷新页面后再试。",
+    "invalid_action": "此处无法执行该操作。",
+    "missing_fields": "请填写所有字段。",
+    "internal_error": "我们这边出了点问题。请稍后再试。",
+    "internal_server_error": "我们这边出了点问题。请稍后再试。",
+    "unavailable": "目前无法使用。请稍后再试。",
+    "send_failed": "我们无法发送电子邮件。请稍后再试。",
+    "user_not_found": "我们找不到此账户。",
+    "invalid_email": "请输入有效的电子邮件地址。",
+    "missing_address": "请输入电子邮件地址。",
+    "email_already_exists": "该电子邮件地址已被使用。",
+    "email_not_found": "该电子邮件地址不在你的账户中。",
+    "cannot_delete_primary_email": "你无法移除主电子邮件地址。",
+    "failed_to_add_email": "我们无法添加此电子邮件地址。",
+    "failed_to_delete_email": "我们无法移除此电子邮件地址。",
+    "failed_to_send_verification_email": "我们无法发送验证邮件，因此未添加该地址。",
+    "no_email": "你的账户没有可发送的电子邮件地址。",
+    "no_primary_email": "你的账户没有主电子邮件地址。",
+    "password_mismatch": "两次输入的新密码不一致。",
+    "password_incorrect": "你当前的密码不正确。",
+    "password_too_weak": "新密码不符合要求。",
+    "password_change_failed": "我们无法更改你的密码。",
+    "no_password": "你的账户尚未设置密码。",
+    "passkey_not_found": "该通行密钥已不存在。",
+    "missing_passkey_id": "请先选择一个通行密钥。",
+    "session_not_found": "该会话已不存在。",
+    "missing_session_id": "请先选择一个会话。",
+    "cannot_revoke_current_session": "你无法退出当前正在此处使用的会话。",
+    "code_required": "请输入电子邮件中的代码。",
+    "code_invalid": "代码不正确。",
+    "code_expired": "代码已过期。请重新获取。",
+    "exists": "你已经有一个了。",
+    "not_deactivated": "你的账户未被停用。",
+    "grace_period_expired": "恢复此账户的 30 天期限已过。",
+    "token_required": "此链接不完整。",
+    "token_not_found": "此链接已失效。",
+    "token_expired": "此链接已过期。",
+    "already_redeemed": "此链接已被使用。",
+    "already_downloaded": "此下载已被使用。",
+    "already_verified": "此项已确认。",
+    "already_processed": "此请求已处理。",
+    "already_extended": "此请求的截止日期已延长。",
+    "invalid_date": "请输入有效的日期。",
+    "birthday_verification_attempt_not_found": "我们找不到该身份验证。请重新开始。",
+    "identity_verification_incomplete": "身份验证尚未完成。",
+    "identity_verification_dob_mismatch": "你证件上的出生日期与你输入的不一致。",
+    "identity_verification_dob_unavailable": "我们无法从你的证件中读取出生日期。",
+    "missing_attempt_id": "缺少身份验证信息。请重新开始。",
+    "invalid_kind": "请选择请求类型。",
+    "invalid_applies_to": "请选择此请求适用的对象。",
+    "invalid_filed_by": "请说明由谁提交此请求。",
+    "subject_email_required": "请输入此请求所涉及的电子邮件地址。",
+    "representative_email_required": "请输入代理人的电子邮件地址。",
+    "request_not_found": "我们找不到此请求。",
+    "request_already_open": "你已有一个此类未结的请求。",
+    "request_cooldown_active": "你最近已提交过此请求。请稍后再试。",
+    "request_closed": "此请求已关闭。",
+    "request_not_open": "此请求已不再处于开放状态。",
+    "request_not_verified": "此请求尚未确认。",
+    "request_revoked": "此请求已被撤回或替换。",
+    "no_download_for_kind": "此类请求没有可下载的内容。",
+    "export_already_in_progress": "已有一个导出正在准备中。",
+    "export_rate_limited": "你最近已导出过。请稍后再试。",
+    "invalid_retention_days": "请从提供的期限中选择一个。",
+    "invalid_category": "该通知类别不存在。",
+    "category_mandatory": "这些电子邮件无法关闭。",
+    "review_not_found": "我们找不到此审核。",
+    "review_already_open": "你已有一个未结的审核。",
+    "review_cooldown_active": "你最近已申请过审核。请稍后再试。",
+    "review_not_open": "此审核已不再处于开放状态。",
+    "review_not_pending": "此审核已无法更改。",
+    "invalid_review_type": "请选择审核类型。",
+    "no_active_consent": "没有可撤回的有效同意。",
+    "not_a_minor": "此账户不需要家长同意。",
+    "parent_email_required": "请输入你的家长或监护人的电子邮件地址。",
+    "invalid_parent_email": "请输入你的家长或监护人的有效电子邮件地址。",
+    "connection_not_found": "该应用已不再连接。",
+    "client_not_found": "我们找不到该应用。",
+    "too_large": "文件太大。",
+    "unsupported_type": "不支持该文件类型。",
+    "no_file": "请先选择一个文件。"
+  }
+}

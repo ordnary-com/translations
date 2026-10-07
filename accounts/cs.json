@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Centrum účtu",
+    "accountCenterSubtitle": "Spravujte své propojené služby a nastavení účtu napříč technologiemi Ordnary.",
+    "learnMore": "Zjistit více",
+    "loading": "Načítání...",
+    "back": "Zpět",
+    "close": "Zavřít",
+    "backToHome": "Zpět na domovskou stránku"
+  },
+  "nav": {
+    "profiles": "Profily",
+    "connectedExperiences": "Propojené služby",
+    "passwordAndSecurity": "Heslo a zabezpečení",
+    "personalDetails": "Osobní údaje a nastavení",
+    "education": "Vzdělávání",
+    "permissions": "Vaše informace a oprávnění",
+    "adPreferences": "Předvolby reklam",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Předplatné",
+    "accounts": "Účty",
+    "activity": "Aktivita"
+  },
+  "education": {
+    "title": "Vzdělávání",
+    "description": "Potvrďte školním e-mailem, že jste student, a získejte studentské výhody v produktech Ordnary, kde se nabízejí.",
+    "statusLabel": "Studentský status",
+    "statuses": {
+      "none": "Neověřeno",
+      "pending": "Čekáme, až otevřete odkaz",
+      "verified": "Ověřeno",
+      "revoked": "Již není aktivní"
+    },
+    "details": {
+      "title": "Vaše údaje",
+      "school": "Škola",
+      "email": "E-mail školy",
+      "verifiedOn": "Ověřeno dne"
+    },
+    "dialog": {
+      "title": "Ověření studenta",
+      "subtitle": "Školním e-mailem potvrďte, že jste student. Tuto adresu používáme jen k ověření a nikdy na ni nic jiného neposíláme.",
+      "close": "Zavřít",
+      "verifiedTitle": "Ověřeno",
+      "verifiedBody": "{email} ve škole {school}, od {date}.",
+      "pendingTitle": "Čekáme, až otevřete odkaz",
+      "pendingBody": "Poslali jsme odkaz na {email}. Otevřete ho do 24 hodin a dokončete tak ověření.",
+      "revokedTitle": "Již není aktivní",
+      "revokedBody": "Váš studentský status skončil. Potvrďte ho znovu školním e-mailem.",
+      "changeEmail": "Použít jiný školní e-mail",
+      "resend": "Poslat znovu",
+      "cancel": "Zrušit",
+      "emailLabel": "E-mail školy",
+      "detected": "{school}",
+      "notRecognised": "Tento e-mail jsme jako školní nerozpoznali. Použijte adresu, kterou vám škola přidělila.",
+      "send": "Poslat odkaz",
+      "sending": "Odesílání…",
+      "sent": "Odkaz byl odeslán na {email}.",
+      "sentWhileVerified": "Poslali jsme odkaz na {email}. Do jeho otevření zůstáváte ověřeni se svou současnou školou.",
+      "points": [
+        {
+          "title": "Zadejte školní e-mail",
+          "text": "Ukážeme, ke které škole adresa patří."
+        },
+        {
+          "title": "Otevřete odkaz",
+          "text": "Na tuto adresu pošleme odkaz. Funguje 24 hodin."
+        },
+        {
+          "title": "Jste ověřeni",
+          "text": "Váš statut studenta je aktivní v produktech Ordnary, které nabízejí studentské výhody."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Váš studentský status je nyní aktivní.",
+      "verificationError": "Tento odkaz už nefunguje. Požádejte o nový."
+    },
+    "errors": {
+      "not_academic": "Tento e-mail jsme jako školní nerozpoznali. Použijte adresu, kterou vám škola přidělila.",
+      "account": "S vaším účtem se něco pokazilo. Zkuste to později znovu.",
+      "send_failed": "Odkaz se teď nepodařilo odeslat. Zkuste to později znovu.",
+      "no_pending": "Není co poslat znovu. Zadejte svůj školní e-mail.",
+      "not_authenticated": "Pro pokračování se přihlaste znovu."
+    }
+  },
+  "profiles": {
+    "title": "Profily",
+    "description": "Spravujte své propojené služby a nastavení účtu napříč technologiemi Ordnary.",
+    "addAccounts": "Přidat účty",
+    "detail": {
+      "aboutTitle": "O tomto profilu",
+      "accessTitle": "K čemu má {app} přístup",
+      "linksTitle": "Zásady aplikace {app}",
+      "mainProfile": "Hlavní profil",
+      "connected": "Připojená aplikace",
+      "verified": "Ověřeno společností Ordnary",
+      "connectedOn": "Připojeno dne",
+      "lastUsed": "Naposledy použito",
+      "never": "Zatím ne",
+      "activeSignIns": "Aktivní přihlášení",
+      "profileId": "ID profilu",
+      "email": "E-mailová adresa",
+      "memberSince": "Členem od",
+      "twoFactor": "Dvoufázové ověření",
+      "on": "Zapnuto",
+      "off": "Vypnuto",
+      "passkeys": "Passkeys",
+      "privacy": "Zásady ochrany osobních údajů",
+      "terms": "Podmínky služby",
+      "disconnect": "Odpojit",
+      "disconnectTitle": "Odpojit aplikaci {app}?",
+      "disconnectText": "Aplikace {app} už nemůže používat váš účet Ordnary a budete z ní odhlášeni. Znovu se můžete připojit později přihlášením do aplikace {app}.",
+      "disconnecting": "Odpojování...",
+      "cancel": "Zrušit",
+      "copied": "Zkopírováno",
+      "copy": "Kopírovat",
+      "scopes": {
+        "openid": "Rozpoznat vás pomocí účtu Ordnary",
+        "profile": "Vaše jméno a profilová fotka",
+        "email": "Vaše e-mailová adresa",
+        "offline_access": "Udržet vás přihlášené, když aplikaci nepoužíváte",
+        "phone": "Vaše telefonní číslo",
+        "address": "Vaše adresa"
+      },
+      "change": "Změnit",
+      "setUp": "Nastavit",
+      "manage": "Spravovat",
+      "add": "Přidat",
+      "none": "Zatím žádné"
+    },
+    "revokedSuccess": "Odpojeno",
+    "revokedError": "Odpojení se nezdařilo. Zkuste to znovu."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Vytvořit nový účet Ordnary?",
+      "registrationName": "Jak se jmenujete?",
+      "registrationBirthday": "Kdy máte narozeniny?",
+      "registrationPassword": "Vytvořte heslo",
+      "saveLoginInfo": "Uložit přihlašovací údaje?",
+      "registrationReview": "Dokončete vytvoření svého účtu",
+      "verifyEmailCode": "Zadejte potvrzovací kód",
+      "editEmail": "Jaká je vaše e-mailová adresa?",
+      "loginCodeEntry": "Zkontrolujte svůj e-mail",
+      "recoveryCodeEntry": "Potvrďte svůj účet",
+      "resetPassword": "Vytvořte nové heslo",
+      "passwordEntry": "Zadejte své heslo",
+      "identifierLookup": "Jaký je váš e-mail?",
+      "signIn": "Přihlásit se",
+      "mfaCodeEntry": "Zadejte ověřovací kód"
+    },
+    "descriptions": {
+      "identifierLookup": "Zadejte svůj e-mail a přihlaste se k účtu, nebo si vytvořte nový.",
+      "passwordEntry": "Pro přihlášení zadejte heslo spojené s {identifier}.",
+      "accountNotFound": "Nemůžeme najít účet Ordnary pro {email}. Možná jste si ho ještě nevytvořili. Pokud ano, může používat jiný identifikátor.",
+      "registrationName": "Toto jméno bude použito pro obnovu účtu a komunikaci o vašem účtu. Nebude veřejně viditelné.",
+      "registrationBirthday": "Použijte své skutečné datum narození, i když je tento účet určen pro firmu nebo něco jiného. Tyto informace nebudou veřejné.",
+      "registrationPassword": "Vytvořte heslo, které ostatní neuhodnou.",
+      "saveLoginInfo": "Uložíme přihlašovací údaje vašeho účtu, abyste je příště nemuseli zadávat znovu.",
+      "verifyEmailCode": "Zadejte 6místný kód odeslaný na {identifier}, abyste potvrdili svůj účet.",
+      "editEmail": "Zadejte e-mailovou adresu, na které vás můžeme kontaktovat. Tato adresa bude použita pro přihlášení a správu účtu a nebude veřejně viditelná.",
+      "loginCodeEntry": "Pro přihlášení zadejte kód, který jsme odeslali na {identifier}. Možná budete muset zkontrolovat složku se spamem nebo sociálními zprávami.",
+      "recoveryCodeEntry": "Poslali jsme kód na {identifier}. Zadejte tento kód pro potvrzení účtu.",
+      "resetPassword": "Toto heslo budete používat pro přihlášení ke svému účtu Ordnary. Použijte alespoň 6 písmen a číslic.",
+      "mfaCodeEntry": "Pokračujte zadáním 6místného kódu z vaší ověřovací aplikace."
+    },
+    "buttons": {
+      "createNewAccount": "Vytvořit nový účet",
+      "alreadyHaveAccount": "Už mám účet",
+      "next": "Další",
+      "save": "Uložit",
+      "notNow": "Teď ne",
+      "finish": "Dokončit",
+      "resendCode": "Poslat kód znovu",
+      "enterPassword": "Zadat heslo",
+      "forgotPassword": "Zapomněli jste heslo?",
+      "switchAccount": "Přepnout účet",
+      "yes": "Ano",
+      "no": "Ne",
+      "useEmailCode": "Přihlásit se kódem z e-mailu",
+      "signInWithPasskey": "Přihlásit se přístupovým klíčem",
+      "useRecoveryCode": "Použít obnovovací kód",
+      "useAuthenticatorCode": "Použít ověřovací aplikaci"
+    },
+    "labels": {
+      "name": "Jméno",
+      "firstName": "Křestní jméno",
+      "lastName": "Příjmení",
+      "day": "Den",
+      "month": "Měsíc",
+      "year": "Rok",
+      "dateOfBirth": "Datum narození",
+      "confirmationCode": "Potvrzovací kód",
+      "email": "E-mailová adresa",
+      "password": "Heslo",
+      "newPassword": "Nové heslo",
+      "logoutOthers": "Odhlaste se všude jinde, abyste měli jistotu, že k vašemu účtu už nikdo jiný nemá přístup",
+      "marketingEmails": "Chci dostávat e-maily o aplikacích, doporučeních a nabídkách pro Ordnary Identity.",
+      "showPassword": "Zobrazit heslo",
+      "hidePassword": "Skrýt heslo",
+      "clearInput": "Vymazat zadání",
+      "recoveryCode": "Obnovovací kód"
+    },
+    "links": {
+      "whyNeedBirthday": "Proč musím zadat své datum narození?",
+      "learnMore": "Zjistit více",
+      "editEmail": "Upravit e-mailovou adresu",
+      "noAccessEmail": "Už nemáte přístup k této e-mailové adrese?",
+      "termsOfService": "Podmínky služby",
+      "privacyPolicy": "Zásady ochrany soukromí",
+      "cookiePolicy": "Zásady souborů cookie"
+    },
+    "messages": {
+      "nameHelp": "Použití vašeho skutečného jména usnadní obnovu účtu, pokud ztratíte přístup.",
+      "emailHelp": "Použijte pracovní nebo osobní e-mail pro přístup ke službám Ordnary.",
+      "existingSessionTitle": "Již máte aktivní relaci",
+      "existingSessionDescription": "Už jste přihlášeni. Za {seconds} s vás přesměrujeme do Centra účtu.",
+      "summaryPrivacy": "Údaje vašeho účtu Ordnary nejsou veřejné.",
+      "verifyEmailLookFor": "Hledejte e-mail od notification@ordnary.com. Možná budete muset zkontrolovat i složku se spamem nebo sociálními zprávami.",
+      "termsAgreement": "Kliknutím na „Dokončit“ souhlasíte s Podmínkami služby, Zásadami ochrany soukromí a potvrzujete, že jste si přečetli naše Zásady souborů cookie.",
+      "footerAgreement": "Pokračováním potvrzujete, že jste si přečetli a souhlasíte s našimi Podmínkami služby, Zásadami ochrany soukromí a příslušnými pokyny pro zpracování dat. Také souhlasíte s přijímáním důležitých oznámení o účtu a zabezpečení souvisejících s používáním platformy.",
+      "emailMissing": "E-mailová adresa je povinná.",
+      "resendCodeError": "Při opakovaném odeslání kódu došlo k neočekávané chybě.",
+      "invalidInput": "Neplatný vstup.",
+      "credentialsPrompt": "Pro přihlášení zadejte heslo spojené s {identifier}.",
+      "checkEmailPrompt": "Pro přihlášení zadejte kód, který jsme poslali na {identifier}.",
+      "termsIntro": "Klepnutím na Dokončit souhlasíte s"
+    },
+    "validation": {
+      "emailRequired": "E-mailová adresa je povinná.",
+      "passwordRequired": "Heslo je povinné.",
+      "passwordMin": "Heslo musí mít alespoň 12 znaků.",
+      "passwordMax": "Heslo nesmí přesáhnout 128 znaků.",
+      "emailInvalid": "Zadejte platnou e-mailovou adresu.",
+      "displayNameMin": "Zobrazované jméno musí mít alespoň 2 znaky.",
+      "resetTokenRequired": "Resetovací token je povinný.",
+      "verificationTokenRequired": "Ověřovací token je povinný."
+    },
+    "errors": {
+      "invalidInput": "Neplatný vstup.",
+      "genericLoginFailed": "Nepodařilo se vás přihlásit. Zkuste to znovu.",
+      "loginInvalidCredentials": "Neplatný e-mail nebo heslo.",
+      "accountLocked": "Váš účet je uzamčen nebo pozastaven.",
+      "passwordIncorrect": "Zadané heslo není správné.",
+      "notAuthenticated": "Nejste ověřeni.",
+      "registrationMissingInfo": "Chybí povinné registrační údaje.",
+      "registrationEmailExists": "Účet s tímto e-mailem již existuje.",
+      "systemNoDefaultTenant": "Systémová chyba: nebyl nalezen výchozí tenant.",
+      "registrationFailed": "Registrace se nezdařila. Zkuste to znovu.",
+      "invalidVerificationRequest": "Neplatný požadavek na ověření.",
+      "accountNotFound": "Účet nebyl nalezen.",
+      "verificationCodeInvalidOrExpired": "Neplatný nebo prošlý ověřovací kód.",
+      "verificationFailedTryAgain": "Ověření se nezdařilo. Zkuste to znovu.",
+      "invalidRequest": "Neplatný požadavek.",
+      "userNotFound": "Uživatel nebyl nalezen.",
+      "codeInvalidOrExpired": "Neplatný nebo prošlý kód.",
+      "verificationFailed": "Ověření se nezdařilo.",
+      "missingInformation": "Chybějící informace.",
+      "passwordResetFailed": "Obnovení hesla se nezdařilo.",
+      "emailMissing": "Chybí e-mailová adresa.",
+      "resendCodeFailed": "Opětovné odeslání kódu se nezdařilo. Zkuste to znovu.",
+      "loginRequestFailed": "Váš požadavek na přihlášení se nepodařilo zpracovat. Zkuste to prosím znovu.",
+      "mfaDataMissing": "Chybí ověřovací údaje. Přihlaste se prosím znovu.",
+      "mfaNoAuthenticator": "Pro tento účet nebyla nalezena žádná aktivní ověřovací aplikace.",
+      "mfaCodeInvalid": "Neplatný ověřovací kód.",
+      "mfaVerificationFailed": "Ověření se nezdařilo. Přihlaste se prosím znovu.",
+      "requestRejected": "Tento požadavek se nepodařilo zpracovat. Zkuste to znovu.",
+      "tooManyAttempts": "Příliš mnoho pokusů. Zkuste to později.",
+      "tooManyFailedLogins": "Příliš mnoho neúspěšných pokusů o přihlášení. Chvíli počkejte a zkuste to znovu.",
+      "permanentEmailRequired": "Použijte trvalou e-mailovou adresu.",
+      "recoveryFileInvalid": "Tento soubor pro obnovení nefunguje. Mohl být nahrazen novějším nebo odebrán.",
+      "passkeyFailed": "Přihlášení přístupovým klíčem se nezdařilo. Zkuste to znovu nebo pokračujte e-mailem.",
+      "passwordTooWeak": "Zvolte heslo, které splňuje všechny požadavky níže."
+    },
+    "months": [
+      "leden",
+      "unor",
+      "brezen",
+      "duben",
+      "kveten",
+      "cerven",
+      "cervenec",
+      "srpen",
+      "zari",
+      "rijen",
+      "listopad",
+      "prosinec"
+    ],
+    "recoveryFile": {
+      "link": "Přihlásit se souborem pro obnovení",
+      "title": "Přihlásit se souborem pro obnovení",
+      "description": "Nahrajte soubor pro obnovení tohoto účtu, který jste stáhli v Centru účtu. Budete okamžitě přihlášeni.",
+      "choose": "Vybrat soubor",
+      "reading": "Přihlašování…",
+      "pasteInstead": "Místo toho vložit kód",
+      "codeLabel": "Kód ze souboru",
+      "signIn": "Přihlásit se",
+      "notAFile": "Toto není soubor pro obnovení z Ordnary. Vyberte PDF, které jste stáhli v Centru účtu.",
+      "back": "Použít místo toho kód z e-mailu"
+    },
+    "passwordRules": {
+      "length": "Alespoň 12 znaků",
+      "upper": "Velké písmeno",
+      "lower": "Malé písmeno",
+      "digit": "Číslice"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Nastavení účtu",
+      "appearanceLabel": "Vzhled",
+      "appearanceLight": "Světlý",
+      "appearanceSystem": "Podle systému",
+      "appearanceDark": "Tmavý",
+      "logout": "Odhlásit se",
+      "sessionExpired": "Platnost vaší relace vypršela. Pro pokračování se prosím přihlaste znovu.",
+      "logoutConfirmTitle": "Odhlásit se z Ordnary?",
+      "logoutCancel": "Zrušit",
+      "logoutConfirm": "Odhlásit se",
+      "language": "Jazyk"
+    },
+    "reactivate": {
+      "title": "Vítejte zpět, váš účet je deaktivován",
+      "description": "Když jste účet deaktivovali, pozastavili jsme e-maily a oznámení. Reaktivujte ho a vše se vrátí, nebo se odhlaste a rozhodněte se později. Vaše data tu stále jsou.",
+      "reactivate": "Reaktivovat můj účet",
+      "reactivating": "Reaktivace...",
+      "signOut": "Odhlásit se",
+      "signingOut": "Odhlašování...",
+      "footer": "Pokud raději chcete účet natrvalo smazat, přihlaste se a v části Osobní údaje zvolte Smazat účet.",
+      "successNotification": "Vítejte zpět. Váš účet je opět aktivní.",
+      "errorGeneric": "Účet se nepodařilo reaktivovat. Zkuste to za chvíli znovu.",
+      "deletedTitle": "Váš účet bude smazán",
+      "deletedDescription": "Natrvalo bude smazán {date}. Obnovte ho, abyste si vše ponechali, nebo se odhlaste a nechte smazání proběhnout.",
+      "restore": "Obnovit můj účet",
+      "restoring": "Obnovování..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profilová fotka",
+        "custom": "Vaše vlastní fotka",
+        "default": "Vygenerovaný avatar",
+        "modalTitle": "Profilová fotka",
+        "subtitle": "Zobrazuje se s vaším jménem v aplikacích Ordnary a v komunitě. Bez vlastní fotky dostanete avatar, který je jedinečný pro váš účet.",
+        "choose": "Vybrat fotku",
+        "change": "Vybrat jinou",
+        "remove": "Odebrat fotku",
+        "save": "Uložit fotku",
+        "saving": "Ukládání...",
+        "hint": "JPG, PNG nebo WebP. Fotka se ořízne na čtverec.",
+        "errorType": "Tento soubor nelze jako obrázek použít. Vyberte JPG, PNG nebo WebP.",
+        "errorFailed": "Fotku se nepodařilo uložit. Zkuste to prosím znovu."
+      },
+      "title": "Osobní údaje a nastavení",
+      "description": "Ordnary tyto údaje používá k ověření vaší identity a k ochraně komunity. Sami určujete, které osobní údaje uvidí ostatní.",
+      "contactDetails": "Kontaktní údaje",
+      "birthday": "Datum narození",
+      "ownership": "Vlastnictví a správa účtu",
+      "ownershipDescription": "Spravujte svá data, aktualizujte kontakt pro památníkové účty a deaktivujte nebo smažte své účty a profily.",
+      "loadingName": "Uživatel",
+      "modal": {
+        "title": "Vlastnictví a správa účtu",
+        "deactivationIndexTitle": "Deaktivace nebo smazání",
+        "deactivationIndexDescription": "Dočasně deaktivujte nebo trvale smažte své účty a profily.",
+        "optionsTitle": "Deaktivujte nebo smažte svůj účet Ordnary",
+        "optionsDescription": "Potřebujete pauzu? Deaktivujte účet a vraťte se, kdykoli budete chtít. Chcete Ordnary opustit? Smažte svůj účet.",
+        "deactivateTitle": "Deaktivovat účet",
+        "deactivateDescription": "Deaktivace účtu je dočasná. Váš účet bude vypnut a skryt před ostatními.",
+        "deleteTitle": "Smazat účet",
+        "deleteDescription": "Smazání účtu je trvalé. Po 30 dnech ho už nepůjde znovu aktivovat ani obnovit jeho data.",
+        "deactivateConfirmTitle": "Deaktivovat účet?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Budete všude odhlášeni",
+            "text": "Na všech zařízeních a ve všech aplikacích, které používáte s účtem Ordnary."
+          },
+          {
+            "title": "Váš profil bude skrytý",
+            "text": "Ostatní neuvidí vaše jméno ani profil, dokud je účet deaktivovaný."
+          },
+          {
+            "title": "Vraťte se kdykoli",
+            "text": "Znovu se přihlaste a účet se znovu aktivuje. Vše bude tak, jak jste to nechali."
+          }
+        ],
+        "deactivateConfirmButton": "Deaktivovat účet",
+        "deleteConfirmTitle": "Smazat účet?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Budete všude odhlášeni",
+            "text": "Na všech zařízeních a ve všech aplikacích, které používáte s účtem Ordnary."
+          },
+          {
+            "title": "Ztratíte přístup",
+            "text": "K Ordnary a ke všem aplikacím, do kterých se přihlašujete účtem Ordnary."
+          },
+          {
+            "title": "Po 30 dnech nadobro smazán",
+            "text": "Do té doby si to ještě můžete rozmyslet. Potom už účet ani data nepůjde obnovit."
+          }
+        ],
+        "deleteConfirmCheck": "Rozumím, že můj účet a data budou po 30 dnech trvale smazány.",
+        "deleteConfirmButton": "Smazat účet",
+        "cancel": "Zrušit",
+        "continue": "Pokračovat",
+        "working": "Pracuji...",
+        "deactivateSuccess": "Váš účet byl deaktivován. Přesměrování na přihlášení...",
+        "deleteSuccess": "Váš účet byl naplánován ke smazání. Přesměrování na přihlášení...",
+        "submitError": "Váš účet se nyní nepodařilo aktualizovat."
+      },
+      "missingBirthday": "Nenastaveno",
+      "loadError": "Osobní údaje se nepodařilo načíst.",
+      "preferences": {
+        "sectionTitle": "Předvolby",
+        "appearance": "Vzhled",
+        "appearanceDescription": "Upravte vzhled svého účtu Ordnary.",
+        "cookies": "Předvolby cookies",
+        "cookiesDescription": "Spravujte, které cookies může Ordnary v tomto prohlížeči používat.",
+        "processors": {
+          "title": "Kdo zpracovává vaše údaje",
+          "intro": "K provozu Ordnary využíváme několik dalších společností. Zde jsou všechny: co od nás dostávají, kde to uchovávají a jak je to chráněno, když to opustí EU.",
+          "empty": "Vaše údaje nedostávají žádné jiné společnosti.",
+          "loadError": "Teď se to nepodařilo načíst. Zkuste to později.",
+          "loading": "Načítání…",
+          "close": "Zavřít",
+          "back": "Zpět",
+          "fields": {
+            "purpose": "Co dělají",
+            "receives": "Co dostávají",
+            "whose": "Čí údaje",
+            "stored": "Kde jsou uchovávány",
+            "transfer": "Mimo EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Zůstává v Evropském hospodářském prostoru.",
+            "ADEQUACY_DECISION": "Povoleno, protože EU uznává ochranu údajů v zemi {country} za odpovídající.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Chráněno standardními smluvními doložkami EU.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Certifikováno v rámci EU-US Data Privacy Framework.",
+            "sccBackup": "Jako dodatečná záruka platí standardní smluvní doložky EU."
+          },
+          "links": {
+            "dpa": "Smlouva o zpracování osobních údajů",
+            "privacy": "Zásady ochrany soukromí",
+            "website": "Web",
+            "certification": "Certifikace"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Ověřuje váš doklad totožnosti, když měníte datum narození.",
+              "receives": [
+                "Jméno",
+                "Datum narození",
+                "Fotografie dokladu totožnosti",
+                "Selfie",
+                "IP adresa"
+              ],
+              "whose": "Pouze lidé, kteří ověřují nové datum narození."
+            },
+            "resend": {
+              "purpose": "Odesílá naše e-maily: přihlašovací kódy, bezpečnostní upozornění a oznámení o účtu.",
+              "receives": [
+                "E-mailová adresa",
+                "Zobrazované jméno",
+                "Obsah e-mailu, například přihlašovací kódy, odkazy a IP adresa v bezpečnostních upozorněních"
+              ],
+              "whose": "Všichni, kdo dostávají e-maily od Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Žádosti o ochranu soukromí",
+          "description": "Vznesení námitky nebo omezení konkrétních činností zpracování (čl. 18 / čl. 21).",
+          "back": "Zpět",
+          "close": "Zavřít",
+          "loading": "Načítání…",
+          "loadError": "Žádosti o ochranu soukromí se nepodařilo načíst.",
+          "alreadyOpen": "Pro tento rozsah již máte otevřenou žádost.",
+          "cooldown": "Stejnou žádost můžete podat znovu za {hours} hod.",
+          "submitted": "Vaše žádost byla přijata.",
+          "withdrawn": "Žádost byla odvolána.",
+          "fileNew": "Podat novou žádost",
+          "pickKind": "Co chcete udělat?",
+          "kinds": {
+            "OBJECTION": "Vznést námitku proti činnosti zpracování (čl. 21)",
+            "RESTRICTION": "Dočasně omezit zpracování (čl. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Zastavit konkrétní činnost zpracování do budoucna na základě vaší konkrétní situace.",
+            "RESTRICTION": "Pozastavit konkrétní činnost zpracování, dokud se přezkoumává spor o vaše údaje."
+          },
+          "pickActivities": "Na které činnosti se má žádost vztahovat?",
+          "activitiesHint": "Nevyberete-li nic, vztahuje se na všechny naše činnosti zpracování (celkové pozastavení).",
+          "globalScope": "Veškeré zpracování (celkové pozastavení)",
+          "yourStatement": "Vaše vyjádření (doporučeno)",
+          "statementPlaceholder": "Napište nám důvod, například že už nechcete, abychom používali automatizované hodnocení rizik, zatímco s námi řešíte bezpečnostní událost.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Odeslat žádost",
+          "submitting": "Odesílání…",
+          "withdraw": "Odvolat",
+          "withdrawing": "Odvolávání…",
+          "openTitle": "Otevřené žádosti",
+          "emptyOpen": "Žádné otevřené žádosti.",
+          "historyTitle": "Dřívější žádosti",
+          "historyEmpty": "Žádné dřívější žádosti.",
+          "holdsTitle": "Aktuálně platná omezení",
+          "holdsEmpty": "Žádná platná omezení.",
+          "appliesTo": "Týká se",
+          "effectiveUntil": "Platí do",
+          "statuses": {
+            "PENDING": "Čeká na vyřízení",
+            "IN_REVIEW": "Přezkoumává se",
+            "RESOLVED": "Vyřešeno",
+            "WITHDRAWN": "Odvoláno"
+          },
+          "outcomes": {
+            "GRANTED": "Vyhověno",
+            "PARTIALLY_GRANTED": "Částečně vyhověno",
+            "REJECTED": "Zamítnuto",
+            "ESCALATED": "Předáno dál"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Identita účtu a ověřování",
+            "session-and-device-management": "Relace a zařízení",
+            "oauth-issuance": "Vydávání OAuth / OIDC",
+            "identity-verification": "Ověření totožnosti (Stripe Identity)",
+            "payment-processing": "Zpracování plateb",
+            "audit-logs-and-security-events": "Auditní protokoly a bezpečnostní události",
+            "risk-scoring": "Automatizované hodnocení rizik",
+            "consent-log": "Záznam souhlasů",
+            "account-deletion": "Smazání účtu",
+            "risk-review-queue": "Fronta přezkumu rizik"
+          },
+          "title": "Vznést námitku nebo omezit"
+        },
+        "dsar": {
+          "label": "Žádosti o soukromí a údaje",
+          "description": "Podání formální žádosti o přístup, opravu, výmaz nebo přenositelnost (čl. 15-20).",
+          "title": "Žádosti o soukromí a údaje",
+          "back": "Zpět",
+          "close": "Zavřít",
+          "loading": "Načítání…",
+          "loadError": "Žádosti se nepodařilo načíst.",
+          "submitted": "Vaši žádost jsme obdrželi.",
+          "fastPathReady": "Vaše data se právě stahují.",
+          "fastPathHint": "Chcete jen rychlou kopii svých dat? Použijte tlačítko „Exportovat vaše informace“ nahoře. Stáhne se okamžitě, bez formální fronty. Žádost zde podejte, když chcete, aby ji posoudil člověk, podáváte ji za někoho jiného nebo potřebujete opravu či výmaz.",
+          "withdrawn": "Žádost byla odvolána.",
+          "fileNew": "Podat novou žádost",
+          "pickKind": "Co chcete udělat?",
+          "kinds": {
+            "ACCESS": "Přístup (čl. 15)",
+            "RECTIFICATION": "Oprava (čl. 16)",
+            "ERASURE": "Výmaz (čl. 17)",
+            "PORTABILITY": "Přenositelnost (čl. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Získejte úplnou strojově čitelnou kopii údajů, které o vás uchováváme.",
+            "RECTIFICATION": "Opravte údaje, které o vás uchováváme a které jsou nesprávné nebo zastaralé.",
+            "ERASURE": "Nechte nás smazat váš účet a údaje, které o vás uchováváme.",
+            "PORTABILITY": "Získejte své údaje ve strukturovaném, běžně používaném formátu."
+          },
+          "filedBy": "Kdo tuto žádost podává?",
+          "filedByOptions": {
+            "SELF": "Podávám ji za sebe",
+            "PARENT_GUARDIAN": "Jsem rodič nebo zákonný zástupce a podávám ji za nezletilého",
+            "AUTHORISED_AGENT": "Jsem pověřený zástupce (např. právník) a podávám ji za někoho jiného"
+          },
+          "representativeBlock": {
+            "title": "Údaje o zástupci",
+            "emailLabel": "Vaše e-mailová adresa",
+            "notesLabel": "Vztah a oprávnění",
+            "notesHint": "Stručně popište svůj vztah k subjektu údajů a uveďte odkazy na případnou plnou moc nebo dokument o opatrovnictví."
+          },
+          "subjectEmailLabel": "E-mail subjektu údajů",
+          "subjectEmailHint": "Ověřovací odkaz a odpověď posíláme na tuto adresu. U žádostí podaných zástupcem musí jít o vlastní e-mail subjektu údajů.",
+          "yourStatement": "Vaše vyjádření (doporučeno)",
+          "statementPlaceholder": "Co přesně chcete? Jakýkoli kontext nám pomůže správně vymezit odpověď.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Odeslat žádost",
+          "submitting": "Odesílání…",
+          "withdraw": "Odvolat",
+          "withdrawing": "Odvolávání…",
+          "openTitle": "Otevřené žádosti",
+          "emptyOpen": "Žádné otevřené žádosti.",
+          "historyTitle": "Dřívější žádosti",
+          "historyEmpty": "Žádné dřívější žádosti.",
+          "due": "Termín",
+          "extended": "Prodlouženo do",
+          "awaitingVerification": "Čeká na ověření e-mailu",
+          "statuses": {
+            "SUBMITTED": "Čeká na ověření",
+            "VERIFIED": "Ověřeno",
+            "IN_PROGRESS": "Zpracovává se",
+            "FULFILLED": "Splněno",
+            "REJECTED": "Zamítnuto",
+            "WITHDRAWN": "Odvoláno"
+          },
+          "outcomes": {
+            "FULFILLED": "Splněno",
+            "PARTIALLY_FULFILLED": "Částečně splněno",
+            "REJECTED": "Zamítnuto"
+          },
+          "overdue": "Po termínu"
+        },
+        "modalTitle": "Vzhled",
+        "modalSubtitle": "Zvolte, jak bude Centrum účtu vypadat. Vaši volbu si na tomto zařízení zapamatujeme.",
+        "options": {
+          "lightLabel": "Světlý",
+          "lightDescription": "Vždy světlé pozadí bez ohledu na nastavení systému.",
+          "systemLabel": "Podle systému",
+          "systemDescription": "Přepíná se podle nastavení vašeho zařízení.",
+          "darkLabel": "Tmavý",
+          "darkDescription": "Vždy tmavé pozadí, příjemnější večer."
+        },
+        "done": "Hotovo"
+      },
+      "displayNameSection": {
+        "label": "Celé jméno",
+        "subtitle": "Vaše celé jméno se používá napříč vašimi účty a profily.",
+        "editButton": "Upravit",
+        "modalTitle": "Celé jméno",
+        "editTitle": "Změnit celé jméno",
+        "modalSubtitle": "Chcete-li změnit své celé jméno, kontaktujte {email}.",
+        "currentLabel": "Aktuální jméno",
+        "supportNotice": "Chcete-li změnit své celé jméno, kontaktujte {email}.",
+        "copyEmail": "Kopírovat e-mailovou adresu",
+        "openEmail": "Otevřít e-mail",
+        "mailSubject": "Žádost o změnu celého jména",
+        "mailBody": "Dobrý den,\n\nchtěl(a) bych změnit své celé jméno.\n\nAktuální jméno: {name}\nNové jméno: \n\nS pozdravem\n{name}"
+      },
+      "loading": "Načítání...",
+      "contact": {
+        "subtitle": "Spravujte své e-mailové adresy a určete, kdo uvidí vaše kontaktní údaje. Pomocí nich získáte přístup k profilům a zařízením v tomto Centru účtu.",
+        "addNew": "Přidat nový kontakt",
+        "detailsDescription": "Tuto e-mailovou adresu jste přidali k těmto účtům.",
+        "whoCanSee": "Kdo může vidět vaši e-mailovou adresu?",
+        "deleting": "Odebírání...",
+        "delete": "Odebrat e-mailovou adresu",
+        "deleteFailed": "Tuto e-mailovou adresu se nepodařilo odebrat.",
+        "deleted": "E-mailová adresa byla odebrána",
+        "addTitle": "Přidat e-mailovou adresu",
+        "addSubtitle": "Tuto e-mailovou adresu používáme napříč vašimi účty v Centru účtu k přizpůsobení vašeho prostředí.",
+        "learnMore": "Zjistit více",
+        "emailLabel": "E-mailová adresa",
+        "chooseAccounts": "Vyberte účty pro tuto e-mailovou adresu",
+        "added": "E-mailová adresa byla přidána",
+        "addFailed": "Něco se pokazilo. Zkuste to prosím znovu.",
+        "next": "Další"
+      },
+      "birthdayModal": {
+        "subtitle": "Přidejte své datum narození, aby vaše prostředí odpovídalo vašemu věku.",
+        "edit": "Upravit",
+        "editTitle": "Upravit datum narození",
+        "editSubtitle": "Toto datum narození se používá pro účty a profily v tomto Centru účtu. Všechny změny se projeví u všech z nich.",
+        "day": "Den",
+        "month": "Měsíc",
+        "year": "Rok",
+        "verificationNotice": "Chcete-li změnit datum narození, musíte ověřit svou totožnost platným dokladem u našeho partnera Stripe Identity. Po uložení vás přesměrujeme na ověření.",
+        "save": "Uložit",
+        "saveFailed": "Něco se pokazilo. Zkuste to prosím znovu.",
+        "verificationStartFailed": "Ověření totožnosti se nepodařilo spustit.",
+        "completeFailed": "Ověření se nepodařilo dokončit.",
+        "updated": "Vaše datum narození bylo po ověření totožnosti aktualizováno.",
+        "dobMismatch": "Datum narození na vašem dokladu neodpovídá zadanému datu.",
+        "dobUnavailable": "Stripe nedokázal z vašeho dokladu přečíst ověřitelné datum narození.",
+        "notFinished": "Ověření totožnosti ještě není dokončeno."
+      }
+    },
+    "security": {
+      "title": "Heslo a zabezpečení",
+      "loadingName": "Uživatel",
+      "pageLoadError": "Nastavení zabezpečení se nepodařilo načíst.",
+      "sections": {
+        "signIn": {
+          "title": "Přihlášení a obnovení",
+          "description": "Spravujte hesla, předvolby přihlášení a způsoby obnovení."
+        },
+        "controls": {
+          "title": "Kontroly zabezpečení",
+          "description": "Zkontrolujte bezpečnostní problémy prověřením aplikací, zařízení a odeslaných e-mailů."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Změnit heslo",
+          "loading": "Načítání...",
+          "set": "Heslo nastaveno",
+          "missing": "Heslo není nastaveno"
+        },
+        "twofactor": {
+          "label": "Dvoufázové ověření",
+          "loading": "Načítání...",
+          "enabled": "Zapnuto",
+          "disabled": "Zatím nezapnuto"
+        },
+        "passkeys": {
+          "label": "Passkeys",
+          "loading": "Načítání...",
+          "none": "Zatím žádné passkeys",
+          "active": "{count} aktivních"
+        },
+        "activity": {
+          "label": "Kde jste přihlášeni",
+          "summary": "{total} aktivních relací, {others} na jiných zařízeních"
+        },
+        "automated": {
+          "label": "Automatizovaná rozhodnutí",
+          "summary": "Podívejte se, jaká automatická pravidla chrání váš účet, a požádejte o přezkum člověkem."
+        }
+      },
+      "passwordModal": {
+        "title": "Změnit heslo",
+        "subtitle": "Vytvořte heslo s alespoň 12 znaky. Zvolte něco, co ostatní neuhodnou.",
+        "currentPassword": "Aktuální heslo",
+        "newPassword": "Nové heslo",
+        "repeatPassword": "Zopakujte nové heslo",
+        "forgotPassword": "Zapomněli jste heslo?",
+        "logoutOthers": "Odhlásit na ostatních zařízeních. Zvolte to, pokud váš účet použil někdo jiný.",
+        "submit": "Změnit heslo",
+        "pending": "Pracuji...",
+        "success": "Vaše heslo bylo aktualizováno.",
+        "mismatch": "Nová hesla se neshodují.",
+        "submitError": "Heslo se nepodařilo změnit.",
+        "logoutOthersTitle": "Odhlásit se z ostatních zařízení",
+        "logoutOthersHint": "Doporučeno, pokud váš účet mohl použít někdo jiný.",
+        "incorrect": "Vaše současné heslo není správné.",
+        "tooWeak": "Zvolte heslo, které splňuje všechny požadavky níže."
+      },
+      "twoFactor": {
+        "idleTitle": "Pomozte chránit svůj účet",
+        "idleSubtitle": "Nastavte dvoufázové ověření a my při přihlášení ze zařízení, které nepoznáváme, vyžádáme přihlašovací kód.",
+        "manageTitle": "Dvoufázové ověření je zapnuto",
+        "manageSubtitle": "Nyní vyžadujeme přihlašovací kód při každém přihlášení ze zařízení, které nepoznáváme.",
+        "appSettingsTitle": "Ověřovací aplikace",
+        "extraMethodsTitle": "Další metody",
+        "extraMethodsSubtitle": "Pokud nejsou dostupné vaše ostatní metody zabezpečení, můžete se přihlásit pomocí těchto možností.",
+        "recoveryCodesTitle": "Záložní kódy",
+        "recoveryCodesSubtitle": "Každý záložní kód lze použít jen jednou. Uložte je na bezpečné místo. Bez nich můžete přijít o přístup, pokud ztratíte telefon nebo jinou metodu přihlášení.",
+        "setupTitle": "Pokyny k nastavení",
+        "namingTitle": "Pojmenujte své zařízení",
+        "namingSubtitle": "Dejte ověřovací aplikaci nápadný název, abyste věděli, které zařízení používáte.",
+        "verifyTitle": "Zadejte kód",
+        "verifySubtitle": "Pro dokončení nastavení zadejte 6místný kód z ověřovací aplikace.",
+        "successTitle": "Dvoufázové ověření je zapnuto",
+        "successSubtitle": "Nyní vyžadujeme přihlašovací kód při každém přihlášení ze zařízení, které nepoznáváme. Chcete aktualizovat kontaktní údaje? Přejděte do Osobních údajů v Centru účtu.",
+        "verifiedTitle": "Záložní kódy",
+        "verifiedSubtitle": "Uložte tyto kódy na bezpečné místo. Můžete je použít, pokud ztratíte přístup k ověřovací aplikaci.",
+        "learnMore": "Zjistit více",
+        "receiveCodesTitle": "Zvolte, jak chcete kódy dostávat",
+        "authenticatorTitle": "Ověřovací aplikace",
+        "authenticatorDescription": "Jednorázové kódy dostávejte v aplikaci, jako je Duo Mobile nebo Google Authenticator.",
+        "recommended": "Doporučeno",
+        "continue": "Pokračovat",
+        "working": "Pracuji...",
+        "enabledSuccess": "Dvoufázové ověření bylo vypnuto.",
+        "disableError": "Ověřovací aplikaci se nepodařilo vypnout.",
+        "startError": "Nastavení ověřovací aplikace se nepodařilo spustit.",
+        "verifyError": "Ověřovací aplikaci se nepodařilo ověřit.",
+        "regenerateError": "Záložní kódy se nepodařilo znovu vygenerovat.",
+        "downloadError": "Před stažením vygenerujte novou sadu záložních kódů.",
+        "recoveryRegenerated": "Byly vygenerovány nové záložní kódy.",
+        "manage": {
+          "receiveCodesTitle": "Přijímat přihlašovací kódy",
+          "authenticatorDescription": "Přihlašovací kód dostáváte v ověřovací aplikaci.",
+          "additionalMethodsTitle": "Další metody",
+          "additionalMethodsDescription": "Zjistěte, jak se můžete bezpečně přihlásit, když ostatní metody nejsou dostupné."
+        },
+        "appSettings": {
+          "title": "Ověřovací aplikace",
+          "description": "Přihlašovací kód dostáváte v ověřovací aplikaci.",
+          "connectedDevicesTitle": "Připojená zařízení",
+          "add": "Přidat",
+          "connectedDevicesDescription": "Můžete přidat více zařízení, aby každé propojené zařízení mohlo dostávat 6místné přihlašovací kódy z ověřovací aplikace na něm.",
+          "noDevices": "Zatím žádná připojená zařízení",
+          "lastUsed": "Naposledy použito: {date}",
+          "added": "Přidáno: {date}",
+          "active": "Aktivní ověřovací aplikace"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Záložní kódy",
+          "recoveryCodesDescription": "Tyto kódy použijte, když nemáte přístup k telefonu."
+        },
+        "recoveryCodes": {
+          "download": "Stáhnout kódy",
+          "regenerate": "Získat nové kódy",
+          "existing": "Máte {count} nepoužitých záložních kódů. Kliknutím na „Získat nové kódy“ vygenerujete novou sadu.",
+          "empty": "V této relaci zatím nemáte žádné viditelné záložní kódy. Kliknutím na „Získat nové kódy“ vygenerujete novou sadu."
+        },
+        "setup": {
+          "step1Title": "1. Stáhněte si ověřovací aplikaci",
+          "step1Description": "Pokud ji ještě nemáte, doporučujeme Duo Mobile nebo Google Authenticator.",
+          "step2Title": "2. Naskenujte tento QR kód nebo zkopírujte klíč",
+          "step2Description": "Naskenujte tento QR kód v ověřovací aplikaci, nebo zkopírujte klíč a vložte jej do aplikace.",
+          "copyKey": "Kopírovat klíč",
+          "step3Title": "3. Zkopírujte šestimístný kód a zadejte ho",
+          "step3Description": "Po naskenování QR kódu nebo zadání klíče aplikace vygeneruje 6místný kód. Klepněte níže na Zadat kód.",
+          "enterCode": "Zadat kód",
+          "qrAlt": "QR kód pro vaši ověřovací aplikaci"
+        },
+        "naming": {
+          "label": "Název zařízení (například: iPhone Stijna)",
+          "next": "Další"
+        },
+        "verify": {
+          "label": "Kód z ověřovací aplikace",
+          "submit": "Ověřit kód"
+        },
+        "success": {
+          "done": "Hotovo"
+        },
+        "ui": {
+          "on": "Zapnuto",
+          "turnOff": "Vypnout",
+          "turnOffConfirm": "Vypnout dvoufázové ověření? K přihlášení pak bude stačit jen heslo.",
+          "cancel": "Zrušit",
+          "copyKey": "Kopírovat",
+          "copied": "Zkopírováno",
+          "manualKey": "Klíč pro nastavení",
+          "status": "Stav"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Soubor pro obnovení",
+          "rowDescription": "PDF, které vás po nahrání přihlásí, bez hesla a kódu.",
+          "otherMethodsTitle": "Další způsoby, jak se dostat dovnitř",
+          "title": "Soubor pro obnovení",
+          "subtitle": "PDF, které nahrajete při přihlášení. Přihlásí vás okamžitě, bez hesla a kódu. Hodí se, když ztratíte telefon nebo zapomenete heslo.",
+          "download": "Stáhnout soubor pro obnovení",
+          "downloading": "Vytváříme váš soubor…",
+          "downloaded": "Staženo. Uložte soubor na bezpečné místo.",
+          "made": "Vytvořeno {date}",
+          "lastUsed": "Naposledy použito {date}",
+          "notUsed": "Zatím nepoužito",
+          "remove": "Odebrat",
+          "removeConfirm": "Odebrat soubor pro obnovení? Přestane hned fungovat.",
+          "removed": "Soubor pro obnovení byl odebrán.",
+          "cancel": "Zrušit",
+          "newTitle": "Potřebujete nový soubor?",
+          "newText": "Soubor lze stáhnout jen jednou. Nový získáte potvrzením kódem, který vám pošleme e-mailem. Váš současný soubor pak přestane fungovat.",
+          "requestCode": "Poslat mi kód e-mailem",
+          "sending": "Odesílání…",
+          "codeSent": "Poslali jsme kód na {email}.",
+          "codeLabel": "Kód",
+          "confirmDownload": "Potvrdit a stáhnout",
+          "loadError": "Teď se to nepodařilo načíst. Zkuste to později.",
+          "errors": {
+            "code_invalid": "Tento kód není správný. Zkontrolujte e-mail a zkuste to znovu.",
+            "code_expired": "Platnost kódu vypršela. Požádejte o nový.",
+            "rate_limited": "Příliš mnoho pokusů. Zkuste to později.",
+            "send_failed": "E-mail se teď nepodařilo odeslat. Zkuste to později.",
+            "generic": "Něco se pokazilo. Zkuste to později."
+          },
+          "points": [
+            {
+              "title": "Stáhněte jednou",
+              "text": "Soubor lze stáhnout jen teď. Pro nový později potvrdíte kódem, který vám pošleme e-mailem."
+            },
+            {
+              "title": "Uložte bezpečně",
+              "text": "Například vytištěný nebo na šifrovaném disku. Kdokoli s tímto souborem se může přihlásit k vašemu účtu, proto ho neposílejte e-mailem ani nesdílejte."
+            },
+            {
+              "title": "Přihlášení souborem",
+              "text": "Při přihlášení zadejte svůj e-mail, zvolte „Zapomněli jste heslo?“, poté „Přihlásit se souborem pro obnovení“ a nahrajte PDF."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Passkeys",
+        "subtitle": "Passkeys jsou bezpečný a snadný způsob přihlášení bez hesla. Můžete použít otisk prstu, obličej nebo zámek obrazovky zařízení.",
+        "add": "Přidat passkey",
+        "empty": "Zatím jste nepřidali žádné passkeys.",
+        "unnamed": "Nepojmenovaný passkey",
+        "addedOn": "Přidáno {date}",
+        "lastUsed": "Naposledy použito {date}",
+        "never": "Nikdy nepoužito",
+        "delete": "Smazat",
+        "count": "Máte {count} aktivních passkeys.",
+        "none": "Zatím jste nenastavili žádné passkeys.",
+        "success": "Passkey byl úspěšně zaregistrován!",
+        "error": "Registrace passkey se nezdařila.",
+        "pending": "Registrace...",
+        "emptyTitle": "Zatím žádné passkeys",
+        "emptyText": "Přidejte si jeden a přihlašujte se otiskem prstu, obličejem nebo zámkem obrazovky zařízení místo hesla. Heslo bude fungovat dál.",
+        "deleteConfirm": "Odebrat tento passkey? Už se jím nepůjde přihlásit.",
+        "cancel": "Zrušit",
+        "removing": "Odebírání...",
+        "createTitle": "Vytvořit passkey",
+        "createSubtitle": "Passkey vám umožní přihlásit se otiskem prstu, obličejem nebo zámkem obrazovky zařízení. Ukládá ho vaše zařízení nebo správce hesel a nikdy je neopustí.",
+        "nameLabel": "Název passkey",
+        "nameHint": "Abyste své passkeys rozeznali, například podle zařízení nebo správce hesel, ve kterém je passkey uložen.",
+        "whatHappensTitle": "Co bude dál",
+        "whatHappens1": "Prohlížeč nebo správce hesel se zeptá, kam passkey uložit.",
+        "whatHappens2": "Potvrďte otiskem prstu, obličejem nebo zámkem obrazovky.",
+        "whatHappens3": "Od té chvíle si při přihlášení můžete passkey vybrat.",
+        "create": "Vytvořit passkey",
+        "waiting": "Postupujte podle výzvy prohlížeče nebo správce hesel…",
+        "cancelled": "Passkey nebyl vytvořen. Můžete to zkusit znovu.",
+        "doneTitle": "Passkey přidán",
+        "doneSubtitle": "Nyní se můžete přihlásit pomocí „{name}“. Heslo bude fungovat dál.",
+        "done": "Hotovo",
+        "back": "Zpět",
+        "removeError": "Přístupový klíč se nepodařilo odebrat. Zkuste to znovu.",
+        "defaultName": "{browser} v systému {system}",
+        "rowDescription": "Přihlaste se pomocí otisku prstu, obličeje nebo PIN kódu zařízení."
+      },
+      "activityModal": {
+        "title": "Aktivita přihlášení k účtu",
+        "subtitle": "Kde je váš účet právě přihlášen. Odhlaste se ze všech zařízení, která nepoznáváte.",
+        "unknownDevice": "Neznámé zařízení",
+        "unknownLocation": "Neznámá poloha",
+        "currentDevice": "Toto zařízení",
+        "lastActive": "Naposledy aktivní {date}",
+        "revoke": "Odhlásit",
+        "revokePending": "Pracuji...",
+        "revokeAllTitle": "Přihlášení na jiných zařízeních",
+        "revokeAll": "Odhlásit ze všech ostatních zařízení",
+        "revokeAllPending": "Pracuji...",
+        "revokeSuccess": "Relace byla zrušena.",
+        "revokeAllSuccess": "Všechny ostatní relace byly odhlášeny.",
+        "revokeError": "Relaci se nepodařilo zrušit.",
+        "viewMore": "+ {count} dalších zařízení",
+        "activeNow": "Aktivní teď",
+        "thisDeviceTitle": "Toto zařízení",
+        "otherEmpty": "Na žádném jiném zařízení nejste přihlášeni.",
+        "showAll": "Zobrazit všech {count}",
+        "revokeAllConfirm": "Odhlásit se ze všech {count} ostatních zařízení? Kdokoli je používá, se bude muset přihlásit znovu.",
+        "cancel": "Zrušit"
+      },
+      "automatedDecisions": {
+        "title": "Automatizovaná rozhodnutí",
+        "description": "Některá rozhodnutí o ochraně účtu se dělají automaticky na základě signálů, jako jsou vzorce přihlašování a podezřelá aktivita. Můžete požádat člověka z Ordnary, aby výsledek přezkoumal.",
+        "back": "Zpět",
+        "close": "Zavřít",
+        "loading": "Načítání…",
+        "currentStateTitle": "Aktuální automatizovaný stav",
+        "riskLabels": {
+          "LOW": "Nízké riziko",
+          "MEDIUM": "Střední riziko",
+          "HIGH": "Vysoké riziko"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktivní",
+          "SUSPENDED": "Dočasně pozastaven",
+          "DEACTIVATED": "Deaktivován",
+          "DELETED": "Čeká na smazání"
+        },
+        "suspendedExplanation": "Váš účet je momentálně omezen automatickým pravidlem. Níže můžete požádat o přezkum člověkem. Člověk z Ordnary se podívá na signály i na vaše vyjádření a rozhodnutí buď potvrdí, nebo zruší.",
+        "elevatedExplanation": "Úroveň rizika vašeho účtu byla zvýšena na základě nedávné aktivity. Pokud se domníváte, že signály jsou chybné, můžete požádat o přezkum člověkem.",
+        "okExplanation": "U vašeho účtu jsme nezaznamenali žádná automatická omezení. O přezkum dřívějšího rozhodnutí můžete stále požádat níže.",
+        "lastEvaluated": "Naposledy vyhodnoceno",
+        "signalsTitle": "Nedávné bezpečnostní signály",
+        "signalsEmpty": "V poslední době nebyly zaznamenány žádné bezpečnostní signály.",
+        "appealTitle": "Požádat o přezkum člověkem",
+        "appealSubtitle": "Posuzovatel z Ordnary se podívá na automatizované rozhodnutí, vaše vyjádření a související signály. Snažíme se odpovědět v přiměřené lhůtě.",
+        "pickReason": "Co zpochybňujete?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Domnívám se, že pozastavení je neoprávněné",
+          "RISK_LEVEL_OBJECTION": "Domnívám se, že moje úroveň rizika je nesprávná",
+          "SECURITY_EVENT_OBJECTION": "Chci zpochybnit konkrétní bezpečnostní signál",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Chci, aby člověk přezkoumal automatizovaná rozhodnutí o mém účtu"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Váš účet je momentálně pozastaven a chcete, aby bylo toto rozhodnutí přezkoumáno.",
+          "RISK_LEVEL_OBJECTION": "Vaše úroveň rizika je vyšší, než jste čekali, a chcete ji znovu vyhodnotit.",
+          "SECURITY_EVENT_OBJECTION": "Byla zaznamenána konkrétní bezpečnostní událost, kterou nepoznáváte.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Chcete, aby se člověk podíval na automatizovaná rozhodnutí o vašem účtu."
+        },
+        "yourStatement": "Vaše vyjádření (nepovinné)",
+        "statementPlaceholder": "Napište nám cokoli, co bychom měli vědět, například že jste cestovali, použili nové zařízení nebo se k vám někdo snažil dostat.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Odeslat žádost o přezkum",
+        "submitting": "Odesílání...",
+        "submitted": "Vaši žádost jsme obdrželi a ozveme se vám.",
+        "pendingTitle": "Přezkum probíhá",
+        "pendingSubtitle": "Člověk z Ordnary se vaší žádostí zabývá. Až budou novinky, dáme vám vědět.",
+        "withdraw": "Odvolat žádost",
+        "withdrawing": "Odvolávání...",
+        "withdrawn": "Žádost byla odvolána.",
+        "withdrawableHint": "Tuto žádost můžete kdykoli odvolat.",
+        "historyTitle": "Dřívější žádosti o přezkum",
+        "historyEmpty": "Žádné dřívější žádosti o přezkum.",
+        "outcomes": {
+          "UPHELD": "Potvrzeno",
+          "OVERTURNED": "Zrušeno",
+          "ADJUSTED": "Upraveno",
+          "ESCALATED": "Předáno dál"
+        },
+        "statuses": {
+          "PENDING": "Čeká na vyřízení",
+          "IN_REVIEW": "Přezkoumává se",
+          "RESOLVED": "Vyřešeno",
+          "WITHDRAWN": "Odvoláno"
+        },
+        "loadError": "Podrobnosti o automatizovaných rozhodnutích se nepodařilo načíst.",
+        "alreadyOpen": "Již máte otevřenou žádost o přezkum.",
+        "cooldown": "Novou žádost o přezkum můžete podat znovu za {hours} hod. Tato prodleva pomáhá posuzovateli vyřídit tu předchozí.",
+        "showAll": "Zobrazit vše ({count})",
+        "showLess": "Zobrazit méně"
+      },
+      "previewBadge": "Náhled",
+      "previewBadgeTooltip": "Nové a stále se vylepšuje. Passkeys fungují, ale podrobnosti se mohou změnit."
+    },
+    "connections": {
+      "title": "Připojené aplikace",
+      "description": "Aplikace, které mají přístup k datům vašeho účtu Ordnary.",
+      "empty": "Zatím jste nepřipojili žádné aplikace.",
+      "authorizedScopes": "Povolené rozsahy: {scopes}",
+      "granted": "Uděleno: {date}",
+      "revoke": "Odvolat přístup"
+    },
+    "devices": {
+      "title": "Zařízení a relace",
+      "description": "Spravujte své aktivní relace na různých zařízeních.",
+      "logoutOthers": "Odhlásit ze všech ostatních zařízení",
+      "headers": {
+        "device": "Zařízení",
+        "location": "Poloha / IP",
+        "lastActive": "Naposledy aktivní",
+        "type": "Typ",
+        "actions": "Akce"
+      },
+      "unknownDevice": "Neznámé zařízení",
+      "currentSession": "(Aktuální relace)",
+      "typeFormat": "{browser} na {os}",
+      "revoke": "Odvolat"
+    },
+    "passkeysPage": {
+      "title": "Passkeys",
+      "description": "Spravujte biometriku a hardwarové klíče pro přihlášení bez hesla.",
+      "add": "+ Přidat nový passkey",
+      "empty": "Zatím jste nepřidali žádné passkeys.",
+      "unnamed": "Nepojmenovaný passkey",
+      "addedOn": "Přidáno: {date}",
+      "lastUsed": "Naposledy použito: {date}",
+      "never": "Nikdy",
+      "delete": "Smazat"
+    },
+    "activity": {
+      "title": "Nedávná aktivita",
+      "description": "Prohlížejte a sledujte důležité události a změny týkající se zabezpečení vašeho účtu.",
+      "details": "Podrobnosti",
+      "dates": {
+        "today": "Dnes, 17. dubna",
+        "yesterday": "Včera, 16. dubna"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Přihlášení",
+        "LOGIN_FAILED": "Neúspěšné přihlášení",
+        "LOGIN_LOCKED": "Přihlášení zablokováno",
+        "LOGOUT": "Odhlášení",
+        "SESSION_CREATED": "Relace vytvořena",
+        "SESSION_REVOKED": "Relace ukončena",
+        "SESSION_ALL_REVOKED": "Odhlášení všude",
+        "PASSWORD_SET": "Heslo nastaveno",
+        "PASSWORD_CHANGED": "Heslo změněno",
+        "PASSWORD_RESET_REQUESTED": "Vyžádáno obnovení hesla",
+        "PASSWORD_RESET_COMPLETED": "Heslo obnoveno",
+        "PASSKEY_REGISTERED": "Passkey zaregistrován",
+        "PASSKEY_USED": "Přihlášení pomocí passkey",
+        "PASSKEY_REMOVED": "Passkey odebrán",
+        "PASSKEY_COUNTER_MISMATCH": "Upozornění k passkey",
+        "MFA_ENABLED": "Dvoufázové ověření zapnuto",
+        "MFA_DISABLED": "Dvoufázové ověření vypnuto",
+        "MFA_FACTOR_ENROLLED": "Ověřovací aplikace přidána",
+        "MFA_FACTOR_VERIFIED": "Ověřovací aplikace potvrzena",
+        "MFA_FACTOR_REVOKED": "Ověřovací aplikace odebrána",
+        "RECOVERY_CODES_GENERATED": "Nové obnovovací kódy",
+        "RECOVERY_CODE_USED": "Použit obnovovací kód",
+        "STEP_UP_REQUIRED": "Vyžádáno potvrzení",
+        "STEP_UP_COMPLETED": "Totožnost potvrzena",
+        "EMAIL_ADDED": "E-mailová adresa přidána",
+        "EMAIL_VERIFIED": "E-mailová adresa potvrzena",
+        "EMAIL_REMOVED": "E-mailová adresa odebrána",
+        "EMAIL_PRIMARY_CHANGED": "Hlavní e-mail změněn",
+        "ACCOUNT_CREATED": "Účet vytvořen",
+        "ACCOUNT_UPDATED": "Účet aktualizován",
+        "ACCOUNT_DELETED": "Zahájeno smazání účtu",
+        "ACCOUNT_REACTIVATED": "Účet znovu aktivován",
+        "OAUTH_CONSENT_GRANTED": "Aplikaci udělen přístup",
+        "OAUTH_CONSENT_REVOKED": "Přístup aplikace odebrán",
+        "OAUTH_TOKEN_ISSUED": "Aplikace přihlášena",
+        "OAUTH_TOKEN_REVOKED": "Aplikace odhlášena",
+        "SUSPICIOUS_NEW_LOCATION": "Přihlášení z nového místa",
+        "SUSPICIOUS_NEW_DEVICE": "Přihlášení na novém zařízení",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Neobvyklé přihlášení",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Předvolby e-mailů změněny",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Odhlášení odběru",
+        "PRIVACY_REQUEST_FILED": "Podána žádost o ochranu soukromí",
+        "PRIVACY_REQUEST_RESOLVED": "Žádost o ochranu soukromí vyřízena",
+        "DSAR_FILED": "Podána žádost o údaje",
+        "DSAR_FULFILLED": "Žádost o údaje splněna",
+        "DSAR_REJECTED": "Žádost o údaje zamítnuta",
+        "RISK_REVIEW_REQUESTED": "Vyžádána kontrola",
+        "RISK_REVIEW_RESOLVED": "Kontrola dokončena"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Střední",
+        "HIGH": "Vysoká",
+        "CRITICAL": "Kritická",
+        "LOW": "Nízká"
+      },
+      "empty": "Na vašem účtu zatím není žádná aktivita.",
+      "filters": {
+        "all": "Vše",
+        "account": "Změny účtu",
+        "security": "Bezpečnostní upozornění"
+      },
+      "retention": "Aktivita se uchovává {days} dní. Můžete to změnit v sekci {link}.",
+      "retentionLink": "Vaše informace a oprávnění",
+      "emptyFiltered": "V tomto zobrazení nic není.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Někdo se přihlásil k vašemu účtu pomocí hesla nebo přihlašovacího kódu.",
+        "LOGIN_FAILED": "Někdo se pokusil přihlásit k vašemu účtu, ale heslo nebo kód byly nesprávné. Několik takových pokusů bývá obvykle jen překlep.",
+        "LOGIN_LOCKED": "Po příliš mnoha chybných pokusech bylo přihlašování k vašemu účtu na chvíli zablokováno, aby zůstal v bezpečí.",
+        "LOGOUT": "Jedna relace na vašem účtu byla odhlášena.",
+        "SESSION_CREATED": "K vašemu účtu se někdo přihlásil na zařízení nebo v prohlížeči, čímž vznikla nová relace.",
+        "SESSION_REVOKED": "Jedna relace na vašem účtu byla odhlášena, buď vámi, nebo protože už nebylo bezpečné ji ponechat.",
+        "SESSION_ALL_REVOKED": "Váš účet byl odhlášen na všech ostatních zařízeních.",
+        "PASSWORD_SET": "K vašemu účtu bylo přidáno heslo.",
+        "PASSWORD_CHANGED": "Heslo k vašemu účtu bylo změněno.",
+        "PASSWORD_RESET_REQUESTED": "Na vaši e-mailovou adresu byl odeslán kód pro obnovení hesla.",
+        "PASSWORD_RESET_COMPLETED": "Vaše heslo bylo obnoveno pomocí kódu z e-mailu a všude jste byli odhlášeni.",
+        "PASSKEY_REGISTERED": "Byl přidán passkey, takže se můžete přihlašovat zařízením místo hesla.",
+        "PASSKEY_USED": "Někdo se přihlásil k vašemu účtu pomocí jednoho z jeho passkeys.",
+        "PASSKEY_REMOVED": "Passkey byl odebrán a už se jím nelze přihlásit.",
+        "PASSKEY_COUNTER_MISMATCH": "Passkey nahlásil něco neočekávaného, což může znamenat, že byl zkopírován. Přihlášení bylo odmítnuto.",
+        "MFA_ENABLED": "Přihlášení nyní vyžaduje také kód z vaší ověřovací aplikace.",
+        "MFA_DISABLED": "Přihlášení už nevyžaduje kód z vaší ověřovací aplikace.",
+        "MFA_FACTOR_ENROLLED": "K vašemu účtu byla připojena ověřovací aplikace.",
+        "MFA_FACTOR_VERIFIED": "Kód z vaší ověřovací aplikace byl potvrzen.",
+        "MFA_FACTOR_REVOKED": "Z vašeho účtu byla odebrána ověřovací aplikace.",
+        "RECOVERY_CODES_GENERATED": "Byla vytvořena nová sada obnovovacích kódů. Staré kódy už nefungují.",
+        "RECOVERY_CODE_USED": "Někdo se přihlásil jedním z vašich obnovovacích kódů místo kódu z ověřovací aplikace. Tento kód už nelze znovu použít.",
+        "STEP_UP_REQUIRED": "Před citlivou změnou jste byli požádáni, abyste potvrdili svou totožnost kódem zaslaným e-mailem.",
+        "STEP_UP_COMPLETED": "Kód zaslaný e-mailem potvrdil, že jste to vy, což na chvíli umožnilo provést citlivou změnu.",
+        "EMAIL_ADDED": "K vašemu účtu byla přidána e-mailová adresa a byl na ni odeslán potvrzovací odkaz.",
+        "EMAIL_VERIFIED": "E-mailová adresa na vašem účtu byla potvrzena.",
+        "EMAIL_REMOVED": "Z vašeho účtu byla odebrána e-mailová adresa.",
+        "EMAIL_PRIMARY_CHANGED": "Hlavní adresou vašeho účtu pro přihlašování a zprávy se stala jiná e-mailová adresa.",
+        "ACCOUNT_CREATED": "Váš účet Ordnary byl vytvořen.",
+        "ACCOUNT_UPDATED": "Bylo změněno nastavení nebo údaj na vašem účtu.",
+        "ACCOUNT_DELETED": "Váš účet byl označen ke smazání. Po dobu 30 dnů ho lze obnovit.",
+        "ACCOUNT_REACTIVATED": "Váš účet byl znovu zapnut poté, co byl deaktivován nebo smazán.",
+        "OAUTH_CONSENT_GRANTED": "Aplikace získala přístup k vašemu účtu přes Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "Aplikace už nemá přístup k vašemu účtu.",
+        "OAUTH_TOKEN_ISSUED": "Aplikace, kterou používáte s Ordnary ID, získala nový přihlašovací token.",
+        "OAUTH_TOKEN_REVOKED": "Přihlašovací token aplikace byl zrušen.",
+        "SUSPICIOUS_NEW_LOCATION": "Váš účet byl použit z místa, odkud dosud použit nebyl.",
+        "SUSPICIOUS_NEW_DEVICE": "Váš účet byl použit na zařízení, na kterém dosud použit nebyl.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Váš účet byl použit ze dvou míst, která jsou od sebe příliš daleko na to, aby mezi nimi jeden člověk za tu dobu stihl přecestovat.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Změnilo se, jaké e-maily vám Ordnary smí posílat.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Odkaz pro odhlášení odběru v e-mailu vypnul jeden typ e-mailů.",
+        "PRIVACY_REQUEST_FILED": "Byla podána námitka proti zpracování vašich údajů nebo žádost o jeho omezení.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary vyřídil vaši námitku proti zpracování nebo žádost o jeho omezení.",
+        "DSAR_FILED": "Byla podána žádost týkající se vašich údajů (přístup, oprava, výmaz nebo kopie).",
+        "DSAR_FULFILLED": "Ordnary vyřídil vaši žádost o údaje.",
+        "DSAR_REJECTED": "Ordnary zamítl vaši žádost o údaje; důvod najdete v e-mailu.",
+        "RISK_REVIEW_REQUESTED": "Byla vyžádána kontrola automatizovaného rozhodnutí o vašem účtu.",
+        "RISK_REVIEW_RESOLVED": "Pracovník Ordnary zkontroloval automatizované rozhodnutí o vašem účtu."
+      },
+      "detail": {
+        "ifNotYou": "Nebyli jste to vy? Změňte heslo a odhlaste svá ostatní zařízení v sekci Heslo a zabezpečení.",
+        "ifNotYouLink": "Přejít na Heslo a zabezpečení",
+        "generic": "Tato událost byla zaznamenána na vašem účtu.",
+        "labels": {
+          "when": "Kdy",
+          "where": "Kde",
+          "ip": "IP adresa",
+          "session": "Relace",
+          "thisDevice": "Toto zařízení",
+          "event": "Událost",
+          "source": "Zaznamenáno v",
+          "severity": "Důležitost"
+        },
+        "sources": {
+          "AUDIT_LOG": "Protokol účtu",
+          "SECURITY_EVENT": "Monitorování zabezpečení"
+        },
+        "unknown": "Neznámé",
+        "times": "{count}×",
+        "timeSpan": "{from} až {to}"
+      },
+      "showMore": "Zobrazit dřívější dny",
+      "loadingMore": "Načítání…",
+      "end": "To je veškerá uchovávaná aktivita.",
+      "loadFailed": "Další položky se nepodařilo načíst. Zkuste to znovu."
+    },
+    "connectedAppsDemo": {
+      "title": "Připojené aplikace",
+      "description": "Aplikace a služby třetích stran, kterým jste udělili přístup k některým datům svého účtu.",
+      "badges": {
+        "official": "Oficiální",
+        "verified": "Ověřeno"
+      },
+      "accessed": "Přístup {value}",
+      "revoke": "Odvolat přístup",
+      "apps": {
+        "consoleReason": "Spravujte své cloudové zdroje a nasazovací pipeline.",
+        "figmaReason": "Návrhářský nástroj pro společné prototypování.",
+        "unknownGameName": "Neznámá hra",
+        "unknownGameReason": "Neověřená aplikace, která požádala o údaje z vašeho profilu.",
+        "currentSession": "Aktuální relace",
+        "twoDaysAgo": "Před 2 dny",
+        "lastMonth": "Minulý měsíc"
+      }
+    },
+    "permissions": {
+      "title": "Vaše informace a oprávnění",
+      "exportTitle": "Exportovat vaše informace",
+      "searchHistory": "Aktivita v Ordnary",
+      "externalActivity": "Vaše aktivita mimo technologie Ordnary",
+      "appConnections": "Připojení aplikací",
+      "manageContacts": "Spravovat kontakty",
+      "notice": "V části Exportovat vaše informace si můžete stáhnout nebo přenést kopii svých informací.",
+      "footer": "Rozhodněte, jaké informace mohou technologie Ordnary používat k ovlivňování vašich zážitků.",
+      "privacyRightsTitle": "Vaše práva na ochranu soukromí",
+      "dsarTitle": "Žádosti o soukromí a údaje",
+      "dsarSubtitle": "Podání formální žádosti o přístup, opravu, výmaz nebo přenositelnost (čl. 15-20).",
+      "privacyRequestsTitle": "Námitka nebo omezení",
+      "privacyRequestsSubtitle": "Vznesení námitky nebo omezení konkrétních činností zpracování (čl. 18 / čl. 21).",
+      "processorsTitle": "Kdo zpracovává vaše údaje",
+      "processorsSubtitle": "Společnosti, které využíváme k provozu Ordnary, co dostávají a kde to uchovávají.",
+      "cookiesTitle": "Předvolby cookies",
+      "cookiesSubtitle": "Spravujte, které cookies může Ordnary v tomto prohlížeči používat.",
+      "minorConsentTitle": "Souhlas rodičů",
+      "minorConsentSubtitle": "Pokud jste mladší, než je ve vaší zemi věk pro udělení souhlasu, musí souhlasit rodič nebo zákonný zástupce (GDPR čl. 8).",
+      "notificationsTitle": "Předvolby oznámení",
+      "notificationsSubtitle": "Vyberte, jaké druhy e-mailů vám Ordnary smí posílat.",
+      "notifications": {
+        "title": "Předvolby oznámení",
+        "close": "Zavřít",
+        "loading": "Načítání…",
+        "alwaysOn": "Vždy zapnuto",
+        "description": "Vyberte si, které e-maily od Ordnary chcete dostávat.",
+        "loadError": "Teď se to nepodařilo načíst. Zkuste to později.",
+        "saveError": "Nepodařilo se to uložit. Zkuste to znovu.",
+        "saved": "Uloženo.",
+        "alwaysTitle": "Vždy zapnuto",
+        "alwaysText": "Tyto e-maily chrání váš účet a potvrzují, o co jste požádali, takže zůstávají zapnuté.",
+        "choiceTitle": "Vaše volba",
+        "turnAllOff": "Vypnout všechny volitelné e-maily",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Bezpečnostní upozornění",
+          "TRANSACTIONAL_ACCOUNT": "Zprávy k účtu",
+          "PRODUCT_UPDATES": "Novinky o produktech",
+          "RECOMMENDATIONS": "Doporučení",
+          "MARKETING": "Novinky a nabídky"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Přihlašovací kódy, obnovení hesla a upozornění na nová přihlášení nebo změny zabezpečení.",
+          "TRANSACTIONAL_ACCOUNT": "Potvrzení toho, co jste udělali, například export dat, žádost o ochranu soukromí nebo souhlas rodičů.",
+          "PRODUCT_UPDATES": "Co je nového v produktech Ordnary a změny našich podmínek.",
+          "RECOMMENDATIONS": "Návrhy podle toho, jak Ordnary používáte.",
+          "MARKETING": "Newslettery a nabídky, občas."
+        }
+      },
+      "minorConsent": {
+        "title": "Souhlas rodičů",
+        "description": "Pokud jste mladší, než je věk, od kterého můžete online souhlasit sami, musí před použitím některých vašich informací souhlasit rodič nebo zákonný zástupce. Vychází to z článku 8 GDPR.",
+        "close": "Zavřít",
+        "loading": "Načítání…",
+        "loadError": "Teď se to nepodařilo načíst. Zkuste to později znovu.",
+        "consentAge": "Věk pro udělení souhlasu v zemi {country}: {age}",
+        "yourAge": "Váš věk: {age}",
+        "adultTitle": "Není potřeba",
+        "adultBody": "Jste dost staří na to, abyste souhlasili sami, takže souhlas rodiče nepotřebujete.",
+        "unknownTitle": "Váš věk zatím neznáme",
+        "unknownBody": "Přidejte datum narození, abychom poznali, zda potřebujete souhlas rodiče.",
+        "unknownAction": "Přidat datum narození",
+        "blockedTitle": "Souhlas je potřeba",
+        "blockedBody": "Dokud rodič nebo zákonný zástupce nesouhlasí, jsou některé části vašeho účtu omezeny.",
+        "pendingTitle": "Čekáme na rodiče nebo zákonného zástupce",
+        "pendingBody": "Poslali jsme žádost na {email}. Odkaz funguje do {date}.",
+        "verifiedTitle": "Souhlas udělen",
+        "verifiedBody": "{email} souhlasil(a) dne {date}.",
+        "parentEmail": "E-mail rodiče nebo zákonného zástupce",
+        "relationship": "Kdo to je, například matka (nepovinné)",
+        "addMessage": "Přidat zprávu (nepovinné)",
+        "notes": "Zpráva pro rodiče nebo zákonného zástupce",
+        "submit": "Poslat žádost",
+        "submitting": "Odesílání…",
+        "resend": "Poslat znovu",
+        "changeEmail": "Použít jiný e-mail",
+        "cancel": "Zrušit",
+        "revoke": "Odvolat",
+        "revokeConfirm": "Odvolat souhlas? Části vašeho účtu budou opět omezeny, dokud rodič nebo zákonný zástupce znovu nesouhlasí.",
+        "revoking": "Odvolávání…",
+        "revoked": "Souhlas odvolán.",
+        "notMinor": "Jste dost staří na to, abyste souhlasili sami.",
+        "invalidEmail": "Zadejte platnou e-mailovou adresu.",
+        "requestSent": "Žádost odeslána na {email}.",
+        "points": [
+          {
+            "title": "Zadejte jejich e-mail",
+            "text": "E-mailová adresa rodiče nebo zákonného zástupce."
+          },
+          {
+            "title": "Souhlasí",
+            "text": "Dostanou e-mail s odkazem pro souhlas. Odkaz funguje 14 dní."
+          },
+          {
+            "title": "Váš účet funguje naplno",
+            "text": "Jakmile souhlasí, omezení vašeho účtu se zruší."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Můžete exportovat kopii svých informací do externí služby nebo do svého zařízení. Dostupná data zahrnují obsah a informace, které jste sdíleli, vaši aktivitu a informace, které shromažďujeme.",
+      "exportButton": "Poslat odkaz ke stažení",
+      "exportModalContentsTitle": "Co export obsahuje:",
+      "exportModalContents": [
+        "Údaje profilu a nastavení účtu",
+        "E-mailové adresy a telefonní čísla",
+        "Nastavení zabezpečení (passkeys, MFA, zařízení)",
+        "Historie relací a přihlášení",
+        "Platební údaje",
+        "Připojené aplikace a souhlasy OAuth",
+        "Protokol aktivity a bezpečnostní události",
+        "Souhlasy s ochranou soukromí a cookies"
+      ],
+      "exportModalFormat": "Formát: archiv ZIP se strukturovanými soubory JSON a čitelným souborem README.",
+      "exportModalRateLimit": "Obdržíte e-mail s jednorázovým odkazem ke stažení. Maximálně 3 exporty za 24 hodin.",
+      "exportDownload": {
+        "loading": "Okamžik...",
+        "readyTitle": "Váš export dat je připraven",
+        "readyDescription": "Kliknutím na tlačítko níže si stáhnete data účtu jako archiv ZIP. Odkaz lze použít jen jednou a po 24 hodinách vyprší.",
+        "downloadButton": "Stáhnout vaše data",
+        "readyHint": "Soubor obsahuje všechny vaše osobní údaje, nastavení zabezpečení, protokol aktivity a další věci ve strukturovaných souborech JSON.",
+        "downloadingTitle": "Stahování...",
+        "downloadingDescription": "Váš export se připravuje. Může to trvat několik sekund.",
+        "successTitle": "Stahování začalo",
+        "successDescription": "Váš export dat se stahuje. Soubor uložte na bezpečné místo, protože obsahuje citlivé osobní údaje.",
+        "successHint": "Tento odkaz ke stažení už vypršel. Pokud potřebujete nový export, můžete o něj požádat v nastavení účtu.",
+        "backToSettings": "Zpět do nastavení účtu",
+        "expiredTitle": "Platnost odkazu vypršela",
+        "expiredDescription": "Platnost tohoto odkazu ke stažení vypršela nebo již byl použit. Odkazy ke stažení platí 24 hodin a lze je použít jen jednou.",
+        "newExportButton": "Požádat o nový export",
+        "errorTitle": "Něco se pokazilo",
+        "errorDefault": "Při načítání exportu došlo k chybě.",
+        "noToken": "Nebyl nalezen token ke stažení."
+      },
+      "appConnectionsModalSubtitle": "Pomocí propojení aplikací můžete dělat věci v různých produktech Ordnary a s dalšími společnostmi.",
+      "connectButton": "Připojit",
+      "activityModalSubtitle": "Zobrazte si a spravujte svou aktivitu v ekosystému Ordnary, včetně našich produktů a aplikací SaaS. Tyto informace používáme, abychom se z vašeho chování učili a vylepšovali váš zážitek napříč všemi našimi platformami.",
+      "accountsAndProfiles": "Vaše účty a profily",
+      "keepActivityFor": "Uchovávat aktivitu po dobu",
+      "clearActivityButton": "Vymazat veškerou aktivitu",
+      "days3": "3 dny",
+      "days7": "7 dní",
+      "days14": "14 dní",
+      "standardOption": "Standardní",
+      "noticeTitle": "Získejte kopii svých informací",
+      "noticeText": "Stáhněte si data svého účtu, abyste je měli, nebo je přesuňte do jiné služby.",
+      "noticeAction": "Exportovat informace",
+      "experimentBadge": "Experiment",
+      "userFallback": "Uživatel",
+      "avatarAlt": "Profilový obrázek",
+      "exportSent": "Odkaz ke stažení byl odeslán na {email}",
+      "exportFailed": "Export se nezdařil. Zkuste to znovu.",
+      "exportInProgress": "Export se již připravuje. Zkuste to za chvíli znovu.",
+      "exportRateLimited": "Dosáhli jste maximálního počtu exportů. Zkuste to znovu za {time}.",
+      "saveFailed": "Uložení se nezdařilo. Zkuste to znovu.",
+      "days30": "30 dní",
+      "autoClear": {
+        "title": "Automaticky mazat aktivitu v Ordnary",
+        "subtitle": "Vyberte, jak dlouho uchováváme vaši aktivitu. Starší aktivita se automaticky odstraní, pro všechny účty a profily v Centru účtu.",
+        "standard": "Standardní",
+        "saving": "Ukládání…",
+        "saved": "Uloženo.",
+        "back": "Zpět",
+        "close": "Zavřít",
+        "howTitle": "Co se odstraní",
+        "howText": "Historie vašich přihlášení a bezpečnostní události na vašem účtu, například nová přihlášení, změny hesla a zablokované pokusy, jakmile jsou starší než zvolené období.",
+        "howPermanent": "Odstraněnou aktivitu nelze obnovit. Pokud ji chcete zachovat, nejdřív si stáhněte kopii.",
+        "learnMore": "Více o automatickém mazání v dokumentaci Ordnary"
+      },
+      "experimentBadgeTooltip": "Stále ve vývoji. Můžete se porozhlédnout, ale připojování aplikací zatím nefunguje."
+    },
+    "payments": {
+      "title": "Platby",
+      "subtitle": "Spravujte své uložené platební údaje a to, které účty k nim mají přístup. {learnMore}",
+      "syncInfo": "Synchronizováno mezi 2 účty",
+      "addMethodTitle": "Přidat platební metodu",
+      "addMethodSubtitle": "Uložte si kartu nebo propojte PayPal, ať je další nákup jednodušší.",
+      "addMethodButton": "Přidat platební metodu",
+      "shippingTitle": "Doručovací údaje",
+      "shippingAddress": "Doručovací adresa",
+      "emailAddress": "E-mailová adresa",
+      "phoneNumber": "Telefonní číslo",
+      "addModal": {
+        "title": "Přidat platební metodu",
+        "card": "Kreditní nebo debetní karta",
+        "paypal": "PayPal",
+        "footer": "Tyto údaje se uloží v Ordnary Pay a synchronizují se v Centru účtu, kde je lze spravovat. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Přidat kartu",
+        "subtitle": "Číslo vaší karty je šifrováno a bezpečně uloženo",
+        "cardNumber": "Číslo karty",
+        "expiry": "Platnost do (MM/RR)",
+        "cvv": "CVV",
+        "name": "Jméno na kartě",
+        "submit": "Další",
+        "cvvTooltip": "Ověřovací kód (CVV) je bezpečnostní číslo na zadní nebo přední straně vaší karty.",
+        "footer": "Tyto údaje se uloží v Ordnary Pay a synchronizují se v Centru účtu, kde je lze spravovat. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Nastavit doručovací adresu",
+        "subtitle": "Přidejte doručovací adresu pro Ordnary Pay. Je oddělená od nastavení vaší karty.",
+        "search": "Hledat adresu",
+        "country": "Země nebo region",
+        "fullName": "Celé jméno",
+        "street": "Adresa",
+        "street2": "Druhý řádek adresy (nepovinné)",
+        "city": "Město/obec",
+        "state": "Stát/kraj/region",
+        "zip": "PSČ",
+        "submit": "Uložit adresu"
+      }
+    },
+    "subscriptions": {
+      "description": "Spravujte své aktivní předplatné Ordnary, obnovení a nastavení fakturace.",
+      "emptyTitle": "Žádné aktivní předplatné",
+      "emptyDescription": "Předplatné se zde zobrazí, jakmile bude propojeno s vaším účtem.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Neomezený přístup k prémiovému obsahu z Ordnary Pictures, včetně vybraných filmů, seriálů, upoutávek a exkluzivních novinek pro členy napříč podporovanými službami Ordnary.",
+          "status": "Aktivní",
+          "renewal": "Obnovuje se měsíčně",
+          "price": "9,99 € měsíčně"
+        }
+      },
+      "manageSubscription": "Spravovat předplatné"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Přístup odepřen",
+        "description": "Do Centra účtu momentálně nemáte přístup. Možná vypršela platnost vaší relace nebo je váš účet omezen.",
+        "action": "Přihlásit se znovu"
+      },
+      "suspended": {
+        "title": "Účet deaktivován",
+        "description": "Tento účet je deaktivován nebo dočasně omezen. Pokud si myslíte, že jde o chybu, kontaktujte podporu.",
+        "action": "Kontaktovat podporu"
+      },
+      "banned": {
+        "title": "Přístup trvale odepřen",
+        "description": "Váš účet byl trvale zablokován za porušení našich Podmínek služby.",
+        "action": "Zobrazit podmínky"
+      },
+      "offline": {
+        "title": "Žádné připojení k internetu",
+        "description": "Vypadá to, že jste offline. Pro pokračování zkontrolujte připojení k internetu.",
+        "action": "Zkusit znovu"
+      },
+      "unknown": {
+        "title": "Systémová chyba",
+        "description": "Stalo se něco neočekávaného. Zkuste to později.",
+        "action": "Zpět na začátek"
+      },
+      "previousPage": "Předchozí stránka"
+    },
+    "common": {
+      "noResults": "Žádné výsledky",
+      "searchPlaceholder": "Hledat..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} chce získat přístup k vašemu účtu",
+      "description": "Jste přihlášeni jako {displayName}. Přístup povolte, jen pokud této aplikaci důvěřujete.",
+      "requestedPermissions": "Požadovaná oprávnění",
+      "approve": "Povolit přístup",
+      "deny": "Zamítnout",
+      "errorTitle": "S požadavkem je problém",
+      "errorDescription": "Požadavek na autorizaci je neplatný nebo neúplný. Zkontrolujte prosím parametry.",
+      "unknownAppTitle": "Aplikaci nelze ověřit",
+      "unknownAppDescription": "Ordnary tuto aplikaci nedokáže identifikovat. Obvykle je příčinou nesprávný client_id nebo redirect_uri. Z důvodu vaší bezpečnosti nemůžeme pokračovat."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Tato stránka není dostupná",
+      "description": "Odkaz může být nefunkční nebo byla stránka odstraněna. Zkontrolujte, zda je odkaz, který chcete otevřít, správný.",
+      "button": "Přejít do nastavení účtu"
+    },
+    "serverError": {
+      "title": "Něco se pokazilo",
+      "description": "Došlo k neočekávané chybě. Zkuste to prosím později znovu.",
+      "button": "Zkusit znovu"
+    }
+  },
+  "cookieConsent": {
+    "title": "Povolit cookies od Ordnary v tomto prohlížeči?",
+    "description": "Používáme cookies a podobné technologie k poskytování obsahu v produktech Ordnary a k jejich vylepšování. Také díky nim poskytujeme bezpečnější prostředí pomocí informací, které získáváme v Ordnary i mimo ni. Tyto cookies jsou volitelné.",
+    "essentialTitle": "Nezbytné cookies",
+    "essentialDesc": "Tyto cookies jsou potřeba k používání produktů Ordnary a jsou nutné k řádnému fungování našich webů.",
+    "optionalTitle": "Cookies od jiných společností",
+    "optionalDesc": "Tyto cookies používáme k zobrazování reklam mimo produkty Ordnary a k poskytování funkcí, jako jsou mapy a videa, v produktech Ordnary. Tyto cookies jsou volitelné.",
+    "policyInfo": "Sami rozhodujete, které volitelné cookies smíme používat. V našich {cookiePolicy} najdete další informace o cookies a o tom, jak je používáme, a své volby můžete kdykoli zkontrolovat nebo změnit.",
+    "cookiePolicy": "zásadách cookies",
+    "infoTitle": "Informace o cookies",
+    "policyRefreshNotice": "Změnili jsme způsob, jakým zaznamenáváme volby cookies. Potvrďte prosím své předvolby znovu, abychom mohli vést aktuální záznam.",
+    "policyRevisionNotice": "Naše zásady cookies byly aktualizovány. Zkontrolujte prosím své předvolby znovu.",
+    "preferencesTitle": "Vaše předvolby cookies",
+    "preferencesDescription": "Vyberte, které kategorie cookies může Ordnary v tomto prohlížeči používat. Toto nastavení můžete kdykoli změnit ve svém účtu.",
+    "alwaysOn": "Vždy zapnuto",
+    "categories": {
+      "essential": {
+        "title": "Nezbytné",
+        "description": "Nutné k přihlášení, zabezpečení a fungování zbytku produktu."
+      },
+      "functional": {
+        "title": "Funkční",
+        "description": "Pamatují si předvolby, jako je jazyk, motiv a nedávné účty."
+      },
+      "analytics": {
+        "title": "Analytické",
+        "description": "Pomáhají nám pochopit, jak se Ordnary používá, abychom ji mohli vylepšovat."
+      },
+      "marketing": {
+        "title": "Marketingové",
+        "description": "Personalizovaná sdělení od Ordnary o produktech a nabídkách."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Co jsou cookies?",
+        "button": "Zjistit více"
+      },
+      "why": {
+        "title": "Proč používáme cookies?",
+        "button": "Zjistit více"
+      },
+      "products": {
+        "title": "Co jsou produkty Ordnary?",
+        "button": "Zjistit více"
+      },
+      "preferences": {
+        "title": "Vaše předvolby cookies",
+        "button": "Zjistit více"
+      }
+    },
+    "buttons": {
+      "reject": "Odmítnout volitelné cookies",
+      "accept": "Povolit všechny cookies",
+      "rejectShort": "Odmítnout",
+      "acceptShort": "Povolit",
+      "customize": "Přizpůsobit",
+      "save": "Uložit předvolby",
+      "saveShort": "Uložit",
+      "close": "Zavřít"
+    }
+  },
+  "recentAccounts": {
+    "title": "Přihlaste se účtem Ordnary",
+    "continueAs": "Pokračovat jako {name}",
+    "loginAnother": "Přihlásit se jiným účtem",
+    "remove": "Odebrat účet"
+  },
+  "reauthenticate": {
+    "title": "Potvrďte, že jste to vy",
+    "description": "Dobrý den, {name}, pro vaši bezpečnost musíme před akcí „{action}“ ověřit, že jste to vy.",
+    "codeSentTo": "Poslali jsme kód na {email}.",
+    "codeSent": "Poslali jsme vám na e-mail 6místný bezpečnostní kód.",
+    "securityCode": "Bezpečnostní kód",
+    "continue": "Pokračovat",
+    "verifying": "Ověřování…",
+    "sending": "Odesílání…",
+    "cancel": "Zrušit",
+    "errors": {
+      "sendFailed": "Bezpečnostní kód se nepodařilo odeslat.",
+      "invalidCode": "Neplatný kód.",
+      "network": "Chyba sítě. Zkuste to prosím znovu."
+    },
+    "actions": {
+      "changePassword": "změnit heslo",
+      "changeEmail": "spravovat e-mailové adresy",
+      "managePasskeys": "spravovat přístupové klíče",
+      "manageMfa": "spravovat dvoufázové ověření",
+      "revokeAllSessions": "odhlásit se všude",
+      "manageAccount": "deaktivovat nebo smazat účet",
+      "rotateClientSecret": "obnovit tajný klíč klienta",
+      "managePaymentMethods": "spravovat platební metody",
+      "authorizeApp": "autorizovat tuto aplikaci",
+      "generic": "pokračovat v této citlivé akci"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Potvrďte souhlas rodiče",
+    "description": "Uživatel vás požádal o schválení jeho účtu Ordnary podle čl. 8 GDPR. Kliknutím na Potvrdit níže zaznamenáte svůj souhlas. Můžete ho kdykoli později odvolat odpovědí na původní e-mail nebo kontaktováním {email}.",
+    "idle": "Tuto stránku je nutné otevřít z odkazu v e-mailu s žádostí, aby byl zahrnut potvrzovací token.",
+    "verifying": "Ověřování…",
+    "success": "Děkujeme. Souhlas rodiče byl potvrzen a odemkli jsme účet na straně uživatele. Uživatel dostane také oznámení.",
+    "errors": {
+      "tokenRequired": "Nebyl zadán žádný ověřovací token.",
+      "tokenNotFound": "Tento potvrzovací odkaz již není platný.",
+      "alreadyVerified": "Toto potvrzení již bylo zaznamenáno.",
+      "requestRevoked": "Tato žádost byla stažena nebo nahrazena novější.",
+      "tokenExpired": "Platnost tohoto potvrzovacího odkazu vypršela. Požádejte uživatele o odeslání nové žádosti.",
+      "invalidBody": "Ověřovací požadavek měl neplatný formát.",
+      "generic": "Tento potvrzovací odkaz se nepodařilo ověřit. Požádejte uživatele o odeslání nové žádosti."
+    }
+  },
+  "unsubscribe": {
+    "title": "Odhlásit odběr",
+    "idle": "Otevřete tuto stránku z odkazu v e-mailu, aby byl zahrnut token pro odhlášení.",
+    "verifying": "Ukládání vašeho nastavení…",
+    "success": "Odběr byl odhlášen.",
+    "successWithCategory": "Odběr kategorie {category} byl odhlášen.",
+    "manageAt": "Všechna nastavení oznámení můžete kdykoli upravit na {link}.",
+    "categories": {
+      "transactionalSecurity": "bezpečnostní upozornění",
+      "transactionalAccount": "oznámení k účtu",
+      "productUpdates": "novinky o produktech",
+      "recommendations": "doporučení",
+      "marketing": "marketingové e-maily"
+    },
+    "errors": {
+      "tokenRequired": "Nebyl zadán žádný token pro odhlášení.",
+      "tokenNotFound": "Tento odkaz pro odhlášení již není platný.",
+      "alreadyRedeemed": "Tuto kategorii jste již odhlásili.",
+      "tokenExpired": "Platnost tohoto odkazu pro odhlášení vypršela. Nastavení můžete spravovat v Centru účtu po přihlášení.",
+      "categoryMandatory": "Tuto kategorii nelze vypnout, protože zahrnuje oznámení k zabezpečení a oznámení nutná pro účet.",
+      "generic": "Tento odkaz pro odhlášení se nepodařilo zpracovat. Přihlaste se a upravte nastavení přímo."
+    }
+  },
+  "dsarVerify": {
+    "title": "Potvrďte svou žádost o ochranu soukromí",
+    "description": "Potvrďte, že jste Ordnary poslali tuto žádost týkající se vašich údajů. Pokud ne, zavřete tuto stránku a dejte nám vědět na {email}.",
+    "idle": "Otevřete tuto stránku z odkazu v e-mailu, který jsme poslali, aby bylo potvrzení součástí.",
+    "confirm": "Potvrdit žádost",
+    "verifying": "Potvrzování…",
+    "success": "Děkujeme, vaše žádost je potvrzena. Vyřídíme ji v zákonné lhůtě a napíšeme vám, až bude hotová.",
+    "errors": {
+      "tokenRequired": "V tomto odkazu chybí potvrzovací kód.",
+      "tokenNotFound": "Tento odkaz už není platný.",
+      "tokenExpired": "Platnost odkazu vypršela. Podejte žádost znovu v Centru účtu.",
+      "alreadyProcessed": "Tato žádost už byla potvrzena nebo vyřízena.",
+      "generic": "Žádost se nepodařilo potvrdit. Zkuste to znovu nebo napište na {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Byli jste odhlášeni. Přihlaste se znovu a zkuste to znovu.",
+    "not_authenticated": "Byli jste odhlášeni. Přihlaste se znovu a zkuste to znovu.",
+    "step_up_required": "Nejdřív potvrďte, že jste to vy, a pak to zkuste znovu.",
+    "rate_limited": "Příliš mnoho pokusů. Počkejte několik minut a zkuste to znovu.",
+    "first_party_only": "Tato možnost je dostupná jen ve vlastních aplikacích Ordnary.",
+    "invalid_request": "V tomto požadavku něco nesedí. Načtěte stránku znovu a zkuste to znovu.",
+    "invalid_body": "V tomto požadavku něco nesedí. Načtěte stránku znovu a zkuste to znovu.",
+    "invalid_action": "Tato akce tu není dostupná.",
+    "missing_fields": "Vyplňte všechna pole.",
+    "internal_error": "Na naší straně se něco pokazilo. Zkuste to za chvíli znovu.",
+    "internal_server_error": "Na naší straně se něco pokazilo. Zkuste to za chvíli znovu.",
+    "unavailable": "Tato funkce teď není dostupná. Zkuste to později.",
+    "send_failed": "E-mail se nepodařilo odeslat. Zkuste to za chvíli znovu.",
+    "user_not_found": "Tento účet jsme nenašli.",
+    "invalid_email": "Zadejte platnou e-mailovou adresu.",
+    "missing_address": "Zadejte e-mailovou adresu.",
+    "email_already_exists": "Tato e-mailová adresa se už používá.",
+    "email_not_found": "Tato e-mailová adresa u vašeho účtu není.",
+    "cannot_delete_primary_email": "Svou hlavní e-mailovou adresu nemůžete odebrat.",
+    "failed_to_add_email": "Tuto e-mailovou adresu se nepodařilo přidat.",
+    "failed_to_delete_email": "Tuto e-mailovou adresu se nepodařilo odebrat.",
+    "failed_to_send_verification_email": "Ověřovací e-mail se nepodařilo odeslat, takže adresa nebyla přidána.",
+    "no_email": "Váš účet nemá žádnou e-mailovou adresu, na kterou bychom mohli psát.",
+    "no_primary_email": "Váš účet nemá hlavní e-mailovou adresu.",
+    "password_mismatch": "Nová hesla se neshodují.",
+    "password_incorrect": "Vaše současné heslo není správné.",
+    "password_too_weak": "Nové heslo nesplňuje požadavky.",
+    "password_change_failed": "Heslo se nepodařilo změnit.",
+    "no_password": "Váš účet zatím nemá heslo.",
+    "passkey_not_found": "Tento přístupový klíč už neexistuje.",
+    "missing_passkey_id": "Nejdřív vyberte přístupový klíč.",
+    "session_not_found": "Tato relace už neexistuje.",
+    "missing_session_id": "Nejdřív vyberte relaci.",
+    "cannot_revoke_current_session": "Relaci, kterou tady právě používáte, nemůžete odhlásit.",
+    "code_required": "Zadejte kód z e-mailu.",
+    "code_invalid": "Tento kód není správný.",
+    "code_expired": "Platnost kódu vypršela. Požádejte o nový.",
+    "exists": "Už ho máte.",
+    "not_deactivated": "Váš účet není deaktivovaný.",
+    "grace_period_expired": "Lhůta 30 dní na obnovení tohoto účtu uplynula.",
+    "token_required": "Tento odkaz je neúplný.",
+    "token_not_found": "Tento odkaz už není platný.",
+    "token_expired": "Platnost tohoto odkazu vypršela.",
+    "already_redeemed": "Tento odkaz už byl použit.",
+    "already_downloaded": "Toto stažení už bylo použito.",
+    "already_verified": "Toto už bylo potvrzeno.",
+    "already_processed": "Tento požadavek už byl vyřízen.",
+    "already_extended": "Lhůta tohoto požadavku už byla prodloužena.",
+    "invalid_date": "Zadejte platné datum.",
+    "birthday_verification_attempt_not_found": "Tuto kontrolu dokladu totožnosti jsme nenašli. Začněte znovu.",
+    "identity_verification_incomplete": "Kontrola dokladu totožnosti ještě není dokončená.",
+    "identity_verification_dob_mismatch": "Datum narození na vašem dokladu neodpovídá datu, které jste zadali.",
+    "identity_verification_dob_unavailable": "Z vašeho dokladu se nepodařilo přečíst datum narození.",
+    "missing_attempt_id": "Kontrola dokladu totožnosti chybí. Začněte znovu.",
+    "invalid_kind": "Vyberte, o jaký druh požadavku jde.",
+    "invalid_applies_to": "Vyberte, čeho se požadavek týká.",
+    "invalid_filed_by": "Uveďte, kdo tento požadavek podává.",
+    "subject_email_required": "Zadejte e-mailovou adresu, které se požadavek týká.",
+    "representative_email_required": "Zadejte e-mailovou adresu zástupce.",
+    "request_not_found": "Tento požadavek jsme nenašli.",
+    "request_already_open": "Požadavek tohoto druhu už máte otevřený.",
+    "request_cooldown_active": "Tento požadavek jste nedávno podali. Zkuste to později.",
+    "request_closed": "Tento požadavek je už uzavřený.",
+    "request_not_open": "Tento požadavek už není otevřený.",
+    "request_not_verified": "Tento požadavek ještě nebyl potvrzen.",
+    "request_revoked": "Tento požadavek byl stažen nebo nahrazen.",
+    "no_download_for_kind": "K tomuto druhu požadavku není nic ke stažení.",
+    "export_already_in_progress": "Export se už připravuje.",
+    "export_rate_limited": "Export jste nedávno vytvořili. Zkuste to později.",
+    "invalid_retention_days": "Vyberte jedno z nabízených období.",
+    "invalid_category": "Tato kategorie oznámení neexistuje.",
+    "category_mandatory": "Tyto e-maily nelze vypnout.",
+    "review_not_found": "Tento přezkum jsme nenašli.",
+    "review_already_open": "Přezkum už máte otevřený.",
+    "review_cooldown_active": "O přezkum jste nedávno požádali. Zkuste to později.",
+    "review_not_open": "Tento přezkum už není otevřený.",
+    "review_not_pending": "Tento přezkum už nelze změnit.",
+    "invalid_review_type": "Vyberte, o jaký druh přezkumu jde.",
+    "no_active_consent": "Není žádný aktivní souhlas, který by šel odvolat.",
+    "not_a_minor": "Pro tento účet není souhlas rodiče potřeba.",
+    "parent_email_required": "Zadejte e-mailovou adresu svého rodiče nebo zákonného zástupce.",
+    "invalid_parent_email": "Zadejte platnou e-mailovou adresu svého rodiče nebo zákonného zástupce.",
+    "connection_not_found": "Tato aplikace už není připojená.",
+    "client_not_found": "Tuto aplikaci jsme nenašli.",
+    "too_large": "Tento soubor je příliš velký.",
+    "unsupported_type": "Tento typ souboru není podporován.",
+    "no_file": "Nejdřív vyberte soubor."
+  }
+}

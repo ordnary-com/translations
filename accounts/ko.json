@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "계정 센터",
+    "accountCenterSubtitle": "Ordnary 기술 전반에서 연결된 환경과 계정 설정을 관리하세요.",
+    "learnMore": "자세히 알아보기",
+    "loading": "불러오는 중...",
+    "back": "뒤로",
+    "close": "닫기",
+    "backToHome": "홈으로 돌아가기"
+  },
+  "nav": {
+    "profiles": "프로필",
+    "connectedExperiences": "연결된 환경",
+    "passwordAndSecurity": "비밀번호 및 보안",
+    "personalDetails": "개인 정보 및 설정",
+    "education": "교육",
+    "permissions": "내 정보 및 권한",
+    "adPreferences": "광고 환경설정",
+    "payments": "Ordnary Pay",
+    "subscriptions": "구독",
+    "accounts": "계정",
+    "activity": "활동"
+  },
+  "education": {
+    "title": "교육",
+    "description": "학교 이메일로 학생임을 확인하면 학생 혜택이 제공되는 Ordnary 제품에서 혜택을 받을 수 있어요.",
+    "statusLabel": "학생 상태",
+    "statuses": {
+      "none": "확인되지 않음",
+      "pending": "링크를 열기를 기다리는 중입니다",
+      "verified": "확인됨",
+      "revoked": "더 이상 유효하지 않음"
+    },
+    "details": {
+      "title": "내 정보",
+      "school": "학교",
+      "email": "학교 이메일",
+      "verifiedOn": "확인한 날짜"
+    },
+    "dialog": {
+      "title": "학생 인증",
+      "subtitle": "학교 이메일로 학생임을 확인하세요. 이 주소는 확인 용도로만 사용하며, 다른 메일은 보내지 않습니다.",
+      "close": "닫기",
+      "verifiedTitle": "확인됨",
+      "verifiedBody": "{school}의 {email}, {date}부터.",
+      "pendingTitle": "링크를 열어 주세요",
+      "pendingBody": "{email}(으)로 링크를 보냈습니다. 완료하려면 24시간 이내에 열어 주세요.",
+      "revokedTitle": "더 이상 유효하지 않음",
+      "revokedBody": "학생 상태가 종료되었습니다. 학교 이메일로 다시 확인하세요.",
+      "changeEmail": "다른 학교 이메일 사용",
+      "resend": "다시 보내기",
+      "cancel": "취소",
+      "emailLabel": "학교 이메일",
+      "detected": "{school}",
+      "notRecognised": "학교 이메일로 인식되지 않습니다. 학교에서 받은 주소를 사용하세요.",
+      "send": "링크 보내기",
+      "sending": "보내는 중…",
+      "sent": "{email}(으)로 링크를 보냈습니다.",
+      "sentWhileVerified": "{email}(으)로 링크를 보냈습니다. 링크를 열기 전까지는 현재 학교로 계속 확인된 상태입니다.",
+      "points": [
+        {
+          "title": "학교 이메일 입력",
+          "text": "주소가 어느 학교의 것인지 표시합니다."
+        },
+        {
+          "title": "링크 열기",
+          "text": "해당 주소로 링크를 보냅니다. 24시간 동안 유효합니다."
+        },
+        {
+          "title": "인증 완료",
+          "text": "학생 혜택을 제공하는 Ordnary 제품에서 학생 자격이 활성화됩니다."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "학생 상태가 활성화되었습니다.",
+      "verificationError": "이 링크는 더 이상 사용할 수 없습니다. 새 링크를 요청하세요."
+    },
+    "errors": {
+      "not_academic": "학교 이메일로 인식되지 않습니다. 학교에서 받은 주소를 사용하세요.",
+      "account": "계정에 문제가 발생했습니다. 나중에 다시 시도하세요.",
+      "send_failed": "지금은 링크를 보낼 수 없습니다. 나중에 다시 시도하세요.",
+      "no_pending": "다시 보낼 요청이 없습니다. 학교 이메일을 입력하세요.",
+      "not_authenticated": "계속하려면 다시 로그인하세요."
+    }
+  },
+  "profiles": {
+    "title": "프로필",
+    "description": "Ordnary 기술 전반에서 연결된 환경과 계정 설정을 관리하세요.",
+    "addAccounts": "계정 추가",
+    "detail": {
+      "aboutTitle": "이 프로필 정보",
+      "accessTitle": "{app}이(가) 접근할 수 있는 항목",
+      "linksTitle": "{app}의 정책",
+      "mainProfile": "기본 프로필",
+      "connected": "연결된 앱",
+      "verified": "Ordnary 확인됨",
+      "connectedOn": "연결한 날짜",
+      "lastUsed": "마지막 사용",
+      "never": "아직 없음",
+      "activeSignIns": "활성 로그인",
+      "profileId": "프로필 ID",
+      "email": "이메일 주소",
+      "memberSince": "가입일",
+      "twoFactor": "2단계 인증",
+      "on": "켜짐",
+      "off": "꺼짐",
+      "passkeys": "패스키",
+      "privacy": "개인정보 처리방침",
+      "terms": "서비스 약관",
+      "disconnect": "연결 해제",
+      "disconnectTitle": "{app} 연결을 해제할까요?",
+      "disconnectText": "{app}이(가) 더 이상 내 Ordnary 계정을 사용할 수 없으며, 로그아웃됩니다. 나중에 {app}에 로그인하면 다시 연결할 수 있습니다.",
+      "disconnecting": "연결 해제 중...",
+      "cancel": "취소",
+      "copied": "복사됨",
+      "copy": "복사",
+      "scopes": {
+        "openid": "Ordnary 계정으로 나를 인식",
+        "profile": "이름과 프로필 사진",
+        "email": "이메일 주소",
+        "offline_access": "사용하지 않을 때도 로그인 상태 유지",
+        "phone": "전화번호",
+        "address": "주소"
+      },
+      "change": "변경",
+      "setUp": "설정",
+      "manage": "관리",
+      "add": "추가",
+      "none": "아직 없음"
+    },
+    "revokedSuccess": "연결을 해제했어요",
+    "revokedError": "연결을 해제하지 못했어요. 다시 시도하세요."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "새 Ordnary 계정을 만들까요?",
+      "registrationName": "이름이 무엇인가요?",
+      "registrationBirthday": "생일이 언제인가요?",
+      "registrationPassword": "비밀번호 만들기",
+      "saveLoginInfo": "로그인 정보를 저장할까요?",
+      "registrationReview": "계정 만들기를 완료하세요",
+      "verifyEmailCode": "확인 코드 입력",
+      "editEmail": "이메일 주소가 무엇인가요?",
+      "loginCodeEntry": "이메일을 확인하세요",
+      "recoveryCodeEntry": "계정을 확인하세요",
+      "resetPassword": "새 비밀번호 만들기",
+      "passwordEntry": "비밀번호 입력",
+      "identifierLookup": "이메일이 무엇인가요?",
+      "signIn": "로그인",
+      "mfaCodeEntry": "인증 코드를 입력하세요"
+    },
+    "descriptions": {
+      "identifierLookup": "이메일을 입력해 계정에 로그인하거나 새 계정을 만드세요.",
+      "passwordEntry": "로그인하려면 {identifier}에 연결된 비밀번호를 입력하세요.",
+      "accountNotFound": "{email}에 대한 Ordnary 계정을 찾을 수 없습니다. 아직 계정을 만들지 않았을 수 있습니다. 이미 만들었다면 다른 식별자를 사용하고 있을 수 있습니다.",
+      "registrationName": "이 이름은 계정 복구와 계정 관련 안내에 사용되며 공개되지 않습니다.",
+      "registrationBirthday": "이 계정이 회사용이더라도 본인의 실제 생년월일을 사용하세요. 이 정보는 공개되지 않습니다.",
+      "registrationPassword": "다른 사람이 추측할 수 없는 비밀번호를 만드세요.",
+      "saveLoginInfo": "다음에 다시 입력하지 않도록 로그인 정보를 저장합니다.",
+      "verifyEmailCode": "계정을 확인하려면 {identifier}에 전송된 6자리 코드를 입력하세요.",
+      "editEmail": "연락 가능한 이메일 주소를 입력하세요. 이 주소는 로그인과 계정 관리에 사용되며 공개되지 않습니다.",
+      "loginCodeEntry": "로그인하려면 {identifier}에 보낸 코드를 입력하세요. 스팸함이나 소셜 메일함도 확인해야 할 수 있습니다.",
+      "recoveryCodeEntry": "{identifier}에 코드를 보냈습니다. 계정을 확인하려면 해당 코드를 입력하세요.",
+      "resetPassword": "이 비밀번호로 Ordnary 계정에 로그인하게 됩니다. 최소 6개의 문자와 숫자를 사용하세요.",
+      "mfaCodeEntry": "계속하려면 인증 앱의 6자리 코드를 입력하세요."
+    },
+    "buttons": {
+      "createNewAccount": "새 계정 만들기",
+      "alreadyHaveAccount": "이미 계정이 있습니다",
+      "next": "다음",
+      "save": "저장",
+      "notNow": "지금은 안 함",
+      "finish": "완료",
+      "resendCode": "코드 다시 보내기",
+      "enterPassword": "비밀번호 입력",
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "switchAccount": "계정 전환",
+      "yes": "예",
+      "no": "아니요",
+      "useEmailCode": "이메일 코드로 로그인",
+      "signInWithPasskey": "패스키로 로그인",
+      "useRecoveryCode": "복구 코드 사용",
+      "useAuthenticatorCode": "인증 앱 사용"
+    },
+    "labels": {
+      "name": "이름",
+      "firstName": "이름",
+      "lastName": "성",
+      "day": "일",
+      "month": "월",
+      "year": "년",
+      "dateOfBirth": "생년월일",
+      "confirmationCode": "확인 코드",
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "newPassword": "새 비밀번호",
+      "logoutOthers": "다른 모든 위치에서 로그아웃하여 다른 사람이 계속 계정에 접근하지 못하도록 합니다",
+      "marketingEmails": "Ordnary Identity 앱, 추천 및 혜택에 대한 이메일을 받고 싶습니다.",
+      "showPassword": "비밀번호 표시",
+      "hidePassword": "비밀번호 숨기기",
+      "clearInput": "입력 지우기",
+      "recoveryCode": "복구 코드"
+    },
+    "links": {
+      "whyNeedBirthday": "왜 생년월일이 필요한가요?",
+      "learnMore": "자세히 알아보기",
+      "editEmail": "이메일 주소 수정",
+      "noAccessEmail": "이 이메일 주소에 더 이상 접근할 수 없나요?",
+      "termsOfService": "서비스 약관",
+      "privacyPolicy": "개인정보 처리방침",
+      "cookiePolicy": "쿠키 정책"
+    },
+    "messages": {
+      "nameHelp": "실명을 사용하면 접근 권한을 잃었을 때 계정을 더 쉽게 복구할 수 있습니다.",
+      "emailHelp": "업무용 또는 개인 이메일로 Ordnary 서비스를 이용하세요.",
+      "existingSessionTitle": "이미 활성 세션이 있습니다",
+      "existingSessionDescription": "이미 로그인되어 있습니다. {seconds}초 후 계정 센터로 이동합니다.",
+      "summaryPrivacy": "Ordnary 계정 정보는 공개되지 않습니다.",
+      "verifyEmailLookFor": "notification@ordnary.com에서 온 이메일을 확인하세요. 스팸함이나 소셜 메일함도 확인해야 할 수 있습니다.",
+      "termsAgreement": "\"완료\"를 클릭하면 서비스 약관, 개인정보 처리방침에 동의하고 쿠키 정책을 읽었음을 확인하는 것입니다.",
+      "footerAgreement": "계속 진행하면 서비스 약관, 개인정보 처리방침 및 적용 가능한 데이터 처리 지침을 읽고 동의했음을 인정하는 것입니다. 또한 플랫폼 사용과 관련된 필수 계정 및 보안 알림을 받는 데 동의하게 됩니다.",
+      "emailMissing": "이메일 주소는 필수입니다.",
+      "resendCodeError": "코드를 다시 보내는 중 예상치 못한 오류가 발생했습니다.",
+      "invalidInput": "잘못된 입력입니다.",
+      "credentialsPrompt": "로그인하려면 {identifier}에 연결된 비밀번호를 입력하세요.",
+      "checkEmailPrompt": "로그인하려면 {identifier}에 보낸 코드를 입력하세요.",
+      "termsIntro": "완료를 누르면 다음에 동의하게 됩니다"
+    },
+    "validation": {
+      "emailRequired": "이메일 주소는 필수입니다.",
+      "passwordRequired": "비밀번호는 필수입니다.",
+      "passwordMin": "비밀번호는 최소 12자여야 합니다.",
+      "passwordMax": "비밀번호는 128자를 초과할 수 없습니다.",
+      "emailInvalid": "유효한 이메일 주소를 입력하세요.",
+      "displayNameMin": "표시 이름은 최소 2자여야 합니다.",
+      "resetTokenRequired": "재설정 토큰이 필요합니다.",
+      "verificationTokenRequired": "확인 토큰이 필요합니다."
+    },
+    "errors": {
+      "invalidInput": "잘못된 입력입니다.",
+      "genericLoginFailed": "로그인할 수 없습니다. 다시 시도하세요.",
+      "loginInvalidCredentials": "유효하지 않은 이메일 또는 비밀번호입니다.",
+      "accountLocked": "계정이 잠겼거나 정지되었습니다.",
+      "passwordIncorrect": "입력한 비밀번호가 올바르지 않습니다.",
+      "notAuthenticated": "인증되지 않았습니다.",
+      "registrationMissingInfo": "필수 가입 정보가 누락되었습니다.",
+      "registrationEmailExists": "이 이메일로 이미 계정이 존재합니다.",
+      "systemNoDefaultTenant": "시스템 오류: 기본 테넌트를 찾을 수 없습니다.",
+      "registrationFailed": "가입에 실패했습니다. 다시 시도하세요.",
+      "invalidVerificationRequest": "잘못된 확인 요청입니다.",
+      "accountNotFound": "계정을 찾을 수 없습니다.",
+      "verificationCodeInvalidOrExpired": "유효하지 않거나 만료된 확인 코드입니다.",
+      "verificationFailedTryAgain": "확인에 실패했습니다. 다시 시도하세요.",
+      "invalidRequest": "잘못된 요청입니다.",
+      "userNotFound": "사용자를 찾을 수 없습니다.",
+      "codeInvalidOrExpired": "유효하지 않거나 만료된 코드입니다.",
+      "verificationFailed": "확인에 실패했습니다.",
+      "missingInformation": "정보가 누락되었습니다.",
+      "passwordResetFailed": "비밀번호 재설정에 실패했습니다.",
+      "emailMissing": "이메일 주소가 없습니다.",
+      "resendCodeFailed": "코드를 다시 보내지 못했습니다. 다시 시도하세요.",
+      "loginRequestFailed": "로그인 요청을 처리하지 못했습니다. 다시 시도하세요.",
+      "mfaDataMissing": "인증 정보가 없습니다. 다시 로그인하세요.",
+      "mfaNoAuthenticator": "이 계정에 활성화된 인증 앱이 없습니다.",
+      "mfaCodeInvalid": "인증 코드가 올바르지 않습니다.",
+      "mfaVerificationFailed": "인증에 실패했습니다. 다시 로그인하세요.",
+      "requestRejected": "이 요청을 처리하지 못했습니다. 다시 시도하세요.",
+      "tooManyAttempts": "시도 횟수가 너무 많습니다. 나중에 다시 시도하세요.",
+      "tooManyFailedLogins": "로그인 실패 횟수가 너무 많습니다. 잠시 기다린 후 다시 시도하세요.",
+      "permanentEmailRequired": "영구 이메일 주소를 사용하세요.",
+      "recoveryFileInvalid": "이 복구 파일은 사용할 수 없습니다. 새 파일로 교체되었거나 삭제되었을 수 있습니다.",
+      "passkeyFailed": "패스키로 로그인하지 못했습니다. 다시 시도하거나 이메일로 계속하세요.",
+      "passwordTooWeak": "아래 요구 사항을 모두 충족하는 비밀번호를 선택하세요."
+    },
+    "months": [
+      "1월",
+      "2월",
+      "3월",
+      "4월",
+      "5월",
+      "6월",
+      "7월",
+      "8월",
+      "9월",
+      "10월",
+      "11월",
+      "12월"
+    ],
+    "recoveryFile": {
+      "link": "복구 파일로 로그인",
+      "title": "복구 파일로 로그인",
+      "description": "계정 센터에서 다운로드한 이 계정의 복구 파일을 업로드하세요. 바로 로그인됩니다.",
+      "choose": "파일 선택",
+      "reading": "로그인하는 중…",
+      "pasteInstead": "대신 코드 붙여넣기",
+      "codeLabel": "파일의 코드",
+      "signIn": "로그인",
+      "notAFile": "Ordnary 복구 파일이 아닙니다. 계정 센터에서 다운로드한 PDF를 선택하세요.",
+      "back": "대신 이메일 코드 사용하기"
+    },
+    "passwordRules": {
+      "length": "12자 이상",
+      "upper": "대문자 1개",
+      "lower": "소문자 1개",
+      "digit": "숫자 1개"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "계정 설정",
+      "appearanceLabel": "화면 모드",
+      "appearanceLight": "라이트",
+      "appearanceSystem": "시스템 설정에 맞춤",
+      "appearanceDark": "다크",
+      "logout": "로그아웃",
+      "sessionExpired": "세션이 만료되었습니다. 계속하려면 다시 로그인하세요.",
+      "logoutConfirmTitle": "Ordnary에서 로그아웃할까요?",
+      "logoutCancel": "취소",
+      "logoutConfirm": "로그아웃",
+      "language": "언어"
+    },
+    "reactivate": {
+      "title": "다시 오신 것을 환영합니다. 계정이 비활성화되어 있습니다",
+      "description": "계정을 비활성화하면서 이메일과 알림을 일시 중지했습니다. 다시 활성화하면 모두 원래대로 돌아옵니다. 나중에 결정하려면 로그아웃하세요. 데이터는 그대로 남아 있습니다.",
+      "reactivate": "내 계정 다시 활성화",
+      "reactivating": "다시 활성화하는 중...",
+      "signOut": "로그아웃",
+      "signingOut": "로그아웃하는 중...",
+      "footer": "계정을 영구적으로 삭제하려면 로그인한 후 개인 정보에서 계정 삭제를 선택하세요.",
+      "successNotification": "다시 오신 것을 환영합니다. 계정이 다시 활성화되었습니다.",
+      "errorGeneric": "계정을 다시 활성화할 수 없습니다. 잠시 후 다시 시도하세요.",
+      "deletedTitle": "계정 삭제가 예정되어 있습니다",
+      "deletedDescription": "{date}에 영구 삭제됩니다. 모든 것을 유지하려면 복원하고, 삭제를 진행하려면 로그아웃하세요.",
+      "restore": "내 계정 복원",
+      "restoring": "복원 중..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "프로필 사진",
+        "custom": "내 사진",
+        "default": "자동 생성 아바타",
+        "modalTitle": "프로필 사진",
+        "subtitle": "Ordnary 앱과 커뮤니티에서 내 이름과 함께 표시됩니다. 내 사진이 없으면 내 계정 고유의 아바타가 사용됩니다.",
+        "choose": "사진 선택",
+        "change": "다른 사진 선택",
+        "remove": "사진 삭제",
+        "save": "사진 저장",
+        "saving": "저장 중...",
+        "hint": "JPG, PNG 또는 WebP. 사진은 정사각형으로 잘립니다.",
+        "errorType": "사용할 수 없는 이미지 파일입니다. JPG, PNG 또는 WebP를 선택하세요.",
+        "errorFailed": "사진을 저장할 수 없습니다. 다시 시도하세요."
+      },
+      "title": "개인 정보 및 설정",
+      "description": "Ordnary는 이 정보를 사용해 본인을 확인하고 커뮤니티를 안전하게 유지합니다. 다른 사람에게 표시되는 개인 정보는 직접 관리할 수 있습니다.",
+      "contactDetails": "연락처 정보",
+      "birthday": "생일",
+      "ownership": "계정 소유권 및 관리",
+      "ownershipDescription": "데이터를 관리하고, 추모 계정의 사후 관리 연락처를 업데이트하고, 계정과 프로필을 비활성화하거나 삭제할 수 있습니다.",
+      "loadingName": "사용자",
+      "modal": {
+        "title": "계정 소유권 및 관리",
+        "deactivationIndexTitle": "비활성화 또는 삭제",
+        "deactivationIndexDescription": "계정과 프로필을 일시적으로 비활성화하거나 영구적으로 삭제합니다.",
+        "optionsTitle": "Ordnary 계정 비활성화 또는 삭제",
+        "optionsDescription": "잠시 쉬고 싶으신가요? 계정을 비활성화하고 언제든 다시 돌아오세요. Ordnary를 떠나고 싶으신가요? 계정을 삭제하세요.",
+        "deactivateTitle": "계정 비활성화",
+        "deactivateDescription": "계정 비활성화는 일시적입니다. 계정이 사용 중지되고 다른 사람에게 표시되지 않습니다.",
+        "deleteTitle": "계정 삭제",
+        "deleteDescription": "계정 삭제는 영구적입니다. 30일이 지나면 다시 활성화하거나 데이터를 복구할 수 없습니다.",
+        "deactivateConfirmTitle": "계정을 비활성화할까요?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "모든 곳에서 로그아웃됩니다",
+            "text": "모든 기기와 Ordnary 계정으로 사용하는 모든 앱에서 로그아웃됩니다."
+          },
+          {
+            "title": "프로필이 숨겨집니다",
+            "text": "계정이 비활성화된 동안 다른 사람은 내 이름이나 프로필을 볼 수 없습니다."
+          },
+          {
+            "title": "언제든 돌아오세요",
+            "text": "다시 로그인하면 계정이 다시 활성화됩니다. 모든 것이 그대로 남아 있습니다."
+          }
+        ],
+        "deactivateConfirmButton": "계정 비활성화",
+        "deleteConfirmTitle": "계정을 삭제할까요?",
+        "deleteConfirmPoints": [
+          {
+            "title": "모든 곳에서 로그아웃됩니다",
+            "text": "모든 기기와 Ordnary 계정으로 사용하는 모든 앱에서 로그아웃됩니다."
+          },
+          {
+            "title": "접근 권한을 잃게 됩니다",
+            "text": "Ordnary와 Ordnary 계정으로 로그인하는 모든 앱에 접근할 수 없습니다."
+          },
+          {
+            "title": "30일 후 영구 삭제됩니다",
+            "text": "그 전까지는 마음을 바꿀 수 있습니다. 이후에는 계정과 데이터를 복구할 수 없습니다."
+          }
+        ],
+        "deleteConfirmCheck": "30일 후 내 계정과 데이터가 영구적으로 삭제된다는 것을 이해합니다.",
+        "deleteConfirmButton": "계정 삭제",
+        "cancel": "취소",
+        "continue": "계속",
+        "working": "처리 중...",
+        "deactivateSuccess": "계정이 비활성화되었습니다. 로그인 페이지로 이동합니다...",
+        "deleteSuccess": "계정 삭제가 예약되었습니다. 로그인 페이지로 이동합니다...",
+        "submitError": "지금은 계정을 업데이트할 수 없습니다."
+      },
+      "missingBirthday": "설정되지 않음",
+      "loadError": "개인 정보를 불러오지 못했습니다.",
+      "preferences": {
+        "sectionTitle": "환경설정",
+        "appearance": "화면 모드",
+        "appearanceDescription": "Ordnary 계정의 화면 모양을 조정합니다.",
+        "cookies": "쿠키 환경설정",
+        "cookiesDescription": "이 브라우저에서 Ordnary가 사용할 수 있는 쿠키를 관리합니다.",
+        "processors": {
+          "title": "내 데이터를 처리하는 곳",
+          "intro": "Ordnary를 운영하기 위해 다른 회사 몇 곳을 이용합니다. 아래가 전부입니다. 각 회사가 받는 정보, 보관 위치, 데이터가 EU 밖으로 나갈 때의 보호 방법을 볼 수 있습니다.",
+          "empty": "회원님의 데이터를 받는 다른 회사는 없습니다.",
+          "loadError": "지금은 불러올 수 없습니다. 나중에 다시 시도해 주세요.",
+          "loading": "불러오는 중...",
+          "close": "닫기",
+          "back": "뒤로",
+          "fields": {
+            "purpose": "하는 일",
+            "receives": "받는 정보",
+            "whose": "대상",
+            "stored": "보관 위치",
+            "transfer": "EU 밖"
+          },
+          "mechanism": {
+            "INTRA_EEA": "유럽경제지역(EEA) 안에만 있습니다.",
+            "ADEQUACY_DECISION": "EU가 {country}의 개인정보 보호 수준을 적정하다고 인정했기 때문에 허용됩니다.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "EU 표준계약조항으로 보호됩니다.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "EU-US Data Privacy Framework 인증을 받았습니다.",
+            "sccBackup": "추가 안전장치로 EU 표준계약조항도 적용됩니다."
+          },
+          "links": {
+            "dpa": "데이터 처리 계약",
+            "privacy": "개인정보 처리방침",
+            "website": "웹사이트",
+            "certification": "인증"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "생년월일을 변경할 때 신분증을 확인합니다.",
+              "receives": [
+                "이름",
+                "생년월일",
+                "신분증 사진",
+                "셀카",
+                "IP 주소"
+              ],
+              "whose": "새 생년월일을 인증하는 사람만 해당됩니다."
+            },
+            "resend": {
+              "purpose": "로그인 코드, 보안 알림, 계정 알림 같은 이메일을 보냅니다.",
+              "receives": [
+                "이메일 주소",
+                "표시 이름",
+                "이메일 내용(로그인 코드, 링크, 보안 알림에 포함된 IP 주소 등)"
+              ],
+              "whose": "Ordnary에서 이메일을 받는 모든 사람."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "개인정보 요청",
+          "description": "특정 처리 활동에 이의를 제기하거나 처리를 제한합니다(제18조 / 제21조).",
+          "back": "뒤로",
+          "close": "닫기",
+          "loading": "불러오는 중…",
+          "loadError": "개인정보 요청을 불러오지 못했습니다.",
+          "alreadyOpen": "이 범위에 대해 이미 진행 중인 요청이 있습니다.",
+          "cooldown": "같은 요청을 {hours}시간 후에 다시 제출할 수 있습니다.",
+          "submitted": "요청이 접수되었습니다.",
+          "withdrawn": "요청을 철회했습니다.",
+          "fileNew": "새 요청 제출",
+          "pickKind": "무엇을 하시겠어요?",
+          "kinds": {
+            "OBJECTION": "처리 활동에 이의 제기(제21조)",
+            "RESTRICTION": "처리를 일시적으로 제한(제18조)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "내 특별한 상황을 근거로, 특정 처리 활동을 앞으로 중단합니다.",
+            "RESTRICTION": "내 데이터에 대한 분쟁이 검토되는 동안 특정 처리 활동을 일시 중지합니다."
+          },
+          "pickActivities": "어떤 활동에 적용할까요?",
+          "activitiesHint": "선택하지 않으면 모든 처리 활동에 적용됩니다(전체 보류).",
+          "globalScope": "모든 처리(전체 보류)",
+          "yourStatement": "내 설명(권장)",
+          "statementPlaceholder": "이유를 알려 주세요. 예를 들어, 보안 이벤트를 함께 조사하는 동안 자동 위험 점수 산정을 적용하지 않기를 원한다고 적을 수 있습니다.",
+          "statementCounter": "{count} / {max}",
+          "submit": "요청 제출",
+          "submitting": "제출 중…",
+          "withdraw": "철회",
+          "withdrawing": "철회 중…",
+          "openTitle": "진행 중인 요청",
+          "emptyOpen": "진행 중인 요청이 없습니다.",
+          "historyTitle": "지난 요청",
+          "historyEmpty": "이전 요청이 없습니다.",
+          "holdsTitle": "현재 적용 중인 보류",
+          "holdsEmpty": "적용 중인 보류가 없습니다.",
+          "appliesTo": "적용 대상",
+          "effectiveUntil": "유효 기간",
+          "statuses": {
+            "PENDING": "대기 중",
+            "IN_REVIEW": "검토 중",
+            "RESOLVED": "해결됨",
+            "WITHDRAWN": "철회됨"
+          },
+          "outcomes": {
+            "GRANTED": "승인됨",
+            "PARTIALLY_GRANTED": "부분 승인됨",
+            "REJECTED": "거부됨",
+            "ESCALATED": "상위 검토로 이관됨"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "계정 식별 및 인증",
+            "session-and-device-management": "세션 및 기기",
+            "oauth-issuance": "OAuth / OIDC 발급",
+            "identity-verification": "본인 확인(Stripe Identity)",
+            "payment-processing": "결제 처리",
+            "audit-logs-and-security-events": "감사 로그 및 보안 이벤트",
+            "risk-scoring": "자동 위험 점수 산정",
+            "consent-log": "동의 기록",
+            "account-deletion": "계정 삭제",
+            "risk-review-queue": "위험 검토 대기열"
+          },
+          "title": "이의 제기 또는 제한"
+        },
+        "dsar": {
+          "label": "개인정보 및 데이터 요청",
+          "description": "열람, 정정, 삭제 또는 이동에 대한 공식 요청을 제출합니다(제15~20조).",
+          "title": "개인정보 및 데이터 요청",
+          "back": "뒤로",
+          "close": "닫기",
+          "loading": "불러오는 중…",
+          "loadError": "요청을 불러오지 못했습니다.",
+          "submitted": "요청이 접수되었습니다.",
+          "fastPathReady": "데이터를 다운로드하는 중입니다.",
+          "fastPathHint": "내 데이터 사본이 빨리 필요하신가요? 상단의 \"내 정보 내보내기\" 버튼을 사용하세요. 공식 대기열을 거치지 않고 바로 다운로드됩니다. 담당자의 검토가 필요하거나, 다른 사람을 대신해 요청하거나, 정정 또는 삭제가 필요할 때 여기에서 요청하세요.",
+          "withdrawn": "요청을 철회했습니다.",
+          "fileNew": "새 요청 제출",
+          "pickKind": "무엇을 하시겠어요?",
+          "kinds": {
+            "ACCESS": "열람(제15조)",
+            "RECTIFICATION": "정정(제16조)",
+            "ERASURE": "삭제(제17조)",
+            "PORTABILITY": "이동(제20조)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "당사가 보유한 내 데이터의 전체 사본을 기계가 읽을 수 있는 형식으로 받습니다.",
+            "RECTIFICATION": "당사가 보유한 내 데이터 중 잘못되었거나 오래된 내용을 정정합니다.",
+            "ERASURE": "내 계정과 당사가 보유한 내 데이터를 삭제합니다.",
+            "PORTABILITY": "구조화되고 일반적으로 사용되는 형식으로 내 데이터를 받습니다."
+          },
+          "filedBy": "누가 이 요청을 제출하나요?",
+          "filedByOptions": {
+            "SELF": "본인이 제출합니다",
+            "PARENT_GUARDIAN": "미성년자를 대신해 제출하는 부모 또는 보호자입니다",
+            "AUTHORISED_AGENT": "다른 사람을 대신해 제출하는 대리인(예: 변호사)입니다"
+          },
+          "representativeBlock": {
+            "title": "대리인 정보",
+            "emailLabel": "내 이메일 주소",
+            "notesLabel": "관계 및 권한",
+            "notesHint": "정보 주체와의 관계를 간단히 설명하고, 위임장이나 후견 관련 서류가 있다면 참조 정보를 첨부하세요."
+          },
+          "subjectEmailLabel": "대상자 이메일",
+          "subjectEmailHint": "확인 링크와 답변은 이 주소로 보냅니다. 대리인이 제출하는 요청의 경우 정보 주체 본인의 이메일이어야 합니다.",
+          "yourStatement": "내 설명(권장)",
+          "statementPlaceholder": "정확히 무엇을 원하시나요? 답변 범위를 정하는 데 도움이 되는 내용이 있다면 적어 주세요.",
+          "statementCounter": "{count} / {max}",
+          "submit": "요청 제출",
+          "submitting": "제출 중…",
+          "withdraw": "철회",
+          "withdrawing": "철회 중…",
+          "openTitle": "진행 중인 요청",
+          "emptyOpen": "진행 중인 요청이 없습니다.",
+          "historyTitle": "지난 요청",
+          "historyEmpty": "이전 요청이 없습니다.",
+          "due": "기한",
+          "extended": "연장된 기한",
+          "awaitingVerification": "이메일 확인 대기 중",
+          "statuses": {
+            "SUBMITTED": "확인 대기 중",
+            "VERIFIED": "확인됨",
+            "IN_PROGRESS": "진행 중",
+            "FULFILLED": "처리 완료",
+            "REJECTED": "거부됨",
+            "WITHDRAWN": "철회됨"
+          },
+          "outcomes": {
+            "FULFILLED": "처리 완료",
+            "PARTIALLY_FULFILLED": "부분 처리 완료",
+            "REJECTED": "거부됨"
+          },
+          "overdue": "기한 초과"
+        },
+        "modalTitle": "화면 모드",
+        "modalSubtitle": "계정 센터의 화면 모양을 선택하세요. 선택한 설정은 이 기기에 기억됩니다.",
+        "options": {
+          "lightLabel": "라이트",
+          "lightDescription": "시스템 설정과 관계없이 항상 밝은 배경을 사용합니다.",
+          "systemLabel": "시스템 설정에 맞춤",
+          "systemDescription": "기기 설정에 따라 바뀝니다.",
+          "darkLabel": "다크",
+          "darkDescription": "항상 어두운 배경을 사용합니다. 저녁에 보기 편합니다."
+        },
+        "done": "완료"
+      },
+      "displayNameSection": {
+        "label": "전체 이름",
+        "subtitle": "전체 이름은 내 계정과 프로필 전반에서 사용됩니다.",
+        "editButton": "편집",
+        "modalTitle": "전체 이름",
+        "editTitle": "전체 이름 변경",
+        "modalSubtitle": "전체 이름을 변경하려면 {email}(으)로 문의하세요.",
+        "currentLabel": "현재 이름",
+        "supportNotice": "전체 이름을 변경하려면 {email}(으)로 문의하세요.",
+        "copyEmail": "이메일 주소 복사",
+        "openEmail": "이메일 열기",
+        "mailSubject": "전체 이름 변경 요청",
+        "mailBody": "안녕하세요.\n\n전체 이름을 변경하고 싶습니다.\n\n현재 이름: {name}\n새 이름: \n\n감사합니다.\n{name}"
+      },
+      "loading": "불러오는 중...",
+      "contact": {
+        "subtitle": "이메일 주소와 내 연락처를 볼 수 있는 사람을 관리하세요. 이 계정 센터의 프로필과 기기에 접근할 때 사용할 수 있어요.",
+        "addNew": "새 연락처 추가",
+        "detailsDescription": "이 이메일 주소를 다음 계정에 추가했습니다.",
+        "whoCanSee": "내 이메일 주소를 볼 수 있는 사람",
+        "deleting": "삭제하는 중...",
+        "delete": "이메일 주소 삭제",
+        "deleteFailed": "이 이메일 주소를 삭제하지 못했습니다.",
+        "deleted": "이메일 주소를 삭제했습니다",
+        "addTitle": "이메일 주소 추가",
+        "addSubtitle": "계정 센터의 모든 계정에서 이 이메일 주소를 사용해 맞춤 환경을 제공합니다.",
+        "learnMore": "자세히 알아보기",
+        "emailLabel": "이메일 주소",
+        "chooseAccounts": "이 이메일 주소를 사용할 계정 선택",
+        "added": "이메일 주소를 추가했습니다",
+        "addFailed": "문제가 발생했습니다. 다시 시도하세요.",
+        "next": "다음"
+      },
+      "birthdayModal": {
+        "subtitle": "나이에 맞는 환경을 위해 생년월일을 추가하세요.",
+        "edit": "수정",
+        "editTitle": "생년월일 수정",
+        "editSubtitle": "이 생년월일은 이 계정 센터의 계정과 프로필에 사용됩니다. 변경 사항은 모두에 적용됩니다.",
+        "day": "일",
+        "month": "월",
+        "year": "년",
+        "verificationNotice": "생년월일을 변경하려면 파트너인 Stripe Identity를 통해 유효한 신분증으로 본인 확인을 해야 합니다. 저장하면 인증 절차로 이동합니다.",
+        "save": "저장",
+        "saveFailed": "문제가 발생했습니다. 다시 시도하세요.",
+        "verificationStartFailed": "본인 확인을 시작하지 못했습니다.",
+        "completeFailed": "인증을 완료하지 못했습니다.",
+        "updated": "본인 확인 후 생년월일이 업데이트되었습니다.",
+        "dobMismatch": "신분증의 생년월일이 입력한 생년월일과 일치하지 않습니다.",
+        "dobUnavailable": "Stripe가 신분증에서 확인 가능한 생년월일을 읽지 못했습니다.",
+        "notFinished": "본인 확인이 아직 끝나지 않았습니다."
+      }
+    },
+    "security": {
+      "title": "비밀번호 및 보안",
+      "loadingName": "사용자",
+      "pageLoadError": "보안 설정을 불러오지 못했습니다.",
+      "sections": {
+        "signIn": {
+          "title": "로그인 및 복구",
+          "description": "비밀번호, 로그인 환경설정, 복구 방법을 관리합니다."
+        },
+        "controls": {
+          "title": "보안 점검",
+          "description": "앱, 기기, 보낸 이메일을 확인하여 보안 문제를 검토합니다."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "비밀번호 변경",
+          "loading": "불러오는 중...",
+          "set": "비밀번호 설정됨",
+          "missing": "비밀번호가 설정되지 않음"
+        },
+        "twofactor": {
+          "label": "2단계 인증",
+          "loading": "불러오는 중...",
+          "enabled": "사용 중",
+          "disabled": "아직 사용 안 함"
+        },
+        "passkeys": {
+          "label": "패스키",
+          "loading": "불러오는 중...",
+          "none": "아직 패스키 없음",
+          "active": "{count}개 사용 중"
+        },
+        "activity": {
+          "label": "로그인한 위치",
+          "summary": "활성 세션 {total}개, 다른 기기 {others}개"
+        },
+        "automated": {
+          "label": "자동화된 결정",
+          "summary": "어떤 자동 규칙이 내 계정을 보호하는지 확인하고, 담당자의 검토를 요청하세요."
+        }
+      },
+      "passwordModal": {
+        "title": "비밀번호 변경",
+        "subtitle": "12자 이상의 비밀번호를 만드세요. 다른 사람이 추측할 수 없는 것으로 선택하세요.",
+        "currentPassword": "현재 비밀번호",
+        "newPassword": "새 비밀번호",
+        "repeatPassword": "새 비밀번호 다시 입력",
+        "forgotPassword": "비밀번호를 잊으셨나요?",
+        "logoutOthers": "다른 기기에서 로그아웃합니다. 다른 사람이 내 계정을 사용했다면 이 옵션을 선택하세요.",
+        "submit": "비밀번호 변경",
+        "pending": "처리 중...",
+        "success": "비밀번호가 업데이트되었습니다.",
+        "mismatch": "새 비밀번호가 일치하지 않습니다.",
+        "submitError": "비밀번호를 변경하지 못했습니다.",
+        "logoutOthersTitle": "다른 기기에서 로그아웃",
+        "logoutOthersHint": "다른 사람이 내 계정을 사용했을 수 있다면 권장합니다.",
+        "incorrect": "현재 비밀번호가 올바르지 않습니다.",
+        "tooWeak": "아래 요구 사항을 모두 충족하는 비밀번호를 선택하세요."
+      },
+      "twoFactor": {
+        "idleTitle": "계정을 보호하세요",
+        "idleSubtitle": "2단계 인증을 설정하면 인식되지 않는 기기에서 로그인할 때 로그인 코드를 요청합니다.",
+        "manageTitle": "2단계 인증이 켜져 있습니다",
+        "manageSubtitle": "이제 인식되지 않는 기기에서 로그인할 때마다 로그인 코드를 요청합니다.",
+        "appSettingsTitle": "인증 앱",
+        "extraMethodsTitle": "추가 방법",
+        "extraMethodsSubtitle": "다른 보안 방법을 사용할 수 없는 경우에도 이 옵션으로 로그인할 수 있습니다.",
+        "recoveryCodesTitle": "복구 코드",
+        "recoveryCodesSubtitle": "각 복구 코드는 한 번만 사용할 수 있습니다. 안전한 곳에 보관하세요. 코드가 없으면 휴대전화나 다른 로그인 방법을 분실했을 때 계정에 접근하지 못할 수 있습니다.",
+        "setupTitle": "설정 안내",
+        "namingTitle": "기기 이름 지정",
+        "namingSubtitle": "어떤 기기를 사용 중인지 알 수 있도록 인증 앱에 알아보기 쉬운 이름을 지정하세요.",
+        "verifyTitle": "코드 입력",
+        "verifySubtitle": "인증 앱의 6자리 코드를 입력하여 설정을 완료하세요.",
+        "successTitle": "2단계 인증이 켜져 있습니다",
+        "successSubtitle": "이제 인식되지 않는 기기에서 로그인할 때마다 로그인 코드를 요청합니다. 연락처 정보를 업데이트하려면 계정 센터의 개인 정보로 이동하세요.",
+        "verifiedTitle": "백업 코드",
+        "verifiedSubtitle": "이 코드를 안전한 곳에 보관하세요. 인증 앱에 접근할 수 없게 되었을 때 사용할 수 있습니다.",
+        "learnMore": "자세히 알아보기",
+        "receiveCodesTitle": "코드를 받을 방법을 선택하세요",
+        "authenticatorTitle": "인증 앱",
+        "authenticatorDescription": "Duo Mobile 또는 Google Authenticator 같은 앱으로 일회용 코드를 받습니다.",
+        "recommended": "추천",
+        "continue": "계속",
+        "working": "처리 중...",
+        "enabledSuccess": "2단계 인증이 꺼졌습니다.",
+        "disableError": "인증 앱을 비활성화하지 못했습니다.",
+        "startError": "인증 앱 설정을 시작하지 못했습니다.",
+        "verifyError": "인증 앱을 확인하지 못했습니다.",
+        "regenerateError": "복구 코드를 다시 생성하지 못했습니다.",
+        "downloadError": "다운로드하기 전에 새 복구 코드 세트를 생성하세요.",
+        "recoveryRegenerated": "새 복구 코드가 생성되었습니다.",
+        "manage": {
+          "receiveCodesTitle": "로그인 코드 받기",
+          "authenticatorDescription": "인증 앱으로 로그인 코드를 받습니다.",
+          "additionalMethodsTitle": "추가 방법",
+          "additionalMethodsDescription": "다른 방법을 사용할 수 없을 때 안전하게 로그인하는 방법을 확인하세요."
+        },
+        "appSettings": {
+          "title": "인증 앱",
+          "description": "인증 앱으로 로그인 코드를 받습니다.",
+          "connectedDevicesTitle": "연결된 기기",
+          "add": "추가",
+          "connectedDevicesDescription": "여러 기기를 추가하면 연결된 각 기기의 인증 앱에서 6자리 로그인 코드를 받을 수 있습니다.",
+          "noDevices": "아직 연결된 기기 없음",
+          "lastUsed": "마지막 사용: {date}",
+          "added": "추가됨: {date}",
+          "active": "활성 인증 앱"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "복구 코드",
+          "recoveryCodesDescription": "휴대전화를 사용할 수 없을 때 이 코드를 사용하세요."
+        },
+        "recoveryCodes": {
+          "download": "코드 다운로드",
+          "regenerate": "새 코드 받기",
+          "existing": "사용하지 않은 복구 코드가 {count}개 있습니다. 새 세트를 생성하려면 \"새 코드 받기\"를 클릭하세요.",
+          "empty": "이 세션에는 표시할 복구 코드가 아직 없습니다. 새 세트를 생성하려면 \"새 코드 받기\"를 클릭하세요."
+        },
+        "setup": {
+          "step1Title": "1. 인증 앱 다운로드",
+          "step1Description": "아직 설치하지 않았다면 Duo Mobile 또는 Google Authenticator를 다운로드하는 것을 권장합니다.",
+          "step2Title": "2. QR 코드를 스캔하거나 키 복사",
+          "step2Description": "인증 앱에서 이 QR 코드를 스캔하거나 키를 복사하여 앱에 붙여넣으세요.",
+          "copyKey": "키 복사",
+          "step3Title": "3. 6자리 코드를 복사하여 입력",
+          "step3Description": "QR 코드를 스캔하거나 키를 입력하면 앱에서 6자리 코드가 생성됩니다. 아래의 코드 입력을 탭하세요.",
+          "enterCode": "코드 입력",
+          "qrAlt": "인증 앱용 QR 코드"
+        },
+        "naming": {
+          "label": "기기 이름 (예: Stijn의 iPhone)",
+          "next": "다음"
+        },
+        "verify": {
+          "label": "인증 앱의 코드",
+          "submit": "코드 확인"
+        },
+        "success": {
+          "done": "완료"
+        },
+        "ui": {
+          "on": "켜짐",
+          "turnOff": "끄기",
+          "turnOffConfirm": "2단계 인증을 끌까요? 끄면 로그인할 때 비밀번호만 필요합니다.",
+          "cancel": "취소",
+          "copyKey": "복사",
+          "copied": "복사됨",
+          "manualKey": "설정 키",
+          "status": "상태"
+        },
+        "recoveryDocument": {
+          "rowTitle": "복구 파일",
+          "rowDescription": "업로드하면 비밀번호나 코드 없이 로그인되는 PDF입니다.",
+          "otherMethodsTitle": "다른 방법",
+          "title": "복구 파일",
+          "subtitle": "로그인할 때 업로드하는 PDF입니다. 비밀번호나 코드 없이 바로 로그인됩니다. 휴대전화를 분실했거나 비밀번호를 잊었을 때 유용합니다.",
+          "download": "복구 파일 다운로드",
+          "downloading": "파일을 만드는 중…",
+          "downloaded": "다운로드했습니다. 파일을 안전한 곳에 보관하세요.",
+          "made": "생성일: {date}",
+          "lastUsed": "마지막 사용: {date}",
+          "notUsed": "아직 사용하지 않음",
+          "remove": "삭제",
+          "removeConfirm": "복구 파일을 삭제할까요? 즉시 사용할 수 없게 됩니다.",
+          "removed": "복구 파일을 삭제했습니다.",
+          "cancel": "취소",
+          "newTitle": "새 파일이 필요하신가요?",
+          "newText": "파일은 한 번만 다운로드할 수 있습니다. 새 파일을 받으려면 이메일로 받은 코드로 확인하세요. 현재 파일은 사용할 수 없게 됩니다.",
+          "requestCode": "이메일로 코드 받기",
+          "sending": "보내는 중…",
+          "codeSent": "{email}(으)로 코드를 보냈습니다.",
+          "codeLabel": "코드",
+          "confirmDownload": "확인하고 다운로드",
+          "loadError": "지금은 불러올 수 없습니다. 나중에 다시 시도하세요.",
+          "errors": {
+            "code_invalid": "코드가 올바르지 않습니다. 이메일을 확인하고 다시 시도하세요.",
+            "code_expired": "이 코드는 만료되었습니다. 새 코드를 요청하세요.",
+            "rate_limited": "시도 횟수가 너무 많습니다. 나중에 다시 시도하세요.",
+            "send_failed": "지금은 이메일을 보낼 수 없습니다. 나중에 다시 시도하세요.",
+            "generic": "문제가 발생했습니다. 나중에 다시 시도하세요."
+          },
+          "points": [
+            {
+              "title": "한 번만 다운로드",
+              "text": "파일은 지금만 다운로드할 수 있습니다. 나중에 새 파일이 필요하면 이메일로 받은 코드로 확인합니다."
+            },
+            {
+              "title": "안전하게 보관",
+              "text": "예를 들어 인쇄하거나 암호화된 드라이브에 보관하세요. 이 파일이 있는 사람은 누구나 계정에 로그인할 수 있으므로 이메일로 보내거나 공유하지 마세요."
+            },
+            {
+              "title": "로그인에 사용",
+              "text": "로그인할 때 이메일을 입력하고 \"비밀번호를 잊으셨나요?\"를 선택한 다음 \"복구 파일로 로그인\"을 선택하고 PDF를 업로드하세요."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "패스키",
+        "subtitle": "신뢰할 수 있는 기기에서 Touch ID, Face ID, Windows Hello 또는 하드웨어 키를 강력한 로그인 방법으로 사용하세요.",
+        "add": "패스키 추가",
+        "empty": "아직 추가한 패스키가 없습니다.",
+        "unnamed": "이름 없는 패스키",
+        "addedOn": "{date}에 추가됨",
+        "lastUsed": "마지막 사용 {date}",
+        "never": "사용한 적 없음",
+        "delete": "삭제",
+        "count": "활성 패스키가 {count}개 있습니다.",
+        "none": "아직 등록한 패스키가 없습니다.",
+        "success": "패스키가 등록되었습니다.",
+        "error": "패스키를 등록하지 못했습니다.",
+        "pending": "등록 중...",
+        "emptyTitle": "아직 패스키가 없습니다",
+        "emptyText": "패스키를 추가하면 비밀번호 대신 지문, 얼굴 또는 기기 화면 잠금으로 로그인할 수 있습니다. 비밀번호도 계속 사용할 수 있습니다.",
+        "deleteConfirm": "이 패스키를 삭제할까요? 더 이상 이 패스키로 로그인할 수 없습니다.",
+        "cancel": "취소",
+        "removing": "삭제 중...",
+        "createTitle": "패스키 만들기",
+        "createSubtitle": "패스키를 사용하면 지문, 얼굴 또는 기기 화면 잠금으로 로그인할 수 있습니다. 패스키는 내 기기나 비밀번호 관리자에 저장되며 그 밖으로 나가지 않습니다.",
+        "nameLabel": "패스키 이름",
+        "nameHint": "패스키를 구분할 수 있도록 이름을 정하세요. 예를 들어 저장된 기기나 비밀번호 관리자 이름이 좋습니다.",
+        "whatHappensTitle": "다음 단계",
+        "whatHappens1": "브라우저 또는 비밀번호 관리자가 패스키를 저장할 위치를 묻습니다.",
+        "whatHappens2": "지문, 얼굴 또는 화면 잠금으로 확인하세요.",
+        "whatHappens3": "이후 로그인할 때 패스키를 선택할 수 있습니다.",
+        "create": "패스키 만들기",
+        "waiting": "브라우저 또는 비밀번호 관리자의 안내를 따르세요…",
+        "cancelled": "패스키가 만들어지지 않았습니다. 다시 시도할 수 있습니다.",
+        "doneTitle": "패스키를 추가했습니다",
+        "doneSubtitle": "이제 \"{name}\"(으)로 로그인할 수 있습니다. 비밀번호도 계속 사용할 수 있습니다.",
+        "done": "완료",
+        "back": "뒤로",
+        "removeError": "패스키를 삭제하지 못했습니다. 다시 시도하세요.",
+        "defaultName": "{system}의 {browser}",
+        "rowDescription": "지문, 얼굴 또는 기기 PIN으로 로그인하세요."
+      },
+      "activityModal": {
+        "title": "계정 로그인 활동",
+        "subtitle": "지금 계정에 로그인된 곳입니다. 알 수 없는 기기는 로그아웃하세요.",
+        "unknownDevice": "알 수 없는 기기",
+        "unknownLocation": "알 수 없는 위치",
+        "currentDevice": "이 기기",
+        "lastActive": "마지막 활동 {date}",
+        "revoke": "로그아웃",
+        "revokePending": "처리 중...",
+        "revokeAllTitle": "다른 기기에서의 로그인",
+        "revokeAll": "다른 모든 기기에서 로그아웃",
+        "revokeAllPending": "처리 중...",
+        "revokeSuccess": "세션이 해지되었습니다.",
+        "revokeAllSuccess": "다른 모든 세션이 로그아웃되었습니다.",
+        "revokeError": "세션을 해지하지 못했습니다.",
+        "viewMore": "+ 다른 기기 {count}개",
+        "activeNow": "현재 활성",
+        "thisDeviceTitle": "이 기기",
+        "otherEmpty": "다른 기기에는 로그인되어 있지 않습니다.",
+        "showAll": "{count}개 모두 보기",
+        "revokeAllConfirm": "다른 기기 {count}대에서 모두 로그아웃할까요? 해당 기기를 사용하는 사람은 다시 로그인해야 합니다.",
+        "cancel": "취소"
+      },
+      "automatedDecisions": {
+        "title": "자동화된 결정",
+        "description": "일부 계정 보호 결정은 로그인 패턴이나 의심스러운 활동 같은 신호를 바탕으로 자동으로 이루어집니다. Ordnary 담당자에게 결과 검토를 요청할 수 있습니다.",
+        "back": "뒤로",
+        "close": "닫기",
+        "loading": "불러오는 중…",
+        "currentStateTitle": "현재 자동 판정 상태",
+        "riskLabels": {
+          "LOW": "낮은 위험",
+          "MEDIUM": "중간 위험",
+          "HIGH": "높은 위험"
+        },
+        "statusLabels": {
+          "ACTIVE": "활성",
+          "SUSPENDED": "일시 정지됨",
+          "DEACTIVATED": "비활성화됨",
+          "DELETED": "삭제 대기 중"
+        },
+        "suspendedExplanation": "현재 자동 규칙에 따라 계정이 제한되어 있습니다. 아래에서 담당자의 검토를 요청할 수 있습니다. Ordnary 담당자가 신호와 내 설명을 확인한 뒤 결정을 유지하거나 번복합니다.",
+        "elevatedExplanation": "최근 활동을 바탕으로 계정의 위험 수준이 높아졌습니다. 신호가 잘못되었다고 생각되면 담당자의 검토를 요청할 수 있습니다.",
+        "okExplanation": "계정에 자동 제한이 설정되어 있지 않습니다. 지난 결정에 대해서도 아래에서 검토를 요청할 수 있습니다.",
+        "lastEvaluated": "마지막 평가",
+        "signalsTitle": "최근 보안 신호",
+        "signalsEmpty": "최근에 기록된 보안 신호가 없습니다.",
+        "appealTitle": "담당자 검토 요청",
+        "appealSubtitle": "Ordnary 담당자가 자동화된 결정, 내 설명, 근거가 된 신호를 확인합니다. 합리적인 시간 안에 답변드리겠습니다.",
+        "pickReason": "무엇에 이의가 있나요?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "정지가 잘못되었다고 생각합니다",
+          "RISK_LEVEL_OBJECTION": "내 위험 수준이 잘못되었다고 생각합니다",
+          "SECURITY_EVENT_OBJECTION": "특정 보안 신호에 이의를 제기하고 싶습니다",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "내 계정에 대한 자동화된 결정을 담당자가 검토하기를 원합니다"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "현재 계정이 정지되어 있으며 그 결정을 검토받고 싶습니다.",
+          "RISK_LEVEL_OBJECTION": "위험 수준이 예상보다 높아 다시 평가받고 싶습니다.",
+          "SECURITY_EVENT_OBJECTION": "내가 모르는 특정 보안 이벤트가 기록되었습니다.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "내 계정에 대한 자동화된 결정을 담당자가 확인하기를 원합니다."
+        },
+        "yourStatement": "내 설명(선택 사항)",
+        "statementPlaceholder": "알려 주실 내용이 있다면 적어 주세요. 예를 들어 여행 중이었거나, 새 기기를 사용했거나, 다른 사람이 침입을 시도했다는 내용이 있습니다.",
+        "statementCounter": "{count} / {max}",
+        "submit": "검토 요청 제출",
+        "submitting": "제출 중...",
+        "submitted": "요청이 접수되었습니다. 곧 답변드리겠습니다.",
+        "pendingTitle": "검토 진행 중",
+        "pendingSubtitle": "Ordnary 담당자가 내 요청을 확인하고 있습니다. 업데이트가 있으면 알려드립니다.",
+        "withdraw": "요청 철회",
+        "withdrawing": "철회 중...",
+        "withdrawn": "요청을 철회했습니다.",
+        "withdrawableHint": "이 요청은 언제든지 철회할 수 있습니다.",
+        "historyTitle": "지난 검토 요청",
+        "historyEmpty": "이전 검토 요청이 없습니다.",
+        "outcomes": {
+          "UPHELD": "유지됨",
+          "OVERTURNED": "번복됨",
+          "ADJUSTED": "조정됨",
+          "ESCALATED": "상위 검토로 이관됨"
+        },
+        "statuses": {
+          "PENDING": "대기 중",
+          "IN_REVIEW": "검토 중",
+          "RESOLVED": "해결됨",
+          "WITHDRAWN": "철회됨"
+        },
+        "loadError": "자동화된 결정 상세 정보를 불러오지 못했습니다.",
+        "alreadyOpen": "이미 진행 중인 검토 요청이 있습니다.",
+        "cooldown": "{hours}시간 후에 새 검토 요청을 제출할 수 있습니다. 이 대기 시간은 담당자가 이전 요청을 처리할 수 있도록 하기 위한 것입니다.",
+        "showAll": "모두 보기({count})",
+        "showLess": "간단히 보기"
+      },
+      "previewBadge": "미리보기",
+      "previewBadgeTooltip": "새로운 기능이며 계속 개선 중입니다. 패스키는 작동하지만 세부 사항은 바뀔 수 있습니다."
+    },
+    "connections": {
+      "title": "연결된 앱",
+      "description": "Ordnary 계정 데이터에 접근할 수 있는 앱입니다.",
+      "empty": "아직 연결한 앱이 없습니다.",
+      "authorizedScopes": "승인된 범위: {scopes}",
+      "granted": "허용됨: {date}",
+      "revoke": "접근 해지"
+    },
+    "devices": {
+      "title": "기기 및 세션",
+      "description": "여러 기기의 활성 세션을 관리합니다.",
+      "logoutOthers": "다른 모든 기기에서 로그아웃",
+      "headers": {
+        "device": "기기",
+        "location": "위치 / IP",
+        "lastActive": "마지막 활동",
+        "type": "유형",
+        "actions": "작업"
+      },
+      "unknownDevice": "알 수 없는 기기",
+      "currentSession": "(현재 세션)",
+      "typeFormat": "{os}의 {browser}",
+      "revoke": "해지"
+    },
+    "passkeysPage": {
+      "title": "패스키",
+      "description": "비밀번호 없이 로그인하기 위한 생체 인식 및 하드웨어 키를 관리합니다.",
+      "add": "+ 새 패스키 추가",
+      "empty": "아직 추가한 패스키가 없습니다.",
+      "unnamed": "이름 없는 패스키",
+      "addedOn": "추가 날짜: {date}",
+      "lastUsed": "마지막 사용: {date}",
+      "never": "사용 안 함",
+      "delete": "삭제"
+    },
+    "activity": {
+      "title": "최근 활동",
+      "description": "계정 보안과 관련된 중요한 이벤트 및 변경 사항을 검토하고 모니터링합니다.",
+      "details": "세부정보",
+      "dates": {
+        "today": "오늘, 4월 17일",
+        "yesterday": "어제, 4월 16일"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "로그인함",
+        "LOGIN_FAILED": "로그인 실패",
+        "LOGIN_LOCKED": "로그인 차단됨",
+        "LOGOUT": "로그아웃함",
+        "SESSION_CREATED": "세션 생성됨",
+        "SESSION_REVOKED": "세션 종료됨",
+        "SESSION_ALL_REVOKED": "모든 기기에서 로그아웃됨",
+        "PASSWORD_SET": "비밀번호 설정됨",
+        "PASSWORD_CHANGED": "비밀번호 변경됨",
+        "PASSWORD_RESET_REQUESTED": "비밀번호 재설정 요청됨",
+        "PASSWORD_RESET_COMPLETED": "비밀번호 재설정됨",
+        "PASSKEY_REGISTERED": "패스키 등록됨",
+        "PASSKEY_USED": "패스키로 로그인함",
+        "PASSKEY_REMOVED": "패스키 삭제됨",
+        "PASSKEY_COUNTER_MISMATCH": "패스키 경고",
+        "MFA_ENABLED": "2단계 인증 사용 설정됨",
+        "MFA_DISABLED": "2단계 인증 비활성화됨",
+        "MFA_FACTOR_ENROLLED": "인증 앱 추가됨",
+        "MFA_FACTOR_VERIFIED": "인증 앱 확인됨",
+        "MFA_FACTOR_REVOKED": "인증 앱 삭제됨",
+        "RECOVERY_CODES_GENERATED": "새 복구 코드",
+        "RECOVERY_CODE_USED": "복구 코드 사용됨",
+        "STEP_UP_REQUIRED": "본인 확인 요청됨",
+        "STEP_UP_COMPLETED": "본인 확인 완료",
+        "EMAIL_ADDED": "이메일 주소 추가됨",
+        "EMAIL_VERIFIED": "이메일 주소 확인됨",
+        "EMAIL_REMOVED": "이메일 주소 삭제됨",
+        "EMAIL_PRIMARY_CHANGED": "기본 이메일 변경됨",
+        "ACCOUNT_CREATED": "계정 생성됨",
+        "ACCOUNT_UPDATED": "계정 업데이트됨",
+        "ACCOUNT_DELETED": "계정 삭제 시작됨",
+        "ACCOUNT_REACTIVATED": "계정 다시 활성화됨",
+        "OAUTH_CONSENT_GRANTED": "앱에 액세스 권한 부여됨",
+        "OAUTH_CONSENT_REVOKED": "앱 액세스 권한 삭제됨",
+        "OAUTH_TOKEN_ISSUED": "앱 로그인됨",
+        "OAUTH_TOKEN_REVOKED": "앱 로그아웃됨",
+        "SUSPICIOUS_NEW_LOCATION": "새로운 위치에서 로그인",
+        "SUSPICIOUS_NEW_DEVICE": "새 기기에서 로그인",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "비정상적인 로그인",
+        "NOTIFICATION_PREFERENCE_CHANGED": "이메일 환경설정 변경됨",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "수신 거부함",
+        "PRIVACY_REQUEST_FILED": "개인정보 요청 제출됨",
+        "PRIVACY_REQUEST_RESOLVED": "개인정보 요청 처리됨",
+        "DSAR_FILED": "데이터 요청 제출됨",
+        "DSAR_FULFILLED": "데이터 요청 완료됨",
+        "DSAR_REJECTED": "데이터 요청 거절됨",
+        "RISK_REVIEW_REQUESTED": "검토 요청됨",
+        "RISK_REVIEW_RESOLVED": "검토 완료됨"
+      },
+      "severities": {
+        "INFO": "정보",
+        "MEDIUM": "보통",
+        "HIGH": "높음",
+        "CRITICAL": "심각",
+        "LOW": "낮음"
+      },
+      "empty": "아직 계정에 활동이 없습니다.",
+      "filters": {
+        "all": "전체",
+        "account": "계정 변경 사항",
+        "security": "보안 알림"
+      },
+      "retention": "활동은 {days}일 동안 보관됩니다. {link}에서 변경할 수 있습니다.",
+      "retentionLink": "내 정보 및 권한",
+      "emptyFiltered": "이 보기에 표시할 항목이 없습니다.",
+      "explanations": {
+        "LOGIN_SUCCESS": "누군가 비밀번호 또는 로그인 코드로 내 계정에 로그인했습니다.",
+        "LOGIN_FAILED": "누군가 내 계정에 로그인하려 했지만 비밀번호 또는 코드가 틀렸습니다. 몇 번 정도라면 대개 입력 실수입니다.",
+        "LOGIN_LOCKED": "잘못된 시도가 너무 많아 계정 보호를 위해 일정 시간 동안 로그인이 차단되었습니다.",
+        "LOGOUT": "계정의 세션 하나가 로그아웃되었습니다.",
+        "SESSION_CREATED": "기기 또는 브라우저에서 계정에 로그인하여 새 세션이 시작되었습니다.",
+        "SESSION_REVOKED": "직접 로그아웃했거나 더 이상 유지하기에 안전하지 않아 계정의 세션 하나가 로그아웃되었습니다.",
+        "SESSION_ALL_REVOKED": "다른 모든 기기에서 계정이 로그아웃되었습니다.",
+        "PASSWORD_SET": "계정에 비밀번호가 추가되었습니다.",
+        "PASSWORD_CHANGED": "계정 비밀번호가 변경되었습니다.",
+        "PASSWORD_RESET_REQUESTED": "비밀번호를 재설정하는 코드가 내 이메일 주소로 전송되었습니다.",
+        "PASSWORD_RESET_COMPLETED": "이메일로 받은 코드로 비밀번호가 재설정되었으며, 모든 기기에서 로그아웃되었습니다.",
+        "PASSKEY_REGISTERED": "패스키가 추가되어 비밀번호 대신 기기로 로그인할 수 있습니다.",
+        "PASSKEY_USED": "누군가 계정의 패스키 중 하나로 내 계정에 로그인했습니다.",
+        "PASSKEY_REMOVED": "패스키가 삭제되어 더 이상 로그인에 사용할 수 없습니다.",
+        "PASSKEY_COUNTER_MISMATCH": "패스키에서 예상치 못한 정보가 보고되었습니다. 패스키가 복제되었을 수 있습니다. 해당 로그인은 거부되었습니다.",
+        "MFA_ENABLED": "이제 로그인할 때 인증 앱의 코드도 요청합니다.",
+        "MFA_DISABLED": "이제 로그인할 때 인증 앱의 코드를 요청하지 않습니다.",
+        "MFA_FACTOR_ENROLLED": "인증 앱이 계정에 연결되었습니다.",
+        "MFA_FACTOR_VERIFIED": "인증 앱의 코드가 확인되었습니다.",
+        "MFA_FACTOR_REVOKED": "인증 앱이 계정에서 삭제되었습니다.",
+        "RECOVERY_CODES_GENERATED": "새 복구 코드 세트가 생성되었습니다. 이전 코드는 더 이상 사용할 수 없습니다.",
+        "RECOVERY_CODE_USED": "누군가 인증 코드 대신 복구 코드 중 하나로 로그인했습니다. 해당 코드는 다시 사용할 수 없습니다.",
+        "STEP_UP_REQUIRED": "중요한 변경을 하기 전에 이메일로 받은 코드로 본인 확인을 요청받았습니다.",
+        "STEP_UP_COMPLETED": "이메일로 받은 코드로 본인 확인이 완료되어 일정 시간 동안 중요한 변경이 허용되었습니다.",
+        "EMAIL_ADDED": "계정에 이메일 주소가 추가되었고 확인 링크가 전송되었습니다.",
+        "EMAIL_VERIFIED": "계정의 이메일 주소가 확인되었습니다.",
+        "EMAIL_REMOVED": "계정에서 이메일 주소가 삭제되었습니다.",
+        "EMAIL_PRIMARY_CHANGED": "다른 이메일 주소가 로그인과 메시지 수신에 사용되는 계정의 기본 주소가 되었습니다.",
+        "ACCOUNT_CREATED": "Ordnary 계정이 생성되었습니다.",
+        "ACCOUNT_UPDATED": "계정의 설정 또는 정보가 변경되었습니다.",
+        "ACCOUNT_DELETED": "계정이 삭제되도록 설정되었습니다. 30일 동안은 복원할 수 있습니다.",
+        "ACCOUNT_REACTIVATED": "비활성화되거나 삭제되었던 계정이 다시 활성화되었습니다.",
+        "OAUTH_CONSENT_GRANTED": "앱이 Ordnary ID를 통해 내 계정에 대한 액세스 권한을 받았습니다.",
+        "OAUTH_CONSENT_REVOKED": "앱이 더 이상 내 계정에 액세스할 수 없습니다.",
+        "OAUTH_TOKEN_ISSUED": "Ordnary ID로 사용하는 앱에 새 로그인 토큰이 발급되었습니다.",
+        "OAUTH_TOKEN_REVOKED": "앱의 로그인 토큰이 취소되었습니다.",
+        "SUSPICIOUS_NEW_LOCATION": "이전에 사용된 적 없는 위치에서 계정이 사용되었습니다.",
+        "SUSPICIOUS_NEW_DEVICE": "이전에 사용된 적 없는 기기에서 계정이 사용되었습니다.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "한 사람이 그 시간 안에 이동할 수 없을 만큼 멀리 떨어진 두 위치에서 계정이 사용되었습니다.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Ordnary가 보낼 수 있는 이메일 종류가 변경되었습니다.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "이메일의 수신 거부 링크로 한 종류의 이메일이 해제되었습니다.",
+        "PRIVACY_REQUEST_FILED": "내 데이터 처리에 대한 반대 또는 제한 요청이 제출되었습니다.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary가 처리에 대한 반대 또는 제한 요청을 처리했습니다.",
+        "DSAR_FILED": "내 데이터에 대한 요청(열람, 정정, 삭제 또는 사본)이 제출되었습니다.",
+        "DSAR_FULFILLED": "Ordnary가 데이터 요청을 완료했습니다.",
+        "DSAR_REJECTED": "Ordnary가 데이터 요청을 거절했습니다. 자세한 사유는 이메일에서 확인하세요.",
+        "RISK_REVIEW_REQUESTED": "계정에 대한 자동 결정의 검토가 요청되었습니다.",
+        "RISK_REVIEW_RESOLVED": "Ordnary 담당자가 계정에 대한 자동 결정을 검토했습니다."
+      },
+      "detail": {
+        "ifNotYou": "본인이 아닌가요? 비밀번호 및 보안에서 비밀번호를 변경하고 다른 기기에서 로그아웃하세요.",
+        "ifNotYouLink": "비밀번호 및 보안으로 이동",
+        "generic": "이 활동이 계정에 기록되었습니다.",
+        "labels": {
+          "when": "일시",
+          "where": "위치",
+          "ip": "IP 주소",
+          "session": "세션",
+          "thisDevice": "이 기기",
+          "event": "이벤트",
+          "source": "기록 위치",
+          "severity": "중요도"
+        },
+        "sources": {
+          "AUDIT_LOG": "계정 로그",
+          "SECURITY_EVENT": "보안 모니터링"
+        },
+        "unknown": "알 수 없음",
+        "times": "{count}×",
+        "timeSpan": "{from}~{to}"
+      },
+      "showMore": "이전 날짜 보기",
+      "loadingMore": "불러오는 중…",
+      "end": "보관된 활동은 여기까지입니다.",
+      "loadFailed": "더 불러올 수 없습니다. 다시 시도하세요."
+    },
+    "connectedAppsDemo": {
+      "title": "연결된 앱",
+      "description": "계정 데이터 일부에 대한 접근를 허용한 서드파티 앱과 서비스입니다.",
+      "badges": {
+        "official": "공식",
+        "verified": "인증됨"
+      },
+      "accessed": "{value} 접근",
+      "revoke": "접근 해지",
+      "apps": {
+        "consoleReason": "클라우드 리소스와 배포 파이프라인을 관리합니다.",
+        "figmaReason": "공동 프로토타입 제작에 사용하는 디자인 도구입니다.",
+        "unknownGameName": "알 수 없는 게임",
+        "unknownGameReason": "프로필 정보를 요청한 확인되지 않은 앱입니다.",
+        "currentSession": "현재 세션",
+        "twoDaysAgo": "2일 전",
+        "lastMonth": "지난달"
+      }
+    },
+    "permissions": {
+      "title": "내 정보 및 권한",
+      "exportTitle": "내 정보 내보내기",
+      "searchHistory": "Ordnary 활동",
+      "externalActivity": "Ordnary 기술 외부의 내 활동",
+      "appConnections": "앱 연결",
+      "manageContacts": "연락처 관리",
+      "notice": "정보 사본을 다운로드하거나 전송하려면 내 정보 내보내기로 이동하세요.",
+      "footer": "Ordnary 기술이 내 경험에 영향을 주기 위해 사용할 수 있는 정보를 결정하세요.",
+      "privacyRightsTitle": "내 개인정보 권리",
+      "dsarTitle": "개인정보 및 데이터 요청",
+      "dsarSubtitle": "열람, 정정, 삭제 또는 이동에 대한 공식 요청을 제출합니다(제15~20조).",
+      "privacyRequestsTitle": "이의 제기 또는 제한",
+      "privacyRequestsSubtitle": "특정 처리 활동에 이의를 제기하거나 처리를 제한합니다(제18조 / 제21조).",
+      "processorsTitle": "내 데이터를 처리하는 곳",
+      "processorsSubtitle": "Ordnary를 운영하는 데 사용하는 회사, 회사가 받는 정보, 보관 위치입니다.",
+      "cookiesTitle": "쿠키 환경설정",
+      "cookiesSubtitle": "이 브라우저에서 Ordnary가 사용할 수 있는 쿠키를 관리합니다.",
+      "minorConsentTitle": "보호자 동의",
+      "minorConsentSubtitle": "거주 국가의 동의 연령 미만이라면 부모 또는 보호자의 동의가 필요합니다(GDPR 제8조).",
+      "notificationsTitle": "알림 환경설정",
+      "notificationsSubtitle": "Ordnary가 보낼 수 있는 이메일 종류를 선택하세요.",
+      "notifications": {
+        "title": "알림 환경설정",
+        "close": "닫기",
+        "loading": "불러오는 중…",
+        "alwaysOn": "항상 켜짐",
+        "description": "Ordnary에서 받을 이메일을 선택하세요.",
+        "loadError": "지금은 불러오지 못했습니다. 나중에 다시 시도해 주세요.",
+        "saveError": "저장하지 못했습니다. 다시 시도해 주세요.",
+        "saved": "저장했습니다.",
+        "alwaysTitle": "항상 켜짐",
+        "alwaysText": "이 이메일은 계정을 안전하게 지키고 요청하신 내용을 확인해 주므로 항상 켜져 있습니다.",
+        "choiceTitle": "직접 선택",
+        "turnAllOff": "선택 이메일 모두 끄기",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "보안 알림",
+          "TRANSACTIONAL_ACCOUNT": "계정 메시지",
+          "PRODUCT_UPDATES": "제품 업데이트",
+          "RECOMMENDATIONS": "추천",
+          "MARKETING": "소식 및 혜택"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "로그인 코드, 비밀번호 재설정, 새 로그인이나 보안 변경에 대한 알림입니다.",
+          "TRANSACTIONAL_ACCOUNT": "데이터 내보내기, 개인정보 요청, 보호자 동의처럼 직접 하신 일에 대한 확인입니다.",
+          "PRODUCT_UPDATES": "Ordnary 제품의 새로운 소식과 약관 변경 사항입니다.",
+          "RECOMMENDATIONS": "Ordnary 이용 방식에 맞춘 추천입니다.",
+          "MARKETING": "뉴스레터와 혜택을 가끔 보내 드립니다."
+        }
+      },
+      "minorConsent": {
+        "title": "보호자 동의",
+        "description": "온라인에서 스스로 동의할 수 있는 나이보다 어리다면, 일부 정보를 사용하기 전에 부모 또는 보호자의 동의가 필요합니다. 이는 GDPR 제8조에 따른 것입니다.",
+        "close": "닫기",
+        "loading": "불러오는 중…",
+        "loadError": "지금은 불러올 수 없습니다. 나중에 다시 시도하세요.",
+        "consentAge": "{country}의 동의 연령: {age}",
+        "yourAge": "내 나이: {age}",
+        "adultTitle": "필요하지 않음",
+        "adultBody": "스스로 동의할 수 있는 나이이므로 부모의 동의가 필요하지 않습니다.",
+        "unknownTitle": "아직 나이를 알 수 없습니다",
+        "unknownBody": "부모의 동의가 필요한지 확인할 수 있도록 생년월일을 추가하세요.",
+        "unknownAction": "생년월일 추가",
+        "blockedTitle": "동의가 필요합니다",
+        "blockedBody": "부모 또는 보호자가 동의할 때까지 계정의 일부 기능이 제한됩니다.",
+        "pendingTitle": "부모 또는 보호자를 기다리는 중",
+        "pendingBody": "{email}(으)로 요청을 보냈습니다. 링크는 {date}까지 유효합니다.",
+        "verifiedTitle": "동의함",
+        "verifiedBody": "{email}이(가) {date}에 동의했습니다.",
+        "parentEmail": "부모 또는 보호자 이메일",
+        "relationship": "어떤 관계인지 입력하세요. 예: 어머니(선택 사항)",
+        "addMessage": "메시지 추가(선택 사항)",
+        "notes": "부모 또는 보호자에게 보낼 메시지",
+        "submit": "요청 보내기",
+        "submitting": "보내는 중…",
+        "resend": "다시 보내기",
+        "changeEmail": "다른 이메일 사용",
+        "cancel": "취소",
+        "revoke": "철회",
+        "revokeConfirm": "동의를 철회할까요? 부모 또는 보호자가 다시 동의할 때까지 계정의 일부 기능이 다시 제한됩니다.",
+        "revoking": "철회 중…",
+        "revoked": "동의를 철회했습니다.",
+        "notMinor": "스스로 동의할 수 있는 나이입니다.",
+        "invalidEmail": "올바른 이메일 주소를 입력하세요.",
+        "requestSent": "{email}(으)로 요청을 보냈습니다.",
+        "points": [
+          {
+            "title": "보호자 이메일 입력",
+            "text": "부모 또는 보호자의 이메일 주소입니다."
+          },
+          {
+            "title": "보호자가 동의",
+            "text": "동의 링크가 담긴 이메일을 받습니다. 링크는 14일 동안 유효합니다."
+          },
+          {
+            "title": "계정을 모두 사용 가능",
+            "text": "보호자가 동의하면 계정의 제한이 해제됩니다."
+          }
+        ]
+      },
+      "exportModalSubtitle": "내 정보의 사본을 외부 서비스나 내 기기로 내보낼 수 있습니다. 내보낼 수 있는 데이터에는 내가 공유한 콘텐츠와 정보, 내 활동, 당사가 수집한 정보가 포함됩니다.",
+      "exportButton": "다운로드 링크 보내기",
+      "exportModalContentsTitle": "내보내기에 포함되는 항목:",
+      "exportModalContents": [
+        "프로필 데이터 및 계정 설정",
+        "이메일 주소 및 전화번호",
+        "보안 설정(패스키, MFA, 기기)",
+        "세션 및 로그인 기록",
+        "결제 정보",
+        "연결된 앱 및 OAuth 동의",
+        "활동 로그 및 보안 이벤트",
+        "개인정보 및 쿠키 동의"
+      ],
+      "exportModalFormat": "형식: 구조화된 JSON 파일과 읽기 쉬운 README가 담긴 ZIP 압축 파일.",
+      "exportModalRateLimit": "일회용 다운로드 링크가 담긴 이메일을 받게 됩니다. 24시간 동안 최대 3회까지 내보낼 수 있습니다.",
+      "exportDownload": {
+        "loading": "잠시만 기다려 주세요...",
+        "readyTitle": "데이터 내보내기가 준비되었습니다",
+        "readyDescription": "아래 버튼을 눌러 계정 데이터를 ZIP 압축 파일로 다운로드하세요. 이 링크는 한 번만 사용할 수 있으며 24시간 후에 만료됩니다.",
+        "downloadButton": "내 데이터 다운로드",
+        "readyHint": "이 파일에는 모든 개인 데이터, 보안 설정, 활동 로그 등이 구조화된 JSON 파일로 들어 있습니다.",
+        "downloadingTitle": "다운로드 중...",
+        "downloadingDescription": "내보내기를 준비하고 있습니다. 몇 초 걸릴 수 있습니다.",
+        "successTitle": "다운로드가 시작되었습니다",
+        "successDescription": "데이터 내보내기를 다운로드하는 중입니다. 민감한 개인정보가 들어 있으므로 파일을 안전한 곳에 보관하세요.",
+        "successHint": "이 다운로드 링크는 이제 만료되었습니다. 새로 내보내려면 계정 설정에서 요청할 수 있습니다.",
+        "backToSettings": "계정 설정으로 돌아가기",
+        "expiredTitle": "링크가 만료되었습니다",
+        "expiredDescription": "이 다운로드 링크는 만료되었거나 이미 사용되었습니다. 다운로드 링크는 24시간 동안 유효하며 한 번만 사용할 수 있습니다.",
+        "newExportButton": "새 내보내기 요청",
+        "errorTitle": "문제가 발생했습니다",
+        "errorDefault": "내보내기를 가져오는 중 오류가 발생했습니다.",
+        "noToken": "다운로드 토큰을 찾을 수 없습니다."
+      },
+      "appConnectionsModalSubtitle": "앱 연결을 사용하면 다양한 Ordnary 제품과 다른 회사의 서비스에서 여러 가지 작업을 할 수 있습니다.",
+      "connectButton": "연결",
+      "activityModalSubtitle": "SaaS 제품과 애플리케이션을 포함해 Ordnary 생태계 내 내 활동을 확인하고 관리하세요. 이 정보는 내 행동을 파악하고 모든 플랫폼에서 경험을 최적화하는 데 사용됩니다.",
+      "accountsAndProfiles": "내 계정 및 프로필",
+      "keepActivityFor": "활동 보관 기간",
+      "clearActivityButton": "모든 활동 삭제",
+      "days3": "3일",
+      "days7": "7일",
+      "days14": "14일",
+      "standardOption": "표준",
+      "noticeTitle": "내 정보 사본 받기",
+      "noticeText": "계정 데이터를 다운로드해 보관하거나 다른 서비스로 옮기세요.",
+      "noticeAction": "정보 내보내기",
+      "experimentBadge": "실험",
+      "userFallback": "사용자",
+      "avatarAlt": "프로필 사진",
+      "exportSent": "다운로드 링크를 {email}(으)로 보냈습니다",
+      "exportFailed": "내보내기에 실패했습니다. 다시 시도하세요.",
+      "exportInProgress": "이미 내보내기를 준비하고 있습니다. 잠시 후 다시 시도하세요.",
+      "exportRateLimited": "내보내기 최대 횟수에 도달했습니다. {time} 후에 다시 시도하세요.",
+      "saveFailed": "저장하지 못했습니다. 다시 시도하세요.",
+      "days30": "30일",
+      "autoClear": {
+        "title": "Ordnary 활동 자동 삭제",
+        "subtitle": "활동을 보관할 기간을 선택하세요. 더 오래된 활동은 계정 센터의 모든 계정과 프로필에서 자동으로 삭제됩니다.",
+        "standard": "표준",
+        "saving": "저장 중…",
+        "saved": "저장되었습니다.",
+        "back": "뒤로",
+        "close": "닫기",
+        "howTitle": "삭제되는 항목",
+        "howText": "로그인 기록과 새 로그인, 비밀번호 변경, 차단된 시도 같은 계정의 보안 이벤트 중 선택한 기간보다 오래된 것입니다.",
+        "howPermanent": "삭제된 활동은 복구할 수 없습니다. 보관하려면 먼저 사본을 다운로드하세요.",
+        "learnMore": "Ordnary 문서에서 자동 삭제에 대해 더 알아보기"
+      },
+      "experimentBadgeTooltip": "아직 개발 중입니다. 둘러볼 수는 있지만 앱 연결은 아직 작동하지 않습니다."
+    },
+    "payments": {
+      "title": "결제",
+      "subtitle": "저장된 결제 정보와 이 정보에 접근할 수 있는 계정을 관리하세요. {learnMore}",
+      "syncInfo": "계정 2개 간에 동기화됨",
+      "addMethodTitle": "결제 수단 추가",
+      "addMethodSubtitle": "카드를 저장하거나 PayPal을 연결하면 다음 구매가 더 쉬워집니다.",
+      "addMethodButton": "결제 수단 추가",
+      "shippingTitle": "배송 정보",
+      "shippingAddress": "배송 주소",
+      "emailAddress": "이메일 주소",
+      "phoneNumber": "전화번호",
+      "addModal": {
+        "title": "결제 수단 추가",
+        "card": "신용카드 또는 체크카드",
+        "paypal": "PayPal",
+        "footer": "이 정보는 Ordnary Pay에 저장되고 계정 센터에서 동기화되며, 계정 센터에서 관리할 수 있습니다. {learnMore}"
+      },
+      "creditCard": {
+        "title": "카드 추가",
+        "subtitle": "카드 번호는 암호화되어 안전하게 저장됩니다",
+        "cardNumber": "카드 번호",
+        "expiry": "만료일(MM/YY)",
+        "cvv": "CVV",
+        "name": "카드에 표시된 이름",
+        "submit": "다음",
+        "cvvTooltip": "인증 코드(CVV)는 카드 뒷면 또는 앞면에 있는 보안 번호입니다.",
+        "footer": "이 정보는 Ordnary Pay에 저장되고 계정 센터에서 동기화되며, 계정 센터에서 관리할 수 있습니다. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "배송 주소 설정",
+        "subtitle": "Ordnary Pay용 배송 주소를 추가하세요. 카드 설정 과정과는 별도입니다.",
+        "search": "주소 검색",
+        "country": "국가 또는 지역",
+        "fullName": "전체 이름",
+        "street": "주소",
+        "street2": "주소 2(선택 사항)",
+        "city": "시/군/구",
+        "state": "시/도",
+        "zip": "우편번호",
+        "submit": "주소 저장"
+      }
+    },
+    "subscriptions": {
+      "description": "활성 Ordnary 구독, 갱신 및 결제 설정을 관리하세요.",
+      "emptyTitle": "활성 구독 없음",
+      "emptyDescription": "계정에 연결된 구독이 여기에 표시됩니다.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Ordnary Pictures의 프리미엄 미디어를 무제한으로 이용할 수 있습니다. 지원되는 Ordnary 서비스에서 엄선된 영화, 시리즈, 미리보기, 회원 전용 콘텐츠를 즐겨 보세요.",
+          "status": "활성",
+          "renewal": "매월 갱신",
+          "price": "월 €9.99"
+        }
+      },
+      "manageSubscription": "구독 관리"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "접근이 거부되었습니다",
+        "description": "지금은 계정 센터에 접근할 수 없습니다. 세션이 만료되었거나 계정이 제한되었을 수 있습니다.",
+        "action": "다시 로그인"
+      },
+      "suspended": {
+        "title": "계정이 비활성화되었습니다",
+        "description": "이 계정은 비활성화되었거나 일시적으로 제한되었습니다. 오류라고 생각되면 지원팀에 문의하세요.",
+        "action": "지원팀에 문의"
+      },
+      "banned": {
+        "title": "접근이 영구적으로 거부되었습니다",
+        "description": "서비스 약관 위반으로 계정이 영구적으로 차단되었습니다.",
+        "action": "약관 보기"
+      },
+      "offline": {
+        "title": "인터넷에 연결되어 있지 않습니다",
+        "description": "오프라인 상태인 것 같습니다. 계속하려면 인터넷 연결을 확인하세요.",
+        "action": "다시 시도"
+      },
+      "unknown": {
+        "title": "시스템 오류",
+        "description": "예기치 않은 문제가 발생했습니다. 나중에 다시 시도하세요.",
+        "action": "처음으로 돌아가기"
+      },
+      "previousPage": "이전 페이지"
+    },
+    "common": {
+      "noResults": "결과 없음",
+      "searchPlaceholder": "검색..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName}에서 내 계정에 접근하려고 합니다",
+      "description": "{displayName}님으로 로그인되어 있습니다. 이 앱을 신뢰하는 경우에만 접근를 허용하세요.",
+      "requestedPermissions": "요청된 권한",
+      "approve": "접근 허용",
+      "deny": "거부",
+      "errorTitle": "요청에 문제가 있습니다",
+      "errorDescription": "인증 요청이 올바르지 않거나 불완전합니다. 매개변수를 확인하세요.",
+      "unknownAppTitle": "앱을 확인할 수 없습니다",
+      "unknownAppDescription": "Ordnary에서 이 앱을 식별할 수 없습니다. 대부분 client_id 또는 redirect_uri가 잘못되었기 때문입니다. 보안을 위해 계속할 수 없습니다."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "이 페이지를 사용할 수 없습니다",
+      "description": "링크가 잘못되었거나 페이지가 삭제되었을 수 있습니다. 열려는 링크가 올바른지 확인하세요.",
+      "button": "계정 설정으로 이동"
+    },
+    "serverError": {
+      "title": "문제가 발생했습니다",
+      "description": "예기치 않은 오류가 발생했습니다. 나중에 다시 시도하세요.",
+      "button": "다시 시도"
+    }
+  },
+  "cookieConsent": {
+    "title": "이 브라우저에서 Ordnary의 쿠키 사용을 허용할까요?",
+    "description": "Ordnary 제품에서 콘텐츠를 제공하고 개선하기 위해 쿠키와 유사한 기술을 사용합니다. 또한 Ordnary 안팎에서 받는 정보를 활용해 더 안전한 환경을 제공하는 데에도 사용합니다. 이러한 쿠키는 선택 사항입니다.",
+    "essentialTitle": "필수 쿠키",
+    "essentialDesc": "이 쿠키는 Ordnary 제품을 사용하는 데 필요하며, 사이트가 제대로 작동하려면 꼭 있어야 합니다.",
+    "optionalTitle": "다른 회사의 쿠키",
+    "optionalDesc": "이 쿠키는 Ordnary 제품 외부에서 광고를 보여 주고, Ordnary 제품에서 지도와 동영상 같은 기능을 제공하는 데 사용합니다. 이러한 쿠키는 선택 사항입니다.",
+    "policyInfo": "어떤 선택 쿠키를 사용할 수 있는지는 내가 결정합니다. {cookiePolicy}에서 쿠키와 사용 방식에 대한 자세한 내용을 확인할 수 있으며, 선택 사항은 언제든지 검토하거나 변경할 수 있습니다.",
+    "cookiePolicy": "쿠키 정책",
+    "infoTitle": "쿠키 정보",
+    "policyRefreshNotice": "쿠키 선택을 기록하는 방식을 업데이트했습니다. 최신 기록을 유지할 수 있도록 환경설정을 다시 확인해 주세요.",
+    "policyRevisionNotice": "쿠키 정책이 업데이트되었습니다. 환경설정을 다시 확인해 주세요.",
+    "preferencesTitle": "내 쿠키 환경설정",
+    "preferencesDescription": "이 브라우저에서 Ordnary가 사용할 수 있는 쿠키 범주를 선택하세요. 이 설정은 계정에서 언제든지 변경할 수 있습니다.",
+    "alwaysOn": "항상 켜짐",
+    "categories": {
+      "essential": {
+        "title": "필수",
+        "description": "로그인, 보안 및 제품의 나머지 기능이 작동하는 데 필요합니다."
+      },
+      "functional": {
+        "title": "기능",
+        "description": "언어, 테마, 최근 사용한 계정 같은 환경설정을 기억합니다."
+      },
+      "analytics": {
+        "title": "분석",
+        "description": "Ordnary가 어떻게 사용되는지 파악하고 개선하는 데 도움이 됩니다."
+      },
+      "marketing": {
+        "title": "마케팅",
+        "description": "Ordnary의 제품과 혜택에 대한 맞춤 메시지."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "쿠키란 무엇인가요?",
+        "button": "자세히 알아보기"
+      },
+      "why": {
+        "title": "쿠키를 사용하는 이유는 무엇인가요?",
+        "button": "자세히 알아보기"
+      },
+      "products": {
+        "title": "Ordnary 제품이란 무엇인가요?",
+        "button": "자세히 알아보기"
+      },
+      "preferences": {
+        "title": "내 쿠키 환경설정",
+        "button": "자세히 알아보기"
+      }
+    },
+    "buttons": {
+      "reject": "선택 쿠키 거부",
+      "accept": "모든 쿠키 허용",
+      "rejectShort": "거부",
+      "acceptShort": "허용",
+      "customize": "맞춤 설정",
+      "save": "환경설정 저장",
+      "saveShort": "저장",
+      "close": "닫기"
+    }
+  },
+  "recentAccounts": {
+    "title": "Ordnary 계정으로 로그인",
+    "continueAs": "{name}(으)로 계속",
+    "loginAnother": "다른 계정으로 로그인",
+    "remove": "계정 삭제"
+  },
+  "reauthenticate": {
+    "title": "본인 확인",
+    "description": "{name}님, 보안을 위해 {action} 전에 본인인지 확인해야 합니다.",
+    "codeSentTo": "{email}(으)로 코드를 보냈습니다.",
+    "codeSent": "6자리 보안 코드를 이메일로 보냈습니다.",
+    "securityCode": "보안 코드",
+    "continue": "계속",
+    "verifying": "확인하는 중…",
+    "sending": "보내는 중…",
+    "cancel": "취소",
+    "errors": {
+      "sendFailed": "보안 코드를 보내지 못했습니다.",
+      "invalidCode": "코드가 올바르지 않습니다.",
+      "network": "네트워크 오류입니다. 다시 시도하세요."
+    },
+    "actions": {
+      "changePassword": "비밀번호를 변경하기",
+      "changeEmail": "이메일 주소를 관리하기",
+      "managePasskeys": "패스키를 관리하기",
+      "manageMfa": "2단계 인증을 관리하기",
+      "revokeAllSessions": "모든 기기에서 로그아웃하기",
+      "manageAccount": "계정을 비활성화하거나 삭제하기",
+      "rotateClientSecret": "이 클라이언트 시크릿을 교체하기",
+      "managePaymentMethods": "결제 수단을 관리하기",
+      "authorizeApp": "이 애플리케이션을 승인하기",
+      "generic": "이 민감한 작업을 계속하기"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "보호자 동의 확인",
+    "description": "사용자가 GDPR 제8조에 따라 Ordnary 계정을 승인해 달라고 요청했습니다. 동의를 기록하려면 아래 확인을 클릭하세요. 나중에 원본 이메일에 회신하거나 {email}(으)로 문의해 언제든지 철회할 수 있습니다.",
+    "idle": "확인 토큰이 포함되도록 이 페이지는 요청 이메일의 링크로 열어야 합니다.",
+    "verifying": "확인하는 중…",
+    "success": "감사합니다. 보호자 동의가 확인되었고 사용자 측 계정의 잠금을 해제했습니다. 사용자에게도 알림이 전송됩니다.",
+    "errors": {
+      "tokenRequired": "확인 토큰이 제공되지 않았습니다.",
+      "tokenNotFound": "이 확인 링크는 더 이상 유효하지 않습니다.",
+      "alreadyVerified": "이 확인은 이미 기록되었습니다.",
+      "requestRevoked": "이 요청은 철회되었거나 더 새로운 요청으로 대체되었습니다.",
+      "tokenExpired": "이 확인 링크가 만료되었습니다. 사용자에게 새 요청을 보내 달라고 요청하세요.",
+      "invalidBody": "확인 요청 형식이 올바르지 않습니다.",
+      "generic": "이 확인 링크를 확인하지 못했습니다. 사용자에게 새 요청을 보내 달라고 요청하세요."
+    }
+  },
+  "unsubscribe": {
+    "title": "수신 거부",
+    "idle": "수신 거부 토큰이 포함되도록 이 페이지는 이메일의 링크로 열어야 합니다.",
+    "verifying": "설정을 저장하는 중…",
+    "success": "수신 거부되었습니다.",
+    "successWithCategory": "{category} 수신 거부되었습니다.",
+    "manageAt": "알림 설정은 {link}에서 언제든지 세부적으로 조정할 수 있습니다.",
+    "categories": {
+      "transactionalSecurity": "보안 알림",
+      "transactionalAccount": "계정 알림",
+      "productUpdates": "제품 업데이트",
+      "recommendations": "추천",
+      "marketing": "마케팅 이메일"
+    },
+    "errors": {
+      "tokenRequired": "수신 거부 토큰이 제공되지 않았습니다.",
+      "tokenNotFound": "이 수신 거부 링크는 더 이상 유효하지 않습니다.",
+      "alreadyRedeemed": "이 카테고리는 이미 수신 거부했습니다.",
+      "tokenExpired": "이 수신 거부 링크가 만료되었습니다. 로그인한 후 계정 센터에서 설정을 관리할 수 있습니다.",
+      "categoryMandatory": "이 카테고리에는 보안 및 계정 필수 알림이 포함되어 있어 끌 수 없습니다.",
+      "generic": "이 수신 거부 링크를 처리하지 못했습니다. 로그인한 후 설정을 직접 조정하세요."
+    }
+  },
+  "dsarVerify": {
+    "title": "개인정보 요청 확인",
+    "description": "내 데이터에 관한 이 요청을 Ordnary에 직접 보냈는지 확인해 주세요. 보내지 않았다면 이 페이지를 닫고 {email}로 알려 주세요.",
+    "idle": "확인 정보가 포함되도록 저희가 보낸 이메일의 링크로 이 페이지를 열어 주세요.",
+    "confirm": "요청 확인",
+    "verifying": "확인 중…",
+    "success": "감사합니다. 요청이 확인되었습니다. 법정 기한 내에 처리하고 완료되면 이메일로 알려 드리겠습니다.",
+    "errors": {
+      "tokenRequired": "이 링크에 확인 코드가 없습니다.",
+      "tokenNotFound": "이 링크는 더 이상 유효하지 않습니다.",
+      "tokenExpired": "이 링크가 만료되었습니다. 계정 센터에서 다시 요청해 주세요.",
+      "alreadyProcessed": "이 요청은 이미 확인되었거나 처리되었습니다.",
+      "generic": "요청을 확인하지 못했습니다. 다시 시도하거나 {email}로 문의해 주세요."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "로그아웃되었습니다. 다시 로그인한 후 시도하세요.",
+    "not_authenticated": "로그아웃되었습니다. 다시 로그인한 후 시도하세요.",
+    "step_up_required": "먼저 본인임을 확인한 후 다시 시도하세요.",
+    "rate_limited": "시도 횟수가 너무 많습니다. 몇 분 후 다시 시도하세요.",
+    "first_party_only": "Ordnary 자체 앱에서만 사용할 수 있습니다.",
+    "invalid_request": "이 요청에 문제가 있습니다. 페이지를 새로고침한 후 다시 시도하세요.",
+    "invalid_body": "이 요청에 문제가 있습니다. 페이지를 새로고침한 후 다시 시도하세요.",
+    "invalid_action": "여기서는 해당 작업을 사용할 수 없습니다.",
+    "missing_fields": "모든 항목을 입력하세요.",
+    "internal_error": "저희 쪽에서 문제가 발생했습니다. 잠시 후 다시 시도하세요.",
+    "internal_server_error": "저희 쪽에서 문제가 발생했습니다. 잠시 후 다시 시도하세요.",
+    "unavailable": "지금은 사용할 수 없습니다. 나중에 다시 시도하세요.",
+    "send_failed": "이메일을 보내지 못했습니다. 잠시 후 다시 시도하세요.",
+    "user_not_found": "이 계정을 찾을 수 없습니다.",
+    "invalid_email": "올바른 이메일 주소를 입력하세요.",
+    "missing_address": "이메일 주소를 입력하세요.",
+    "email_already_exists": "이미 사용 중인 이메일 주소입니다.",
+    "email_not_found": "이 이메일 주소는 내 계정에 없습니다.",
+    "cannot_delete_primary_email": "기본 이메일 주소는 삭제할 수 없습니다.",
+    "failed_to_add_email": "이 이메일 주소를 추가하지 못했습니다.",
+    "failed_to_delete_email": "이 이메일 주소를 삭제하지 못했습니다.",
+    "failed_to_send_verification_email": "확인 이메일을 보내지 못해 주소가 추가되지 않았습니다.",
+    "no_email": "계정에 보낼 이메일 주소가 없습니다.",
+    "no_primary_email": "계정에 기본 이메일 주소가 없습니다.",
+    "password_mismatch": "새 비밀번호가 일치하지 않습니다.",
+    "password_incorrect": "현재 비밀번호가 올바르지 않습니다.",
+    "password_too_weak": "새 비밀번호가 요구 사항을 충족하지 않습니다.",
+    "password_change_failed": "비밀번호를 변경하지 못했습니다.",
+    "no_password": "계정에 아직 비밀번호가 없습니다.",
+    "passkey_not_found": "해당 패스키가 더 이상 존재하지 않습니다.",
+    "missing_passkey_id": "먼저 패스키를 선택하세요.",
+    "session_not_found": "해당 세션이 더 이상 존재하지 않습니다.",
+    "missing_session_id": "먼저 세션을 선택하세요.",
+    "cannot_revoke_current_session": "지금 여기서 사용 중인 세션은 로그아웃할 수 없습니다.",
+    "code_required": "이메일로 받은 코드를 입력하세요.",
+    "code_invalid": "코드가 올바르지 않습니다.",
+    "code_expired": "코드가 만료되었습니다. 새 코드를 요청하세요.",
+    "exists": "이미 있습니다.",
+    "not_deactivated": "계정이 비활성화되어 있지 않습니다.",
+    "grace_period_expired": "이 계정을 복구할 수 있는 30일이 지났습니다.",
+    "token_required": "이 링크가 완전하지 않습니다.",
+    "token_not_found": "이 링크는 더 이상 유효하지 않습니다.",
+    "token_expired": "이 링크가 만료되었습니다.",
+    "already_redeemed": "이미 사용된 링크입니다.",
+    "already_downloaded": "이미 사용된 다운로드입니다.",
+    "already_verified": "이미 확인되었습니다.",
+    "already_processed": "이미 처리된 요청입니다.",
+    "already_extended": "이 요청의 기한은 이미 연장되었습니다.",
+    "invalid_date": "올바른 날짜를 입력하세요.",
+    "birthday_verification_attempt_not_found": "해당 본인 확인을 찾을 수 없습니다. 처음부터 다시 시작하세요.",
+    "identity_verification_incomplete": "본인 확인이 아직 완료되지 않았습니다.",
+    "identity_verification_dob_mismatch": "신분증의 생년월일이 입력한 생년월일과 일치하지 않습니다.",
+    "identity_verification_dob_unavailable": "신분증에서 생년월일을 읽지 못했습니다.",
+    "missing_attempt_id": "본인 확인 정보가 없습니다. 처음부터 다시 시작하세요.",
+    "invalid_kind": "요청 유형을 선택하세요.",
+    "invalid_applies_to": "요청이 적용될 대상을 선택하세요.",
+    "invalid_filed_by": "누가 이 요청을 제출하는지 선택하세요.",
+    "subject_email_required": "요청 대상인 이메일 주소를 입력하세요.",
+    "representative_email_required": "대리인의 이메일 주소를 입력하세요.",
+    "request_not_found": "이 요청을 찾을 수 없습니다.",
+    "request_already_open": "이 유형의 진행 중인 요청이 이미 있습니다.",
+    "request_cooldown_active": "최근에 이 요청을 제출했습니다. 나중에 다시 시도하세요.",
+    "request_closed": "이미 종료된 요청입니다.",
+    "request_not_open": "이 요청은 더 이상 진행 중이 아닙니다.",
+    "request_not_verified": "이 요청은 아직 확인되지 않았습니다.",
+    "request_revoked": "이 요청은 철회되었거나 다른 요청으로 대체되었습니다.",
+    "no_download_for_kind": "이 유형의 요청에는 다운로드가 없습니다.",
+    "export_already_in_progress": "내보내기를 이미 준비하고 있습니다.",
+    "export_rate_limited": "최근에 내보내기를 했습니다. 나중에 다시 시도하세요.",
+    "invalid_retention_days": "제공된 기간 중 하나를 선택하세요.",
+    "invalid_category": "존재하지 않는 알림 카테고리입니다.",
+    "category_mandatory": "이 이메일은 끌 수 없습니다.",
+    "review_not_found": "이 검토를 찾을 수 없습니다.",
+    "review_already_open": "진행 중인 검토가 이미 있습니다.",
+    "review_cooldown_active": "최근에 검토를 요청했습니다. 나중에 다시 시도하세요.",
+    "review_not_open": "이 검토는 더 이상 진행 중이 아닙니다.",
+    "review_not_pending": "이 검토는 더 이상 변경할 수 없습니다.",
+    "invalid_review_type": "검토 유형을 선택하세요.",
+    "no_active_consent": "철회할 유효한 동의가 없습니다.",
+    "not_a_minor": "이 계정에는 부모 동의가 필요하지 않습니다.",
+    "parent_email_required": "부모 또는 보호자의 이메일 주소를 입력하세요.",
+    "invalid_parent_email": "부모 또는 보호자의 올바른 이메일 주소를 입력하세요.",
+    "connection_not_found": "해당 앱은 더 이상 연결되어 있지 않습니다.",
+    "client_not_found": "해당 앱을 찾을 수 없습니다.",
+    "too_large": "파일이 너무 큽니다.",
+    "unsupported_type": "지원되지 않는 파일 형식입니다.",
+    "no_file": "먼저 파일을 선택하세요."
+  }
+}

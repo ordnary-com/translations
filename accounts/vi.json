@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Trung tâm tài khoản",
+    "accountCenterSubtitle": "Quản lý các trải nghiệm đã kết nối và cài đặt tài khoản của bạn trên toàn bộ công nghệ Ordnary.",
+    "learnMore": "Tìm hiểu thêm",
+    "loading": "Đang tải...",
+    "back": "Quay lại",
+    "close": "Đóng",
+    "backToHome": "Về trang chủ"
+  },
+  "nav": {
+    "profiles": "Hồ sơ",
+    "connectedExperiences": "Trải nghiệm đã kết nối",
+    "passwordAndSecurity": "Mật khẩu và bảo mật",
+    "personalDetails": "Thông tin cá nhân và cài đặt",
+    "education": "Giáo dục",
+    "permissions": "Thông tin và quyền của bạn",
+    "adPreferences": "Tùy chọn quảng cáo",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Gói đăng ký",
+    "accounts": "Tài khoản",
+    "activity": "Hoạt động"
+  },
+  "education": {
+    "title": "Giáo dục",
+    "description": "Xác nhận bằng email trường học rằng bạn là sinh viên để nhận ưu đãi dành cho sinh viên trong các sản phẩm Ordnary có cung cấp.",
+    "statusLabel": "Trạng thái sinh viên",
+    "statuses": {
+      "none": "Chưa xác minh",
+      "pending": "Đang chờ bạn mở liên kết",
+      "verified": "Đã xác minh",
+      "revoked": "Không còn hiệu lực"
+    },
+    "details": {
+      "title": "Thông tin của bạn",
+      "school": "Trường học",
+      "email": "Email trường",
+      "verifiedOn": "Xác minh vào"
+    },
+    "dialog": {
+      "title": "Xác minh sinh viên",
+      "subtitle": "Xác nhận bằng email trường rằng bạn là sinh viên. Chúng tôi chỉ dùng địa chỉ này để kiểm tra điều đó và không bao giờ gửi gì khác đến đó.",
+      "close": "Đóng",
+      "verifiedTitle": "Đã xác minh",
+      "verifiedBody": "{email} tại {school}, từ {date}.",
+      "pendingTitle": "Đang chờ bạn mở liên kết",
+      "pendingBody": "Chúng tôi đã gửi một liên kết đến {email}. Hãy mở liên kết trong vòng 24 giờ để hoàn tất.",
+      "revokedTitle": "Không còn hiệu lực",
+      "revokedBody": "Trạng thái sinh viên của bạn đã kết thúc. Hãy xác nhận lại bằng email trường.",
+      "changeEmail": "Dùng email trường khác",
+      "resend": "Gửi lại",
+      "cancel": "Hủy",
+      "emailLabel": "Email trường",
+      "detected": "{school}",
+      "notRecognised": "Chúng tôi không nhận ra đây là email của trường. Hãy dùng địa chỉ do trường cấp cho bạn.",
+      "send": "Gửi liên kết",
+      "sending": "Đang gửi…",
+      "sent": "Đã gửi liên kết đến {email}.",
+      "sentWhileVerified": "Chúng tôi đã gửi một liên kết đến {email}. Bạn vẫn được xác minh với trường hiện tại cho đến khi mở liên kết đó.",
+      "points": [
+        {
+          "title": "Nhập email trường",
+          "text": "Chúng tôi hiển thị địa chỉ thuộc trường nào."
+        },
+        {
+          "title": "Mở liên kết",
+          "text": "Chúng tôi gửi một liên kết đến địa chỉ đó. Liên kết có hiệu lực 24 giờ."
+        },
+        {
+          "title": "Bạn đã được xác minh",
+          "text": "Trạng thái sinh viên của bạn có hiệu lực trong các sản phẩm Ordnary có ưu đãi cho sinh viên."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Trạng thái sinh viên của bạn hiện đã có hiệu lực.",
+      "verificationError": "Liên kết này không còn hoạt động. Hãy yêu cầu liên kết mới."
+    },
+    "errors": {
+      "not_academic": "Chúng tôi không nhận ra đây là email của trường. Hãy dùng địa chỉ do trường cấp cho bạn.",
+      "account": "Đã xảy ra lỗi với tài khoản của bạn. Hãy thử lại sau.",
+      "send_failed": "Hiện chúng tôi không thể gửi liên kết. Hãy thử lại sau.",
+      "no_pending": "Không có yêu cầu nào để gửi lại. Hãy nhập email trường của bạn.",
+      "not_authenticated": "Hãy đăng nhập lại để tiếp tục."
+    }
+  },
+  "profiles": {
+    "title": "Hồ sơ",
+    "description": "Quản lý các trải nghiệm đã kết nối và cài đặt tài khoản của bạn trên toàn bộ công nghệ Ordnary.",
+    "addAccounts": "Thêm tài khoản",
+    "detail": {
+      "aboutTitle": "Giới thiệu về hồ sơ này",
+      "accessTitle": "{app} có thể truy cập những gì",
+      "linksTitle": "Chính sách của {app}",
+      "mainProfile": "Hồ sơ chính",
+      "connected": "Ứng dụng đã kết nối",
+      "verified": "Được Ordnary xác minh",
+      "connectedOn": "Đã kết nối vào",
+      "lastUsed": "Lần dùng gần nhất",
+      "never": "Chưa bao giờ",
+      "activeSignIns": "Phiên đăng nhập đang hoạt động",
+      "profileId": "ID hồ sơ",
+      "email": "Địa chỉ email",
+      "memberSince": "Là thành viên từ",
+      "twoFactor": "Xác thực hai yếu tố",
+      "on": "Bật",
+      "off": "Tắt",
+      "passkeys": "Passkey",
+      "privacy": "Chính sách quyền riêng tư",
+      "terms": "Điều khoản dịch vụ",
+      "disconnect": "Ngắt kết nối",
+      "disconnectTitle": "Ngắt kết nối {app}?",
+      "disconnectText": "{app} sẽ không thể dùng tài khoản Ordnary của bạn nữa và bạn sẽ bị đăng xuất khỏi ứng dụng. Bạn có thể kết nối lại sau bằng cách đăng nhập vào {app}.",
+      "disconnecting": "Đang ngắt kết nối...",
+      "cancel": "Hủy",
+      "copied": "Đã sao chép",
+      "copy": "Sao chép",
+      "scopes": {
+        "openid": "Nhận ra bạn bằng tài khoản Ordnary",
+        "profile": "Tên và ảnh hồ sơ của bạn",
+        "email": "Địa chỉ email của bạn",
+        "offline_access": "Giữ bạn đăng nhập khi bạn không dùng ứng dụng",
+        "phone": "Số điện thoại của bạn",
+        "address": "Địa chỉ của bạn"
+      },
+      "change": "Thay đổi",
+      "setUp": "Thiết lập",
+      "manage": "Quản lý",
+      "add": "Thêm",
+      "none": "Chưa có"
+    },
+    "revokedSuccess": "Đã ngắt kết nối",
+    "revokedError": "Không thể ngắt kết nối. Hãy thử lại."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Tạo tài khoản Ordnary mới?",
+      "registrationName": "Tên của bạn là gì?",
+      "registrationBirthday": "Ngày sinh của bạn là khi nào?",
+      "registrationPassword": "Tạo mật khẩu",
+      "saveLoginInfo": "Lưu thông tin đăng nhập?",
+      "registrationReview": "Hoàn tất việc tạo tài khoản",
+      "verifyEmailCode": "Nhập mã xác nhận",
+      "editEmail": "Địa chỉ email của bạn là gì?",
+      "loginCodeEntry": "Kiểm tra email của bạn",
+      "recoveryCodeEntry": "Xác nhận tài khoản của bạn",
+      "resetPassword": "Tạo mật khẩu mới",
+      "passwordEntry": "Nhập mật khẩu của bạn",
+      "identifierLookup": "Email của bạn là gì?",
+      "signIn": "Đăng nhập",
+      "mfaCodeEntry": "Nhập mã xác minh của bạn"
+    },
+    "descriptions": {
+      "identifierLookup": "Nhập email của bạn để đăng nhập vào tài khoản hoặc tạo tài khoản mới.",
+      "passwordEntry": "Để đăng nhập, hãy nhập mật khẩu gắn với {identifier}.",
+      "accountNotFound": "Chúng tôi không tìm thấy tài khoản Ordnary nào cho {email}. Có thể bạn chưa tạo tài khoản. Nếu đã tạo, tài khoản có thể đang dùng một mã định danh khác.",
+      "registrationName": "Tên này sẽ được dùng để khôi phục tài khoản và liên lạc về tài khoản của bạn. Tên này sẽ không hiển thị công khai.",
+      "registrationBirthday": "Hãy dùng ngày sinh thật của bạn, ngay cả khi tài khoản này dành cho doanh nghiệp hay mục đích khác. Thông tin này sẽ không công khai.",
+      "registrationPassword": "Tạo mật khẩu mà người khác không đoán được.",
+      "saveLoginInfo": "Chúng tôi sẽ lưu thông tin đăng nhập để bạn không phải nhập lại vào lần sau.",
+      "verifyEmailCode": "Nhập mã gồm 6 chữ số đã được gửi đến {identifier} để xác nhận tài khoản của bạn.",
+      "editEmail": "Nhập địa chỉ email mà chúng tôi có thể dùng để liên hệ với bạn. Địa chỉ này sẽ được dùng để đăng nhập và quản lý tài khoản, và sẽ không hiển thị công khai.",
+      "loginCodeEntry": "Để đăng nhập, hãy nhập mã chúng tôi đã gửi đến {identifier}. Bạn có thể cần kiểm tra thư mục spam hoặc thư mục mạng xã hội.",
+      "recoveryCodeEntry": "Chúng tôi đã gửi một mã đến {identifier}. Hãy nhập mã đó để xác nhận tài khoản của bạn.",
+      "resetPassword": "Bạn sẽ dùng mật khẩu này để đăng nhập vào tài khoản Ordnary của mình. Hãy dùng ít nhất 6 chữ cái và chữ số.",
+      "mfaCodeEntry": "Nhập mã gồm 6 chữ số từ ứng dụng xác thực của bạn để tiếp tục."
+    },
+    "buttons": {
+      "createNewAccount": "Tạo tài khoản mới",
+      "alreadyHaveAccount": "Tôi đã có tài khoản",
+      "next": "Tiếp theo",
+      "save": "Lưu",
+      "notNow": "Để sau",
+      "finish": "Hoàn tất",
+      "resendCode": "Gửi lại mã",
+      "enterPassword": "Nhập mật khẩu",
+      "forgotPassword": "Quên mật khẩu?",
+      "switchAccount": "Chuyển tài khoản",
+      "yes": "Có",
+      "no": "Không",
+      "useEmailCode": "Đăng nhập bằng mã qua email",
+      "signInWithPasskey": "Đăng nhập bằng khóa truy cập",
+      "useRecoveryCode": "Dùng mã khôi phục",
+      "useAuthenticatorCode": "Dùng ứng dụng xác thực"
+    },
+    "labels": {
+      "name": "Tên",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "day": "Ngày",
+      "month": "Tháng",
+      "year": "Năm",
+      "dateOfBirth": "Ngày sinh",
+      "confirmationCode": "Mã xác nhận",
+      "email": "Địa chỉ email",
+      "password": "Mật khẩu",
+      "newPassword": "Mật khẩu mới",
+      "logoutOthers": "Đăng xuất ở mọi nơi khác để đảm bảo không ai khác còn có thể truy cập tài khoản của bạn",
+      "marketingEmails": "Tôi muốn nhận email về ứng dụng, đề xuất và ưu đãi cho Ordnary Identity.",
+      "showPassword": "Hiện mật khẩu",
+      "hidePassword": "Ẩn mật khẩu",
+      "clearInput": "Xóa nội dung nhập",
+      "recoveryCode": "Mã khôi phục"
+    },
+    "links": {
+      "whyNeedBirthday": "Tại sao tôi cần cung cấp ngày sinh?",
+      "learnMore": "Tìm hiểu thêm",
+      "editEmail": "Chỉnh sửa địa chỉ email",
+      "noAccessEmail": "Bạn không còn truy cập được địa chỉ email này nữa?",
+      "termsOfService": "Điều khoản dịch vụ",
+      "privacyPolicy": "Chính sách quyền riêng tư",
+      "cookiePolicy": "Chính sách cookie"
+    },
+    "messages": {
+      "nameHelp": "Dùng tên thật giúp việc khôi phục tài khoản dễ dàng hơn nếu bạn mất quyền truy cập.",
+      "emailHelp": "Dùng email công việc hoặc email cá nhân để truy cập các dịch vụ Ordnary của bạn.",
+      "existingSessionTitle": "Bạn đã có một phiên đang hoạt động",
+      "existingSessionDescription": "Bạn đã đăng nhập. Đang chuyển bạn đến Trung tâm tài khoản sau {seconds} giây.",
+      "summaryPrivacy": "Thông tin chi tiết tài khoản Ordnary của bạn không công khai.",
+      "verifyEmailLookFor": "Hãy tìm email từ notification@ordnary.com. Bạn cũng có thể cần kiểm tra thư mục spam hoặc thư mục mạng xã hội.",
+      "termsAgreement": "Khi nhấn \"Hoàn tất\", bạn đồng ý với Điều khoản dịch vụ, Chính sách quyền riêng tư và xác nhận rằng bạn đã đọc Chính sách cookie của chúng tôi.",
+      "footerAgreement": "Khi tiếp tục, bạn xác nhận rằng bạn đã đọc và đồng ý với Điều khoản dịch vụ, Chính sách quyền riêng tư và các hướng dẫn xử lý dữ liệu hiện hành. Bạn cũng đồng ý nhận các thông báo thiết yếu về tài khoản và bảo mật liên quan đến việc sử dụng nền tảng.",
+      "emailMissing": "Cần có địa chỉ email.",
+      "resendCodeError": "Đã xảy ra lỗi không mong muốn khi gửi lại mã.",
+      "invalidInput": "Dữ liệu nhập không hợp lệ.",
+      "credentialsPrompt": "Để đăng nhập, hãy nhập mật khẩu gắn với {identifier}.",
+      "checkEmailPrompt": "Để đăng nhập, hãy nhập mã chúng tôi đã gửi đến {identifier}.",
+      "termsIntro": "Khi nhấn Hoàn tất, bạn đồng ý với"
+    },
+    "validation": {
+      "emailRequired": "Cần có địa chỉ email.",
+      "passwordRequired": "Cần có mật khẩu.",
+      "passwordMin": "Mật khẩu phải có ít nhất 12 ký tự.",
+      "passwordMax": "Mật khẩu không được vượt quá 128 ký tự.",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ.",
+      "displayNameMin": "Tên hiển thị phải có ít nhất 2 ký tự.",
+      "resetTokenRequired": "Cần có mã thông báo đặt lại.",
+      "verificationTokenRequired": "Cần có mã thông báo xác minh."
+    },
+    "errors": {
+      "invalidInput": "Dữ liệu nhập không hợp lệ.",
+      "genericLoginFailed": "Không thể đăng nhập. Vui lòng thử lại.",
+      "loginInvalidCredentials": "Email hoặc mật khẩu không hợp lệ.",
+      "accountLocked": "Tài khoản của bạn đã bị khóa hoặc tạm ngưng.",
+      "passwordIncorrect": "Mật khẩu bạn nhập không đúng.",
+      "notAuthenticated": "Bạn chưa được xác thực.",
+      "registrationMissingInfo": "Thiếu thông tin đăng ký bắt buộc.",
+      "registrationEmailExists": "Đã có tài khoản dùng email này.",
+      "systemNoDefaultTenant": "Lỗi hệ thống: không tìm thấy tenant mặc định.",
+      "registrationFailed": "Đăng ký thất bại. Vui lòng thử lại.",
+      "invalidVerificationRequest": "Yêu cầu xác minh không hợp lệ.",
+      "accountNotFound": "Không tìm thấy tài khoản.",
+      "verificationCodeInvalidOrExpired": "Mã xác minh không hợp lệ hoặc đã hết hạn.",
+      "verificationFailedTryAgain": "Xác minh thất bại. Vui lòng thử lại.",
+      "invalidRequest": "Yêu cầu không hợp lệ.",
+      "userNotFound": "Không tìm thấy người dùng.",
+      "codeInvalidOrExpired": "Mã không hợp lệ hoặc đã hết hạn.",
+      "verificationFailed": "Xác minh thất bại.",
+      "missingInformation": "Thiếu thông tin.",
+      "passwordResetFailed": "Đặt lại mật khẩu thất bại.",
+      "emailMissing": "Thiếu địa chỉ email.",
+      "resendCodeFailed": "Không gửi lại được mã. Vui lòng thử lại.",
+      "loginRequestFailed": "Không thể xử lý yêu cầu đăng nhập của bạn. Vui lòng thử lại.",
+      "mfaDataMissing": "Thiếu thông tin xác minh. Vui lòng đăng nhập lại.",
+      "mfaNoAuthenticator": "Không tìm thấy ứng dụng xác thực đang hoạt động cho tài khoản này.",
+      "mfaCodeInvalid": "Mã xác minh không hợp lệ.",
+      "mfaVerificationFailed": "Xác minh thất bại. Vui lòng đăng nhập lại.",
+      "requestRejected": "Chúng tôi không thể xử lý yêu cầu này. Hãy thử lại.",
+      "tooManyAttempts": "Quá nhiều lần thử. Hãy thử lại sau.",
+      "tooManyFailedLogins": "Quá nhiều lần đăng nhập thất bại. Hãy chờ một lát rồi thử lại.",
+      "permanentEmailRequired": "Hãy dùng địa chỉ email cố định.",
+      "recoveryFileInvalid": "Tệp khôi phục này không dùng được. Có thể nó đã bị thay bằng tệp mới hơn hoặc đã bị xóa.",
+      "passkeyFailed": "Không thể đăng nhập bằng khóa truy cập. Hãy thử lại hoặc tiếp tục bằng email.",
+      "passwordTooWeak": "Hãy chọn mật khẩu đáp ứng tất cả yêu cầu bên dưới."
+    },
+    "months": [
+      "thang 1",
+      "thang 2",
+      "thang 3",
+      "thang 4",
+      "thang 5",
+      "thang 6",
+      "thang 7",
+      "thang 8",
+      "thang 9",
+      "thang 10",
+      "thang 11",
+      "thang 12"
+    ],
+    "recoveryFile": {
+      "link": "Đăng nhập bằng tệp khôi phục",
+      "title": "Đăng nhập bằng tệp khôi phục",
+      "description": "Tải lên tệp khôi phục của tài khoản này mà bạn đã tải xuống từ Trung tâm tài khoản. Bạn sẽ được đăng nhập ngay.",
+      "choose": "Chọn tệp",
+      "reading": "Đang đăng nhập…",
+      "pasteInstead": "Dán mã thay thế",
+      "codeLabel": "Mã từ tệp",
+      "signIn": "Đăng nhập",
+      "notAFile": "Đây không phải là tệp khôi phục của Ordnary. Hãy chọn tệp PDF bạn đã tải xuống từ Trung tâm tài khoản.",
+      "back": "Dùng mã qua email thay thế"
+    },
+    "passwordRules": {
+      "length": "Ít nhất 12 ký tự",
+      "upper": "Một chữ hoa",
+      "lower": "Một chữ thường",
+      "digit": "Một chữ số"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Cài đặt tài khoản",
+      "appearanceLabel": "Giao diện",
+      "appearanceLight": "Sáng",
+      "appearanceSystem": "Theo hệ thống",
+      "appearanceDark": "Tối",
+      "logout": "Đăng xuất",
+      "sessionExpired": "Phiên của bạn đã hết hạn. Vui lòng đăng nhập lại để tiếp tục.",
+      "logoutConfirmTitle": "Đăng xuất khỏi Ordnary?",
+      "logoutCancel": "Hủy",
+      "logoutConfirm": "Đăng xuất",
+      "language": "Ngôn ngữ"
+    },
+    "reactivate": {
+      "title": "Chào mừng bạn trở lại, tài khoản của bạn đã bị vô hiệu hóa",
+      "description": "Chúng tôi đã tạm dừng email và thông báo khi bạn vô hiệu hóa tài khoản. Hãy kích hoạt lại để mọi thứ trở lại như cũ, hoặc đăng xuất và quyết định sau. Dữ liệu của bạn vẫn còn đây.",
+      "reactivate": "Kích hoạt lại tài khoản của tôi",
+      "reactivating": "Đang kích hoạt lại...",
+      "signOut": "Đăng xuất",
+      "signingOut": "Đang đăng xuất...",
+      "footer": "Nếu bạn muốn xóa vĩnh viễn tài khoản, hãy đăng nhập và chọn Xóa tài khoản trong Thông tin cá nhân.",
+      "successNotification": "Chào mừng bạn trở lại. Tài khoản của bạn đã hoạt động trở lại.",
+      "errorGeneric": "Chúng tôi không thể kích hoạt lại tài khoản của bạn. Hãy thử lại sau ít phút.",
+      "deletedTitle": "Tài khoản của bạn sắp bị xóa",
+      "deletedDescription": "Tài khoản sẽ bị xóa vĩnh viễn vào {date}. Khôi phục để giữ mọi thứ, hoặc đăng xuất và để việc xóa tiếp tục.",
+      "restore": "Khôi phục tài khoản",
+      "restoring": "Đang khôi phục..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Ảnh hồ sơ",
+        "custom": "Ảnh của riêng bạn",
+        "default": "Avatar được tạo tự động",
+        "modalTitle": "Ảnh hồ sơ",
+        "subtitle": "Hiển thị cùng tên của bạn trong các ứng dụng Ordnary và cộng đồng. Nếu bạn không có ảnh riêng, bạn sẽ có một avatar dành riêng cho tài khoản của mình.",
+        "choose": "Chọn ảnh",
+        "change": "Chọn ảnh khác",
+        "remove": "Xóa ảnh",
+        "save": "Lưu ảnh",
+        "saving": "Đang lưu...",
+        "hint": "JPG, PNG hoặc WebP. Ảnh của bạn sẽ được cắt thành hình vuông.",
+        "errorType": "Tệp này không phải là ảnh mà chúng tôi dùng được. Hãy chọn tệp JPG, PNG hoặc WebP.",
+        "errorFailed": "Chúng tôi không thể lưu ảnh của bạn. Vui lòng thử lại."
+      },
+      "title": "Thông tin cá nhân và cài đặt",
+      "description": "Ordnary dùng các thông tin này để xác minh danh tính của bạn và giúp giữ an toàn cho cộng đồng. Bạn kiểm soát những thông tin cá nhân nào hiển thị với người khác.",
+      "contactDetails": "Thông tin liên hệ",
+      "birthday": "Ngày sinh",
+      "ownership": "Quyền sở hữu và kiểm soát tài khoản",
+      "ownershipDescription": "Quản lý dữ liệu của bạn, cập nhật người liên hệ kế thừa cho tài khoản tưởng niệm, đồng thời vô hiệu hóa hoặc xóa tài khoản và hồ sơ của bạn.",
+      "loadingName": "Người dùng",
+      "modal": {
+        "title": "Quyền sở hữu và kiểm soát tài khoản",
+        "deactivationIndexTitle": "Vô hiệu hóa hoặc xóa",
+        "deactivationIndexDescription": "Tạm thời vô hiệu hóa hoặc xóa vĩnh viễn tài khoản và hồ sơ của bạn.",
+        "optionsTitle": "Vô hiệu hóa hoặc xóa tài khoản Ordnary của bạn",
+        "optionsDescription": "Cần nghỉ ngơi? Hãy vô hiệu hóa tài khoản và quay lại bất cứ khi nào bạn muốn. Muốn rời Ordnary? Hãy xóa tài khoản.",
+        "deactivateTitle": "Vô hiệu hóa tài khoản",
+        "deactivateDescription": "Việc vô hiệu hóa tài khoản chỉ là tạm thời. Tài khoản của bạn sẽ bị tắt và ẩn với người khác.",
+        "deleteTitle": "Xóa tài khoản",
+        "deleteDescription": "Việc xóa tài khoản là vĩnh viễn. Sau 30 ngày, bạn không thể kích hoạt lại hay khôi phục dữ liệu của tài khoản.",
+        "deactivateConfirmTitle": "Vô hiệu hóa tài khoản của bạn?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Bạn sẽ bị đăng xuất ở mọi nơi",
+            "text": "Trên tất cả thiết bị và trong mọi ứng dụng bạn dùng với tài khoản Ordnary."
+          },
+          {
+            "title": "Hồ sơ của bạn bị ẩn",
+            "text": "Người khác không thấy tên hay hồ sơ của bạn khi tài khoản đang bị vô hiệu hóa."
+          },
+          {
+            "title": "Quay lại bất cứ lúc nào",
+            "text": "Đăng nhập lại để kích hoạt lại tài khoản. Mọi thứ sẽ vẫn như khi bạn rời đi."
+          }
+        ],
+        "deactivateConfirmButton": "Vô hiệu hóa tài khoản",
+        "deleteConfirmTitle": "Xóa tài khoản của bạn?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Bạn sẽ bị đăng xuất ở mọi nơi",
+            "text": "Trên tất cả thiết bị và trong mọi ứng dụng bạn dùng với tài khoản Ordnary."
+          },
+          {
+            "title": "Bạn mất quyền truy cập",
+            "text": "Vào Ordnary và mọi ứng dụng bạn đăng nhập bằng tài khoản Ordnary."
+          },
+          {
+            "title": "Bị xóa vĩnh viễn sau 30 ngày",
+            "text": "Trước thời điểm đó, bạn vẫn có thể đổi ý. Sau đó, tài khoản và dữ liệu của bạn không thể khôi phục."
+          }
+        ],
+        "deleteConfirmCheck": "Tôi hiểu rằng tài khoản và dữ liệu của tôi sẽ bị xóa vĩnh viễn sau 30 ngày.",
+        "deleteConfirmButton": "Xóa tài khoản",
+        "cancel": "Hủy",
+        "continue": "Tiếp tục",
+        "working": "Đang xử lý...",
+        "deactivateSuccess": "Tài khoản của bạn đã bị vô hiệu hóa. Đang chuyển đến trang đăng nhập...",
+        "deleteSuccess": "Tài khoản của bạn đã được lên lịch xóa. Đang chuyển đến trang đăng nhập...",
+        "submitError": "Hiện chúng tôi chưa thể cập nhật tài khoản của bạn."
+      },
+      "missingBirthday": "Chưa đặt",
+      "loadError": "Không thể tải thông tin cá nhân.",
+      "preferences": {
+        "sectionTitle": "Tùy chọn",
+        "appearance": "Giao diện",
+        "appearanceDescription": "Điều chỉnh giao diện tài khoản Ordnary của bạn.",
+        "cookies": "Tùy chọn cookie",
+        "cookiesDescription": "Quản lý những cookie mà Ordnary có thể dùng trong trình duyệt này.",
+        "processors": {
+          "title": "Ai xử lý dữ liệu của bạn",
+          "intro": "Chúng tôi dùng một vài công ty khác để vận hành Ordnary. Đây là toàn bộ danh sách: họ nhận gì từ chúng tôi, lưu trữ ở đâu và dữ liệu được bảo vệ thế nào khi rời khỏi EU.",
+          "empty": "Không có công ty nào khác nhận dữ liệu của bạn.",
+          "loadError": "Hiện chúng tôi không thể tải nội dung này. Hãy thử lại sau.",
+          "loading": "Đang tải…",
+          "close": "Đóng",
+          "back": "Quay lại",
+          "fields": {
+            "purpose": "Họ làm gì",
+            "receives": "Họ nhận gì",
+            "whose": "Dữ liệu của ai",
+            "stored": "Nơi lưu trữ",
+            "transfer": "Ngoài EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Nằm trong Khu vực Kinh tế Châu Âu.",
+            "ADEQUACY_DECISION": "Được phép vì EU công nhận mức bảo vệ dữ liệu tại {country} là đầy đủ.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Được bảo vệ bằng các điều khoản hợp đồng tiêu chuẩn của EU.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Được chứng nhận theo EU-US Data Privacy Framework.",
+            "sccBackup": "Các điều khoản hợp đồng tiêu chuẩn của EU được áp dụng như một biện pháp bảo vệ bổ sung."
+          },
+          "links": {
+            "dpa": "Thỏa thuận xử lý dữ liệu",
+            "privacy": "Chính sách quyền riêng tư",
+            "website": "Trang web",
+            "certification": "Chứng nhận"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Kiểm tra giấy tờ tùy thân của bạn khi bạn đổi ngày sinh.",
+              "receives": [
+                "Tên",
+                "Ngày sinh",
+                "Ảnh giấy tờ tùy thân",
+                "Ảnh tự chụp",
+                "Địa chỉ IP"
+              ],
+              "whose": "Chỉ những người xác minh ngày sinh mới."
+            },
+            "resend": {
+              "purpose": "Gửi email của chúng tôi: mã đăng nhập, cảnh báo bảo mật và thông báo tài khoản.",
+              "receives": [
+                "Địa chỉ email",
+                "Tên hiển thị",
+                "Nội dung email, chẳng hạn mã đăng nhập, liên kết và địa chỉ IP trong cảnh báo bảo mật"
+              ],
+              "whose": "Mọi người nhận email từ Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Yêu cầu về quyền riêng tư",
+          "description": "Phản đối hoặc hạn chế các hoạt động xử lý cụ thể (Điều 18 / Điều 21).",
+          "back": "Quay lại",
+          "close": "Đóng",
+          "loading": "Đang tải…",
+          "loadError": "Không tải được các yêu cầu về quyền riêng tư.",
+          "alreadyOpen": "Bạn đã có một yêu cầu đang mở cho phạm vi này.",
+          "cooldown": "Bạn có thể gửi lại cùng yêu cầu này sau {hours} giờ.",
+          "submitted": "Chúng tôi đã nhận được yêu cầu của bạn.",
+          "withdrawn": "Đã rút yêu cầu.",
+          "fileNew": "Gửi yêu cầu mới",
+          "pickKind": "Bạn muốn làm gì?",
+          "kinds": {
+            "OBJECTION": "Phản đối một hoạt động xử lý (Điều 21)",
+            "RESTRICTION": "Hạn chế xử lý tạm thời (Điều 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Dừng một hoạt động xử lý cụ thể từ nay về sau, dựa trên hoàn cảnh riêng của bạn.",
+            "RESTRICTION": "Tạm dừng một hoạt động xử lý cụ thể trong khi tranh chấp về dữ liệu của bạn đang được xem xét."
+          },
+          "pickActivities": "Yêu cầu này áp dụng cho những hoạt động nào?",
+          "activitiesHint": "Không chọn gì để áp dụng cho tất cả hoạt động xử lý của chúng tôi (tạm dừng toàn bộ).",
+          "globalScope": "Tất cả hoạt động xử lý (tạm dừng toàn bộ)",
+          "yourStatement": "Lời trình bày của bạn (nên có)",
+          "statementPlaceholder": "Hãy cho chúng tôi biết lý do, ví dụ bạn không muốn chúng tôi áp dụng chấm điểm rủi ro tự động trong khi bạn cùng chúng tôi điều tra một sự kiện bảo mật.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Gửi yêu cầu",
+          "submitting": "Đang gửi…",
+          "withdraw": "Rút lại",
+          "withdrawing": "Đang rút lại…",
+          "openTitle": "Yêu cầu đang mở",
+          "emptyOpen": "Không có yêu cầu nào đang mở.",
+          "historyTitle": "Yêu cầu trước đây",
+          "historyEmpty": "Chưa có yêu cầu nào trước đây.",
+          "holdsTitle": "Các lệnh tạm dừng đang có hiệu lực",
+          "holdsEmpty": "Không có lệnh tạm dừng nào đang có hiệu lực.",
+          "appliesTo": "Áp dụng cho",
+          "effectiveUntil": "Có hiệu lực đến",
+          "statuses": {
+            "PENDING": "Đang chờ",
+            "IN_REVIEW": "Đang xem xét",
+            "RESOLVED": "Đã giải quyết",
+            "WITHDRAWN": "Đã rút lại"
+          },
+          "outcomes": {
+            "GRANTED": "Được chấp thuận",
+            "PARTIALLY_GRANTED": "Chấp thuận một phần",
+            "REJECTED": "Bị từ chối",
+            "ESCALATED": "Đã chuyển cấp trên"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Danh tính tài khoản và xác thực",
+            "session-and-device-management": "Phiên và thiết bị",
+            "oauth-issuance": "Cấp OAuth / OIDC",
+            "identity-verification": "Xác minh danh tính (Stripe Identity)",
+            "payment-processing": "Xử lý thanh toán",
+            "audit-logs-and-security-events": "Nhật ký kiểm tra và sự kiện bảo mật",
+            "risk-scoring": "Chấm điểm rủi ro tự động",
+            "consent-log": "Nhật ký đồng ý",
+            "account-deletion": "Xóa tài khoản",
+            "risk-review-queue": "Hàng chờ xem xét rủi ro"
+          },
+          "title": "Phản đối hoặc hạn chế"
+        },
+        "dsar": {
+          "label": "Yêu cầu về quyền riêng tư và dữ liệu",
+          "description": "Gửi yêu cầu chính thức về truy cập, chỉnh sửa, xóa hoặc chuyển dữ liệu (Điều 15-20).",
+          "title": "Yêu cầu về quyền riêng tư và dữ liệu",
+          "back": "Quay lại",
+          "close": "Đóng",
+          "loading": "Đang tải…",
+          "loadError": "Không tải được các yêu cầu.",
+          "submitted": "Chúng tôi đã nhận được yêu cầu của bạn.",
+          "fastPathReady": "Dữ liệu của bạn đang được tải xuống.",
+          "fastPathHint": "Chỉ muốn có bản sao nhanh dữ liệu của bạn? Hãy dùng nút \"Xuất thông tin của bạn\" ở đầu trang. Dữ liệu được tải xuống ngay mà không cần qua hàng chờ chính thức. Hãy gửi yêu cầu tại đây khi bạn muốn có người xem xét, gửi thay cho người khác, hoặc cần chỉnh sửa hay xóa dữ liệu.",
+          "withdrawn": "Đã rút yêu cầu.",
+          "fileNew": "Gửi yêu cầu mới",
+          "pickKind": "Bạn muốn làm gì?",
+          "kinds": {
+            "ACCESS": "Truy cập (Điều 15)",
+            "RECTIFICATION": "Chỉnh sửa (Điều 16)",
+            "ERASURE": "Xóa (Điều 17)",
+            "PORTABILITY": "Chuyển dữ liệu (Điều 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Nhận bản sao đầy đủ, máy có thể đọc được, của dữ liệu chúng tôi lưu về bạn.",
+            "RECTIFICATION": "Sửa dữ liệu chúng tôi lưu về bạn nếu sai hoặc đã lỗi thời.",
+            "ERASURE": "Yêu cầu chúng tôi xóa tài khoản và dữ liệu chúng tôi lưu về bạn.",
+            "PORTABILITY": "Nhận dữ liệu của bạn ở định dạng có cấu trúc, thông dụng."
+          },
+          "filedBy": "Ai đang gửi yêu cầu này?",
+          "filedByOptions": {
+            "SELF": "Tôi gửi cho chính mình",
+            "PARENT_GUARDIAN": "Tôi là cha mẹ hoặc người giám hộ gửi cho người chưa thành niên",
+            "AUTHORISED_AGENT": "Tôi là người đại diện được ủy quyền (ví dụ luật sư) gửi thay cho người khác"
+          },
+          "representativeBlock": {
+            "title": "Thông tin người đại diện",
+            "emailLabel": "Địa chỉ email của bạn",
+            "notesLabel": "Mối quan hệ và thẩm quyền",
+            "notesHint": "Hãy mô tả ngắn gọn mối quan hệ của bạn với chủ thể dữ liệu và đính kèm thông tin tham chiếu đến giấy ủy quyền hoặc giấy tờ giám hộ."
+          },
+          "subjectEmailLabel": "Email của chủ thể",
+          "subjectEmailHint": "Chúng tôi gửi liên kết xác minh và phản hồi đến địa chỉ này. Với yêu cầu do người đại diện gửi, đây phải là email của chính chủ thể dữ liệu.",
+          "yourStatement": "Lời trình bày của bạn (nên có)",
+          "statementPlaceholder": "Chính xác thì bạn muốn gì? Mọi bối cảnh giúp chúng tôi xác định phạm vi phản hồi đều hữu ích.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Gửi yêu cầu",
+          "submitting": "Đang gửi…",
+          "withdraw": "Rút lại",
+          "withdrawing": "Đang rút lại…",
+          "openTitle": "Yêu cầu đang mở",
+          "emptyOpen": "Không có yêu cầu nào đang mở.",
+          "historyTitle": "Yêu cầu trước đây",
+          "historyEmpty": "Chưa có yêu cầu nào trước đây.",
+          "due": "Hạn xử lý",
+          "extended": "Gia hạn đến",
+          "awaitingVerification": "Đang chờ xác minh email",
+          "statuses": {
+            "SUBMITTED": "Đang chờ xác minh",
+            "VERIFIED": "Đã xác minh",
+            "IN_PROGRESS": "Đang xử lý",
+            "FULFILLED": "Đã hoàn thành",
+            "REJECTED": "Bị từ chối",
+            "WITHDRAWN": "Đã rút lại"
+          },
+          "outcomes": {
+            "FULFILLED": "Đã hoàn thành",
+            "PARTIALLY_FULFILLED": "Hoàn thành một phần",
+            "REJECTED": "Bị từ chối"
+          },
+          "overdue": "Quá hạn"
+        },
+        "modalTitle": "Giao diện",
+        "modalSubtitle": "Chọn giao diện của Trung tâm tài khoản. Chúng tôi sẽ nhớ lựa chọn của bạn trên thiết bị này.",
+        "options": {
+          "lightLabel": "Sáng",
+          "lightDescription": "Luôn dùng nền sáng, bất kể cài đặt hệ thống của bạn.",
+          "systemLabel": "Theo hệ thống",
+          "systemDescription": "Chuyển đổi theo cài đặt của thiết bị.",
+          "darkLabel": "Tối",
+          "darkDescription": "Luôn dùng nền tối, dễ nhìn hơn vào buổi tối."
+        },
+        "done": "Xong"
+      },
+      "displayNameSection": {
+        "label": "Họ và tên",
+        "subtitle": "Họ và tên của bạn được dùng trên các tài khoản và hồ sơ của bạn.",
+        "editButton": "Chỉnh sửa",
+        "modalTitle": "Họ và tên",
+        "editTitle": "Đổi họ và tên",
+        "modalSubtitle": "Để đổi họ và tên, hãy liên hệ {email}.",
+        "currentLabel": "Tên hiện tại",
+        "supportNotice": "Để đổi họ và tên, hãy liên hệ {email}.",
+        "copyEmail": "Sao chép địa chỉ email",
+        "openEmail": "Mở email",
+        "mailSubject": "Yêu cầu đổi họ tên",
+        "mailBody": "Xin chào,\n\nTôi muốn đổi họ tên của mình.\n\nTên hiện tại: {name}\nTên mới: \n\nTrân trọng,\n{name}"
+      },
+      "loading": "Đang tải...",
+      "contact": {
+        "subtitle": "Quản lý địa chỉ email của bạn, cũng như những người có thể xem thông tin liên hệ. Dùng chúng để truy cập các hồ sơ và thiết bị trong Trung tâm tài khoản này.",
+        "addNew": "Thêm liên hệ mới",
+        "detailsDescription": "Bạn đã thêm địa chỉ email này vào các tài khoản sau.",
+        "whoCanSee": "Ai có thể xem địa chỉ email của bạn?",
+        "deleting": "Đang xóa...",
+        "delete": "Xóa địa chỉ email",
+        "deleteFailed": "Chúng tôi không thể xóa địa chỉ email này.",
+        "deleted": "Đã xóa địa chỉ email",
+        "addTitle": "Thêm địa chỉ email",
+        "addSubtitle": "Chúng tôi dùng địa chỉ email này trên các tài khoản của bạn trong Trung tâm tài khoản để cá nhân hóa trải nghiệm.",
+        "learnMore": "Tìm hiểu thêm",
+        "emailLabel": "Địa chỉ email",
+        "chooseAccounts": "Chọn tài khoản cho địa chỉ email này",
+        "added": "Đã thêm địa chỉ email",
+        "addFailed": "Đã xảy ra lỗi. Vui lòng thử lại.",
+        "next": "Tiếp theo"
+      },
+      "birthdayModal": {
+        "subtitle": "Thêm ngày sinh để trải nghiệm phù hợp với độ tuổi của bạn.",
+        "edit": "Chỉnh sửa",
+        "editTitle": "Chỉnh sửa ngày sinh của bạn",
+        "editSubtitle": "Ngày sinh này được dùng cho các tài khoản và hồ sơ trong Trung tâm tài khoản này. Mọi thay đổi bạn thực hiện sẽ áp dụng cho tất cả.",
+        "day": "Ngày",
+        "month": "Tháng",
+        "year": "Năm",
+        "verificationNotice": "Để đổi ngày sinh, bạn cần xác minh danh tính bằng giấy tờ tùy thân hợp lệ thông qua đối tác Stripe Identity của chúng tôi. Sau khi bạn lưu, chúng tôi sẽ chuyển bạn đến quy trình xác minh.",
+        "save": "Lưu",
+        "saveFailed": "Đã xảy ra lỗi. Vui lòng thử lại.",
+        "verificationStartFailed": "Chúng tôi không thể bắt đầu xác minh danh tính.",
+        "completeFailed": "Chúng tôi không thể hoàn tất xác minh.",
+        "updated": "Ngày sinh của bạn đã được cập nhật sau khi xác minh danh tính.",
+        "dobMismatch": "Ngày sinh trên giấy tờ tùy thân không khớp với ngày bạn đã nhập.",
+        "dobUnavailable": "Stripe không đọc được ngày sinh có thể xác minh từ giấy tờ tùy thân của bạn.",
+        "notFinished": "Xác minh danh tính chưa hoàn tất."
+      }
+    },
+    "security": {
+      "title": "Mật khẩu và bảo mật",
+      "loadingName": "Người dùng",
+      "pageLoadError": "Không thể tải cài đặt bảo mật.",
+      "sections": {
+        "signIn": {
+          "title": "Đăng nhập và khôi phục",
+          "description": "Quản lý mật khẩu, tùy chọn đăng nhập và phương thức khôi phục của bạn."
+        },
+        "controls": {
+          "title": "Kiểm tra bảo mật",
+          "description": "Xem xét các vấn đề bảo mật bằng cách kiểm tra ứng dụng, thiết bị và email đã gửi."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Đổi mật khẩu",
+          "loading": "Đang tải...",
+          "set": "Đã đặt mật khẩu",
+          "missing": "Chưa đặt mật khẩu"
+        },
+        "twofactor": {
+          "label": "Xác thực hai yếu tố",
+          "loading": "Đang tải...",
+          "enabled": "Đã bật",
+          "disabled": "Chưa bật"
+        },
+        "passkeys": {
+          "label": "Khóa truy cập",
+          "loading": "Đang tải...",
+          "none": "Chưa có khóa truy cập",
+          "active": "{count} đang hoạt động"
+        },
+        "activity": {
+          "label": "Nơi bạn đã đăng nhập",
+          "summary": "{total} phiên đang hoạt động, {others} trên thiết bị khác"
+        },
+        "automated": {
+          "label": "Quyết định tự động",
+          "summary": "Xem những quy tắc tự động nào bảo vệ tài khoản của bạn và yêu cầu người xem xét."
+        }
+      },
+      "passwordModal": {
+        "title": "Đổi mật khẩu",
+        "subtitle": "Tạo mật khẩu có ít nhất 12 ký tự. Hãy chọn mật khẩu mà người khác không thể đoán được.",
+        "currentPassword": "Mật khẩu hiện tại",
+        "newPassword": "Mật khẩu mới",
+        "repeatPassword": "Nhập lại mật khẩu mới",
+        "forgotPassword": "Quên mật khẩu?",
+        "logoutOthers": "Đăng xuất trên các thiết bị khác. Hãy chọn mục này nếu người khác đã dùng tài khoản của bạn.",
+        "submit": "Đổi mật khẩu",
+        "pending": "Đang xử lý...",
+        "success": "Mật khẩu của bạn đã được cập nhật.",
+        "mismatch": "Mật khẩu mới không khớp.",
+        "submitError": "Không thể đổi mật khẩu.",
+        "logoutOthersTitle": "Đăng xuất khỏi các thiết bị khác",
+        "logoutOthersHint": "Nên chọn nếu có thể ai đó đã dùng tài khoản của bạn.",
+        "incorrect": "Mật khẩu hiện tại của bạn không đúng.",
+        "tooWeak": "Hãy chọn mật khẩu đáp ứng tất cả yêu cầu bên dưới."
+      },
+      "twoFactor": {
+        "idleTitle": "Giúp bảo vệ tài khoản của bạn",
+        "idleSubtitle": "Thiết lập xác thực hai yếu tố và chúng tôi sẽ yêu cầu mã đăng nhập khi có người đăng nhập từ thiết bị chúng tôi không nhận ra.",
+        "manageTitle": "Xác thực hai yếu tố đang bật",
+        "manageSubtitle": "Giờ đây chúng tôi yêu cầu mã đăng nhập mỗi khi bạn đăng nhập từ thiết bị chúng tôi không nhận ra.",
+        "appSettingsTitle": "Ứng dụng xác thực",
+        "extraMethodsTitle": "Phương thức bổ sung",
+        "extraMethodsSubtitle": "Nếu các phương thức bảo mật khác không khả dụng, bạn vẫn có thể đăng nhập bằng các tùy chọn này.",
+        "recoveryCodesTitle": "Mã khôi phục",
+        "recoveryCodesSubtitle": "Mỗi mã khôi phục chỉ dùng được một lần. Hãy cất giữ ở nơi an toàn. Nếu không có chúng, bạn có thể mất quyền truy cập khi mất điện thoại hoặc phương thức đăng nhập khác.",
+        "setupTitle": "Hướng dẫn thiết lập",
+        "namingTitle": "Đặt tên cho thiết bị của bạn",
+        "namingSubtitle": "Đặt cho ứng dụng xác thực một cái tên dễ nhận biết để bạn biết mình đang dùng thiết bị nào.",
+        "verifyTitle": "Nhập mã",
+        "verifySubtitle": "Nhập mã gồm 6 chữ số từ ứng dụng xác thực để hoàn tất thiết lập.",
+        "successTitle": "Xác thực hai yếu tố đang bật",
+        "successSubtitle": "Giờ đây chúng tôi yêu cầu mã đăng nhập mỗi khi bạn đăng nhập từ thiết bị chúng tôi không nhận ra. Muốn cập nhật thông tin liên hệ? Hãy vào Thông tin cá nhân trong Trung tâm tài khoản.",
+        "verifiedTitle": "Mã dự phòng",
+        "verifiedSubtitle": "Hãy lưu các mã này ở nơi an toàn. Bạn có thể dùng chúng nếu mất quyền truy cập vào ứng dụng xác thực.",
+        "learnMore": "Tìm hiểu thêm",
+        "receiveCodesTitle": "Chọn cách bạn muốn nhận mã",
+        "authenticatorTitle": "Ứng dụng xác thực",
+        "authenticatorDescription": "Nhận mã dùng một lần qua ứng dụng như Duo Mobile hoặc Google Authenticator.",
+        "recommended": "Được đề xuất",
+        "continue": "Tiếp tục",
+        "working": "Đang xử lý...",
+        "enabledSuccess": "Xác thực hai yếu tố đã được tắt.",
+        "disableError": "Không thể tắt ứng dụng xác thực.",
+        "startError": "Không thể bắt đầu thiết lập ứng dụng xác thực.",
+        "verifyError": "Không thể xác minh ứng dụng xác thực.",
+        "regenerateError": "Không thể tạo lại mã khôi phục.",
+        "downloadError": "Hãy tạo bộ mã khôi phục mới trước khi tải xuống.",
+        "recoveryRegenerated": "Đã tạo mã khôi phục mới.",
+        "manage": {
+          "receiveCodesTitle": "Nhận mã đăng nhập",
+          "authenticatorDescription": "Bạn nhận mã đăng nhập qua ứng dụng xác thực.",
+          "additionalMethodsTitle": "Phương thức bổ sung",
+          "additionalMethodsDescription": "Xem cách bạn vẫn có thể đăng nhập an toàn khi các phương thức khác không khả dụng."
+        },
+        "appSettings": {
+          "title": "Ứng dụng xác thực",
+          "description": "Bạn nhận mã đăng nhập qua ứng dụng xác thực.",
+          "connectedDevicesTitle": "Thiết bị đã kết nối",
+          "add": "Thêm",
+          "connectedDevicesDescription": "Bạn có thể thêm nhiều thiết bị để mỗi thiết bị được liên kết nhận mã đăng nhập 6 chữ số từ ứng dụng xác thực trên thiết bị đó.",
+          "noDevices": "Chưa có thiết bị nào được kết nối",
+          "lastUsed": "Dùng lần cuối: {date}",
+          "added": "Đã thêm: {date}",
+          "active": "Ứng dụng xác thực đang hoạt động"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Mã khôi phục",
+          "recoveryCodesDescription": "Dùng các mã này khi bạn không truy cập được điện thoại."
+        },
+        "recoveryCodes": {
+          "download": "Tải mã xuống",
+          "regenerate": "Lấy mã mới",
+          "existing": "Bạn có {count} mã khôi phục chưa dùng. Nhấp vào \"Lấy mã mới\" để tạo bộ mã mới.",
+          "empty": "Phiên này chưa có mã khôi phục nào hiển thị. Nhấp vào \"Lấy mã mới\" để tạo bộ mã mới."
+        },
+        "setup": {
+          "step1Title": "1. Tải ứng dụng xác thực",
+          "step1Description": "Chúng tôi khuyên bạn tải Duo Mobile hoặc Google Authenticator nếu chưa cài ứng dụng nào.",
+          "step2Title": "2. Quét mã QR này hoặc sao chép khóa",
+          "step2Description": "Quét mã QR này trong ứng dụng xác thực hoặc sao chép khóa rồi dán vào ứng dụng.",
+          "copyKey": "Sao chép khóa",
+          "step3Title": "3. Sao chép mã sáu chữ số và nhập vào",
+          "step3Description": "Sau khi quét mã QR hoặc nhập khóa, ứng dụng sẽ tạo mã gồm 6 chữ số. Nhấn Nhập mã bên dưới.",
+          "enterCode": "Nhập mã",
+          "qrAlt": "Mã QR cho ứng dụng xác thực của bạn"
+        },
+        "naming": {
+          "label": "Tên thiết bị (ví dụ: iPhone của Stijn)",
+          "next": "Tiếp theo"
+        },
+        "verify": {
+          "label": "Mã từ ứng dụng xác thực",
+          "submit": "Xác minh mã"
+        },
+        "success": {
+          "done": "Xong"
+        },
+        "ui": {
+          "on": "Bật",
+          "turnOff": "Tắt",
+          "turnOffConfirm": "Tắt xác thực hai yếu tố? Khi đó đăng nhập chỉ cần mật khẩu của bạn.",
+          "cancel": "Hủy",
+          "copyKey": "Sao chép",
+          "copied": "Đã sao chép",
+          "manualKey": "Khóa thiết lập",
+          "status": "Trạng thái"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Tệp khôi phục",
+          "rowDescription": "Một tệp PDF giúp bạn đăng nhập khi tải lên, không cần mật khẩu hay mã.",
+          "otherMethodsTitle": "Các cách khác để vào tài khoản",
+          "title": "Tệp khôi phục",
+          "subtitle": "Một tệp PDF bạn tải lên khi đăng nhập. Tệp giúp bạn đăng nhập ngay, không cần mật khẩu hay mã. Hữu ích nếu bạn mất điện thoại hoặc quên mật khẩu.",
+          "download": "Tải xuống tệp khôi phục",
+          "downloading": "Đang tạo tệp của bạn…",
+          "downloaded": "Đã tải xuống. Hãy cất tệp ở nơi an toàn.",
+          "made": "Tạo ngày {date}",
+          "lastUsed": "Dùng lần cuối {date}",
+          "notUsed": "Chưa dùng",
+          "remove": "Xóa",
+          "removeConfirm": "Xóa tệp khôi phục của bạn? Tệp sẽ ngừng hoạt động ngay.",
+          "removed": "Đã xóa tệp khôi phục.",
+          "cancel": "Hủy",
+          "newTitle": "Cần tệp mới?",
+          "newText": "Bạn chỉ có thể tải xuống một tệp một lần. Để nhận tệp mới, hãy xác nhận bằng mã chúng tôi gửi qua email. Tệp hiện tại sẽ ngừng hoạt động.",
+          "requestCode": "Gửi mã cho tôi qua email",
+          "sending": "Đang gửi…",
+          "codeSent": "Chúng tôi đã gửi mã đến {email}.",
+          "codeLabel": "Mã",
+          "confirmDownload": "Xác nhận và tải xuống",
+          "loadError": "Hiện chưa thể tải nội dung này. Hãy thử lại sau.",
+          "errors": {
+            "code_invalid": "Mã không đúng. Hãy kiểm tra email và thử lại.",
+            "code_expired": "Mã này đã hết hạn. Hãy yêu cầu mã mới.",
+            "rate_limited": "Quá nhiều lần thử. Hãy thử lại sau.",
+            "send_failed": "Hiện chưa thể gửi email. Hãy thử lại sau.",
+            "generic": "Đã xảy ra lỗi. Hãy thử lại sau."
+          },
+          "points": [
+            {
+              "title": "Tải xuống một lần",
+              "text": "Bạn chỉ có thể tải tệp xuống ngay bây giờ. Để có tệp mới sau này, bạn xác nhận bằng mã chúng tôi gửi qua email."
+            },
+            {
+              "title": "Giữ an toàn",
+              "text": "Ví dụ in ra hoặc lưu trên ổ đĩa được mã hóa. Bất kỳ ai có tệp này đều có thể đăng nhập vào tài khoản của bạn, vì vậy đừng gửi qua email hay chia sẻ."
+            },
+            {
+              "title": "Đăng nhập bằng tệp",
+              "text": "Nhập email của bạn khi đăng nhập, chọn \"Quên mật khẩu?\", rồi chọn \"Đăng nhập bằng tệp khôi phục\" và tải lên tệp PDF."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Khóa truy cập",
+        "subtitle": "Khóa truy cập là cách đăng nhập an toàn và dễ dàng mà không cần mật khẩu. Bạn có thể dùng vân tay, khuôn mặt hoặc khóa màn hình của thiết bị.",
+        "add": "Thêm khóa truy cập",
+        "empty": "Bạn chưa thêm khóa truy cập nào.",
+        "unnamed": "Khóa truy cập chưa đặt tên",
+        "addedOn": "Đã thêm vào {date}",
+        "lastUsed": "Dùng lần cuối {date}",
+        "never": "Chưa từng dùng",
+        "delete": "Xóa",
+        "count": "Bạn có {count} khóa truy cập đang hoạt động.",
+        "none": "Bạn chưa thiết lập khóa truy cập nào.",
+        "success": "Đã đăng ký khóa truy cập thành công!",
+        "error": "Đăng ký khóa truy cập thất bại.",
+        "pending": "Đang đăng ký...",
+        "emptyTitle": "Chưa có passkey nào",
+        "emptyText": "Hãy thêm một passkey để đăng nhập bằng vân tay, khuôn mặt hoặc khóa màn hình thiết bị thay cho mật khẩu. Mật khẩu của bạn vẫn dùng được.",
+        "deleteConfirm": "Xóa passkey này? Bạn sẽ không thể đăng nhập bằng passkey này nữa.",
+        "cancel": "Hủy",
+        "removing": "Đang xóa...",
+        "createTitle": "Tạo passkey",
+        "createSubtitle": "Passkey cho phép bạn đăng nhập bằng vân tay, khuôn mặt hoặc khóa màn hình thiết bị. Passkey được lưu bởi thiết bị hoặc trình quản lý mật khẩu của bạn và không bao giờ rời khỏi đó.",
+        "nameLabel": "Tên passkey",
+        "nameHint": "Để bạn phân biệt các passkey, ví dụ tên thiết bị hoặc trình quản lý mật khẩu nơi passkey được lưu.",
+        "whatHappensTitle": "Điều gì xảy ra tiếp theo",
+        "whatHappens1": "Trình duyệt hoặc trình quản lý mật khẩu của bạn sẽ hỏi nơi lưu passkey.",
+        "whatHappens2": "Xác nhận bằng vân tay, khuôn mặt hoặc khóa màn hình.",
+        "whatHappens3": "Từ đó, bạn có thể chọn passkey khi đăng nhập.",
+        "create": "Tạo passkey",
+        "waiting": "Hãy làm theo hướng dẫn từ trình duyệt hoặc trình quản lý mật khẩu của bạn…",
+        "cancelled": "Chưa có passkey nào được tạo. Bạn có thể thử lại.",
+        "doneTitle": "Đã thêm passkey",
+        "doneSubtitle": "Giờ bạn có thể đăng nhập bằng \"{name}\". Mật khẩu của bạn vẫn dùng được.",
+        "done": "Xong",
+        "back": "Quay lại",
+        "removeError": "Không thể xóa khóa truy cập. Hãy thử lại.",
+        "defaultName": "{browser} trên {system}",
+        "rowDescription": "Đăng nhập bằng vân tay, khuôn mặt hoặc mã PIN của thiết bị."
+      },
+      "activityModal": {
+        "title": "Hoạt động đăng nhập tài khoản",
+        "subtitle": "Nơi tài khoản của bạn đang đăng nhập. Hãy đăng xuất khỏi mọi thiết bị bạn không nhận ra.",
+        "unknownDevice": "Thiết bị không xác định",
+        "unknownLocation": "Vị trí không xác định",
+        "currentDevice": "Thiết bị này",
+        "lastActive": "Hoạt động lần cuối {date}",
+        "revoke": "Đăng xuất",
+        "revokePending": "Đang xử lý...",
+        "revokeAllTitle": "Đăng nhập trên thiết bị khác",
+        "revokeAll": "Đăng xuất khỏi tất cả thiết bị khác",
+        "revokeAllPending": "Đang xử lý...",
+        "revokeSuccess": "Phiên đã bị thu hồi.",
+        "revokeAllSuccess": "Tất cả phiên khác đã được đăng xuất.",
+        "revokeError": "Không thể thu hồi phiên.",
+        "viewMore": "+ {count} thiết bị khác",
+        "activeNow": "Đang hoạt động",
+        "thisDeviceTitle": "Thiết bị này",
+        "otherEmpty": "Bạn không đăng nhập trên thiết bị nào khác.",
+        "showAll": "Hiện tất cả {count}",
+        "revokeAllConfirm": "Đăng xuất khỏi tất cả {count} thiết bị khác? Bất kỳ ai đang dùng các thiết bị đó sẽ phải đăng nhập lại.",
+        "cancel": "Hủy"
+      },
+      "automatedDecisions": {
+        "title": "Quyết định tự động",
+        "description": "Một số quyết định bảo vệ tài khoản được đưa ra tự động dựa trên các tín hiệu như mẫu đăng nhập và hoạt động đáng ngờ. Bạn có thể yêu cầu một người tại Ordnary xem xét kết quả.",
+        "back": "Quay lại",
+        "close": "Đóng",
+        "loading": "Đang tải…",
+        "currentStateTitle": "Trạng thái tự động hiện tại",
+        "riskLabels": {
+          "LOW": "Rủi ro thấp",
+          "MEDIUM": "Rủi ro trung bình",
+          "HIGH": "Rủi ro cao"
+        },
+        "statusLabels": {
+          "ACTIVE": "Đang hoạt động",
+          "SUSPENDED": "Tạm thời bị đình chỉ",
+          "DEACTIVATED": "Đã vô hiệu hóa",
+          "DELETED": "Đang chờ xóa"
+        },
+        "suspendedExplanation": "Tài khoản của bạn hiện đang bị hạn chế bởi một quy tắc tự động. Bạn có thể yêu cầu xem xét bởi con người bên dưới. Một người tại Ordnary sẽ xem các tín hiệu và lời trình bày của bạn, rồi xác nhận hoặc thay đổi quyết định.",
+        "elevatedExplanation": "Mức rủi ro của tài khoản bạn đã được nâng lên dựa trên hoạt động gần đây. Bạn có thể yêu cầu con người xem xét nếu cho rằng các tín hiệu sai.",
+        "okExplanation": "Chúng tôi chưa ghi nhận hạn chế tự động nào trên tài khoản của bạn. Bạn vẫn có thể yêu cầu xem xét lại bất kỳ quyết định nào trước đây bên dưới.",
+        "lastEvaluated": "Lần đánh giá gần nhất",
+        "signalsTitle": "Tín hiệu bảo mật gần đây",
+        "signalsEmpty": "Gần đây chưa ghi nhận tín hiệu bảo mật nào.",
+        "appealTitle": "Yêu cầu con người xem xét",
+        "appealSubtitle": "Một người xem xét tại Ordnary sẽ xem quyết định tự động, lời trình bày của bạn và các tín hiệu liên quan. Chúng tôi sẽ cố gắng phản hồi trong thời gian hợp lý.",
+        "pickReason": "Bạn muốn khiếu nại điều gì?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Tôi cho rằng việc đình chỉ là sai",
+          "RISK_LEVEL_OBJECTION": "Tôi cho rằng mức rủi ro của tôi không đúng",
+          "SECURITY_EVENT_OBJECTION": "Tôi muốn phản đối một tín hiệu bảo mật cụ thể",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Tôi muốn một người xem xét các quyết định tự động trên tài khoản của tôi"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Tài khoản của bạn hiện đang bị đình chỉ và bạn muốn quyết định đó được xem xét lại.",
+          "RISK_LEVEL_OBJECTION": "Mức rủi ro của bạn cao hơn dự kiến và bạn muốn được đánh giá lại.",
+          "SECURITY_EVENT_OBJECTION": "Một sự kiện bảo mật cụ thể đã được ghi nhận mà bạn không nhận ra.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Bạn muốn một người xem xét các quyết định tự động trên tài khoản của bạn."
+        },
+        "yourStatement": "Lời trình bày của bạn (không bắt buộc)",
+        "statementPlaceholder": "Hãy cho chúng tôi biết mọi điều cần biết, ví dụ bạn đang đi xa, dùng thiết bị mới, hoặc có người khác đang cố xâm nhập.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Gửi yêu cầu xem xét",
+        "submitting": "Đang gửi...",
+        "submitted": "Chúng tôi đã nhận được yêu cầu của bạn và sẽ phản hồi.",
+        "pendingTitle": "Đang xem xét",
+        "pendingSubtitle": "Một người tại Ordnary đang xem yêu cầu của bạn. Bạn sẽ được thông báo khi có cập nhật.",
+        "withdraw": "Rút lại yêu cầu",
+        "withdrawing": "Đang rút lại...",
+        "withdrawn": "Đã rút yêu cầu.",
+        "withdrawableHint": "Bạn có thể rút lại yêu cầu này bất cứ lúc nào.",
+        "historyTitle": "Yêu cầu xem xét trước đây",
+        "historyEmpty": "Chưa có yêu cầu xem xét nào trước đây.",
+        "outcomes": {
+          "UPHELD": "Được giữ nguyên",
+          "OVERTURNED": "Bị hủy bỏ",
+          "ADJUSTED": "Đã điều chỉnh",
+          "ESCALATED": "Đã chuyển cấp trên"
+        },
+        "statuses": {
+          "PENDING": "Đang chờ",
+          "IN_REVIEW": "Đang xem xét",
+          "RESOLVED": "Đã giải quyết",
+          "WITHDRAWN": "Đã rút lại"
+        },
+        "loadError": "Không tải được chi tiết quyết định tự động.",
+        "alreadyOpen": "Bạn đã có một yêu cầu xem xét đang mở.",
+        "cooldown": "Bạn có thể gửi yêu cầu xem xét mới sau {hours} giờ. Khoảng chờ này giúp người xem xét kịp xử lý yêu cầu trước.",
+        "showAll": "Hiện tất cả ({count})",
+        "showLess": "Thu gọn"
+      },
+      "previewBadge": "Xem trước",
+      "previewBadgeTooltip": "Mới và vẫn đang được cải thiện. Passkey hoạt động, nhưng chi tiết có thể thay đổi."
+    },
+    "connections": {
+      "title": "Ứng dụng đã kết nối",
+      "description": "Các ứng dụng có quyền truy cập dữ liệu tài khoản Ordnary của bạn.",
+      "empty": "Bạn chưa kết nối ứng dụng nào.",
+      "authorizedScopes": "Phạm vi được cấp quyền: {scopes}",
+      "granted": "Đã cấp: {date}",
+      "revoke": "Thu hồi quyền truy cập"
+    },
+    "devices": {
+      "title": "Thiết bị và phiên",
+      "description": "Quản lý các phiên đang hoạt động trên nhiều thiết bị.",
+      "logoutOthers": "Đăng xuất khỏi tất cả thiết bị khác",
+      "headers": {
+        "device": "Thiết bị",
+        "location": "Vị trí / IP",
+        "lastActive": "Hoạt động gần nhất",
+        "type": "Loại",
+        "actions": "Thao tác"
+      },
+      "unknownDevice": "Thiết bị không xác định",
+      "currentSession": "(Phiên hiện tại)",
+      "typeFormat": "{browser} trên {os}",
+      "revoke": "Thu hồi"
+    },
+    "passkeysPage": {
+      "title": "Khóa truy cập",
+      "description": "Quản lý sinh trắc học và khóa phần cứng để đăng nhập không cần mật khẩu.",
+      "add": "+ Thêm khóa truy cập mới",
+      "empty": "Bạn chưa thêm khóa truy cập nào.",
+      "unnamed": "Khóa truy cập chưa đặt tên",
+      "addedOn": "Đã thêm vào: {date}",
+      "lastUsed": "Dùng lần cuối: {date}",
+      "never": "Chưa bao giờ",
+      "delete": "Xóa"
+    },
+    "activity": {
+      "title": "Hoạt động gần đây",
+      "description": "Xem xét và theo dõi các sự kiện và thay đổi quan trọng liên quan đến bảo mật tài khoản của bạn.",
+      "details": "Chi tiết",
+      "dates": {
+        "today": "Hôm nay, 17 tháng 4",
+        "yesterday": "Hôm qua, 16 tháng 4"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Đã đăng nhập",
+        "LOGIN_FAILED": "Đăng nhập không thành công",
+        "LOGIN_LOCKED": "Đăng nhập bị chặn",
+        "LOGOUT": "Đã đăng xuất",
+        "SESSION_CREATED": "Đã tạo phiên",
+        "SESSION_REVOKED": "Đã kết thúc phiên",
+        "SESSION_ALL_REVOKED": "Đã đăng xuất ở mọi nơi",
+        "PASSWORD_SET": "Đã đặt mật khẩu",
+        "PASSWORD_CHANGED": "Đã đổi mật khẩu",
+        "PASSWORD_RESET_REQUESTED": "Đã yêu cầu đặt lại mật khẩu",
+        "PASSWORD_RESET_COMPLETED": "Đã đặt lại mật khẩu",
+        "PASSKEY_REGISTERED": "Đã đăng ký khóa truy cập",
+        "PASSKEY_USED": "Đã đăng nhập bằng khóa truy cập",
+        "PASSKEY_REMOVED": "Đã xóa khóa truy cập",
+        "PASSKEY_COUNTER_MISMATCH": "Cảnh báo về khóa truy cập",
+        "MFA_ENABLED": "Đã bật xác thực hai yếu tố",
+        "MFA_DISABLED": "Đã tắt xác thực hai yếu tố",
+        "MFA_FACTOR_ENROLLED": "Đã thêm ứng dụng xác thực",
+        "MFA_FACTOR_VERIFIED": "Đã xác nhận ứng dụng xác thực",
+        "MFA_FACTOR_REVOKED": "Đã xóa ứng dụng xác thực",
+        "RECOVERY_CODES_GENERATED": "Mã khôi phục mới",
+        "RECOVERY_CODE_USED": "Đã dùng mã khôi phục",
+        "STEP_UP_REQUIRED": "Đã yêu cầu xác nhận",
+        "STEP_UP_COMPLETED": "Đã xác nhận đó là bạn",
+        "EMAIL_ADDED": "Đã thêm địa chỉ email",
+        "EMAIL_VERIFIED": "Đã xác nhận địa chỉ email",
+        "EMAIL_REMOVED": "Đã xóa địa chỉ email",
+        "EMAIL_PRIMARY_CHANGED": "Đã đổi email chính",
+        "ACCOUNT_CREATED": "Đã tạo tài khoản",
+        "ACCOUNT_UPDATED": "Đã cập nhật tài khoản",
+        "ACCOUNT_DELETED": "Đã bắt đầu xóa tài khoản",
+        "ACCOUNT_REACTIVATED": "Đã kích hoạt lại tài khoản",
+        "OAUTH_CONSENT_GRANTED": "Đã cấp quyền truy cập cho ứng dụng",
+        "OAUTH_CONSENT_REVOKED": "Đã gỡ quyền truy cập của ứng dụng",
+        "OAUTH_TOKEN_ISSUED": "Ứng dụng đã đăng nhập",
+        "OAUTH_TOKEN_REVOKED": "Ứng dụng đã đăng xuất",
+        "SUSPICIOUS_NEW_LOCATION": "Đăng nhập từ địa điểm mới",
+        "SUSPICIOUS_NEW_DEVICE": "Đăng nhập trên thiết bị mới",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Đăng nhập bất thường",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Đã đổi tùy chọn email",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Đã hủy đăng ký nhận email",
+        "PRIVACY_REQUEST_FILED": "Đã gửi yêu cầu về quyền riêng tư",
+        "PRIVACY_REQUEST_RESOLVED": "Đã xử lý yêu cầu về quyền riêng tư",
+        "DSAR_FILED": "Đã gửi yêu cầu dữ liệu",
+        "DSAR_FULFILLED": "Đã hoàn tất yêu cầu dữ liệu",
+        "DSAR_REJECTED": "Yêu cầu dữ liệu bị từ chối",
+        "RISK_REVIEW_REQUESTED": "Đã yêu cầu xem xét",
+        "RISK_REVIEW_RESOLVED": "Đã xem xét xong"
+      },
+      "severities": {
+        "INFO": "Thông tin",
+        "MEDIUM": "Trung bình",
+        "HIGH": "Cao",
+        "CRITICAL": "Nghiêm trọng",
+        "LOW": "Thấp"
+      },
+      "empty": "Chưa có hoạt động nào trên tài khoản của bạn.",
+      "filters": {
+        "all": "Tất cả",
+        "account": "Thay đổi tài khoản",
+        "security": "Cảnh báo bảo mật"
+      },
+      "retention": "Hoạt động được lưu giữ trong {days} ngày. Bạn có thể thay đổi điều này trong {link}.",
+      "retentionLink": "Thông tin và quyền của bạn",
+      "emptyFiltered": "Không có gì để hiển thị trong chế độ xem này.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Có người đã đăng nhập vào tài khoản của bạn bằng mật khẩu hoặc mã đăng nhập.",
+        "LOGIN_FAILED": "Có người đã thử đăng nhập vào tài khoản của bạn nhưng mật khẩu hoặc mã không đúng. Nếu chỉ vài lần thì thường là do gõ nhầm.",
+        "LOGIN_LOCKED": "Sau quá nhiều lần thử sai, việc đăng nhập vào tài khoản của bạn đã bị chặn tạm thời để giữ an toàn.",
+        "LOGOUT": "Một phiên trên tài khoản của bạn đã được đăng xuất.",
+        "SESSION_CREATED": "Tài khoản của bạn đã được đăng nhập trên một thiết bị hoặc trình duyệt, tạo ra một phiên mới.",
+        "SESSION_REVOKED": "Một phiên trên tài khoản của bạn đã bị đăng xuất, do bạn thực hiện hoặc vì phiên đó không còn an toàn để giữ lại.",
+        "SESSION_ALL_REVOKED": "Tài khoản của bạn đã được đăng xuất trên tất cả các thiết bị khác.",
+        "PASSWORD_SET": "Một mật khẩu đã được thêm vào tài khoản của bạn.",
+        "PASSWORD_CHANGED": "Mật khẩu tài khoản của bạn đã được thay đổi.",
+        "PASSWORD_RESET_REQUESTED": "Mã để đặt lại mật khẩu đã được gửi đến địa chỉ email của bạn.",
+        "PASSWORD_RESET_COMPLETED": "Mật khẩu của bạn đã được đặt lại bằng mã từ email và bạn đã được đăng xuất ở mọi nơi.",
+        "PASSKEY_REGISTERED": "Một khóa truy cập đã được thêm, nên bạn có thể đăng nhập bằng thiết bị của mình thay cho mật khẩu.",
+        "PASSKEY_USED": "Có người đã đăng nhập vào tài khoản của bạn bằng một trong các khóa truy cập của tài khoản.",
+        "PASSKEY_REMOVED": "Một khóa truy cập đã bị xóa và không thể dùng để đăng nhập nữa.",
+        "PASSKEY_COUNTER_MISMATCH": "Một khóa truy cập đã báo cáo điều bất thường, có thể có nghĩa là khóa đã bị sao chép. Lượt đăng nhập đã bị từ chối.",
+        "MFA_ENABLED": "Giờ đây khi đăng nhập, bạn cũng sẽ được yêu cầu nhập mã từ ứng dụng xác thực.",
+        "MFA_DISABLED": "Khi đăng nhập, bạn sẽ không còn được yêu cầu nhập mã từ ứng dụng xác thực.",
+        "MFA_FACTOR_ENROLLED": "Một ứng dụng xác thực đã được liên kết với tài khoản của bạn.",
+        "MFA_FACTOR_VERIFIED": "Mã từ ứng dụng xác thực của bạn đã được xác nhận.",
+        "MFA_FACTOR_REVOKED": "Một ứng dụng xác thực đã bị xóa khỏi tài khoản của bạn.",
+        "RECOVERY_CODES_GENERATED": "Một bộ mã khôi phục mới đã được tạo. Các mã cũ không còn dùng được nữa.",
+        "RECOVERY_CODE_USED": "Có người đã đăng nhập bằng một trong các mã khôi phục của bạn thay cho mã xác thực. Mã đó không thể dùng lại.",
+        "STEP_UP_REQUIRED": "Trước một thay đổi nhạy cảm, bạn được yêu cầu xác nhận đó là bạn bằng mã gửi qua email.",
+        "STEP_UP_COMPLETED": "Mã gửi qua email đã xác nhận đó là bạn, cho phép thực hiện thay đổi nhạy cảm trong một khoảng thời gian.",
+        "EMAIL_ADDED": "Một địa chỉ email đã được thêm vào tài khoản của bạn và đã được gửi liên kết xác nhận.",
+        "EMAIL_VERIFIED": "Một địa chỉ email trên tài khoản của bạn đã được xác nhận.",
+        "EMAIL_REMOVED": "Một địa chỉ email đã bị xóa khỏi tài khoản của bạn.",
+        "EMAIL_PRIMARY_CHANGED": "Một địa chỉ email khác đã trở thành địa chỉ chính của tài khoản, dùng để đăng nhập và nhận tin nhắn.",
+        "ACCOUNT_CREATED": "Tài khoản Ordnary của bạn đã được tạo.",
+        "ACCOUNT_UPDATED": "Một cài đặt hoặc thông tin trên tài khoản của bạn đã được thay đổi.",
+        "ACCOUNT_DELETED": "Tài khoản của bạn đã được đặt để xóa. Bạn có thể khôi phục trong vòng 30 ngày.",
+        "ACCOUNT_REACTIVATED": "Tài khoản của bạn đã được bật lại sau khi bị vô hiệu hóa hoặc xóa.",
+        "OAUTH_CONSENT_GRANTED": "Một ứng dụng đã nhận được quyền truy cập vào tài khoản của bạn bằng Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "Một ứng dụng không còn quyền truy cập vào tài khoản của bạn.",
+        "OAUTH_TOKEN_ISSUED": "Một ứng dụng bạn dùng với Ordnary ID đã nhận mã thông báo đăng nhập mới.",
+        "OAUTH_TOKEN_REVOKED": "Mã thông báo đăng nhập của một ứng dụng đã bị thu hồi.",
+        "SUSPICIOUS_NEW_LOCATION": "Tài khoản của bạn đã được dùng từ một địa điểm chưa từng dùng trước đây.",
+        "SUSPICIOUS_NEW_DEVICE": "Tài khoản của bạn đã được dùng trên một thiết bị chưa từng dùng trước đây.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Tài khoản của bạn đã được dùng từ hai địa điểm cách nhau quá xa để một người có thể di chuyển giữa chúng trong khoảng thời gian đó.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Các loại email mà Ordnary được phép gửi cho bạn đã được thay đổi.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Liên kết hủy đăng ký trong một email đã tắt một loại email.",
+        "PRIVACY_REQUEST_FILED": "Một yêu cầu phản đối hoặc hạn chế việc xử lý dữ liệu của bạn đã được gửi.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary đã xử lý yêu cầu phản đối hoặc hạn chế việc xử lý của bạn.",
+        "DSAR_FILED": "Một yêu cầu về dữ liệu của bạn (truy cập, chỉnh sửa, xóa hoặc bản sao) đã được gửi.",
+        "DSAR_FULFILLED": "Ordnary đã hoàn tất yêu cầu dữ liệu của bạn.",
+        "DSAR_REJECTED": "Ordnary đã từ chối yêu cầu dữ liệu của bạn; email gửi đến bạn giải thích lý do.",
+        "RISK_REVIEW_REQUESTED": "Đã có yêu cầu xem xét một quyết định tự động về tài khoản của bạn.",
+        "RISK_REVIEW_RESOLVED": "Một nhân viên của Ordnary đã xem xét một quyết định tự động về tài khoản của bạn."
+      },
+      "detail": {
+        "ifNotYou": "Không phải bạn? Hãy đổi mật khẩu và đăng xuất các thiết bị khác trong Mật khẩu và bảo mật.",
+        "ifNotYouLink": "Đi tới Mật khẩu và bảo mật",
+        "generic": "Sự kiện này đã được ghi lại trên tài khoản của bạn.",
+        "labels": {
+          "when": "Thời gian",
+          "where": "Địa điểm",
+          "ip": "Địa chỉ IP",
+          "session": "Phiên",
+          "thisDevice": "Thiết bị này",
+          "event": "Sự kiện",
+          "source": "Ghi lại trong",
+          "severity": "Mức độ quan trọng"
+        },
+        "sources": {
+          "AUDIT_LOG": "Nhật ký tài khoản",
+          "SECURITY_EVENT": "Giám sát bảo mật"
+        },
+        "unknown": "Không xác định",
+        "times": "{count}×",
+        "timeSpan": "{from} đến {to}"
+      },
+      "showMore": "Hiển thị các ngày trước",
+      "loadingMore": "Đang tải…",
+      "end": "Đó là tất cả hoạt động được lưu giữ.",
+      "loadFailed": "Không thể tải thêm. Hãy thử lại."
+    },
+    "connectedAppsDemo": {
+      "title": "Ứng dụng đã kết nối",
+      "description": "Các ứng dụng và dịch vụ bên thứ ba mà bạn đã cấp quyền truy cập vào một số dữ liệu tài khoản.",
+      "badges": {
+        "official": "Chính thức",
+        "verified": "Đã xác minh"
+      },
+      "accessed": "Đã truy cập {value}",
+      "revoke": "Thu hồi quyền truy cập",
+      "apps": {
+        "consoleReason": "Quản lý tài nguyên đám mây và quy trình triển khai của bạn.",
+        "figmaReason": "Công cụ thiết kế dùng để tạo nguyên mẫu cộng tác.",
+        "unknownGameName": "Trò chơi không xác định",
+        "unknownGameReason": "Một ứng dụng chưa được xác minh đã yêu cầu thông tin hồ sơ của bạn.",
+        "currentSession": "Phiên hiện tại",
+        "twoDaysAgo": "2 ngày trước",
+        "lastMonth": "Tháng trước"
+      }
+    },
+    "permissions": {
+      "title": "Thông tin và quyền của bạn",
+      "exportTitle": "Xuất thông tin của bạn",
+      "searchHistory": "Hoạt động trên Ordnary",
+      "externalActivity": "Hoạt động của bạn bên ngoài các công nghệ của Ordnary",
+      "appConnections": "Kết nối ứng dụng",
+      "manageContacts": "Quản lý danh bạ",
+      "notice": "Hãy vào Xuất thông tin của bạn để tải xuống hoặc chuyển một bản sao thông tin của bạn.",
+      "footer": "Quyết định thông tin nào các công nghệ của Ordnary có thể dùng để định hình trải nghiệm của bạn.",
+      "privacyRightsTitle": "Quyền riêng tư của bạn",
+      "dsarTitle": "Yêu cầu về quyền riêng tư và dữ liệu",
+      "dsarSubtitle": "Gửi yêu cầu chính thức về truy cập, chỉnh sửa, xóa hoặc chuyển dữ liệu (Điều 15-20).",
+      "privacyRequestsTitle": "Phản đối hoặc hạn chế",
+      "privacyRequestsSubtitle": "Phản đối hoặc hạn chế các hoạt động xử lý cụ thể (Điều 18 / Điều 21).",
+      "processorsTitle": "Ai xử lý dữ liệu của bạn",
+      "processorsSubtitle": "Các công ty chúng tôi dùng để vận hành Ordnary, họ nhận những gì và lưu trữ ở đâu.",
+      "cookiesTitle": "Tùy chọn cookie",
+      "cookiesSubtitle": "Quản lý những cookie mà Ordnary có thể dùng trong trình duyệt này.",
+      "minorConsentTitle": "Sự đồng ý của cha mẹ",
+      "minorConsentSubtitle": "Nếu bạn chưa đủ tuổi đồng ý theo quy định ở quốc gia của bạn, cha mẹ hoặc người giám hộ phải đồng ý (GDPR Điều 8).",
+      "notificationsTitle": "Tùy chọn thông báo",
+      "notificationsSubtitle": "Chọn loại email mà Ordnary có thể gửi cho bạn.",
+      "notifications": {
+        "title": "Tùy chọn thông báo",
+        "close": "Đóng",
+        "loading": "Đang tải…",
+        "alwaysOn": "Luôn bật",
+        "description": "Chọn email bạn nhận từ Ordnary.",
+        "loadError": "Hiện chúng tôi không tải được nội dung này. Hãy thử lại sau.",
+        "saveError": "Chúng tôi không lưu được. Hãy thử lại.",
+        "saved": "Đã lưu.",
+        "alwaysTitle": "Luôn bật",
+        "alwaysText": "Những email này giữ tài khoản của bạn an toàn và xác nhận điều bạn đã yêu cầu, nên luôn được bật.",
+        "choiceTitle": "Lựa chọn của bạn",
+        "turnAllOff": "Tắt tất cả email không bắt buộc",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Cảnh báo bảo mật",
+          "TRANSACTIONAL_ACCOUNT": "Thông báo tài khoản",
+          "PRODUCT_UPDATES": "Cập nhật sản phẩm",
+          "RECOMMENDATIONS": "Đề xuất",
+          "MARKETING": "Tin tức và ưu đãi"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Mã đăng nhập, đặt lại mật khẩu và cảnh báo về lần đăng nhập mới hoặc thay đổi về bảo mật của bạn.",
+          "TRANSACTIONAL_ACCOUNT": "Xác nhận những việc bạn đã làm, chẳng hạn xuất dữ liệu, yêu cầu về quyền riêng tư hoặc sự đồng ý của cha mẹ.",
+          "PRODUCT_UPDATES": "Điều mới trong các sản phẩm của Ordnary và thay đổi về điều khoản của chúng tôi.",
+          "RECOMMENDATIONS": "Gợi ý dựa trên cách bạn dùng Ordnary.",
+          "MARKETING": "Bản tin và ưu đãi, thỉnh thoảng."
+        }
+      },
+      "minorConsent": {
+        "title": "Sự đồng ý của cha mẹ",
+        "description": "Nếu bạn chưa đủ tuổi để tự đồng ý các việc trực tuyến, cha mẹ hoặc người giám hộ phải đồng ý trước khi chúng tôi có thể dùng một số thông tin của bạn. Quy định này xuất phát từ Điều 8 của GDPR.",
+        "close": "Đóng",
+        "loading": "Đang tải…",
+        "loadError": "Hiện chúng tôi không tải được nội dung này. Hãy thử lại sau.",
+        "consentAge": "Độ tuổi đồng ý ở {country}: {age}",
+        "yourAge": "Tuổi của bạn: {age}",
+        "adultTitle": "Không cần",
+        "adultBody": "Bạn đủ tuổi để tự đồng ý nên không cần sự đồng ý của cha mẹ.",
+        "unknownTitle": "Chúng tôi chưa biết tuổi của bạn",
+        "unknownBody": "Hãy thêm ngày sinh để chúng tôi biết bạn có cần sự đồng ý của cha mẹ hay không.",
+        "unknownAction": "Thêm ngày sinh",
+        "blockedTitle": "Cần có sự đồng ý",
+        "blockedBody": "Cho đến khi cha mẹ hoặc người giám hộ đồng ý, một số phần của tài khoản bạn sẽ bị hạn chế.",
+        "pendingTitle": "Đang chờ cha mẹ hoặc người giám hộ của bạn",
+        "pendingBody": "Chúng tôi đã gửi yêu cầu đến {email}. Liên kết có hiệu lực đến {date}.",
+        "verifiedTitle": "Đã đồng ý",
+        "verifiedBody": "{email} đã đồng ý vào {date}.",
+        "parentEmail": "Email của cha mẹ hoặc người giám hộ",
+        "relationship": "Người này là ai, ví dụ mẹ (không bắt buộc)",
+        "addMessage": "Thêm lời nhắn (không bắt buộc)",
+        "notes": "Lời nhắn cho cha mẹ hoặc người giám hộ của bạn",
+        "submit": "Gửi yêu cầu",
+        "submitting": "Đang gửi…",
+        "resend": "Gửi lại",
+        "changeEmail": "Dùng email khác",
+        "cancel": "Hủy",
+        "revoke": "Rút lại",
+        "revokeConfirm": "Rút lại sự đồng ý? Một số phần của tài khoản bạn sẽ bị hạn chế trở lại cho đến khi cha mẹ hoặc người giám hộ đồng ý lần nữa.",
+        "revoking": "Đang rút lại…",
+        "revoked": "Đã rút lại sự đồng ý.",
+        "notMinor": "Bạn đủ tuổi để tự đồng ý.",
+        "invalidEmail": "Hãy nhập địa chỉ email hợp lệ.",
+        "requestSent": "Đã gửi yêu cầu đến {email}.",
+        "points": [
+          {
+            "title": "Nhập email của họ",
+            "text": "Địa chỉ email của cha mẹ hoặc người giám hộ."
+          },
+          {
+            "title": "Họ đồng ý",
+            "text": "Họ nhận được email có liên kết để đồng ý. Liên kết có hiệu lực 14 ngày."
+          },
+          {
+            "title": "Tài khoản hoạt động đầy đủ",
+            "text": "Khi họ đồng ý, các giới hạn trên tài khoản của bạn sẽ được gỡ bỏ."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Bạn có thể xuất một bản sao thông tin của mình sang dịch vụ bên ngoài hoặc về thiết bị của bạn. Dữ liệu có thể xuất gồm nội dung và thông tin bạn đã chia sẻ, hoạt động của bạn và thông tin chúng tôi thu thập.",
+      "exportButton": "Gửi liên kết tải xuống",
+      "exportModalContentsTitle": "Bản xuất của bạn gồm:",
+      "exportModalContents": [
+        "Dữ liệu hồ sơ và cài đặt tài khoản",
+        "Địa chỉ email và số điện thoại",
+        "Cài đặt bảo mật (passkey, MFA, thiết bị)",
+        "Lịch sử phiên và đăng nhập",
+        "Chi tiết thanh toán",
+        "Ứng dụng đã kết nối và sự đồng ý OAuth",
+        "Nhật ký hoạt động và sự kiện bảo mật",
+        "Sự đồng ý về quyền riêng tư và cookie"
+      ],
+      "exportModalFormat": "Định dạng: tệp nén ZIP gồm các tệp JSON có cấu trúc và một tệp README dễ đọc.",
+      "exportModalRateLimit": "Bạn sẽ nhận được email có liên kết tải xuống dùng một lần. Tối đa 3 lần xuất trong 24 giờ.",
+      "exportDownload": {
+        "loading": "Vui lòng chờ một chút...",
+        "readyTitle": "Bản xuất dữ liệu của bạn đã sẵn sàng",
+        "readyDescription": "Nhấn nút bên dưới để tải dữ liệu tài khoản của bạn dưới dạng tệp nén ZIP. Liên kết này chỉ dùng một lần và hết hạn sau 24 giờ.",
+        "downloadButton": "Tải dữ liệu của bạn",
+        "readyHint": "Tệp chứa toàn bộ dữ liệu cá nhân, cài đặt bảo mật, nhật ký hoạt động và nhiều thông tin khác trong các tệp JSON có cấu trúc.",
+        "downloadingTitle": "Đang tải xuống...",
+        "downloadingDescription": "Bản xuất của bạn đang được chuẩn bị. Việc này có thể mất vài giây.",
+        "successTitle": "Đã bắt đầu tải xuống",
+        "successDescription": "Bản xuất dữ liệu của bạn đang được tải xuống. Hãy lưu tệp ở nơi an toàn vì tệp chứa thông tin cá nhân nhạy cảm.",
+        "successHint": "Liên kết tải xuống này đã hết hạn. Nếu cần bản xuất mới, bạn có thể yêu cầu trong cài đặt tài khoản.",
+        "backToSettings": "Quay lại cài đặt tài khoản",
+        "expiredTitle": "Liên kết đã hết hạn",
+        "expiredDescription": "Liên kết tải xuống này đã hết hạn hoặc đã được dùng. Liên kết tải xuống có hiệu lực 24 giờ và chỉ dùng được một lần.",
+        "newExportButton": "Yêu cầu bản xuất mới",
+        "errorTitle": "Đã xảy ra lỗi",
+        "errorDefault": "Đã xảy ra lỗi khi lấy bản xuất của bạn.",
+        "noToken": "Không tìm thấy mã tải xuống."
+      },
+      "appConnectionsModalSubtitle": "Kết nối ứng dụng cho phép bạn làm nhiều việc trong các sản phẩm Ordnary và với các công ty khác.",
+      "connectButton": "Kết nối",
+      "activityModalSubtitle": "Xem và quản lý hoạt động của bạn trong hệ sinh thái Ordnary, gồm các sản phẩm SaaS và ứng dụng của chúng tôi. Chúng tôi dùng thông tin này để tìm hiểu hành vi của bạn và tối ưu trải nghiệm trên tất cả nền tảng.",
+      "accountsAndProfiles": "Tài khoản và hồ sơ của bạn",
+      "keepActivityFor": "Giữ hoạt động trong",
+      "clearActivityButton": "Xóa toàn bộ hoạt động",
+      "days3": "3 ngày",
+      "days7": "7 ngày",
+      "days14": "14 ngày",
+      "standardOption": "Tiêu chuẩn",
+      "noticeTitle": "Nhận bản sao thông tin của bạn",
+      "noticeText": "Tải dữ liệu tài khoản để lưu giữ hoặc chuyển sang dịch vụ khác.",
+      "noticeAction": "Xuất thông tin",
+      "experimentBadge": "Thử nghiệm",
+      "userFallback": "Người dùng",
+      "avatarAlt": "Ảnh hồ sơ",
+      "exportSent": "Đã gửi liên kết tải xuống tới {email}",
+      "exportFailed": "Xuất thất bại. Hãy thử lại.",
+      "exportInProgress": "Một bản xuất đang được chuẩn bị. Hãy thử lại sau ít phút.",
+      "exportRateLimited": "Bạn đã đạt số lần xuất tối đa. Hãy thử lại sau {time}.",
+      "saveFailed": "Không thể lưu. Hãy thử lại.",
+      "days30": "30 ngày",
+      "autoClear": {
+        "title": "Tự động xóa hoạt động trên Ordnary",
+        "subtitle": "Chọn thời gian chúng tôi lưu hoạt động của bạn. Hoạt động cũ hơn sẽ tự động bị xóa, cho tất cả tài khoản và hồ sơ trong Trung tâm tài khoản.",
+        "standard": "Tiêu chuẩn",
+        "saving": "Đang lưu…",
+        "saved": "Đã lưu.",
+        "back": "Quay lại",
+        "close": "Đóng",
+        "howTitle": "Những gì bị xóa",
+        "howText": "Lịch sử đăng nhập và các sự kiện bảo mật trên tài khoản của bạn, như đăng nhập mới, đổi mật khẩu và các lần thử bị chặn, khi chúng cũ hơn khoảng thời gian bạn đã chọn.",
+        "howPermanent": "Hoạt động đã xóa không thể khôi phục. Hãy tải xuống một bản sao trước nếu bạn muốn giữ lại.",
+        "learnMore": "Tìm hiểu thêm về tự động xóa trong tài liệu Ordnary"
+      },
+      "experimentBadgeTooltip": "Vẫn đang phát triển. Bạn có thể xem qua, nhưng kết nối ứng dụng chưa hoạt động."
+    },
+    "payments": {
+      "title": "Thanh toán",
+      "subtitle": "Quản lý thông tin thanh toán đã lưu và những tài khoản có quyền truy cập. {learnMore}",
+      "syncInfo": "Đồng bộ giữa 2 tài khoản",
+      "addMethodTitle": "Thêm phương thức thanh toán",
+      "addMethodSubtitle": "Lưu thẻ hoặc liên kết PayPal để lần mua sau dễ hơn.",
+      "addMethodButton": "Thêm phương thức thanh toán",
+      "shippingTitle": "Thông tin giao hàng",
+      "shippingAddress": "Địa chỉ giao hàng",
+      "emailAddress": "Địa chỉ email",
+      "phoneNumber": "Số điện thoại",
+      "addModal": {
+        "title": "Thêm phương thức thanh toán",
+        "card": "Thẻ tín dụng hoặc thẻ ghi nợ",
+        "paypal": "PayPal",
+        "footer": "Thông tin này sẽ được lưu với Ordnary Pay và đồng bộ trong Trung tâm tài khoản, nơi bạn có thể quản lý thông tin. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Thêm thẻ",
+        "subtitle": "Số thẻ của bạn được mã hóa và lưu trữ an toàn",
+        "cardNumber": "Số thẻ",
+        "expiry": "Ngày hết hạn (MM/YY)",
+        "cvv": "CVV",
+        "name": "Tên trên thẻ",
+        "submit": "Tiếp theo",
+        "cvvTooltip": "Mã xác minh (CVV) là dãy số bảo mật ở mặt sau hoặc mặt trước của thẻ.",
+        "footer": "Thông tin này sẽ được lưu với Ordnary Pay và đồng bộ trong Trung tâm tài khoản, nơi bạn có thể quản lý thông tin. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Đặt địa chỉ giao hàng",
+        "subtitle": "Thêm địa chỉ giao hàng cho Ordnary Pay. Địa chỉ này tách biệt với quy trình thiết lập thẻ của bạn.",
+        "search": "Tìm địa chỉ",
+        "country": "Quốc gia hoặc khu vực",
+        "fullName": "Họ và tên",
+        "street": "Địa chỉ",
+        "street2": "Địa chỉ dòng 2 (không bắt buộc)",
+        "city": "Thành phố/quận",
+        "state": "Tỉnh/thành phố/vùng",
+        "zip": "Mã ZIP",
+        "submit": "Lưu địa chỉ"
+      }
+    },
+    "subscriptions": {
+      "description": "Quản lý các gói đăng ký Ordnary đang hoạt động, gia hạn và cài đặt thanh toán.",
+      "emptyTitle": "Không có gói đăng ký đang hoạt động",
+      "emptyDescription": "Các gói đăng ký sẽ xuất hiện ở đây sau khi được liên kết với tài khoản của bạn.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Quyền truy cập không giới hạn vào các nội dung truyền thông cao cấp từ Ordnary Pictures, bao gồm các bộ phim, loạt phim được chọn lọc, bản xem trước và các bản phát hành chỉ dành cho thành viên trong các trải nghiệm Ordnary được hỗ trợ.",
+          "status": "Hoạt động",
+          "renewal": "Gia hạn hàng tháng",
+          "price": "9,99 € mỗi tháng"
+        }
+      },
+      "manageSubscription": "Quản lý gói đăng ký"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Truy cập bị từ chối",
+        "description": "Hiện bạn không có quyền truy cập Trung tâm tài khoản. Phiên của bạn có thể đã hết hạn hoặc tài khoản bị hạn chế.",
+        "action": "Đăng nhập lại"
+      },
+      "suspended": {
+        "title": "Tài khoản đã bị vô hiệu hóa",
+        "description": "Tài khoản này đã bị vô hiệu hóa hoặc tạm thời bị hạn chế. Hãy liên hệ bộ phận hỗ trợ nếu bạn cho rằng đây là nhầm lẫn.",
+        "action": "Liên hệ hỗ trợ"
+      },
+      "banned": {
+        "title": "Truy cập bị từ chối vĩnh viễn",
+        "description": "Tài khoản của bạn đã bị chặn vĩnh viễn do vi phạm Điều khoản dịch vụ của chúng tôi.",
+        "action": "Xem điều khoản"
+      },
+      "offline": {
+        "title": "Không có kết nối internet",
+        "description": "Có vẻ bạn đang ngoại tuyến. Hãy kiểm tra kết nối internet để tiếp tục.",
+        "action": "Thử lại"
+      },
+      "unknown": {
+        "title": "Lỗi hệ thống",
+        "description": "Đã xảy ra sự cố không mong muốn. Hãy thử lại sau.",
+        "action": "Về trang đầu"
+      },
+      "previousPage": "Trang trước"
+    },
+    "common": {
+      "noResults": "Không có kết quả",
+      "searchPlaceholder": "Tìm kiếm..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} muốn truy cập tài khoản của bạn",
+      "description": "Bạn đang đăng nhập với tên {displayName}. Chỉ cấp quyền truy cập nếu bạn tin tưởng ứng dụng này.",
+      "requestedPermissions": "Quyền được yêu cầu",
+      "approve": "Cấp quyền truy cập",
+      "deny": "Từ chối",
+      "errorTitle": "Yêu cầu có vấn đề",
+      "errorDescription": "Yêu cầu ủy quyền không hợp lệ hoặc chưa đầy đủ. Vui lòng kiểm tra các tham số.",
+      "unknownAppTitle": "Không thể xác minh ứng dụng",
+      "unknownAppDescription": "Ordnary không thể nhận diện ứng dụng này. Nguyên nhân thường là client_id hoặc redirect_uri không đúng. Vì sự an toàn của bạn, chúng tôi không thể tiếp tục."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Trang này không khả dụng",
+      "description": "Liên kết có thể bị hỏng hoặc trang đã bị gỡ. Hãy kiểm tra xem liên kết bạn đang mở có đúng không.",
+      "button": "Đến cài đặt tài khoản"
+    },
+    "serverError": {
+      "title": "Đã xảy ra lỗi",
+      "description": "Đã xảy ra lỗi không mong muốn. Vui lòng thử lại sau.",
+      "button": "Thử lại"
+    }
+  },
+  "cookieConsent": {
+    "title": "Cho phép dùng cookie của Ordnary trong trình duyệt này?",
+    "description": "Chúng tôi dùng cookie và các công nghệ tương tự để cung cấp nội dung trong các sản phẩm Ordnary và cải thiện chúng. Chúng tôi cũng dùng chúng để mang lại trải nghiệm an toàn hơn, dựa trên thông tin chúng tôi nhận được trên và ngoài Ordnary. Các cookie này là tùy chọn.",
+    "essentialTitle": "Cookie thiết yếu",
+    "essentialDesc": "Những cookie này cần thiết để dùng các sản phẩm Ordnary và để trang web của chúng tôi hoạt động đúng.",
+    "optionalTitle": "Cookie từ các công ty khác",
+    "optionalDesc": "Chúng tôi dùng các cookie này để hiển thị quảng cáo bên ngoài các sản phẩm Ordnary và cung cấp các tính năng như bản đồ và video trong sản phẩm Ordnary. Các cookie này là tùy chọn.",
+    "policyInfo": "Bạn quyết định những cookie tùy chọn nào chúng tôi được dùng. Trong {cookiePolicy} của chúng tôi, bạn sẽ thấy thêm thông tin về cookie và cách chúng tôi dùng chúng, đồng thời có thể xem lại hoặc thay đổi lựa chọn bất cứ lúc nào.",
+    "cookiePolicy": "chính sách cookie",
+    "infoTitle": "Thông tin về cookie",
+    "policyRefreshNotice": "Chúng tôi đã cập nhật cách ghi lại lựa chọn cookie. Vui lòng xác nhận lại tùy chọn của bạn để chúng tôi lưu bản ghi mới nhất.",
+    "policyRevisionNotice": "Chính sách cookie của chúng tôi đã được cập nhật. Vui lòng xem lại tùy chọn của bạn.",
+    "preferencesTitle": "Tùy chọn cookie của bạn",
+    "preferencesDescription": "Chọn những loại cookie mà Ordnary có thể dùng trong trình duyệt này. Bạn có thể đổi các cài đặt này bất cứ lúc nào từ tài khoản của mình.",
+    "alwaysOn": "Luôn bật",
+    "categories": {
+      "essential": {
+        "title": "Thiết yếu",
+        "description": "Cần thiết cho đăng nhập, bảo mật và để phần còn lại của sản phẩm hoạt động."
+      },
+      "functional": {
+        "title": "Chức năng",
+        "description": "Ghi nhớ các tùy chọn như ngôn ngữ, giao diện và tài khoản gần đây."
+      },
+      "analytics": {
+        "title": "Phân tích",
+        "description": "Giúp chúng tôi hiểu cách Ordnary được sử dụng để cải thiện sản phẩm."
+      },
+      "marketing": {
+        "title": "Tiếp thị",
+        "description": "Thông điệp cá nhân hóa từ Ordnary về sản phẩm và ưu đãi."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Cookie là gì?",
+        "button": "Tìm hiểu thêm"
+      },
+      "why": {
+        "title": "Vì sao chúng tôi dùng cookie?",
+        "button": "Tìm hiểu thêm"
+      },
+      "products": {
+        "title": "Sản phẩm Ordnary là gì?",
+        "button": "Tìm hiểu thêm"
+      },
+      "preferences": {
+        "title": "Tùy chọn cookie của bạn",
+        "button": "Tìm hiểu thêm"
+      }
+    },
+    "buttons": {
+      "reject": "Từ chối cookie tùy chọn",
+      "accept": "Cho phép tất cả cookie",
+      "rejectShort": "Từ chối",
+      "acceptShort": "Cho phép",
+      "customize": "Tùy chỉnh",
+      "save": "Lưu tùy chọn",
+      "saveShort": "Lưu",
+      "close": "Đóng"
+    }
+  },
+  "recentAccounts": {
+    "title": "Đăng nhập bằng tài khoản Ordnary của bạn",
+    "continueAs": "Tiếp tục với tên {name}",
+    "loginAnother": "Đăng nhập bằng tài khoản khác",
+    "remove": "Xóa tài khoản"
+  },
+  "reauthenticate": {
+    "title": "Xác nhận đây là bạn",
+    "description": "Chào {name}, để bảo mật, chúng tôi cần xác minh đây là bạn trước khi bạn {action}.",
+    "codeSentTo": "Chúng tôi đã gửi một mã tới {email}.",
+    "codeSent": "Chúng tôi đã gửi mã bảo mật gồm 6 chữ số tới email của bạn.",
+    "securityCode": "Mã bảo mật",
+    "continue": "Tiếp tục",
+    "verifying": "Đang xác minh…",
+    "sending": "Đang gửi…",
+    "cancel": "Hủy",
+    "errors": {
+      "sendFailed": "Không thể gửi mã bảo mật.",
+      "invalidCode": "Mã không hợp lệ.",
+      "network": "Lỗi mạng. Vui lòng thử lại."
+    },
+    "actions": {
+      "changePassword": "đổi mật khẩu",
+      "changeEmail": "quản lý địa chỉ email",
+      "managePasskeys": "quản lý khóa truy cập",
+      "manageMfa": "quản lý xác thực hai yếu tố",
+      "revokeAllSessions": "đăng xuất khỏi mọi nơi",
+      "manageAccount": "vô hiệu hóa hoặc xóa tài khoản",
+      "rotateClientSecret": "đổi mới khóa bí mật ứng dụng khách này",
+      "managePaymentMethods": "quản lý phương thức thanh toán",
+      "authorizeApp": "cấp quyền cho ứng dụng này",
+      "generic": "tiếp tục thao tác nhạy cảm này"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Xác nhận sự đồng ý của phụ huynh",
+    "description": "Một người dùng đã nhờ bạn cho phép tài khoản Ordnary của họ theo Điều 8 GDPR. Nhấp xác nhận bên dưới để ghi nhận sự đồng ý của bạn. Sau này bạn có thể rút lại bất cứ lúc nào bằng cách trả lời email gốc hoặc liên hệ {email}.",
+    "idle": "Trang này cần được mở từ liên kết trong email yêu cầu để mã xác nhận được đính kèm.",
+    "verifying": "Đang xác minh…",
+    "success": "Cảm ơn bạn. Sự đồng ý của phụ huynh đã được xác nhận và chúng tôi đã mở khóa tài khoản phía người dùng. Họ cũng sẽ nhận được thông báo.",
+    "errors": {
+      "tokenRequired": "Không có mã xác minh nào được cung cấp.",
+      "tokenNotFound": "Liên kết xác nhận này không còn hợp lệ.",
+      "alreadyVerified": "Xác nhận này đã được ghi nhận.",
+      "requestRevoked": "Yêu cầu này đã bị rút lại hoặc được thay bằng yêu cầu mới hơn.",
+      "tokenExpired": "Liên kết xác nhận này đã hết hạn. Vui lòng nhờ người dùng gửi yêu cầu mới.",
+      "invalidBody": "Yêu cầu xác minh không đúng định dạng.",
+      "generic": "Chúng tôi không thể xác minh liên kết xác nhận này. Vui lòng nhờ người dùng gửi yêu cầu mới."
+    }
+  },
+  "unsubscribe": {
+    "title": "Hủy đăng ký",
+    "idle": "Hãy mở trang này từ liên kết trong email để mã hủy đăng ký được đính kèm.",
+    "verifying": "Đang lưu lựa chọn của bạn…",
+    "success": "Bạn đã hủy đăng ký.",
+    "successWithCategory": "Bạn đã hủy đăng ký nhận {category}.",
+    "manageAt": "Bạn có thể tinh chỉnh mọi tùy chọn thông báo bất cứ lúc nào tại {link}.",
+    "categories": {
+      "transactionalSecurity": "cảnh báo bảo mật",
+      "transactionalAccount": "thông báo tài khoản",
+      "productUpdates": "cập nhật sản phẩm",
+      "recommendations": "đề xuất",
+      "marketing": "email tiếp thị"
+    },
+    "errors": {
+      "tokenRequired": "Không có mã hủy đăng ký nào được cung cấp.",
+      "tokenNotFound": "Liên kết hủy đăng ký này không còn hợp lệ.",
+      "alreadyRedeemed": "Bạn đã hủy đăng ký danh mục này rồi.",
+      "tokenExpired": "Liên kết hủy đăng ký này đã hết hạn. Bạn có thể quản lý tùy chọn trong Trung tâm tài khoản sau khi đăng nhập.",
+      "categoryMandatory": "Không thể tắt danh mục này vì nó gồm các thông báo bảo mật và thông báo bắt buộc của tài khoản.",
+      "generic": "Chúng tôi không thể xử lý liên kết hủy đăng ký này. Vui lòng đăng nhập và điều chỉnh tùy chọn trực tiếp."
+    }
+  },
+  "dsarVerify": {
+    "title": "Xác nhận yêu cầu quyền riêng tư",
+    "description": "Hãy xác nhận rằng bạn đã gửi yêu cầu này về dữ liệu của mình tới Ordnary. Nếu không, hãy đóng trang và báo cho chúng tôi qua {email}.",
+    "idle": "Hãy mở trang này từ liên kết trong email chúng tôi đã gửi để có kèm mã xác nhận.",
+    "confirm": "Xác nhận yêu cầu",
+    "verifying": "Đang xác nhận…",
+    "success": "Cảm ơn, yêu cầu của bạn đã được xác nhận. Chúng tôi sẽ xử lý trong thời hạn luật định và gửi email khi hoàn tất.",
+    "errors": {
+      "tokenRequired": "Liên kết này thiếu mã xác nhận.",
+      "tokenNotFound": "Liên kết này không còn hợp lệ.",
+      "tokenExpired": "Liên kết này đã hết hạn. Hãy gửi lại yêu cầu từ Trung tâm tài khoản.",
+      "alreadyProcessed": "Yêu cầu này đã được xác nhận hoặc xử lý.",
+      "generic": "Không thể xác nhận yêu cầu này. Hãy thử lại hoặc liên hệ {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Bạn đã đăng xuất. Hãy đăng nhập lại rồi thử lại.",
+    "not_authenticated": "Bạn đã đăng xuất. Hãy đăng nhập lại rồi thử lại.",
+    "step_up_required": "Hãy xác nhận đó là bạn trước, rồi thử lại.",
+    "rate_limited": "Quá nhiều lần thử. Hãy đợi vài phút rồi thử lại.",
+    "first_party_only": "Tính năng này chỉ có trong các ứng dụng của chính Ordnary.",
+    "invalid_request": "Yêu cầu này có điều gì đó chưa đúng. Hãy tải lại trang rồi thử lại.",
+    "invalid_body": "Yêu cầu này có điều gì đó chưa đúng. Hãy tải lại trang rồi thử lại.",
+    "invalid_action": "Thao tác đó không khả dụng ở đây.",
+    "missing_fields": "Hãy điền đầy đủ tất cả các trường.",
+    "internal_error": "Đã xảy ra lỗi từ phía chúng tôi. Hãy thử lại sau giây lát.",
+    "internal_server_error": "Đã xảy ra lỗi từ phía chúng tôi. Hãy thử lại sau giây lát.",
+    "unavailable": "Hiện không khả dụng. Hãy thử lại sau.",
+    "send_failed": "Chúng tôi không thể gửi email. Hãy thử lại sau giây lát.",
+    "user_not_found": "Chúng tôi không tìm thấy tài khoản này.",
+    "invalid_email": "Hãy nhập địa chỉ email hợp lệ.",
+    "missing_address": "Hãy nhập địa chỉ email.",
+    "email_already_exists": "Địa chỉ email đó đã được sử dụng.",
+    "email_not_found": "Địa chỉ email đó không có trong tài khoản của bạn.",
+    "cannot_delete_primary_email": "Bạn không thể xóa địa chỉ email chính của mình.",
+    "failed_to_add_email": "Chúng tôi không thể thêm địa chỉ email này.",
+    "failed_to_delete_email": "Chúng tôi không thể xóa địa chỉ email này.",
+    "failed_to_send_verification_email": "Chúng tôi không thể gửi email xác minh nên địa chỉ này chưa được thêm.",
+    "no_email": "Tài khoản của bạn không có địa chỉ email để gửi đến.",
+    "no_primary_email": "Tài khoản của bạn không có địa chỉ email chính.",
+    "password_mismatch": "Mật khẩu mới không khớp.",
+    "password_incorrect": "Mật khẩu hiện tại của bạn không đúng.",
+    "password_too_weak": "Mật khẩu mới không đáp ứng các yêu cầu.",
+    "password_change_failed": "Chúng tôi không thể đổi mật khẩu của bạn.",
+    "no_password": "Tài khoản của bạn chưa có mật khẩu.",
+    "passkey_not_found": "Khóa truy cập đó không còn tồn tại.",
+    "missing_passkey_id": "Hãy chọn một khóa truy cập trước.",
+    "session_not_found": "Phiên đó không còn tồn tại.",
+    "missing_session_id": "Hãy chọn một phiên trước.",
+    "cannot_revoke_current_session": "Bạn không thể đăng xuất phiên mà bạn đang dùng ở đây.",
+    "code_required": "Hãy nhập mã trong email.",
+    "code_invalid": "Mã đó không đúng.",
+    "code_expired": "Mã đó đã hết hạn. Hãy yêu cầu mã mới.",
+    "exists": "Bạn đã có một mục như vậy.",
+    "not_deactivated": "Tài khoản của bạn không bị vô hiệu hóa.",
+    "grace_period_expired": "Đã quá 30 ngày để khôi phục tài khoản này.",
+    "token_required": "Liên kết này không đầy đủ.",
+    "token_not_found": "Liên kết này không còn hợp lệ.",
+    "token_expired": "Liên kết này đã hết hạn.",
+    "already_redeemed": "Liên kết này đã được sử dụng.",
+    "already_downloaded": "Lượt tải xuống này đã được sử dụng.",
+    "already_verified": "Mục này đã được xác nhận.",
+    "already_processed": "Yêu cầu này đã được xử lý.",
+    "already_extended": "Thời hạn của yêu cầu này đã được gia hạn.",
+    "invalid_date": "Hãy nhập ngày hợp lệ.",
+    "birthday_verification_attempt_not_found": "Chúng tôi không tìm thấy lần xác minh danh tính đó. Hãy bắt đầu lại.",
+    "identity_verification_incomplete": "Xác minh danh tính chưa hoàn tất.",
+    "identity_verification_dob_mismatch": "Ngày sinh trên giấy tờ tùy thân không khớp với ngày bạn đã nhập.",
+    "identity_verification_dob_unavailable": "Chúng tôi không thể đọc ngày sinh từ giấy tờ tùy thân của bạn.",
+    "missing_attempt_id": "Thiếu thông tin xác minh danh tính. Hãy bắt đầu lại.",
+    "invalid_kind": "Hãy chọn loại yêu cầu.",
+    "invalid_applies_to": "Hãy chọn đối tượng mà yêu cầu áp dụng.",
+    "invalid_filed_by": "Hãy cho biết ai đang gửi yêu cầu này.",
+    "subject_email_required": "Hãy nhập địa chỉ email mà yêu cầu này liên quan đến.",
+    "representative_email_required": "Hãy nhập địa chỉ email của người đại diện.",
+    "request_not_found": "Chúng tôi không tìm thấy yêu cầu này.",
+    "request_already_open": "Bạn đã có một yêu cầu loại này đang mở.",
+    "request_cooldown_active": "Bạn vừa gửi yêu cầu này. Hãy thử lại sau.",
+    "request_closed": "Yêu cầu này đã đóng.",
+    "request_not_open": "Yêu cầu này không còn mở.",
+    "request_not_verified": "Yêu cầu này chưa được xác nhận.",
+    "request_revoked": "Yêu cầu này đã bị rút lại hoặc được thay thế.",
+    "no_download_for_kind": "Loại yêu cầu này không có tệp tải xuống.",
+    "export_already_in_progress": "Một bản xuất dữ liệu đang được chuẩn bị.",
+    "export_rate_limited": "Bạn vừa xuất dữ liệu. Hãy thử lại sau.",
+    "invalid_retention_days": "Hãy chọn một trong các khoảng thời gian có sẵn.",
+    "invalid_category": "Danh mục thông báo đó không tồn tại.",
+    "category_mandatory": "Không thể tắt các email này.",
+    "review_not_found": "Chúng tôi không tìm thấy yêu cầu xem xét này.",
+    "review_already_open": "Bạn đã có một yêu cầu xem xét đang mở.",
+    "review_cooldown_active": "Bạn vừa yêu cầu xem xét. Hãy thử lại sau.",
+    "review_not_open": "Yêu cầu xem xét này không còn mở.",
+    "review_not_pending": "Yêu cầu xem xét này không thể thay đổi nữa.",
+    "invalid_review_type": "Hãy chọn loại xem xét.",
+    "no_active_consent": "Không có sự đồng ý nào đang có hiệu lực để rút lại.",
+    "not_a_minor": "Tài khoản này không cần sự đồng ý của cha mẹ.",
+    "parent_email_required": "Hãy nhập địa chỉ email của cha mẹ hoặc người giám hộ của bạn.",
+    "invalid_parent_email": "Hãy nhập địa chỉ email hợp lệ của cha mẹ hoặc người giám hộ của bạn.",
+    "connection_not_found": "Ứng dụng đó không còn được kết nối.",
+    "client_not_found": "Chúng tôi không tìm thấy ứng dụng đó.",
+    "too_large": "Tệp đó quá lớn.",
+    "unsupported_type": "Loại tệp đó không được hỗ trợ.",
+    "no_file": "Hãy chọn một tệp trước."
+  }
+}

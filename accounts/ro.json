@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Centrul de cont",
+    "accountCenterSubtitle": "Gestionează experiențele conectate și setările contului tău în toate tehnologiile Ordnary.",
+    "learnMore": "Află mai multe",
+    "loading": "Se încarcă...",
+    "back": "Înapoi",
+    "close": "Închide",
+    "backToHome": "Înapoi la pagina principală"
+  },
+  "nav": {
+    "profiles": "Profiluri",
+    "connectedExperiences": "Experiențe conectate",
+    "passwordAndSecurity": "Parolă și securitate",
+    "personalDetails": "Detalii personale și setări",
+    "education": "Educație",
+    "permissions": "Informațiile și permisiunile tale",
+    "adPreferences": "Preferințe pentru reclame",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Abonamente",
+    "accounts": "Conturi",
+    "activity": "Activitate"
+  },
+  "education": {
+    "title": "Educație",
+    "description": "Confirmă cu e-mailul școlii că ești student pentru a primi beneficiile pentru studenți în produsele Ordnary care le oferă.",
+    "statusLabel": "Statut de student",
+    "statuses": {
+      "none": "Neverificat",
+      "pending": "Așteptăm să deschizi linkul",
+      "verified": "Verificat",
+      "revoked": "Nu mai este activ"
+    },
+    "details": {
+      "title": "Detaliile tale",
+      "school": "Școală",
+      "email": "E-mail școlar",
+      "verifiedOn": "Verificat la"
+    },
+    "dialog": {
+      "title": "Verificare student",
+      "subtitle": "Confirmă cu e-mailul școlar că ești student. Folosim această adresă doar pentru a verifica asta și nu îți trimitem nimic altceva pe ea.",
+      "close": "Închide",
+      "verifiedTitle": "Verificat",
+      "verifiedBody": "{email} la {school}, din {date}.",
+      "pendingTitle": "Se așteaptă să deschizi linkul",
+      "pendingBody": "Am trimis un link la {email}. Deschide-l în 24 de ore pentru a finaliza.",
+      "revokedTitle": "Nu mai este activ",
+      "revokedBody": "Statutul tău de student a luat sfârșit. Confirmă din nou cu e-mailul școlar.",
+      "changeEmail": "Folosește alt e-mail școlar",
+      "resend": "Trimite din nou",
+      "cancel": "Anulează",
+      "emailLabel": "E-mail școlar",
+      "detected": "{school}",
+      "notRecognised": "Nu recunoaștem aceasta ca adresă de e-mail școlară. Folosește adresa primită de la școală.",
+      "send": "Trimite linkul",
+      "sending": "Se trimite…",
+      "sent": "Link trimis la {email}.",
+      "sentWhileVerified": "Am trimis un link la {email}. Rămâi verificat cu școala actuală până când îl deschizi.",
+      "points": [
+        {
+          "title": "Introdu e-mailul școlii",
+          "text": "Arătăm cărei școli îi aparține adresa."
+        },
+        {
+          "title": "Deschide linkul",
+          "text": "Trimitem un link la acea adresă. Funcționează 24 de ore."
+        },
+        {
+          "title": "Ești verificat",
+          "text": "Statutul tău de student este activ în produsele Ordnary care oferă beneficii pentru studenți."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Statutul tău de student este acum activ.",
+      "verificationError": "Acest link nu mai funcționează. Solicită unul nou."
+    },
+    "errors": {
+      "not_academic": "Nu recunoaștem aceasta ca adresă de e-mail școlară. Folosește adresa primită de la școală.",
+      "account": "Ceva nu a mers bine cu contul tău. Încearcă din nou mai târziu.",
+      "send_failed": "Nu am putut trimite linkul acum. Încearcă din nou mai târziu.",
+      "no_pending": "Nu există nicio cerere de retrimis. Introdu e-mailul școlar.",
+      "not_authenticated": "Autentifică-te din nou pentru a continua."
+    }
+  },
+  "profiles": {
+    "title": "Profiluri",
+    "description": "Gestionează experiențele conectate și setările contului tău în toate tehnologiile Ordnary.",
+    "addAccounts": "Adaugă conturi",
+    "detail": {
+      "aboutTitle": "Despre acest profil",
+      "accessTitle": "Ce poate accesa {app}",
+      "linksTitle": "Politicile {app}",
+      "mainProfile": "Profil principal",
+      "connected": "Aplicație conectată",
+      "verified": "Verificat de Ordnary",
+      "connectedOn": "Conectat la",
+      "lastUsed": "Ultima utilizare",
+      "never": "Încă nu",
+      "activeSignIns": "Autentificări active",
+      "profileId": "ID profil",
+      "email": "Adresă de e-mail",
+      "memberSince": "Membru din",
+      "twoFactor": "Autentificare în doi pași",
+      "on": "Activată",
+      "off": "Dezactivată",
+      "passkeys": "Chei de acces",
+      "privacy": "Politica de confidențialitate",
+      "terms": "Termeni și condiții",
+      "disconnect": "Deconectează",
+      "disconnectTitle": "Deconectezi {app}?",
+      "disconnectText": "{app} nu mai poate folosi contul tău Ordnary, iar tu ești deconectat din el. Te poți conecta din nou mai târziu, autentificându-te în {app}.",
+      "disconnecting": "Se deconectează...",
+      "cancel": "Anulează",
+      "copied": "Copiat",
+      "copy": "Copiază",
+      "scopes": {
+        "openid": "Te recunoaște cu contul tău Ordnary",
+        "profile": "Numele și fotografia ta de profil",
+        "email": "Adresa ta de e-mail",
+        "offline_access": "Te menține autentificat când nu o folosești",
+        "phone": "Numărul tău de telefon",
+        "address": "Adresa ta"
+      },
+      "change": "Schimbă",
+      "setUp": "Configurează",
+      "manage": "Gestionează",
+      "add": "Adaugă",
+      "none": "Încă niciuna"
+    },
+    "revokedSuccess": "Deconectat",
+    "revokedError": "Nu am putut deconecta. Încearcă din nou."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Creezi un cont Ordnary nou?",
+      "registrationName": "Cum te numești?",
+      "registrationBirthday": "Când este ziua ta de naștere?",
+      "registrationPassword": "Creează o parolă",
+      "saveLoginInfo": "Salvezi informațiile de autentificare?",
+      "registrationReview": "Finalizează crearea contului",
+      "verifyEmailCode": "Introdu codul de confirmare",
+      "editEmail": "Care este adresa ta de e-mail?",
+      "loginCodeEntry": "Verifică-ți e-mailul",
+      "recoveryCodeEntry": "Confirmă-ți contul",
+      "resetPassword": "Creează o parolă nouă",
+      "passwordEntry": "Introdu parola ta",
+      "identifierLookup": "Care este e-mailul tău?",
+      "signIn": "Autentificare",
+      "mfaCodeEntry": "Introdu codul de verificare"
+    },
+    "descriptions": {
+      "identifierLookup": "Introdu adresa de e-mail pentru a te autentifica într-un cont sau pentru a crea unul nou.",
+      "passwordEntry": "Pentru autentificare, introdu parola asociata cu {identifier}.",
+      "accountNotFound": "Nu găsim un cont Ordnary pentru {email}. Poate că nu ai creat încă unul. Dacă ai creat unul, este posibil să folosească un alt identificator.",
+      "registrationName": "Acest nume va fi folosit pentru recuperarea contului și pentru comunicările despre contul tău. Nu este vizibil public.",
+      "registrationBirthday": "Folosește propria dată de naștere, chiar dacă acest cont este pentru o firmă sau pentru altceva. Aceste informații nu vor fi publice.",
+      "registrationPassword": "Creează o parolă pe care alții nu o pot ghici.",
+      "saveLoginInfo": "Vom salva informațiile de autentificare ale contului tău, ca să nu trebuiască să le introduci data viitoare când te conectezi.",
+      "verifyEmailCode": "Introdu codul din 6 cifre trimis la {identifier} pentru a-ți confirma contul.",
+      "editEmail": "Introdu adresa de e-mail la care te putem contacta. Această adresă va fi folosită pentru autentificare și gestionarea contului și nu este vizibilă public.",
+      "loginCodeEntry": "Pentru a te autentifica, introdu codul pe care l-am trimis la {identifier}. Poate fi nevoie să verifici folderul Spam sau Social.",
+      "recoveryCodeEntry": "Am trimis un cod la {identifier}. Introdu-l pentru a-ți confirma contul.",
+      "resetPassword": "Vei folosi această parolă pentru a te autentifica în contul tău Ordnary. Folosește cel puțin 6 litere și cifre.",
+      "mfaCodeEntry": "Introdu codul de 6 cifre din aplicația ta de autentificare pentru a continua."
+    },
+    "buttons": {
+      "createNewAccount": "Creează un cont nou",
+      "alreadyHaveAccount": "Am deja un cont",
+      "next": "Înainte",
+      "save": "Salvează",
+      "notNow": "Nu acum",
+      "finish": "Finalizează",
+      "resendCode": "Retrimite codul",
+      "enterPassword": "Introdu parola",
+      "forgotPassword": "Ai uitat parola?",
+      "switchAccount": "Schimbă contul",
+      "yes": "Da",
+      "no": "Nu",
+      "useEmailCode": "Autentifică-te cu un cod prin e-mail",
+      "signInWithPasskey": "Conectează-te cu o cheie de acces",
+      "useRecoveryCode": "Folosește un cod de recuperare",
+      "useAuthenticatorCode": "Folosește aplicația de autentificare"
+    },
+    "labels": {
+      "name": "Nume",
+      "firstName": "Prenume",
+      "lastName": "Nume de familie",
+      "day": "Zi",
+      "month": "Lună",
+      "year": "An",
+      "dateOfBirth": "Data nașterii",
+      "confirmationCode": "Cod de confirmare",
+      "email": "Adresă de e-mail",
+      "password": "Parolă",
+      "newPassword": "Parolă nouă",
+      "logoutOthers": "Deconectează-te de peste tot, ca să te asiguri că nimeni altcineva nu mai poate accesa contul tău",
+      "marketingEmails": "Aș dori să primesc e-mailuri despre aplicații, recomandări și oferte pentru Ordnary Identity.",
+      "showPassword": "Afișează parola",
+      "hidePassword": "Ascunde parola",
+      "clearInput": "Șterge conținutul",
+      "recoveryCode": "Cod de recuperare"
+    },
+    "links": {
+      "whyNeedBirthday": "De ce trebuie să-mi indic data nașterii?",
+      "learnMore": "Află mai multe",
+      "editEmail": "Editează adresa de e-mail",
+      "noAccessEmail": "Nu mai ai acces la această adresă de e-mail?",
+      "termsOfService": "Termeni de utilizare",
+      "privacyPolicy": "Politica de confidențialitate",
+      "cookiePolicy": "Politica privind cookie-urile"
+    },
+    "messages": {
+      "nameHelp": "Dacă folosești numele tău real, îți va fi mai ușor să îți recuperezi contul dacă pierzi accesul.",
+      "emailHelp": "Folosește e-mailul de serviciu sau personal pentru a accesa serviciile Ordnary.",
+      "existingSessionTitle": "Ai deja o sesiune activă",
+      "existingSessionDescription": "Ești deja conectat. Te redirecționăm către Centrul de conturi în {seconds} secunde.",
+      "summaryPrivacy": "Detaliile contului tău Ordnary nu sunt publice.",
+      "verifyEmailLookFor": "Caută un e-mail de la notification@ordnary.com. Poate fi nevoie să verifici folderele Spam sau Social.",
+      "termsAgreement": "Dacă apeși pe „Finalizează”, ești de acord cu Termenii de utilizare și cu Politica de confidențialitate și confirmi că ai citit Politica privind cookie-urile.",
+      "footerAgreement": "Dacă continui, confirmi că ai citit și ești de acord cu Termenii de utilizare, Politica de confidențialitate și ghidurile aplicabile privind prelucrarea datelor. Ești de acord și să primești notificări esențiale despre cont și securitate, legate de utilizarea platformei.",
+      "emailMissing": "Lipsește adresa de e-mail.",
+      "resendCodeError": "A apărut o eroare neașteptată la retrimiterea codului.",
+      "invalidInput": "Date nevalide.",
+      "credentialsPrompt": "Pentru a te autentifica, introdu parola asociată cu {identifier}.",
+      "checkEmailPrompt": "Pentru a te autentifica, introdu codul pe care l-am trimis la {identifier}.",
+      "termsIntro": "Dacă atingi Finalizează, ești de acord cu"
+    },
+    "validation": {
+      "emailRequired": "Adresa de e-mail este obligatorie.",
+      "passwordRequired": "Parola este obligatorie.",
+      "passwordMin": "Parola trebuie să aibă cel puțin 12 caractere.",
+      "passwordMax": "Parola nu poate depăși 128 de caractere.",
+      "emailInvalid": "Introdu o adresă de e-mail validă.",
+      "displayNameMin": "Numele afișat trebuie să aibă cel puțin 2 caractere.",
+      "resetTokenRequired": "Tokenul de resetare este obligatoriu.",
+      "verificationTokenRequired": "Tokenul de verificare este obligatoriu."
+    },
+    "errors": {
+      "invalidInput": "Date nevalide.",
+      "genericLoginFailed": "Nu am putut să te autentificăm. Încearcă din nou.",
+      "loginInvalidCredentials": "E-mail sau parolă nevalidă.",
+      "accountLocked": "Contul tau este blocat sau suspendat.",
+      "passwordIncorrect": "Parola introdusă este incorectă.",
+      "notAuthenticated": "Nu ești autentificat.",
+      "registrationMissingInfo": "Lipsesc informații obligatorii pentru înregistrare.",
+      "registrationEmailExists": "Există deja un cont cu acest e-mail.",
+      "systemNoDefaultTenant": "Eroare de sistem: nu a fost găsit tenantul implicit.",
+      "registrationFailed": "Înregistrarea a eșuat. Încearcă din nou.",
+      "invalidVerificationRequest": "Cerere de verificare nevalidă.",
+      "accountNotFound": "Contul nu a fost găsit.",
+      "verificationCodeInvalidOrExpired": "Cod de verificare nevalid sau expirat.",
+      "verificationFailedTryAgain": "Verificarea a eșuat. Încearcă din nou.",
+      "invalidRequest": "Cerere nevalidă.",
+      "userNotFound": "Utilizatorul nu a fost găsit.",
+      "codeInvalidOrExpired": "Cod nevalid sau expirat.",
+      "verificationFailed": "Verificarea a eșuat.",
+      "missingInformation": "Lipsesc informații.",
+      "passwordResetFailed": "Resetarea parolei a eșuat.",
+      "emailMissing": "Lipsește adresa de e-mail.",
+      "resendCodeFailed": "Retrimiterea codului a eșuat. Încearcă din nou.",
+      "loginRequestFailed": "Nu am putut procesa cererea ta de autentificare. Încearcă din nou.",
+      "mfaDataMissing": "Lipsesc detaliile de verificare. Autentifică-te din nou.",
+      "mfaNoAuthenticator": "Nu a fost găsită nicio aplicație de autentificare activă pentru acest cont.",
+      "mfaCodeInvalid": "Cod de verificare invalid.",
+      "mfaVerificationFailed": "Verificarea a eșuat. Autentifică-te din nou.",
+      "requestRejected": "Nu am putut procesa această cerere. Încearcă din nou.",
+      "tooManyAttempts": "Prea multe încercări. Încearcă din nou mai târziu.",
+      "tooManyFailedLogins": "Prea multe încercări de autentificare eșuate. Așteaptă puțin înainte de a încerca din nou.",
+      "permanentEmailRequired": "Folosește o adresă de e-mail permanentă.",
+      "recoveryFileInvalid": "Acest fișier de recuperare nu funcționează. Poate fi înlocuit de unul mai nou sau eliminat.",
+      "passkeyFailed": "Conectarea cu cheia de acces nu a reușit. Încearcă din nou sau continuă cu adresa de e-mail.",
+      "passwordTooWeak": "Alege o parolă care îndeplinește toate cerințele de mai jos."
+    },
+    "months": [
+      "ianuarie",
+      "februarie",
+      "martie",
+      "aprilie",
+      "mai",
+      "iunie",
+      "iulie",
+      "august",
+      "septembrie",
+      "octombrie",
+      "noiembrie",
+      "decembrie"
+    ],
+    "recoveryFile": {
+      "link": "Autentifică-te cu un fișier de recuperare",
+      "title": "Autentifică-te cu un fișier de recuperare",
+      "description": "Încarcă fișierul de recuperare al acestui cont, descărcat din Centrul de conturi. Ești autentificat imediat.",
+      "choose": "Alege fișierul",
+      "reading": "Se autentifică…",
+      "pasteInstead": "Lipește codul în schimb",
+      "codeLabel": "Codul din fișier",
+      "signIn": "Autentificare",
+      "notAFile": "Acesta nu este un fișier de recuperare Ordnary. Alege PDF-ul descărcat din Centrul de conturi.",
+      "back": "Folosește în schimb codul din e-mail"
+    },
+    "passwordRules": {
+      "length": "Cel puțin 12 caractere",
+      "upper": "O literă mare",
+      "lower": "O literă mică",
+      "digit": "O cifră"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Setări cont",
+      "appearanceLabel": "Aspect",
+      "appearanceLight": "Luminos",
+      "appearanceSystem": "Ca sistemul",
+      "appearanceDark": "Întunecat",
+      "logout": "Deconectare",
+      "sessionExpired": "Sesiunea ta a expirat. Autentifică-te din nou pentru a continua.",
+      "logoutConfirmTitle": "Te deconectezi de la Ordnary?",
+      "logoutCancel": "Anulează",
+      "logoutConfirm": "Deconectează-te",
+      "language": "Limbă"
+    },
+    "reactivate": {
+      "title": "Bine ai revenit, contul tău este dezactivat",
+      "description": "Am oprit e-mailurile și notificările când ți-ai dezactivat contul. Reactivează-l pentru a recupera totul sau deconectează-te și decide mai târziu. Datele tale sunt încă aici.",
+      "reactivate": "Reactivează contul meu",
+      "reactivating": "Se reactivează...",
+      "signOut": "Deconectează-te",
+      "signingOut": "Se deconectează...",
+      "footer": "Dacă preferi să ștergi definitiv contul, autentifică-te și alege Șterge contul din Detalii personale.",
+      "successNotification": "Bine ai revenit. Contul tău este din nou activ.",
+      "errorGeneric": "Nu am putut reactiva contul tău. Încearcă din nou peste puțin timp.",
+      "deletedTitle": "Contul tău urmează să fie șters",
+      "deletedDescription": "Va fi șters definitiv pe {date}. Restaurează-l ca să păstrezi totul sau deconectează-te și lasă ștergerea să continue.",
+      "restore": "Restaurează-mi contul",
+      "restoring": "Se restaurează..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Fotografie de profil",
+        "custom": "Fotografia ta",
+        "default": "Avatar generat",
+        "modalTitle": "Fotografie de profil",
+        "subtitle": "Se afișează cu numele tău în aplicațiile Ordnary și în comunitate. Fără o fotografie proprie primești un avatar unic pentru contul tău.",
+        "choose": "Alege o fotografie",
+        "change": "Alege alta",
+        "remove": "Elimină fotografia",
+        "save": "Salvează fotografia",
+        "saving": "Se salvează...",
+        "hint": "JPG, PNG sau WebP. Fotografia ta este decupată în pătrat.",
+        "errorType": "Acest fișier nu este o imagine pe care o putem folosi. Alege un JPG, PNG sau WebP.",
+        "errorFailed": "Nu am putut salva fotografia. Încearcă din nou."
+      },
+      "title": "Detalii personale și setări",
+      "description": "Ordnary folosește aceste date pentru a-ți verifica identitatea și a ajuta la siguranța comunității. Tu alegi ce detalii personale sunt vizibile pentru alții.",
+      "contactDetails": "Date de contact",
+      "birthday": "Data nașterii",
+      "ownership": "Proprietatea și controlul contului",
+      "ownershipDescription": "Gestionează-ți datele, actualizează persoana de contact pentru conturile comemorative și dezactivează sau șterge-ți conturile și profilurile.",
+      "loadingName": "Utilizator",
+      "modal": {
+        "title": "Proprietatea și controlul contului",
+        "deactivationIndexTitle": "Dezactivare sau ștergere",
+        "deactivationIndexDescription": "Dezactivează temporar sau șterge definitiv conturile și profilurile tale.",
+        "optionsTitle": "Dezactivează sau șterge contul tău Ordnary",
+        "optionsDescription": "Ai nevoie de o pauză? Dezactivează-ți contul și revino oricând vrei. Vrei să părăsești Ordnary? Șterge-ți contul.",
+        "deactivateTitle": "Dezactivează contul",
+        "deactivateDescription": "Dezactivarea contului este temporară. Contul va fi dezactivat și ascuns pentru ceilalți.",
+        "deleteTitle": "Șterge contul",
+        "deleteDescription": "Ștergerea contului este definitivă. După 30 de zile nu îl mai poți reactiva și nu îi mai poți recupera datele.",
+        "deactivateConfirmTitle": "Dezactivezi contul?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Vei fi deconectat peste tot",
+            "text": "Pe toate dispozitivele tale și în fiecare aplicație pe care o folosești cu contul Ordnary."
+          },
+          {
+            "title": "Profilul tău este ascuns",
+            "text": "Ceilalți nu îți văd numele sau profilul cât timp contul este dezactivat."
+          },
+          {
+            "title": "Revino oricând",
+            "text": "Conectează-te din nou pentru a reactiva contul. Totul va fi cum l-ai lăsat."
+          }
+        ],
+        "deactivateConfirmButton": "Dezactivează contul",
+        "deleteConfirmTitle": "Ștergi contul?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Vei fi deconectat peste tot",
+            "text": "Pe toate dispozitivele tale și în fiecare aplicație pe care o folosești cu contul Ordnary."
+          },
+          {
+            "title": "Pierzi accesul",
+            "text": "La Ordnary și la fiecare aplicație în care te conectezi cu contul Ordnary."
+          },
+          {
+            "title": "Șters definitiv după 30 de zile",
+            "text": "Până atunci te mai poți răzgândi. După aceea, contul și datele tale nu mai pot fi recuperate."
+          }
+        ],
+        "deleteConfirmCheck": "Înțeleg că contul și datele mele vor fi șterse definitiv după 30 de zile.",
+        "deleteConfirmButton": "Șterge contul",
+        "cancel": "Anulează",
+        "continue": "Continuă",
+        "working": "Se procesează...",
+        "deactivateSuccess": "Contul tău a fost dezactivat. Te redirecționăm către conectare...",
+        "deleteSuccess": "Contul tău a fost programat pentru ștergere. Te redirecționăm către conectare...",
+        "submitError": "Momentan nu am putut actualiza contul tău."
+      },
+      "missingBirthday": "Nesetată",
+      "loadError": "Nu s-au putut încărca datele personale.",
+      "preferences": {
+        "sectionTitle": "Preferințe",
+        "appearance": "Aspect",
+        "appearanceDescription": "Ajustează aspectul contului tău Ordnary.",
+        "cookies": "Preferințe cookie",
+        "cookiesDescription": "Gestionează ce cookie-uri poate folosi Ordnary în acest browser.",
+        "processors": {
+          "title": "Cine îți prelucrează datele",
+          "intro": "Folosim câteva alte companii pentru a opera Ordnary. Iată-le pe toate: ce primesc de la noi, unde păstrează datele și cum sunt protejate când părăsesc UE.",
+          "empty": "Nicio altă companie nu îți primește datele.",
+          "loadError": "Nu am putut încărca acest conținut acum. Încearcă din nou mai târziu.",
+          "loading": "Se încarcă...",
+          "close": "Închide",
+          "back": "Înapoi",
+          "fields": {
+            "purpose": "Ce fac",
+            "receives": "Ce primesc",
+            "whose": "Datele cui",
+            "stored": "Unde sunt păstrate",
+            "transfer": "În afara UE"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Rămân în Spațiul Economic European.",
+            "ADEQUACY_DECISION": "Permis deoarece UE consideră adecvată protecția datelor din {country}.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Protejate prin clauzele contractuale standard ale UE.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Certificat în cadrul EU-US Data Privacy Framework.",
+            "sccBackup": "Clauzele contractuale standard ale UE se aplică și ca garanție suplimentară."
+          },
+          "links": {
+            "dpa": "Acord de prelucrare a datelor",
+            "privacy": "Politica de confidențialitate",
+            "website": "Site web",
+            "certification": "Certificare"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Îți verifică actul de identitate când îți schimbi data nașterii.",
+              "receives": [
+                "Nume",
+                "Data nașterii",
+                "Fotografie a actului de identitate",
+                "Selfie",
+                "Adresă IP"
+              ],
+              "whose": "Doar persoanele care verifică o nouă dată a nașterii."
+            },
+            "resend": {
+              "purpose": "Trimite e-mailurile noastre: coduri de conectare, alerte de securitate și notificări despre cont.",
+              "receives": [
+                "Adresă de e-mail",
+                "Nume afișat",
+                "Conținutul e-mailului, de exemplu codurile de conectare, linkurile și adresa IP din alertele de securitate"
+              ],
+              "whose": "Toți cei care primesc e-mail de la Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Solicitări de confidențialitate",
+          "description": "Obiectează sau restricționează anumite activități de prelucrare (art. 18 / art. 21).",
+          "back": "Înapoi",
+          "close": "Închide",
+          "loading": "Se încarcă…",
+          "loadError": "Nu s-au putut încărca solicitările de confidențialitate.",
+          "alreadyOpen": "Ai deja o solicitare deschisă pentru acest domeniu.",
+          "cooldown": "Poți depune din nou aceeași solicitare peste {hours} oră/ore.",
+          "submitted": "Solicitarea ta a fost primită.",
+          "withdrawn": "Solicitare retrasă.",
+          "fileNew": "Depune o solicitare nouă",
+          "pickKind": "Ce vrei să faci?",
+          "kinds": {
+            "OBJECTION": "Obiectează față de o activitate de prelucrare (art. 21)",
+            "RESTRICTION": "Restricționează temporar prelucrarea (art. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Oprește o anumită activitate de prelucrare de acum înainte, în funcție de situația ta specifică.",
+            "RESTRICTION": "Pune pe pauză o anumită activitate de prelucrare cât timp o dispută privind datele tale este analizată."
+          },
+          "pickActivities": "Pentru ce activități se aplică?",
+          "activitiesHint": "Nu alege nimic pentru a se aplica tuturor activităților noastre de prelucrare (blocare globală).",
+          "globalScope": "Toată prelucrarea (blocare globală)",
+          "yourStatement": "Declarația ta (recomandat)",
+          "statementPlaceholder": "Spune-ne de ce, de exemplu că nu mai vrei să aplicăm scorul automat de risc cât timp investighezi un eveniment de securitate împreună cu noi.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Trimite solicitarea",
+          "submitting": "Se trimite…",
+          "withdraw": "Retrage",
+          "withdrawing": "Se retrage…",
+          "openTitle": "Solicitări deschise",
+          "emptyOpen": "Nicio solicitare deschisă.",
+          "historyTitle": "Solicitări anterioare",
+          "historyEmpty": "Nicio solicitare anterioară.",
+          "holdsTitle": "Blocări active în prezent",
+          "holdsEmpty": "Nicio blocare activă.",
+          "appliesTo": "Se aplică la",
+          "effectiveUntil": "În vigoare până la",
+          "statuses": {
+            "PENDING": "În așteptare",
+            "IN_REVIEW": "În analiză",
+            "RESOLVED": "Rezolvată",
+            "WITHDRAWN": "Retrasă"
+          },
+          "outcomes": {
+            "GRANTED": "Acordată",
+            "PARTIALLY_GRANTED": "Acordată parțial",
+            "REJECTED": "Respinsă",
+            "ESCALATED": "Escaladată"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Identitatea contului și autentificarea",
+            "session-and-device-management": "Sesiuni și dispozitive",
+            "oauth-issuance": "Emitere OAuth / OIDC",
+            "identity-verification": "Verificarea identității (Stripe Identity)",
+            "payment-processing": "Procesarea plăților",
+            "audit-logs-and-security-events": "Jurnale de audit și evenimente de securitate",
+            "risk-scoring": "Scor automat de risc",
+            "consent-log": "Jurnal de consimțământ",
+            "account-deletion": "Ștergerea contului",
+            "risk-review-queue": "Coadă de analiză a riscurilor"
+          },
+          "title": "Obiecție sau restricționare"
+        },
+        "dsar": {
+          "label": "Solicitări privind confidențialitatea și datele",
+          "description": "Depune o solicitare formală de acces, rectificare, ștergere sau portabilitate (art. 15-20).",
+          "title": "Solicitări privind confidențialitatea și datele",
+          "back": "Înapoi",
+          "close": "Închide",
+          "loading": "Se încarcă…",
+          "loadError": "Nu s-au putut încărca solicitările.",
+          "submitted": "Am primit solicitarea ta.",
+          "fastPathReady": "Datele tale se descarcă acum.",
+          "fastPathHint": "Vrei doar o copie rapidă a datelor tale? Folosește butonul „Exportă informațiile tale\" de sus. Se descarcă instant, fără să treacă prin coada formală. Depune o solicitare aici când vrei un evaluator uman, depui pentru altcineva sau ai nevoie de rectificare ori ștergere.",
+          "withdrawn": "Solicitare retrasă.",
+          "fileNew": "Depune o solicitare nouă",
+          "pickKind": "Ce vrei să faci?",
+          "kinds": {
+            "ACCESS": "Acces (art. 15)",
+            "RECTIFICATION": "Rectificare (art. 16)",
+            "ERASURE": "Ștergere (art. 17)",
+            "PORTABILITY": "Portabilitate (art. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Primește o copie completă, care poate fi citită de aparate, a datelor pe care le deținem despre tine.",
+            "RECTIFICATION": "Corectează datele pe care le deținem despre tine și care sunt greșite sau învechite.",
+            "ERASURE": "Cere-ne să îți ștergem contul și datele pe care le deținem despre tine.",
+            "PORTABILITY": "Primește datele tale într-un format structurat, utilizat în mod curent."
+          },
+          "filedBy": "Cine depune această solicitare?",
+          "filedByOptions": {
+            "SELF": "Depun pentru mine",
+            "PARENT_GUARDIAN": "Sunt părinte sau tutore și depun pentru un minor",
+            "AUTHORISED_AGENT": "Sunt un reprezentant autorizat (de ex. un avocat) și depun în numele altcuiva"
+          },
+          "representativeBlock": {
+            "title": "Informații despre reprezentant",
+            "emailLabel": "Adresa ta de e-mail",
+            "notesLabel": "Relația și împuternicirea",
+            "notesHint": "Descrie pe scurt relația ta cu persoana vizată și atașează referințe la orice procură sau document de tutelă."
+          },
+          "subjectEmailLabel": "E-mailul persoanei vizate",
+          "subjectEmailHint": "Trimitem linkul de verificare și răspunsul la această adresă. Pentru solicitările depuse de un reprezentant, aceasta trebuie să fie adresa de e-mail a persoanei vizate.",
+          "yourStatement": "Declarația ta (recomandat)",
+          "statementPlaceholder": "Ce anume vrei? Orice context care ne ajută să stabilim domeniul răspunsului.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Trimite solicitarea",
+          "submitting": "Se trimite…",
+          "withdraw": "Retrage",
+          "withdrawing": "Se retrage…",
+          "openTitle": "Solicitări deschise",
+          "emptyOpen": "Nicio solicitare deschisă.",
+          "historyTitle": "Solicitări anterioare",
+          "historyEmpty": "Nicio solicitare anterioară.",
+          "due": "Termen",
+          "extended": "Prelungită până la",
+          "awaitingVerification": "Se așteaptă verificarea e-mailului",
+          "statuses": {
+            "SUBMITTED": "Se așteaptă verificarea",
+            "VERIFIED": "Verificată",
+            "IN_PROGRESS": "În curs",
+            "FULFILLED": "Îndeplinită",
+            "REJECTED": "Respinsă",
+            "WITHDRAWN": "Retrasă"
+          },
+          "outcomes": {
+            "FULFILLED": "Îndeplinită",
+            "PARTIALLY_FULFILLED": "Îndeplinită parțial",
+            "REJECTED": "Respinsă"
+          },
+          "overdue": "Întârziat"
+        },
+        "modalTitle": "Aspect",
+        "modalSubtitle": "Alege cum arată Centrul de conturi. Îți vom reține preferința pe acest dispozitiv.",
+        "options": {
+          "lightLabel": "Luminos",
+          "lightDescription": "Folosește mereu un fundal luminos, indiferent de setarea sistemului.",
+          "systemLabel": "Ca sistemul",
+          "systemDescription": "Se schimbă odată cu setarea dispozitivului tău.",
+          "darkLabel": "Întunecat",
+          "darkDescription": "Folosește mereu un fundal întunecat, mai comod seara."
+        },
+        "done": "Gata"
+      },
+      "displayNameSection": {
+        "label": "Nume complet",
+        "subtitle": "Numele tău complet este folosit în toate conturile și profilurile tale.",
+        "editButton": "Editează",
+        "modalTitle": "Nume complet",
+        "editTitle": "Schimbă numele complet",
+        "modalSubtitle": "Pentru a-ți schimba numele complet, contactează {email}.",
+        "currentLabel": "Nume actual",
+        "supportNotice": "Pentru a-ți schimba numele complet, contactează {email}.",
+        "copyEmail": "Copiază adresa de e-mail",
+        "openEmail": "Deschide e-mailul",
+        "mailSubject": "Cerere de modificare a numelui complet",
+        "mailBody": "Bună ziua,\n\nAș dori să îmi schimb numele complet.\n\nNume actual: {name}\nNume nou: \n\nCu stimă,\n{name}"
+      },
+      "loading": "Se încarcă...",
+      "contact": {
+        "subtitle": "Gestionează adresele de e-mail și cine îți poate vedea datele de contact. Folosește-le pentru a accesa profilurile și dispozitivele din acest Centru de conturi.",
+        "addNew": "Adaugă un contact nou",
+        "detailsDescription": "Ai adăugat această adresă de e-mail la aceste conturi.",
+        "whoCanSee": "Cine îți poate vedea adresa de e-mail?",
+        "deleting": "Se elimină...",
+        "delete": "Elimină adresa de e-mail",
+        "deleteFailed": "Nu am putut elimina această adresă de e-mail.",
+        "deleted": "Adresa de e-mail a fost eliminată",
+        "addTitle": "Adaugă o adresă de e-mail",
+        "addSubtitle": "Folosim această adresă de e-mail în conturile tale din Centrul de conturi pentru a-ți personaliza experiența.",
+        "learnMore": "Află mai multe",
+        "emailLabel": "Adresă de e-mail",
+        "chooseAccounts": "Alege conturile pentru această adresă de e-mail",
+        "added": "Adresa de e-mail a fost adăugată",
+        "addFailed": "Ceva nu a funcționat. Încearcă din nou.",
+        "next": "Înainte"
+      },
+      "birthdayModal": {
+        "subtitle": "Adaugă data nașterii pentru ca experiența ta să se potrivească vârstei tale.",
+        "edit": "Editează",
+        "editTitle": "Editează data nașterii",
+        "editSubtitle": "Această dată de naștere este folosită pentru conturile și profilurile din acest Centru de conturi. Orice modificare se aplică tuturor.",
+        "day": "Zi",
+        "month": "Lună",
+        "year": "An",
+        "verificationNotice": "Pentru a schimba data nașterii, trebuie să îți verifici identitatea cu un act de identitate valid prin partenerul nostru Stripe Identity. După ce salvezi, te vom trimite la procesul de verificare.",
+        "save": "Salvează",
+        "saveFailed": "Ceva nu a funcționat. Încearcă din nou.",
+        "verificationStartFailed": "Nu am putut porni verificarea identității.",
+        "completeFailed": "Nu am putut finaliza verificarea.",
+        "updated": "Data nașterii tale a fost actualizată după verificarea identității.",
+        "dobMismatch": "Data nașterii din actul tău de identitate nu corespunde cu cea introdusă.",
+        "dobUnavailable": "Stripe nu a putut citi o dată de naștere verificabilă din actul tău de identitate.",
+        "notFinished": "Verificarea identității nu este încă finalizată."
+      }
+    },
+    "security": {
+      "title": "Parolă și securitate",
+      "loadingName": "Utilizator",
+      "pageLoadError": "Nu s-au putut încărca setările de securitate.",
+      "sections": {
+        "signIn": {
+          "title": "Conectare și recuperare",
+          "description": "Gestionează-ți parolele, preferințele de conectare și metodele de recuperare."
+        },
+        "controls": {
+          "title": "Verificări de securitate",
+          "description": "Verifică problemele de securitate analizând aplicațiile, dispozitivele și e-mailurile trimise."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Schimbă parola",
+          "loading": "Se încarcă...",
+          "set": "Parolă setată",
+          "missing": "Nicio parolă setată"
+        },
+        "twofactor": {
+          "label": "Autentificare în doi pași",
+          "loading": "Se încarcă...",
+          "enabled": "Activată",
+          "disabled": "Încă neactivată"
+        },
+        "passkeys": {
+          "label": "Chei de acces",
+          "loading": "Se încarcă...",
+          "none": "Încă nu ai chei de acces",
+          "active": "{count} active"
+        },
+        "activity": {
+          "label": "Unde ești conectat",
+          "summary": "{total} sesiuni active, {others} pe alte dispozitive"
+        },
+        "automated": {
+          "label": "Decizii automate",
+          "summary": "Vezi ce reguli automate îți protejează contul și solicită o analiză umană."
+        }
+      },
+      "passwordModal": {
+        "title": "Schimbă parola",
+        "subtitle": "Creează o parolă de cel puțin 12 caractere. Alege ceva ce alții nu ar putea ghici.",
+        "currentPassword": "Parola actuală",
+        "newPassword": "Parolă nouă",
+        "repeatPassword": "Repetă parola nouă",
+        "forgotPassword": "Ai uitat parola?",
+        "logoutOthers": "Deconectează-te de pe celelalte dispozitive. Alege asta dacă altcineva ți-a folosit contul.",
+        "submit": "Schimbă parola",
+        "pending": "Se procesează...",
+        "success": "Parola ta a fost actualizată.",
+        "mismatch": "Parolele noi nu coincid.",
+        "submitError": "Nu s-a putut schimba parola.",
+        "logoutOthersTitle": "Deconectează-te de pe celelalte dispozitive",
+        "logoutOthersHint": "Recomandat dacă altcineva ți-ar fi putut folosi contul.",
+        "incorrect": "Parola ta actuală este incorectă.",
+        "tooWeak": "Alege o parolă care îndeplinește toate cerințele de mai jos."
+      },
+      "twoFactor": {
+        "idleTitle": "Ajută la protejarea contului tău",
+        "idleSubtitle": "Configurează autentificarea în doi pași și îți vom cere un cod de conectare când cineva se conectează de pe un dispozitiv necunoscut.",
+        "manageTitle": "Autentificarea în doi pași este activată",
+        "manageSubtitle": "Acum îți cerem un cod de conectare ori de câte ori te conectezi de pe un dispozitiv necunoscut.",
+        "appSettingsTitle": "Aplicație de autentificare",
+        "extraMethodsTitle": "Metode suplimentare",
+        "extraMethodsSubtitle": "Dacă celelalte metode de securitate nu sunt disponibile, te poți conecta în continuare cu aceste opțiuni.",
+        "recoveryCodesTitle": "Coduri de recuperare",
+        "recoveryCodesSubtitle": "Fiecare cod de recuperare poate fi folosit o singură dată. Păstrează-le într-un loc sigur. Fără ele, îți poți pierde accesul dacă îți pierzi telefonul sau altă metodă de conectare.",
+        "setupTitle": "Instrucțiuni de configurare",
+        "namingTitle": "Denumește dispozitivul",
+        "namingSubtitle": "Dă aplicației de autentificare un nume ușor de recunoscut, ca să știi ce dispozitiv folosești.",
+        "verifyTitle": "Introdu codul",
+        "verifySubtitle": "Introdu codul din 6 cifre din aplicația de autentificare pentru a finaliza configurarea.",
+        "successTitle": "Autentificarea în doi pași este activată",
+        "successSubtitle": "Acum îți cerem un cod de conectare ori de câte ori te conectezi de pe un dispozitiv necunoscut. Vrei să-ți actualizezi datele de contact? Mergi la Date personale în Centrul de conturi.",
+        "verifiedTitle": "Coduri de rezervă",
+        "verifiedSubtitle": "Păstrează aceste coduri într-un loc sigur. Le poți folosi dacă pierzi accesul la aplicația de autentificare.",
+        "learnMore": "Află mai multe",
+        "receiveCodesTitle": "Alege cum vrei să primești codurile",
+        "authenticatorTitle": "Aplicație de autentificare",
+        "authenticatorDescription": "Primește coduri unice printr-o aplicație precum Duo Mobile sau Google Authenticator.",
+        "recommended": "Recomandat",
+        "continue": "Continuă",
+        "working": "Se procesează...",
+        "enabledSuccess": "Autentificarea în doi pași a fost dezactivată.",
+        "disableError": "Nu s-a putut dezactiva aplicația de autentificare.",
+        "startError": "Nu s-a putut porni configurarea aplicației de autentificare.",
+        "verifyError": "Nu s-a putut verifica aplicația de autentificare.",
+        "regenerateError": "Nu s-au putut regenera codurile de recuperare.",
+        "downloadError": "Generează un set nou de coduri de recuperare înainte de a le descărca.",
+        "recoveryRegenerated": "Au fost generate coduri de recuperare noi.",
+        "manage": {
+          "receiveCodesTitle": "Primește coduri de conectare",
+          "authenticatorDescription": "Primești un cod de conectare prin aplicația de autentificare.",
+          "additionalMethodsTitle": "Metode suplimentare",
+          "additionalMethodsDescription": "Vezi cum te poți conecta în siguranță chiar dacă celelalte metode nu sunt disponibile."
+        },
+        "appSettings": {
+          "title": "Aplicație de autentificare",
+          "description": "Primești un cod de conectare prin aplicația de autentificare.",
+          "connectedDevicesTitle": "Dispozitive conectate",
+          "add": "Adaugă",
+          "connectedDevicesDescription": "Poți adăuga mai multe dispozitive, astfel încât fiecare dispozitiv asociat să primească coduri de conectare din 6 cifre de la o aplicație de autentificare de pe el.",
+          "noDevices": "Încă nu ai dispozitive conectate",
+          "lastUsed": "Ultima utilizare: {date}",
+          "added": "Adăugat: {date}",
+          "active": "Aplicație de autentificare activă"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Coduri de recuperare",
+          "recoveryCodesDescription": "Folosește aceste coduri când nu ai acces la telefon."
+        },
+        "recoveryCodes": {
+          "download": "Descarcă codurile",
+          "regenerate": "Obține coduri noi",
+          "existing": "Ai {count} coduri de recuperare nefolosite. Apasă „Obține coduri noi” pentru a genera un set nou.",
+          "empty": "Încă nu ai coduri de recuperare vizibile în această sesiune. Apasă „Obține coduri noi” pentru a genera un set nou."
+        },
+        "setup": {
+          "step1Title": "1. Descarcă o aplicație de autentificare",
+          "step1Description": "Îți recomandăm să descarci Duo Mobile sau Google Authenticator dacă nu ai deja una instalată.",
+          "step2Title": "2. Scanează acest cod QR sau copiază cheia",
+          "step2Description": "Scanează acest cod QR în aplicația de autentificare sau copiază cheia și lipește-o în aplicație.",
+          "copyKey": "Copiază cheia",
+          "step3Title": "3. Copiază codul din șase cifre și introdu-l",
+          "step3Description": "După ce scanezi codul QR sau introduci cheia, aplicația va genera un cod din 6 cifre. Atinge Introdu codul mai jos.",
+          "enterCode": "Introdu codul",
+          "qrAlt": "Cod QR pentru aplicația ta de autentificare"
+        },
+        "naming": {
+          "label": "Numele dispozitivului (de exemplu: iPhone-ul lui Stijn)",
+          "next": "Următorul"
+        },
+        "verify": {
+          "label": "Cod din aplicația de autentificare",
+          "submit": "Verifică codul"
+        },
+        "success": {
+          "done": "Gata"
+        },
+        "ui": {
+          "on": "Activată",
+          "turnOff": "Dezactivează",
+          "turnOffConfirm": "Dezactivezi autentificarea în doi pași? Autentificarea va necesita atunci doar parola.",
+          "cancel": "Anulează",
+          "copyKey": "Copiază",
+          "copied": "Copiat",
+          "manualKey": "Cheie de configurare",
+          "status": "Stare"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Fișier de recuperare",
+          "rowDescription": "Un PDF care te autentifică atunci când îl încarci, fără parolă sau cod.",
+          "otherMethodsTitle": "Alte moduri de a intra",
+          "title": "Fișier de recuperare",
+          "subtitle": "Un PDF pe care îl încarci la autentificare. Te autentifică imediat, fără parolă sau cod. Util dacă pierzi telefonul sau uiți parola.",
+          "download": "Descarcă fișierul de recuperare",
+          "downloading": "Se creează fișierul…",
+          "downloaded": "Descărcat. Păstrează fișierul într-un loc sigur.",
+          "made": "Creat la {date}",
+          "lastUsed": "Folosit ultima dată la {date}",
+          "notUsed": "Încă nefolosit",
+          "remove": "Elimină",
+          "removeConfirm": "Elimini fișierul de recuperare? Nu va mai funcționa imediat.",
+          "removed": "Fișierul de recuperare a fost eliminat.",
+          "cancel": "Anulează",
+          "newTitle": "Ai nevoie de un fișier nou?",
+          "newText": "Poți descărca un fișier o singură dată. Pentru a obține unul nou, confirmă cu un cod pe care ți-l trimitem prin e-mail. Fișierul actual nu va mai funcționa.",
+          "requestCode": "Trimite-mi un cod prin e-mail",
+          "sending": "Se trimite…",
+          "codeSent": "Am trimis un cod la {email}.",
+          "codeLabel": "Cod",
+          "confirmDownload": "Confirmă și descarcă",
+          "loadError": "Nu am putut încărca acest lucru acum. Încearcă din nou mai târziu.",
+          "errors": {
+            "code_invalid": "Codul nu este corect. Verifică e-mailul și încearcă din nou.",
+            "code_expired": "Acest cod a expirat. Cere unul nou.",
+            "rate_limited": "Prea multe încercări. Încearcă din nou mai târziu.",
+            "send_failed": "Nu am putut trimite e-mailul acum. Încearcă din nou mai târziu.",
+            "generic": "Ceva nu a mers bine. Încearcă din nou mai târziu."
+          },
+          "points": [
+            {
+              "title": "Descarcă o dată",
+              "text": "Poți descărca fișierul doar acum. Pentru unul nou mai târziu, confirmi cu un cod trimis pe e-mail."
+            },
+            {
+              "title": "Păstrează-l în siguranță",
+              "text": "De exemplu tipărit sau pe o unitate criptată. Oricine are acest fișier se poate conecta la contul tău, deci nu-l trimite pe e-mail și nu-l distribui."
+            },
+            {
+              "title": "Autentifică-te cu el",
+              "text": "Introdu adresa de e-mail la autentificare, alege \"Ai uitat parola?\", apoi \"Autentifică-te cu un fișier de recuperare\" și încarcă PDF-ul."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Chei de acces",
+        "subtitle": "Cheile de acces sunt o modalitate sigură și simplă de a te autentifica fără parolă. Poți folosi amprenta, fața sau blocarea ecranului dispozitivului.",
+        "add": "Adaugă cheie de acces",
+        "empty": "Încă nu ai adăugat nicio cheie de acces.",
+        "unnamed": "Cheie de acces fără nume",
+        "addedOn": "Adăugată la {date}",
+        "lastUsed": "Ultima utilizare {date}",
+        "never": "Niciodată utilizată",
+        "delete": "Șterge",
+        "count": "Ai {count} chei de acces active.",
+        "none": "Nu ai configurat încă nicio cheie de acces.",
+        "success": "Cheia de acces a fost înregistrată cu succes!",
+        "error": "Înregistrarea cheii de acces a eșuat.",
+        "pending": "Se înregistrează...",
+        "emptyTitle": "Încă nu ai chei de acces",
+        "emptyText": "Adaugă una pentru a te autentifica cu amprenta, fața sau blocarea ecranului dispozitivului, în loc de parolă. Parola ta continuă să funcționeze.",
+        "deleteConfirm": "Elimini această cheie de acces? Nu te mai poți autentifica cu ea.",
+        "cancel": "Anulează",
+        "removing": "Se elimină...",
+        "createTitle": "Creează o cheie de acces",
+        "createSubtitle": "O cheie de acces îți permite să te autentifici cu amprenta, fața sau blocarea ecranului dispozitivului. Este stocată de dispozitivul sau managerul tău de parole și nu îl părăsește niciodată.",
+        "nameLabel": "Numele cheii de acces",
+        "nameHint": "Ca să îți poți deosebi cheile de acces, de exemplu după dispozitivul sau managerul de parole în care este salvată.",
+        "whatHappensTitle": "Ce urmează",
+        "whatHappens1": "Browserul sau managerul tău de parole te întreabă unde să salveze cheia de acces.",
+        "whatHappens2": "Confirmă cu amprenta, fața sau blocarea ecranului.",
+        "whatHappens3": "De acum o poți alege la autentificare.",
+        "create": "Creează cheia de acces",
+        "waiting": "Urmează indicațiile din browser sau din managerul tău de parole…",
+        "cancelled": "Nu a fost creată nicio cheie de acces. Poți încerca din nou.",
+        "doneTitle": "Cheie de acces adăugată",
+        "doneSubtitle": "Acum te poți autentifica cu „{name}\". Parola ta continuă să funcționeze.",
+        "done": "Gata",
+        "back": "Înapoi",
+        "removeError": "Nu am putut elimina cheia de acces. Încearcă din nou.",
+        "defaultName": "{browser} pe {system}",
+        "rowDescription": "Autentifică-te cu amprenta, fața sau PIN-ul dispozitivului."
+      },
+      "activityModal": {
+        "title": "Activitate de conectare la cont",
+        "subtitle": "Unde este autentificat contul tău chiar acum. Deconectează-te de pe orice dispozitiv pe care nu îl recunoști.",
+        "unknownDevice": "Dispozitiv necunoscut",
+        "unknownLocation": "Locație necunoscută",
+        "currentDevice": "Acest dispozitiv",
+        "lastActive": "Ultima activitate {date}",
+        "revoke": "Deconectează-te",
+        "revokePending": "Se procesează...",
+        "revokeAllTitle": "Conectări pe alte dispozitive",
+        "revokeAll": "Deconectează-te de pe toate celelalte dispozitive",
+        "revokeAllPending": "Se procesează...",
+        "revokeSuccess": "Sesiunea a fost revocată.",
+        "revokeAllSuccess": "Toate celelalte sesiuni au fost deconectate.",
+        "revokeError": "Nu s-a putut revoca sesiunea.",
+        "viewMore": "+ {count} alte dispozitive",
+        "activeNow": "Activ acum",
+        "thisDeviceTitle": "Acest dispozitiv",
+        "otherEmpty": "Nu ești autentificat pe niciun alt dispozitiv.",
+        "showAll": "Arată toate cele {count}",
+        "revokeAllConfirm": "Te deconectezi de pe toate cele {count} dispozitive? Oricine le folosește trebuie să se autentifice din nou.",
+        "cancel": "Anulează"
+      },
+      "automatedDecisions": {
+        "title": "Decizii automate",
+        "description": "Unele decizii de protecție a contului sunt luate automat pe baza unor semnale precum tiparele de autentificare și activitatea suspectă. Poți cere unei persoane de la Ordnary să analizeze rezultatul.",
+        "back": "Înapoi",
+        "close": "Închide",
+        "loading": "Se încarcă…",
+        "currentStateTitle": "Starea automată curentă",
+        "riskLabels": {
+          "LOW": "Risc scăzut",
+          "MEDIUM": "Risc mediu",
+          "HIGH": "Risc ridicat"
+        },
+        "statusLabels": {
+          "ACTIVE": "Activ",
+          "SUSPENDED": "Suspendat temporar",
+          "DEACTIVATED": "Dezactivat",
+          "DELETED": "În curs de ștergere"
+        },
+        "suspendedExplanation": "Contul tău este restricționat în prezent de o regulă automată. Poți solicita mai jos o analiză umană. O persoană de la Ordnary va examina semnalele și declarația ta și va confirma sau anula decizia.",
+        "elevatedExplanation": "Nivelul de risc al contului tău a fost ridicat pe baza activității recente. Poți solicita o analiză umană dacă crezi că semnalele sunt greșite.",
+        "okExplanation": "Nu am marcat nicio restricție automată pe contul tău. Poți solicita în continuare mai jos analiza unei decizii anterioare.",
+        "lastEvaluated": "Ultima evaluare",
+        "signalsTitle": "Semnale de securitate recente",
+        "signalsEmpty": "Nu au fost înregistrate semnale de securitate recent.",
+        "appealTitle": "Solicită o analiză umană",
+        "appealSubtitle": "Un evaluator de la Ordnary va examina decizia automată, declarația ta și semnalele din spatele ei. Ne propunem să răspundem într-un timp rezonabil.",
+        "pickReason": "Ce contești?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Cred că suspendarea este greșită",
+          "RISK_LEVEL_OBJECTION": "Cred că nivelul meu de risc este incorect",
+          "SECURITY_EVENT_OBJECTION": "Vreau să contest un anumit semnal de securitate",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Vreau ca o persoană să analizeze deciziile automate de pe contul meu"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Contul tău este suspendat în prezent și vrei ca această decizie să fie analizată.",
+          "RISK_LEVEL_OBJECTION": "Nivelul tău de risc este mai mare decât te așteptai și vrei să fie reevaluat.",
+          "SECURITY_EVENT_OBJECTION": "A fost înregistrat un eveniment de securitate pe care nu îl recunoști.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Vrei ca un om să analizeze deciziile automate de pe contul tău."
+        },
+        "yourStatement": "Declarația ta (opțional)",
+        "statementPlaceholder": "Spune-ne orice ar trebui să știm, de exemplu că ai fost în călătorie, ai folosit un dispozitiv nou sau altcineva a încercat să intre în cont.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Trimite solicitarea de analiză",
+        "submitting": "Se trimite...",
+        "submitted": "Am primit solicitarea ta și revenim către tine.",
+        "pendingTitle": "Analiză în curs",
+        "pendingSubtitle": "O persoană de la Ordnary se ocupă de solicitarea ta. Vei fi notificat când apare o noutate.",
+        "withdraw": "Retrage solicitarea",
+        "withdrawing": "Se retrage...",
+        "withdrawn": "Solicitare retrasă.",
+        "withdrawableHint": "Poți retrage această solicitare oricând.",
+        "historyTitle": "Solicitări de analiză anterioare",
+        "historyEmpty": "Nicio solicitare de analiză anterioară.",
+        "outcomes": {
+          "UPHELD": "Menținută",
+          "OVERTURNED": "Anulată",
+          "ADJUSTED": "Ajustată",
+          "ESCALATED": "Escaladată"
+        },
+        "statuses": {
+          "PENDING": "În așteptare",
+          "IN_REVIEW": "În analiză",
+          "RESOLVED": "Rezolvată",
+          "WITHDRAWN": "Retrasă"
+        },
+        "loadError": "Nu s-au putut încărca detaliile deciziei automate.",
+        "alreadyOpen": "Ai deja o solicitare de analiză deschisă.",
+        "cooldown": "Poți trimite o nouă solicitare de analiză peste {hours} oră/ore. Această pauză ajută un evaluator să ajungă la cea anterioară.",
+        "showAll": "Arată toate ({count})",
+        "showLess": "Arată mai puține"
+      },
+      "previewBadge": "Previzualizare",
+      "previewBadgeTooltip": "Nou și încă în curs de îmbunătățire. Cheile de acces funcționează, dar detaliile se pot schimba."
+    },
+    "connections": {
+      "title": "Aplicații conectate",
+      "description": "Aplicații care au acces la datele contului tău Ordnary.",
+      "empty": "Încă nu ai conectat nicio aplicație.",
+      "authorizedScopes": "Permisiuni autorizate: {scopes}",
+      "granted": "Acordat: {date}",
+      "revoke": "Revocă accesul"
+    },
+    "devices": {
+      "title": "Dispozitive și sesiuni",
+      "description": "Gestionează sesiunile active de pe diferite dispozitive.",
+      "logoutOthers": "Deconectează-te de pe toate celelalte dispozitive",
+      "headers": {
+        "device": "Dispozitiv",
+        "location": "Locație / IP",
+        "lastActive": "Ultima activitate",
+        "type": "Tip",
+        "actions": "Acțiuni"
+      },
+      "unknownDevice": "Dispozitiv necunoscut",
+      "currentSession": "(Sesiunea curentă)",
+      "typeFormat": "{browser} pe {os}",
+      "revoke": "Revocă"
+    },
+    "passkeysPage": {
+      "title": "Chei de acces",
+      "description": "Gestionează datele biometrice și cheile hardware pentru conectarea fără parolă.",
+      "add": "+ Adaugă o cheie de acces nouă",
+      "empty": "Încă nu ai adăugat nicio cheie de acces.",
+      "unnamed": "Cheie de acces fără nume",
+      "addedOn": "Adăugată la: {date}",
+      "lastUsed": "Ultima utilizare: {date}",
+      "never": "Niciodată",
+      "delete": "Șterge"
+    },
+    "activity": {
+      "title": "Activitate recentă",
+      "description": "Revizuiește și monitorizează evenimentele și modificările importante legate de securitatea contului.",
+      "details": "Detalii",
+      "dates": {
+        "today": "Astăzi, 17 aprilie",
+        "yesterday": "Ieri, 16 aprilie"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Autentificare reușită",
+        "LOGIN_FAILED": "Autentificare eșuată",
+        "LOGIN_LOCKED": "Autentificare blocată",
+        "LOGOUT": "Deconectare",
+        "SESSION_CREATED": "Sesiune creată",
+        "SESSION_REVOKED": "Sesiune încheiată",
+        "SESSION_ALL_REVOKED": "Deconectare de peste tot",
+        "PASSWORD_SET": "Parolă setată",
+        "PASSWORD_CHANGED": "Parolă schimbată",
+        "PASSWORD_RESET_REQUESTED": "Resetare parolă solicitată",
+        "PASSWORD_RESET_COMPLETED": "Parolă resetată",
+        "PASSKEY_REGISTERED": "Cheie de acces înregistrată",
+        "PASSKEY_USED": "Autentificare cu cheie de acces",
+        "PASSKEY_REMOVED": "Cheie de acces eliminată",
+        "PASSKEY_COUNTER_MISMATCH": "Avertisment privind cheia de acces",
+        "MFA_ENABLED": "Autentificare în doi pași activată",
+        "MFA_DISABLED": "Autentificare în doi pași dezactivată",
+        "MFA_FACTOR_ENROLLED": "Aplicație de autentificare adăugată",
+        "MFA_FACTOR_VERIFIED": "Aplicație de autentificare confirmată",
+        "MFA_FACTOR_REVOKED": "Aplicație de autentificare eliminată",
+        "RECOVERY_CODES_GENERATED": "Coduri de recuperare noi",
+        "RECOVERY_CODE_USED": "Cod de recuperare folosit",
+        "STEP_UP_REQUIRED": "Confirmare solicitată",
+        "STEP_UP_COMPLETED": "Identitate confirmată",
+        "EMAIL_ADDED": "Adresă de e-mail adăugată",
+        "EMAIL_VERIFIED": "Adresă de e-mail confirmată",
+        "EMAIL_REMOVED": "Adresă de e-mail eliminată",
+        "EMAIL_PRIMARY_CHANGED": "E-mail principal schimbat",
+        "ACCOUNT_CREATED": "Cont creat",
+        "ACCOUNT_UPDATED": "Cont actualizat",
+        "ACCOUNT_DELETED": "Ștergerea contului a început",
+        "ACCOUNT_REACTIVATED": "Cont reactivat",
+        "OAUTH_CONSENT_GRANTED": "Acces acordat unei aplicații",
+        "OAUTH_CONSENT_REVOKED": "Accesul aplicației a fost eliminat",
+        "OAUTH_TOKEN_ISSUED": "Aplicație conectată",
+        "OAUTH_TOKEN_REVOKED": "Aplicație deconectată",
+        "SUSPICIOUS_NEW_LOCATION": "Autentificare dintr-un loc nou",
+        "SUSPICIOUS_NEW_DEVICE": "Autentificare pe un dispozitiv nou",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Autentificare neobișnuită",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Preferințe de e-mail schimbate",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Dezabonare",
+        "PRIVACY_REQUEST_FILED": "Cerere de confidențialitate trimisă",
+        "PRIVACY_REQUEST_RESOLVED": "Cerere de confidențialitate soluționată",
+        "DSAR_FILED": "Cerere privind datele trimisă",
+        "DSAR_FULFILLED": "Cerere privind datele îndeplinită",
+        "DSAR_REJECTED": "Cerere privind datele respinsă",
+        "RISK_REVIEW_REQUESTED": "Revizuire solicitată",
+        "RISK_REVIEW_RESOLVED": "Revizuire finalizată"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Medie",
+        "HIGH": "Ridicată",
+        "CRITICAL": "Critică",
+        "LOW": "Scăzută"
+      },
+      "empty": "Încă nu există activitate în contul tău.",
+      "filters": {
+        "all": "Toate",
+        "account": "Modificări ale contului",
+        "security": "Alerte de securitate"
+      },
+      "retention": "Activitatea este păstrată {days} zile. Poți schimba asta în {link}.",
+      "retentionLink": "Informațiile și permisiunile tale",
+      "emptyFiltered": "Nu există nimic de afișat în această vizualizare.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Cineva s-a autentificat în contul tău cu parola sau cu un cod de autentificare.",
+        "LOGIN_FAILED": "Cineva a încercat să se autentifice în contul tău, dar parola sau codul au fost greșite. Câteva astfel de încercări sunt de obicei o greșeală de tastare.",
+        "LOGIN_LOCKED": "După prea multe încercări greșite, autentificarea în contul tău a fost blocată o vreme pentru a-l proteja.",
+        "LOGOUT": "O sesiune din contul tău a fost deconectată.",
+        "SESSION_CREATED": "Cineva s-a conectat la contul tău pe un dispozitiv sau într-un browser, ceea ce a pornit o sesiune nouă.",
+        "SESSION_REVOKED": "O sesiune din contul tău a fost deconectată, de tine sau pentru că nu mai era sigur să fie păstrată.",
+        "SESSION_ALL_REVOKED": "Contul tău a fost deconectat de pe toate celelalte dispozitive.",
+        "PASSWORD_SET": "A fost adăugată o parolă la contul tău.",
+        "PASSWORD_CHANGED": "Parola contului tău a fost schimbată.",
+        "PASSWORD_RESET_REQUESTED": "Un cod pentru resetarea parolei a fost trimis la adresa ta de e-mail.",
+        "PASSWORD_RESET_COMPLETED": "Parola ta a fost resetată cu un cod primit pe e-mail, iar contul tău a fost deconectat de peste tot.",
+        "PASSKEY_REGISTERED": "A fost adăugată o cheie de acces, așa că te poți autentifica cu dispozitivul tău în loc de parolă.",
+        "PASSKEY_USED": "Cineva s-a autentificat în contul tău cu una dintre cheile sale de acces.",
+        "PASSKEY_REMOVED": "O cheie de acces a fost eliminată și nu mai poate fi folosită pentru autentificare.",
+        "PASSKEY_COUNTER_MISMATCH": "O cheie de acces a raportat ceva neașteptat, ceea ce poate însemna că a fost copiată. Autentificarea a fost refuzată.",
+        "MFA_ENABLED": "La autentificare se cere acum și un cod din aplicația ta de autentificare.",
+        "MFA_DISABLED": "La autentificare nu se mai cere un cod din aplicația ta de autentificare.",
+        "MFA_FACTOR_ENROLLED": "O aplicație de autentificare a fost conectată la contul tău.",
+        "MFA_FACTOR_VERIFIED": "Un cod din aplicația ta de autentificare a fost confirmat.",
+        "MFA_FACTOR_REVOKED": "O aplicație de autentificare a fost eliminată din contul tău.",
+        "RECOVERY_CODES_GENERATED": "A fost creat un set nou de coduri de recuperare. Codurile vechi nu mai funcționează.",
+        "RECOVERY_CODE_USED": "Cineva s-a autentificat cu unul dintre codurile tale de recuperare în loc de un cod din aplicația de autentificare. Acel cod nu mai poate fi folosit.",
+        "STEP_UP_REQUIRED": "Înainte de o modificare sensibilă, ți s-a cerut să confirmi că ești tu printr-un cod primit pe e-mail.",
+        "STEP_UP_COMPLETED": "Un cod primit pe e-mail a confirmat că ești tu, ceea ce a permis o modificare sensibilă pentru o vreme.",
+        "EMAIL_ADDED": "O adresă de e-mail a fost adăugată la contul tău și a primit un link de confirmare.",
+        "EMAIL_VERIFIED": "O adresă de e-mail din contul tău a fost confirmată.",
+        "EMAIL_REMOVED": "O adresă de e-mail a fost eliminată din contul tău.",
+        "EMAIL_PRIMARY_CHANGED": "O altă adresă de e-mail a devenit adresa principală a contului tău, pentru autentificare și mesaje.",
+        "ACCOUNT_CREATED": "Contul tău Ordnary a fost creat.",
+        "ACCOUNT_UPDATED": "O setare sau un detaliu din contul tău a fost schimbat.",
+        "ACCOUNT_DELETED": "Contul tău a fost programat pentru ștergere. Poate fi restaurat timp de 30 de zile.",
+        "ACCOUNT_REACTIVATED": "Contul tău a fost reactivat după ce fusese dezactivat sau șters.",
+        "OAUTH_CONSENT_GRANTED": "O aplicație a primit acces la contul tău prin Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "O aplicație nu mai are acces la contul tău.",
+        "OAUTH_TOKEN_ISSUED": "O aplicație pe care o folosești cu Ordnary ID a primit un token de autentificare nou.",
+        "OAUTH_TOKEN_REVOKED": "Un token de autentificare pentru o aplicație a fost revocat.",
+        "SUSPICIOUS_NEW_LOCATION": "Contul tău a fost folosit dintr-un loc din care nu a mai fost folosit până acum.",
+        "SUSPICIOUS_NEW_DEVICE": "Contul tău a fost folosit pe un dispozitiv pe care nu a mai fost folosit până acum.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Contul tău a fost folosit din două locuri prea îndepărtate pentru ca o singură persoană să fi putut călători între ele în acel interval.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "S-a schimbat ce e-mailuri îți poate trimite Ordnary.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Un link de dezabonare dintr-un e-mail a dezactivat un tip de e-mailuri.",
+        "PRIVACY_REQUEST_FILED": "A fost trimisă o cerere de opoziție față de prelucrarea datelor tale sau de restricționare a acesteia.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary a soluționat cererea ta de opoziție față de prelucrare sau de restricționare a acesteia.",
+        "DSAR_FILED": "A fost trimisă o cerere privind datele tale (acces, rectificare, ștergere sau o copie).",
+        "DSAR_FULFILLED": "Ordnary a finalizat cererea ta privind datele.",
+        "DSAR_REJECTED": "Ordnary a respins cererea ta privind datele; e-mailul explică motivul.",
+        "RISK_REVIEW_REQUESTED": "A fost solicitată revizuirea unei decizii automate privind contul tău.",
+        "RISK_REVIEW_RESOLVED": "O persoană de la Ordnary a revizuit o decizie automată privind contul tău."
+      },
+      "detail": {
+        "ifNotYou": "Nu ai fost tu? Schimbă-ți parola și deconectează-ți celelalte dispozitive din Parolă și securitate.",
+        "ifNotYouLink": "Mergi la Parolă și securitate",
+        "generic": "Acest eveniment a fost înregistrat în contul tău.",
+        "labels": {
+          "when": "Când",
+          "where": "Unde",
+          "ip": "Adresă IP",
+          "session": "Sesiune",
+          "thisDevice": "Acest dispozitiv",
+          "event": "Eveniment",
+          "source": "Înregistrat în",
+          "severity": "Importanță"
+        },
+        "sources": {
+          "AUDIT_LOG": "Jurnalul contului",
+          "SECURITY_EVENT": "Monitorizare de securitate"
+        },
+        "unknown": "Necunoscut",
+        "times": "{count}×",
+        "timeSpan": "{from} până la {to}"
+      },
+      "showMore": "Afișează zilele anterioare",
+      "loadingMore": "Se încarcă…",
+      "end": "Aceasta este toată activitatea păstrată.",
+      "loadFailed": "Nu s-au putut încărca mai multe. Încearcă din nou."
+    },
+    "connectedAppsDemo": {
+      "title": "Aplicații conectate",
+      "description": "Aplicații și servicii terțe cărora le-ai dat acces la o parte din datele contului.",
+      "badges": {
+        "official": "Oficial",
+        "verified": "Verificat"
+      },
+      "accessed": "Accesat {value}",
+      "revoke": "Revocă accesul",
+      "apps": {
+        "consoleReason": "Gestionează resursele cloud și pipeline-urile de implementare.",
+        "figmaReason": "Instrument de design folosit pentru prototipare colaborativă.",
+        "unknownGameName": "Joc necunoscut",
+        "unknownGameReason": "O aplicație neverificată care a solicitat informațiile din profilul tău.",
+        "currentSession": "Sesiunea curentă",
+        "twoDaysAgo": "Acum 2 zile",
+        "lastMonth": "Luna trecută"
+      }
+    },
+    "permissions": {
+      "title": "Informațiile și permisiunile tale",
+      "exportTitle": "Exportă informațiile tale",
+      "searchHistory": "Activitate Ordnary",
+      "externalActivity": "Activitatea ta în afara tehnologiilor Ordnary",
+      "appConnections": "Conexiuni cu aplicații",
+      "manageContacts": "Gestionează contactele",
+      "notice": "Mergi la Exportă informațiile tale pentru a descărca sau transfera o copie a informațiilor tale.",
+      "footer": "Decide ce informații pot folosi tehnologiile Ordnary pentru a-ți influența experiențele.",
+      "privacyRightsTitle": "Drepturile tale privind confidențialitatea",
+      "dsarTitle": "Solicitări privind confidențialitatea și datele",
+      "dsarSubtitle": "Depune o solicitare formală de acces, rectificare, ștergere sau portabilitate (art. 15-20).",
+      "privacyRequestsTitle": "Obiectează sau restricționează",
+      "privacyRequestsSubtitle": "Obiectează sau restricționează anumite activități de prelucrare (art. 18 / art. 21).",
+      "processorsTitle": "Cine îți prelucrează datele",
+      "processorsSubtitle": "Companiile pe care le folosim pentru a opera Ordnary, ce primesc și unde păstrează datele.",
+      "cookiesTitle": "Preferințe cookie",
+      "cookiesSubtitle": "Gestionează ce cookie-uri poate folosi Ordnary în acest browser.",
+      "minorConsentTitle": "Consimțământul părinților",
+      "minorConsentSubtitle": "Dacă ești sub vârsta consimțământului din țara ta, un părinte sau tutore trebuie să își dea acordul (GDPR art. 8).",
+      "notificationsTitle": "Preferințe de notificare",
+      "notificationsSubtitle": "Alege ce fel de e-mailuri îți poate trimite Ordnary.",
+      "notifications": {
+        "title": "Preferințe de notificare",
+        "close": "Închide",
+        "loading": "Se încarcă…",
+        "alwaysOn": "Mereu activat",
+        "description": "Alege ce e-mailuri primești de la Ordnary.",
+        "loadError": "Nu am putut încărca acest lucru acum. Încearcă din nou mai târziu.",
+        "saveError": "Nu am putut salva. Încearcă din nou.",
+        "saved": "Salvat.",
+        "alwaysTitle": "Mereu active",
+        "alwaysText": "Aceste e-mailuri îți protejează contul și confirmă ce ai cerut, așa că rămân active.",
+        "choiceTitle": "Alegerea ta",
+        "turnAllOff": "Dezactivează toate e-mailurile opționale",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Alerte de securitate",
+          "TRANSACTIONAL_ACCOUNT": "Mesaje despre cont",
+          "PRODUCT_UPDATES": "Noutăți despre produse",
+          "RECOMMENDATIONS": "Recomandări",
+          "MARKETING": "Noutăți și oferte"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Coduri de conectare, resetări de parolă și alerte despre conectări noi sau schimbări în securitatea ta.",
+          "TRANSACTIONAL_ACCOUNT": "Confirmări pentru ce ai făcut, cum ar fi o exportare de date, o solicitare de confidențialitate sau consimțământul părinților.",
+          "PRODUCT_UPDATES": "Ce e nou la produsele Ordnary și schimbări ale termenilor noștri.",
+          "RECOMMENDATIONS": "Sugestii în funcție de felul în care folosești Ordnary.",
+          "MARKETING": "Buletine informative și oferte, din când în când."
+        }
+      },
+      "minorConsent": {
+        "title": "Consimțământul părinților",
+        "description": "Dacă ești mai tânăr decât vârsta la care poți accepta singur lucruri online, un părinte sau tutore trebuie să își dea acordul înainte să putem folosi o parte din informațiile tale. Aceasta provine din articolul 8 din GDPR.",
+        "close": "Închide",
+        "loading": "Se încarcă…",
+        "loadError": "Nu am putut încărca acum. Încearcă din nou mai târziu.",
+        "consentAge": "Vârsta consimțământului în {country}: {age}",
+        "yourAge": "Vârsta ta: {age}",
+        "adultTitle": "Nu este necesar",
+        "adultBody": "Ai vârsta necesară pentru a-ți da singur acordul, deci nu ai nevoie de consimțământul unui părinte.",
+        "unknownTitle": "Încă nu îți știm vârsta",
+        "unknownBody": "Adaugă data nașterii ca să putem stabili dacă ai nevoie de consimțământul unui părinte.",
+        "unknownAction": "Adaugă data nașterii",
+        "blockedTitle": "Consimțământ necesar",
+        "blockedBody": "Până când un părinte sau tutore își dă acordul, unele părți ale contului tău sunt limitate.",
+        "pendingTitle": "Se așteaptă părintele sau tutorele tău",
+        "pendingBody": "Am trimis o solicitare la {email}. Linkul funcționează până la {date}.",
+        "verifiedTitle": "Consimțământ acordat",
+        "verifiedBody": "{email} și-a dat acordul la {date}.",
+        "parentEmail": "E-mailul părintelui sau tutorelui",
+        "relationship": "Cine este, de exemplu mama (opțional)",
+        "addMessage": "Adaugă un mesaj (opțional)",
+        "notes": "Mesaj pentru părintele sau tutorele tău",
+        "submit": "Trimite solicitarea",
+        "submitting": "Se trimite…",
+        "resend": "Trimite din nou",
+        "changeEmail": "Folosește alt e-mail",
+        "cancel": "Anulează",
+        "revoke": "Retrage",
+        "revokeConfirm": "Retragi consimțământul? Unele părți ale contului tău vor fi din nou limitate până când un părinte sau tutore își dă din nou acordul.",
+        "revoking": "Se retrage…",
+        "revoked": "Consimțământ retras.",
+        "notMinor": "Ai vârsta necesară pentru a-ți da singur acordul.",
+        "invalidEmail": "Introdu o adresă de e-mail validă.",
+        "requestSent": "Solicitare trimisă la {email}.",
+        "points": [
+          {
+            "title": "Introdu e-mailul lor",
+            "text": "Adresa de e-mail a unui părinte sau tutore."
+          },
+          {
+            "title": "Ei sunt de acord",
+            "text": "Primesc un e-mail cu un link pentru a-și da acordul. Linkul funcționează 14 zile."
+          },
+          {
+            "title": "Contul tău funcționează complet",
+            "text": "Odată ce își dau acordul, limitele contului tău sunt eliminate."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Poți exporta o copie a informațiilor tale către un serviciu extern sau pe dispozitivul tău. Datele disponibile includ conținutul și informațiile pe care le-ai distribuit, activitatea ta și informațiile pe care le colectăm.",
+      "exportButton": "Trimite linkul de descărcare",
+      "exportModalContentsTitle": "Ce include exportul tău:",
+      "exportModalContents": [
+        "Datele de profil și setările contului",
+        "Adrese de e-mail și numere de telefon",
+        "Setări de securitate (chei de acces, MFA, dispozitive)",
+        "Istoricul sesiunilor și al autentificărilor",
+        "Detalii de plată",
+        "Aplicații conectate și consimțăminte OAuth",
+        "Jurnal de activitate și evenimente de securitate",
+        "Consimțăminte privind confidențialitatea și cookie-urile"
+      ],
+      "exportModalFormat": "Format: arhivă ZIP cu fișiere JSON structurate și un fișier README ușor de citit.",
+      "exportModalRateLimit": "Vei primi un e-mail cu un link de descărcare de unică folosință. Maximum 3 exporturi la 24 de ore.",
+      "exportDownload": {
+        "loading": "Un moment...",
+        "readyTitle": "Exportul tău de date este gata",
+        "readyDescription": "Apasă butonul de mai jos pentru a descărca datele contului tău ca arhivă ZIP. Acest link poate fi folosit o singură dată și expiră după 24 de ore.",
+        "downloadButton": "Descarcă datele tale",
+        "readyHint": "Fișierul conține toate datele tale personale, setările de securitate, jurnalul de activitate și altele, în fișiere JSON structurate.",
+        "downloadingTitle": "Se descarcă...",
+        "downloadingDescription": "Exportul tău se pregătește. Poate dura câteva secunde.",
+        "successTitle": "Descărcarea a început",
+        "successDescription": "Exportul tău de date se descarcă. Păstrează fișierul într-un loc sigur, deoarece conține informații personale sensibile.",
+        "successHint": "Acest link de descărcare a expirat. Dacă ai nevoie de un export nou, îl poți solicita din setările contului.",
+        "backToSettings": "Înapoi la setările contului",
+        "expiredTitle": "Link expirat",
+        "expiredDescription": "Acest link de descărcare a expirat sau a fost deja folosit. Linkurile de descărcare sunt valabile 24 de ore și pot fi folosite o singură dată.",
+        "newExportButton": "Solicită un export nou",
+        "errorTitle": "Ceva nu a mers bine",
+        "errorDefault": "A apărut o eroare la preluarea exportului tău.",
+        "noToken": "Nu a fost găsit niciun token de descărcare."
+      },
+      "appConnectionsModalSubtitle": "Cu conexiunile cu aplicații poți face lucruri în diverse produse Ordnary și cu alte companii.",
+      "connectButton": "Conectează",
+      "activityModalSubtitle": "Vezi și gestionează activitatea ta din ecosistemul Ordnary, inclusiv produsele și aplicațiile noastre SaaS. Folosim aceste informații pentru a învăța din comportamentul tău și a-ți optimiza experiența pe toate platformele noastre.",
+      "accountsAndProfiles": "Conturile și profilurile tale",
+      "keepActivityFor": "Păstrează activitatea timp de",
+      "clearActivityButton": "Șterge toată activitatea",
+      "days3": "3 zile",
+      "days7": "7 zile",
+      "days14": "14 zile",
+      "standardOption": "Standard",
+      "noticeTitle": "Primește o copie a informațiilor tale",
+      "noticeText": "Descarcă datele contului tău ca să le păstrezi sau să le muți la un alt serviciu.",
+      "noticeAction": "Exportă informațiile",
+      "experimentBadge": "Experiment",
+      "userFallback": "Utilizator",
+      "avatarAlt": "Poză de profil",
+      "exportSent": "Link de descărcare trimis la {email}",
+      "exportFailed": "Exportul a eșuat. Încearcă din nou.",
+      "exportInProgress": "Un export este deja în curs de pregătire. Încearcă din nou în scurt timp.",
+      "exportRateLimited": "Ai atins numărul maxim de exporturi. Încearcă din nou peste {time}.",
+      "saveFailed": "Nu am putut salva. Încearcă din nou.",
+      "days30": "30 zile",
+      "autoClear": {
+        "title": "Șterge automat activitatea Ordnary",
+        "subtitle": "Alege cât timp păstrăm activitatea ta. Activitatea mai veche este eliminată automat, pentru toate conturile și profilurile din Centrul de conturi.",
+        "standard": "Standard",
+        "saving": "Se salvează…",
+        "saved": "Salvat.",
+        "back": "Înapoi",
+        "close": "Închide",
+        "howTitle": "Ce se elimină",
+        "howText": "Istoricul tău de autentificări și evenimentele de securitate ale contului tău, precum autentificări noi, schimbări de parolă și încercări blocate, după ce sunt mai vechi decât perioada aleasă.",
+        "howPermanent": "Activitatea eliminată nu poate fi recuperată. Descarcă mai întâi o copie dacă vrei să o păstrezi.",
+        "learnMore": "Mai multe despre ștergerea automată în documentația Ordnary"
+      },
+      "experimentBadgeTooltip": "Încă în dezvoltare. Poți arunca o privire, dar conectarea aplicațiilor nu funcționează încă."
+    },
+    "payments": {
+      "title": "Pay",
+      "subtitle": "Gestionează informațiile de plată salvate și ce conturi au acces la ele. {learnMore}",
+      "syncInfo": "Sincronizat între 2 conturi",
+      "addMethodTitle": "Adaugă o metodă de plată",
+      "addMethodSubtitle": "Salvează un card sau asociază-ți PayPal ca să-ți fie mai ușor la următoarea achiziție.",
+      "addMethodButton": "Adaugă metodă de plată",
+      "shippingTitle": "Detalii de livrare",
+      "shippingAddress": "Adresă de livrare",
+      "emailAddress": "Adresă de e-mail",
+      "phoneNumber": "Număr de telefon",
+      "addModal": {
+        "title": "Adaugă o metodă de plată",
+        "card": "Card de credit sau de debit",
+        "paypal": "PayPal",
+        "footer": "Aceste informații vor fi salvate în Ordnary Pay și sincronizate în Centrul de conturi, unde pot fi gestionate. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Adaugă card",
+        "subtitle": "Numărul cardului tău este criptat și stocat în siguranță",
+        "cardNumber": "Număr card",
+        "expiry": "Data expirării (LL/AA)",
+        "cvv": "CVV",
+        "name": "Numele de pe card",
+        "submit": "Înainte",
+        "cvvTooltip": "Codul tău de verificare (CVV) este numărul de securitate de pe spatele sau fața cardului.",
+        "footer": "Aceste informații vor fi salvate în Ordnary Pay și sincronizate în Centrul de conturi, unde pot fi gestionate. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Setează adresa de livrare",
+        "subtitle": "Adaugă o adresă de livrare pentru Ordnary Pay. Aceasta este separată de procesul de configurare a cardului.",
+        "search": "Caută adresa",
+        "country": "Țară sau regiune",
+        "fullName": "Nume complet",
+        "street": "Adresă",
+        "street2": "Adresă, linia 2 (opțional)",
+        "city": "Oraș/district",
+        "state": "Stat/provincie/regiune",
+        "zip": "Cod poștal",
+        "submit": "Salvează adresa"
+      }
+    },
+    "subscriptions": {
+      "description": "Gestionează abonamentele Ordnary active, reînnoirile și setările de facturare.",
+      "emptyTitle": "Niciun abonament activ",
+      "emptyDescription": "Abonamentele vor apărea aici după ce sunt asociate contului tău.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Acces nelimitat la conținut media premium de la Ordnary Pictures, inclusiv filme și seriale selectate, avanpremiere și lansări exclusive pentru membri, în experiențele Ordnary compatibile.",
+          "status": "Activ",
+          "renewal": "Se reînnoiește lunar",
+          "price": "9,99 € pe lună"
+        }
+      },
+      "manageSubscription": "Gestionează abonamentul"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Acces refuzat",
+        "description": "Nu ai acces la Centrul de conturi în acest moment. Este posibil ca sesiunea ta să fi expirat sau contul tău să fie restricționat.",
+        "action": "Autentifică-te din nou"
+      },
+      "suspended": {
+        "title": "Cont dezactivat",
+        "description": "Acest cont este dezactivat sau restricționat temporar. Contactează asistența dacă crezi că este o greșeală.",
+        "action": "Contactează asistența"
+      },
+      "banned": {
+        "title": "Acces refuzat definitiv",
+        "description": "Contul tău a fost blocat definitiv pentru încălcarea Termenilor și condițiilor.",
+        "action": "Vezi termenii"
+      },
+      "offline": {
+        "title": "Fără conexiune la internet",
+        "description": "Se pare că ești offline. Verifică conexiunea la internet pentru a continua.",
+        "action": "Încearcă din nou"
+      },
+      "unknown": {
+        "title": "Eroare de sistem",
+        "description": "Ceva neașteptat nu a funcționat. Încearcă din nou mai târziu.",
+        "action": "Înapoi la început"
+      },
+      "previousPage": "Pagina anterioară"
+    },
+    "common": {
+      "noResults": "Niciun rezultat",
+      "searchPlaceholder": "Caută..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} vrea să acceseze contul tău",
+      "description": "Ești conectat ca {displayName}. Acordă acces doar dacă ai încredere în această aplicație.",
+      "requestedPermissions": "Permisiuni solicitate",
+      "approve": "Acordă acces",
+      "deny": "Refuză",
+      "errorTitle": "Există o problemă cu solicitarea",
+      "errorDescription": "Solicitarea de autorizare este nevalidă sau incompletă. Verifică parametrii.",
+      "unknownAppTitle": "Aplicația nu poate fi verificată",
+      "unknownAppDescription": "Ordnary nu poate identifica această aplicație. De obicei cauza este un client_id sau redirect_uri incorect. Pentru siguranța ta, nu putem continua."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Această pagină nu este disponibilă",
+      "description": "Linkul poate fi stricat sau pagina poate fi fost eliminată. Verifică dacă linkul pe care încerci să-l deschizi este corect.",
+      "button": "Mergi la setările contului"
+    },
+    "serverError": {
+      "title": "Ceva nu a mers bine",
+      "description": "A apărut o eroare neașteptată. Încearcă din nou mai târziu.",
+      "button": "Încearcă din nou"
+    }
+  },
+  "cookieConsent": {
+    "title": "Permiți utilizarea cookie-urilor de la Ordnary în acest browser?",
+    "description": "Folosim cookie-uri și tehnologii similare pentru a furniza conținut în produsele Ordnary și pentru a le îmbunătăți. Le folosim și pentru o experiență mai sigură, pe baza informațiilor primite din interiorul și din afara Ordnary. Aceste cookie-uri sunt opționale.",
+    "essentialTitle": "Cookie-uri esențiale",
+    "essentialDesc": "Aceste cookie-uri sunt necesare pentru a folosi produsele Ordnary și pentru ca site-urile noastre să funcționeze corect.",
+    "optionalTitle": "Cookie-uri de la alte companii",
+    "optionalDesc": "Folosim aceste cookie-uri pentru a-ți afișa reclame în afara produselor Ordnary și pentru a oferi funcții precum hărți și videoclipuri în produsele Ordnary. Aceste cookie-uri sunt opționale.",
+    "policyInfo": "Tu decizi ce cookie-uri opționale putem folosi. În {cookiePolicy} găsești mai multe informații despre cookie-uri și despre cum le folosim, iar alegerile tale le poți verifica sau schimba oricând.",
+    "cookiePolicy": "politica privind cookie-urile",
+    "infoTitle": "Informații despre cookie-uri",
+    "policyRefreshNotice": "Am actualizat modul în care înregistrăm alegerile privind cookie-urile. Confirmă din nou preferințele ca să putem păstra o evidență la zi.",
+    "policyRevisionNotice": "Politica noastră privind cookie-urile a fost actualizată. Te rugăm să îți verifici din nou preferințele.",
+    "preferencesTitle": "Preferințele tale privind cookie-urile",
+    "preferencesDescription": "Alege ce categorii de cookie-uri poate folosi Ordnary în acest browser. Poți schimba aceste setări oricând din contul tău.",
+    "alwaysOn": "Mereu activat",
+    "categories": {
+      "essential": {
+        "title": "Esențiale",
+        "description": "Necesare pentru autentificare, securitate și pentru ca restul produsului să funcționeze."
+      },
+      "functional": {
+        "title": "Funcționale",
+        "description": "Rețin preferințe precum limba, tema și conturile recente."
+      },
+      "analytics": {
+        "title": "Analiză",
+        "description": "Ne ajută să înțelegem cum este folosit Ordnary ca să-l putem îmbunătăți."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Mesaje personalizate de la Ordnary despre produse și oferte."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Ce sunt cookie-urile?",
+        "button": "Află mai mult"
+      },
+      "why": {
+        "title": "De ce folosim cookie-uri?",
+        "button": "Află mai mult"
+      },
+      "products": {
+        "title": "Ce sunt produsele Ordnary?",
+        "button": "Află mai mult"
+      },
+      "preferences": {
+        "title": "Preferințele tale privind cookie-urile",
+        "button": "Află mai mult"
+      }
+    },
+    "buttons": {
+      "reject": "Respinge cookie-urile opționale",
+      "accept": "Permite toate cookie-urile",
+      "rejectShort": "Respinge",
+      "acceptShort": "Permite",
+      "customize": "Personalizează",
+      "save": "Salvează preferințele",
+      "saveShort": "Salvează",
+      "close": "Închide"
+    }
+  },
+  "recentAccounts": {
+    "title": "Autentifică-te cu contul tău Ordnary",
+    "continueAs": "Continuă ca {name}",
+    "loginAnother": "Autentifică-te cu alt cont",
+    "remove": "Elimină contul"
+  },
+  "reauthenticate": {
+    "title": "Confirmă că ești tu",
+    "description": "Salut, {name}! Pentru securitatea ta, trebuie să verificăm că ești tu înainte să {action}.",
+    "codeSentTo": "Am trimis un cod la {email}.",
+    "codeSent": "Am trimis un cod de securitate de 6 cifre pe adresa ta de e-mail.",
+    "securityCode": "Cod de securitate",
+    "continue": "Continuă",
+    "verifying": "Se verifică…",
+    "sending": "Se trimite…",
+    "cancel": "Anulează",
+    "errors": {
+      "sendFailed": "Nu am putut trimite codul de securitate.",
+      "invalidCode": "Cod invalid.",
+      "network": "Eroare de rețea. Încearcă din nou."
+    },
+    "actions": {
+      "changePassword": "îți schimbi parola",
+      "changeEmail": "îți gestionezi adresele de e-mail",
+      "managePasskeys": "îți gestionezi cheile de acces",
+      "manageMfa": "gestionezi autentificarea în doi pași",
+      "revokeAllSessions": "te deconectezi de peste tot",
+      "manageAccount": "îți dezactivezi sau ștergi contul",
+      "rotateClientSecret": "rotești acest secret de client",
+      "managePaymentMethods": "îți gestionezi metodele de plată",
+      "authorizeApp": "autorizezi această aplicație",
+      "generic": "continui această acțiune sensibilă"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Confirmă acordul părintesc",
+    "description": "Un utilizator ți-a cerut să îi autorizezi contul Ordnary conform art. 8 din GDPR. Apasă pe confirmare mai jos pentru a înregistra acordul tău. Îl poți retrage oricând ulterior răspunzând la e-mailul inițial sau contactând {email}.",
+    "idle": "Această pagină trebuie deschisă din linkul din e-mailul de solicitare, astfel încât tokenul de confirmare să fie inclus.",
+    "verifying": "Se verifică…",
+    "success": "Mulțumim. Acordul părintesc a fost confirmat, iar contul a fost deblocat pe partea utilizatorului. Și el va primi o notificare.",
+    "errors": {
+      "tokenRequired": "Nu a fost furnizat niciun token de verificare.",
+      "tokenNotFound": "Acest link de confirmare nu mai este valid.",
+      "alreadyVerified": "Această confirmare a fost deja înregistrată.",
+      "requestRevoked": "Această cerere a fost retrasă sau înlocuită de una mai nouă.",
+      "tokenExpired": "Acest link de confirmare a expirat. Cere utilizatorului să trimită o cerere nouă.",
+      "invalidBody": "Cererea de verificare era incorectă.",
+      "generic": "Nu am putut verifica acest link de confirmare. Cere utilizatorului să trimită o cerere nouă."
+    }
+  },
+  "unsubscribe": {
+    "title": "Dezabonare",
+    "idle": "Deschide această pagină din linkul din e-mail, astfel încât tokenul de dezabonare să fie inclus.",
+    "verifying": "Se salvează preferința ta…",
+    "success": "Te-ai dezabonat.",
+    "successWithCategory": "Te-ai dezabonat de la {category}.",
+    "manageAt": "Îți poți ajusta toate preferințele de notificare oricând la {link}.",
+    "categories": {
+      "transactionalSecurity": "alerte de securitate",
+      "transactionalAccount": "notificări despre cont",
+      "productUpdates": "noutăți despre produse",
+      "recommendations": "recomandări",
+      "marketing": "e-mailuri de marketing"
+    },
+    "errors": {
+      "tokenRequired": "Nu a fost furnizat niciun token de dezabonare.",
+      "tokenNotFound": "Acest link de dezabonare nu mai este valid.",
+      "alreadyRedeemed": "Te-ai dezabonat deja de la această categorie.",
+      "tokenExpired": "Acest link de dezabonare a expirat. Poți gestiona preferințele din Centrul de conturi după autentificare.",
+      "categoryMandatory": "Această categorie nu poate fi dezactivată, deoarece include notificările necesare pentru securitate și cont.",
+      "generic": "Nu am putut procesa acest link de dezabonare. Autentifică-te și ajustează direct preferințele."
+    }
+  },
+  "dsarVerify": {
+    "title": "Confirmă solicitarea privind confidențialitatea",
+    "description": "Confirmă că ai trimis către Ordnary această solicitare privind datele tale. Dacă nu, închide pagina și anunță-ne la {email}.",
+    "idle": "Deschide această pagină din linkul din e-mailul trimis de noi, ca să fie inclusă confirmarea.",
+    "confirm": "Confirmă solicitarea",
+    "verifying": "Se confirmă…",
+    "success": "Mulțumim, solicitarea ta este confirmată. O vom rezolva în termenul legal și îți vom scrie când e gata.",
+    "errors": {
+      "tokenRequired": "Acestui link îi lipsește codul de confirmare.",
+      "tokenNotFound": "Acest link nu mai este valid.",
+      "tokenExpired": "Acest link a expirat. Trimite din nou solicitarea din Centrul de cont.",
+      "alreadyProcessed": "Această solicitare a fost deja confirmată sau rezolvată.",
+      "generic": "Nu am putut confirma solicitarea. Încearcă din nou sau scrie la {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Ai fost deconectat. Autentifică-te din nou și încearcă iar.",
+    "not_authenticated": "Ai fost deconectat. Autentifică-te din nou și încearcă iar.",
+    "step_up_required": "Mai întâi confirmă că ești tu, apoi încearcă din nou.",
+    "rate_limited": "Prea multe încercări. Așteaptă câteva minute și încearcă din nou.",
+    "first_party_only": "Această opțiune este disponibilă doar în aplicațiile proprii Ordnary.",
+    "invalid_request": "Ceva nu este în regulă cu această cerere. Reîncarcă pagina și încearcă din nou.",
+    "invalid_body": "Ceva nu este în regulă cu această cerere. Reîncarcă pagina și încearcă din nou.",
+    "invalid_action": "Această acțiune nu este disponibilă aici.",
+    "missing_fields": "Completează toate câmpurile.",
+    "internal_error": "A apărut o problemă la noi. Încearcă din nou peste puțin timp.",
+    "internal_server_error": "A apărut o problemă la noi. Încearcă din nou peste puțin timp.",
+    "unavailable": "Această opțiune nu este disponibilă acum. Încearcă din nou mai târziu.",
+    "send_failed": "Nu am putut trimite e-mailul. Încearcă din nou peste puțin timp.",
+    "user_not_found": "Nu am găsit acest cont.",
+    "invalid_email": "Introdu o adresă de e-mail validă.",
+    "missing_address": "Introdu o adresă de e-mail.",
+    "email_already_exists": "Această adresă de e-mail este deja folosită.",
+    "email_not_found": "Această adresă de e-mail nu este în contul tău.",
+    "cannot_delete_primary_email": "Nu poți elimina adresa de e-mail principală.",
+    "failed_to_add_email": "Nu am putut adăuga această adresă de e-mail.",
+    "failed_to_delete_email": "Nu am putut elimina această adresă de e-mail.",
+    "failed_to_send_verification_email": "Nu am putut trimite e-mailul de verificare, așa că adresa nu a fost adăugată.",
+    "no_email": "Contul tău nu are nicio adresă de e-mail la care să trimitem.",
+    "no_primary_email": "Contul tău nu are o adresă de e-mail principală.",
+    "password_mismatch": "Parolele noi nu coincid.",
+    "password_incorrect": "Parola ta actuală este incorectă.",
+    "password_too_weak": "Parola nouă nu îndeplinește cerințele.",
+    "password_change_failed": "Nu am putut schimba parola.",
+    "no_password": "Contul tău nu are încă o parolă.",
+    "passkey_not_found": "Această cheie de acces nu mai există.",
+    "missing_passkey_id": "Alege mai întâi o cheie de acces.",
+    "session_not_found": "Această sesiune nu mai există.",
+    "missing_session_id": "Alege mai întâi o sesiune.",
+    "cannot_revoke_current_session": "Nu poți deconecta sesiunea pe care o folosești aici.",
+    "code_required": "Introdu codul din e-mail.",
+    "code_invalid": "Codul este incorect.",
+    "code_expired": "Codul a expirat. Cere unul nou.",
+    "exists": "Ai deja unul.",
+    "not_deactivated": "Contul tău nu este dezactivat.",
+    "grace_period_expired": "Cele 30 de zile pentru restaurarea acestui cont au trecut.",
+    "token_required": "Acest link este incomplet.",
+    "token_not_found": "Acest link nu mai este valid.",
+    "token_expired": "Acest link a expirat.",
+    "already_redeemed": "Acest link a fost deja folosit.",
+    "already_downloaded": "Această descărcare a fost deja folosită.",
+    "already_verified": "Acest lucru a fost deja confirmat.",
+    "already_processed": "Această cerere a fost deja procesată.",
+    "already_extended": "Termenul acestei cereri a fost deja prelungit.",
+    "invalid_date": "Introdu o dată validă.",
+    "birthday_verification_attempt_not_found": "Nu am găsit această verificare a actului de identitate. Începe din nou.",
+    "identity_verification_incomplete": "Verificarea actului de identitate nu este încă finalizată.",
+    "identity_verification_dob_mismatch": "Data nașterii de pe actul tău de identitate nu se potrivește cu cea introdusă.",
+    "identity_verification_dob_unavailable": "Nu am putut citi data nașterii de pe actul tău de identitate.",
+    "missing_attempt_id": "Lipsește verificarea actului de identitate. Începe din nou.",
+    "invalid_kind": "Alege tipul acestei cereri.",
+    "invalid_applies_to": "Alege la ce se referă cererea.",
+    "invalid_filed_by": "Spune cine depune această cerere.",
+    "subject_email_required": "Introdu adresa de e-mail la care se referă cererea.",
+    "representative_email_required": "Introdu adresa de e-mail a reprezentantului.",
+    "request_not_found": "Nu am găsit această cerere.",
+    "request_already_open": "Ai deja o cerere deschisă de acest tip.",
+    "request_cooldown_active": "Ai depus recent această cerere. Încearcă din nou mai târziu.",
+    "request_closed": "Această cerere este deja închisă.",
+    "request_not_open": "Această cerere nu mai este deschisă.",
+    "request_not_verified": "Această cerere nu a fost încă confirmată.",
+    "request_revoked": "Această cerere a fost retrasă sau înlocuită.",
+    "no_download_for_kind": "Acest tip de cerere nu are nicio descărcare.",
+    "export_already_in_progress": "Un export este deja în pregătire.",
+    "export_rate_limited": "Ai făcut recent un export. Încearcă din nou mai târziu.",
+    "invalid_retention_days": "Alege una dintre perioadele oferite.",
+    "invalid_category": "Această categorie de notificări nu există.",
+    "category_mandatory": "Aceste e-mailuri nu pot fi dezactivate.",
+    "review_not_found": "Nu am găsit această revizuire.",
+    "review_already_open": "Ai deja o revizuire deschisă.",
+    "review_cooldown_active": "Ai cerut recent o revizuire. Încearcă din nou mai târziu.",
+    "review_not_open": "Această revizuire nu mai este deschisă.",
+    "review_not_pending": "Această revizuire nu mai poate fi modificată.",
+    "invalid_review_type": "Alege tipul acestei revizuiri.",
+    "no_active_consent": "Nu există niciun consimțământ activ de retras.",
+    "not_a_minor": "Pentru acest cont nu este necesar consimțământul părinților.",
+    "parent_email_required": "Introdu adresa de e-mail a părintelui sau tutorelui tău.",
+    "invalid_parent_email": "Introdu o adresă de e-mail validă pentru părintele sau tutorele tău.",
+    "connection_not_found": "Această aplicație nu mai este conectată.",
+    "client_not_found": "Nu am găsit această aplicație.",
+    "too_large": "Fișierul este prea mare.",
+    "unsupported_type": "Acest tip de fișier nu este acceptat.",
+    "no_file": "Alege mai întâi un fișier."
+  }
+}

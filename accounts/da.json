@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Kontocenter",
+    "accountCenterSubtitle": "Administrer dine tilsluttede oplevelser og kontoindstillinger på tværs af Ordnary-teknologier.",
+    "learnMore": "Læs mere",
+    "loading": "Indlæser...",
+    "back": "Tilbage",
+    "close": "Luk",
+    "backToHome": "Tilbage til forsiden"
+  },
+  "nav": {
+    "profiles": "Profiler",
+    "connectedExperiences": "Tilsluttede oplevelser",
+    "passwordAndSecurity": "Adgangskode og sikkerhed",
+    "personalDetails": "Personlige oplysninger og indstillinger",
+    "education": "Uddannelse",
+    "permissions": "Dine oplysninger og tilladelser",
+    "adPreferences": "Annoncepræferencer",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Abonnementer",
+    "accounts": "Konti",
+    "activity": "Aktivitet"
+  },
+  "education": {
+    "title": "Uddannelse",
+    "description": "Bekræft med din skolemail, at du er studerende, og få studierabatter i Ordnary-produkter, hvor de tilbydes.",
+    "statusLabel": "Studiestatus",
+    "statuses": {
+      "none": "Ikke bekræftet",
+      "pending": "Venter på, at du åbner linket",
+      "verified": "Bekræftet",
+      "revoked": "Ikke længere aktiv"
+    },
+    "details": {
+      "title": "Dine oplysninger",
+      "school": "Skole",
+      "email": "Skolemail",
+      "verifiedOn": "Bekræftet den"
+    },
+    "dialog": {
+      "title": "Bekræftelse som studerende",
+      "subtitle": "Bekræft med din skolemail, at du er studerende. Vi bruger kun denne adresse til at tjekke det og sender aldrig andet til den.",
+      "close": "Luk",
+      "verifiedTitle": "Bekræftet",
+      "verifiedBody": "{email} på {school}, siden {date}.",
+      "pendingTitle": "Venter på, at du åbner linket",
+      "pendingBody": "Vi har sendt et link til {email}. Åbn det inden for 24 timer for at gøre det færdigt.",
+      "revokedTitle": "Ikke længere aktiv",
+      "revokedBody": "Din studiestatus er udløbet. Bekræft igen med din skolemail.",
+      "changeEmail": "Brug en anden skolemail",
+      "resend": "Send igen",
+      "cancel": "Annuller",
+      "emailLabel": "Skolemail",
+      "detected": "{school}",
+      "notRecognised": "Vi genkender ikke denne adresse som en skolemail. Brug den adresse, du har fået af din skole.",
+      "send": "Send link",
+      "sending": "Sender…",
+      "sent": "Link sendt til {email}.",
+      "sentWhileVerified": "Vi har sendt et link til {email}. Du forbliver bekræftet hos din nuværende skole, indtil du åbner det.",
+      "points": [
+        {
+          "title": "Indtast din skolemail",
+          "text": "Vi viser, hvilken skole adressen hører til."
+        },
+        {
+          "title": "Åbn linket",
+          "text": "Vi sender et link til adressen. Det virker i 24 timer."
+        },
+        {
+          "title": "Du er bekræftet",
+          "text": "Din status som studerende er aktiv i Ordnary-produkter, der tilbyder studierabatter."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Din studiestatus er nu aktiv.",
+      "verificationError": "Dette link virker ikke længere. Bed om et nyt."
+    },
+    "errors": {
+      "not_academic": "Vi genkender ikke denne adresse som en skolemail. Brug den adresse, du har fået af din skole.",
+      "account": "Noget gik galt med din konto. Prøv igen senere.",
+      "send_failed": "Vi kunne ikke sende linket lige nu. Prøv igen senere.",
+      "no_pending": "Der er ingen anmodning at sende igen. Indtast din skolemail.",
+      "not_authenticated": "Log ind igen for at fortsætte."
+    }
+  },
+  "profiles": {
+    "title": "Profiler",
+    "description": "Administrer dine tilsluttede oplevelser og kontoindstillinger på tværs af Ordnary-teknologier.",
+    "addAccounts": "Tilføj konti",
+    "detail": {
+      "aboutTitle": "Om denne profil",
+      "accessTitle": "Hvad {app} har adgang til",
+      "linksTitle": "Politikker fra {app}",
+      "mainProfile": "Hovedprofil",
+      "connected": "Tilsluttet app",
+      "verified": "Bekræftet af Ordnary",
+      "connectedOn": "Tilsluttet den",
+      "lastUsed": "Sidst brugt",
+      "never": "Endnu ikke",
+      "activeSignIns": "Aktive logins",
+      "profileId": "Profil-ID",
+      "email": "E-mailadresse",
+      "memberSince": "Medlem siden",
+      "twoFactor": "Tofaktorgodkendelse",
+      "on": "Til",
+      "off": "Fra",
+      "passkeys": "Adgangsnøgler",
+      "privacy": "Privatlivspolitik",
+      "terms": "Servicevilkår",
+      "disconnect": "Afbryd forbindelsen",
+      "disconnectTitle": "Afbryd forbindelsen til {app}?",
+      "disconnectText": "{app} kan ikke længere bruge din Ordnary-konto, og du bliver logget ud af den. Du kan tilslutte igen senere ved at logge ind på {app}.",
+      "disconnecting": "Afbryder...",
+      "cancel": "Annuller",
+      "copied": "Kopieret",
+      "copy": "Kopiér",
+      "scopes": {
+        "openid": "Genkende dig med din Ordnary-konto",
+        "profile": "Dit navn og profilbillede",
+        "email": "Din e-mailadresse",
+        "offline_access": "Holde dig logget ind, når du ikke bruger den",
+        "phone": "Dit telefonnummer",
+        "address": "Din adresse"
+      },
+      "change": "Skift",
+      "setUp": "Opsæt",
+      "manage": "Administrer",
+      "add": "Tilføj",
+      "none": "Ingen endnu"
+    },
+    "revokedSuccess": "Forbindelsen er afbrudt",
+    "revokedError": "Forbindelsen kunne ikke afbrydes. Prøv igen."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Oprette en ny Ordnary-konto?",
+      "registrationName": "Hvad hedder du?",
+      "registrationBirthday": "Hvornår har du fødselsdag?",
+      "registrationPassword": "Opret en adgangskode",
+      "saveLoginInfo": "Gem loginoplysninger?",
+      "registrationReview": "Afslut oprettelsen af din konto",
+      "verifyEmailCode": "Indtast bekræftelseskode",
+      "editEmail": "Hvad er din e-mailadresse?",
+      "loginCodeEntry": "Tjek din e-mail",
+      "recoveryCodeEntry": "Bekræft din konto",
+      "resetPassword": "Opret en ny adgangskode",
+      "passwordEntry": "Indtast din adgangskode",
+      "identifierLookup": "Hvad er din e-mail?",
+      "signIn": "Log ind",
+      "mfaCodeEntry": "Indtast din bekræftelseskode"
+    },
+    "descriptions": {
+      "identifierLookup": "Indtast din e-mail for at logge ind på en konto eller oprette en ny.",
+      "passwordEntry": "For at logge ind skal du indtaste adgangskoden, der er knyttet til {identifier}.",
+      "accountNotFound": "Vi kan ikke finde en Ordnary-konto for {email}. Du har muligvis ikke oprettet en endnu. Hvis du har, bruger den muligvis en anden identifikator.",
+      "registrationName": "Dette navn bruges til gendannelse af kontoen og kommunikation om din konto. Det vil ikke være synligt for offentligheden.",
+      "registrationBirthday": "Brug din egen fødselsdato, selv om denne konto er til en virksomhed eller noget andet. Disse oplysninger vil ikke være offentlige.",
+      "registrationPassword": "Opret en adgangskode, som andre ikke kan gætte.",
+      "saveLoginInfo": "Vi gemmer loginoplysningerne for din konto, så du ikke behøver at indtaste dem igen næste gang.",
+      "verifyEmailCode": "Indtast den 6-cifrede kode, der blev sendt til {identifier}, for at bekræfte din konto.",
+      "editEmail": "Indtast den e-mailadresse, hvor vi kan kontakte dig. Denne adresse bruges til login og kontoadministration og vil ikke være synlig for offentligheden.",
+      "loginCodeEntry": "For at logge ind skal du indtaste den kode, vi har sendt til {identifier}. Du skal muligvis tjekke din spam- eller sociale mappe.",
+      "recoveryCodeEntry": "Vi har sendt en kode til {identifier}. Indtast den kode for at bekræfte din konto.",
+      "resetPassword": "Du bruger denne adgangskode til at logge ind på din Ordnary-konto. Brug mindst 6 bogstaver og tal.",
+      "mfaCodeEntry": "Indtast den 6-cifrede kode fra din godkendelsesapp for at fortsætte."
+    },
+    "buttons": {
+      "createNewAccount": "Opret ny konto",
+      "alreadyHaveAccount": "Jeg har allerede en konto",
+      "next": "Næste",
+      "save": "Gem",
+      "notNow": "Ikke nu",
+      "finish": "Afslut",
+      "resendCode": "Send koden igen",
+      "enterPassword": "Indtast adgangskode",
+      "forgotPassword": "Glemt adgangskode?",
+      "switchAccount": "Skift konto",
+      "yes": "Ja",
+      "no": "Nej",
+      "useEmailCode": "Log ind med en e-mailkode",
+      "signInWithPasskey": "Log ind med en adgangsnøgle",
+      "useRecoveryCode": "Brug en gendannelseskode",
+      "useAuthenticatorCode": "Brug din godkendelsesapp"
+    },
+    "labels": {
+      "name": "Navn",
+      "firstName": "Fornavn",
+      "lastName": "Efternavn",
+      "day": "Dag",
+      "month": "Måned",
+      "year": "År",
+      "dateOfBirth": "Fødselsdato",
+      "confirmationCode": "Bekræftelseskode",
+      "email": "E-mailadresse",
+      "password": "Adgangskode",
+      "newPassword": "Ny adgangskode",
+      "logoutOthers": "Log ud alle andre steder for at sikre, at ingen andre stadig har adgang til din konto",
+      "marketingEmails": "Jeg vil gerne modtage e-mails om apps, anbefalinger og tilbud for Ordnary Identity.",
+      "showPassword": "Vis adgangskode",
+      "hidePassword": "Skjul adgangskode",
+      "clearInput": "Ryd indtastning",
+      "recoveryCode": "Gendannelseskode"
+    },
+    "links": {
+      "whyNeedBirthday": "Hvorfor skal jeg oplyse min fødselsdato?",
+      "learnMore": "Læs mere",
+      "editEmail": "Rediger e-mailadresse",
+      "noAccessEmail": "Har du ikke længere adgang til denne e-mailadresse?",
+      "termsOfService": "Servicevilkår",
+      "privacyPolicy": "Privatlivspolitik",
+      "cookiePolicy": "Cookiepolitik"
+    },
+    "messages": {
+      "nameHelp": "Brug af dit rigtige navn gør det lettere at gendanne din konto, hvis du mister adgangen.",
+      "emailHelp": "Brug din arbejds- eller private e-mail for at få adgang til dine Ordnary-tjenester.",
+      "existingSessionTitle": "Du har allerede en aktiv session",
+      "existingSessionDescription": "Du er allerede logget ind. Du bliver sendt videre til Kontocenter om {seconds} sekunder.",
+      "summaryPrivacy": "Dine Ordnary-kontooplysninger er ikke offentlige.",
+      "verifyEmailLookFor": "Se efter en e-mail fra notification@ordnary.com. Du skal muligvis også tjekke din spam- eller sociale mappe.",
+      "termsAgreement": "Ved at klikke på \"Afslut\" accepterer du vores Servicevilkår og Privatlivspolitik og bekræfter, at du har læst vores Cookiepolitik.",
+      "footerAgreement": "Ved at fortsætte bekræfter du, at du har læst og accepterer vores Servicevilkår, Privatlivspolitik og gældende retningslinjer for databehandling. Du accepterer også at modtage vigtige konto- og sikkerhedsmeddelelser i forbindelse med din brug af platformen.",
+      "emailMissing": "E-mailadresse er påkrævet.",
+      "resendCodeError": "Der opstod en uventet fejl under gensendelse af koden.",
+      "invalidInput": "Ugyldigt input.",
+      "credentialsPrompt": "For at logge ind skal du indtaste adgangskoden, der er knyttet til {identifier}.",
+      "checkEmailPrompt": "For at logge ind skal du indtaste den kode, vi har sendt til {identifier}.",
+      "termsIntro": "Ved at trykke på Afslut accepterer du vores"
+    },
+    "validation": {
+      "emailRequired": "E-mailadresse er påkrævet.",
+      "passwordRequired": "Adgangskode er påkrævet.",
+      "passwordMin": "Adgangskoden skal være mindst 12 tegn lang.",
+      "passwordMax": "Adgangskoden må ikke overstige 128 tegn.",
+      "emailInvalid": "Indtast en gyldig e-mailadresse.",
+      "displayNameMin": "Visningsnavnet skal være mindst 2 tegn langt.",
+      "resetTokenRequired": "Nulstillingstoken er påkrævet.",
+      "verificationTokenRequired": "Verifikationstoken er påkrævet."
+    },
+    "errors": {
+      "invalidInput": "Ugyldigt input.",
+      "genericLoginFailed": "Det var ikke muligt at logge dig ind. Prøv igen.",
+      "loginInvalidCredentials": "Ugyldig e-mail eller adgangskode.",
+      "accountLocked": "Din konto er låst eller suspenderet.",
+      "passwordIncorrect": "Den adgangskode, du indtastede, er forkert.",
+      "notAuthenticated": "Du er ikke autentificeret.",
+      "registrationMissingInfo": "Påkrævede registreringsoplysninger mangler.",
+      "registrationEmailExists": "Der findes allerede en konto med denne e-mailadresse.",
+      "systemNoDefaultTenant": "Systemfejl: ingen standard-tenant fundet.",
+      "registrationFailed": "Registreringen mislykkedes. Prøv igen.",
+      "invalidVerificationRequest": "Ugyldig verifikationsanmodning.",
+      "accountNotFound": "Konto ikke fundet.",
+      "verificationCodeInvalidOrExpired": "Ugyldig eller udløbet verifikationskode.",
+      "verificationFailedTryAgain": "Verifikation mislykkedes. Prøv igen.",
+      "invalidRequest": "Ugyldig anmodning.",
+      "userNotFound": "Bruger ikke fundet.",
+      "codeInvalidOrExpired": "Ugyldig eller udløbet kode.",
+      "verificationFailed": "Verifikation mislykkedes.",
+      "missingInformation": "Information mangler.",
+      "passwordResetFailed": "Nulstilling af adgangskode mislykkedes.",
+      "emailMissing": "E-mailadresse mangler.",
+      "resendCodeFailed": "Det lykkedes ikke at sende koden igen. Prøv igen.",
+      "loginRequestFailed": "Vi kunne ikke behandle din loginanmodning. Prøv igen.",
+      "mfaDataMissing": "Bekræftelsesoplysninger mangler. Log ind igen.",
+      "mfaNoAuthenticator": "Der blev ikke fundet en aktiv godkendelsesapp til denne konto.",
+      "mfaCodeInvalid": "Ugyldig bekræftelseskode.",
+      "mfaVerificationFailed": "Bekræftelsen mislykkedes. Log ind igen.",
+      "requestRejected": "Vi kunne ikke behandle denne anmodning. Prøv igen.",
+      "tooManyAttempts": "For mange forsøg. Prøv igen senere.",
+      "tooManyFailedLogins": "For mange mislykkede loginforsøg. Vent lidt, før du prøver igen.",
+      "permanentEmailRequired": "Brug en permanent e-mailadresse.",
+      "recoveryFileInvalid": "Denne gendannelsesfil virker ikke. Den kan være erstattet af en nyere eller fjernet.",
+      "passkeyFailed": "Login med adgangsnøgle virkede ikke. Prøv igen, eller fortsæt med din e-mail.",
+      "passwordTooWeak": "Vælg en adgangskode, der opfylder alle kravene nedenfor."
+    },
+    "months": [
+      "januar",
+      "februar",
+      "marts",
+      "april",
+      "maj",
+      "juni",
+      "juli",
+      "august",
+      "september",
+      "oktober",
+      "november",
+      "december"
+    ],
+    "recoveryFile": {
+      "link": "Log ind med en gendannelsesfil",
+      "title": "Log ind med en gendannelsesfil",
+      "description": "Upload den gendannelsesfil til denne konto, du hentede fra Kontocenter. Du bliver logget ind med det samme.",
+      "choose": "Vælg fil",
+      "reading": "Logger ind…",
+      "pasteInstead": "Indsæt koden i stedet",
+      "codeLabel": "Kode fra filen",
+      "signIn": "Log ind",
+      "notAFile": "Det her er ikke en Ordnary-gendannelsesfil. Vælg den PDF, du hentede fra Kontocenter.",
+      "back": "Brug e-mailkoden i stedet"
+    },
+    "passwordRules": {
+      "length": "Mindst 12 tegn",
+      "upper": "Et stort bogstav",
+      "lower": "Et lille bogstav",
+      "digit": "Et tal"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Kontoindstillinger",
+      "appearanceLabel": "Udseende",
+      "appearanceLight": "Lys",
+      "appearanceSystem": "Følg systemet",
+      "appearanceDark": "Mørk",
+      "logout": "Log ud",
+      "sessionExpired": "Din session er udløbet. Log ind igen for at fortsætte.",
+      "logoutConfirmTitle": "Log ud af Ordnary?",
+      "logoutCancel": "Annuller",
+      "logoutConfirm": "Log ud",
+      "language": "Sprog"
+    },
+    "reactivate": {
+      "title": "Velkommen tilbage, din konto er deaktiveret",
+      "description": "Vi satte mails og notifikationer på pause, da du deaktiverede din konto. Genaktivér den for at få alt tilbage, eller log ud og beslut dig senere. Dine data er her stadig.",
+      "reactivate": "Genaktivér min konto",
+      "reactivating": "Genaktiverer...",
+      "signOut": "Log ud",
+      "signingOut": "Logger ud...",
+      "footer": "Hvis du hellere vil slette din konto permanent, skal du logge ind og vælge Slet konto under Personlige oplysninger.",
+      "successNotification": "Velkommen tilbage. Din konto er aktiv igen.",
+      "errorGeneric": "Vi kunne ikke genaktivere din konto. Prøv igen om lidt.",
+      "deletedTitle": "Din konto bliver slettet",
+      "deletedDescription": "Den slettes endeligt den {date}. Gendan den for at beholde alt, eller log ud og lad sletningen fortsætte.",
+      "restore": "Gendan min konto",
+      "restoring": "Gendanner..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profilbillede",
+        "custom": "Dit eget billede",
+        "default": "Genereret avatar",
+        "modalTitle": "Profilbillede",
+        "subtitle": "Vises sammen med dit navn i Ordnary-apps og fællesskabet. Uden dit eget billede får du en avatar, der er unik for din konto.",
+        "choose": "Vælg et billede",
+        "change": "Vælg et andet",
+        "remove": "Fjern billede",
+        "save": "Gem billede",
+        "saving": "Gemmer...",
+        "hint": "JPG, PNG eller WebP. Dit billede beskæres til en firkant.",
+        "errorType": "Den fil er ikke et billede, vi kan bruge. Vælg en JPG, PNG eller WebP.",
+        "errorFailed": "Vi kunne ikke gemme dit billede. Prøv igen."
+      },
+      "title": "Personlige oplysninger og indstillinger",
+      "description": "Ordnary bruger disse oplysninger til at bekræfte din identitet og hjælpe med at holde fællesskabet trygt. Du bestemmer, hvilke personlige oplysninger andre kan se.",
+      "contactDetails": "Kontaktoplysninger",
+      "birthday": "Fødselsdag",
+      "ownership": "Ejerskab og kontrol af konto",
+      "ownershipDescription": "Administrer dine data, opdater din arvekontakt til mindekonti, og deaktiver eller slet dine konti og profiler.",
+      "loadingName": "Bruger",
+      "modal": {
+        "title": "Ejerskab og kontrol af konto",
+        "deactivationIndexTitle": "Deaktivering eller sletning",
+        "deactivationIndexDescription": "Deaktiver dine konti og profiler midlertidigt, eller slet dem permanent.",
+        "optionsTitle": "Deaktiver eller slet din Ordnary-konto",
+        "optionsDescription": "Brug for en pause? Deaktiver din konto, og kom tilbage, når du vil. Vil du forlade Ordnary? Slet din konto.",
+        "deactivateTitle": "Deaktiver konto",
+        "deactivateDescription": "Deaktivering af din konto er midlertidig. Din konto bliver lukket og skjult for andre.",
+        "deleteTitle": "Slet konto",
+        "deleteDescription": "Sletning af din konto er permanent. Efter 30 dage kan du ikke genaktivere den eller gendanne dens data.",
+        "deactivateConfirmTitle": "Deaktiver din konto?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Du bliver logget ud overalt",
+            "text": "På alle dine enheder og i alle apps, du bruger med din Ordnary-konto."
+          },
+          {
+            "title": "Din profil skjules",
+            "text": "Andre kan ikke se dit navn eller din profil, mens din konto er deaktiveret."
+          },
+          {
+            "title": "Kom tilbage når som helst",
+            "text": "Log ind igen for at genaktivere din konto. Alt vil være, som du efterlod det."
+          }
+        ],
+        "deactivateConfirmButton": "Deaktiver konto",
+        "deleteConfirmTitle": "Slet din konto?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Du bliver logget ud overalt",
+            "text": "På alle dine enheder og i alle apps, du bruger med din Ordnary-konto."
+          },
+          {
+            "title": "Du mister adgangen",
+            "text": "Til Ordnary og alle apps, du logger ind på med din Ordnary-konto."
+          },
+          {
+            "title": "Slettet for altid efter 30 dage",
+            "text": "Indtil da kan du stadig fortryde. Derefter kan din konto og dine data ikke gendannes."
+          }
+        ],
+        "deleteConfirmCheck": "Jeg forstår, at min konto og mine data bliver slettet permanent efter 30 dage.",
+        "deleteConfirmButton": "Slet konto",
+        "cancel": "Annuller",
+        "continue": "Fortsæt",
+        "working": "Arbejder...",
+        "deactivateSuccess": "Din konto er deaktiveret. Sender dig til login...",
+        "deleteSuccess": "Din konto er planlagt til sletning. Sender dig til login...",
+        "submitError": "Vi kunne ikke opdatere din konto lige nu."
+      },
+      "missingBirthday": "Ikke angivet",
+      "loadError": "Personlige oplysninger kunne ikke indlæses.",
+      "preferences": {
+        "sectionTitle": "Præferencer",
+        "appearance": "Udseende",
+        "appearanceDescription": "Tilpas udseendet af din Ordnary-konto.",
+        "cookies": "Cookiepræferencer",
+        "cookiesDescription": "Administrer, hvilke cookies Ordnary må bruge i denne browser.",
+        "processors": {
+          "title": "Hvem behandler dine data",
+          "intro": "Vi bruger nogle andre virksomheder til at drive Ordnary. Her er alle: hvad de modtager fra os, hvor de opbevarer det, og hvordan det er beskyttet, når det forlader EU.",
+          "empty": "Ingen andre virksomheder modtager dine data.",
+          "loadError": "Vi kunne ikke indlæse dette lige nu. Prøv igen senere.",
+          "loading": "Indlæser…",
+          "close": "Luk",
+          "back": "Tilbage",
+          "fields": {
+            "purpose": "Hvad de gør",
+            "receives": "Hvad de modtager",
+            "whose": "Hvis data",
+            "stored": "Hvor det opbevares",
+            "transfer": "Uden for EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Forbliver inden for Det Europæiske Økonomiske Samarbejdsområde.",
+            "ADEQUACY_DECISION": "Tilladt, fordi EU anerkender databeskyttelsen i {country} som tilstrækkelig.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Beskyttet af EU's standardkontraktbestemmelser.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Certificeret under EU-US Data Privacy Framework.",
+            "sccBackup": "EU's standardkontraktbestemmelser gælder som ekstra sikkerhed."
+          },
+          "links": {
+            "dpa": "Databehandleraftale",
+            "privacy": "Privatlivspolitik",
+            "website": "Hjemmeside",
+            "certification": "Certificering"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Kontrollerer dit id, når du ændrer din fødselsdato.",
+              "receives": [
+                "Navn",
+                "Fødselsdato",
+                "Foto af dit id-dokument",
+                "Selfie",
+                "IP-adresse"
+              ],
+              "whose": "Kun personer, der bekræfter en ny fødselsdato."
+            },
+            "resend": {
+              "purpose": "Sender vores e-mails: loginkoder, sikkerhedsadvarsler og kontobeskeder.",
+              "receives": [
+                "E-mailadresse",
+                "Visningsnavn",
+                "Indholdet af e-mailen, f.eks. loginkoder, links og IP-adressen i sikkerhedsadvarsler"
+              ],
+              "whose": "Alle, der får e-mails fra Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Privatlivsanmodninger",
+          "description": "Gør indsigelse mod eller begræns bestemte behandlinger (art. 18 / art. 21).",
+          "back": "Tilbage",
+          "close": "Luk",
+          "loading": "Indlæser…",
+          "loadError": "Privatlivsanmodningerne kunne ikke indlæses.",
+          "alreadyOpen": "Du har allerede en åben anmodning for dette omfang.",
+          "cooldown": "Du kan indsende den samme anmodning igen om {hours} time(r).",
+          "submitted": "Din anmodning er modtaget.",
+          "withdrawn": "Anmodningen er trukket tilbage.",
+          "fileNew": "Indsend en ny anmodning",
+          "pickKind": "Hvad vil du gøre?",
+          "kinds": {
+            "OBJECTION": "Gør indsigelse mod en behandling (art. 21)",
+            "RESTRICTION": "Begræns behandling midlertidigt (art. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Stop en bestemt behandling fremover på grund af din særlige situation.",
+            "RESTRICTION": "Sæt en bestemt behandling på pause, mens en uenighed om dine data bliver gennemgået."
+          },
+          "pickActivities": "Hvilke behandlinger skal det gælde for?",
+          "activitiesHint": "Vælg ingen for at gælde for alle vores behandlinger (en global pause).",
+          "globalScope": "Al behandling (global pause)",
+          "yourStatement": "Din udtalelse (anbefales)",
+          "statementPlaceholder": "Fortæl os hvorfor, for eksempel at du ikke længere vil have, at vi bruger automatisk risikovurdering, mens du undersøger en sikkerhedshændelse sammen med os.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Indsend anmodning",
+          "submitting": "Indsender…",
+          "withdraw": "Træk tilbage",
+          "withdrawing": "Trækker tilbage…",
+          "openTitle": "Åbne anmodninger",
+          "emptyOpen": "Ingen åbne anmodninger.",
+          "historyTitle": "Tidligere anmodninger",
+          "historyEmpty": "Ingen tidligere anmodninger.",
+          "holdsTitle": "Aktuelt aktive pauser",
+          "holdsEmpty": "Ingen aktive pauser.",
+          "appliesTo": "Gælder for",
+          "effectiveUntil": "Gælder indtil",
+          "statuses": {
+            "PENDING": "Afventer",
+            "IN_REVIEW": "Under gennemgang",
+            "RESOLVED": "Afgjort",
+            "WITHDRAWN": "Trukket tilbage"
+          },
+          "outcomes": {
+            "GRANTED": "Imødekommet",
+            "PARTIALLY_GRANTED": "Delvist imødekommet",
+            "REJECTED": "Afvist",
+            "ESCALATED": "Eskaleret"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Kontoidentitet og godkendelse",
+            "session-and-device-management": "Sessioner og enheder",
+            "oauth-issuance": "OAuth / OIDC-udstedelse",
+            "identity-verification": "Identitetsbekræftelse (Stripe Identity)",
+            "payment-processing": "Betalingsbehandling",
+            "audit-logs-and-security-events": "Auditlogs og sikkerhedshændelser",
+            "risk-scoring": "Automatisk risikovurdering",
+            "consent-log": "Samtykkelog",
+            "account-deletion": "Sletning af konto",
+            "risk-review-queue": "Kø til risikogennemgang"
+          },
+          "title": "Gør indsigelse eller begræns"
+        },
+        "dsar": {
+          "label": "Privatlivs- og dataanmodninger",
+          "description": "Indsend en formel anmodning om indsigt, berigtigelse, sletning eller dataportabilitet (art. 15-20).",
+          "title": "Privatlivs- og dataanmodninger",
+          "back": "Tilbage",
+          "close": "Luk",
+          "loading": "Indlæser…",
+          "loadError": "Anmodningerne kunne ikke indlæses.",
+          "submitted": "Vi har modtaget din anmodning.",
+          "fastPathReady": "Dine data bliver hentet nu.",
+          "fastPathHint": "Vil du bare have en hurtig kopi af dine data? Brug knappen \"Eksportér dine oplysninger\" øverst. Den henter dem med det samme uden om den formelle kø. Indsend en anmodning her, når du vil have en person til at gennemgå den, indsender for en anden eller har brug for berigtigelse eller sletning.",
+          "withdrawn": "Anmodningen er trukket tilbage.",
+          "fileNew": "Indsend en ny anmodning",
+          "pickKind": "Hvad vil du gøre?",
+          "kinds": {
+            "ACCESS": "Indsigt (art. 15)",
+            "RECTIFICATION": "Berigtigelse (art. 16)",
+            "ERASURE": "Sletning (art. 17)",
+            "PORTABILITY": "Dataportabilitet (art. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Få en fuld, maskinlæsbar kopi af de data, vi har om dig.",
+            "RECTIFICATION": "Ret data, vi har om dig, som er forkerte eller forældede.",
+            "ERASURE": "Få os til at slette din konto og de data, vi har om dig.",
+            "PORTABILITY": "Modtag dine data i et struktureret, almindeligt anvendt format."
+          },
+          "filedBy": "Hvem indsender anmodningen?",
+          "filedByOptions": {
+            "SELF": "Jeg indsender for mig selv",
+            "PARENT_GUARDIAN": "Jeg er forælder eller værge og indsender for en mindreårig",
+            "AUTHORISED_AGENT": "Jeg er en bemyndiget repræsentant (f.eks. en advokat) og indsender på vegne af en anden"
+          },
+          "representativeBlock": {
+            "title": "Oplysninger om repræsentanten",
+            "emailLabel": "Din e-mailadresse",
+            "notesLabel": "Forhold og bemyndigelse",
+            "notesHint": "Beskriv kort dit forhold til den registrerede, og vedhæft henvisninger til en eventuel fuldmagt eller værgemålsdokument."
+          },
+          "subjectEmailLabel": "Den registreredes e-mail",
+          "subjectEmailHint": "Vi sender bekræftelseslinket og svaret til denne adresse. Ved anmodninger fra en repræsentant skal det være den registreredes egen e-mail.",
+          "yourStatement": "Din udtalelse (anbefales)",
+          "statementPlaceholder": "Hvad vil du helt præcist? Alt, der hjælper os med at afgrænse svaret.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Indsend anmodning",
+          "submitting": "Indsender…",
+          "withdraw": "Træk tilbage",
+          "withdrawing": "Trækker tilbage…",
+          "openTitle": "Åbne anmodninger",
+          "emptyOpen": "Ingen åbne anmodninger.",
+          "historyTitle": "Tidligere anmodninger",
+          "historyEmpty": "Ingen tidligere anmodninger.",
+          "due": "Frist",
+          "extended": "Forlænget til",
+          "awaitingVerification": "Venter på bekræftelse af e-mail",
+          "statuses": {
+            "SUBMITTED": "Venter på bekræftelse",
+            "VERIFIED": "Bekræftet",
+            "IN_PROGRESS": "I gang",
+            "FULFILLED": "Opfyldt",
+            "REJECTED": "Afvist",
+            "WITHDRAWN": "Trukket tilbage"
+          },
+          "outcomes": {
+            "FULFILLED": "Opfyldt",
+            "PARTIALLY_FULFILLED": "Delvist opfyldt",
+            "REJECTED": "Afvist"
+          },
+          "overdue": "Overskredet"
+        },
+        "modalTitle": "Udseende",
+        "modalSubtitle": "Vælg, hvordan Kontocenter ser ud. Vi husker dit valg på denne enhed.",
+        "options": {
+          "lightLabel": "Lys",
+          "lightDescription": "Bruger altid en lys baggrund, uanset din systemindstilling.",
+          "systemLabel": "Følg systemet",
+          "systemDescription": "Skifter med din enheds indstilling.",
+          "darkLabel": "Mørk",
+          "darkDescription": "Bruger altid en mørk baggrund, behageligere om aftenen."
+        },
+        "done": "Færdig"
+      },
+      "displayNameSection": {
+        "label": "Fulde navn",
+        "subtitle": "Dit fulde navn bruges på tværs af dine konti og profiler.",
+        "editButton": "Rediger",
+        "modalTitle": "Fulde navn",
+        "editTitle": "Skift fulde navn",
+        "modalSubtitle": "Kontakt {email} for at ændre dit fulde navn.",
+        "currentLabel": "Nuværende navn",
+        "supportNotice": "Kontakt {email} for at ændre dit fulde navn.",
+        "copyEmail": "Kopiér e-mailadresse",
+        "openEmail": "Åbn e-mail",
+        "mailSubject": "Anmodning om ændring af fulde navn",
+        "mailBody": "Hej\n\nJeg vil gerne ændre mit fulde navn.\n\nNuværende navn: {name}\nNyt navn: \n\nMed venlig hilsen\n{name}"
+      },
+      "loading": "Indlæser...",
+      "contact": {
+        "subtitle": "Administrer dine e-mailadresser, og hvem der kan se dine kontaktoplysninger. Brug dem til at få adgang til profilerne og enhederne i dette Kontocenter.",
+        "addNew": "Tilføj ny kontakt",
+        "detailsDescription": "Du har tilføjet denne e-mailadresse til disse konti.",
+        "whoCanSee": "Hvem kan se din e-mailadresse?",
+        "deleting": "Fjerner...",
+        "delete": "Fjern e-mailadresse",
+        "deleteFailed": "Vi kunne ikke fjerne denne e-mailadresse.",
+        "deleted": "E-mailadressen er fjernet",
+        "addTitle": "Tilføj en e-mailadresse",
+        "addSubtitle": "Vi bruger denne e-mailadresse på tværs af dine konti i Kontocenter til at tilpasse din oplevelse.",
+        "learnMore": "Læs mere",
+        "emailLabel": "E-mailadresse",
+        "chooseAccounts": "Vælg konti til denne e-mailadresse",
+        "added": "E-mailadressen er tilføjet",
+        "addFailed": "Noget gik galt. Prøv igen.",
+        "next": "Næste"
+      },
+      "birthdayModal": {
+        "subtitle": "Tilføj din fødselsdag, så oplevelsen passer til din alder.",
+        "edit": "Rediger",
+        "editTitle": "Rediger din fødselsdag",
+        "editSubtitle": "Denne fødselsdag bruges til kontiene og profilerne i dette Kontocenter. Alle ændringer gælder for dem alle.",
+        "day": "Dag",
+        "month": "Måned",
+        "year": "År",
+        "verificationNotice": "For at ændre din fødselsdag skal du bekræfte din identitet med et gyldigt id-dokument via vores partner Stripe Identity. Når du har gemt, sender vi dig videre til bekræftelsen.",
+        "save": "Gem",
+        "saveFailed": "Noget gik galt. Prøv igen.",
+        "verificationStartFailed": "Vi kunne ikke starte identitetsbekræftelsen.",
+        "completeFailed": "Vi kunne ikke gennemføre bekræftelsen.",
+        "updated": "Din fødselsdag er opdateret efter identitetsbekræftelsen.",
+        "dobMismatch": "Fødselsdatoen på dit id-dokument stemmer ikke overens med den, du har indtastet.",
+        "dobUnavailable": "Stripe kunne ikke aflæse en verificerbar fødselsdato fra dit id-dokument.",
+        "notFinished": "Identitetsbekræftelsen er ikke afsluttet endnu."
+      }
+    },
+    "security": {
+      "title": "Adgangskode og sikkerhed",
+      "loadingName": "Bruger",
+      "pageLoadError": "Sikkerhedsindstillinger kunne ikke indlæses.",
+      "sections": {
+        "signIn": {
+          "title": "Login og gendannelse",
+          "description": "Administrer dine adgangskoder, login-indstillinger og gendannelsesmetoder."
+        },
+        "controls": {
+          "title": "Sikkerhedstjek",
+          "description": "Gennemgå sikkerhedsproblemer ved at tjekke apps, enheder og sendte e-mails."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Skift adgangskode",
+          "loading": "Indlæser...",
+          "set": "Adgangskode angivet",
+          "missing": "Ingen adgangskode angivet"
+        },
+        "twofactor": {
+          "label": "Totrinsgodkendelse",
+          "loading": "Indlæser...",
+          "enabled": "Aktiveret",
+          "disabled": "Ikke aktiveret endnu"
+        },
+        "passkeys": {
+          "label": "Adgangsnøgler",
+          "loading": "Indlæser...",
+          "none": "Ingen adgangsnøgler endnu",
+          "active": "{count} aktive"
+        },
+        "activity": {
+          "label": "Hvor du er logget ind",
+          "summary": "{total} aktive sessioner, {others} på andre enheder"
+        },
+        "automated": {
+          "label": "Automatiske afgørelser",
+          "summary": "Se, hvilke automatiske regler der beskytter din konto, og bed om en gennemgang af en person."
+        }
+      },
+      "passwordModal": {
+        "title": "Skift adgangskode",
+        "subtitle": "Opret en adgangskode på mindst 12 tegn. Vælg noget, som andre ikke kan gætte.",
+        "currentPassword": "Nuværende adgangskode",
+        "newPassword": "Ny adgangskode",
+        "repeatPassword": "Gentag ny adgangskode",
+        "forgotPassword": "Glemt adgangskode?",
+        "logoutOthers": "Log ud på andre enheder. Vælg dette, hvis en anden har brugt din konto.",
+        "submit": "Skift adgangskode",
+        "pending": "Arbejder...",
+        "success": "Din adgangskode er opdateret.",
+        "mismatch": "Dine nye adgangskoder er ikke ens.",
+        "submitError": "Adgangskoden kunne ikke skiftes.",
+        "logoutOthersTitle": "Log ud på andre enheder",
+        "logoutOthersHint": "Anbefales, hvis en anden kan have brugt din konto.",
+        "incorrect": "Din nuværende adgangskode er forkert.",
+        "tooWeak": "Vælg en adgangskode, der opfylder alle kravene nedenfor."
+      },
+      "twoFactor": {
+        "idleTitle": "Hjælp med at beskytte din konto",
+        "idleSubtitle": "Konfigurer totrinsgodkendelse, så vi beder om en login-kode, når nogen logger ind fra en enhed, vi ikke genkender.",
+        "manageTitle": "Totrinsgodkendelse er slået til",
+        "manageSubtitle": "Vi beder nu om en login-kode, hver gang du logger ind fra en enhed, vi ikke genkender.",
+        "appSettingsTitle": "Godkendelsesapp",
+        "extraMethodsTitle": "Yderligere metoder",
+        "extraMethodsSubtitle": "Hvis dine andre sikkerhedsmetoder ikke er tilgængelige, kan du stadig logge ind med disse muligheder.",
+        "recoveryCodesTitle": "Gendannelseskoder",
+        "recoveryCodesSubtitle": "Hver gendannelseskode kan kun bruges én gang. Opbevar dem et sikkert sted. Uden dem kan du miste adgangen, hvis du mister din telefon eller anden login-metode.",
+        "setupTitle": "Opsætningsvejledning",
+        "namingTitle": "Navngiv din enhed",
+        "namingSubtitle": "Giv din godkendelsesapp et genkendeligt navn, så du ved, hvilken enhed du bruger.",
+        "verifyTitle": "Indtast kode",
+        "verifySubtitle": "Indtast den 6-cifrede kode fra din godkendelsesapp for at afslutte opsætningen.",
+        "successTitle": "Totrinsgodkendelse er slået til",
+        "successSubtitle": "Vi beder nu om en login-kode, hver gang du logger ind fra en enhed, vi ikke genkender. Vil du opdatere dine kontaktoplysninger? Gå til Personlige oplysninger i Kontocenter.",
+        "verifiedTitle": "Backupkoder",
+        "verifiedSubtitle": "Opbevar disse koder et sikkert sted. Du kan bruge dem, hvis du mister adgangen til din godkendelsesapp.",
+        "learnMore": "Læs mere",
+        "receiveCodesTitle": "Vælg, hvordan du vil modtage dine koder",
+        "authenticatorTitle": "Godkendelsesapp",
+        "authenticatorDescription": "Modtag engangskoder via en app som Duo Mobile eller Google Authenticator.",
+        "recommended": "Anbefalet",
+        "continue": "Fortsæt",
+        "working": "Arbejder...",
+        "enabledSuccess": "Totrinsgodkendelse er slået fra.",
+        "disableError": "Godkendelsesappen kunne ikke deaktiveres.",
+        "startError": "Opsætning af godkendelsesapp kunne ikke startes.",
+        "verifyError": "Godkendelsesappen kunne ikke bekræftes.",
+        "regenerateError": "Gendannelseskoderne kunne ikke genereres igen.",
+        "downloadError": "Generer et nyt sæt gendannelseskoder, før du downloader dem.",
+        "recoveryRegenerated": "Der er genereret nye gendannelseskoder.",
+        "manage": {
+          "receiveCodesTitle": "Modtag login-koder",
+          "authenticatorDescription": "Du modtager en login-kode via din godkendelsesapp.",
+          "additionalMethodsTitle": "Yderligere metoder",
+          "additionalMethodsDescription": "Se, hvordan du stadig kan logge sikkert ind, hvis andre metoder ikke er tilgængelige."
+        },
+        "appSettings": {
+          "title": "Godkendelsesapp",
+          "description": "Du modtager en login-kode via din godkendelsesapp.",
+          "connectedDevicesTitle": "Tilsluttede enheder",
+          "add": "Tilføj",
+          "connectedDevicesDescription": "Du kan tilføje flere enheder, så hver tilknyttet enhed kan modtage 6-cifrede login-koder fra en godkendelsesapp på enheden.",
+          "noDevices": "Ingen tilsluttede enheder endnu",
+          "lastUsed": "Sidst brugt: {date}",
+          "added": "Tilføjet: {date}",
+          "active": "Aktiv godkendelsesapp"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Gendannelseskoder",
+          "recoveryCodesDescription": "Brug disse koder, når du ikke har adgang til din telefon."
+        },
+        "recoveryCodes": {
+          "download": "Download koder",
+          "regenerate": "Få nye koder",
+          "existing": "Du har {count} ubrugte gendannelseskoder. Klik på \"Få nye koder\" for at generere et nyt sæt.",
+          "empty": "Du har endnu ingen synlige gendannelseskoder i denne session. Klik på \"Få nye koder\" for at generere et nyt sæt."
+        },
+        "setup": {
+          "step1Title": "1. Download en godkendelsesapp",
+          "step1Description": "Vi anbefaler Duo Mobile eller Google Authenticator, hvis du ikke allerede har en installeret.",
+          "step2Title": "2. Scan denne QR-kode, eller kopier nøglen",
+          "step2Description": "Scan denne QR-kode i din godkendelsesapp, eller kopier nøglen og indsæt den i appen.",
+          "copyKey": "Kopier nøgle",
+          "step3Title": "3. Kopier den sekscifrede kode, og indtast den",
+          "step3Description": "Når du har scannet QR-koden eller indtastet nøglen, genererer din app en 6-cifret kode. Tryk på Indtast kode nedenfor.",
+          "enterCode": "Indtast kode",
+          "qrAlt": "QR-kode til din godkendelsesapp"
+        },
+        "naming": {
+          "label": "Enhedsnavn (fx: Stijns iPhone)",
+          "next": "Næste"
+        },
+        "verify": {
+          "label": "Kode fra godkendelsesapp",
+          "submit": "Bekræft kode"
+        },
+        "success": {
+          "done": "Færdig"
+        },
+        "ui": {
+          "on": "Til",
+          "turnOff": "Slå fra",
+          "turnOffConfirm": "Slå tofaktorgodkendelse fra? Så skal du kun bruge din adgangskode for at logge ind.",
+          "cancel": "Annuller",
+          "copyKey": "Kopiér",
+          "copied": "Kopieret",
+          "manualKey": "Opsætningsnøgle",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Gendannelsesfil",
+          "rowDescription": "En PDF, der logger dig ind, når du uploader den, uden adgangskode eller kode.",
+          "otherMethodsTitle": "Andre måder at komme ind på",
+          "title": "Gendannelsesfil",
+          "subtitle": "En PDF, du uploader, når du logger ind. Den logger dig ind med det samme, uden adgangskode eller kode. Praktisk, hvis du mister din telefon eller glemmer din adgangskode.",
+          "download": "Download gendannelsesfil",
+          "downloading": "Gør din fil klar…",
+          "downloaded": "Downloadet. Opbevar filen et sikkert sted.",
+          "made": "Oprettet {date}",
+          "lastUsed": "Sidst brugt {date}",
+          "notUsed": "Ikke brugt endnu",
+          "remove": "Fjern",
+          "removeConfirm": "Fjern din gendannelsesfil? Den holder op med at virke med det samme.",
+          "removed": "Gendannelsesfil fjernet.",
+          "cancel": "Annuller",
+          "newTitle": "Brug for en ny fil?",
+          "newText": "Du kan kun downloade en fil én gang. For at få en ny skal du bekræfte med en kode, vi sender til din mail. Din nuværende fil holder så op med at virke.",
+          "requestCode": "Send mig en kode på mail",
+          "sending": "Sender…",
+          "codeSent": "Vi har sendt en kode til {email}.",
+          "codeLabel": "Kode",
+          "confirmDownload": "Bekræft og download",
+          "loadError": "Vi kunne ikke indlæse dette lige nu. Prøv igen senere.",
+          "errors": {
+            "code_invalid": "Den kode er ikke rigtig. Tjek mailen, og prøv igen.",
+            "code_expired": "Koden er udløbet. Bed om en ny.",
+            "rate_limited": "For mange forsøg. Prøv igen senere.",
+            "send_failed": "Vi kunne ikke sende mailen lige nu. Prøv igen senere.",
+            "generic": "Noget gik galt. Prøv igen senere."
+          },
+          "points": [
+            {
+              "title": "Download den én gang",
+              "text": "Du kan kun downloade filen nu. For at få en ny senere bekræfter du med en kode, vi sender dig på mail."
+            },
+            {
+              "title": "Opbevar den sikkert",
+              "text": "For eksempel udskrevet eller på et krypteret drev. Alle med denne fil kan logge ind på din konto, så send den ikke på mail og del den ikke."
+            },
+            {
+              "title": "Log ind med den",
+              "text": "Indtast din e-mail ved login, vælg \"Glemt adgangskode?\", derefter \"Log ind med en gendannelsesfil\", og upload PDF-filen."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Adgangsnøgler",
+        "subtitle": "Adgangsnøgler er en sikker og nem måde at logge ind på uden adgangskode. Du kan bruge dit fingeraftryk, dit ansigt eller enhedens skærmlås.",
+        "add": "Tilføj adgangsnøgle",
+        "empty": "Du har endnu ikke tilføjet nogen adgangsnøgler.",
+        "unnamed": "Unavngivet adgangsnøgle",
+        "addedOn": "Tilføjet den {date}",
+        "lastUsed": "Sidst brugt {date}",
+        "never": "Aldrig brugt",
+        "delete": "Slet",
+        "count": "Du har {count} aktive adgangsnøgler.",
+        "none": "Du har endnu ikke oprettet nogen adgangsnøgler.",
+        "success": "Adgangsnøglen blev registreret!",
+        "error": "Registrering af adgangsnøglen mislykkedes.",
+        "pending": "Registrerer...",
+        "emptyTitle": "Ingen passkeys endnu",
+        "emptyText": "Tilføj en, så du kan logge ind med fingeraftryk, ansigt eller enhedens skærmlås i stedet for din adgangskode. Din adgangskode virker stadig.",
+        "deleteConfirm": "Fjern denne passkey? Du kan ikke længere logge ind med den.",
+        "cancel": "Annuller",
+        "removing": "Fjerner...",
+        "createTitle": "Opret en passkey",
+        "createSubtitle": "Med en passkey kan du logge ind med fingeraftryk, ansigt eller enhedens skærmlås. Den gemmes af din enhed eller adgangskodeadministrator og forlader den aldrig.",
+        "nameLabel": "Navn på passkey",
+        "nameHint": "Så du kan kende dine passkeys fra hinanden, for eksempel enheden eller adgangskodeadministratoren, den er gemt i.",
+        "whatHappensTitle": "Hvad sker der nu",
+        "whatHappens1": "Din browser eller adgangskodeadministrator spørger, hvor passkeyen skal gemmes.",
+        "whatHappens2": "Bekræft med fingeraftryk, ansigt eller skærmlås.",
+        "whatHappens3": "Fra nu af kan du vælge passkeyen, når du logger ind.",
+        "create": "Opret passkey",
+        "waiting": "Følg anvisningerne fra din browser eller adgangskodeadministrator…",
+        "cancelled": "Der blev ikke oprettet nogen passkey. Du kan prøve igen.",
+        "doneTitle": "Passkey tilføjet",
+        "doneSubtitle": "Du kan nu logge ind med \"{name}\". Din adgangskode virker også stadig.",
+        "done": "Færdig",
+        "back": "Tilbage",
+        "removeError": "Adgangsnøglen kunne ikke fjernes. Prøv igen.",
+        "defaultName": "{browser} på {system}",
+        "rowDescription": "Log ind med dit fingeraftryk, dit ansigt eller din enheds pinkode."
+      },
+      "activityModal": {
+        "title": "Loginaktivitet for kontoen",
+        "subtitle": "Hvor din konto er logget ind lige nu. Log ud af enheder, du ikke genkender.",
+        "unknownDevice": "Ukendt enhed",
+        "unknownLocation": "Ukendt placering",
+        "currentDevice": "Denne enhed",
+        "lastActive": "Sidst aktiv {date}",
+        "revoke": "Log ud",
+        "revokePending": "Arbejder...",
+        "revokeAllTitle": "Logins på andre enheder",
+        "revokeAll": "Log ud af alle andre enheder",
+        "revokeAllPending": "Arbejder...",
+        "revokeSuccess": "Sessionen er tilbagekaldt.",
+        "revokeAllSuccess": "Alle andre sessioner er logget ud.",
+        "revokeError": "Sessionen kunne ikke tilbagekaldes.",
+        "viewMore": "+ {count} andre enheder",
+        "activeNow": "Aktiv nu",
+        "thisDeviceTitle": "Denne enhed",
+        "otherEmpty": "Du er ikke logget ind på nogen andre enheder.",
+        "showAll": "Vis alle {count}",
+        "revokeAllConfirm": "Log ud på alle {count} andre enheder? Alle, der bruger dem, skal logge ind igen.",
+        "cancel": "Annuller"
+      },
+      "automatedDecisions": {
+        "title": "Automatiske afgørelser",
+        "description": "Nogle afgørelser om beskyttelse af kontoen træffes automatisk ud fra signaler som loginmønstre og mistænkelig aktivitet. Du kan bede en person hos Ordnary om at gennemgå resultatet.",
+        "back": "Tilbage",
+        "close": "Luk",
+        "loading": "Indlæser…",
+        "currentStateTitle": "Nuværende automatisk tilstand",
+        "riskLabels": {
+          "LOW": "Lav risiko",
+          "MEDIUM": "Middel risiko",
+          "HIGH": "Høj risiko"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktiv",
+          "SUSPENDED": "Midlertidigt suspenderet",
+          "DEACTIVATED": "Deaktiveret",
+          "DELETED": "Afventer sletning"
+        },
+        "suspendedExplanation": "Din konto er i øjeblikket begrænset af en automatisk regel. Du kan bede om en gennemgang af en person nedenfor. En person hos Ordnary ser på signalerne og din udtalelse og bekræfter eller omstøder afgørelsen.",
+        "elevatedExplanation": "Risikoniveauet for din konto er blevet hævet på grund af seneste aktivitet. Du kan bede om en gennemgang af en person, hvis du mener, at signalerne er forkerte.",
+        "okExplanation": "Vi har ikke markeret nogen automatiske begrænsninger på din konto. Du kan stadig bede om en gennemgang af tidligere afgørelser nedenfor.",
+        "lastEvaluated": "Senest vurderet",
+        "signalsTitle": "Seneste sikkerhedssignaler",
+        "signalsEmpty": "Der er ikke registreret nogen sikkerhedssignaler for nylig.",
+        "appealTitle": "Bed om gennemgang af en person",
+        "appealSubtitle": "En medarbejder hos Ordnary ser på den automatiske afgørelse, din udtalelse og de underliggende signaler. Vi stræber efter at svare inden for rimelig tid.",
+        "pickReason": "Hvad vil du bestride?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Jeg mener, at suspenderingen er forkert",
+          "RISK_LEVEL_OBJECTION": "Jeg mener, at mit risikoniveau er forkert",
+          "SECURITY_EVENT_OBJECTION": "Jeg vil bestride et bestemt sikkerhedssignal",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Jeg vil have en person til at gennemgå automatiske afgørelser på min konto"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Din konto er i øjeblikket suspenderet, og du vil gerne have afgørelsen gennemgået.",
+          "RISK_LEVEL_OBJECTION": "Dit risikoniveau er højere end forventet, og du vil gerne have det vurderet igen.",
+          "SECURITY_EVENT_OBJECTION": "En bestemt sikkerhedshændelse er blevet registreret, som du ikke genkender.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Du vil have en person til at se på automatiske afgørelser på din konto."
+        },
+        "yourStatement": "Din udtalelse (valgfri)",
+        "statementPlaceholder": "Fortæl os alt, vi bør vide, for eksempel at du var på rejse, brugte en ny enhed, eller at en anden har prøvet at bryde ind.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Indsend anmodning om gennemgang",
+        "submitting": "Indsender...",
+        "submitted": "Vi har modtaget din anmodning og vender tilbage til dig.",
+        "pendingTitle": "Gennemgang i gang",
+        "pendingSubtitle": "En person hos Ordnary ser på din anmodning. Du får besked, når der er nyt.",
+        "withdraw": "Træk anmodning tilbage",
+        "withdrawing": "Trækker tilbage...",
+        "withdrawn": "Anmodningen er trukket tilbage.",
+        "withdrawableHint": "Du kan til enhver tid trække denne anmodning tilbage.",
+        "historyTitle": "Tidligere anmodninger om gennemgang",
+        "historyEmpty": "Ingen tidligere anmodninger om gennemgang.",
+        "outcomes": {
+          "UPHELD": "Fastholdt",
+          "OVERTURNED": "Omstødt",
+          "ADJUSTED": "Justeret",
+          "ESCALATED": "Eskaleret"
+        },
+        "statuses": {
+          "PENDING": "Afventer",
+          "IN_REVIEW": "Under gennemgang",
+          "RESOLVED": "Afgjort",
+          "WITHDRAWN": "Trukket tilbage"
+        },
+        "loadError": "Oplysningerne om automatiske afgørelser kunne ikke indlæses.",
+        "alreadyOpen": "Du har allerede en åben anmodning om gennemgang.",
+        "cooldown": "Du kan indsende en ny anmodning om gennemgang igen om {hours} time(r). Denne ventetid giver en medarbejder mulighed for at nå den forrige.",
+        "showAll": "Vis alle ({count})",
+        "showLess": "Vis færre"
+      },
+      "previewBadge": "Forhåndsvisning",
+      "previewBadgeTooltip": "Nyt og stadig under forbedring. Adgangsnøgler virker, men detaljer kan ændre sig."
+    },
+    "connections": {
+      "title": "Tilsluttede apps",
+      "description": "Apps, der har adgang til dine Ordnary-kontodata.",
+      "empty": "Du har endnu ikke tilsluttet nogen apps.",
+      "authorizedScopes": "Godkendte scopes: {scopes}",
+      "granted": "Givet: {date}",
+      "revoke": "Tilbagekald adgang"
+    },
+    "devices": {
+      "title": "Enheder og sessioner",
+      "description": "Administrer dine aktive sessioner på tværs af enheder.",
+      "logoutOthers": "Log ud af alle andre enheder",
+      "headers": {
+        "device": "Enhed",
+        "location": "Placering / IP",
+        "lastActive": "Sidst aktiv",
+        "type": "Type",
+        "actions": "Handlinger"
+      },
+      "unknownDevice": "Ukendt enhed",
+      "currentSession": "(Nuværende session)",
+      "typeFormat": "{browser} på {os}",
+      "revoke": "Tilbagekald"
+    },
+    "passkeysPage": {
+      "title": "Adgangsnøgler",
+      "description": "Administrer dine biometriske data og hardwarenøgler til login uden adgangskode.",
+      "add": "+ Tilføj ny adgangsnøgle",
+      "empty": "Du har endnu ikke tilføjet nogen adgangsnøgler.",
+      "unnamed": "Unavngivet adgangsnøgle",
+      "addedOn": "Tilføjet den: {date}",
+      "lastUsed": "Sidst brugt: {date}",
+      "never": "Aldrig",
+      "delete": "Slet"
+    },
+    "activity": {
+      "title": "Seneste aktivitet",
+      "description": "Gennemgå og overvåg vigtige hændelser og ændringer i din kontos sikkerhed.",
+      "details": "Detaljer",
+      "dates": {
+        "today": "I dag, 17. april",
+        "yesterday": "I går, 16. april"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Logget ind",
+        "LOGIN_FAILED": "Login mislykkedes",
+        "LOGIN_LOCKED": "Login blokeret",
+        "LOGOUT": "Logget ud",
+        "SESSION_CREATED": "Session oprettet",
+        "SESSION_REVOKED": "Session afsluttet",
+        "SESSION_ALL_REVOKED": "Logget ud overalt",
+        "PASSWORD_SET": "Adgangskode oprettet",
+        "PASSWORD_CHANGED": "Adgangskode ændret",
+        "PASSWORD_RESET_REQUESTED": "Nulstilling af adgangskode anmodet",
+        "PASSWORD_RESET_COMPLETED": "Adgangskode nulstillet",
+        "PASSKEY_REGISTERED": "Adgangsnøgle registreret",
+        "PASSKEY_USED": "Logget ind med en adgangsnøgle",
+        "PASSKEY_REMOVED": "Adgangsnøgle fjernet",
+        "PASSKEY_COUNTER_MISMATCH": "Advarsel om adgangsnøgle",
+        "MFA_ENABLED": "Totrinsgodkendelse slået til",
+        "MFA_DISABLED": "Totrinsgodkendelse deaktiveret",
+        "MFA_FACTOR_ENROLLED": "Godkendelsesapp tilføjet",
+        "MFA_FACTOR_VERIFIED": "Godkendelsesapp bekræftet",
+        "MFA_FACTOR_REVOKED": "Godkendelsesapp fjernet",
+        "RECOVERY_CODES_GENERATED": "Nye gendannelseskoder",
+        "RECOVERY_CODE_USED": "Gendannelseskode brugt",
+        "STEP_UP_REQUIRED": "Bekræftelse anmodet",
+        "STEP_UP_COMPLETED": "Bekræftet, at det er dig",
+        "EMAIL_ADDED": "E-mailadresse tilføjet",
+        "EMAIL_VERIFIED": "E-mailadresse bekræftet",
+        "EMAIL_REMOVED": "E-mailadresse fjernet",
+        "EMAIL_PRIMARY_CHANGED": "Primær e-mail ændret",
+        "ACCOUNT_CREATED": "Konto oprettet",
+        "ACCOUNT_UPDATED": "Konto opdateret",
+        "ACCOUNT_DELETED": "Sletning af konto startet",
+        "ACCOUNT_REACTIVATED": "Konto genaktiveret",
+        "OAUTH_CONSENT_GRANTED": "App har fået adgang",
+        "OAUTH_CONSENT_REVOKED": "Apps adgang fjernet",
+        "OAUTH_TOKEN_ISSUED": "App logget ind",
+        "OAUTH_TOKEN_REVOKED": "App logget ud",
+        "SUSPICIOUS_NEW_LOCATION": "Login fra et nyt sted",
+        "SUSPICIOUS_NEW_DEVICE": "Login på en ny enhed",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Usædvanligt login",
+        "NOTIFICATION_PREFERENCE_CHANGED": "E-mailpræferencer ændret",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Afmeldt",
+        "PRIVACY_REQUEST_FILED": "Privatlivsanmodning indsendt",
+        "PRIVACY_REQUEST_RESOLVED": "Privatlivsanmodning behandlet",
+        "DSAR_FILED": "Dataanmodning indsendt",
+        "DSAR_FULFILLED": "Dataanmodning gennemført",
+        "DSAR_REJECTED": "Dataanmodning afvist",
+        "RISK_REVIEW_REQUESTED": "Gennemgang anmodet",
+        "RISK_REVIEW_RESOLVED": "Gennemgang afsluttet"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Middel",
+        "HIGH": "Høj",
+        "CRITICAL": "Kritisk",
+        "LOW": "Lav"
+      },
+      "empty": "Der er endnu ingen aktivitet på din konto.",
+      "filters": {
+        "all": "Alle",
+        "account": "Kontoændringer",
+        "security": "Sikkerhedsadvarsler"
+      },
+      "retention": "Aktivitet gemmes i {days} dage. Du kan ændre det under {link}.",
+      "retentionLink": "Dine oplysninger og tilladelser",
+      "emptyFiltered": "Der er intet at vise i denne visning.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Nogen loggede ind på din konto med adgangskoden eller en loginkode.",
+        "LOGIN_FAILED": "Nogen forsøgte at logge ind på din konto, men adgangskoden eller koden var forkert. Nogle få af disse er som regel en tastefejl.",
+        "LOGIN_LOCKED": "Efter for mange forkerte forsøg blev login på din konto blokeret et stykke tid for at beskytte den.",
+        "LOGOUT": "En session på din konto blev logget ud.",
+        "SESSION_CREATED": "Din konto blev logget ind på en enhed eller i en browser, hvilket startede en ny session.",
+        "SESSION_REVOKED": "En session på din konto blev logget ud, af dig eller fordi den ikke længere var sikker at beholde.",
+        "SESSION_ALL_REVOKED": "Din konto blev logget ud på alle andre enheder.",
+        "PASSWORD_SET": "Der blev tilføjet en adgangskode til din konto.",
+        "PASSWORD_CHANGED": "Adgangskoden til din konto blev ændret.",
+        "PASSWORD_RESET_REQUESTED": "En kode til at nulstille din adgangskode blev sendt til din e-mailadresse.",
+        "PASSWORD_RESET_COMPLETED": "Din adgangskode blev nulstillet med en kode fra din e-mail, og du blev logget ud overalt.",
+        "PASSKEY_REGISTERED": "Der blev tilføjet en adgangsnøgle, så du kan logge ind med din enhed i stedet for en adgangskode.",
+        "PASSKEY_USED": "Nogen loggede ind på din konto med en af dens adgangsnøgler.",
+        "PASSKEY_REMOVED": "En adgangsnøgle blev fjernet og kan ikke længere bruges til at logge ind.",
+        "PASSKEY_COUNTER_MISMATCH": "En adgangsnøgle rapporterede noget uventet, hvilket kan betyde, at den er blevet kopieret. Login blev afvist.",
+        "MFA_ENABLED": "Ved login bliver du nu også bedt om en kode fra din godkendelsesapp.",
+        "MFA_DISABLED": "Ved login bliver du ikke længere bedt om en kode fra din godkendelsesapp.",
+        "MFA_FACTOR_ENROLLED": "En godkendelsesapp blev knyttet til din konto.",
+        "MFA_FACTOR_VERIFIED": "En kode fra din godkendelsesapp blev bekræftet.",
+        "MFA_FACTOR_REVOKED": "En godkendelsesapp blev fjernet fra din konto.",
+        "RECOVERY_CODES_GENERATED": "Der blev oprettet et nyt sæt gendannelseskoder. De gamle koder virker ikke længere.",
+        "RECOVERY_CODE_USED": "Nogen loggede ind med en af dine gendannelseskoder i stedet for en kode fra godkendelsesappen. Den kode kan ikke bruges igen.",
+        "STEP_UP_REQUIRED": "Før en følsom ændring blev du bedt om at bekræfte, at det var dig, med en kode via e-mail.",
+        "STEP_UP_COMPLETED": "En kode via e-mail bekræftede, at det var dig, hvilket tillod en følsom ændring i et stykke tid.",
+        "EMAIL_ADDED": "En e-mailadresse blev tilføjet til din konto og fik tilsendt et bekræftelseslink.",
+        "EMAIL_VERIFIED": "En e-mailadresse på din konto blev bekræftet.",
+        "EMAIL_REMOVED": "En e-mailadresse blev fjernet fra din konto.",
+        "EMAIL_PRIMARY_CHANGED": "En anden e-mailadresse blev din kontos primære adresse til login og beskeder.",
+        "ACCOUNT_CREATED": "Din Ordnary-konto blev oprettet.",
+        "ACCOUNT_UPDATED": "En indstilling eller oplysning på din konto blev ændret.",
+        "ACCOUNT_DELETED": "Din konto blev sat til sletning. Den kan gendannes i 30 dage.",
+        "ACCOUNT_REACTIVATED": "Din konto blev aktiveret igen efter at være blevet deaktiveret eller slettet.",
+        "OAUTH_CONSENT_GRANTED": "En app fik adgang til din konto med Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "En app har ikke længere adgang til din konto.",
+        "OAUTH_TOKEN_ISSUED": "En app, du bruger med Ordnary ID, fik et nyt login-token.",
+        "OAUTH_TOKEN_REVOKED": "Et login-token til en app blev tilbagekaldt.",
+        "SUSPICIOUS_NEW_LOCATION": "Din konto blev brugt fra et sted, hvor den ikke er blevet brugt før.",
+        "SUSPICIOUS_NEW_DEVICE": "Din konto blev brugt på en enhed, hvor den ikke er blevet brugt før.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Din konto blev brugt fra to steder, der ligger for langt fra hinanden til, at én person kunne nå at rejse mellem dem i den tid.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Det blev ændret, hvilke e-mails Ordnary må sende dig.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Et afmeldingslink i en e-mail slog en type e-mails fra.",
+        "PRIVACY_REQUEST_FILED": "Der blev indsendt en anmodning om at gøre indsigelse mod eller begrænse behandlingen af dine data.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary har behandlet din anmodning om indsigelse eller begrænsning af behandling.",
+        "DSAR_FILED": "Der blev indsendt en anmodning om dine data (indsigt, berigtigelse, sletning eller en kopi).",
+        "DSAR_FULFILLED": "Ordnary har gennemført din dataanmodning.",
+        "DSAR_REJECTED": "Ordnary har afvist din dataanmodning; e-mailen forklarer hvorfor.",
+        "RISK_REVIEW_REQUESTED": "Der blev anmodet om en gennemgang af en automatisk afgørelse om din konto.",
+        "RISK_REVIEW_RESOLVED": "En person hos Ordnary har gennemgået en automatisk afgørelse om din konto."
+      },
+      "detail": {
+        "ifNotYou": "Var det ikke dig? Skift din adgangskode, og log dine andre enheder ud under Adgangskode og sikkerhed.",
+        "ifNotYouLink": "Gå til Adgangskode og sikkerhed",
+        "generic": "Dette blev registreret på din konto.",
+        "labels": {
+          "when": "Hvornår",
+          "where": "Hvor",
+          "ip": "IP-adresse",
+          "session": "Session",
+          "thisDevice": "Denne enhed",
+          "event": "Hændelse",
+          "source": "Registreret i",
+          "severity": "Vigtighed"
+        },
+        "sources": {
+          "AUDIT_LOG": "Kontolog",
+          "SECURITY_EVENT": "Sikkerhedsovervågning"
+        },
+        "unknown": "Ukendt",
+        "times": "{count}×",
+        "timeSpan": "{from} til {to}"
+      },
+      "showMore": "Vis tidligere dage",
+      "loadingMore": "Indlæser…",
+      "end": "Det er al den aktivitet, der gemmes.",
+      "loadFailed": "Kunne ikke indlæse mere. Prøv igen."
+    },
+    "connectedAppsDemo": {
+      "title": "Tilsluttede apps",
+      "description": "Tredjepartsapps og -tjenester, du har givet adgang til nogle af dine kontodata.",
+      "badges": {
+        "official": "Officiel",
+        "verified": "Bekræftet"
+      },
+      "accessed": "Tilgået {value}",
+      "revoke": "Tilbagekald adgang",
+      "apps": {
+        "consoleReason": "Administrer dine skyressourcer og deployment-pipelines.",
+        "figmaReason": "Designværktøj til samarbejdende prototyper.",
+        "unknownGameName": "Ukendt spil",
+        "unknownGameReason": "En ubekræftet app, der har bedt om dine profiloplysninger.",
+        "currentSession": "Nuværende session",
+        "twoDaysAgo": "For 2 dage siden",
+        "lastMonth": "Sidste måned"
+      }
+    },
+    "permissions": {
+      "title": "Dine oplysninger og tilladelser",
+      "exportTitle": "Eksportér dine oplysninger",
+      "searchHistory": "Ordnary-aktivitet",
+      "externalActivity": "Din aktivitet uden for Ordnary-teknologier",
+      "appConnections": "Appforbindelser",
+      "manageContacts": "Administrer kontakter",
+      "notice": "Gå til Eksportér dine oplysninger for at hente eller overføre en kopi af dine oplysninger.",
+      "footer": "Bestem, hvilke oplysninger Ordnary-teknologier må bruge til at påvirke dine oplevelser.",
+      "privacyRightsTitle": "Dine privatlivsrettigheder",
+      "dsarTitle": "Privatlivs- og dataanmodninger",
+      "dsarSubtitle": "Indsend en formel anmodning om indsigt, berigtigelse, sletning eller dataportabilitet (art. 15-20).",
+      "privacyRequestsTitle": "Indsigelse eller begrænsning",
+      "privacyRequestsSubtitle": "Gør indsigelse mod eller begræns bestemte behandlinger (art. 18 / art. 21).",
+      "processorsTitle": "Hvem behandler dine data",
+      "processorsSubtitle": "De virksomheder, vi bruger til at drive Ordnary, hvad de modtager, og hvor de opbevarer det.",
+      "cookiesTitle": "Cookiepræferencer",
+      "cookiesSubtitle": "Administrer, hvilke cookies Ordnary må bruge i denne browser.",
+      "minorConsentTitle": "Forældresamtykke",
+      "minorConsentSubtitle": "Hvis du er under den alder, hvor du selv kan give samtykke i dit land, skal en forælder eller værge give samtykke (GDPR art. 8).",
+      "notificationsTitle": "Notifikationspræferencer",
+      "notificationsSubtitle": "Vælg, hvilke slags mails Ordnary må sende dig.",
+      "notifications": {
+        "title": "Notifikationspræferencer",
+        "close": "Luk",
+        "loading": "Indlæser…",
+        "alwaysOn": "Altid til",
+        "description": "Vælg, hvilke e-mails du får fra Ordnary.",
+        "loadError": "Vi kunne ikke indlæse det lige nu. Prøv igen senere.",
+        "saveError": "Vi kunne ikke gemme det. Prøv igen.",
+        "saved": "Gemt.",
+        "alwaysTitle": "Altid slået til",
+        "alwaysText": "Disse e-mails holder din konto sikker og bekræfter det, du har bedt om, så de forbliver slået til.",
+        "choiceTitle": "Dit valg",
+        "turnAllOff": "Slå alle valgfri e-mails fra",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Sikkerhedsadvarsler",
+          "TRANSACTIONAL_ACCOUNT": "Kontobeskeder",
+          "PRODUCT_UPDATES": "Produktnyheder",
+          "RECOMMENDATIONS": "Anbefalinger",
+          "MARKETING": "Nyheder og tilbud"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Login-koder, nulstilling af adgangskode og advarsler om nye logins eller ændringer i din sikkerhed.",
+          "TRANSACTIONAL_ACCOUNT": "Bekræftelser af det, du har gjort, fx en dataeksport, en privatlivsanmodning eller forældresamtykke.",
+          "PRODUCT_UPDATES": "Hvad der er nyt i Ordnarys produkter, og ændringer i vores vilkår.",
+          "RECOMMENDATIONS": "Forslag baseret på, hvordan du bruger Ordnary.",
+          "MARKETING": "Nyhedsbreve og tilbud, en gang imellem."
+        }
+      },
+      "minorConsent": {
+        "title": "Forældresamtykke",
+        "description": "Hvis du er yngre end den alder, hvor du selv kan give samtykke online, skal en forælder eller værge give samtykke, før vi kan bruge nogle af dine oplysninger. Det følger af artikel 8 i GDPR.",
+        "close": "Luk",
+        "loading": "Indlæser…",
+        "loadError": "Vi kunne ikke indlæse det lige nu. Prøv igen senere.",
+        "consentAge": "Samtykkealder i {country}: {age}",
+        "yourAge": "Din alder: {age}",
+        "adultTitle": "Ikke nødvendigt",
+        "adultBody": "Du er gammel nok til selv at give samtykke, så du behøver ikke en forælders samtykke.",
+        "unknownTitle": "Vi kender ikke din alder endnu",
+        "unknownBody": "Tilføj din fødselsdato, så vi kan se, om du har brug for en forælders samtykke.",
+        "unknownAction": "Tilføj fødselsdato",
+        "blockedTitle": "Samtykke nødvendigt",
+        "blockedBody": "Indtil en forælder eller værge giver samtykke, er nogle dele af din konto begrænset.",
+        "pendingTitle": "Venter på din forælder eller værge",
+        "pendingBody": "Vi har sendt en anmodning til {email}. Linket virker indtil {date}.",
+        "verifiedTitle": "Samtykke givet",
+        "verifiedBody": "{email} gav samtykke den {date}.",
+        "parentEmail": "Forælderens eller værgens e-mail",
+        "relationship": "Hvem er det, for eksempel mor (valgfri)",
+        "addMessage": "Tilføj en besked (valgfri)",
+        "notes": "Besked til din forælder eller værge",
+        "submit": "Send anmodning",
+        "submitting": "Sender…",
+        "resend": "Send igen",
+        "changeEmail": "Brug en anden e-mail",
+        "cancel": "Annuller",
+        "revoke": "Træk tilbage",
+        "revokeConfirm": "Trække samtykket tilbage? Dele af din konto bliver begrænset igen, indtil en forælder eller værge giver samtykke igen.",
+        "revoking": "Trækker tilbage…",
+        "revoked": "Samtykket er trukket tilbage.",
+        "notMinor": "Du er gammel nok til selv at give samtykke.",
+        "invalidEmail": "Indtast en gyldig e-mailadresse.",
+        "requestSent": "Anmodning sendt til {email}.",
+        "points": [
+          {
+            "title": "Indtast deres mail",
+            "text": "E-mailadressen på en forælder eller værge."
+          },
+          {
+            "title": "De giver samtykke",
+            "text": "De får en mail med et link til at give samtykke. Linket virker i 14 dage."
+          },
+          {
+            "title": "Din konto virker fuldt ud",
+            "text": "Når de har givet samtykke, fjernes begrænsningerne på din konto."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Du kan eksportere en kopi af dine oplysninger til en ekstern tjeneste eller til din enhed. Tilgængelige data omfatter indhold og oplysninger, du har delt, din aktivitet og oplysninger, vi indsamler.",
+      "exportButton": "Send downloadlink",
+      "exportModalContentsTitle": "Det er med i din eksport:",
+      "exportModalContents": [
+        "Profildata og kontoindstillinger",
+        "E-mailadresser og telefonnumre",
+        "Sikkerhedsindstillinger (passkeys, MFA, enheder)",
+        "Session- og loginhistorik",
+        "Betalingsoplysninger",
+        "Tilsluttede apps og OAuth-samtykker",
+        "Aktivitetslog og sikkerhedshændelser",
+        "Samtykker til privatliv og cookies"
+      ],
+      "exportModalFormat": "Format: ZIP-arkiv med strukturerede JSON-filer og en læsbar README.",
+      "exportModalRateLimit": "Du får en mail med et downloadlink, der kun kan bruges én gang. Højst 3 eksporter pr. 24 timer.",
+      "exportDownload": {
+        "loading": "Et øjeblik...",
+        "readyTitle": "Din dataeksport er klar",
+        "readyDescription": "Klik på knappen nedenfor for at hente dine kontodata som et ZIP-arkiv. Linket kan kun bruges én gang og udløber efter 24 timer.",
+        "downloadButton": "Hent dine data",
+        "readyHint": "Filen indeholder alle dine personoplysninger, sikkerhedsindstillinger, aktivitetslog og meget mere i strukturerede JSON-filer.",
+        "downloadingTitle": "Henter...",
+        "downloadingDescription": "Din eksport bliver forberedt. Det kan tage et par sekunder.",
+        "successTitle": "Download startet",
+        "successDescription": "Din dataeksport bliver hentet. Gem filen et sikkert sted, da den indeholder følsomme personoplysninger.",
+        "successHint": "Dette downloadlink er nu udløbet. Hvis du har brug for en ny eksport, kan du bede om en i dine kontoindstillinger.",
+        "backToSettings": "Tilbage til kontoindstillinger",
+        "expiredTitle": "Linket er udløbet",
+        "expiredDescription": "Dette downloadlink er udløbet eller er allerede brugt. Downloadlinks er gyldige i 24 timer og kan kun bruges én gang.",
+        "newExportButton": "Bed om en ny eksport",
+        "errorTitle": "Noget gik galt",
+        "errorDefault": "Der opstod en fejl, da din eksport skulle hentes.",
+        "noToken": "Der blev ikke fundet noget downloadtoken."
+      },
+      "appConnectionsModalSubtitle": "Med appforbindelser kan du gøre ting i forskellige Ordnary-produkter og hos andre virksomheder.",
+      "connectButton": "Tilslut",
+      "activityModalSubtitle": "Se og administrer din aktivitet i Ordnary-økosystemet, herunder vores SaaS-produkter og apps. Vi bruger oplysningerne til at lære af din adfærd og forbedre din oplevelse på tværs af alle vores platforme.",
+      "accountsAndProfiles": "Dine konti og profiler",
+      "keepActivityFor": "Gem aktivitet i",
+      "clearActivityButton": "Ryd al aktivitet",
+      "days3": "3 dage",
+      "days7": "7 dage",
+      "days14": "14 dage",
+      "standardOption": "Standard",
+      "noticeTitle": "Få en kopi af dine oplysninger",
+      "noticeText": "Hent dine kontodata, så du kan beholde dem, eller flyt dem til en anden tjeneste.",
+      "noticeAction": "Eksportér oplysninger",
+      "experimentBadge": "Eksperiment",
+      "userFallback": "Bruger",
+      "avatarAlt": "Profilbillede",
+      "exportSent": "Downloadlink sendt til {email}",
+      "exportFailed": "Eksporten mislykkedes. Prøv igen.",
+      "exportInProgress": "Der er allerede en eksport under forberedelse. Prøv igen om lidt.",
+      "exportRateLimited": "Du har nået det maksimale antal eksporter. Prøv igen om {time}.",
+      "saveFailed": "Kunne ikke gemme. Prøv igen.",
+      "days30": "30 dage",
+      "autoClear": {
+        "title": "Ryd Ordnary-aktivitet automatisk",
+        "subtitle": "Vælg, hvor længe vi gemmer din aktivitet. Ældre aktivitet fjernes automatisk for alle konti og profiler i Kontocenter.",
+        "standard": "Standard",
+        "saving": "Gemmer…",
+        "saved": "Gemt.",
+        "back": "Tilbage",
+        "close": "Luk",
+        "howTitle": "Hvad der fjernes",
+        "howText": "Din loginhistorik og sikkerhedshændelserne på din konto, f.eks. nye logins, adgangskodeændringer og blokerede forsøg, når de er ældre end den periode, du har valgt.",
+        "howPermanent": "Fjernet aktivitet kan ikke gendannes. Hent en kopi først, hvis du vil beholde den.",
+        "learnMore": "Mere om automatisk rydning i Ordnary-dokumentationen"
+      },
+      "experimentBadgeTooltip": "Stadig under udvikling. Du kan kigge dig omkring, men tilslutning af apps virker ikke endnu."
+    },
+    "payments": {
+      "title": "Betal",
+      "subtitle": "Administrer dine gemte betalingsoplysninger, og hvilke konti der har adgang til dem. {learnMore}",
+      "syncInfo": "Synkroniseret mellem 2 konti",
+      "addMethodTitle": "Tilføj en betalingsmetode",
+      "addMethodSubtitle": "Gem et kort, eller forbind din PayPal, så dit næste køb bliver nemmere.",
+      "addMethodButton": "Tilføj betalingsmetode",
+      "shippingTitle": "Leveringsoplysninger",
+      "shippingAddress": "Leveringsadresse",
+      "emailAddress": "E-mailadresse",
+      "phoneNumber": "Telefonnummer",
+      "addModal": {
+        "title": "Tilføj en betalingsmetode",
+        "card": "Kredit- eller debetkort",
+        "paypal": "PayPal",
+        "footer": "Disse oplysninger gemmes hos Ordnary Pay og synkroniseres i Kontocenter, hvor de kan administreres. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Tilføj kort",
+        "subtitle": "Dit kortnummer er krypteret og gemt sikkert",
+        "cardNumber": "Kortnummer",
+        "expiry": "Udløbsdato (MM/ÅÅ)",
+        "cvv": "CVV",
+        "name": "Navn på kort",
+        "submit": "Næste",
+        "cvvTooltip": "Din kontrolkode (CVV) er sikkerhedsnummeret på bagsiden eller forsiden af dit kort.",
+        "footer": "Disse oplysninger gemmes hos Ordnary Pay og synkroniseres i Kontocenter, hvor de kan administreres. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Angiv leveringsadresse",
+        "subtitle": "Tilføj en leveringsadresse til Ordnary Pay. Den er adskilt fra opsætningen af dit kort.",
+        "search": "Søg efter adresse",
+        "country": "Land eller region",
+        "fullName": "Fulde navn",
+        "street": "Adresse",
+        "street2": "Adresselinje 2 (valgfri)",
+        "city": "By/område",
+        "state": "Stat/provins/region",
+        "zip": "Postnummer",
+        "submit": "Gem adresse"
+      }
+    },
+    "subscriptions": {
+      "description": "Administrer dine aktive Ordnary-abonnementer, fornyelser og faktureringsindstillinger.",
+      "emptyTitle": "Ingen aktive abonnementer",
+      "emptyDescription": "Abonnementer vises her, når de er knyttet til din konto.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Ubegrænset adgang til premium-medier fra Ordnary Pictures, herunder udvalgte film, serier, forhåndsvisninger og udgivelser kun for medlemmer på tværs af understøttede Ordnary-oplevelser.",
+          "status": "Aktiv",
+          "renewal": "Fornyes månedligt",
+          "price": "€9,99 om måneden"
+        }
+      },
+      "manageSubscription": "Administrer abonnement"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Adgang nægtet",
+        "description": "Du har ikke adgang til Kontocenter lige nu. Din session er muligvis udløbet, eller din konto er begrænset.",
+        "action": "Log ind igen"
+      },
+      "suspended": {
+        "title": "Konto deaktiveret",
+        "description": "Denne konto er deaktiveret eller midlertidigt begrænset. Kontakt support, hvis du mener, det er en fejl.",
+        "action": "Kontakt support"
+      },
+      "banned": {
+        "title": "Adgang permanent nægtet",
+        "description": "Din konto er blevet blokeret permanent for at overtræde vores servicevilkår.",
+        "action": "Se vilkår"
+      },
+      "offline": {
+        "title": "Ingen internetforbindelse",
+        "description": "Det ser ud til, at du er offline. Tjek din internetforbindelse for at fortsætte.",
+        "action": "Prøv igen"
+      },
+      "unknown": {
+        "title": "Systemfejl",
+        "description": "Der opstod en uventet fejl. Prøv igen senere.",
+        "action": "Tilbage til start"
+      },
+      "previousPage": "Forrige side"
+    },
+    "common": {
+      "noResults": "Ingen resultater",
+      "searchPlaceholder": "Søg..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} vil have adgang til din konto",
+      "description": "Du er logget ind som {displayName}. Giv kun adgang, hvis du stoler på denne app.",
+      "requestedPermissions": "Anmodede tilladelser",
+      "approve": "Giv adgang",
+      "deny": "Afvis",
+      "errorTitle": "Der er et problem med anmodningen",
+      "errorDescription": "Godkendelsesanmodningen er ugyldig eller ufuldstændig. Tjek parametrene.",
+      "unknownAppTitle": "Appen kan ikke bekræftes",
+      "unknownAppDescription": "Denne app kan ikke identificeres af Ordnary. Det skyldes som regel en forkert client_id eller redirect_uri. Af hensyn til din sikkerhed kan vi ikke fortsætte."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Denne side er ikke tilgængelig",
+      "description": "Linket kan være ødelagt, eller siden kan være fjernet. Tjek, at det link, du prøver at åbne, er korrekt.",
+      "button": "Gå til kontoindstillinger"
+    },
+    "serverError": {
+      "title": "Noget gik galt",
+      "description": "Der opstod en uventet fejl. Prøv igen senere.",
+      "button": "Prøv igen"
+    }
+  },
+  "cookieConsent": {
+    "title": "Tillad brug af cookies fra Ordnary i denne browser?",
+    "description": "Vi bruger cookies og lignende teknologier til at levere indhold i Ordnary-produkter og til at forbedre dem. Vi bruger dem også til at give en mere sikker oplevelse ved hjælp af oplysninger, vi modtager på og uden for Ordnary. Disse cookies er valgfrie.",
+    "essentialTitle": "Nødvendige cookies",
+    "essentialDesc": "Disse cookies er nødvendige for at bruge Ordnary-produkter og for, at vores websteder fungerer korrekt.",
+    "optionalTitle": "Cookies fra andre virksomheder",
+    "optionalDesc": "Vi bruger disse cookies til at vise dig annoncer uden for Ordnary-produkter og til at levere funktioner som kort og videoer i Ordnary-produkter. Disse cookies er valgfrie.",
+    "policyInfo": "Du bestemmer, hvilke valgfrie cookies vi må bruge. I vores {cookiePolicy} finder du mere om cookies, og hvordan vi bruger dem, og du kan til enhver tid gennemgå eller ændre dine valg.",
+    "cookiePolicy": "cookiepolitik",
+    "infoTitle": "Oplysninger om cookies",
+    "policyRefreshNotice": "Vi har opdateret, hvordan vi registrerer cookievalg. Bekræft dine præferencer igen, så vi kan have en opdateret registrering.",
+    "policyRevisionNotice": "Vores cookiepolitik er blevet opdateret. Gennemgå dine præferencer igen.",
+    "preferencesTitle": "Dine cookiepræferencer",
+    "preferencesDescription": "Vælg, hvilke kategorier af cookies Ordnary må bruge i denne browser. Du kan til enhver tid ændre disse indstillinger fra din konto.",
+    "alwaysOn": "Altid til",
+    "categories": {
+      "essential": {
+        "title": "Nødvendige",
+        "description": "Kræves for login, sikkerhed og for, at resten af produktet fungerer."
+      },
+      "functional": {
+        "title": "Funktionelle",
+        "description": "Husker præferencer som sprog, tema og seneste konti."
+      },
+      "analytics": {
+        "title": "Analyse",
+        "description": "Hjælper os med at forstå, hvordan Ordnary bruges, så vi kan forbedre det."
+      },
+      "marketing": {
+        "title": "Markedsføring",
+        "description": "Personlige beskeder fra Ordnary om produkter og tilbud."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Hvad er cookies?",
+        "button": "Læs mere"
+      },
+      "why": {
+        "title": "Hvorfor bruger vi cookies?",
+        "button": "Læs mere"
+      },
+      "products": {
+        "title": "Hvad er Ordnary-produkter?",
+        "button": "Læs mere"
+      },
+      "preferences": {
+        "title": "Dine cookiepræferencer",
+        "button": "Læs mere"
+      }
+    },
+    "buttons": {
+      "reject": "Afvis valgfrie cookies",
+      "accept": "Tillad alle cookies",
+      "rejectShort": "Afvis",
+      "acceptShort": "Tillad",
+      "customize": "Tilpas",
+      "save": "Gem præferencer",
+      "saveShort": "Gem",
+      "close": "Luk"
+    }
+  },
+  "recentAccounts": {
+    "title": "Log ind med din Ordnary-konto",
+    "continueAs": "Fortsæt som {name}",
+    "loginAnother": "Log ind med en anden konto",
+    "remove": "Fjern konto"
+  },
+  "reauthenticate": {
+    "title": "Bekræft, at det er dig",
+    "description": "Hej {name}, af hensyn til din sikkerhed skal vi bekræfte, at det er dig, før du kan {action}.",
+    "codeSentTo": "Vi har sendt en kode til {email}.",
+    "codeSent": "Vi har sendt en 6-cifret sikkerhedskode til din e-mail.",
+    "securityCode": "Sikkerhedskode",
+    "continue": "Fortsæt",
+    "verifying": "Bekræfter…",
+    "sending": "Sender…",
+    "cancel": "Annuller",
+    "errors": {
+      "sendFailed": "Sikkerhedskoden kunne ikke sendes.",
+      "invalidCode": "Ugyldig kode.",
+      "network": "Netværksfejl. Prøv igen."
+    },
+    "actions": {
+      "changePassword": "ændre din adgangskode",
+      "changeEmail": "administrere dine e-mailadresser",
+      "managePasskeys": "administrere dine adgangsnøgler",
+      "manageMfa": "administrere tofaktorgodkendelse",
+      "revokeAllSessions": "logge ud overalt",
+      "manageAccount": "deaktivere eller slette din konto",
+      "rotateClientSecret": "udskifte denne klienthemmelighed",
+      "managePaymentMethods": "administrere dine betalingsmetoder",
+      "authorizeApp": "godkende denne applikation",
+      "generic": "fortsætte denne følsomme handling"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Bekræft forældresamtykke",
+    "description": "En bruger har bedt dig om at godkende deres Ordnary-konto i henhold til GDPR art. 8. Klik på bekræft nedenfor for at registrere dit samtykke. Du kan til enhver tid trække det tilbage ved at svare på den oprindelige e-mail eller kontakte {email}.",
+    "idle": "Denne side skal åbnes fra linket i anmodningsmailen, så bekræftelsestokenet er med.",
+    "verifying": "Bekræfter…",
+    "success": "Tak. Forældresamtykket er bekræftet, og vi har låst kontoen op hos brugeren. Brugeren får også en besked.",
+    "errors": {
+      "tokenRequired": "Der blev ikke angivet et bekræftelsestoken.",
+      "tokenNotFound": "Dette bekræftelseslink er ikke længere gyldigt.",
+      "alreadyVerified": "Denne bekræftelse er allerede registreret.",
+      "requestRevoked": "Denne anmodning er trukket tilbage eller erstattet af en nyere.",
+      "tokenExpired": "Dette bekræftelseslink er udløbet. Bed brugeren om at sende en ny anmodning.",
+      "invalidBody": "Bekræftelsesanmodningen var ugyldig.",
+      "generic": "Vi kunne ikke bekræfte dette bekræftelseslink. Bed brugeren om at sende en ny anmodning."
+    }
+  },
+  "unsubscribe": {
+    "title": "Afmeld",
+    "idle": "Åbn denne side fra linket i e-mailen, så afmeldingstokenet er med.",
+    "verifying": "Gemmer din indstilling…",
+    "success": "Du er blevet afmeldt.",
+    "successWithCategory": "Du er blevet afmeldt {category}.",
+    "manageAt": "Du kan til enhver tid finjustere alle dine indstillinger for notifikationer på {link}.",
+    "categories": {
+      "transactionalSecurity": "sikkerhedsadvarsler",
+      "transactionalAccount": "kontonotifikationer",
+      "productUpdates": "produktopdateringer",
+      "recommendations": "anbefalinger",
+      "marketing": "marketingmails"
+    },
+    "errors": {
+      "tokenRequired": "Der blev ikke angivet et afmeldingstoken.",
+      "tokenNotFound": "Dette afmeldingslink er ikke længere gyldigt.",
+      "alreadyRedeemed": "Du har allerede afmeldt denne kategori.",
+      "tokenExpired": "Dette afmeldingslink er udløbet. Du kan administrere indstillinger i Kontocenter, når du er logget ind.",
+      "categoryMandatory": "Denne kategori kan ikke slås fra, da den dækker sikkerhedsnotifikationer og notifikationer, der kræves for kontoen.",
+      "generic": "Vi kunne ikke behandle dette afmeldingslink. Log ind, og juster dine indstillinger direkte."
+    }
+  },
+  "dsarVerify": {
+    "title": "Bekræft din anmodning om privatliv",
+    "description": "Bekræft, at du har sendt denne anmodning om dine data til Ordnary. Hvis ikke, så luk siden og giv os besked på {email}.",
+    "idle": "Åbn denne side fra linket i den e-mail, vi sendte, så bekræftelsen er med.",
+    "confirm": "Bekræft anmodning",
+    "verifying": "Bekræfter…",
+    "success": "Tak, din anmodning er bekræftet. Vi behandler den inden for den lovpligtige frist og skriver, når den er klar.",
+    "errors": {
+      "tokenRequired": "Dette link mangler bekræftelseskoden.",
+      "tokenNotFound": "Dette link er ikke længere gyldigt.",
+      "tokenExpired": "Dette link er udløbet. Send anmodningen igen fra Kontocenter.",
+      "alreadyProcessed": "Denne anmodning er allerede bekræftet eller behandlet.",
+      "generic": "Vi kunne ikke bekræfte anmodningen. Prøv igen, eller kontakt {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Du er logget ud. Log ind igen, og prøv igen.",
+    "not_authenticated": "Du er logget ud. Log ind igen, og prøv igen.",
+    "step_up_required": "Bekræft først, at det er dig, og prøv så igen.",
+    "rate_limited": "For mange forsøg. Vent et par minutter, og prøv igen.",
+    "first_party_only": "Det er kun tilgængeligt i Ordnarys egne apps.",
+    "invalid_request": "Der er noget galt med denne anmodning. Genindlæs siden, og prøv igen.",
+    "invalid_body": "Der er noget galt med denne anmodning. Genindlæs siden, og prøv igen.",
+    "invalid_action": "Den handling er ikke tilgængelig her.",
+    "missing_fields": "Udfyld alle felterne.",
+    "internal_error": "Noget gik galt hos os. Prøv igen om lidt.",
+    "internal_server_error": "Noget gik galt hos os. Prøv igen om lidt.",
+    "unavailable": "Det er ikke tilgængeligt lige nu. Prøv igen senere.",
+    "send_failed": "Vi kunne ikke sende e-mailen. Prøv igen om lidt.",
+    "user_not_found": "Vi kunne ikke finde denne konto.",
+    "invalid_email": "Indtast en gyldig e-mailadresse.",
+    "missing_address": "Indtast en e-mailadresse.",
+    "email_already_exists": "Den e-mailadresse er allerede i brug.",
+    "email_not_found": "Den e-mailadresse hører ikke til din konto.",
+    "cannot_delete_primary_email": "Du kan ikke fjerne din primære e-mailadresse.",
+    "failed_to_add_email": "Vi kunne ikke tilføje denne e-mailadresse.",
+    "failed_to_delete_email": "Vi kunne ikke fjerne denne e-mailadresse.",
+    "failed_to_send_verification_email": "Vi kunne ikke sende bekræftelsesmailen, så adressen blev ikke tilføjet.",
+    "no_email": "Din konto har ingen e-mailadresse, vi kan sende til.",
+    "no_primary_email": "Din konto har ingen primær e-mailadresse.",
+    "password_mismatch": "De nye adgangskoder er ikke ens.",
+    "password_incorrect": "Din nuværende adgangskode er forkert.",
+    "password_too_weak": "Den nye adgangskode opfylder ikke kravene.",
+    "password_change_failed": "Vi kunne ikke skifte din adgangskode.",
+    "no_password": "Din konto har endnu ikke en adgangskode.",
+    "passkey_not_found": "Den adgangsnøgle findes ikke længere.",
+    "missing_passkey_id": "Vælg først en adgangsnøgle.",
+    "session_not_found": "Den session findes ikke længere.",
+    "missing_session_id": "Vælg først en session.",
+    "cannot_revoke_current_session": "Du kan ikke logge den session ud, som du bruger her.",
+    "code_required": "Indtast koden fra e-mailen.",
+    "code_invalid": "Den kode er forkert.",
+    "code_expired": "Den kode er udløbet. Bed om en ny.",
+    "exists": "Du har allerede en.",
+    "not_deactivated": "Din konto er ikke deaktiveret.",
+    "grace_period_expired": "De 30 dage til at gendanne denne konto er gået.",
+    "token_required": "Dette link er ufuldstændigt.",
+    "token_not_found": "Dette link er ikke længere gyldigt.",
+    "token_expired": "Dette link er udløbet.",
+    "already_redeemed": "Dette link er allerede brugt.",
+    "already_downloaded": "Denne download er allerede brugt.",
+    "already_verified": "Det er allerede bekræftet.",
+    "already_processed": "Denne anmodning er allerede behandlet.",
+    "already_extended": "Fristen for denne anmodning er allerede forlænget.",
+    "invalid_date": "Indtast en gyldig dato.",
+    "birthday_verification_attempt_not_found": "Vi kunne ikke finde det id-tjek. Start forfra.",
+    "identity_verification_incomplete": "Id-tjekket er ikke færdigt endnu.",
+    "identity_verification_dob_mismatch": "Fødselsdatoen på dit id passer ikke med den, du indtastede.",
+    "identity_verification_dob_unavailable": "Vi kunne ikke læse en fødselsdato fra dit id.",
+    "missing_attempt_id": "Id-tjekket mangler. Start forfra.",
+    "invalid_kind": "Vælg, hvilken slags anmodning det er.",
+    "invalid_applies_to": "Vælg, hvad anmodningen gælder.",
+    "invalid_filed_by": "Angiv, hvem der indsender denne anmodning.",
+    "subject_email_required": "Indtast den e-mailadresse, som anmodningen handler om.",
+    "representative_email_required": "Indtast repræsentantens e-mailadresse.",
+    "request_not_found": "Vi kunne ikke finde denne anmodning.",
+    "request_already_open": "Du har allerede en åben anmodning af denne slags.",
+    "request_cooldown_active": "Du har for nylig indsendt denne anmodning. Prøv igen senere.",
+    "request_closed": "Denne anmodning er allerede lukket.",
+    "request_not_open": "Denne anmodning er ikke længere åben.",
+    "request_not_verified": "Denne anmodning er endnu ikke bekræftet.",
+    "request_revoked": "Denne anmodning er trukket tilbage eller erstattet.",
+    "no_download_for_kind": "Denne slags anmodning har ingen download.",
+    "export_already_in_progress": "En eksport er allerede ved at blive forberedt.",
+    "export_rate_limited": "Du har for nylig lavet en eksport. Prøv igen senere.",
+    "invalid_retention_days": "Vælg en af de tilbudte perioder.",
+    "invalid_category": "Den notifikationskategori findes ikke.",
+    "category_mandatory": "Disse e-mails kan ikke slås fra.",
+    "review_not_found": "Vi kunne ikke finde denne gennemgang.",
+    "review_already_open": "Du har allerede en åben gennemgang.",
+    "review_cooldown_active": "Du har for nylig bedt om en gennemgang. Prøv igen senere.",
+    "review_not_open": "Denne gennemgang er ikke længere åben.",
+    "review_not_pending": "Denne gennemgang kan ikke længere ændres.",
+    "invalid_review_type": "Vælg, hvilken slags gennemgang det er.",
+    "no_active_consent": "Der er intet aktivt samtykke at trække tilbage.",
+    "not_a_minor": "Denne konto kræver ikke forældresamtykke.",
+    "parent_email_required": "Indtast din forælders eller værges e-mailadresse.",
+    "invalid_parent_email": "Indtast en gyldig e-mailadresse til din forælder eller værge.",
+    "connection_not_found": "Den app er ikke længere tilsluttet.",
+    "client_not_found": "Vi kunne ikke finde den app.",
+    "too_large": "Den fil er for stor.",
+    "unsupported_type": "Den filtype understøttes ikke.",
+    "no_file": "Vælg først en fil."
+  }
+}

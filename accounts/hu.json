@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Fiókközpont",
+    "accountCenterSubtitle": "Kezeld a csatlakoztatott élményeidet és fiókbeállításaidat az Ordnary technológiáin keresztül.",
+    "learnMore": "További információ",
+    "loading": "Betöltés...",
+    "back": "Vissza",
+    "close": "Bezárás",
+    "backToHome": "Vissza a kezdőlapra"
+  },
+  "nav": {
+    "profiles": "Profilok",
+    "connectedExperiences": "Csatlakoztatott élmények",
+    "passwordAndSecurity": "Jelszó és biztonság",
+    "personalDetails": "Személyes adatok és beállítások",
+    "education": "Oktatás",
+    "permissions": "Adataid és jogosultságaid",
+    "adPreferences": "Hirdetési beállítások",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Előfizetések",
+    "accounts": "Fiókok",
+    "activity": "Tevékenység"
+  },
+  "education": {
+    "title": "Oktatás",
+    "description": "Erősítsd meg az iskolai e-mail-címeddel, hogy diák vagy, és megkapod a diákkedvezményeket az Ordnary azon termékeiben, ahol elérhetők.",
+    "statusLabel": "Diákstátusz",
+    "statuses": {
+      "none": "Nincs ellenőrizve",
+      "pending": "Arra várunk, hogy megnyisd a linket",
+      "verified": "Megerősítve",
+      "revoked": "Már nem aktív"
+    },
+    "details": {
+      "title": "Az adataid",
+      "school": "Iskola",
+      "email": "Iskolai e-mail-cím",
+      "verifiedOn": "Igazolás dátuma"
+    },
+    "dialog": {
+      "title": "Diákigazolás",
+      "subtitle": "Az iskolai e-mail-címeddel igazold, hogy diák vagy. Ezt a címet csak erre használjuk, és soha nem küldünk rá semmi mást.",
+      "close": "Bezárás",
+      "verifiedTitle": "Igazolva",
+      "verifiedBody": "{email}, {school}, {date} óta.",
+      "pendingTitle": "Várjuk, hogy megnyisd a hivatkozást",
+      "pendingBody": "Küldtünk egy hivatkozást a(z) {email} címre. A befejezéshez nyisd meg 24 órán belül.",
+      "revokedTitle": "Már nem aktív",
+      "revokedBody": "A diákstátuszod megszűnt. Igazold újra az iskolai e-mail-címeddel.",
+      "changeEmail": "Másik iskolai e-mail-cím használata",
+      "resend": "Küldés újra",
+      "cancel": "Mégse",
+      "emailLabel": "Iskolai e-mail-cím",
+      "detected": "{school}",
+      "notRecognised": "Ez nem tűnik iskolai e-mail-címnek. Azt a címet használd, amelyet az iskolád adott.",
+      "send": "Hivatkozás küldése",
+      "sending": "Küldés…",
+      "sent": "A hivatkozást elküldtük a(z) {email} címre.",
+      "sentWhileVerified": "Küldtünk egy hivatkozást a(z) {email} címre. Amíg meg nem nyitod, a jelenlegi iskoládnál igazolt maradsz.",
+      "points": [
+        {
+          "title": "Add meg az iskolai e-mail-címed",
+          "text": "Megmutatjuk, melyik iskolához tartozik a cím."
+        },
+        {
+          "title": "Nyisd meg a linket",
+          "text": "Küldünk egy linket erre a címre. 24 óráig működik."
+        },
+        {
+          "title": "Igazolva vagy",
+          "text": "A diákstátuszod aktív az Ordnary diákkedvezményt kínáló termékeiben."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "A diákstátuszod mostantól aktív.",
+      "verificationError": "Ez a link már nem működik. Kérj egy újat."
+    },
+    "errors": {
+      "not_academic": "Ez nem tűnik iskolai e-mail-címnek. Azt a címet használd, amelyet az iskolád adott.",
+      "account": "Hiba történt a fiókoddal. Próbáld újra később.",
+      "send_failed": "Most nem tudtuk elküldeni a hivatkozást. Próbáld újra később.",
+      "no_pending": "Nincs újraküldhető kérés. Add meg az iskolai e-mail-címedet.",
+      "not_authenticated": "A folytatáshoz jelentkezz be újra."
+    }
+  },
+  "profiles": {
+    "title": "Profilok",
+    "description": "Kezeld a csatlakoztatott élményeidet és fiókbeállításaidat az Ordnary technológiáin keresztül.",
+    "addAccounts": "Fiókok hozzáadása",
+    "detail": {
+      "aboutTitle": "A profilról",
+      "accessTitle": "Mihez fér hozzá a(z) {app}",
+      "linksTitle": "A(z) {app} szabályzatai",
+      "mainProfile": "Fő profil",
+      "connected": "Csatlakoztatott alkalmazás",
+      "verified": "Az Ordnary igazolta",
+      "connectedOn": "Csatlakozás dátuma",
+      "lastUsed": "Utoljára használva",
+      "never": "Még nem",
+      "activeSignIns": "Aktív bejelentkezések",
+      "profileId": "Profilazonosító",
+      "email": "E-mail-cím",
+      "memberSince": "Tag ekkor óta",
+      "twoFactor": "Kétlépéses azonosítás",
+      "on": "Be",
+      "off": "Ki",
+      "passkeys": "Passkey-ek",
+      "privacy": "Adatvédelmi szabályzat",
+      "terms": "Felhasználási feltételek",
+      "disconnect": "Leválasztás",
+      "disconnectTitle": "Leválasztod a(z) {app} alkalmazást?",
+      "disconnectText": "A(z) {app} többé nem használhatja az Ordnary-fiókodat, és kijelentkeztetünk belőle. Később újra csatlakozhatsz, ha bejelentkezel a(z) {app} alkalmazásba.",
+      "disconnecting": "Leválasztás…",
+      "cancel": "Mégse",
+      "copied": "Másolva",
+      "copy": "Másolás",
+      "scopes": {
+        "openid": "Felismer az Ordnary-fiókoddal",
+        "profile": "A neved és a profilképed",
+        "email": "Az e-mail-címed",
+        "offline_access": "Bejelentkezve tart, amikor nem használod",
+        "phone": "A telefonszámod",
+        "address": "A címed"
+      },
+      "change": "Módosítás",
+      "setUp": "Beállítás",
+      "manage": "Kezelés",
+      "add": "Hozzáadás",
+      "none": "Még nincs"
+    },
+    "revokedSuccess": "Leválasztva",
+    "revokedError": "Nem sikerült leválasztani. Próbáld újra."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Létrehozol egy új Ordnary-fiókot?",
+      "registrationName": "Mi a neved?",
+      "registrationBirthday": "Mikor van a születésnapod?",
+      "registrationPassword": "Jelszó létrehozása",
+      "saveLoginInfo": "Mented a bejelentkezési adatokat?",
+      "registrationReview": "Fejezd be a fiók létrehozását",
+      "verifyEmailCode": "Add meg a megerősítő kódot",
+      "editEmail": "Mi az e-mail-címed?",
+      "loginCodeEntry": "Ellenőrizd az e-mailjeidet",
+      "recoveryCodeEntry": "Erősítsd meg a fiókodat",
+      "resetPassword": "Új jelszó létrehozása",
+      "passwordEntry": "Add meg a jelszavadat",
+      "identifierLookup": "Mi az e-mail-címed?",
+      "signIn": "Bejelentkezés",
+      "mfaCodeEntry": "Add meg az ellenőrző kódot"
+    },
+    "descriptions": {
+      "identifierLookup": "Add meg az e-mail-címedet, hogy bejelentkezz egy fiókba, vagy létrehozz egy újat.",
+      "passwordEntry": "A bejelentkezéshez add meg a(z) {identifier} azonosítóhoz tartozó jelszót.",
+      "accountNotFound": "Nem találunk Ordnary-fiókot ehhez: {email}. Lehet, hogy még nem hoztál létre ilyet. Ha igen, lehet, hogy más azonosítóhoz kapcsolódik.",
+      "registrationName": "Ezt a nevet a fiók helyreállításához és a fiókoddal kapcsolatos kommunikációhoz használjuk. Nem lesz nyilvánosan látható.",
+      "registrationBirthday": "Használd a saját születési dátumodat, akkor is, ha ez a fiók vállalkozáshoz vagy valami máshoz tartozik. Ez az információ nem lesz nyilvános.",
+      "registrationPassword": "Hozz létre olyan jelszót, amelyet mások nem tudnak kitalálni.",
+      "saveLoginInfo": "Elmentjük a fiókod bejelentkezési adatait, hogy legközelebb ne kelljen újra beírnod.",
+      "verifyEmailCode": "A fiókod megerősítéséhez add meg a(z) {identifier} címre küldött 6 jegyű kódot.",
+      "editEmail": "Add meg azt az e-mail-címet, ahol kapcsolatba léphetünk veled. Ezt a címet bejelentkezéshez és fiókkezeléshez használjuk, és nem lesz nyilvánosan látható.",
+      "loginCodeEntry": "A bejelentkezéshez add meg a(z) {identifier} címre küldött kódot. Lehet, hogy a spam vagy a közösségi mappát is ellenőrizned kell.",
+      "recoveryCodeEntry": "Kódot küldtünk erre: {identifier}. Add meg ezt a kódot a fiókod megerősítéséhez.",
+      "resetPassword": "Ezt a jelszót fogod használni az Ordnary-fiókodba való bejelentkezéshez. Használj legalább 6 betűt és számot.",
+      "mfaCodeEntry": "A folytatáshoz add meg a hitelesítő alkalmazásod 6 számjegyű kódját."
+    },
+    "buttons": {
+      "createNewAccount": "Új fiók létrehozása",
+      "alreadyHaveAccount": "Már van fiókom",
+      "next": "Tovább",
+      "save": "Mentés",
+      "notNow": "Most nem",
+      "finish": "Befejezés",
+      "resendCode": "Kód újraküldése",
+      "enterPassword": "Jelszó megadása",
+      "forgotPassword": "Elfelejtetted a jelszavadat?",
+      "switchAccount": "Fiókváltás",
+      "yes": "Igen",
+      "no": "Nem",
+      "useEmailCode": "Bejelentkezés e-mailes kóddal",
+      "signInWithPasskey": "Bejelentkezés azonosítókulccsal",
+      "useRecoveryCode": "Helyreállítási kód használata",
+      "useAuthenticatorCode": "Hitelesítő alkalmazás használata"
+    },
+    "labels": {
+      "name": "Név",
+      "firstName": "Keresztnév",
+      "lastName": "Vezetéknév",
+      "day": "Nap",
+      "month": "Hónap",
+      "year": "Év",
+      "dateOfBirth": "Születési dátum",
+      "confirmationCode": "Megerősítő kód",
+      "email": "E-mail-cím",
+      "password": "Jelszó",
+      "newPassword": "Új jelszó",
+      "logoutOthers": "Jelentkezz ki minden más helyről, hogy biztosan senki más ne férhessen hozzá a fiókodhoz",
+      "marketingEmails": "Szeretnék e-maileket kapni az Ordnary Identity alkalmazásairól, ajánlásairól és ajánlatairól.",
+      "showPassword": "Jelszó megjelenítése",
+      "hidePassword": "Jelszó elrejtése",
+      "clearInput": "Mező törlése",
+      "recoveryCode": "Helyreállítási kód"
+    },
+    "links": {
+      "whyNeedBirthday": "Miért kell megadnom a születési dátumomat?",
+      "learnMore": "További információ",
+      "editEmail": "E-mail-cím szerkesztése",
+      "noAccessEmail": "Már nincs hozzáférésed ehhez az e-mail-címhez?",
+      "termsOfService": "Szolgáltatási feltételek",
+      "privacyPolicy": "Adatvédelmi szabályzat",
+      "cookiePolicy": "Cookie-szabályzat"
+    },
+    "messages": {
+      "nameHelp": "A valódi neved használata megkönnyíti a fiókod helyreállítását, ha elveszíted a hozzáférést.",
+      "emailHelp": "Használd munkahelyi vagy személyes e-mail-címedet az Ordnary-szolgáltatások eléréséhez.",
+      "existingSessionTitle": "Már van aktív munkameneted",
+      "existingSessionDescription": "Már be vagy jelentkezve. {seconds} másodperc múlva átirányítunk a Fiókközpontba.",
+      "summaryPrivacy": "Az Ordnary-fiókod adatai nem nyilvánosak.",
+      "verifyEmailLookFor": "Keress egy e-mailt a notification@ordnary.com címről. Lehet, hogy a spam vagy a közösségi mappát is ellenőrizned kell.",
+      "termsAgreement": "A \"Befejezés\" gombra kattintva elfogadod a Szolgáltatási feltételeket és az Adatvédelmi szabályzatot, és megerősíted, hogy elolvastad a Cookie-szabályzatot.",
+      "footerAgreement": "A folytatással elismered, hogy elolvastad és elfogadod a Szolgáltatási feltételeket, az Adatvédelmi szabályzatot és a vonatkozó adatkezelési irányelveket. Emellett beleegyezel abba is, hogy a platform használatával kapcsolatos lényeges fiók- és biztonsági értesítéseket kapj.",
+      "emailMissing": "Az e-mail-cím megadása kötelező.",
+      "resendCodeError": "Váratlan hiba történt a kód újraküldése közben.",
+      "invalidInput": "Érvénytelen bevitel.",
+      "credentialsPrompt": "A bejelentkezéshez add meg a(z) {identifier} azonosítóhoz tartozó jelszót.",
+      "checkEmailPrompt": "A bejelentkezéshez add meg a(z) {identifier} címre küldött kódot.",
+      "termsIntro": "A Befejezés megnyomásával elfogadod"
+    },
+    "validation": {
+      "emailRequired": "Az e-mail-cím megadása kötelező.",
+      "passwordRequired": "A jelszó megadása kötelező.",
+      "passwordMin": "A jelszónak legalább 12 karakter hosszúnak kell lennie.",
+      "passwordMax": "A jelszó nem lehet hosszabb 128 karakternél.",
+      "emailInvalid": "Adj meg érvényes e-mail-címet.",
+      "displayNameMin": "A megjelenített névnek legalább 2 karakterből kell állnia.",
+      "resetTokenRequired": "A visszaállítási token megadása kötelező.",
+      "verificationTokenRequired": "Az ellenőrzési token megadása kötelező."
+    },
+    "errors": {
+      "invalidInput": "Érvénytelen bevitel.",
+      "genericLoginFailed": "Nem sikerült bejelentkezni. Próbáld újra.",
+      "loginInvalidCredentials": "Érvénytelen e-mail-cím vagy jelszó.",
+      "accountLocked": "A fiókod zárolva van vagy fel van függesztve.",
+      "passwordIncorrect": "A megadott jelszó helytelen.",
+      "notAuthenticated": "Nem vagy hitelesítve.",
+      "registrationMissingInfo": "Hiányoznak a kötelező regisztrációs adatok.",
+      "registrationEmailExists": "Már létezik fiók ezzel az e-mail-címmel.",
+      "systemNoDefaultTenant": "Rendszerhiba: nem található alapértelmezett tenant.",
+      "registrationFailed": "A regisztráció sikertelen volt. Próbáld újra.",
+      "invalidVerificationRequest": "Érvénytelen ellenőrzési kérés.",
+      "accountNotFound": "A fiók nem található.",
+      "verificationCodeInvalidOrExpired": "Érvénytelen vagy lejárt ellenőrző kód.",
+      "verificationFailedTryAgain": "Az ellenőrzés sikertelen volt. Próbáld újra.",
+      "invalidRequest": "Érvénytelen kérés.",
+      "userNotFound": "A felhasználó nem található.",
+      "codeInvalidOrExpired": "Érvénytelen vagy lejárt kód.",
+      "verificationFailed": "Az ellenőrzés sikertelen volt.",
+      "missingInformation": "Hiányzó adatok.",
+      "passwordResetFailed": "A jelszó visszaállítása sikertelen volt.",
+      "emailMissing": "Hiányzik az e-mail-cím.",
+      "resendCodeFailed": "A kód újraküldése sikertelen volt. Próbáld újra.",
+      "loginRequestFailed": "Nem sikerült feldolgozni a bejelentkezési kérésedet. Kérlek, próbáld újra.",
+      "mfaDataMissing": "Hiányoznak az ellenőrzési adatok. Kérlek, jelentkezz be újra.",
+      "mfaNoAuthenticator": "Ehhez a fiókhoz nem található aktív hitelesítő alkalmazás.",
+      "mfaCodeInvalid": "Érvénytelen ellenőrző kód.",
+      "mfaVerificationFailed": "Az ellenőrzés sikertelen. Kérlek, jelentkezz be újra.",
+      "requestRejected": "Nem tudtuk feldolgozni ezt a kérést. Próbáld újra.",
+      "tooManyAttempts": "Túl sok próbálkozás. Próbáld újra később.",
+      "tooManyFailedLogins": "Túl sok sikertelen bejelentkezési kísérlet. Várj egy kicsit, mielőtt újra próbálkozol.",
+      "permanentEmailRequired": "Használj állandó e-mail-címet.",
+      "recoveryFileInvalid": "Ez a helyreállítási fájl nem működik. Lehet, hogy újabb váltotta fel, vagy eltávolították.",
+      "passkeyFailed": "Az azonosítókulccsal való bejelentkezés nem sikerült. Próbáld újra, vagy folytasd az e-mail-címeddel.",
+      "passwordTooWeak": "Válassz olyan jelszót, amely megfelel az alábbi összes követelménynek."
+    },
+    "months": [
+      "januar",
+      "februar",
+      "marcius",
+      "aprilis",
+      "majus",
+      "junius",
+      "julius",
+      "augusztus",
+      "szeptember",
+      "oktober",
+      "november",
+      "december"
+    ],
+    "recoveryFile": {
+      "link": "Bejelentkezés helyreállítási fájllal",
+      "title": "Bejelentkezés helyreállítási fájllal",
+      "description": "Töltsd fel a fiókhoz tartozó helyreállítási fájlt, amelyet a Fiókközpontból töltöttél le. Azonnal bejelentkeztetünk.",
+      "choose": "Fájl kiválasztása",
+      "reading": "Bejelentkezés…",
+      "pasteInstead": "Inkább beillesztem a kódot",
+      "codeLabel": "A fájlban lévő kód",
+      "signIn": "Bejelentkezés",
+      "notAFile": "Ez nem Ordnary helyreállítási fájl. Válaszd ki a Fiókközpontból letöltött PDF-et.",
+      "back": "Inkább az e-mailben kapott kódot használom"
+    },
+    "passwordRules": {
+      "length": "Legalább 12 karakter",
+      "upper": "Egy nagybetű",
+      "lower": "Egy kisbetű",
+      "digit": "Egy szám"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Fiókbeállítások",
+      "appearanceLabel": "Megjelenés",
+      "appearanceLight": "Világos",
+      "appearanceSystem": "Rendszerbeállítás",
+      "appearanceDark": "Sötét",
+      "logout": "Kijelentkezés",
+      "sessionExpired": "A munkameneted lejárt. A folytatáshoz kérlek, jelentkezz be újra.",
+      "logoutConfirmTitle": "Kijelentkezel az Ordnaryből?",
+      "logoutCancel": "Mégse",
+      "logoutConfirm": "Kijelentkezés",
+      "language": "Nyelv"
+    },
+    "reactivate": {
+      "title": "Üdv újra, a fiókod inaktív",
+      "description": "A fiókod inaktiválásakor szüneteltettük az e-maileket és az értesítéseket. Aktiváld újra, hogy minden visszatérjen, vagy jelentkezz ki, és döntsd el később. Az adataid még megvannak.",
+      "reactivate": "Fiókom újraaktiválása",
+      "reactivating": "Újraaktiválás…",
+      "signOut": "Kijelentkezés",
+      "signingOut": "Kijelentkezés…",
+      "footer": "Ha inkább véglegesen törölnéd a fiókodat, jelentkezz be, és válaszd a Fiók törlése lehetőséget a Személyes adatoknál.",
+      "successNotification": "Üdv újra. A fiókod ismét aktív.",
+      "errorGeneric": "Nem tudtuk újraaktiválni a fiókodat. Próbáld újra egy kis idő múlva.",
+      "deletedTitle": "A fiókod törlésre vár",
+      "deletedDescription": "Véglegesen törlődik ekkor: {date}. Állítsd vissza, hogy mindent megtarts, vagy jelentkezz ki, és hagyd, hogy a törlés megtörténjen.",
+      "restore": "Fiókom visszaállítása",
+      "restoring": "Visszaállítás..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profilkép",
+        "custom": "A saját képed",
+        "default": "Generált avatar",
+        "modalTitle": "Profilkép",
+        "subtitle": "A neved mellett jelenik meg az Ordnary alkalmazásokban és a közösségben. Saját kép nélkül a fiókodra egyedi avatart kapsz.",
+        "choose": "Kép kiválasztása",
+        "change": "Másik választása",
+        "remove": "Kép eltávolítása",
+        "save": "Kép mentése",
+        "saving": "Mentés…",
+        "hint": "JPG, PNG vagy WebP. A képet négyzetre vágjuk.",
+        "errorType": "Ezt a fájlt nem tudjuk képként használni. Válassz JPG, PNG vagy WebP fájlt.",
+        "errorFailed": "Nem tudtuk elmenteni a képet. Próbáld újra."
+      },
+      "title": "Személyes adatok és beállítások",
+      "description": "Az Ordnary ezeket az adatokat a személyazonosságod igazolására és a közösség biztonságának megőrzésére használja. Te döntöd el, mely személyes adataid láthatók mások számára.",
+      "contactDetails": "Elérhetőségek",
+      "birthday": "Születésnap",
+      "ownership": "Fiók tulajdonjoga és irányítása",
+      "ownershipDescription": "Kezeld az adataidat, frissítsd az emlékkezelői kapcsolattartódat, és inaktiváld vagy töröld a fiókjaidat és profiljaidat.",
+      "loadingName": "Felhasználó",
+      "modal": {
+        "title": "Fiók tulajdonjoga és irányítása",
+        "deactivationIndexTitle": "Inaktiválás vagy törlés",
+        "deactivationIndexDescription": "Átmenetileg inaktiválhatod vagy véglegesen törölheted a fiókjaidat és profiljaidat.",
+        "optionsTitle": "Ordnary-fiók inaktiválása vagy törlése",
+        "optionsDescription": "Szünetre van szükséged? Deaktiváld a fiókodat, és térj vissza, amikor csak szeretnél. El szeretnéd hagyni az Ordnaryt? Töröld a fiókodat.",
+        "deactivateTitle": "Fiók inaktiválása",
+        "deactivateDescription": "A fiók inaktiválása ideiglenes. A fiókod letiltásra kerül, és mások számára rejtett lesz.",
+        "deleteTitle": "Fiók törlése",
+        "deleteDescription": "A fiók törlése végleges. 30 nap után már nem aktiválhatod újra, és az adatai sem állíthatók vissza.",
+        "deactivateConfirmTitle": "Deaktiválod a fiókodat?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Mindenhol kijelentkeztetünk",
+            "text": "Minden eszközödön és minden alkalmazásban, amelyet az Ordnary-fiókoddal használsz."
+          },
+          {
+            "title": "A profilod rejtve lesz",
+            "text": "Mások nem látják a nevedet és a profilodat, amíg a fiókod deaktiválva van."
+          },
+          {
+            "title": "Bármikor visszatérhetsz",
+            "text": "Jelentkezz be újra a fiók újraaktiválásához. Minden úgy marad, ahogy hagytad."
+          }
+        ],
+        "deactivateConfirmButton": "Fiók deaktiválása",
+        "deleteConfirmTitle": "Törlöd a fiókodat?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Mindenhol kijelentkeztetünk",
+            "text": "Minden eszközödön és minden alkalmazásban, amelyet az Ordnary-fiókoddal használsz."
+          },
+          {
+            "title": "Elveszíted a hozzáférést",
+            "text": "Az Ordnaryhez és minden alkalmazáshoz, amelybe az Ordnary-fiókoddal jelentkezel be."
+          },
+          {
+            "title": "30 nap után végleg törlődik",
+            "text": "Addig még meggondolhatod magad. Utána a fiókod és az adataid nem állíthatók vissza."
+          }
+        ],
+        "deleteConfirmCheck": "Tudomásul veszem, hogy a fiókom és az adataim 30 nap után véglegesen törlődnek.",
+        "deleteConfirmButton": "Fiók törlése",
+        "cancel": "Mégse",
+        "continue": "Tovább",
+        "working": "Folyamatban...",
+        "deactivateSuccess": "A fiókod inaktiválva lett. Átirányítás a bejelentkezéshez...",
+        "deleteSuccess": "A fiókod törlésre lett ütemezve. Átirányítás a bejelentkezéshez...",
+        "submitError": "Most nem tudtuk frissíteni a fiókodat."
+      },
+      "missingBirthday": "Nincs megadva",
+      "loadError": "A személyes adatok betöltése sikertelen.",
+      "preferences": {
+        "sectionTitle": "Beállítások",
+        "appearance": "Megjelenés",
+        "appearanceDescription": "Módosítsd az Ordnary-fiókod kinézetét.",
+        "cookies": "Sütibeállítások",
+        "cookiesDescription": "Kezeld, hogy az Ordnary milyen sütiket használhat ebben a böngészőben.",
+        "processors": {
+          "title": "Ki dolgozza fel az adataidat",
+          "intro": "Néhány másik céget használunk az Ordnary működtetéséhez. Itt van mindegyik: mit kapnak tőlünk, hol tárolják, és hogyan védjük az adatokat, amikor elhagyják az EU-t.",
+          "empty": "Más cég nem kapja meg az adataidat.",
+          "loadError": "Most nem sikerült betölteni. Próbáld újra később.",
+          "loading": "Betöltés...",
+          "close": "Bezárás",
+          "back": "Vissza",
+          "fields": {
+            "purpose": "Mit csinál",
+            "receives": "Mit kap",
+            "whose": "Kinek az adatai",
+            "stored": "Hol tárolják",
+            "transfer": "Az EU-n kívül"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Az Európai Gazdasági Térségen belül marad.",
+            "ADEQUACY_DECISION": "Engedélyezett, mert az EU megfelelőnek ismeri el az adatvédelmet itt: {country}.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Az EU általános szerződési feltételei (standard szerződéses kikötések) védik.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Tanúsítva az EU-US Data Privacy Framework keretében.",
+            "sccBackup": "Az EU általános szerződési feltételei további védelemként érvényesek."
+          },
+          "links": {
+            "dpa": "Adatfeldolgozási megállapodás",
+            "privacy": "Adatvédelmi szabályzat",
+            "website": "Weboldal",
+            "certification": "Tanúsítvány"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Ellenőrzi a személyazonosságodat, amikor megváltoztatod a születési dátumodat.",
+              "receives": [
+                "Név",
+                "Születési dátum",
+                "Fénykép a személyazonosító okmányodról",
+                "Szelfi",
+                "IP-cím"
+              ],
+              "whose": "Csak azok, akik új születési dátumot igazolnak."
+            },
+            "resend": {
+              "purpose": "Elküldi az e-mailjeinket: bejelentkezési kódokat, biztonsági értesítéseket és fiókértesítéseket.",
+              "receives": [
+                "E-mail-cím",
+                "Megjelenített név",
+                "Az e-mail tartalma, például bejelentkezési kódok, hivatkozások és az IP-cím a biztonsági értesítésekben"
+              ],
+              "whose": "Mindenki, aki e-mailt kap az Ordnarytól."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Adatvédelmi kérések",
+          "description": "Tiltakozz bizonyos adatkezelési tevékenységek ellen, vagy korlátozd őket (18. és 21. cikk).",
+          "back": "Vissza",
+          "close": "Bezárás",
+          "loading": "Betöltés…",
+          "loadError": "Nem sikerült betölteni az adatvédelmi kéréseket.",
+          "alreadyOpen": "Ehhez a körhöz már van egy nyitott kérésed.",
+          "cooldown": "Ugyanezt a kérést {hours} óra múlva nyújthatod be újra.",
+          "submitted": "A kérésedet megkaptuk.",
+          "withdrawn": "A kérés visszavonva.",
+          "fileNew": "Új kérés benyújtása",
+          "pickKind": "Mit szeretnél tenni?",
+          "kinds": {
+            "OBJECTION": "Tiltakozás egy adatkezelési tevékenység ellen (21. cikk)",
+            "RESTRICTION": "Az adatkezelés ideiglenes korlátozása (18. cikk)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Egy adott adatkezelési tevékenység leállítása a jövőre nézve, az egyedi helyzeted alapján.",
+            "RESTRICTION": "Egy adott adatkezelési tevékenység szüneteltetése, amíg az adataiddal kapcsolatos vitát felülvizsgáljuk."
+          },
+          "pickActivities": "Mely tevékenységekre vonatkozzon?",
+          "activitiesHint": "Ha egyiket sem jelölöd be, az összes adatkezelési tevékenységünkre vonatkozik (globális zárolás).",
+          "globalScope": "Minden adatkezelés (globális zárolás)",
+          "yourStatement": "Az indoklásod (ajánlott)",
+          "statementPlaceholder": "Írd le, miért, például hogy nem szeretnéd, hogy automatikus kockázatpontozást alkalmazzunk, amíg egy biztonsági eseményt vizsgálsz velünk.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Kérés elküldése",
+          "submitting": "Küldés…",
+          "withdraw": "Visszavonás",
+          "withdrawing": "Visszavonás…",
+          "openTitle": "Nyitott kérések",
+          "emptyOpen": "Nincs nyitott kérés.",
+          "historyTitle": "Korábbi kérések",
+          "historyEmpty": "Nincs korábbi kérés.",
+          "holdsTitle": "Jelenleg aktív zárolások",
+          "holdsEmpty": "Nincs aktív zárolás.",
+          "appliesTo": "Érintett",
+          "effectiveUntil": "Hatályos eddig",
+          "statuses": {
+            "PENDING": "Függőben",
+            "IN_REVIEW": "Felülvizsgálat alatt",
+            "RESOLVED": "Megoldva",
+            "WITHDRAWN": "Visszavonva"
+          },
+          "outcomes": {
+            "GRANTED": "Teljesítve",
+            "PARTIALLY_GRANTED": "Részben teljesítve",
+            "REJECTED": "Elutasítva",
+            "ESCALATED": "Továbbítva"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Fiókazonosítás és hitelesítés",
+            "session-and-device-management": "Munkamenetek és eszközök",
+            "oauth-issuance": "OAuth / OIDC kiállítás",
+            "identity-verification": "Személyazonosság-ellenőrzés (Stripe Identity)",
+            "payment-processing": "Fizetésfeldolgozás",
+            "audit-logs-and-security-events": "Naplók és biztonsági események",
+            "risk-scoring": "Automatikus kockázatpontozás",
+            "consent-log": "Hozzájárulási napló",
+            "account-deletion": "Fiók törlése",
+            "risk-review-queue": "Kockázat-felülvizsgálati sor"
+          },
+          "title": "Tiltakozás vagy korlátozás"
+        },
+        "dsar": {
+          "label": "Adatvédelmi és adatkérések",
+          "description": "Nyújts be hivatalos hozzáférési, helyesbítési, törlési vagy adathordozhatósági kérést (15-20. cikk).",
+          "title": "Adatvédelmi és adatkérések",
+          "back": "Vissza",
+          "close": "Bezárás",
+          "loading": "Betöltés…",
+          "loadError": "Nem sikerült betölteni a kéréseket.",
+          "submitted": "Megkaptuk a kérésedet.",
+          "fastPathReady": "Az adataid letöltése most folyamatban van.",
+          "fastPathHint": "Csak egy gyors másolatot szeretnél az adataidról? Használd a felül található \"Adataid exportálása\" gombot. Azonnal letölt, a hivatalos sor nélkül. Itt akkor nyújts be kérést, ha emberi felülvizsgálót szeretnél, valaki más nevében jársz el, vagy helyesbítésre vagy törlésre van szükséged.",
+          "withdrawn": "A kérés visszavonva.",
+          "fileNew": "Új kérés benyújtása",
+          "pickKind": "Mit szeretnél tenni?",
+          "kinds": {
+            "ACCESS": "Hozzáférés (15. cikk)",
+            "RECTIFICATION": "Helyesbítés (16. cikk)",
+            "ERASURE": "Törlés (17. cikk)",
+            "PORTABILITY": "Adathordozhatóság (20. cikk)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Kérj teljes, géppel olvasható másolatot a rólad tárolt adatokról.",
+            "RECTIFICATION": "Javítsd a rólad tárolt hibás vagy elavult adatokat.",
+            "ERASURE": "Töröljük a fiókodat és a rólad tárolt adatokat.",
+            "PORTABILITY": "Kapd meg az adataidat strukturált, általánosan használt formátumban."
+          },
+          "filedBy": "Ki nyújtja be ezt a kérést?",
+          "filedByOptions": {
+            "SELF": "A saját nevemben nyújtom be",
+            "PARENT_GUARDIAN": "Szülő vagy gondviselő vagyok, és kiskorú nevében nyújtom be",
+            "AUTHORISED_AGENT": "Meghatalmazott képviselő (pl. ügyvéd) vagyok, és valaki más nevében nyújtom be"
+          },
+          "representativeBlock": {
+            "title": "Képviselő adatai",
+            "emailLabel": "Az e-mail-címed",
+            "notesLabel": "Kapcsolat és meghatalmazás",
+            "notesHint": "Röviden írd le, milyen kapcsolatban állsz az érintettel, és csatolj hivatkozásokat a meghatalmazásra vagy gyámságra vonatkozó dokumentumokra."
+          },
+          "subjectEmailLabel": "Az érintett e-mail-címe",
+          "subjectEmailHint": "Erre a címre küldjük az ellenőrző hivatkozást és a választ. Képviselő által benyújtott kérésnél ez az érintett saját e-mail-címe kell, hogy legyen.",
+          "yourStatement": "Az indoklásod (ajánlott)",
+          "statementPlaceholder": "Pontosan mit szeretnél? Minden háttér, ami segít meghatározni a válasz körét.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Kérés elküldése",
+          "submitting": "Küldés…",
+          "withdraw": "Visszavonás",
+          "withdrawing": "Visszavonás…",
+          "openTitle": "Nyitott kérések",
+          "emptyOpen": "Nincs nyitott kérés.",
+          "historyTitle": "Korábbi kérések",
+          "historyEmpty": "Nincs korábbi kérés.",
+          "due": "Határidő",
+          "extended": "Meghosszabbítva eddig",
+          "awaitingVerification": "E-mail-ellenőrzésre vár",
+          "statuses": {
+            "SUBMITTED": "Ellenőrzésre vár",
+            "VERIFIED": "Ellenőrizve",
+            "IN_PROGRESS": "Folyamatban",
+            "FULFILLED": "Teljesítve",
+            "REJECTED": "Elutasítva",
+            "WITHDRAWN": "Visszavonva"
+          },
+          "outcomes": {
+            "FULFILLED": "Teljesítve",
+            "PARTIALLY_FULFILLED": "Részben teljesítve",
+            "REJECTED": "Elutasítva"
+          },
+          "overdue": "Késedelmes"
+        },
+        "modalTitle": "Megjelenés",
+        "modalSubtitle": "Válaszd ki, hogyan nézzen ki a Fiókközpont. Megjegyezzük a választásodat ezen az eszközön.",
+        "options": {
+          "lightLabel": "Világos",
+          "lightDescription": "Mindig világos hátteret használ, a rendszerbeállítástól függetlenül.",
+          "systemLabel": "Rendszerbeállítás",
+          "systemDescription": "Az eszközöd beállításával együtt vált.",
+          "darkLabel": "Sötét",
+          "darkDescription": "Mindig sötét hátteret használ, esténként kíméletesebb."
+        },
+        "done": "Kész"
+      },
+      "displayNameSection": {
+        "label": "Teljes név",
+        "subtitle": "A teljes neved az összes fiókodban és profilodban megjelenik.",
+        "editButton": "Szerkesztés",
+        "modalTitle": "Teljes név",
+        "editTitle": "Teljes név módosítása",
+        "modalSubtitle": "A teljes neved módosításához írj ide: {email}.",
+        "currentLabel": "Jelenlegi név",
+        "supportNotice": "A teljes neved módosításához írj ide: {email}.",
+        "copyEmail": "E-mail-cím másolása",
+        "openEmail": "E-mail megnyitása",
+        "mailSubject": "Kérelem a teljes név módosítására",
+        "mailBody": "Üdvözlöm!\n\nSzeretném módosítani a teljes nevemet.\n\nJelenlegi név: {name}\nÚj név: \n\nÜdvözlettel,\n{name}"
+      },
+      "loading": "Betöltés...",
+      "contact": {
+        "subtitle": "Kezeld az e-mail-címeidet, és azt, hogy ki láthatja az elérhetőségeidet. Ezekkel férhetsz hozzá a fiókközpont profiljaihoz és eszközeihez.",
+        "addNew": "Új elérhetőség hozzáadása",
+        "detailsDescription": "Ezt az e-mail-címet ezekhez a fiókokhoz adtad hozzá.",
+        "whoCanSee": "Ki láthatja az e-mail-címedet?",
+        "deleting": "Eltávolítás...",
+        "delete": "E-mail-cím eltávolítása",
+        "deleteFailed": "Nem sikerült eltávolítani ezt az e-mail-címet.",
+        "deleted": "E-mail-cím eltávolítva",
+        "addTitle": "E-mail-cím hozzáadása",
+        "addSubtitle": "Ezt az e-mail-címet a fiókközpontban lévő összes fiókodnál használjuk az élményed személyre szabásához.",
+        "learnMore": "További információ",
+        "emailLabel": "E-mail-cím",
+        "chooseAccounts": "Válaszd ki a fiókokat ehhez az e-mail-címhez",
+        "added": "E-mail-cím hozzáadva",
+        "addFailed": "Hiba történt. Kérlek, próbáld újra.",
+        "next": "Tovább"
+      },
+      "birthdayModal": {
+        "subtitle": "Add meg a születésnapodat, hogy az élményed illeszkedjen a korodhoz.",
+        "edit": "Szerkesztés",
+        "editTitle": "Születésnap szerkesztése",
+        "editSubtitle": "Ez a születésnap a fiókközpont fiókjaihoz és profiljaihoz van használatban. Minden módosítás mindegyikre vonatkozik.",
+        "day": "Nap",
+        "month": "Hónap",
+        "year": "Év",
+        "verificationNotice": "A születésnapod módosításához érvényes személyi okmánnyal igazolnod kell a személyazonosságodat partnerünk, a Stripe Identity segítségével. Mentés után átirányítunk az ellenőrzési folyamathoz.",
+        "save": "Mentés",
+        "saveFailed": "Hiba történt. Kérlek, próbáld újra.",
+        "verificationStartFailed": "Nem sikerült elindítani a személyazonosság-ellenőrzést.",
+        "completeFailed": "Nem sikerült befejezni az ellenőrzést.",
+        "updated": "A születésnapod frissült a személyazonosság-ellenőrzés után.",
+        "dobMismatch": "Az okmányodon szereplő születési dátum nem egyezik a megadottal.",
+        "dobUnavailable": "A Stripe nem tudott ellenőrizhető születési dátumot kiolvasni az okmányodból.",
+        "notFinished": "A személyazonosság-ellenőrzés még nem fejeződött be."
+      }
+    },
+    "security": {
+      "title": "Jelszó és biztonság",
+      "loadingName": "Felhasználó",
+      "pageLoadError": "A biztonsági beállítások betöltése sikertelen.",
+      "sections": {
+        "signIn": {
+          "title": "Bejelentkezés és helyreállítás",
+          "description": "Kezeld a jelszavaidat, a bejelentkezési beállításaidat és a helyreállítási módszereidet."
+        },
+        "controls": {
+          "title": "Biztonsági ellenőrzések",
+          "description": "Tekintsd át a biztonsági problémákat az alkalmazások, eszközök és elküldött e-mailek ellenőrzésével."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Jelszó módosítása",
+          "loading": "Betöltés...",
+          "set": "Jelszó beállítva",
+          "missing": "Nincs jelszó beállítva"
+        },
+        "twofactor": {
+          "label": "Kétlépcsős hitelesítés",
+          "loading": "Betöltés...",
+          "enabled": "Bekapcsolva",
+          "disabled": "Még nincs bekapcsolva"
+        },
+        "passkeys": {
+          "label": "Hozzáférési kulcsok",
+          "loading": "Betöltés...",
+          "none": "Még nincs hozzáférési kulcs",
+          "active": "{count} aktív"
+        },
+        "activity": {
+          "label": "Hol vagy bejelentkezve",
+          "summary": "{total} aktív munkamenet, ebből {others} másik eszközön"
+        },
+        "automated": {
+          "label": "Automatikus döntések",
+          "summary": "Nézd meg, milyen automatikus szabályok védik a fiókodat, és kérj emberi felülvizsgálatot."
+        }
+      },
+      "passwordModal": {
+        "title": "Jelszó módosítása",
+        "subtitle": "Hozz létre legalább 12 karakteres jelszót. Olyat válassz, amit mások nem találhatnak ki.",
+        "currentPassword": "Jelenlegi jelszó",
+        "newPassword": "Új jelszó",
+        "repeatPassword": "Új jelszó újra",
+        "forgotPassword": "Elfelejtetted a jelszavad?",
+        "logoutOthers": "Kijelentkezés a többi eszközön. Ezt válaszd, ha valaki más használta a fiókodat.",
+        "submit": "Jelszó módosítása",
+        "pending": "Folyamatban...",
+        "success": "A jelszavad frissítve lett.",
+        "mismatch": "Az új jelszavak nem egyeznek.",
+        "submitError": "A jelszó módosítása sikertelen.",
+        "logoutOthersTitle": "Kijelentkezés a többi eszközről",
+        "logoutOthersHint": "Ajánlott, ha valaki más használhatta a fiókodat.",
+        "incorrect": "A jelenlegi jelszavad helytelen.",
+        "tooWeak": "Válassz olyan jelszót, amely megfelel az alábbi összes követelménynek."
+      },
+      "twoFactor": {
+        "idleTitle": "Segíts megvédeni a fiókodat",
+        "idleSubtitle": "Állítsd be a kétlépcsős hitelesítést, és bejelentkezési kódot kérünk, ha valaki ismeretlen eszközről jelentkezik be.",
+        "manageTitle": "A kétlépcsős hitelesítés be van kapcsolva",
+        "manageSubtitle": "Mostantól bejelentkezési kódot kérünk, valahányszor ismeretlen eszközről jelentkezel be.",
+        "appSettingsTitle": "Hitelesítő alkalmazás",
+        "extraMethodsTitle": "További módszerek",
+        "extraMethodsSubtitle": "Ha a többi biztonsági módszered nem érhető el, ezekkel a lehetőségekkel még be tudsz jelentkezni.",
+        "recoveryCodesTitle": "Helyreállítási kódok",
+        "recoveryCodesSubtitle": "Minden helyreállítási kód csak egyszer használható. Tárold őket biztos helyen. Nélkülük elveszítheted a hozzáférést, ha elveszíted a telefonodat vagy más bejelentkezési módszeredet.",
+        "setupTitle": "Beállítási útmutató",
+        "namingTitle": "Nevezd el az eszközödet",
+        "namingSubtitle": "Adj a hitelesítő alkalmazásodnak felismerhető nevet, hogy tudd, melyik eszközt használod.",
+        "verifyTitle": "Kód megadása",
+        "verifySubtitle": "Add meg a hitelesítő alkalmazásod 6 számjegyű kódját a beállítás befejezéséhez.",
+        "successTitle": "A kétlépcsős hitelesítés be van kapcsolva",
+        "successSubtitle": "Mostantól bejelentkezési kódot kérünk, valahányszor ismeretlen eszközről jelentkezel be. Frissítenéd az elérhetőségeidet? Nyisd meg a Személyes adatok részt a Fiókközpontban.",
+        "verifiedTitle": "Biztonsági kódok",
+        "verifiedSubtitle": "Tárold ezeket a kódokat biztos helyen. Használhatod őket, ha elveszíted a hozzáférést a hitelesítő alkalmazásodhoz.",
+        "learnMore": "További információ",
+        "receiveCodesTitle": "Válaszd ki, hogyan kapod a kódokat",
+        "authenticatorTitle": "Hitelesítő alkalmazás",
+        "authenticatorDescription": "Egyszer használatos kódokat kaphatsz olyan alkalmazással, mint a Duo Mobile vagy a Google Authenticator.",
+        "recommended": "Ajánlott",
+        "continue": "Tovább",
+        "working": "Folyamatban...",
+        "enabledSuccess": "A kétlépcsős hitelesítés ki lett kapcsolva.",
+        "disableError": "A hitelesítő alkalmazás kikapcsolása sikertelen.",
+        "startError": "A hitelesítő beállításának indítása sikertelen.",
+        "verifyError": "A hitelesítő alkalmazás ellenőrzése sikertelen.",
+        "regenerateError": "A helyreállítási kódok újragenerálása sikertelen.",
+        "downloadError": "Letöltés előtt generálj új helyreállítási kódokat.",
+        "recoveryRegenerated": "Új helyreállítási kódok jöttek létre.",
+        "manage": {
+          "receiveCodesTitle": "Bejelentkezési kódok fogadása",
+          "authenticatorDescription": "A bejelentkezési kódot a hitelesítő alkalmazásodon keresztül kapod.",
+          "additionalMethodsTitle": "További módszerek",
+          "additionalMethodsDescription": "Nézd meg, hogyan jelentkezhetsz be biztonságosan akkor is, ha a többi módszer nem érhető el."
+        },
+        "appSettings": {
+          "title": "Hitelesítő alkalmazás",
+          "description": "A bejelentkezési kódot a hitelesítő alkalmazásodon keresztül kapod.",
+          "connectedDevicesTitle": "Csatlakoztatott eszközök",
+          "add": "Hozzáadás",
+          "connectedDevicesDescription": "Több eszközt is hozzáadhatsz, így minden társított eszköz 6 számjegyű bejelentkezési kódot kaphat az azon lévő hitelesítő alkalmazásból.",
+          "noDevices": "Még nincs csatlakoztatott eszköz",
+          "lastUsed": "Utoljára használva: {date}",
+          "added": "Hozzáadva: {date}",
+          "active": "Aktív hitelesítő alkalmazás"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Helyreállítási kódok",
+          "recoveryCodesDescription": "Használd ezeket a kódokat, ha nincs hozzáférésed a telefonodhoz."
+        },
+        "recoveryCodes": {
+          "download": "Kódok letöltése",
+          "regenerate": "Új kódok kérése",
+          "existing": "{count} fel nem használt helyreállítási kódod van. Kattints az \"Új kódok kérése\" gombra új készlet létrehozásához.",
+          "empty": "Ebben a munkamenetben még nincs látható helyreállítási kódod. Kattints az \"Új kódok kérése\" gombra új készlet létrehozásához."
+        },
+        "setup": {
+          "step1Title": "1. Tölts le egy hitelesítő alkalmazást",
+          "step1Description": "Ha még nincs ilyened, a Duo Mobile vagy a Google Authenticator letöltését javasoljuk.",
+          "step2Title": "2. Olvasd be a QR-kódot, vagy másold ki a kulcsot",
+          "step2Description": "Olvasd be ezt a QR-kódot a hitelesítő alkalmazásoddal, vagy másold ki a kulcsot, és illeszd be az alkalmazásba.",
+          "copyKey": "Kulcs másolása",
+          "step3Title": "3. Másold ki a hatjegyű kódot, és add meg",
+          "step3Description": "A QR-kód beolvasása vagy a kulcs megadása után az alkalmazásod 6 számjegyű kódot generál. Koppints lent a Kód megadása gombra.",
+          "enterCode": "Kód megadása",
+          "qrAlt": "QR-kód a hitelesítő alkalmazásodhoz"
+        },
+        "naming": {
+          "label": "Eszköz neve (például: Stijn iPhone-ja)",
+          "next": "Tovább"
+        },
+        "verify": {
+          "label": "Kód a hitelesítő alkalmazásból",
+          "submit": "Kód ellenőrzése"
+        },
+        "success": {
+          "done": "Kész"
+        },
+        "ui": {
+          "on": "Be",
+          "turnOff": "Kikapcsolás",
+          "turnOffConfirm": "Kikapcsolod a kétlépéses azonosítást? Ezután a bejelentkezéshez csak a jelszavad kell.",
+          "cancel": "Mégse",
+          "copyKey": "Másolás",
+          "copied": "Másolva",
+          "manualKey": "Beállítási kulcs",
+          "status": "Állapot"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Helyreállítási fájl",
+          "rowDescription": "Egy PDF, amellyel feltöltés után jelszó és kód nélkül bejelentkezhetsz.",
+          "otherMethodsTitle": "További módok a belépésre",
+          "title": "Helyreállítási fájl",
+          "subtitle": "Egy PDF, amelyet bejelentkezéskor töltesz fel. Azonnal bejelentkeztet, jelszó és kód nélkül. Hasznos, ha elveszted a telefonodat, vagy elfelejted a jelszavadat.",
+          "download": "Helyreállítási fájl letöltése",
+          "downloading": "A fájl készítése…",
+          "downloaded": "Letöltve. Tartsd a fájlt biztonságos helyen.",
+          "made": "Létrehozva: {date}",
+          "lastUsed": "Utoljára használva: {date}",
+          "notUsed": "Még nem használták",
+          "remove": "Eltávolítás",
+          "removeConfirm": "Eltávolítod a helyreállítási fájlt? Azonnal működésképtelenné válik.",
+          "removed": "A helyreállítási fájl eltávolítva.",
+          "cancel": "Mégse",
+          "newTitle": "Új fájlra van szükséged?",
+          "newText": "A fájlt csak egyszer töltheted le. Újat az e-mailben küldött kóddal megerősítve kérhetsz. A jelenlegi fájl ekkor működésképtelenné válik.",
+          "requestCode": "Kérek egy kódot e-mailben",
+          "sending": "Küldés…",
+          "codeSent": "Kódot küldtünk erre: {email}.",
+          "codeLabel": "Kód",
+          "confirmDownload": "Megerősítés és letöltés",
+          "loadError": "Ezt most nem tudtuk betölteni. Próbáld újra később.",
+          "errors": {
+            "code_invalid": "Ez a kód nem helyes. Ellenőrizd az e-mailt, és próbáld újra.",
+            "code_expired": "Ez a kód lejárt. Kérj egy újat.",
+            "rate_limited": "Túl sok próbálkozás. Próbáld újra később.",
+            "send_failed": "Most nem tudtuk elküldeni az e-mailt. Próbáld újra később.",
+            "generic": "Valami hiba történt. Próbáld újra később."
+          },
+          "points": [
+            {
+              "title": "Egyszer töltse le",
+              "text": "A fájlt csak most töltheti le. Újat később az e-mailben küldött kóddal megerősítve kérhet."
+            },
+            {
+              "title": "Tárolja biztonságosan",
+              "text": "Például kinyomtatva vagy titkosított meghajtón. Bárki, akinél ez a fájl van, beléphet a fiókjába, ezért ne küldje el e-mailben, és ne ossza meg."
+            },
+            {
+              "title": "Lépjen be vele",
+              "text": "Bejelentkezéskor add meg az e-mail-címedet, válaszd a \"Elfelejtetted a jelszavadat?\" lehetőséget, majd a \"Bejelentkezés helyreállítási fájllal\" lehetőséget, és töltsd fel a PDF-et."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Hozzáférési kulcsok",
+        "subtitle": "A hozzáférési kulcsok biztonságos és egyszerű módját kínálják a jelszó nélküli bejelentkezésnek. Használhatod az ujjlenyomatodat, az arcodat vagy az eszköz képernyőzárát.",
+        "add": "Hozzáférési kulcs hozzáadása",
+        "empty": "Még nem adtál hozzá hozzáférési kulcsot.",
+        "unnamed": "Névtelen hozzáférési kulcs",
+        "addedOn": "Hozzáadva: {date}",
+        "lastUsed": "Utoljára használva {date}",
+        "never": "Soha nem használták",
+        "delete": "Törlés",
+        "count": "{count} aktív hozzáférési kulcsod van.",
+        "none": "Még nem állítottál be hozzáférési kulcsot.",
+        "success": "A hozzáférési kulcs sikeresen regisztrálva!",
+        "error": "A hozzáférési kulcs regisztrálása sikertelen volt.",
+        "pending": "Regisztrálás...",
+        "emptyTitle": "Még nincs passkey",
+        "emptyText": "Adj hozzá egyet, hogy ujjlenyomattal, arccal vagy az eszköz képernyőzárával jelentkezhess be a jelszó helyett. A jelszavad továbbra is működik.",
+        "deleteConfirm": "Eltávolítod ezt a passkey-t? Többé nem tudsz vele bejelentkezni.",
+        "cancel": "Mégse",
+        "removing": "Eltávolítás…",
+        "createTitle": "Passkey létrehozása",
+        "createSubtitle": "A passkey-jel ujjlenyomattal, arccal vagy az eszköz képernyőzárával jelentkezhetsz be. Az eszközöd vagy a jelszókezelőd tárolja, és soha nem hagyja el.",
+        "nameLabel": "Passkey neve",
+        "nameHint": "Hogy meg tudd különböztetni a passkey-eidet, például az eszköz vagy a jelszókezelő nevével, ahol tárolod.",
+        "whatHappensTitle": "Mi történik ezután",
+        "whatHappens1": "A böngésződ vagy a jelszókezelőd megkérdezi, hová mentse a passkey-t.",
+        "whatHappens2": "Erősítsd meg ujjlenyomattal, arccal vagy képernyőzárral.",
+        "whatHappens3": "Ezután bejelentkezéskor kiválaszthatod a passkey-t.",
+        "create": "Passkey létrehozása",
+        "waiting": "Kövesd a böngésződ vagy a jelszókezelőd utasítását…",
+        "cancelled": "Nem jött létre passkey. Próbáld újra.",
+        "doneTitle": "Passkey hozzáadva",
+        "doneSubtitle": "Mostantól bejelentkezhetsz a(z) \"{name}\" passkey-jel. A jelszavad is továbbra is működik.",
+        "done": "Kész",
+        "back": "Vissza",
+        "removeError": "Nem sikerült eltávolítani a hozzáférési kulcsot. Próbáld újra.",
+        "defaultName": "{browser} itt: {system}",
+        "rowDescription": "Jelentkezz be ujjlenyomattal, arcoddal vagy az eszközöd PIN-kódjával."
+      },
+      "activityModal": {
+        "title": "Fiók bejelentkezési tevékenysége",
+        "subtitle": "Hol van most bejelentkezve a fiókod. Jelentkezz ki minden olyan eszközről, amelyet nem ismersz fel.",
+        "unknownDevice": "Ismeretlen eszköz",
+        "unknownLocation": "Ismeretlen hely",
+        "currentDevice": "Ez az eszköz",
+        "lastActive": "Utoljára aktív {date}",
+        "revoke": "Kijelentkezés",
+        "revokePending": "Folyamatban...",
+        "revokeAllTitle": "Bejelentkezések más eszközökön",
+        "revokeAll": "Kijelentkezés az összes többi eszközön",
+        "revokeAllPending": "Folyamatban...",
+        "revokeSuccess": "A munkamenet vissza lett vonva.",
+        "revokeAllSuccess": "Az összes többi munkamenet ki lett jelentkeztetve.",
+        "revokeError": "A munkamenet visszavonása sikertelen.",
+        "viewMore": "+ {count} másik eszköz",
+        "activeNow": "Most aktív",
+        "thisDeviceTitle": "Ez az eszköz",
+        "otherEmpty": "Egyetlen másik eszközön sem vagy bejelentkezve.",
+        "showAll": "Mind a(z) {count} megjelenítése",
+        "revokeAllConfirm": "Kijelentkezel mind a(z) {count} másik eszközről? Aki használja őket, annak újra be kell jelentkeznie.",
+        "cancel": "Mégse"
+      },
+      "automatedDecisions": {
+        "title": "Automatikus döntések",
+        "description": "A fiókvédelmi döntések egy részét automatikusan hozzuk meg, például a bejelentkezési minták és a gyanús tevékenység alapján. Kérheted, hogy az Ordnary egy munkatársa vizsgálja felül az eredményt.",
+        "back": "Vissza",
+        "close": "Bezárás",
+        "loading": "Betöltés…",
+        "currentStateTitle": "Jelenlegi automatikus állapot",
+        "riskLabels": {
+          "LOW": "Alacsony kockázat",
+          "MEDIUM": "Közepes kockázat",
+          "HIGH": "Magas kockázat"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktív",
+          "SUSPENDED": "Ideiglenesen felfüggesztve",
+          "DEACTIVATED": "Inaktivált",
+          "DELETED": "Törlés függőben"
+        },
+        "suspendedExplanation": "A fiókodat jelenleg egy automatikus szabály korlátozza. Lent emberi felülvizsgálatot kérhetsz. Az Ordnary egy munkatársa megnézi a jelzéseket és az indoklásodat, és megerősíti vagy felülbírálja a döntést.",
+        "elevatedExplanation": "A fiókod kockázati szintjét a legutóbbi tevékenység alapján megemeltük. Ha szerinted a jelzések tévesek, emberi felülvizsgálatot kérhetsz.",
+        "okExplanation": "A fiókodon nem jelöltünk meg automatikus korlátozást. Lent továbbra is kérheted bármelyik korábbi döntés felülvizsgálatát.",
+        "lastEvaluated": "Utolsó értékelés",
+        "signalsTitle": "Legutóbbi biztonsági jelzések",
+        "signalsEmpty": "Mostanában nem rögzítettünk biztonsági jelzést.",
+        "appealTitle": "Emberi felülvizsgálat kérése",
+        "appealSubtitle": "Az Ordnary egy felülvizsgálója megnézi az automatikus döntést, az indoklásodat és a mögötte lévő jelzéseket. Ésszerű időn belül igyekszünk válaszolni.",
+        "pickReason": "Mit vitatsz?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Szerintem a felfüggesztés hibás",
+          "RISK_LEVEL_OBJECTION": "Szerintem a kockázati szintem téves",
+          "SECURITY_EVENT_OBJECTION": "Egy konkrét biztonsági jelzést szeretnék vitatni",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Azt szeretném, hogy egy ember vizsgálja felül a fiókom automatikus döntéseit"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "A fiókod jelenleg fel van függesztve, és szeretnéd, hogy ezt a döntést felülvizsgálják.",
+          "RISK_LEVEL_OBJECTION": "A kockázati szinted magasabb a vártnál, és szeretnéd, hogy újraértékeljék.",
+          "SECURITY_EVENT_OBJECTION": "Egy konkrét biztonsági eseményt rögzítettünk, amelyet nem ismersz fel.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Azt szeretnéd, hogy egy ember megnézze a fiókod automatikus döntéseit."
+        },
+        "yourStatement": "Az indoklásod (nem kötelező)",
+        "statementPlaceholder": "Írd le, amit tudnunk kell, például hogy utaztál, új eszközt használtál, vagy valaki más próbált betörni a fiókodba.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Felülvizsgálati kérés elküldése",
+        "submitting": "Küldés…",
+        "submitted": "Megkaptuk a kérésedet, és jelentkezünk.",
+        "pendingTitle": "Felülvizsgálat folyamatban",
+        "pendingSubtitle": "Az Ordnary egy munkatársa megnézi a kérésedet. Értesítünk, ha van frissítés.",
+        "withdraw": "Kérés visszavonása",
+        "withdrawing": "Visszavonás…",
+        "withdrawn": "A kérés visszavonva.",
+        "withdrawableHint": "Ezt a kérést bármikor visszavonhatod.",
+        "historyTitle": "Korábbi felülvizsgálati kérések",
+        "historyEmpty": "Nincs korábbi felülvizsgálati kérés.",
+        "outcomes": {
+          "UPHELD": "Helybenhagyva",
+          "OVERTURNED": "Megváltoztatva",
+          "ADJUSTED": "Módosítva",
+          "ESCALATED": "Továbbítva"
+        },
+        "statuses": {
+          "PENDING": "Függőben",
+          "IN_REVIEW": "Felülvizsgálat alatt",
+          "RESOLVED": "Megoldva",
+          "WITHDRAWN": "Visszavonva"
+        },
+        "loadError": "Nem sikerült betölteni az automatikus döntés részleteit.",
+        "alreadyOpen": "Már van egy nyitott felülvizsgálati kérésed.",
+        "cooldown": "Új felülvizsgálati kérést {hours} óra múlva küldhetsz újra. Ez a várakozás segít, hogy a felülvizsgáló eljusson az előző kéréshez.",
+        "showAll": "Mind megjelenítése ({count})",
+        "showLess": "Kevesebb megjelenítése"
+      },
+      "previewBadge": "Előnézet",
+      "previewBadgeTooltip": "Új, és még fejlesztés alatt áll. A passkey-ek működnek, de a részletek változhatnak."
+    },
+    "connections": {
+      "title": "Csatlakoztatott alkalmazások",
+      "description": "Az Ordnary-fiókod adataihoz hozzáféréssel rendelkező alkalmazások.",
+      "empty": "Még nem csatlakoztattál alkalmazást.",
+      "authorizedScopes": "Engedélyezett hatókörök: {scopes}",
+      "granted": "Megadva: {date}",
+      "revoke": "Hozzáférés visszavonása"
+    },
+    "devices": {
+      "title": "Eszközök és munkamenetek",
+      "description": "Kezeld az aktív munkameneteidet a különböző eszközökön.",
+      "logoutOthers": "Kijelentkezés az összes többi eszközön",
+      "headers": {
+        "device": "Eszköz",
+        "location": "Hely / IP",
+        "lastActive": "Utoljára aktív",
+        "type": "Típus",
+        "actions": "Műveletek"
+      },
+      "unknownDevice": "Ismeretlen eszköz",
+      "currentSession": "(Jelenlegi munkamenet)",
+      "typeFormat": "{browser} ezen: {os}",
+      "revoke": "Visszavonás"
+    },
+    "passkeysPage": {
+      "title": "Hozzáférési kulcsok",
+      "description": "Kezeld a biometrikus adataidat és hardverkulcsaidat a jelszó nélküli bejelentkezéshez.",
+      "add": "+ Új hozzáférési kulcs hozzáadása",
+      "empty": "Még nem adtál hozzá hozzáférési kulcsot.",
+      "unnamed": "Névtelen hozzáférési kulcs",
+      "addedOn": "Hozzáadva: {date}",
+      "lastUsed": "Utoljára használva: {date}",
+      "never": "Soha",
+      "delete": "Törlés"
+    },
+    "activity": {
+      "title": "Legutóbbi tevékenység",
+      "description": "Tekintsd át és kísérd figyelemmel a fiókod biztonságával kapcsolatos fontos eseményeket és változásokat.",
+      "details": "Részletek",
+      "dates": {
+        "today": "Ma, április 17.",
+        "yesterday": "Tegnap, április 16."
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Bejelentkezés",
+        "LOGIN_FAILED": "Sikertelen bejelentkezés",
+        "LOGIN_LOCKED": "Bejelentkezés letiltva",
+        "LOGOUT": "Kijelentkezés",
+        "SESSION_CREATED": "Munkamenet létrehozva",
+        "SESSION_REVOKED": "Munkamenet befejezve",
+        "SESSION_ALL_REVOKED": "Kijelentkezés mindenhonnan",
+        "PASSWORD_SET": "Jelszó beállítva",
+        "PASSWORD_CHANGED": "Jelszó módosítva",
+        "PASSWORD_RESET_REQUESTED": "Jelszó-visszaállítás kérve",
+        "PASSWORD_RESET_COMPLETED": "Jelszó visszaállítva",
+        "PASSKEY_REGISTERED": "Hozzáférési kulcs regisztrálva",
+        "PASSKEY_USED": "Bejelentkezés hozzáférési kulccsal",
+        "PASSKEY_REMOVED": "Hozzáférési kulcs eltávolítva",
+        "PASSKEY_COUNTER_MISMATCH": "Hozzáférési kulccsal kapcsolatos figyelmeztetés",
+        "MFA_ENABLED": "Kétlépcsős hitelesítés bekapcsolva",
+        "MFA_DISABLED": "Kétlépcsős hitelesítés kikapcsolva",
+        "MFA_FACTOR_ENROLLED": "Hitelesítő alkalmazás hozzáadva",
+        "MFA_FACTOR_VERIFIED": "Hitelesítő alkalmazás megerősítve",
+        "MFA_FACTOR_REVOKED": "Hitelesítő alkalmazás eltávolítva",
+        "RECOVERY_CODES_GENERATED": "Új helyreállítási kódok",
+        "RECOVERY_CODE_USED": "Helyreállítási kód felhasználva",
+        "STEP_UP_REQUIRED": "Megerősítés kérve",
+        "STEP_UP_COMPLETED": "Személyazonosság megerősítve",
+        "EMAIL_ADDED": "E-mail-cím hozzáadva",
+        "EMAIL_VERIFIED": "E-mail-cím megerősítve",
+        "EMAIL_REMOVED": "E-mail-cím eltávolítva",
+        "EMAIL_PRIMARY_CHANGED": "Elsődleges e-mail-cím módosítva",
+        "ACCOUNT_CREATED": "Fiók létrehozva",
+        "ACCOUNT_UPDATED": "Fiók frissítve",
+        "ACCOUNT_DELETED": "Fióktörlés elindítva",
+        "ACCOUNT_REACTIVATED": "Fiók újraaktiválva",
+        "OAUTH_CONSENT_GRANTED": "Alkalmazás hozzáférést kapott",
+        "OAUTH_CONSENT_REVOKED": "Alkalmazás hozzáférése visszavonva",
+        "OAUTH_TOKEN_ISSUED": "Alkalmazás bejelentkezett",
+        "OAUTH_TOKEN_REVOKED": "Alkalmazás kijelentkeztetve",
+        "SUSPICIOUS_NEW_LOCATION": "Bejelentkezés új helyről",
+        "SUSPICIOUS_NEW_DEVICE": "Bejelentkezés új eszközön",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Szokatlan bejelentkezés",
+        "NOTIFICATION_PREFERENCE_CHANGED": "E-mail-beállítások módosítva",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Leiratkozás",
+        "PRIVACY_REQUEST_FILED": "Adatvédelmi kérelem benyújtva",
+        "PRIVACY_REQUEST_RESOLVED": "Adatvédelmi kérelem elbírálva",
+        "DSAR_FILED": "Adatkérelem benyújtva",
+        "DSAR_FULFILLED": "Adatkérelem teljesítve",
+        "DSAR_REJECTED": "Adatkérelem elutasítva",
+        "RISK_REVIEW_REQUESTED": "Felülvizsgálat kérve",
+        "RISK_REVIEW_RESOLVED": "Felülvizsgálat lezárva"
+      },
+      "severities": {
+        "INFO": "Infó",
+        "MEDIUM": "Közepes",
+        "HIGH": "Magas",
+        "CRITICAL": "Kritikus",
+        "LOW": "Alacsony"
+      },
+      "empty": "A fiókodban még nincs tevékenység.",
+      "filters": {
+        "all": "Összes",
+        "account": "Fiókmódosítások",
+        "security": "Biztonsági riasztások"
+      },
+      "retention": "A tevékenységet {days} napig őrizzük meg. Ezt itt módosíthatod: {link}.",
+      "retentionLink": "Adataid és jogosultságaid",
+      "emptyFiltered": "Ebben a nézetben nincs megjeleníthető elem.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Valaki bejelentkezett a fiókodba a jelszóval vagy egy bejelentkezési kóddal.",
+        "LOGIN_FAILED": "Valaki megpróbált bejelentkezni a fiókodba, de a jelszó vagy a kód hibás volt. Néhány ilyen általában csak elgépelés.",
+        "LOGIN_LOCKED": "Túl sok sikertelen próbálkozás után a fiókodba való bejelentkezést egy időre letiltottuk, hogy megvédjük a fiókot.",
+        "LOGOUT": "A fiókod egyik munkamenete kijelentkezett.",
+        "SESSION_CREATED": "Valaki bejelentkezett a fiókodba egy eszközön vagy böngészőben, így új munkamenet indult.",
+        "SESSION_REVOKED": "A fiókod egyik munkamenete ki lett jelentkeztetve, általad vagy azért, mert már nem volt biztonságos megtartani.",
+        "SESSION_ALL_REVOKED": "A fiókod minden más eszközön ki lett jelentkeztetve.",
+        "PASSWORD_SET": "Jelszó lett hozzáadva a fiókodhoz.",
+        "PASSWORD_CHANGED": "A fiókod jelszava megváltozott.",
+        "PASSWORD_RESET_REQUESTED": "Jelszó-visszaállító kódot küldtünk az e-mail-címedre.",
+        "PASSWORD_RESET_COMPLETED": "A jelszavad egy e-mailben kapott kóddal vissza lett állítva, és mindenhol kijelentkeztettünk.",
+        "PASSKEY_REGISTERED": "Hozzáférési kulcs lett hozzáadva, így jelszó helyett az eszközöddel is bejelentkezhetsz.",
+        "PASSKEY_USED": "Valaki bejelentkezett a fiókodba annak egyik hozzáférési kulcsával.",
+        "PASSKEY_REMOVED": "Egy hozzáférési kulcs el lett távolítva, és már nem használható bejelentkezésre.",
+        "PASSKEY_COUNTER_MISMATCH": "Egy hozzáférési kulcs váratlan adatot jelzett, ami arra utalhat, hogy lemásolták. A bejelentkezést elutasítottuk.",
+        "MFA_ENABLED": "Bejelentkezéskor mostantól a hitelesítő alkalmazásod kódját is kérjük.",
+        "MFA_DISABLED": "Bejelentkezéskor már nem kérjük a hitelesítő alkalmazásod kódját.",
+        "MFA_FACTOR_ENROLLED": "Egy hitelesítő alkalmazás össze lett kapcsolva a fiókoddal.",
+        "MFA_FACTOR_VERIFIED": "A hitelesítő alkalmazásod egyik kódja meg lett erősítve.",
+        "MFA_FACTOR_REVOKED": "Egy hitelesítő alkalmazás el lett távolítva a fiókodból.",
+        "RECOVERY_CODES_GENERATED": "Új helyreállítási kódok készültek. A régi kódok már nem működnek.",
+        "RECOVERY_CODE_USED": "Valaki az egyik helyreállítási kódoddal jelentkezett be a hitelesítő kód helyett. Ez a kód nem használható újra.",
+        "STEP_UP_REQUIRED": "Egy érzékeny módosítás előtt meg kellett erősítened, hogy te vagy az, egy e-mailben kapott kóddal.",
+        "STEP_UP_COMPLETED": "Egy e-mailben kapott kód megerősítette, hogy te vagy az, így egy ideig érzékeny módosítást végezhettél.",
+        "EMAIL_ADDED": "Egy e-mail-cím lett hozzáadva a fiókodhoz, és megerősítő linket küldtünk rá.",
+        "EMAIL_VERIFIED": "A fiókod egyik e-mail-címe meg lett erősítve.",
+        "EMAIL_REMOVED": "Egy e-mail-cím el lett távolítva a fiókodból.",
+        "EMAIL_PRIMARY_CHANGED": "Egy másik e-mail-cím lett a fiókod fő címe a bejelentkezéshez és az üzenetekhez.",
+        "ACCOUNT_CREATED": "Létrejött az Ordnary-fiókod.",
+        "ACCOUNT_UPDATED": "A fiókod egyik beállítása vagy adata megváltozott.",
+        "ACCOUNT_DELETED": "A fiókod törlésre lett jelölve. 30 napig még visszaállítható.",
+        "ACCOUNT_REACTIVATED": "A fiókod újra be lett kapcsolva, miután deaktiválva vagy törölve volt.",
+        "OAUTH_CONSENT_GRANTED": "Egy alkalmazás hozzáférést kapott a fiókodhoz az Ordnary ID-n keresztül.",
+        "OAUTH_CONSENT_REVOKED": "Egy alkalmazás már nem fér hozzá a fiókodhoz.",
+        "OAUTH_TOKEN_ISSUED": "Egy alkalmazás, amelyet az Ordnary ID-val használsz, új bejelentkezési tokent kapott.",
+        "OAUTH_TOKEN_REVOKED": "Egy alkalmazás bejelentkezési tokenje vissza lett vonva.",
+        "SUSPICIOUS_NEW_LOCATION": "A fiókodat olyan helyről használták, ahonnan korábban még nem.",
+        "SUSPICIOUS_NEW_DEVICE": "A fiókodat olyan eszközön használták, amelyen korábban még nem.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "A fiókodat két olyan helyről használták, amelyek túl messze vannak egymástól ahhoz, hogy egy ember ennyi idő alatt eljusson egyikből a másikba.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Megváltozott, hogy milyen e-maileket küldhet neked az Ordnary.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Egy e-mailben lévő leiratkozási link kikapcsolt egy e-mail-típust.",
+        "PRIVACY_REQUEST_FILED": "Kérelem érkezett az adataid kezelése elleni tiltakozásra vagy a kezelés korlátozására.",
+        "PRIVACY_REQUEST_RESOLVED": "Az Ordnary elbírálta az adatkezelés elleni tiltakozásra vagy annak korlátozására vonatkozó kérelmedet.",
+        "DSAR_FILED": "Kérelem érkezett az adataiddal kapcsolatban (hozzáférés, helyesbítés, törlés vagy másolat).",
+        "DSAR_FULFILLED": "Az Ordnary teljesítette az adatkérelmedet.",
+        "DSAR_REJECTED": "Az Ordnary elutasította az adatkérelmedet; az okát az e-mailben találod.",
+        "RISK_REVIEW_REQUESTED": "Felülvizsgálatot kértek egy, a fiókodat érintő automatikus döntésről.",
+        "RISK_REVIEW_RESOLVED": "Az Ordnary egyik munkatársa felülvizsgált egy, a fiókodat érintő automatikus döntést."
+      },
+      "detail": {
+        "ifNotYou": "Nem te voltál? Módosítsd a jelszavad, és jelentkeztesd ki a többi eszközödet a Jelszó és biztonság részben.",
+        "ifNotYouLink": "Ugrás a Jelszó és biztonság részhez",
+        "generic": "Ez az esemény rögzítve lett a fiókodban.",
+        "labels": {
+          "when": "Mikor",
+          "where": "Hol",
+          "ip": "IP-cím",
+          "session": "Munkamenet",
+          "thisDevice": "Ez az eszköz",
+          "event": "Esemény",
+          "source": "Rögzítés helye",
+          "severity": "Fontosság"
+        },
+        "sources": {
+          "AUDIT_LOG": "Fióknapló",
+          "SECURITY_EVENT": "Biztonsági megfigyelés"
+        },
+        "unknown": "Ismeretlen",
+        "times": "{count}×",
+        "timeSpan": "{from} és {to} között"
+      },
+      "showMore": "Korábbi napok megjelenítése",
+      "loadingMore": "Betöltés…",
+      "end": "Ennyi a megőrzött tevékenység.",
+      "loadFailed": "Nem sikerült többet betölteni. Próbáld újra."
+    },
+    "connectedAppsDemo": {
+      "title": "Csatlakoztatott alkalmazások",
+      "description": "Harmadik felek alkalmazásai és szolgáltatásai, amelyeknek hozzáférést adtál fiókod bizonyos adataihoz.",
+      "badges": {
+        "official": "Hivatalos",
+        "verified": "Ellenőrzött"
+      },
+      "accessed": "Hozzáférés: {value}",
+      "revoke": "Hozzáférés visszavonása",
+      "apps": {
+        "consoleReason": "Kezeld a felhőerőforrásaidat és a telepítési folyamataidat.",
+        "figmaReason": "Közös prototípus-készítésre használt tervezőeszköz.",
+        "unknownGameName": "Ismeretlen játék",
+        "unknownGameReason": "Egy ellenőrizetlen alkalmazás, amely elkérte a profiladataidat.",
+        "currentSession": "Jelenlegi munkamenet",
+        "twoDaysAgo": "2 napja",
+        "lastMonth": "Múlt hónapban"
+      }
+    },
+    "permissions": {
+      "title": "Adataid és engedélyeid",
+      "exportTitle": "Adataid exportálása",
+      "searchHistory": "Ordnary-tevékenység",
+      "externalActivity": "Tevékenységed az Ordnary technológiákon kívül",
+      "appConnections": "Alkalmazáskapcsolatok",
+      "manageContacts": "Névjegyek kezelése",
+      "notice": "Az adataid másolatának letöltéséhez vagy átviteléhez nyisd meg az Adataid exportálása részt.",
+      "footer": "Döntsd el, milyen információkat használhatnak az Ordnary technológiák az élményeid alakításához.",
+      "privacyRightsTitle": "Adatvédelmi jogaid",
+      "dsarTitle": "Adatvédelmi és adatkérések",
+      "dsarSubtitle": "Nyújts be hivatalos hozzáférési, helyesbítési, törlési vagy adathordozhatósági kérést (15-20. cikk).",
+      "privacyRequestsTitle": "Tiltakozás vagy korlátozás",
+      "privacyRequestsSubtitle": "Tiltakozz bizonyos adatkezelési tevékenységek ellen, vagy korlátozd őket (18. és 21. cikk).",
+      "processorsTitle": "Ki dolgozza fel az adataidat",
+      "processorsSubtitle": "A cégek, amelyeket az Ordnary működtetéséhez használunk, mit kapnak, és hol tárolják.",
+      "cookiesTitle": "Sütibeállítások",
+      "cookiesSubtitle": "Kezeld, hogy az Ordnary milyen sütiket használhat ebben a böngészőben.",
+      "minorConsentTitle": "Szülői hozzájárulás",
+      "minorConsentSubtitle": "Ha az országodban a hozzájárulási kor alatt vagy, egy szülőnek vagy gondviselőnek bele kell egyeznie (GDPR 8. cikk).",
+      "notificationsTitle": "Értesítési beállítások",
+      "notificationsSubtitle": "Válaszd ki, milyen e-maileket küldhet neked az Ordnary.",
+      "notifications": {
+        "title": "Értesítési beállítások",
+        "close": "Bezárás",
+        "loading": "Betöltés…",
+        "alwaysOn": "Mindig be",
+        "description": "Válaszd ki, milyen e-maileket kapsz az Ordnarytól.",
+        "loadError": "Ezt most nem sikerült betölteni. Próbáld újra később.",
+        "saveError": "Ezt nem sikerült menteni. Próbáld újra.",
+        "saved": "Mentve.",
+        "alwaysTitle": "Mindig bekapcsolva",
+        "alwaysText": "Ezek az e-mailek biztonságban tartják a fiókodat, és megerősítik, amit kértél, ezért bekapcsolva maradnak.",
+        "choiceTitle": "A te döntésed",
+        "turnAllOff": "Az összes választható e-mail kikapcsolása",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Biztonsági figyelmeztetések",
+          "TRANSACTIONAL_ACCOUNT": "Fiókértesítések",
+          "PRODUCT_UPDATES": "Termékfrissítések",
+          "RECOMMENDATIONS": "Ajánlások",
+          "MARKETING": "Hírek és ajánlatok"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Bejelentkezési kódok, jelszó-visszaállítások, valamint figyelmeztetések új bejelentkezésekről vagy a biztonságodat érintő változásokról.",
+          "TRANSACTIONAL_ACCOUNT": "Visszaigazolások arról, amit csináltál, például adatexportról, adatvédelmi kérésről vagy szülői hozzájárulásról.",
+          "PRODUCT_UPDATES": "Mi újság az Ordnary termékeivel, és változások a feltételeinkben.",
+          "RECOMMENDATIONS": "Javaslatok aszerint, hogyan használod az Ordnaryt.",
+          "MARKETING": "Hírlevelek és ajánlatok, időnként."
+        }
+      },
+      "minorConsent": {
+        "title": "Szülői hozzájárulás",
+        "description": "Ha fiatalabb vagy annál a kornál, amelytől online magad is hozzájárulhatsz dolgokhoz, egy szülőnek vagy gondviselőnek bele kell egyeznie, mielőtt felhasználhatnánk néhány adatodat. Ez a GDPR 8. cikkéből ered.",
+        "close": "Bezárás",
+        "loading": "Betöltés…",
+        "loadError": "Ezt most nem tudtuk betölteni. Próbáld újra később.",
+        "consentAge": "Hozzájárulási kor itt: {country}: {age}",
+        "yourAge": "A te korod: {age}",
+        "adultTitle": "Nem szükséges",
+        "adultBody": "Elég idős vagy ahhoz, hogy magad hozzájárulj, így nincs szükséged szülői hozzájárulásra.",
+        "unknownTitle": "Még nem ismerjük a korodat",
+        "unknownBody": "Add meg a születési dátumodat, hogy megállapíthassuk, kell-e szülői hozzájárulás.",
+        "unknownAction": "Születési dátum megadása",
+        "blockedTitle": "Hozzájárulás szükséges",
+        "blockedBody": "Amíg egy szülő vagy gondviselő nem egyezik bele, a fiókod egyes részei korlátozottak.",
+        "pendingTitle": "Várjuk a szülődet vagy gondviselődet",
+        "pendingBody": "Küldtünk egy kérést a(z) {email} címre. A hivatkozás eddig érvényes: {date}.",
+        "verifiedTitle": "Hozzájárulás megadva",
+        "verifiedBody": "{email} ekkor járult hozzá: {date}.",
+        "parentEmail": "Szülő vagy gondviselő e-mail-címe",
+        "relationship": "Ki ez, például anya (nem kötelező)",
+        "addMessage": "Üzenet hozzáadása (nem kötelező)",
+        "notes": "Üzenet a szülődnek vagy gondviselődnek",
+        "submit": "Kérés elküldése",
+        "submitting": "Küldés…",
+        "resend": "Küldés újra",
+        "changeEmail": "Másik e-mail-cím használata",
+        "cancel": "Mégse",
+        "revoke": "Visszavonás",
+        "revokeConfirm": "Visszavonod a hozzájárulást? A fiókod egyes részei újra korlátozottak lesznek, amíg egy szülő vagy gondviselő újra bele nem egyezik.",
+        "revoking": "Visszavonás…",
+        "revoked": "Hozzájárulás visszavonva.",
+        "notMinor": "Elég idős vagy ahhoz, hogy magad hozzájárulj.",
+        "invalidEmail": "Adj meg érvényes e-mail-címet.",
+        "requestSent": "A kérést elküldtük a(z) {email} címre.",
+        "points": [
+          {
+            "title": "Add meg az ő e-mail-címüket",
+            "text": "Egy szülő vagy gondviselő e-mail-címe."
+          },
+          {
+            "title": "Beleegyeznek",
+            "text": "E-mailt kapnak a hozzájáruláshoz szükséges linkkel. A link 14 napig működik."
+          },
+          {
+            "title": "A fiókod teljes értékűen működik",
+            "text": "Amint beleegyeznek, feloldjuk a fiókod korlátozásait."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Exportálhatod az adataid másolatát külső szolgáltatásba vagy az eszközödre. Az elérhető adatok közé tartoznak az általad megosztott tartalmak és információk, a tevékenységed és az általunk gyűjtött információk.",
+      "exportButton": "Letöltési hivatkozás küldése",
+      "exportModalContentsTitle": "Mit tartalmaz az exportod:",
+      "exportModalContents": [
+        "Profiladatok és fiókbeállítások",
+        "E-mail-címek és telefonszámok",
+        "Biztonsági beállítások (passkey-ek, MFA, eszközök)",
+        "Munkamenet- és bejelentkezési előzmények",
+        "Fizetési adatok",
+        "Csatlakoztatott alkalmazások és OAuth-hozzájárulások",
+        "Tevékenységnapló és biztonsági események",
+        "Adatvédelmi és sütihozzájárulások"
+      ],
+      "exportModalFormat": "Formátum: ZIP-archívum strukturált JSON-fájlokkal és olvasható README-vel.",
+      "exportModalRateLimit": "Kapsz egy e-mailt egyszer használható letöltési hivatkozással. Legfeljebb 3 export 24 óránként.",
+      "exportDownload": {
+        "loading": "Egy pillanat…",
+        "readyTitle": "Az adatexportod elkészült",
+        "readyDescription": "Kattints az alábbi gombra, hogy ZIP-archívumként letöltsd a fiókadataidat. Ez a hivatkozás egyszer használható, és 24 óra után lejár.",
+        "downloadButton": "Adataid letöltése",
+        "readyHint": "A fájl az összes személyes adatodat, biztonsági beállításodat, tevékenységnaplódat és még többet tartalmaz strukturált JSON-fájlokban.",
+        "downloadingTitle": "Letöltés…",
+        "downloadingDescription": "Az exportod előkészítése folyamatban van. Ez eltarthat néhány másodpercig.",
+        "successTitle": "A letöltés megkezdődött",
+        "successDescription": "Az adatexportod letöltődik. A fájlt tárold biztonságos helyen, mert érzékeny személyes adatokat tartalmaz.",
+        "successHint": "Ez a letöltési hivatkozás lejárt. Ha új exportra van szükséged, kérhetsz egyet a fiókbeállításaidban.",
+        "backToSettings": "Vissza a fiókbeállításokhoz",
+        "expiredTitle": "A hivatkozás lejárt",
+        "expiredDescription": "Ez a letöltési hivatkozás lejárt, vagy már felhasználták. A letöltési hivatkozások 24 óráig érvényesek, és csak egyszer használhatók.",
+        "newExportButton": "Új export kérése",
+        "errorTitle": "Hiba történt",
+        "errorDefault": "Hiba történt az exportod lekérésekor.",
+        "noToken": "Nem található letöltési token."
+      },
+      "appConnectionsModalSubtitle": "Az alkalmazáskapcsolatokkal különböző Ordnary-termékekben és más cégekkel is csinálhatsz dolgokat.",
+      "connectButton": "Csatlakozás",
+      "activityModalSubtitle": "Tekintsd meg és kezeld a tevékenységedet az Ordnary ökoszisztémában, beleértve a SaaS-termékeinket és alkalmazásainkat. Ezekből az információkból tanulunk a viselkedésedből, és optimalizáljuk az élményt az összes platformunkon.",
+      "accountsAndProfiles": "Fiókjaid és profiljaid",
+      "keepActivityFor": "Tevékenység megőrzése",
+      "clearActivityButton": "Összes tevékenység törlése",
+      "days3": "3 nap",
+      "days7": "7 nap",
+      "days14": "14 nap",
+      "standardOption": "Alapértelmezett",
+      "noticeTitle": "Kapj másolatot az adataidról",
+      "noticeText": "Töltsd le a fiókadataidat, hogy megőrizd, vagy átvidd egy másik szolgáltatásba.",
+      "noticeAction": "Adatok exportálása",
+      "experimentBadge": "Kísérlet",
+      "userFallback": "Felhasználó",
+      "avatarAlt": "Profilkép",
+      "exportSent": "A letöltési hivatkozást elküldtük ide: {email}",
+      "exportFailed": "Az exportálás sikertelen. Próbáld újra.",
+      "exportInProgress": "Már készül egy exportálás. Próbáld újra egy kis idő múlva.",
+      "exportRateLimited": "Elérted az exportálások maximális számát. Próbáld újra ennyi idő múlva: {time}.",
+      "saveFailed": "Nem sikerült menteni. Próbáld újra.",
+      "days30": "30 nap",
+      "autoClear": {
+        "title": "Ordnary-tevékenység automatikus törlése",
+        "subtitle": "Válaszd ki, mennyi ideig őrizzük meg a tevékenységedet. A régebbi tevékenység automatikusan törlődik, a Fiókközpont összes fiókjára és profiljára.",
+        "standard": "Alapértelmezett",
+        "saving": "Mentés…",
+        "saved": "Mentve.",
+        "back": "Vissza",
+        "close": "Bezárás",
+        "howTitle": "Mi törlődik",
+        "howText": "A bejelentkezési előzményeid és a fiókod biztonsági eseményei, például új bejelentkezések, jelszóváltoztatások és blokkolt kísérletek, ha régebbiek a választott időszaknál.",
+        "howPermanent": "A törölt tevékenység nem állítható vissza. Ha meg szeretnéd őrizni, előbb tölts le egy másolatot.",
+        "learnMore": "További információ az automatikus törlésről az Ordnary dokumentációjában"
+      },
+      "experimentBadgeTooltip": "Még fejlesztés alatt áll. Körülnézhetsz, de az alkalmazások csatlakoztatása még nem működik."
+    },
+    "payments": {
+      "title": "Fizetés",
+      "subtitle": "Kezeld a mentett fizetési adataidat, és azt, hogy mely fiókok férnek hozzájuk. {learnMore}",
+      "syncInfo": "2 fiók között szinkronizálva",
+      "addMethodTitle": "Fizetési mód hozzáadása",
+      "addMethodSubtitle": "Ments el egy kártyát, vagy kösd össze a PayPal-fiókodat, hogy könnyebb legyen a következő vásárlás.",
+      "addMethodButton": "Fizetési mód hozzáadása",
+      "shippingTitle": "Szállítási adatok",
+      "shippingAddress": "Szállítási cím",
+      "emailAddress": "E-mail-cím",
+      "phoneNumber": "Telefonszám",
+      "addModal": {
+        "title": "Fizetési mód hozzáadása",
+        "card": "Hitel- vagy bankkártya",
+        "paypal": "PayPal",
+        "footer": "Ezeket az adatokat az Ordnary Pay menti el, és szinkronizálja a Fiókközpontban, ahol kezelhetők. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Kártya hozzáadása",
+        "subtitle": "A kártyaszámodat titkosítva, biztonságosan tároljuk",
+        "cardNumber": "Kártyaszám",
+        "expiry": "Lejárat (HH/ÉÉ)",
+        "cvv": "CVV",
+        "name": "A kártyán szereplő név",
+        "submit": "Tovább",
+        "cvvTooltip": "Az ellenőrző kód (CVV) a kártyád hátoldalán vagy elülső oldalán található biztonsági szám.",
+        "footer": "Ezeket az adatokat az Ordnary Pay menti el, és szinkronizálja a Fiókközpontban, ahol kezelhetők. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Szállítási cím beállítása",
+        "subtitle": "Adj meg szállítási címet az Ordnary Pay számára. Ez különálló a kártya beállításától.",
+        "search": "Cím keresése",
+        "country": "Ország vagy régió",
+        "fullName": "Teljes név",
+        "street": "Cím",
+        "street2": "Cím 2. sora (nem kötelező)",
+        "city": "Város/kerület",
+        "state": "Állam/megye/régió",
+        "zip": "Irányítószám",
+        "submit": "Cím mentése"
+      }
+    },
+    "subscriptions": {
+      "description": "Kezeld az aktív Ordnary-előfizetéseidet, a megújításokat és a számlázási beállításokat.",
+      "emptyTitle": "Nincsenek aktív előfizetések",
+      "emptyDescription": "Az előfizetések itt jelennek meg, amint társítva lesznek a fiókodhoz.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Korlátlan hozzáférés az Ordnary Pictures prémium tartalmaihoz, köztük válogatott filmekhez, sorozatokhoz, előzetesekhez és csak tagoknak szóló megjelenésekhez a támogatott Ordnary-élményekben.",
+          "status": "Aktív",
+          "renewal": "Havonta megújul",
+          "price": "9,99 € havonta"
+        }
+      },
+      "manageSubscription": "Előfizetés kezelése"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Hozzáférés megtagadva",
+        "description": "Jelenleg nincs hozzáférésed a fiókközponthoz. Lehet, hogy lejárt a munkameneted, vagy korlátozták a fiókodat.",
+        "action": "Jelentkezz be újra"
+      },
+      "suspended": {
+        "title": "Fiók deaktiválva",
+        "description": "Ez a fiók deaktiválva vagy ideiglenesen korlátozva van. Ha szerinted ez tévedés, fordulj az ügyfélszolgálathoz.",
+        "action": "Kapcsolatfelvétel"
+      },
+      "banned": {
+        "title": "Hozzáférés véglegesen megtagadva",
+        "description": "A fiókodat véglegesen letiltottuk a felhasználási feltételek megsértése miatt.",
+        "action": "Feltételek megtekintése"
+      },
+      "offline": {
+        "title": "Nincs internetkapcsolat",
+        "description": "Úgy tűnik, offline vagy. A folytatáshoz ellenőrizd az internetkapcsolatodat.",
+        "action": "Próbáld újra"
+      },
+      "unknown": {
+        "title": "Rendszerhiba",
+        "description": "Váratlan hiba történt. Próbáld újra később.",
+        "action": "Vissza a kezdőlapra"
+      },
+      "previousPage": "Előző oldal"
+    },
+    "common": {
+      "noResults": "Nincs találat",
+      "searchPlaceholder": "Keresés..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} hozzá szeretne férni a fiókodhoz",
+      "description": "Bejelentkezve: {displayName}. Csak akkor adj hozzáférést, ha megbízol ebben az alkalmazásban.",
+      "requestedPermissions": "Kért engedélyek",
+      "approve": "Hozzáférés megadása",
+      "deny": "Elutasítás",
+      "errorTitle": "Probléma van a kéréssel",
+      "errorDescription": "Az engedélyezési kérés érvénytelen vagy hiányos. Ellenőrizd a paramétereket.",
+      "unknownAppTitle": "Az alkalmazás nem ellenőrizhető",
+      "unknownAppDescription": "Az Ordnary nem tudja azonosítani ezt az alkalmazást. Ennek általában hibás client_id vagy redirect_uri az oka. A te biztonságod érdekében nem folytathatjuk."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Ez az oldal nem érhető el",
+      "description": "Lehet, hogy a hivatkozás hibás, vagy az oldalt eltávolították. Ellenőrizd, hogy a megnyitni kívánt hivatkozás helyes-e.",
+      "button": "Ugrás a fiókbeállításokhoz"
+    },
+    "serverError": {
+      "title": "Hiba történt",
+      "description": "Váratlan hiba történt. Próbáld újra később.",
+      "button": "Próbáld újra"
+    }
+  },
+  "cookieConsent": {
+    "title": "Engedélyezed az Ordnary sütiinek használatát ebben a böngészőben?",
+    "description": "Sütiket és hasonló technológiákat használunk az Ordnary termékeiben a tartalom megjelenítéséhez és a termékek fejlesztéséhez. Emellett biztonságosabb élmény nyújtására is használjuk őket az Ordnary-n belül és kívül kapott információk alapján. Ezek a sütik nem kötelezők.",
+    "essentialTitle": "Alapvető sütik",
+    "essentialDesc": "Ezek a sütik az Ordnary termékeinek használatához szükségesek, és az oldalaink megfelelő működéséhez elengedhetetlenek.",
+    "optionalTitle": "Más cégek sütijei",
+    "optionalDesc": "Ezeket a sütiket arra használjuk, hogy az Ordnary termékein kívül hirdetéseket mutassunk, és hogy az Ordnary termékeiben olyan funkciókat nyújtsunk, mint a térképek és a videók. Ezek a sütik nem kötelezők.",
+    "policyInfo": "Te döntöd el, mely nem kötelező sütiket használhatjuk. A {cookiePolicy} többet megtudhatsz a sütikről és arról, hogyan használjuk őket, és bármikor áttekintheted vagy módosíthatod a választásaidat.",
+    "cookiePolicy": "sütiszabályzatunkban",
+    "infoTitle": "Tudnivalók a sütikről",
+    "policyRefreshNotice": "Frissítettük, hogyan rögzítjük a sütivalasztásokat. Kérjük, erősítsd meg újra a beállításaidat, hogy naprakész nyilvántartást vezethessünk.",
+    "policyRevisionNotice": "A sütiszabályzatunk frissült. Kérjük, nézd át újra a beállításaidat.",
+    "preferencesTitle": "Sütibeállításaid",
+    "preferencesDescription": "Válaszd ki, milyen kategóriájú sütiket használhat az Ordnary ebben a böngészőben. Ezeket a beállításokat bármikor módosíthatod a fiókodban.",
+    "alwaysOn": "Mindig be",
+    "categories": {
+      "essential": {
+        "title": "Alapvető",
+        "description": "A bejelentkezéshez, a biztonsághoz és a termék többi részének működéséhez szükséges."
+      },
+      "functional": {
+        "title": "Funkcionális",
+        "description": "Megjegyzik a beállításokat, például a nyelvet, a témát és a legutóbbi fiókokat."
+      },
+      "analytics": {
+        "title": "Elemzés",
+        "description": "Segítenek megérteni, hogyan használják az Ordnary-t, hogy fejleszthessük."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Személyre szabott üzenetek az Ordnary-tól a termékekről és az ajánlatokról."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Mik azok a sütik?",
+        "button": "További információ"
+      },
+      "why": {
+        "title": "Miért használunk sütiket?",
+        "button": "További információ"
+      },
+      "products": {
+        "title": "Mik az Ordnary termékei?",
+        "button": "További információ"
+      },
+      "preferences": {
+        "title": "Sütibeállításaid",
+        "button": "További információ"
+      }
+    },
+    "buttons": {
+      "reject": "Nem kötelező sütik elutasítása",
+      "accept": "Összes süti engedélyezése",
+      "rejectShort": "Elutasítás",
+      "acceptShort": "Engedélyezés",
+      "customize": "Testreszabás",
+      "save": "Beállítások mentése",
+      "saveShort": "Mentés",
+      "close": "Bezárás"
+    }
+  },
+  "recentAccounts": {
+    "title": "Jelentkezz be az Ordnary-fiókoddal",
+    "continueAs": "Folytatás mint {name}",
+    "loginAnother": "Bejelentkezés másik fiókkal",
+    "remove": "Fiók eltávolítása"
+  },
+  "reauthenticate": {
+    "title": "Erősítsd meg, hogy te vagy az",
+    "description": "Szia {name}! A biztonságod érdekében ellenőriznünk kell, hogy te vagy az, mielőtt {action}.",
+    "codeSentTo": "Kódot küldtünk ide: {email}.",
+    "codeSent": "6 számjegyű biztonsági kódot küldtünk az e-mail-címedre.",
+    "securityCode": "Biztonsági kód",
+    "continue": "Tovább",
+    "verifying": "Ellenőrzés…",
+    "sending": "Küldés…",
+    "cancel": "Mégse",
+    "errors": {
+      "sendFailed": "Nem sikerült elküldeni a biztonsági kódot.",
+      "invalidCode": "Érvénytelen kód.",
+      "network": "Hálózati hiba. Kérlek, próbáld újra."
+    },
+    "actions": {
+      "changePassword": "módosítanád a jelszavadat",
+      "changeEmail": "kezelnéd az e-mail-címeidet",
+      "managePasskeys": "kezelnéd a hozzáférési kulcsaidat",
+      "manageMfa": "kezelnéd a kétlépcsős hitelesítést",
+      "revokeAllSessions": "kijelentkeznél mindenhol",
+      "manageAccount": "deaktiválnád vagy törölnéd a fiókodat",
+      "rotateClientSecret": "cserélnéd ezt az ügyfélkulcsot",
+      "managePaymentMethods": "kezelnéd a fizetési módjaidat",
+      "authorizeApp": "engedélyeznéd ezt az alkalmazást",
+      "generic": "folytatnád ezt az érzékeny műveletet"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Szülői hozzájárulás megerősítése",
+    "description": "Egy felhasználó arra kért, hogy engedélyezd az Ordnary-fiókját a GDPR 8. cikke alapján. A hozzájárulásod rögzítéséhez kattints lent a Megerősítés gombra. Később bármikor visszavonhatod, ha válaszolsz az eredeti e-mailre, vagy felveszed a kapcsolatot velünk itt: {email}.",
+    "idle": "Ezt az oldalt a kérést tartalmazó e-mailben lévő hivatkozásról kell megnyitni, hogy a megerősítő token is benne legyen.",
+    "verifying": "Ellenőrzés…",
+    "success": "Köszönjük. A szülői hozzájárulást megerősítettük, és feloldottuk a fiókot a felhasználó oldalán. Ő is kapni fog értesítést.",
+    "errors": {
+      "tokenRequired": "Nem érkezett ellenőrző token.",
+      "tokenNotFound": "Ez a megerősítő hivatkozás már nem érvényes.",
+      "alreadyVerified": "Ezt a megerősítést már rögzítettük.",
+      "requestRevoked": "Ezt a kérést visszavonták, vagy újabb váltotta fel.",
+      "tokenExpired": "Ez a megerősítő hivatkozás lejárt. Kérd meg a felhasználót, hogy küldjön új kérést.",
+      "invalidBody": "Az ellenőrzési kérés hibás formátumú volt.",
+      "generic": "Nem sikerült ellenőrizni ezt a megerősítő hivatkozást. Kérd meg a felhasználót, hogy küldjön új kérést."
+    }
+  },
+  "unsubscribe": {
+    "title": "Leiratkozás",
+    "idle": "Ezt az oldalt az e-mailben lévő hivatkozásról nyisd meg, hogy a leiratkozási token is benne legyen.",
+    "verifying": "Beállításod mentése…",
+    "success": "Leiratkoztál.",
+    "successWithCategory": "Leiratkoztál erről: {category}.",
+    "manageAt": "Az összes értesítési beállításodat bármikor módosíthatod itt: {link}.",
+    "categories": {
+      "transactionalSecurity": "biztonsági riasztások",
+      "transactionalAccount": "fiókértesítések",
+      "productUpdates": "termékfrissítések",
+      "recommendations": "ajánlások",
+      "marketing": "marketing e-mailek"
+    },
+    "errors": {
+      "tokenRequired": "Nem érkezett leiratkozási token.",
+      "tokenNotFound": "Ez a leiratkozási hivatkozás már nem érvényes.",
+      "alreadyRedeemed": "Erről a kategóriáról már leiratkoztál.",
+      "tokenExpired": "Ez a leiratkozási hivatkozás lejárt. A beállításokat bejelentkezés után a fiókközpontban kezelheted.",
+      "categoryMandatory": "Ezt a kategóriát nem lehet kikapcsolni, mert biztonsági és a fiókhoz szükséges értesítéseket tartalmaz.",
+      "generic": "Nem sikerült feldolgozni ezt a leiratkozási hivatkozást. Jelentkezz be, és módosítsd közvetlenül a beállításaidat."
+    }
+  },
+  "dsarVerify": {
+    "title": "Erősítsd meg az adatvédelmi kérésedet",
+    "description": "Erősítsd meg, hogy te küldted az Ordnarynak ezt az adataidra vonatkozó kérést. Ha nem, zárd be az oldalt, és jelezd nekünk: {email}.",
+    "idle": "Az általunk küldött e-mailben lévő linkről nyisd meg ezt az oldalt, hogy a megerősítés is benne legyen.",
+    "confirm": "Kérés megerősítése",
+    "verifying": "Megerősítés…",
+    "success": "Köszönjük, a kérésed megerősítve. A törvényes határidőn belül intézzük, és e-mailt küldünk, ha elkészült.",
+    "errors": {
+      "tokenRequired": "Ebből a linkből hiányzik a megerősítő kód.",
+      "tokenNotFound": "Ez a link már nem érvényes.",
+      "tokenExpired": "Ez a link lejárt. Küldd el újra a kérést a Fiókközpontból.",
+      "alreadyProcessed": "Ezt a kérést már megerősítették vagy elintézték.",
+      "generic": "Nem sikerült megerősíteni a kérést. Próbáld újra, vagy írj ide: {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Ki vagy jelentkezve. Jelentkezz be újra, és próbáld újra.",
+    "not_authenticated": "Ki vagy jelentkezve. Jelentkezz be újra, és próbáld újra.",
+    "step_up_required": "Előbb erősítsd meg, hogy te vagy az, majd próbáld újra.",
+    "rate_limited": "Túl sok próbálkozás. Várj néhány percet, és próbáld újra.",
+    "first_party_only": "Ez csak az Ordnary saját alkalmazásaiban érhető el.",
+    "invalid_request": "Valami nem stimmel ezzel a kéréssel. Töltsd újra az oldalt, és próbáld újra.",
+    "invalid_body": "Valami nem stimmel ezzel a kéréssel. Töltsd újra az oldalt, és próbáld újra.",
+    "invalid_action": "Ez a művelet itt nem érhető el.",
+    "missing_fields": "Tölts ki minden mezőt.",
+    "internal_error": "Hiba történt nálunk. Próbáld újra egy kicsit később.",
+    "internal_server_error": "Hiba történt nálunk. Próbáld újra egy kicsit később.",
+    "unavailable": "Ez most nem érhető el. Próbáld újra később.",
+    "send_failed": "Nem sikerült elküldeni az e-mailt. Próbáld újra egy kicsit később.",
+    "user_not_found": "Nem találjuk ezt a fiókot.",
+    "invalid_email": "Adj meg egy érvényes e-mail-címet.",
+    "missing_address": "Adj meg egy e-mail-címet.",
+    "email_already_exists": "Ez az e-mail-cím már használatban van.",
+    "email_not_found": "Ez az e-mail-cím nem szerepel a fiókodban.",
+    "cannot_delete_primary_email": "Az elsődleges e-mail-címedet nem távolíthatod el.",
+    "failed_to_add_email": "Nem sikerült hozzáadni ezt az e-mail-címet.",
+    "failed_to_delete_email": "Nem sikerült eltávolítani ezt az e-mail-címet.",
+    "failed_to_send_verification_email": "Nem sikerült elküldeni a megerősítő e-mailt, ezért a címet nem adtuk hozzá.",
+    "no_email": "A fiókodhoz nem tartozik e-mail-cím, ahová küldhetnénk.",
+    "no_primary_email": "A fiókodnak nincs elsődleges e-mail-címe.",
+    "password_mismatch": "Az új jelszavak nem egyeznek.",
+    "password_incorrect": "A jelenlegi jelszavad helytelen.",
+    "password_too_weak": "Az új jelszó nem felel meg a követelményeknek.",
+    "password_change_failed": "Nem sikerült módosítani a jelszavadat.",
+    "no_password": "A fiókodnak még nincs jelszava.",
+    "passkey_not_found": "Ez a passkey már nem létezik.",
+    "missing_passkey_id": "Előbb válassz egy passkeyt.",
+    "session_not_found": "Ez a munkamenet már nem létezik.",
+    "missing_session_id": "Előbb válassz egy munkamenetet.",
+    "cannot_revoke_current_session": "Azt a munkamenetet, amelyet itt használsz, nem jelentkeztetheted ki.",
+    "code_required": "Add meg az e-mailben kapott kódot.",
+    "code_invalid": "Ez a kód helytelen.",
+    "code_expired": "Ez a kód lejárt. Kérj egy újat.",
+    "exists": "Már van ilyened.",
+    "not_deactivated": "A fiókod nincs inaktiválva.",
+    "grace_period_expired": "A fiók visszaállítására rendelkezésre álló 30 nap letelt.",
+    "token_required": "Ez a link hiányos.",
+    "token_not_found": "Ez a link már nem érvényes.",
+    "token_expired": "Ez a link lejárt.",
+    "already_redeemed": "Ezt a linket már felhasználták.",
+    "already_downloaded": "Ezt a letöltést már felhasználták.",
+    "already_verified": "Ez már meg lett erősítve.",
+    "already_processed": "Ezt a kérést már feldolgoztuk.",
+    "already_extended": "Ennek a kérésnek a határidejét már meghosszabbítottuk.",
+    "invalid_date": "Adj meg egy érvényes dátumot.",
+    "birthday_verification_attempt_not_found": "Nem találjuk ezt az igazolványellenőrzést. Kezdd újra.",
+    "identity_verification_incomplete": "Az igazolványellenőrzés még nem fejeződött be.",
+    "identity_verification_dob_mismatch": "Az igazolványodon szereplő születési dátum nem egyezik a megadottal.",
+    "identity_verification_dob_unavailable": "Nem sikerült kiolvasni a születési dátumot az igazolványodból.",
+    "missing_attempt_id": "Hiányzik az igazolványellenőrzés. Kezdd újra.",
+    "invalid_kind": "Válaszd ki, milyen típusú kérésről van szó.",
+    "invalid_applies_to": "Válaszd ki, mire vonatkozik a kérés.",
+    "invalid_filed_by": "Add meg, ki nyújtja be ezt a kérést.",
+    "subject_email_required": "Add meg azt az e-mail-címet, amelyre a kérés vonatkozik.",
+    "representative_email_required": "Add meg a képviselő e-mail-címét.",
+    "request_not_found": "Nem találjuk ezt a kérést.",
+    "request_already_open": "Már van egy nyitott ilyen típusú kérésed.",
+    "request_cooldown_active": "Nemrég nyújtottad be ezt a kérést. Próbáld újra később.",
+    "request_closed": "Ez a kérés már le van zárva.",
+    "request_not_open": "Ez a kérés már nincs nyitva.",
+    "request_not_verified": "Ez a kérés még nincs megerősítve.",
+    "request_revoked": "Ezt a kérést visszavonták vagy lecserélték.",
+    "no_download_for_kind": "Ehhez a kéréstípushoz nem tartozik letöltés.",
+    "export_already_in_progress": "Egy exportálás már előkészítés alatt áll.",
+    "export_rate_limited": "Nemrég exportáltál. Próbáld újra később.",
+    "invalid_retention_days": "Válassz egyet a felkínált időszakok közül.",
+    "invalid_category": "Ez az értesítési kategória nem létezik.",
+    "category_mandatory": "Ezeket az e-maileket nem lehet kikapcsolni.",
+    "review_not_found": "Nem találjuk ezt a felülvizsgálatot.",
+    "review_already_open": "Már van egy nyitott felülvizsgálatod.",
+    "review_cooldown_active": "Nemrég kértél felülvizsgálatot. Próbáld újra később.",
+    "review_not_open": "Ez a felülvizsgálat már nincs nyitva.",
+    "review_not_pending": "Ez a felülvizsgálat már nem módosítható.",
+    "invalid_review_type": "Válaszd ki, milyen típusú felülvizsgálatról van szó.",
+    "no_active_consent": "Nincs visszavonható aktív hozzájárulás.",
+    "not_a_minor": "Ehhez a fiókhoz nem szükséges szülői hozzájárulás.",
+    "parent_email_required": "Add meg a szülőd vagy gondviselőd e-mail-címét.",
+    "invalid_parent_email": "Adj meg egy érvényes e-mail-címet a szülőd vagy gondviselőd számára.",
+    "connection_not_found": "Ez az alkalmazás már nincs csatlakoztatva.",
+    "client_not_found": "Nem találjuk ezt az alkalmazást.",
+    "too_large": "Ez a fájl túl nagy.",
+    "unsupported_type": "Ez a fájltípus nem támogatott.",
+    "no_file": "Előbb válassz egy fájlt."
+  }
+}

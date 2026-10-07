@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Pusat Akaun",
+    "accountCenterSubtitle": "Urus pengalaman yang disambungkan dan tetapan akaun anda merentas teknologi Ordnary.",
+    "learnMore": "Ketahui lebih lanjut",
+    "loading": "Memuatkan...",
+    "back": "Kembali",
+    "close": "Tutup",
+    "backToHome": "Kembali ke laman utama"
+  },
+  "nav": {
+    "profiles": "Profil",
+    "connectedExperiences": "Pengalaman disambungkan",
+    "passwordAndSecurity": "Kata laluan dan keselamatan",
+    "personalDetails": "Butiran peribadi dan tetapan",
+    "education": "Pendidikan",
+    "permissions": "Maklumat dan kebenaran anda",
+    "adPreferences": "Keutamaan iklan",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Langganan",
+    "accounts": "Akaun",
+    "activity": "Aktiviti"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "description": "Sahkan dengan e-mel sekolah anda bahawa anda seorang pelajar untuk mendapatkan faedah pelajar dalam produk Ordnary yang menawarkannya.",
+    "statusLabel": "Status pelajar",
+    "statuses": {
+      "none": "Belum disahkan",
+      "pending": "Menunggu anda membuka pautan",
+      "verified": "Disahkan",
+      "revoked": "Tidak lagi aktif"
+    },
+    "details": {
+      "title": "Butiran anda",
+      "school": "Sekolah",
+      "email": "E-mel sekolah",
+      "verifiedOn": "Disahkan pada"
+    },
+    "dialog": {
+      "title": "Pengesahan pelajar",
+      "subtitle": "Sahkan anda seorang pelajar dengan e-mel sekolah anda. Kami hanya menggunakan alamat ini untuk menyemaknya, dan tidak pernah menghantar apa-apa lagi kepadanya.",
+      "close": "Tutup",
+      "verifiedTitle": "Disahkan",
+      "verifiedBody": "{email} di {school}, sejak {date}.",
+      "pendingTitle": "Menunggu anda membuka pautan",
+      "pendingBody": "Kami menghantar pautan ke {email}. Buka dalam masa 24 jam untuk selesai.",
+      "revokedTitle": "Tidak lagi aktif",
+      "revokedBody": "Status pelajar anda telah tamat. Sahkan semula dengan e-mel sekolah anda.",
+      "changeEmail": "Gunakan e-mel sekolah yang lain",
+      "resend": "Hantar semula",
+      "cancel": "Batal",
+      "emailLabel": "E-mel sekolah",
+      "detected": "{school}",
+      "notRecognised": "Kami tidak mengenali ini sebagai e-mel sekolah. Gunakan alamat yang diberikan oleh sekolah anda.",
+      "send": "Hantar pautan",
+      "sending": "Menghantar…",
+      "sent": "Pautan dihantar ke {email}.",
+      "sentWhileVerified": "Kami menghantar pautan ke {email}. Anda kekal disahkan dengan sekolah semasa anda sehingga anda membukanya.",
+      "points": [
+        {
+          "title": "Masukkan e-mel sekolah",
+          "text": "Kami tunjukkan alamat itu milik sekolah mana."
+        },
+        {
+          "title": "Buka pautan",
+          "text": "Kami hantar pautan ke alamat itu. Pautan sah selama 24 jam."
+        },
+        {
+          "title": "Anda telah disahkan",
+          "text": "Status pelajar anda aktif dalam produk Ordnary yang menawarkan faedah pelajar."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Status pelajar anda kini aktif.",
+      "verificationError": "Pautan ini tidak berfungsi lagi. Minta pautan baharu."
+    },
+    "errors": {
+      "not_academic": "Kami tidak mengenali ini sebagai e-mel sekolah. Gunakan alamat yang diberikan oleh sekolah anda.",
+      "account": "Sesuatu telah berlaku pada akaun anda. Cuba lagi nanti.",
+      "send_failed": "Kami tidak dapat menghantar pautan sekarang. Cuba lagi nanti.",
+      "no_pending": "Tiada permintaan untuk dihantar semula. Masukkan e-mel sekolah anda.",
+      "not_authenticated": "Log masuk semula untuk meneruskan."
+    }
+  },
+  "profiles": {
+    "title": "Profil",
+    "description": "Urus pengalaman yang disambungkan dan tetapan akaun anda merentas teknologi Ordnary.",
+    "addAccounts": "Tambah akaun",
+    "detail": {
+      "aboutTitle": "Tentang profil ini",
+      "accessTitle": "Apa yang boleh diakses oleh {app}",
+      "linksTitle": "Dasar {app}",
+      "mainProfile": "Profil utama",
+      "connected": "Apl disambungkan",
+      "verified": "Disahkan oleh Ordnary",
+      "connectedOn": "Disambungkan pada",
+      "lastUsed": "Kali terakhir digunakan",
+      "never": "Belum lagi",
+      "activeSignIns": "Log masuk aktif",
+      "profileId": "ID profil",
+      "email": "Alamat e-mel",
+      "memberSince": "Ahli sejak",
+      "twoFactor": "Pengesahan dua faktor",
+      "on": "Hidup",
+      "off": "Mati",
+      "passkeys": "Passkey",
+      "privacy": "Dasar privasi",
+      "terms": "Syarat perkhidmatan",
+      "disconnect": "Putuskan sambungan",
+      "disconnectTitle": "Putuskan sambungan {app}?",
+      "disconnectText": "{app} tidak lagi boleh menggunakan akaun Ordnary anda, dan anda dilog keluar daripadanya. Anda boleh menyambung semula dengan log masuk ke {app} kemudian.",
+      "disconnecting": "Memutuskan sambungan...",
+      "cancel": "Batal",
+      "copied": "Disalin",
+      "copy": "Salin",
+      "scopes": {
+        "openid": "Mengenali anda dengan akaun Ordnary anda",
+        "profile": "Nama dan foto profil anda",
+        "email": "Alamat e-mel anda",
+        "offline_access": "Mengekalkan log masuk anda apabila anda tidak menggunakannya",
+        "phone": "Nombor telefon anda",
+        "address": "Alamat anda"
+      },
+      "change": "Tukar",
+      "setUp": "Sediakan",
+      "manage": "Urus",
+      "add": "Tambah",
+      "none": "Belum ada"
+    },
+    "revokedSuccess": "Disambungkan terputus",
+    "revokedError": "Tidak dapat memutuskan sambungan. Cuba lagi."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Cipta akaun Ordnary baharu?",
+      "registrationName": "Siapa nama anda?",
+      "registrationBirthday": "Bilakah hari jadi anda?",
+      "registrationPassword": "Cipta kata laluan",
+      "saveLoginInfo": "Simpan maklumat log masuk?",
+      "registrationReview": "Selesaikan penciptaan akaun anda",
+      "verifyEmailCode": "Masukkan kod pengesahan",
+      "editEmail": "Apakah alamat e-mel anda?",
+      "loginCodeEntry": "Semak e-mel anda",
+      "recoveryCodeEntry": "Sahkan akaun anda",
+      "resetPassword": "Cipta kata laluan baharu",
+      "passwordEntry": "Masukkan kata laluan anda",
+      "identifierLookup": "Apakah e-mel anda?",
+      "signIn": "Log masuk",
+      "mfaCodeEntry": "Masukkan kod pengesahan anda"
+    },
+    "descriptions": {
+      "identifierLookup": "Masukkan e-mel anda untuk log masuk ke akaun atau mencipta akaun baharu.",
+      "passwordEntry": "Untuk log masuk, masukkan kata laluan yang dikaitkan dengan {identifier}.",
+      "accountNotFound": "Kami tidak dapat mencari akaun Ordnary untuk {email}. Anda mungkin belum menciptanya. Jika anda sudah menciptanya, akaun itu mungkin menggunakan pengenal yang berbeza.",
+      "registrationName": "Nama ini akan digunakan untuk pemulihan akaun dan komunikasi mengenai akaun anda. Ia tidak akan kelihatan kepada umum.",
+      "registrationBirthday": "Gunakan tarikh lahir sebenar anda, walaupun akaun ini untuk perniagaan atau sesuatu yang lain. Maklumat ini tidak akan didedahkan kepada umum.",
+      "registrationPassword": "Cipta kata laluan yang tidak dapat diteka oleh orang lain.",
+      "saveLoginInfo": "Kami akan menyimpan maklumat log masuk akaun anda supaya anda tidak perlu memasukkannya lagi pada masa akan datang.",
+      "verifyEmailCode": "Masukkan kod 6 digit yang dihantar ke {identifier} untuk mengesahkan akaun anda.",
+      "editEmail": "Masukkan alamat e-mel yang boleh kami gunakan untuk menghubungi anda. Alamat ini akan digunakan untuk log masuk dan pengurusan akaun, dan tidak akan kelihatan kepada umum.",
+      "loginCodeEntry": "Untuk log masuk, masukkan kod yang kami hantar ke {identifier}. Anda mungkin perlu memeriksa folder spam atau sosial.",
+      "recoveryCodeEntry": "Kami telah menghantar kod ke {identifier}. Masukkan kod itu untuk mengesahkan akaun anda.",
+      "resetPassword": "Anda akan menggunakan kata laluan ini untuk log masuk ke Akaun Ordnary anda. Gunakan sekurang-kurangnya 6 huruf dan nombor.",
+      "mfaCodeEntry": "Masukkan kod 6 digit daripada aplikasi pengesah anda untuk meneruskan."
+    },
+    "buttons": {
+      "createNewAccount": "Cipta akaun baharu",
+      "alreadyHaveAccount": "Saya sudah mempunyai akaun",
+      "next": "Seterusnya",
+      "save": "Simpan",
+      "notNow": "Bukan sekarang",
+      "finish": "Selesai",
+      "resendCode": "Hantar semula kod",
+      "enterPassword": "Masukkan kata laluan",
+      "forgotPassword": "Lupa kata laluan?",
+      "switchAccount": "Tukar akaun",
+      "yes": "Ya",
+      "no": "Tidak",
+      "useEmailCode": "Log masuk dengan kod e-mel",
+      "signInWithPasskey": "Log masuk dengan kunci laluan",
+      "useRecoveryCode": "Gunakan kod pemulihan",
+      "useAuthenticatorCode": "Gunakan aplikasi pengesah anda"
+    },
+    "labels": {
+      "name": "Nama",
+      "firstName": "Nama pertama",
+      "lastName": "Nama keluarga",
+      "day": "Hari",
+      "month": "Bulan",
+      "year": "Tahun",
+      "dateOfBirth": "Tarikh lahir",
+      "confirmationCode": "Kod pengesahan",
+      "email": "Alamat e-mel",
+      "password": "Kata laluan",
+      "newPassword": "Kata laluan baharu",
+      "logoutOthers": "Log keluar di semua tempat lain untuk memastikan tiada orang lain masih boleh mengakses akaun anda",
+      "marketingEmails": "Saya ingin menerima e-mel tentang aplikasi, cadangan dan tawaran untuk Ordnary Identity.",
+      "showPassword": "Tunjukkan kata laluan",
+      "hidePassword": "Sembunyikan kata laluan",
+      "clearInput": "Kosongkan input",
+      "recoveryCode": "Kod pemulihan"
+    },
+    "links": {
+      "whyNeedBirthday": "Mengapa saya perlu memberikan tarikh lahir saya?",
+      "learnMore": "Ketahui lebih lanjut",
+      "editEmail": "Edit alamat e-mel",
+      "noAccessEmail": "Tidak lagi mempunyai akses kepada alamat e-mel ini?",
+      "termsOfService": "Terma Perkhidmatan",
+      "privacyPolicy": "Dasar Privasi",
+      "cookiePolicy": "Dasar Kuki"
+    },
+    "messages": {
+      "nameHelp": "Menggunakan nama sebenar anda memudahkan pemulihan akaun jika anda kehilangan akses.",
+      "emailHelp": "Gunakan e-mel kerja atau peribadi anda untuk mengakses perkhidmatan Ordnary.",
+      "existingSessionTitle": "Anda sudah mempunyai sesi aktif",
+      "existingSessionDescription": "Anda sudah log masuk. Mengalihkan anda ke Pusat Akaun dalam {seconds} saat.",
+      "summaryPrivacy": "Butiran akaun Ordnary anda tidak didedahkan kepada umum.",
+      "verifyEmailLookFor": "Cari e-mel daripada notification@ordnary.com. Anda mungkin perlu memeriksa folder spam atau sosial.",
+      "termsAgreement": "Dengan mengklik \"Selesai\", anda bersetuju dengan Terma Perkhidmatan dan Dasar Privasi kami, serta mengesahkan bahawa anda telah membaca Dasar Kuki kami.",
+      "footerAgreement": "Dengan meneruskan, anda mengakui bahawa anda telah membaca dan bersetuju dengan Terma Perkhidmatan, Dasar Privasi dan garis panduan pemprosesan data yang berkenaan. Anda juga bersetuju untuk menerima pemberitahuan penting berkaitan akaun dan keselamatan yang berkaitan dengan penggunaan platform.",
+      "emailMissing": "Alamat e-mel tiada.",
+      "resendCodeError": "Ralat yang tidak dijangka berlaku semasa menghantar semula kod.",
+      "invalidInput": "Input tidak sah.",
+      "credentialsPrompt": "Untuk log masuk, masukkan kata laluan yang dikaitkan dengan {identifier}.",
+      "checkEmailPrompt": "Untuk log masuk, masukkan kod yang kami hantar ke {identifier}.",
+      "termsIntro": "Dengan mengetik Selesai, anda bersetuju dengan"
+    },
+    "validation": {
+      "emailRequired": "Alamat e-mel diperlukan.",
+      "passwordRequired": "Kata laluan diperlukan.",
+      "passwordMin": "Kata laluan mesti sekurang-kurangnya 12 aksara.",
+      "passwordMax": "Kata laluan tidak boleh melebihi 128 aksara.",
+      "emailInvalid": "Sila masukkan alamat e-mel yang sah.",
+      "displayNameMin": "Nama paparan mesti sekurang-kurangnya 2 aksara.",
+      "resetTokenRequired": "Token tetapan semula diperlukan.",
+      "verificationTokenRequired": "Token pengesahan diperlukan."
+    },
+    "errors": {
+      "invalidInput": "Input tidak sah.",
+      "genericLoginFailed": "Tidak dapat log masuk. Sila cuba lagi.",
+      "loginInvalidCredentials": "E-mel atau kata laluan tidak sah.",
+      "accountLocked": "Akaun anda dikunci atau digantung.",
+      "passwordIncorrect": "Kata laluan yang anda masukkan tidak betul.",
+      "notAuthenticated": "Anda tidak disahkan.",
+      "registrationMissingInfo": "Maklumat pendaftaran yang diperlukan tiada.",
+      "registrationEmailExists": "Akaun dengan e-mel ini sudah wujud.",
+      "systemNoDefaultTenant": "Ralat sistem: tenant lalai tidak ditemui.",
+      "registrationFailed": "Pendaftaran gagal. Sila cuba lagi.",
+      "invalidVerificationRequest": "Permintaan pengesahan tidak sah.",
+      "accountNotFound": "Akaun tidak ditemui.",
+      "verificationCodeInvalidOrExpired": "Kod pengesahan tidak sah atau telah tamat tempoh.",
+      "verificationFailedTryAgain": "Pengesahan gagal. Sila cuba lagi.",
+      "invalidRequest": "Permintaan tidak sah.",
+      "userNotFound": "Pengguna tidak ditemui.",
+      "codeInvalidOrExpired": "Kod tidak sah atau telah tamat tempoh.",
+      "verificationFailed": "Pengesahan gagal.",
+      "missingInformation": "Maklumat tiada.",
+      "passwordResetFailed": "Penetapan semula kata laluan gagal.",
+      "emailMissing": "Alamat e-mel tiada.",
+      "resendCodeFailed": "Gagal menghantar semula kod. Sila cuba lagi.",
+      "loginRequestFailed": "Permintaan log masuk anda tidak dapat diproses. Sila cuba lagi.",
+      "mfaDataMissing": "Butiran pengesahan tiada. Sila log masuk semula.",
+      "mfaNoAuthenticator": "Tiada aplikasi pengesah aktif ditemui untuk akaun ini.",
+      "mfaCodeInvalid": "Kod pengesahan tidak sah.",
+      "mfaVerificationFailed": "Pengesahan gagal. Sila log masuk semula.",
+      "requestRejected": "Kami tidak dapat memproses permintaan ini. Cuba lagi.",
+      "tooManyAttempts": "Terlalu banyak percubaan. Cuba lagi nanti.",
+      "tooManyFailedLogins": "Terlalu banyak percubaan log masuk yang gagal. Tunggu seketika sebelum mencuba lagi.",
+      "permanentEmailRequired": "Gunakan alamat e-mel tetap.",
+      "recoveryFileInvalid": "Fail pemulihan ini tidak berfungsi. Ia mungkin telah diganti dengan yang lebih baharu atau dialih keluar.",
+      "passkeyFailed": "Log masuk dengan kunci laluan tidak berjaya. Cuba lagi atau teruskan dengan e-mel anda.",
+      "passwordTooWeak": "Pilih kata laluan yang memenuhi semua keperluan di bawah."
+    },
+    "months": [
+      "Januari",
+      "Februari",
+      "Mac",
+      "April",
+      "Mei",
+      "Jun",
+      "Julai",
+      "Ogos",
+      "September",
+      "Oktober",
+      "November",
+      "Disember"
+    ],
+    "recoveryFile": {
+      "link": "Log masuk dengan fail pemulihan",
+      "title": "Log masuk dengan fail pemulihan",
+      "description": "Muat naik fail pemulihan untuk akaun ini yang anda muat turun daripada Pusat Akaun. Anda terus log masuk.",
+      "choose": "Pilih fail",
+      "reading": "Sedang log masuk…",
+      "pasteInstead": "Tampal kod sebaliknya",
+      "codeLabel": "Kod daripada fail",
+      "signIn": "Log masuk",
+      "notAFile": "Ini bukan fail pemulihan Ordnary. Pilih PDF yang anda muat turun daripada Pusat Akaun.",
+      "back": "Gunakan kod e-mel sebaliknya"
+    },
+    "passwordRules": {
+      "length": "Sekurang-kurangnya 12 aksara",
+      "upper": "Satu huruf besar",
+      "lower": "Satu huruf kecil",
+      "digit": "Satu nombor"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Tetapan akaun",
+      "appearanceLabel": "Penampilan",
+      "appearanceLight": "Cerah",
+      "appearanceSystem": "Ikut sistem",
+      "appearanceDark": "Gelap",
+      "logout": "Log keluar",
+      "sessionExpired": "Sesi anda telah tamat. Sila log masuk semula untuk meneruskan.",
+      "logoutConfirmTitle": "Log keluar daripada Ordnary?",
+      "logoutCancel": "Batal",
+      "logoutConfirm": "Log keluar",
+      "language": "Bahasa"
+    },
+    "reactivate": {
+      "title": "Selamat kembali, akaun anda dinyahaktifkan",
+      "description": "Kami menjeda e-mel dan pemberitahuan apabila anda menyahaktifkan akaun anda. Aktifkan semula untuk mengembalikan semuanya, atau log keluar dan putuskan kemudian. Data anda masih ada.",
+      "reactivate": "Aktifkan semula akaun saya",
+      "reactivating": "Mengaktifkan semula...",
+      "signOut": "Log keluar",
+      "signingOut": "Melog keluar...",
+      "footer": "Jika anda lebih suka memadam akaun anda secara kekal, log masuk dan pilih Padam akaun dalam Butiran peribadi.",
+      "successNotification": "Selamat kembali. Akaun anda aktif semula.",
+      "errorGeneric": "Kami tidak dapat mengaktifkan semula akaun anda. Cuba lagi sebentar nanti.",
+      "deletedTitle": "Akaun anda akan dipadam",
+      "deletedDescription": "Ia akan dipadam secara kekal pada {date}. Pulihkan untuk menyimpan segalanya, atau log keluar dan biarkan pemadaman diteruskan.",
+      "restore": "Pulihkan akaun saya",
+      "restoring": "Memulihkan..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Foto profil",
+        "custom": "Foto anda sendiri",
+        "default": "Avatar yang dijana",
+        "modalTitle": "Foto profil",
+        "subtitle": "Dipaparkan bersama nama anda dalam apl Ordnary dan komuniti. Tanpa foto anda sendiri, anda mendapat avatar yang unik untuk akaun anda.",
+        "choose": "Pilih foto",
+        "change": "Pilih yang lain",
+        "remove": "Alih keluar foto",
+        "save": "Simpan foto",
+        "saving": "Menyimpan...",
+        "hint": "JPG, PNG atau WebP. Foto anda dipotong menjadi segi empat sama.",
+        "errorType": "Fail itu bukan imej yang boleh kami gunakan. Pilih JPG, PNG atau WebP.",
+        "errorFailed": "Kami tidak dapat menyimpan foto anda. Sila cuba lagi."
+      },
+      "title": "Butiran peribadi dan tetapan",
+      "description": "Ordnary menggunakan butiran ini untuk mengesahkan identiti anda dan membantu memastikan komuniti selamat. Anda mengawal butiran peribadi yang boleh dilihat oleh orang lain.",
+      "contactDetails": "Butiran hubungan",
+      "birthday": "Hari lahir",
+      "ownership": "Pemilikan dan kawalan akaun",
+      "ownershipDescription": "Urus data anda, kemas kini kenalan warisan untuk akaun peringatan, dan nyahaktifkan atau padam akaun dan profil anda.",
+      "loadingName": "Pengguna",
+      "modal": {
+        "title": "Pemilikan dan kawalan akaun",
+        "deactivationIndexTitle": "Penyahaktifan atau pemadaman",
+        "deactivationIndexDescription": "Nyahaktifkan sementara atau padam secara kekal akaun dan profil anda.",
+        "optionsTitle": "Nyahaktifkan atau padam akaun Ordnary anda",
+        "optionsDescription": "Perlukan rehat? Nyahaktifkan akaun anda dan kembali bila-bila masa. Mahu meninggalkan Ordnary? Padamkan akaun anda.",
+        "deactivateTitle": "Nyahaktifkan akaun",
+        "deactivateDescription": "Penyahaktifan akaun anda adalah sementara. Akaun anda akan dilumpuhkan dan disembunyikan daripada orang lain.",
+        "deleteTitle": "Padam akaun",
+        "deleteDescription": "Pemadaman akaun adalah kekal. Selepas 30 hari, anda tidak boleh mengaktifkannya semula atau memulihkan datanya.",
+        "deactivateConfirmTitle": "Nyahaktifkan akaun anda?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Anda akan dilog keluar di mana-mana",
+            "text": "Pada semua peranti anda dan dalam setiap aplikasi yang anda gunakan dengan akaun Ordnary."
+          },
+          {
+            "title": "Profil anda disembunyikan",
+            "text": "Orang lain tidak dapat melihat nama atau profil anda selagi akaun anda dinyahaktifkan."
+          },
+          {
+            "title": "Kembali bila-bila masa",
+            "text": "Log masuk semula untuk mengaktifkan semula akaun anda. Semuanya kekal seperti yang anda tinggalkan."
+          }
+        ],
+        "deactivateConfirmButton": "Nyahaktifkan akaun",
+        "deleteConfirmTitle": "Padamkan akaun anda?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Anda akan dilog keluar di mana-mana",
+            "text": "Pada semua peranti anda dan dalam setiap aplikasi yang anda gunakan dengan akaun Ordnary."
+          },
+          {
+            "title": "Anda hilang akses",
+            "text": "Kepada Ordnary dan setiap aplikasi yang anda log masuk dengan akaun Ordnary."
+          },
+          {
+            "title": "Dipadam selamanya selepas 30 hari",
+            "text": "Sehingga itu, anda masih boleh ubah fikiran. Selepas itu, akaun dan data anda tidak boleh dipulihkan."
+          }
+        ],
+        "deleteConfirmCheck": "Saya faham bahawa akaun dan data saya akan dipadam secara kekal selepas 30 hari.",
+        "deleteConfirmButton": "Padamkan akaun",
+        "cancel": "Batal",
+        "continue": "Teruskan",
+        "working": "Memproses...",
+        "deactivateSuccess": "Akaun anda telah dinyahaktifkan. Mengalihkan ke log masuk...",
+        "deleteSuccess": "Akaun anda telah dijadualkan untuk dipadam. Mengalihkan ke log masuk...",
+        "submitError": "Kami tidak dapat mengemas kini akaun anda sekarang."
+      },
+      "missingBirthday": "Belum ditetapkan",
+      "loadError": "Gagal memuatkan butiran peribadi.",
+      "preferences": {
+        "sectionTitle": "Keutamaan",
+        "appearance": "Penampilan",
+        "appearanceDescription": "Laraskan rupa akaun Ordnary anda.",
+        "cookies": "Keutamaan kuki",
+        "cookiesDescription": "Urus kuki yang boleh digunakan oleh Ordnary dalam pelayar ini.",
+        "processors": {
+          "title": "Siapa yang memproses data anda",
+          "intro": "Kami menggunakan beberapa syarikat lain untuk menjalankan Ordnary. Inilah senarai penuhnya: apa yang mereka terima daripada kami, di mana mereka menyimpannya dan bagaimana data dilindungi apabila keluar dari EU.",
+          "empty": "Tiada syarikat lain yang menerima data anda.",
+          "loadError": "Kami tidak dapat memuatkannya sekarang. Cuba lagi nanti.",
+          "loading": "Memuatkan...",
+          "close": "Tutup",
+          "back": "Kembali",
+          "fields": {
+            "purpose": "Apa yang mereka lakukan",
+            "receives": "Apa yang mereka terima",
+            "whose": "Data siapa",
+            "stored": "Di mana data disimpan",
+            "transfer": "Di luar EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Kekal di dalam Kawasan Ekonomi Eropah.",
+            "ADEQUACY_DECISION": "Dibenarkan kerana EU mengiktiraf perlindungan data di {country} sebagai mencukupi.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Dilindungi oleh klausa kontrak standard EU.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Diperakui di bawah EU-US Data Privacy Framework.",
+            "sccBackup": "Klausa kontrak standard EU turut terpakai sebagai perlindungan tambahan."
+          },
+          "links": {
+            "dpa": "Perjanjian pemprosesan data",
+            "privacy": "Dasar privasi",
+            "website": "Laman web",
+            "certification": "Pensijilan"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Menyemak ID anda apabila anda menukar tarikh lahir.",
+              "receives": [
+                "Nama",
+                "Tarikh lahir",
+                "Foto dokumen ID anda",
+                "Swafoto",
+                "Alamat IP"
+              ],
+              "whose": "Hanya orang yang mengesahkan tarikh lahir baharu."
+            },
+            "resend": {
+              "purpose": "Menghantar e-mel kami: kod log masuk, makluman keselamatan dan pemberitahuan akaun.",
+              "receives": [
+                "Alamat e-mel",
+                "Nama paparan",
+                "Kandungan e-mel, seperti kod log masuk, pautan dan alamat IP dalam makluman keselamatan"
+              ],
+              "whose": "Semua orang yang menerima e-mel daripada Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Permintaan privasi",
+          "description": "Membantah atau menyekat aktiviti pemprosesan tertentu (Perkara 18 / Perkara 21).",
+          "back": "Kembali",
+          "close": "Tutup",
+          "loading": "Memuatkan…",
+          "loadError": "Gagal memuatkan permintaan privasi.",
+          "alreadyOpen": "Anda sudah mempunyai permintaan terbuka untuk skop ini.",
+          "cooldown": "Anda boleh memfailkan semula permintaan yang sama dalam {hours} jam.",
+          "submitted": "Permintaan anda telah diterima.",
+          "withdrawn": "Permintaan ditarik balik.",
+          "fileNew": "Failkan permintaan baharu",
+          "pickKind": "Apa yang anda mahu lakukan?",
+          "kinds": {
+            "OBJECTION": "Membantah aktiviti pemprosesan (Perkara 21)",
+            "RESTRICTION": "Menyekat pemprosesan buat sementara waktu (Perkara 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Hentikan aktiviti pemprosesan tertentu pada masa hadapan, berdasarkan situasi khusus anda.",
+            "RESTRICTION": "Jeda aktiviti pemprosesan tertentu semasa pertikaian mengenai data anda sedang disemak."
+          },
+          "pickActivities": "Aktiviti mana yang perlu terpakai?",
+          "activitiesHint": "Pilih tiada untuk terpakai pada semua aktiviti pemprosesan kami (sekatan global).",
+          "globalScope": "Semua pemprosesan (sekatan global)",
+          "yourStatement": "Kenyataan anda (disyorkan)",
+          "statementPlaceholder": "Beritahu kami sebabnya, contohnya anda tidak mahu kami menggunakan pemarkahan risiko automatik semasa anda menyiasat peristiwa keselamatan bersama kami.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Hantar permintaan",
+          "submitting": "Menghantar…",
+          "withdraw": "Tarik balik",
+          "withdrawing": "Menarik balik…",
+          "openTitle": "Permintaan terbuka",
+          "emptyOpen": "Tiada permintaan terbuka.",
+          "historyTitle": "Permintaan lepas",
+          "historyEmpty": "Tiada permintaan terdahulu.",
+          "holdsTitle": "Sekatan yang sedang aktif",
+          "holdsEmpty": "Tiada sekatan aktif.",
+          "appliesTo": "Terpakai kepada",
+          "effectiveUntil": "Berkuat kuasa sehingga",
+          "statuses": {
+            "PENDING": "Belum selesai",
+            "IN_REVIEW": "Dalam semakan",
+            "RESOLVED": "Diselesaikan",
+            "WITHDRAWN": "Ditarik balik"
+          },
+          "outcomes": {
+            "GRANTED": "Diluluskan",
+            "PARTIALLY_GRANTED": "Diluluskan sebahagian",
+            "REJECTED": "Ditolak",
+            "ESCALATED": "Dinaikkan"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Identiti akaun dan pengesahan",
+            "session-and-device-management": "Sesi dan peranti",
+            "oauth-issuance": "Pengeluaran OAuth / OIDC",
+            "identity-verification": "Pengesahan identiti (Stripe Identity)",
+            "payment-processing": "Pemprosesan pembayaran",
+            "audit-logs-and-security-events": "Log audit dan peristiwa keselamatan",
+            "risk-scoring": "Pemarkahan risiko automatik",
+            "consent-log": "Log persetujuan",
+            "account-deletion": "Pemadaman akaun",
+            "risk-review-queue": "Baris gilir semakan risiko"
+          },
+          "title": "Membantah atau menyekat"
+        },
+        "dsar": {
+          "label": "Permintaan privasi dan data",
+          "description": "Failkan permintaan rasmi untuk akses, pembetulan, pemadaman atau kebolehpindahan (Perkara 15-20).",
+          "title": "Permintaan privasi dan data",
+          "back": "Kembali",
+          "close": "Tutup",
+          "loading": "Memuatkan…",
+          "loadError": "Gagal memuatkan permintaan.",
+          "submitted": "Kami telah menerima permintaan anda.",
+          "fastPathReady": "Data anda sedang dimuat turun.",
+          "fastPathHint": "Hanya mahu salinan pantas data anda? Gunakan butang \"Eksport maklumat anda\" di bahagian atas. Ia dimuat turun serta-merta tanpa melalui baris gilir rasmi. Failkan permintaan di sini apabila anda mahukan penyemak manusia, memfailkan untuk orang lain, atau memerlukan pembetulan atau pemadaman.",
+          "withdrawn": "Permintaan ditarik balik.",
+          "fileNew": "Failkan permintaan baharu",
+          "pickKind": "Apa yang anda mahu lakukan?",
+          "kinds": {
+            "ACCESS": "Akses (Perkara 15)",
+            "RECTIFICATION": "Pembetulan (Perkara 16)",
+            "ERASURE": "Pemadaman (Perkara 17)",
+            "PORTABILITY": "Kebolehpindahan (Perkara 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Dapatkan salinan penuh data yang kami simpan tentang anda dalam format boleh dibaca mesin.",
+            "RECTIFICATION": "Betulkan data tentang anda yang kami simpan yang salah atau sudah lapuk.",
+            "ERASURE": "Minta kami memadam akaun anda dan data yang kami simpan tentang anda.",
+            "PORTABILITY": "Terima data anda dalam format berstruktur yang lazim digunakan."
+          },
+          "filedBy": "Siapa yang memfailkan permintaan ini?",
+          "filedByOptions": {
+            "SELF": "Saya memfailkan untuk diri sendiri",
+            "PARENT_GUARDIAN": "Saya ibu bapa atau penjaga yang memfailkan untuk anak di bawah umur",
+            "AUTHORISED_AGENT": "Saya wakil yang diberi kuasa (cth. peguam) yang memfailkan bagi pihak orang lain"
+          },
+          "representativeBlock": {
+            "title": "Maklumat wakil",
+            "emailLabel": "Alamat e-mel anda",
+            "notesLabel": "Hubungan dan kuasa",
+            "notesHint": "Terangkan secara ringkas hubungan anda dengan subjek data dan lampirkan rujukan kepada sebarang surat kuasa wakil atau dokumen penjagaan."
+          },
+          "subjectEmailLabel": "E-mel subjek",
+          "subjectEmailHint": "Kami menghantar pautan pengesahan dan jawapan ke alamat ini. Bagi permintaan yang difailkan oleh wakil, ini mestilah e-mel milik subjek data sendiri.",
+          "yourStatement": "Kenyataan anda (disyorkan)",
+          "statementPlaceholder": "Apa sebenarnya yang anda mahukan? Sebarang konteks yang membantu kami menentukan skop jawapan.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Hantar permintaan",
+          "submitting": "Menghantar…",
+          "withdraw": "Tarik balik",
+          "withdrawing": "Menarik balik…",
+          "openTitle": "Permintaan terbuka",
+          "emptyOpen": "Tiada permintaan terbuka.",
+          "historyTitle": "Permintaan lepas",
+          "historyEmpty": "Tiada permintaan terdahulu.",
+          "due": "Tarikh akhir",
+          "extended": "Dilanjutkan sehingga",
+          "awaitingVerification": "Menunggu pengesahan e-mel",
+          "statuses": {
+            "SUBMITTED": "Menunggu pengesahan",
+            "VERIFIED": "Disahkan",
+            "IN_PROGRESS": "Sedang diproses",
+            "FULFILLED": "Dipenuhi",
+            "REJECTED": "Ditolak",
+            "WITHDRAWN": "Ditarik balik"
+          },
+          "outcomes": {
+            "FULFILLED": "Dipenuhi",
+            "PARTIALLY_FULFILLED": "Dipenuhi sebahagian",
+            "REJECTED": "Ditolak"
+          },
+          "overdue": "Tertunggak"
+        },
+        "modalTitle": "Penampilan",
+        "modalSubtitle": "Pilih rupa Pusat Akaun. Kami akan mengingati pilihan anda pada peranti ini.",
+        "options": {
+          "lightLabel": "Cerah",
+          "lightDescription": "Sentiasa gunakan latar belakang cerah, tanpa mengira tetapan sistem anda.",
+          "systemLabel": "Ikut sistem",
+          "systemDescription": "Bertukar mengikut tetapan peranti anda.",
+          "darkLabel": "Gelap",
+          "darkDescription": "Sentiasa gunakan latar belakang gelap, lebih selesa pada waktu petang."
+        },
+        "done": "Selesai"
+      },
+      "displayNameSection": {
+        "label": "Nama penuh",
+        "subtitle": "Nama penuh anda digunakan merentas akaun dan profil anda.",
+        "editButton": "Sunting",
+        "modalTitle": "Nama penuh",
+        "editTitle": "Tukar nama penuh",
+        "modalSubtitle": "Untuk menukar nama penuh anda, hubungi {email}.",
+        "currentLabel": "Nama semasa",
+        "supportNotice": "Untuk menukar nama penuh anda, hubungi {email}.",
+        "copyEmail": "Salin alamat e-mel",
+        "openEmail": "Buka e-mel",
+        "mailSubject": "Permintaan menukar nama penuh",
+        "mailBody": "Helo,\n\nSaya ingin menukar nama penuh saya.\n\nNama semasa: {name}\nNama baharu: \n\nSalam hormat,\n{name}"
+      },
+      "loading": "Memuatkan...",
+      "contact": {
+        "subtitle": "Urus alamat e-mel anda serta siapa yang boleh melihat butiran hubungan anda. Gunakan untuk mengakses profil dan peranti dalam Pusat Akaun ini.",
+        "addNew": "Tambah kenalan baharu",
+        "detailsDescription": "Anda menambah alamat e-mel ini pada akaun-akaun ini.",
+        "whoCanSee": "Siapa yang boleh melihat alamat e-mel anda?",
+        "deleting": "Mengalih keluar...",
+        "delete": "Alih keluar alamat e-mel",
+        "deleteFailed": "Kami tidak dapat mengalih keluar alamat e-mel ini.",
+        "deleted": "Alamat e-mel dialih keluar",
+        "addTitle": "Tambah alamat e-mel",
+        "addSubtitle": "Kami menggunakan alamat e-mel ini merentas akaun anda dalam Pusat Akaun untuk memperibadikan pengalaman anda.",
+        "learnMore": "Ketahui lebih lanjut",
+        "emailLabel": "Alamat e-mel",
+        "chooseAccounts": "Pilih akaun untuk alamat e-mel ini",
+        "added": "Alamat e-mel ditambah",
+        "addFailed": "Sesuatu telah berlaku. Sila cuba lagi.",
+        "next": "Seterusnya"
+      },
+      "birthdayModal": {
+        "subtitle": "Tambah hari lahir anda supaya pengalaman anda sesuai dengan umur anda.",
+        "edit": "Edit",
+        "editTitle": "Edit hari lahir anda",
+        "editSubtitle": "Hari lahir ini digunakan untuk akaun dan profil dalam Pusat Akaun ini. Sebarang perubahan yang anda buat terpakai pada semuanya.",
+        "day": "Hari",
+        "month": "Bulan",
+        "year": "Tahun",
+        "verificationNotice": "Untuk menukar hari lahir anda, anda perlu mengesahkan identiti anda dengan dokumen ID yang sah melalui rakan kongsi kami Stripe Identity. Selepas anda menyimpan, kami akan membawa anda ke proses pengesahan.",
+        "save": "Simpan",
+        "saveFailed": "Sesuatu telah berlaku. Sila cuba lagi.",
+        "verificationStartFailed": "Kami tidak dapat memulakan pengesahan identiti.",
+        "completeFailed": "Kami tidak dapat melengkapkan pengesahan.",
+        "updated": "Hari lahir anda telah dikemas kini selepas pengesahan identiti.",
+        "dobMismatch": "Tarikh lahir pada dokumen ID anda tidak sepadan dengan yang anda masukkan.",
+        "dobUnavailable": "Stripe tidak dapat membaca tarikh lahir yang boleh disahkan daripada dokumen ID anda.",
+        "notFinished": "Pengesahan identiti belum selesai."
+      }
+    },
+    "security": {
+      "title": "Kata laluan dan keselamatan",
+      "loadingName": "Pengguna",
+      "pageLoadError": "Gagal memuatkan tetapan keselamatan.",
+      "sections": {
+        "signIn": {
+          "title": "Log masuk dan pemulihan",
+          "description": "Urus kata laluan, pilihan log masuk dan kaedah pemulihan anda."
+        },
+        "controls": {
+          "title": "Semakan keselamatan",
+          "description": "Semak isu keselamatan dengan memeriksa apl, peranti dan e-mel yang dihantar."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Tukar kata laluan",
+          "loading": "Memuatkan...",
+          "set": "Kata laluan ditetapkan",
+          "missing": "Tiada kata laluan ditetapkan"
+        },
+        "twofactor": {
+          "label": "Pengesahan dua faktor",
+          "loading": "Memuatkan...",
+          "enabled": "Didayakan",
+          "disabled": "Belum didayakan"
+        },
+        "passkeys": {
+          "label": "Kunci laluan",
+          "loading": "Memuatkan...",
+          "none": "Belum ada kunci laluan",
+          "active": "{count} aktif"
+        },
+        "activity": {
+          "label": "Tempat anda log masuk",
+          "summary": "{total} sesi aktif, {others} pada peranti lain"
+        },
+        "automated": {
+          "label": "Keputusan automatik",
+          "summary": "Lihat peraturan automatik yang melindungi akaun anda, dan minta semakan manusia."
+        }
+      },
+      "passwordModal": {
+        "title": "Tukar kata laluan",
+        "subtitle": "Cipta kata laluan dengan sekurang-kurangnya 12 aksara. Pilih sesuatu yang tidak dapat diteka oleh orang lain.",
+        "currentPassword": "Kata laluan semasa",
+        "newPassword": "Kata laluan baharu",
+        "repeatPassword": "Ulang kata laluan baharu",
+        "forgotPassword": "Lupa kata laluan?",
+        "logoutOthers": "Log keluar pada peranti lain. Pilih ini jika orang lain telah menggunakan akaun anda.",
+        "submit": "Tukar kata laluan",
+        "pending": "Memproses...",
+        "success": "Kata laluan anda telah dikemas kini.",
+        "mismatch": "Kata laluan baharu anda tidak sepadan.",
+        "submitError": "Gagal menukar kata laluan.",
+        "logoutOthersTitle": "Log keluar daripada peranti lain",
+        "logoutOthersHint": "Disyorkan jika orang lain mungkin telah menggunakan akaun anda.",
+        "incorrect": "Kata laluan semasa anda tidak betul.",
+        "tooWeak": "Pilih kata laluan yang memenuhi semua keperluan di bawah."
+      },
+      "twoFactor": {
+        "idleTitle": "Bantu lindungi akaun anda",
+        "idleSubtitle": "Sediakan pengesahan dua faktor dan kami akan meminta kod log masuk apabila seseorang log masuk daripada peranti yang tidak kami kenali.",
+        "manageTitle": "Pengesahan dua faktor dihidupkan",
+        "manageSubtitle": "Kami kini meminta kod log masuk setiap kali anda log masuk daripada peranti yang tidak kami kenali.",
+        "appSettingsTitle": "Apl pengesahan",
+        "extraMethodsTitle": "Kaedah tambahan",
+        "extraMethodsSubtitle": "Jika kaedah keselamatan anda yang lain tidak tersedia, anda masih boleh log masuk dengan pilihan ini.",
+        "recoveryCodesTitle": "Kod pemulihan",
+        "recoveryCodesSubtitle": "Anda boleh menggunakan setiap kod pemulihan sekali sahaja. Simpan di tempat yang selamat. Tanpanya, anda mungkin hilang akses jika kehilangan telefon atau kaedah log masuk lain.",
+        "setupTitle": "Arahan penyediaan",
+        "namingTitle": "Namakan peranti anda",
+        "namingSubtitle": "Beri apl pengesah anda nama yang mudah dikenali supaya anda tahu peranti mana yang anda gunakan.",
+        "verifyTitle": "Masukkan kod",
+        "verifySubtitle": "Masukkan kod 6 digit daripada apl pengesah anda untuk melengkapkan penyediaan.",
+        "successTitle": "Pengesahan dua faktor dihidupkan",
+        "successSubtitle": "Kami kini meminta kod log masuk setiap kali anda log masuk daripada peranti yang tidak kami kenali. Mahu mengemas kini butiran hubungan anda? Pergi ke Butiran peribadi dalam Pusat Akaun.",
+        "verifiedTitle": "Kod sandaran",
+        "verifiedSubtitle": "Simpan kod ini di tempat yang selamat. Anda boleh menggunakannya jika kehilangan akses ke apl pengesah.",
+        "learnMore": "Ketahui lebih lanjut",
+        "receiveCodesTitle": "Pilih cara anda mahu menerima kod",
+        "authenticatorTitle": "Apl pengesahan",
+        "authenticatorDescription": "Terima kod sekali guna melalui apl seperti Duo Mobile atau Google Authenticator.",
+        "recommended": "Disyorkan",
+        "continue": "Teruskan",
+        "working": "Memproses...",
+        "enabledSuccess": "Pengesahan dua faktor telah dimatikan.",
+        "disableError": "Gagal melumpuhkan apl pengesah.",
+        "startError": "Gagal memulakan penyediaan pengesah.",
+        "verifyError": "Gagal mengesahkan apl pengesah.",
+        "regenerateError": "Gagal menjana semula kod pemulihan.",
+        "downloadError": "Jana set kod pemulihan baharu sebelum memuat turunnya.",
+        "recoveryRegenerated": "Kod pemulihan baharu telah dijana.",
+        "manage": {
+          "receiveCodesTitle": "Terima kod log masuk",
+          "authenticatorDescription": "Anda menerima kod log masuk melalui apl pengesahan anda.",
+          "additionalMethodsTitle": "Kaedah tambahan",
+          "additionalMethodsDescription": "Lihat cara anda masih boleh log masuk dengan selamat jika kaedah lain tidak tersedia."
+        },
+        "appSettings": {
+          "title": "Apl pengesahan",
+          "description": "Anda menerima kod log masuk melalui apl pengesahan anda.",
+          "connectedDevicesTitle": "Peranti disambungkan",
+          "add": "Tambah",
+          "connectedDevicesDescription": "Anda boleh menambah berbilang peranti supaya setiap peranti yang dipautkan dapat menerima kod log masuk 6 digit daripada apl pengesah pada peranti itu.",
+          "noDevices": "Belum ada peranti disambungkan",
+          "lastUsed": "Kali terakhir digunakan: {date}",
+          "added": "Ditambah: {date}",
+          "active": "Apl pengesahan aktif"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Kod pemulihan",
+          "recoveryCodesDescription": "Gunakan kod ini apabila anda tiada akses ke telefon anda."
+        },
+        "recoveryCodes": {
+          "download": "Muat turun kod",
+          "regenerate": "Dapatkan kod baharu",
+          "existing": "Anda mempunyai {count} kod pemulihan yang belum digunakan. Klik \"Dapatkan kod baharu\" untuk menjana set baharu.",
+          "empty": "Anda belum mempunyai sebarang kod pemulihan yang kelihatan dalam sesi ini. Klik \"Dapatkan kod baharu\" untuk menjana set baharu."
+        },
+        "setup": {
+          "step1Title": "1. Muat turun apl pengesahan",
+          "step1Description": "Kami mengesyorkan memuat turun Duo Mobile atau Google Authenticator jika anda belum memasang satu.",
+          "step2Title": "2. Imbas kod QR ini atau salin kunci",
+          "step2Description": "Imbas kod QR ini dalam apl pengesah anda atau salin kunci dan tampalkannya ke dalam apl.",
+          "copyKey": "Salin kunci",
+          "step3Title": "3. Salin kod enam digit dan masukkannya",
+          "step3Description": "Selepas mengimbas kod QR atau memasukkan kunci, apl anda akan menjana kod 6 digit. Ketik Masukkan kod di bawah.",
+          "enterCode": "Masukkan kod",
+          "qrAlt": "Kod QR untuk aplikasi pengesah anda"
+        },
+        "naming": {
+          "label": "Nama peranti (contohnya: iPhone Stijn)",
+          "next": "Seterusnya"
+        },
+        "verify": {
+          "label": "Kod daripada apl pengesahan",
+          "submit": "Sahkan kod"
+        },
+        "success": {
+          "done": "Selesai"
+        },
+        "ui": {
+          "on": "Hidup",
+          "turnOff": "Matikan",
+          "turnOffConfirm": "Matikan pengesahan dua faktor? Log masuk kemudian hanya memerlukan kata laluan anda.",
+          "cancel": "Batal",
+          "copyKey": "Salin",
+          "copied": "Disalin",
+          "manualKey": "Kunci persediaan",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Fail pemulihan",
+          "rowDescription": "PDF yang melog masuk anda apabila dimuat naik, tanpa kata laluan atau kod.",
+          "otherMethodsTitle": "Cara lain untuk masuk",
+          "title": "Fail pemulihan",
+          "subtitle": "PDF yang anda muat naik semasa log masuk. Ia terus melog masuk anda, tanpa kata laluan atau kod. Berguna jika anda kehilangan telefon atau terlupa kata laluan.",
+          "download": "Muat turun fail pemulihan",
+          "downloading": "Sedang membuat fail anda…",
+          "downloaded": "Dimuat turun. Simpan fail di tempat yang selamat.",
+          "made": "Dibuat pada {date}",
+          "lastUsed": "Kali terakhir digunakan {date}",
+          "notUsed": "Belum digunakan",
+          "remove": "Alih keluar",
+          "removeConfirm": "Alih keluar fail pemulihan anda? Ia berhenti berfungsi serta-merta.",
+          "removed": "Fail pemulihan dialih keluar.",
+          "cancel": "Batal",
+          "newTitle": "Perlukan fail baharu?",
+          "newText": "Anda hanya boleh memuat turun fail sekali. Untuk mendapatkan yang baharu, sahkan dengan kod yang kami e-melkan kepada anda. Fail semasa anda kemudian berhenti berfungsi.",
+          "requestCode": "E-melkan kod kepada saya",
+          "sending": "Menghantar…",
+          "codeSent": "Kami telah menghantar kod ke {email}.",
+          "codeLabel": "Kod",
+          "confirmDownload": "Sahkan dan muat turun",
+          "loadError": "Kami tidak dapat memuatkan ini sekarang. Cuba lagi nanti.",
+          "errors": {
+            "code_invalid": "Kod itu tidak betul. Semak e-mel dan cuba lagi.",
+            "code_expired": "Kod ini telah tamat tempoh. Minta kod baharu.",
+            "rate_limited": "Terlalu banyak percubaan. Cuba lagi nanti.",
+            "send_failed": "Kami tidak dapat menghantar e-mel sekarang. Cuba lagi nanti.",
+            "generic": "Sesuatu telah berlaku. Cuba lagi nanti."
+          },
+          "points": [
+            {
+              "title": "Muat turun sekali",
+              "text": "Fail hanya boleh dimuat turun sekarang. Untuk yang baharu kemudian, anda mengesahkan dengan kod yang kami e-melkan."
+            },
+            {
+              "title": "Simpan dengan selamat",
+              "text": "Contohnya dicetak atau pada pemacu yang disulitkan. Sesiapa yang memiliki fail ini boleh log masuk ke akaun anda, jadi jangan e-melkan atau kongsikannya."
+            },
+            {
+              "title": "Log masuk dengannya",
+              "text": "Masukkan e-mel anda semasa log masuk, pilih \"Lupa kata laluan?\", kemudian \"Log masuk dengan fail pemulihan\", dan muat naik PDF."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Kunci laluan",
+        "subtitle": "Kunci laluan ialah cara yang selamat dan mudah untuk log masuk tanpa kata laluan. Anda boleh menggunakan cap jari, wajah atau kunci skrin peranti anda.",
+        "add": "Tambah kunci laluan",
+        "empty": "Anda belum menambah sebarang kunci laluan.",
+        "unnamed": "Kunci laluan tanpa nama",
+        "addedOn": "Ditambah pada {date}",
+        "lastUsed": "Kali terakhir digunakan {date}",
+        "never": "Tidak pernah digunakan",
+        "delete": "Padam",
+        "count": "Anda mempunyai {count} kunci laluan aktif.",
+        "none": "Anda belum menyediakan sebarang kunci laluan.",
+        "success": "Kunci laluan berjaya didaftarkan!",
+        "error": "Pendaftaran kunci laluan gagal.",
+        "pending": "Mendaftar...",
+        "emptyTitle": "Belum ada passkey",
+        "emptyText": "Tambah satu untuk log masuk dengan cap jari, wajah atau kunci skrin peranti anda dan bukannya kata laluan. Kata laluan anda masih berfungsi.",
+        "deleteConfirm": "Alih keluar passkey ini? Anda tidak boleh log masuk dengannya lagi.",
+        "cancel": "Batal",
+        "removing": "Mengalih keluar...",
+        "createTitle": "Cipta passkey",
+        "createSubtitle": "Passkey membolehkan anda log masuk dengan cap jari, wajah atau kunci skrin peranti anda. Ia disimpan oleh peranti atau pengurus kata laluan anda dan tidak pernah meninggalkannya.",
+        "nameLabel": "Nama passkey",
+        "nameHint": "Supaya anda boleh membezakan passkey anda, contohnya peranti atau pengurus kata laluan tempat ia disimpan.",
+        "whatHappensTitle": "Apa yang berlaku seterusnya",
+        "whatHappens1": "Pelayar atau pengurus kata laluan anda bertanya di mana hendak menyimpan passkey.",
+        "whatHappens2": "Sahkan dengan cap jari, wajah atau kunci skrin anda.",
+        "whatHappens3": "Selepas itu anda boleh memilih passkey semasa log masuk.",
+        "create": "Cipta passkey",
+        "waiting": "Ikut arahan daripada pelayar atau pengurus kata laluan anda…",
+        "cancelled": "Tiada passkey dicipta. Anda boleh cuba lagi.",
+        "doneTitle": "Passkey ditambah",
+        "doneSubtitle": "Anda kini boleh log masuk dengan \"{name}\". Kata laluan anda juga masih berfungsi.",
+        "done": "Selesai",
+        "back": "Kembali",
+        "removeError": "Tidak dapat mengalih keluar kunci laluan. Cuba lagi.",
+        "defaultName": "{browser} pada {system}",
+        "rowDescription": "Log masuk dengan cap jari, wajah atau PIN peranti anda."
+      },
+      "activityModal": {
+        "title": "Aktiviti log masuk akaun",
+        "subtitle": "Tempat akaun anda sedang log masuk sekarang. Log keluar daripada mana-mana peranti yang anda tidak kenali.",
+        "unknownDevice": "Peranti tidak diketahui",
+        "unknownLocation": "Lokasi tidak diketahui",
+        "currentDevice": "Peranti ini",
+        "lastActive": "Kali terakhir aktif {date}",
+        "revoke": "Log keluar",
+        "revokePending": "Memproses...",
+        "revokeAllTitle": "Log masuk pada peranti lain",
+        "revokeAll": "Log keluar daripada semua peranti lain",
+        "revokeAllPending": "Memproses...",
+        "revokeSuccess": "Sesi telah dibatalkan.",
+        "revokeAllSuccess": "Semua sesi lain telah dilog keluar.",
+        "revokeError": "Gagal membatalkan sesi.",
+        "viewMore": "+ {count} peranti lain",
+        "activeNow": "Aktif sekarang",
+        "thisDeviceTitle": "Peranti ini",
+        "otherEmpty": "Anda tidak log masuk pada mana-mana peranti lain.",
+        "showAll": "Tunjukkan semua {count}",
+        "revokeAllConfirm": "Log keluar daripada kesemua {count} peranti lain? Sesiapa yang menggunakannya perlu log masuk semula.",
+        "cancel": "Batal"
+      },
+      "automatedDecisions": {
+        "title": "Keputusan automatik",
+        "description": "Sesetengah keputusan perlindungan akaun dibuat secara automatik berdasarkan isyarat seperti corak log masuk dan aktiviti mencurigakan. Anda boleh meminta seorang di Ordnary menyemak hasilnya.",
+        "back": "Kembali",
+        "close": "Tutup",
+        "loading": "Memuatkan…",
+        "currentStateTitle": "Keadaan automatik semasa",
+        "riskLabels": {
+          "LOW": "Risiko rendah",
+          "MEDIUM": "Risiko sederhana",
+          "HIGH": "Risiko tinggi"
+        },
+        "statusLabels": {
+          "ACTIVE": "Aktif",
+          "SUSPENDED": "Digantung buat sementara waktu",
+          "DEACTIVATED": "Dinyahaktifkan",
+          "DELETED": "Menunggu pemadaman"
+        },
+        "suspendedExplanation": "Akaun anda kini dihadkan oleh peraturan automatik. Anda boleh meminta semakan manusia di bawah. Seorang di Ordnary akan melihat isyarat dan kenyataan anda, lalu mengesahkan atau membatalkan keputusan itu.",
+        "elevatedExplanation": "Tahap risiko akaun anda telah dinaikkan berdasarkan aktiviti terkini. Anda boleh meminta semakan manusia jika anda percaya isyarat itu salah.",
+        "okExplanation": "Kami tidak menandakan sebarang sekatan automatik pada akaun anda. Anda masih boleh meminta semakan mana-mana keputusan lepas di bawah.",
+        "lastEvaluated": "Dinilai kali terakhir",
+        "signalsTitle": "Isyarat keselamatan terkini",
+        "signalsEmpty": "Tiada isyarat keselamatan direkodkan baru-baru ini.",
+        "appealTitle": "Minta semakan manusia",
+        "appealSubtitle": "Seorang penyemak di Ordnary akan melihat keputusan automatik, kenyataan anda dan isyarat yang mendasarinya. Kami berusaha menjawab dalam masa yang munasabah.",
+        "pickReason": "Apa yang anda pertikaikan?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Saya percaya penggantungan itu salah",
+          "RISK_LEVEL_OBJECTION": "Saya percaya tahap risiko saya tidak betul",
+          "SECURITY_EVENT_OBJECTION": "Saya mahu mempertikaikan isyarat keselamatan tertentu",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Saya mahu seorang menyemak keputusan automatik pada akaun saya"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Akaun anda kini digantung dan anda mahu keputusan itu disemak.",
+          "RISK_LEVEL_OBJECTION": "Tahap risiko anda lebih tinggi daripada yang dijangka dan anda mahu ia dinilai semula.",
+          "SECURITY_EVENT_OBJECTION": "Satu peristiwa keselamatan tertentu direkodkan yang anda tidak kenali.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Anda mahu seorang manusia melihat keputusan automatik pada akaun anda."
+        },
+        "yourStatement": "Kenyataan anda (pilihan)",
+        "statementPlaceholder": "Beritahu kami apa-apa yang patut kami ketahui, contohnya anda sedang mengembara, menggunakan peranti baharu, atau orang lain cuba menceroboh.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Hantar permintaan semakan",
+        "submitting": "Menghantar...",
+        "submitted": "Kami telah menerima permintaan anda dan akan menghubungi anda semula.",
+        "pendingTitle": "Semakan sedang dijalankan",
+        "pendingSubtitle": "Seorang di Ordnary sedang melihat permintaan anda. Anda akan dimaklumkan apabila ada kemas kini.",
+        "withdraw": "Tarik balik permintaan",
+        "withdrawing": "Menarik balik...",
+        "withdrawn": "Permintaan ditarik balik.",
+        "withdrawableHint": "Anda boleh menarik balik permintaan ini pada bila-bila masa.",
+        "historyTitle": "Permintaan semakan lepas",
+        "historyEmpty": "Tiada permintaan semakan terdahulu.",
+        "outcomes": {
+          "UPHELD": "Dikekalkan",
+          "OVERTURNED": "Dibatalkan",
+          "ADJUSTED": "Diselaraskan",
+          "ESCALATED": "Dinaikkan"
+        },
+        "statuses": {
+          "PENDING": "Belum selesai",
+          "IN_REVIEW": "Dalam semakan",
+          "RESOLVED": "Diselesaikan",
+          "WITHDRAWN": "Ditarik balik"
+        },
+        "loadError": "Gagal memuatkan butiran keputusan automatik.",
+        "alreadyOpen": "Anda sudah mempunyai permintaan semakan yang terbuka.",
+        "cooldown": "Anda boleh menghantar permintaan semakan baharu dalam {hours} jam. Tempoh menunggu ini membantu penyemak menyelesaikan permintaan sebelumnya.",
+        "showAll": "Tunjukkan semua ({count})",
+        "showLess": "Tunjukkan kurang"
+      },
+      "previewBadge": "Pratonton",
+      "previewBadgeTooltip": "Baharu dan masih dipertingkatkan. Passkey berfungsi, tetapi butiran mungkin berubah."
+    },
+    "connections": {
+      "title": "Apl disambungkan",
+      "description": "Aplikasi yang mempunyai akses kepada data akaun Ordnary anda.",
+      "empty": "Anda belum menyambungkan sebarang apl.",
+      "authorizedScopes": "Skop dibenarkan: {scopes}",
+      "granted": "Diberikan: {date}",
+      "revoke": "Batalkan akses"
+    },
+    "devices": {
+      "title": "Peranti & sesi",
+      "description": "Urus sesi aktif anda merentas pelbagai peranti.",
+      "logoutOthers": "Log keluar daripada semua peranti lain",
+      "headers": {
+        "device": "Peranti",
+        "location": "Lokasi / IP",
+        "lastActive": "Kali terakhir aktif",
+        "type": "Jenis",
+        "actions": "Tindakan"
+      },
+      "unknownDevice": "Peranti tidak diketahui",
+      "currentSession": "(Sesi semasa)",
+      "typeFormat": "{browser} pada {os}",
+      "revoke": "Batalkan"
+    },
+    "passkeysPage": {
+      "title": "Kunci laluan",
+      "description": "Urus biometrik dan kunci perkakasan anda untuk log masuk tanpa kata laluan.",
+      "add": "+ Tambah kunci laluan baharu",
+      "empty": "Anda belum menambah sebarang kunci laluan.",
+      "unnamed": "Kunci laluan tanpa nama",
+      "addedOn": "Ditambah pada: {date}",
+      "lastUsed": "Kali terakhir digunakan: {date}",
+      "never": "Tidak pernah",
+      "delete": "Padam"
+    },
+    "activity": {
+      "title": "Aktiviti terkini",
+      "description": "Semak dan pantau peristiwa penting dan perubahan berkaitan keselamatan akaun anda.",
+      "details": "Butiran",
+      "dates": {
+        "today": "Hari ini, 17 April",
+        "yesterday": "Semalam, 16 April"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Log masuk",
+        "LOGIN_FAILED": "Log masuk gagal",
+        "LOGIN_LOCKED": "Log masuk disekat",
+        "LOGOUT": "Log keluar",
+        "SESSION_CREATED": "Sesi dicipta",
+        "SESSION_REVOKED": "Sesi ditamatkan",
+        "SESSION_ALL_REVOKED": "Log keluar di semua peranti",
+        "PASSWORD_SET": "Kata laluan ditetapkan",
+        "PASSWORD_CHANGED": "Kata laluan ditukar",
+        "PASSWORD_RESET_REQUESTED": "Tetapan semula kata laluan diminta",
+        "PASSWORD_RESET_COMPLETED": "Kata laluan ditetapkan semula",
+        "PASSKEY_REGISTERED": "Kunci laluan didaftarkan",
+        "PASSKEY_USED": "Log masuk dengan kunci laluan",
+        "PASSKEY_REMOVED": "Kunci laluan dialih keluar",
+        "PASSKEY_COUNTER_MISMATCH": "Amaran kunci laluan",
+        "MFA_ENABLED": "Pengesahan dua faktor dihidupkan",
+        "MFA_DISABLED": "Pengesahan dua faktor dilumpuhkan",
+        "MFA_FACTOR_ENROLLED": "Aplikasi pengesah ditambah",
+        "MFA_FACTOR_VERIFIED": "Aplikasi pengesah disahkan",
+        "MFA_FACTOR_REVOKED": "Aplikasi pengesah dialih keluar",
+        "RECOVERY_CODES_GENERATED": "Kod pemulihan baharu",
+        "RECOVERY_CODE_USED": "Kod pemulihan digunakan",
+        "STEP_UP_REQUIRED": "Pengesahan diminta",
+        "STEP_UP_COMPLETED": "Disahkan bahawa ini anda",
+        "EMAIL_ADDED": "Alamat e-mel ditambah",
+        "EMAIL_VERIFIED": "Alamat e-mel disahkan",
+        "EMAIL_REMOVED": "Alamat e-mel dialih keluar",
+        "EMAIL_PRIMARY_CHANGED": "E-mel utama ditukar",
+        "ACCOUNT_CREATED": "Akaun dicipta",
+        "ACCOUNT_UPDATED": "Akaun dikemas kini",
+        "ACCOUNT_DELETED": "Pemadaman akaun dimulakan",
+        "ACCOUNT_REACTIVATED": "Akaun diaktifkan semula",
+        "OAUTH_CONSENT_GRANTED": "Aplikasi diberi akses",
+        "OAUTH_CONSENT_REVOKED": "Akses aplikasi dibatalkan",
+        "OAUTH_TOKEN_ISSUED": "Aplikasi log masuk",
+        "OAUTH_TOKEN_REVOKED": "Aplikasi log keluar",
+        "SUSPICIOUS_NEW_LOCATION": "Log masuk dari lokasi baharu",
+        "SUSPICIOUS_NEW_DEVICE": "Log masuk pada peranti baharu",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Log masuk luar biasa",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Keutamaan e-mel ditukar",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Berhenti melanggan",
+        "PRIVACY_REQUEST_FILED": "Permintaan privasi difailkan",
+        "PRIVACY_REQUEST_RESOLVED": "Permintaan privasi dikendalikan",
+        "DSAR_FILED": "Permintaan data difailkan",
+        "DSAR_FULFILLED": "Permintaan data dipenuhi",
+        "DSAR_REJECTED": "Permintaan data ditolak",
+        "RISK_REVIEW_REQUESTED": "Semakan diminta",
+        "RISK_REVIEW_RESOLVED": "Semakan selesai"
+      },
+      "severities": {
+        "INFO": "Maklumat",
+        "MEDIUM": "Sederhana",
+        "HIGH": "Tinggi",
+        "CRITICAL": "Kritikal",
+        "LOW": "Rendah"
+      },
+      "empty": "Belum ada aktiviti pada akaun anda.",
+      "filters": {
+        "all": "Semua",
+        "account": "Perubahan akaun",
+        "security": "Makluman keselamatan"
+      },
+      "retention": "Aktiviti disimpan selama {days} hari. Anda boleh menukar tempoh ini di bawah {link}.",
+      "retentionLink": "Maklumat dan kebenaran anda",
+      "emptyFiltered": "Tiada apa-apa untuk dipaparkan dalam paparan ini.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Seseorang log masuk ke akaun anda dengan kata laluan atau kod log masuk.",
+        "LOGIN_FAILED": "Seseorang cuba log masuk ke akaun anda, tetapi kata laluan atau kodnya salah. Jika hanya beberapa kali, biasanya ini kesilapan menaip.",
+        "LOGIN_LOCKED": "Selepas terlalu banyak cubaan yang salah, log masuk ke akaun anda disekat buat sementara waktu untuk memastikan keselamatannya.",
+        "LOGOUT": "Satu sesi pada akaun anda telah dilog keluar.",
+        "SESSION_CREATED": "Akaun anda dilog masuk pada peranti atau pelayar, lalu memulakan sesi baharu.",
+        "SESSION_REVOKED": "Satu sesi pada akaun anda dilog keluar, oleh anda atau kerana sesi itu tidak lagi selamat untuk dikekalkan.",
+        "SESSION_ALL_REVOKED": "Akaun anda dilog keluar daripada semua peranti lain.",
+        "PASSWORD_SET": "Kata laluan telah ditambah pada akaun anda.",
+        "PASSWORD_CHANGED": "Kata laluan akaun anda telah ditukar.",
+        "PASSWORD_RESET_REQUESTED": "Kod untuk menetapkan semula kata laluan anda telah dihantar ke alamat e-mel anda.",
+        "PASSWORD_RESET_COMPLETED": "Kata laluan anda ditetapkan semula dengan kod daripada e-mel anda, dan anda dilog keluar di semua peranti.",
+        "PASSKEY_REGISTERED": "Kunci laluan telah ditambah, jadi anda boleh log masuk dengan peranti anda dan bukannya kata laluan.",
+        "PASSKEY_USED": "Seseorang log masuk ke akaun anda dengan salah satu kunci laluannya.",
+        "PASSKEY_REMOVED": "Kunci laluan telah dialih keluar dan tidak boleh digunakan lagi untuk log masuk.",
+        "PASSKEY_COUNTER_MISMATCH": "Kunci laluan melaporkan sesuatu yang tidak dijangka, yang mungkin bermaksud ia telah disalin. Log masuk itu ditolak.",
+        "MFA_ENABLED": "Log masuk kini turut meminta kod daripada aplikasi pengesah anda.",
+        "MFA_DISABLED": "Log masuk tidak lagi meminta kod daripada aplikasi pengesah anda.",
+        "MFA_FACTOR_ENROLLED": "Aplikasi pengesah telah dipautkan ke akaun anda.",
+        "MFA_FACTOR_VERIFIED": "Kod daripada aplikasi pengesah anda telah disahkan.",
+        "MFA_FACTOR_REVOKED": "Aplikasi pengesah telah dialih keluar daripada akaun anda.",
+        "RECOVERY_CODES_GENERATED": "Satu set kod pemulihan baharu telah dibuat. Kod lama tidak lagi berfungsi.",
+        "RECOVERY_CODE_USED": "Seseorang log masuk dengan salah satu kod pemulihan anda dan bukannya kod pengesah. Kod itu tidak boleh digunakan lagi.",
+        "STEP_UP_REQUIRED": "Sebelum perubahan sensitif, anda diminta mengesahkan bahawa ini anda dengan kod melalui e-mel.",
+        "STEP_UP_COMPLETED": "Kod melalui e-mel mengesahkan bahawa ini anda, yang membenarkan perubahan sensitif buat sementara waktu.",
+        "EMAIL_ADDED": "Alamat e-mel telah ditambah pada akaun anda dan dihantar pautan pengesahan.",
+        "EMAIL_VERIFIED": "Alamat e-mel pada akaun anda telah disahkan.",
+        "EMAIL_REMOVED": "Alamat e-mel telah dialih keluar daripada akaun anda.",
+        "EMAIL_PRIMARY_CHANGED": "Alamat e-mel lain menjadi alamat utama akaun anda, untuk log masuk dan mesej.",
+        "ACCOUNT_CREATED": "Akaun Ordnary anda telah dicipta.",
+        "ACCOUNT_UPDATED": "Tetapan atau butiran pada akaun anda telah ditukar.",
+        "ACCOUNT_DELETED": "Akaun anda telah ditetapkan untuk dipadam. Ia boleh dipulihkan dalam tempoh 30 hari.",
+        "ACCOUNT_REACTIVATED": "Akaun anda telah diaktifkan semula selepas dinyahaktifkan atau dipadam.",
+        "OAUTH_CONSENT_GRANTED": "Sebuah aplikasi menerima akses ke akaun anda dengan Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "Sebuah aplikasi tidak lagi mempunyai akses ke akaun anda.",
+        "OAUTH_TOKEN_ISSUED": "Aplikasi yang anda gunakan dengan Ordnary ID menerima token log masuk baharu.",
+        "OAUTH_TOKEN_REVOKED": "Token log masuk untuk sebuah aplikasi telah dibatalkan.",
+        "SUSPICIOUS_NEW_LOCATION": "Akaun anda digunakan dari lokasi yang belum pernah digunakan sebelum ini.",
+        "SUSPICIOUS_NEW_DEVICE": "Akaun anda digunakan pada peranti yang belum pernah digunakan sebelum ini.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Akaun anda digunakan dari dua lokasi yang terlalu jauh untuk seseorang berpindah antara keduanya dalam masa itu.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Jenis e-mel yang boleh dihantar oleh Ordnary kepada anda telah ditukar.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Pautan berhenti melanggan dalam e-mel telah mematikan satu jenis e-mel.",
+        "PRIVACY_REQUEST_FILED": "Permintaan untuk membantah atau mengehadkan pemprosesan data anda telah difailkan.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary telah mengendalikan permintaan anda untuk membantah atau mengehadkan pemprosesan.",
+        "DSAR_FILED": "Permintaan tentang data anda (akses, pembetulan, pemadaman atau salinan) telah difailkan.",
+        "DSAR_FULFILLED": "Ordnary telah melengkapkan permintaan data anda.",
+        "DSAR_REJECTED": "Ordnary menolak permintaan data anda; e-mel yang dihantar menerangkan sebabnya.",
+        "RISK_REVIEW_REQUESTED": "Semakan terhadap keputusan automatik pada akaun anda telah diminta.",
+        "RISK_REVIEW_RESOLVED": "Seorang kakitangan Ordnary telah menyemak keputusan automatik pada akaun anda."
+      },
+      "detail": {
+        "ifNotYou": "Bukan anda? Tukar kata laluan anda dan log keluar peranti lain di bawah Kata laluan dan keselamatan.",
+        "ifNotYouLink": "Pergi ke Kata laluan dan keselamatan",
+        "generic": "Ini telah direkodkan pada akaun anda.",
+        "labels": {
+          "when": "Bila",
+          "where": "Di mana",
+          "ip": "Alamat IP",
+          "session": "Sesi",
+          "thisDevice": "Peranti ini",
+          "event": "Peristiwa",
+          "source": "Direkodkan dalam",
+          "severity": "Kepentingan"
+        },
+        "sources": {
+          "AUDIT_LOG": "Log akaun",
+          "SECURITY_EVENT": "Pemantauan keselamatan"
+        },
+        "unknown": "Tidak diketahui",
+        "times": "{count}×",
+        "timeSpan": "{from} hingga {to}"
+      },
+      "showMore": "Tunjukkan hari sebelumnya",
+      "loadingMore": "Memuatkan…",
+      "end": "Itu sahaja aktiviti yang disimpan.",
+      "loadFailed": "Tidak dapat memuatkan lagi. Cuba lagi."
+    },
+    "connectedAppsDemo": {
+      "title": "Apl disambungkan",
+      "description": "Aplikasi dan perkhidmatan pihak ketiga yang anda berikan akses kepada sebahagian data akaun anda.",
+      "badges": {
+        "official": "Rasmi",
+        "verified": "Disahkan"
+      },
+      "accessed": "Diakses {value}",
+      "revoke": "Batalkan akses",
+      "apps": {
+        "consoleReason": "Urus sumber awan dan saluran penyebaran anda.",
+        "figmaReason": "Alat reka bentuk untuk prototaip kolaboratif.",
+        "unknownGameName": "Permainan tidak diketahui",
+        "unknownGameReason": "Apl yang belum disahkan yang meminta maklumat profil anda.",
+        "currentSession": "Sesi semasa",
+        "twoDaysAgo": "2 hari lalu",
+        "lastMonth": "Bulan lalu"
+      }
+    },
+    "permissions": {
+      "title": "Maklumat dan kebenaran anda",
+      "exportTitle": "Eksport maklumat anda",
+      "searchHistory": "Aktiviti Ordnary",
+      "externalActivity": "Aktiviti anda di luar teknologi Ordnary",
+      "appConnections": "Sambungan apl",
+      "manageContacts": "Urus kenalan",
+      "notice": "Pergi ke Eksport maklumat anda untuk memuat turun atau memindahkan salinan maklumat anda.",
+      "footer": "Tentukan maklumat yang boleh digunakan oleh teknologi Ordnary untuk mempengaruhi pengalaman anda.",
+      "privacyRightsTitle": "Hak privasi anda",
+      "dsarTitle": "Permintaan privasi dan data",
+      "dsarSubtitle": "Failkan permintaan rasmi untuk akses, pembetulan, pemadaman atau kebolehpindahan (Perkara 15-20).",
+      "privacyRequestsTitle": "Bantah atau sekat",
+      "privacyRequestsSubtitle": "Membantah atau menyekat aktiviti pemprosesan tertentu (Perkara 18 / Perkara 21).",
+      "processorsTitle": "Siapa yang memproses data anda",
+      "processorsSubtitle": "Syarikat yang kami gunakan untuk menjalankan Ordnary, apa yang mereka terima dan di mana mereka menyimpannya.",
+      "cookiesTitle": "Keutamaan kuki",
+      "cookiesSubtitle": "Urus kuki yang boleh digunakan oleh Ordnary dalam pelayar ini.",
+      "minorConsentTitle": "Persetujuan ibu bapa",
+      "minorConsentSubtitle": "Jika anda di bawah umur persetujuan di negara anda, ibu bapa atau penjaga perlu bersetuju (GDPR Perkara 8).",
+      "notificationsTitle": "Keutamaan pemberitahuan",
+      "notificationsSubtitle": "Pilih jenis e-mel yang boleh dihantar oleh Ordnary kepada anda.",
+      "notifications": {
+        "title": "Keutamaan pemberitahuan",
+        "close": "Tutup",
+        "loading": "Memuatkan…",
+        "alwaysOn": "Sentiasa hidup",
+        "description": "Pilih e-mel yang anda terima daripada Ordnary.",
+        "loadError": "Kami tidak dapat memuatkannya sekarang. Cuba lagi nanti.",
+        "saveError": "Kami tidak dapat menyimpannya. Cuba lagi.",
+        "saved": "Disimpan.",
+        "alwaysTitle": "Sentiasa dihidupkan",
+        "alwaysText": "E-mel ini memastikan akaun anda selamat dan mengesahkan perkara yang anda minta, jadi ia sentiasa dihidupkan.",
+        "choiceTitle": "Pilihan anda",
+        "turnAllOff": "Matikan semua e-mel pilihan",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Amaran keselamatan",
+          "TRANSACTIONAL_ACCOUNT": "Mesej akaun",
+          "PRODUCT_UPDATES": "Kemas kini produk",
+          "RECOMMENDATIONS": "Cadangan",
+          "MARKETING": "Berita dan tawaran"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Kod log masuk, tetapan semula kata laluan dan amaran tentang log masuk baharu atau perubahan pada keselamatan anda.",
+          "TRANSACTIONAL_ACCOUNT": "Pengesahan bagi perkara yang anda lakukan, seperti eksport data, permintaan privasi atau persetujuan ibu bapa.",
+          "PRODUCT_UPDATES": "Perkara baharu dalam produk Ordnary, dan perubahan pada terma kami.",
+          "RECOMMENDATIONS": "Cadangan berdasarkan cara anda menggunakan Ordnary.",
+          "MARKETING": "Surat berita dan tawaran, sesekali."
+        }
+      },
+      "minorConsent": {
+        "title": "Persetujuan ibu bapa",
+        "description": "Jika anda lebih muda daripada umur anda boleh bersetuju sendiri dalam talian, ibu bapa atau penjaga perlu bersetuju sebelum kami boleh menggunakan sebahagian maklumat anda. Ini datang daripada Perkara 8 GDPR.",
+        "close": "Tutup",
+        "loading": "Memuatkan…",
+        "loadError": "Kami tidak dapat memuatkannya sekarang. Cuba lagi nanti.",
+        "consentAge": "Umur persetujuan di {country}: {age}",
+        "yourAge": "Umur anda: {age}",
+        "adultTitle": "Tidak diperlukan",
+        "adultBody": "Anda cukup umur untuk bersetuju sendiri, jadi anda tidak memerlukan persetujuan ibu bapa.",
+        "unknownTitle": "Kami belum tahu umur anda",
+        "unknownBody": "Tambah tarikh lahir anda supaya kami dapat mengetahui sama ada anda memerlukan persetujuan ibu bapa.",
+        "unknownAction": "Tambah tarikh lahir",
+        "blockedTitle": "Persetujuan diperlukan",
+        "blockedBody": "Selagi ibu bapa atau penjaga belum bersetuju, sebahagian akaun anda dihadkan.",
+        "pendingTitle": "Menunggu ibu bapa atau penjaga anda",
+        "pendingBody": "Kami menghantar permintaan ke {email}. Pautan berfungsi sehingga {date}.",
+        "verifiedTitle": "Persetujuan diberikan",
+        "verifiedBody": "{email} bersetuju pada {date}.",
+        "parentEmail": "E-mel ibu bapa atau penjaga",
+        "relationship": "Siapa ini, contohnya ibu (pilihan)",
+        "addMessage": "Tambah mesej (pilihan)",
+        "notes": "Mesej untuk ibu bapa atau penjaga anda",
+        "submit": "Hantar permintaan",
+        "submitting": "Menghantar…",
+        "resend": "Hantar semula",
+        "changeEmail": "Gunakan e-mel yang lain",
+        "cancel": "Batal",
+        "revoke": "Tarik balik",
+        "revokeConfirm": "Tarik balik persetujuan? Sebahagian akaun anda akan dihadkan semula sehingga ibu bapa atau penjaga bersetuju semula.",
+        "revoking": "Menarik balik…",
+        "revoked": "Persetujuan ditarik balik.",
+        "notMinor": "Anda cukup umur untuk bersetuju sendiri.",
+        "invalidEmail": "Masukkan alamat e-mel yang sah.",
+        "requestSent": "Permintaan dihantar ke {email}.",
+        "points": [
+          {
+            "title": "Masukkan e-mel mereka",
+            "text": "Alamat e-mel ibu bapa atau penjaga."
+          },
+          {
+            "title": "Mereka bersetuju",
+            "text": "Mereka menerima e-mel dengan pautan untuk bersetuju. Pautan sah selama 14 hari."
+          },
+          {
+            "title": "Akaun anda berfungsi sepenuhnya",
+            "text": "Sebaik sahaja mereka bersetuju, had pada akaun anda ditamatkan."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Anda boleh mengeksport salinan maklumat anda ke perkhidmatan luaran atau ke peranti anda. Data yang tersedia termasuk kandungan dan maklumat yang telah anda kongsi, aktiviti anda dan maklumat yang kami kumpulkan.",
+      "exportButton": "Hantar pautan muat turun",
+      "exportModalContentsTitle": "Apa yang termasuk dalam eksport anda:",
+      "exportModalContents": [
+        "Data profil dan tetapan akaun",
+        "Alamat e-mel dan nombor telefon",
+        "Tetapan keselamatan (passkey, MFA, peranti)",
+        "Sejarah sesi dan log masuk",
+        "Butiran pembayaran",
+        "Apl yang disambungkan dan persetujuan OAuth",
+        "Log aktiviti dan peristiwa keselamatan",
+        "Persetujuan privasi dan kuki"
+      ],
+      "exportModalFormat": "Format: arkib ZIP dengan fail JSON berstruktur dan README yang boleh dibaca.",
+      "exportModalRateLimit": "Anda akan menerima e-mel dengan pautan muat turun sekali guna. Maksimum 3 eksport setiap 24 jam.",
+      "exportDownload": {
+        "loading": "Sebentar...",
+        "readyTitle": "Eksport data anda sudah sedia",
+        "readyDescription": "Klik butang di bawah untuk memuat turun data akaun anda sebagai arkib ZIP. Pautan ini hanya boleh digunakan sekali dan tamat tempoh selepas 24 jam.",
+        "downloadButton": "Muat turun data anda",
+        "readyHint": "Fail ini mengandungi semua data peribadi, tetapan keselamatan, log aktiviti anda dan banyak lagi dalam fail JSON berstruktur.",
+        "downloadingTitle": "Memuat turun...",
+        "downloadingDescription": "Eksport anda sedang disediakan. Ini mungkin mengambil masa beberapa saat.",
+        "successTitle": "Muat turun dimulakan",
+        "successDescription": "Eksport data anda sedang dimuat turun. Simpan fail itu di tempat yang selamat kerana ia mengandungi maklumat peribadi yang sensitif.",
+        "successHint": "Pautan muat turun ini kini telah tamat tempoh. Jika anda memerlukan eksport baharu, anda boleh memintanya daripada tetapan akaun anda.",
+        "backToSettings": "Kembali ke tetapan akaun",
+        "expiredTitle": "Pautan tamat tempoh",
+        "expiredDescription": "Pautan muat turun ini telah tamat tempoh atau sudah digunakan. Pautan muat turun sah selama 24 jam dan hanya boleh digunakan sekali.",
+        "newExportButton": "Minta eksport baharu",
+        "errorTitle": "Sesuatu telah berlaku",
+        "errorDefault": "Ralat berlaku semasa mendapatkan eksport anda.",
+        "noToken": "Token muat turun tidak ditemui."
+      },
+      "appConnectionsModalSubtitle": "Dengan sambungan apl, anda boleh melakukan sesuatu dalam pelbagai produk Ordnary dan dengan syarikat lain.",
+      "connectButton": "Sambung",
+      "activityModalSubtitle": "Lihat dan urus aktiviti anda dalam ekosistem Ordnary, termasuk produk dan aplikasi SaaS kami. Kami menggunakan maklumat ini untuk belajar daripada tingkah laku anda dan mengoptimumkan pengalaman anda merentas semua platform kami.",
+      "accountsAndProfiles": "Akaun dan profil anda",
+      "keepActivityFor": "Simpan aktiviti selama",
+      "clearActivityButton": "Kosongkan semua aktiviti",
+      "days3": "3 hari",
+      "days7": "7 hari",
+      "days14": "14 hari",
+      "standardOption": "Standard",
+      "noticeTitle": "Dapatkan salinan maklumat anda",
+      "noticeText": "Muat turun data akaun anda untuk disimpan, atau pindahkan ke perkhidmatan lain.",
+      "noticeAction": "Eksport maklumat",
+      "experimentBadge": "Eksperimen",
+      "userFallback": "Pengguna",
+      "avatarAlt": "Gambar profil",
+      "exportSent": "Pautan muat turun dihantar ke {email}",
+      "exportFailed": "Eksport gagal. Cuba lagi.",
+      "exportInProgress": "Eksport sedang disediakan. Cuba lagi sebentar lagi.",
+      "exportRateLimited": "Anda telah mencapai bilangan eksport maksimum. Cuba lagi dalam {time}.",
+      "saveFailed": "Tidak dapat menyimpan. Cuba lagi.",
+      "days30": "30 hari",
+      "autoClear": {
+        "title": "Kosongkan aktiviti Ordnary secara automatik",
+        "subtitle": "Pilih berapa lama kami menyimpan aktiviti anda. Aktiviti yang lebih lama dialih keluar secara automatik, untuk semua akaun dan profil dalam Pusat Akaun.",
+        "standard": "Standard",
+        "saving": "Menyimpan…",
+        "saved": "Disimpan.",
+        "back": "Kembali",
+        "close": "Tutup",
+        "howTitle": "Apa yang dialih keluar",
+        "howText": "Sejarah log masuk anda dan peristiwa keselamatan pada akaun anda, seperti log masuk baharu, perubahan kata laluan dan percubaan yang disekat, setelah lebih lama daripada tempoh yang anda pilih.",
+        "howPermanent": "Aktiviti yang dialih keluar tidak boleh dipulihkan. Muat turun salinan dahulu jika anda mahu menyimpannya.",
+        "learnMore": "Lebih lanjut tentang kosongkan secara automatik dalam dokumen Ordnary"
+      },
+      "experimentBadgeTooltip": "Masih dalam pembangunan. Anda boleh melihat-lihat, tetapi menyambungkan apl belum berfungsi."
+    },
+    "payments": {
+      "title": "Pay",
+      "subtitle": "Urus maklumat pembayaran tersimpan anda dan akaun mana yang mempunyai akses kepadanya. {learnMore}",
+      "syncInfo": "Disegerakkan antara 2 akaun",
+      "addMethodTitle": "Tambah kaedah pembayaran",
+      "addMethodSubtitle": "Simpan kad atau pautkan PayPal anda untuk memudahkan pembelian anda yang seterusnya.",
+      "addMethodButton": "Tambah kaedah pembayaran",
+      "shippingTitle": "Butiran penghantaran",
+      "shippingAddress": "Alamat penghantaran",
+      "emailAddress": "Alamat e-mel",
+      "phoneNumber": "Nombor telefon",
+      "addModal": {
+        "title": "Tambah kaedah pembayaran",
+        "card": "Kad kredit atau debit",
+        "paypal": "PayPal",
+        "footer": "Maklumat ini akan disimpan dengan Ordnary Pay dan disegerakkan dalam Pusat Akaun, tempat maklumat boleh diurus. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Tambah kad",
+        "subtitle": "Nombor kad anda dienkripsi dan disimpan dengan selamat",
+        "cardNumber": "Nombor kad",
+        "expiry": "Tarikh luput (BB/TT)",
+        "cvv": "CVV",
+        "name": "Nama pada kad",
+        "submit": "Seterusnya",
+        "cvvTooltip": "Kod pengesahan (CVV) anda ialah nombor keselamatan di belakang atau di depan kad anda.",
+        "footer": "Maklumat ini akan disimpan dengan Ordnary Pay dan disegerakkan dalam Pusat Akaun, tempat maklumat boleh diurus. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Tetapkan alamat penghantaran",
+        "subtitle": "Tambah alamat penghantaran untuk Ordnary Pay. Ini berasingan daripada proses persediaan kad anda.",
+        "search": "Cari alamat",
+        "country": "Negara atau wilayah",
+        "fullName": "Nama penuh",
+        "street": "Alamat",
+        "street2": "Baris alamat 2 (pilihan)",
+        "city": "Bandar/daerah",
+        "state": "Negeri/wilayah",
+        "zip": "Poskod",
+        "submit": "Simpan alamat"
+      }
+    },
+    "subscriptions": {
+      "description": "Urus langganan Ordnary aktif, pembaharuan dan tetapan pengebilan anda.",
+      "emptyTitle": "Tiada langganan aktif",
+      "emptyDescription": "Langganan akan dipaparkan di sini setelah dipautkan ke akaun anda.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Akses tanpa had kepada media premium daripada Ordnary Pictures, termasuk filem pilihan, siri, pratonton dan keluaran eksklusif ahli merentas pengalaman Ordnary yang disokong.",
+          "status": "Aktif",
+          "renewal": "Diperbaharui setiap bulan",
+          "price": "€9.99 sebulan"
+        }
+      },
+      "manageSubscription": "Urus langganan"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Akses dinafikan",
+        "description": "Anda tidak mempunyai akses ke Pusat Akaun buat masa ini. Sesi anda mungkin telah tamat, atau akaun anda mungkin dihadkan.",
+        "action": "Log masuk semula"
+      },
+      "suspended": {
+        "title": "Akaun dinyahaktifkan",
+        "description": "Akaun ini dinyahaktifkan atau dihadkan buat sementara waktu. Hubungi sokongan jika anda rasa ini satu kesilapan.",
+        "action": "Hubungi sokongan"
+      },
+      "banned": {
+        "title": "Akses dinafikan secara kekal",
+        "description": "Akaun anda telah disekat secara kekal kerana melanggar Syarat Perkhidmatan kami.",
+        "action": "Lihat syarat"
+      },
+      "offline": {
+        "title": "Tiada sambungan internet",
+        "description": "Nampaknya anda di luar talian. Semak sambungan internet anda untuk meneruskan.",
+        "action": "Cuba lagi"
+      },
+      "unknown": {
+        "title": "Ralat sistem",
+        "description": "Sesuatu yang tidak dijangka telah berlaku. Cuba lagi nanti.",
+        "action": "Kembali ke permulaan"
+      },
+      "previousPage": "Halaman sebelumnya"
+    },
+    "common": {
+      "noResults": "Tiada hasil",
+      "searchPlaceholder": "Cari..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} mahu mengakses akaun anda",
+      "description": "Anda log masuk sebagai {displayName}. Berikan akses hanya jika anda mempercayai apl ini.",
+      "requestedPermissions": "Kebenaran diminta",
+      "approve": "Beri akses",
+      "deny": "Tolak",
+      "errorTitle": "Terdapat masalah dengan permintaan",
+      "errorDescription": "Permintaan kebenaran tidak sah atau tidak lengkap. Sila semak parameter.",
+      "unknownAppTitle": "Tidak dapat mengesahkan aplikasi",
+      "unknownAppDescription": "Apl ini tidak dapat dikenal pasti oleh Ordnary. Ini biasanya disebabkan client_id atau redirect_uri yang salah. Demi keselamatan anda, kami tidak boleh meneruskan."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Halaman ini tidak tersedia",
+      "description": "Pautan mungkin rosak, atau halaman mungkin telah dialih keluar. Semak bahawa pautan yang anda cuba buka adalah betul.",
+      "button": "Pergi ke tetapan akaun"
+    },
+    "serverError": {
+      "title": "Sesuatu telah berlaku",
+      "description": "Ralat tidak dijangka berlaku. Sila cuba lagi nanti.",
+      "button": "Cuba lagi"
+    }
+  },
+  "cookieConsent": {
+    "title": "Benarkan penggunaan kuki daripada Ordnary dalam pelayar ini?",
+    "description": "Kami menggunakan kuki dan teknologi serupa untuk menyediakan kandungan dalam produk Ordnary dan untuk menambah baiknya. Kami juga menggunakannya untuk menyediakan pengalaman yang lebih selamat dengan menggunakan maklumat yang kami terima di dalam dan di luar Ordnary. Kuki ini adalah pilihan.",
+    "essentialTitle": "Kuki penting",
+    "essentialDesc": "Kuki ini diperlukan untuk menggunakan produk Ordnary dan perlu supaya laman kami berfungsi dengan betul.",
+    "optionalTitle": "Kuki daripada syarikat lain",
+    "optionalDesc": "Kami menggunakan kuki ini untuk menunjukkan iklan kepada anda di luar produk Ordnary dan untuk menyediakan ciri seperti peta dan video dalam produk Ordnary. Kuki ini adalah pilihan.",
+    "policyInfo": "Anda yang menentukan kuki pilihan mana yang boleh kami gunakan. Dalam {cookiePolicy} kami anda akan menemui maklumat lanjut tentang kuki dan cara kami menggunakannya, dan anda boleh menyemak atau menukar pilihan anda pada bila-bila masa.",
+    "cookiePolicy": "dasar kuki",
+    "infoTitle": "Maklumat tentang kuki",
+    "policyRefreshNotice": "Kami telah mengemas kini cara kami merekod pilihan kuki. Sila sahkan semula keutamaan anda supaya kami dapat menyimpan rekod terkini.",
+    "policyRevisionNotice": "Dasar kuki kami telah dikemas kini. Sila semak semula keutamaan anda.",
+    "preferencesTitle": "Keutamaan kuki anda",
+    "preferencesDescription": "Pilih kategori kuki yang boleh digunakan oleh Ordnary dalam pelayar ini. Anda boleh menukar tetapan ini pada bila-bila masa daripada akaun anda.",
+    "alwaysOn": "Sentiasa hidup",
+    "categories": {
+      "essential": {
+        "title": "Penting",
+        "description": "Diperlukan untuk log masuk, keselamatan dan bahagian lain produk berfungsi."
+      },
+      "functional": {
+        "title": "Fungsian",
+        "description": "Mengingati keutamaan seperti bahasa, tema dan akaun terkini."
+      },
+      "analytics": {
+        "title": "Analitik",
+        "description": "Membantu kami memahami cara Ordnary digunakan supaya kami dapat menambah baiknya."
+      },
+      "marketing": {
+        "title": "Pemasaran",
+        "description": "Pesanan diperibadikan daripada Ordnary tentang produk dan tawaran."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Apakah itu kuki?",
+        "button": "Ketahui lebih lanjut"
+      },
+      "why": {
+        "title": "Mengapa kami menggunakan kuki?",
+        "button": "Ketahui lebih lanjut"
+      },
+      "products": {
+        "title": "Apakah produk Ordnary?",
+        "button": "Ketahui lebih lanjut"
+      },
+      "preferences": {
+        "title": "Keutamaan kuki anda",
+        "button": "Ketahui lebih lanjut"
+      }
+    },
+    "buttons": {
+      "reject": "Tolak kuki pilihan",
+      "accept": "Benarkan semua kuki",
+      "rejectShort": "Tolak",
+      "acceptShort": "Benarkan",
+      "customize": "Sesuaikan",
+      "save": "Simpan keutamaan",
+      "saveShort": "Simpan",
+      "close": "Tutup"
+    }
+  },
+  "recentAccounts": {
+    "title": "Log masuk dengan akaun Ordnary anda",
+    "continueAs": "Teruskan sebagai {name}",
+    "loginAnother": "Log masuk dengan akaun lain",
+    "remove": "Alih keluar akaun"
+  },
+  "reauthenticate": {
+    "title": "Sahkan ini anda",
+    "description": "Hai {name}, demi keselamatan anda, kami perlu mengesahkan ini anda sebelum anda {action}.",
+    "codeSentTo": "Kami menghantar kod ke {email}.",
+    "codeSent": "Kami telah menghantar kod keselamatan 6 digit ke e-mel anda.",
+    "securityCode": "Kod keselamatan",
+    "continue": "Teruskan",
+    "verifying": "Mengesahkan…",
+    "sending": "Menghantar…",
+    "cancel": "Batal",
+    "errors": {
+      "sendFailed": "Gagal menghantar kod keselamatan.",
+      "invalidCode": "Kod tidak sah.",
+      "network": "Ralat rangkaian. Sila cuba lagi."
+    },
+    "actions": {
+      "changePassword": "menukar kata laluan anda",
+      "changeEmail": "mengurus alamat e-mel anda",
+      "managePasskeys": "mengurus kunci laluan anda",
+      "manageMfa": "mengurus pengesahan dua faktor",
+      "revokeAllSessions": "log keluar di mana-mana",
+      "manageAccount": "menyahaktifkan atau memadamkan akaun anda",
+      "rotateClientSecret": "menukar rahsia klien ini",
+      "managePaymentMethods": "mengurus kaedah pembayaran anda",
+      "authorizeApp": "membenarkan aplikasi ini",
+      "generic": "meneruskan tindakan sensitif ini"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Sahkan persetujuan ibu bapa",
+    "description": "Seorang pengguna meminta anda membenarkan akaun Ordnary mereka di bawah GDPR Art. 8. Klik sahkan di bawah untuk merekodkan persetujuan anda. Anda boleh menarik balik pada bila-bila masa kemudian dengan membalas e-mel asal atau menghubungi {email}.",
+    "idle": "Halaman ini perlu dibuka daripada pautan dalam e-mel permintaan supaya token pengesahan disertakan.",
+    "verifying": "Mengesahkan…",
+    "success": "Terima kasih. Persetujuan ibu bapa telah disahkan dan kami telah membuka kunci akaun di pihak pengguna. Mereka juga akan menerima pemberitahuan.",
+    "errors": {
+      "tokenRequired": "Tiada token pengesahan diberikan.",
+      "tokenNotFound": "Pautan pengesahan ini tidak lagi sah.",
+      "alreadyVerified": "Pengesahan ini telah direkodkan.",
+      "requestRevoked": "Permintaan ini telah ditarik balik atau diganti dengan yang lebih baharu.",
+      "tokenExpired": "Pautan pengesahan ini telah tamat tempoh. Sila minta pengguna menghantar permintaan baharu.",
+      "invalidBody": "Permintaan pengesahan tidak betul bentuknya.",
+      "generic": "Kami tidak dapat mengesahkan pautan pengesahan ini. Sila minta pengguna menghantar permintaan baharu."
+    }
+  },
+  "unsubscribe": {
+    "title": "Berhenti melanggan",
+    "idle": "Buka halaman ini daripada pautan dalam e-mel supaya token berhenti melanggan disertakan.",
+    "verifying": "Menyimpan pilihan anda…",
+    "success": "Anda telah berhenti melanggan.",
+    "successWithCategory": "Anda telah berhenti melanggan daripada {category}.",
+    "manageAt": "Anda boleh melaraskan semua keutamaan pemberitahuan anda pada bila-bila masa di {link}.",
+    "categories": {
+      "transactionalSecurity": "makluman keselamatan",
+      "transactionalAccount": "pemberitahuan akaun",
+      "productUpdates": "kemas kini produk",
+      "recommendations": "cadangan",
+      "marketing": "e-mel pemasaran"
+    },
+    "errors": {
+      "tokenRequired": "Tiada token berhenti melanggan diberikan.",
+      "tokenNotFound": "Pautan berhenti melanggan ini tidak lagi sah.",
+      "alreadyRedeemed": "Anda telah berhenti melanggan daripada kategori ini.",
+      "tokenExpired": "Pautan berhenti melanggan ini telah tamat tempoh. Anda boleh mengurus keutamaan daripada Pusat Akaun selepas log masuk.",
+      "categoryMandatory": "Kategori ini tidak boleh dimatikan kerana ia merangkumi pemberitahuan keselamatan dan yang diperlukan akaun.",
+      "generic": "Kami tidak dapat memproses pautan berhenti melanggan ini. Sila log masuk dan laraskan keutamaan anda terus."
+    }
+  },
+  "dsarVerify": {
+    "title": "Sahkan permintaan privasi anda",
+    "description": "Sahkan bahawa anda menghantar permintaan tentang data anda ini kepada Ordnary. Jika tidak, tutup halaman ini dan maklumkan kami di {email}.",
+    "idle": "Buka halaman ini daripada pautan dalam e-mel yang kami hantar supaya pengesahan disertakan.",
+    "confirm": "Sahkan permintaan",
+    "verifying": "Mengesahkan…",
+    "success": "Terima kasih, permintaan anda telah disahkan. Kami akan menguruskannya dalam tempoh undang-undang dan menghantar e-mel apabila selesai.",
+    "errors": {
+      "tokenRequired": "Pautan ini tiada kod pengesahan.",
+      "tokenNotFound": "Pautan ini tidak lagi sah.",
+      "tokenExpired": "Pautan ini telah tamat tempoh. Hantar permintaan semula dari Pusat Akaun.",
+      "alreadyProcessed": "Permintaan ini sudah disahkan atau diuruskan.",
+      "generic": "Kami tidak dapat mengesahkan permintaan ini. Cuba lagi atau hubungi {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Anda telah log keluar. Log masuk semula dan cuba lagi.",
+    "not_authenticated": "Anda telah log keluar. Log masuk semula dan cuba lagi.",
+    "step_up_required": "Sahkan bahawa ini anda dahulu, kemudian cuba lagi.",
+    "rate_limited": "Terlalu banyak percubaan. Tunggu beberapa minit dan cuba lagi.",
+    "first_party_only": "Ini hanya tersedia dalam aplikasi Ordnary sendiri.",
+    "invalid_request": "Ada sesuatu yang tidak betul dalam permintaan ini. Muat semula halaman dan cuba lagi.",
+    "invalid_body": "Ada sesuatu yang tidak betul dalam permintaan ini. Muat semula halaman dan cuba lagi.",
+    "invalid_action": "Tindakan itu tidak tersedia di sini.",
+    "missing_fields": "Isi semua medan.",
+    "internal_error": "Sesuatu tidak kena di pihak kami. Cuba lagi sebentar nanti.",
+    "internal_server_error": "Sesuatu tidak kena di pihak kami. Cuba lagi sebentar nanti.",
+    "unavailable": "Ini tidak tersedia buat masa ini. Cuba lagi nanti.",
+    "send_failed": "Kami tidak dapat menghantar e-mel. Cuba lagi sebentar nanti.",
+    "user_not_found": "Kami tidak dapat menemui akaun ini.",
+    "invalid_email": "Masukkan alamat e-mel yang sah.",
+    "missing_address": "Masukkan alamat e-mel.",
+    "email_already_exists": "Alamat e-mel itu sudah digunakan.",
+    "email_not_found": "Alamat e-mel itu tiada dalam akaun anda.",
+    "cannot_delete_primary_email": "Anda tidak boleh mengalih keluar alamat e-mel utama anda.",
+    "failed_to_add_email": "Kami tidak dapat menambah alamat e-mel ini.",
+    "failed_to_delete_email": "Kami tidak dapat mengalih keluar alamat e-mel ini.",
+    "failed_to_send_verification_email": "Kami tidak dapat menghantar e-mel pengesahan, jadi alamat itu tidak ditambah.",
+    "no_email": "Akaun anda tiada alamat e-mel untuk dihantar.",
+    "no_primary_email": "Akaun anda tiada alamat e-mel utama.",
+    "password_mismatch": "Kata laluan baharu tidak sepadan.",
+    "password_incorrect": "Kata laluan semasa anda tidak betul.",
+    "password_too_weak": "Kata laluan baharu tidak memenuhi keperluan.",
+    "password_change_failed": "Kami tidak dapat menukar kata laluan anda.",
+    "no_password": "Akaun anda belum mempunyai kata laluan.",
+    "passkey_not_found": "Kunci laluan itu sudah tiada.",
+    "missing_passkey_id": "Pilih kunci laluan dahulu.",
+    "session_not_found": "Sesi itu sudah tiada.",
+    "missing_session_id": "Pilih sesi dahulu.",
+    "cannot_revoke_current_session": "Anda tidak boleh log keluar sesi yang sedang anda gunakan di sini.",
+    "code_required": "Masukkan kod daripada e-mel.",
+    "code_invalid": "Kod itu tidak betul.",
+    "code_expired": "Kod itu telah tamat tempoh. Minta kod baharu.",
+    "exists": "Anda sudah mempunyainya.",
+    "not_deactivated": "Akaun anda tidak dinyahaktifkan.",
+    "grace_period_expired": "Tempoh 30 hari untuk memulihkan akaun ini telah berlalu.",
+    "token_required": "Pautan ini tidak lengkap.",
+    "token_not_found": "Pautan ini tidak lagi sah.",
+    "token_expired": "Pautan ini telah tamat tempoh.",
+    "already_redeemed": "Pautan ini telah digunakan.",
+    "already_downloaded": "Muat turun ini telah digunakan.",
+    "already_verified": "Ini telah disahkan.",
+    "already_processed": "Permintaan ini telah dikendalikan.",
+    "already_extended": "Tarikh akhir permintaan ini telah dilanjutkan.",
+    "invalid_date": "Masukkan tarikh yang sah.",
+    "birthday_verification_attempt_not_found": "Kami tidak dapat menemui pengesahan identiti itu. Mulakan semula.",
+    "identity_verification_incomplete": "Pengesahan identiti belum selesai.",
+    "identity_verification_dob_mismatch": "Tarikh lahir pada dokumen pengenalan anda tidak sepadan dengan yang anda masukkan.",
+    "identity_verification_dob_unavailable": "Kami tidak dapat membaca tarikh lahir daripada dokumen pengenalan anda.",
+    "missing_attempt_id": "Pengesahan identiti tiada. Mulakan semula.",
+    "invalid_kind": "Pilih jenis permintaan ini.",
+    "invalid_applies_to": "Pilih perkara yang berkaitan dengan permintaan ini.",
+    "invalid_filed_by": "Nyatakan siapa yang memfailkan permintaan ini.",
+    "subject_email_required": "Masukkan alamat e-mel yang menjadi subjek permintaan ini.",
+    "representative_email_required": "Masukkan alamat e-mel wakil.",
+    "request_not_found": "Kami tidak dapat menemui permintaan ini.",
+    "request_already_open": "Anda sudah mempunyai permintaan terbuka jenis ini.",
+    "request_cooldown_active": "Anda baru sahaja memfailkan permintaan ini. Cuba lagi nanti.",
+    "request_closed": "Permintaan ini sudah ditutup.",
+    "request_not_open": "Permintaan ini tidak lagi terbuka.",
+    "request_not_verified": "Permintaan ini belum disahkan.",
+    "request_revoked": "Permintaan ini telah ditarik balik atau diganti.",
+    "no_download_for_kind": "Jenis permintaan ini tiada muat turun.",
+    "export_already_in_progress": "Satu eksport sedang disediakan.",
+    "export_rate_limited": "Anda baru sahaja membuat eksport. Cuba lagi nanti.",
+    "invalid_retention_days": "Pilih salah satu tempoh yang ditawarkan.",
+    "invalid_category": "Kategori pemberitahuan itu tidak wujud.",
+    "category_mandatory": "E-mel ini tidak boleh dimatikan.",
+    "review_not_found": "Kami tidak dapat menemui semakan ini.",
+    "review_already_open": "Anda sudah mempunyai semakan yang terbuka.",
+    "review_cooldown_active": "Anda baru sahaja meminta semakan. Cuba lagi nanti.",
+    "review_not_open": "Semakan ini tidak lagi terbuka.",
+    "review_not_pending": "Semakan ini tidak boleh diubah lagi.",
+    "invalid_review_type": "Pilih jenis semakan ini.",
+    "no_active_consent": "Tiada persetujuan aktif untuk ditarik balik.",
+    "not_a_minor": "Persetujuan ibu bapa tidak diperlukan untuk akaun ini.",
+    "parent_email_required": "Masukkan alamat e-mel ibu bapa atau penjaga anda.",
+    "invalid_parent_email": "Masukkan alamat e-mel yang sah untuk ibu bapa atau penjaga anda.",
+    "connection_not_found": "Aplikasi itu tidak lagi disambungkan.",
+    "client_not_found": "Kami tidak dapat menemui aplikasi itu.",
+    "too_large": "Fail itu terlalu besar.",
+    "unsupported_type": "Jenis fail itu tidak disokong.",
+    "no_file": "Pilih fail dahulu."
+  }
+}

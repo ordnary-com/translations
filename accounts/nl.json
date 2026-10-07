@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Accountcentrum",
+    "accountCenterSubtitle": "Beheer je gekoppelde ervaringen en accountinstellingen over Ordnary-technologieën.",
+    "learnMore": "Meer informatie",
+    "loading": "Bezig met laden...",
+    "back": "Terug",
+    "close": "Sluiten",
+    "backToHome": "Terug naar startpagina"
+  },
+  "nav": {
+    "profiles": "Profielen",
+    "connectedExperiences": "Verbonden ervaringen",
+    "passwordAndSecurity": "Wachtwoord en beveiliging",
+    "personalDetails": "Persoonlijke gegevens en instellingen",
+    "education": "Onderwijs",
+    "permissions": "Je gegevens en toestemmingen",
+    "adPreferences": "Advertentievoorkeuren",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Abonnementen",
+    "accounts": "Accounts",
+    "activity": "Activiteit"
+  },
+  "education": {
+    "title": "Onderwijs",
+    "description": "Bevestig met je schoolmail dat je student bent, dan krijg je studentvoordelen in Ordnary-producten waar die er zijn.",
+    "statusLabel": "Studentenstatus",
+    "statuses": {
+      "none": "Niet geverifieerd",
+      "pending": "Wacht tot je de link opent",
+      "verified": "Geverifieerd",
+      "revoked": "Niet meer actief"
+    },
+    "details": {
+      "title": "Je gegevens",
+      "school": "School",
+      "email": "Schoolmail",
+      "verifiedOn": "Geverifieerd op"
+    },
+    "dialog": {
+      "title": "Studentverificatie",
+      "subtitle": "Bevestig met je schoolmail dat je student bent. We gebruiken dit adres alleen om dat te controleren en sturen er verder niets naartoe.",
+      "close": "Sluiten",
+      "verifiedTitle": "Geverifieerd",
+      "verifiedBody": "{email} bij {school}, sinds {date}.",
+      "pendingTitle": "Wacht tot je de link opent",
+      "pendingBody": "We hebben een link gestuurd naar {email}. Open die binnen 24 uur om af te ronden.",
+      "revokedTitle": "Niet meer actief",
+      "revokedBody": "Je studentenstatus is afgelopen. Bevestig opnieuw met je schoolmail.",
+      "changeEmail": "Andere schoolmail gebruiken",
+      "resend": "Opnieuw sturen",
+      "cancel": "Annuleren",
+      "emailLabel": "Schoolmail",
+      "detected": "{school}",
+      "notRecognised": "We herkennen dit niet als schoolmail. Gebruik het adres dat je van je school hebt gekregen.",
+      "send": "Link versturen",
+      "sending": "Versturen…",
+      "sent": "Link verstuurd naar {email}.",
+      "sentWhileVerified": "We hebben een link gestuurd naar {email}. Je blijft geverifieerd bij je huidige school tot je die opent.",
+      "points": [
+        {
+          "title": "Vul je schoolmail in",
+          "text": "We laten zien bij welke school het adres hoort."
+        },
+        {
+          "title": "Open de link",
+          "text": "We sturen een link naar dat adres. Die werkt 24 uur."
+        },
+        {
+          "title": "Je bent geverifieerd",
+          "text": "Je studentenstatus is actief in Ordnary-producten met studentvoordelen."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Je studentenstatus is nu actief.",
+      "verificationError": "Deze link werkt niet meer. Vraag een nieuwe aan."
+    },
+    "errors": {
+      "not_academic": "We herkennen dit niet als schoolmail. Gebruik het adres dat je van je school hebt gekregen.",
+      "account": "Er ging iets mis met je account. Probeer het later opnieuw.",
+      "send_failed": "We konden de link nu niet versturen. Probeer het later opnieuw.",
+      "no_pending": "Er is geen verzoek om opnieuw te sturen. Vul je schoolmail in.",
+      "not_authenticated": "Log opnieuw in om verder te gaan."
+    }
+  },
+  "profiles": {
+    "title": "Profielen",
+    "description": "Beheer je gekoppelde ervaringen en accountinstellingen over Ordnary-technologieën.",
+    "addAccounts": "Accounts toevoegen",
+    "detail": {
+      "aboutTitle": "Over dit profiel",
+      "accessTitle": "Waar {app} bij kan",
+      "linksTitle": "Beleid van {app}",
+      "mainProfile": "Hoofdprofiel",
+      "connected": "Gekoppelde app",
+      "verified": "Geverifieerd door Ordnary",
+      "connectedOn": "Gekoppeld op",
+      "lastUsed": "Laatst gebruikt",
+      "never": "Nog niet",
+      "activeSignIns": "Actieve inlogsessies",
+      "profileId": "Profiel-ID",
+      "email": "E-mailadres",
+      "memberSince": "Lid sinds",
+      "twoFactor": "Tweestapsverificatie",
+      "on": "Aan",
+      "off": "Uit",
+      "passkeys": "Passkeys",
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "disconnect": "Loskoppelen",
+      "disconnectTitle": "{app} loskoppelen?",
+      "disconnectText": "{app} kan je Ordnary-account dan niet meer gebruiken en je wordt er uitgelogd. Je kunt later opnieuw koppelen door weer bij {app} in te loggen.",
+      "disconnecting": "Loskoppelen...",
+      "cancel": "Annuleren",
+      "copied": "Gekopieerd",
+      "copy": "Kopiëren",
+      "scopes": {
+        "openid": "Je herkennen aan je Ordnary-account",
+        "profile": "Je naam en profielfoto",
+        "email": "Je e-mailadres",
+        "offline_access": "Je ingelogd houden als je hem niet gebruikt",
+        "phone": "Je telefoonnummer",
+        "address": "Je adres"
+      },
+      "change": "Wijzigen",
+      "setUp": "Instellen",
+      "manage": "Beheren",
+      "add": "Toevoegen",
+      "none": "Nog geen"
+    },
+    "revokedSuccess": "Connectie verbroken",
+    "revokedError": "Kon connectie niet verbreken. Probeer het opnieuw."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Maak een nieuw Ordnary-account aan?",
+      "registrationName": "Wat is je naam?",
+      "registrationBirthday": "Wanneer ben je jarig?",
+      "registrationPassword": "Maak een wachtwoord aan",
+      "saveLoginInfo": "Logingegevens opslaan?",
+      "registrationReview": "Voltooi het aanmaken van je account",
+      "verifyEmailCode": "Voer bevestigingscode in",
+      "editEmail": "Wat is je e-mailadres?",
+      "loginCodeEntry": "Controleer je e-mail",
+      "recoveryCodeEntry": "Bevestig je account",
+      "resetPassword": "Maak een nieuw wachtwoord aan",
+      "passwordEntry": "Voer je wachtwoord in",
+      "identifierLookup": "Wat is je e-mail?",
+      "signIn": "Inloggen",
+      "mfaCodeEntry": "Voer je verificatiecode in"
+    },
+    "descriptions": {
+      "identifierLookup": "Voer je e-mail in om in te loggen op een Ordnary-account of om een nieuw account te maken.",
+      "passwordEntry": "Om in te loggen, voer je het wachtwoord in dat hoort bij {identifier}.",
+      "accountNotFound": "We kunnen geen Ordnary-account vinden voor {email}. Misschien heb je nog geen account aangemaakt. Als je er wel een hebt, kan deze een ander identificatiemiddel gebruiken.",
+      "registrationName": "Deze naam wordt gebruikt voor accountherstel en communicatie over je account. Het is niet zichtbaar voor het publiek.",
+      "registrationBirthday": "Gebruik je eigen geboortedatum, zelfs als dit account voor een bedrijf of iets anders is. Deze informatie wordt niet openbaar.",
+      "registrationPassword": "Maak een wachtwoord dat anderen niet kunnen raden.",
+      "saveLoginInfo": "We slaan de logingegevens voor je account op, zodat je deze niet opnieuw hoeft in te voeren de volgende keer dat je inlogt.",
+      "verifyEmailCode": "Voer de 6-cijferige code in die naar {identifier} is verzonden om je account te bevestigen.",
+      "editEmail": "Voer het e-mailadres in waarop je bereikbaar bent. Dit e-mailadres wordt gebruikt voor login en accountbeheer en is niet zichtbaar voor het publiek.",
+      "loginCodeEntry": "Om in te loggen, voer je de code in die we naar {identifier} hebben gestuurd. Je moet mogelijk je spam- of sociale mailmap controleren.",
+      "recoveryCodeEntry": "We hebben een code naar {identifier} gestuurd. Voer die code in om je account te bevestigen.",
+      "resetPassword": "Je gebruikt dit wachtwoord om in te loggen op je Ordnary-account. Gebruik minimaal 6 letters en cijfers.",
+      "mfaCodeEntry": "Voer de 6-cijferige code uit je verificatieapp in om verder te gaan."
+    },
+    "buttons": {
+      "createNewAccount": "Maak nieuw account aan",
+      "alreadyHaveAccount": "Ik heb al een account",
+      "next": "Volgende",
+      "save": "Opslaan",
+      "notNow": "Niet nu",
+      "finish": "Voltooien",
+      "resendCode": "Code opnieuw verzenden",
+      "enterPassword": "Voer wachtwoord in",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "switchAccount": "Wissel account",
+      "yes": "Ja",
+      "no": "Nee",
+      "useEmailCode": "Inloggen met e-mailcode",
+      "signInWithPasskey": "Inloggen met een passkey",
+      "useRecoveryCode": "Een herstelcode gebruiken",
+      "useAuthenticatorCode": "Je authenticator-app gebruiken"
+    },
+    "labels": {
+      "name": "Naam",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "day": "Dag",
+      "month": "Maand",
+      "year": "Jaar",
+      "dateOfBirth": "Geboortedatum",
+      "confirmationCode": "Bevestigingscode",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "newPassword": "Nieuw wachtwoord",
+      "logoutOthers": "Log overal anders uit om ervoor te zorgen dat niemand anders nog toegang tot je account heeft",
+      "marketingEmails": "Ik wil e-mails ontvangen over apps, aanbevelingen en aanbiedingen voor Ordnary Identity.",
+      "showPassword": "Wachtwoord tonen",
+      "hidePassword": "Wachtwoord verbergen",
+      "clearInput": "Invoer wissen",
+      "recoveryCode": "Herstelcode"
+    },
+    "links": {
+      "whyNeedBirthday": "Waarom moet ik mijn geboortedatum opgeven?",
+      "learnMore": "Meer informatie",
+      "editEmail": "E-mailadres bewerken",
+      "noAccessEmail": "Heb je geen toegang meer tot dit e-mailadres?",
+      "termsOfService": "Servicevoorwaarden",
+      "privacyPolicy": "Privacybeleid",
+      "cookiePolicy": "Cookiebeleid"
+    },
+    "messages": {
+      "nameHelp": "Als je je echte naam gebruikt, wordt het gemakkelijker om je account te herstellen als je de toegang verliest.",
+      "emailHelp": "Gebruik je zakelijke of persoonlijke e-mail om toegang te krijgen tot je Ordnary-services.",
+      "existingSessionTitle": "Je hebt al een actieve sessie",
+      "existingSessionDescription": "Je bent al ingelogd. We sturen je over {seconds} seconden door naar het Accountcentrum.",
+      "summaryPrivacy": "De accountgegevens van je Ordnary-account zijn niet openbaar.",
+      "verifyEmailLookFor": "Let op een e-mail van notification@ordnary.com. Je moet mogelijk je spam- of sociale mappen controleren.",
+      "termsAgreement": "Door op \"Voltooien\" te klikken, ga je akkoord met onze Servicevoorwaarden, Privacybeleid en dat je ons Cookiebeleid hebt gelezen.",
+      "footerAgreement": "Door door te gaan, erken je dat je onze Servicevoorwaarden, Privacybeleid en toepasselijke richtlijnen voor gegevensverwerking hebt gelezen en ermee akkoord gaat. Je gaat er ook mee akkoord dat je essentiële account- en beveiligingsmeldingen ontvangt met betrekking tot je gebruik van het platform.",
+      "emailMissing": "E-mailadres is verplicht.",
+      "resendCodeError": "Er is een onverwachte fout opgetreden bij het opnieuw verzenden van de code.",
+      "invalidInput": "Ongeldige invoer.",
+      "credentialsPrompt": "Om in te loggen, voer je het wachtwoord in dat hoort bij {identifier}.",
+      "checkEmailPrompt": "Om in te loggen, voer je de code in die we naar {identifier} hebben gestuurd.",
+      "termsIntro": "Door op Voltooien te tikken, ga je akkoord met onze"
+    },
+    "validation": {
+      "emailRequired": "E-mailadres is verplicht.",
+      "passwordRequired": "Wachtwoord is verplicht.",
+      "passwordMin": "Wachtwoord moet minimaal 12 tekens lang zijn.",
+      "passwordMax": "Wachtwoord mag niet langer zijn dan 128 tekens.",
+      "emailInvalid": "Voer een geldig e-mailadres in.",
+      "displayNameMin": "Weergavenaam moet minimaal 2 tekens lang zijn.",
+      "resetTokenRequired": "Resettoken is verplicht.",
+      "verificationTokenRequired": "Verificatietoken is verplicht."
+    },
+    "errors": {
+      "invalidInput": "Ongeldige invoer.",
+      "genericLoginFailed": "Inloggen is mislukt. Probeer het opnieuw.",
+      "loginInvalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
+      "accountLocked": "Je account is vergrendeld of opgeschort.",
+      "passwordIncorrect": "Het ingevoerde wachtwoord is onjuist.",
+      "notAuthenticated": "Je bent niet geauthenticeerd.",
+      "registrationMissingInfo": "Verplichte registratiegegevens ontbreken.",
+      "registrationEmailExists": "Er bestaat al een account met dit e-mailadres.",
+      "systemNoDefaultTenant": "Systeemfout: geen standaard-tenant gevonden.",
+      "registrationFailed": "Registratie is mislukt. Probeer het opnieuw.",
+      "invalidVerificationRequest": "Ongeldig verificatieverzoek.",
+      "accountNotFound": "Account niet gevonden.",
+      "verificationCodeInvalidOrExpired": "Ongeldige of verlopen verificatiecode.",
+      "verificationFailedTryAgain": "Verificatie mislukt. Probeer het opnieuw.",
+      "invalidRequest": "Ongeldig verzoek.",
+      "userNotFound": "Gebruiker niet gevonden.",
+      "codeInvalidOrExpired": "Ongeldige of verlopen code.",
+      "verificationFailed": "Verificatie mislukt.",
+      "missingInformation": "Informatie ontbreekt.",
+      "passwordResetFailed": "Wachtwoord resetten is mislukt.",
+      "emailMissing": "E-mailadres ontbreekt.",
+      "resendCodeFailed": "Opnieuw verzenden van de code is mislukt. Probeer het opnieuw.",
+      "loginRequestFailed": "We konden je inlogverzoek niet verwerken. Probeer het opnieuw.",
+      "mfaDataMissing": "Verificatiegegevens ontbreken. Log opnieuw in.",
+      "mfaNoAuthenticator": "Er is geen actieve verificatieapp gevonden voor dit account.",
+      "mfaCodeInvalid": "Ongeldige verificatiecode.",
+      "mfaVerificationFailed": "Verificatie mislukt. Log opnieuw in.",
+      "requestRejected": "We konden dit verzoek niet verwerken. Probeer het opnieuw.",
+      "tooManyAttempts": "Te veel pogingen. Probeer het later opnieuw.",
+      "tooManyFailedLogins": "Te veel mislukte inlogpogingen. Wacht even en probeer het dan opnieuw.",
+      "permanentEmailRequired": "Gebruik een vast e-mailadres.",
+      "recoveryFileInvalid": "Dit herstelbestand werkt niet. Misschien is het vervangen door een nieuwer bestand of verwijderd.",
+      "passkeyFailed": "Inloggen met een passkey is niet gelukt. Probeer het opnieuw of ga verder met je e-mailadres.",
+      "passwordTooWeak": "Kies een wachtwoord dat aan alle eisen hieronder voldoet."
+    },
+    "months": [
+      "januari",
+      "februari",
+      "maart",
+      "april",
+      "mei",
+      "juni",
+      "juli",
+      "augustus",
+      "september",
+      "oktober",
+      "november",
+      "december"
+    ],
+    "recoveryFile": {
+      "link": "Inloggen met een herstelbestand",
+      "title": "Inloggen met een herstelbestand",
+      "description": "Upload het herstelbestand dat je voor dit account in het Accountcentrum hebt gedownload. Je bent dan meteen ingelogd.",
+      "choose": "Bestand kiezen",
+      "reading": "Inloggen…",
+      "pasteInstead": "Code plakken",
+      "codeLabel": "Code uit het bestand",
+      "signIn": "Inloggen",
+      "notAFile": "Dit is geen Ordnary-herstelbestand. Kies de pdf die je in het Accountcentrum hebt gedownload.",
+      "back": "Toch de code uit je e-mail gebruiken"
+    },
+    "passwordRules": {
+      "length": "Minstens 12 tekens",
+      "upper": "Een hoofdletter",
+      "lower": "Een kleine letter",
+      "digit": "Een cijfer"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Accountinstellingen",
+      "appearanceLabel": "Weergave",
+      "appearanceLight": "Licht",
+      "appearanceSystem": "Volg systeem",
+      "appearanceDark": "Donker",
+      "logout": "Uitloggen",
+      "sessionExpired": "Je sessie is verlopen. Log opnieuw in om verder te gaan.",
+      "logoutConfirmTitle": "Afmelden bij Ordnary?",
+      "logoutCancel": "Annuleren",
+      "logoutConfirm": "Afmelden",
+      "language": "Taal"
+    },
+    "reactivate": {
+      "title": "Welkom terug, je account is gedeactiveerd",
+      "description": "We hebben e-mails en meldingen gepauzeerd toen je je account deactiveerde. Activeer opnieuw om alles terug te brengen, of meld je af en beslis later. Je gegevens staan er nog.",
+      "reactivate": "Account opnieuw activeren",
+      "reactivating": "Bezig met activeren...",
+      "signOut": "Uitloggen",
+      "signingOut": "Bezig met uitloggen...",
+      "footer": "Wil je je account liever definitief verwijderen? Log in en kies Account verwijderen onder Persoonlijke gegevens.",
+      "successNotification": "Welkom terug. Je account is weer actief.",
+      "errorGeneric": "We konden je account niet activeren. Probeer het zo opnieuw.",
+      "deletedTitle": "Je account wordt verwijderd",
+      "deletedDescription": "Het wordt op {date} definitief verwijderd. Herstel het om alles te behouden en verder te gaan, of meld je af en laat de verwijdering doorgaan.",
+      "restore": "Mijn account herstellen",
+      "restoring": "Herstellen..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Profielfoto",
+        "custom": "Je eigen foto",
+        "default": "Gegenereerde avatar",
+        "modalTitle": "Profielfoto",
+        "subtitle": "Wordt bij je naam getoond in Ordnary-apps en de community. Zonder eigen foto krijg je een avatar die uniek is voor je account.",
+        "choose": "Foto kiezen",
+        "change": "Andere kiezen",
+        "remove": "Foto verwijderen",
+        "save": "Foto opslaan",
+        "saving": "Opslaan...",
+        "hint": "JPG, PNG of WebP. Je foto wordt vierkant bijgesneden.",
+        "errorType": "Dat bestand is geen afbeelding die we kunnen gebruiken. Kies een JPG, PNG of WebP.",
+        "errorFailed": "We konden je foto niet opslaan. Probeer het opnieuw."
+      },
+      "title": "Persoonlijke gegevens en instellingen",
+      "description": "Ordnary gebruikt deze gegevens om je identiteit te verifiëren en de community veilig te houden. Jij bepaalt welke persoonlijke gegevens je zichtbaar maakt voor anderen.",
+      "contactDetails": "Contactgegevens",
+      "birthday": "Geboortedatum",
+      "ownership": "Eigendom en beheer van account",
+      "ownershipDescription": "Beheer je gegevens, pas je contactpersoon voor accounts met herdenkingsstatus aan, en deactiveer of verwijder je accounts en profielen.",
+      "loadingName": "Gebruiker",
+      "modal": {
+        "title": "Eigendom en beheer van account",
+        "deactivationIndexTitle": "Deactivering of verwijdering",
+        "deactivationIndexDescription": "Je accounts en profielen tijdelijk deactiveren of permanent verwijderen.",
+        "optionsTitle": "Je Ordnary-account deactiveren of verwijderen",
+        "optionsDescription": "Even pauze nodig? Deactiveer je account en kom terug wanneer je wilt. Wil je weg bij Ordnary? Verwijder dan je account.",
+        "deactivateTitle": "Account deactiveren",
+        "deactivateDescription": "Het deactiveren van je account is tijdelijk. Je account wordt gedeactiveerd en verborgen voor anderen.",
+        "deleteTitle": "Account verwijderen",
+        "deleteDescription": "Het verwijderen van je account is definitief. Na 30 dagen kun je het niet meer activeren en je gegevens niet meer terughalen.",
+        "deactivateConfirmTitle": "Je account deactiveren?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Je wordt overal afgemeld",
+            "text": "Op al je apparaten en in elke app die je met je Ordnary-account gebruikt."
+          },
+          {
+            "title": "Je profiel wordt verborgen",
+            "text": "Anderen zien je naam en profiel niet zolang je account gedeactiveerd is."
+          },
+          {
+            "title": "Kom terug wanneer je wilt",
+            "text": "Meld je opnieuw aan om je account weer te activeren. Alles staat dan nog zoals je het achterliet."
+          }
+        ],
+        "deactivateConfirmButton": "Account deactiveren",
+        "deleteConfirmTitle": "Je account verwijderen?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Je wordt overal afgemeld",
+            "text": "Op al je apparaten en in elke app die je met je Ordnary-account gebruikt."
+          },
+          {
+            "title": "Je verliest de toegang",
+            "text": "Tot Ordnary en elke app waarbij je je aanmeldt met je Ordnary-account."
+          },
+          {
+            "title": "Na 30 dagen definitief weg",
+            "text": "Tot die tijd kun je nog van gedachten veranderen. Daarna zijn je account en gegevens niet meer terug te halen."
+          }
+        ],
+        "deleteConfirmCheck": "Ik begrijp dat mijn account en gegevens na 30 dagen definitief worden verwijderd.",
+        "deleteConfirmButton": "Account verwijderen",
+        "cancel": "Annuleren",
+        "continue": "Doorgaan",
+        "working": "Bezig...",
+        "deactivateSuccess": "Je account is gedeactiveerd. Je wordt doorgestuurd naar aanmelden...",
+        "deleteSuccess": "Je account is verwijderd. Je wordt doorgestuurd naar aanmelden...",
+        "submitError": "We konden je account nu niet bijwerken."
+      },
+      "missingBirthday": "Niet ingesteld",
+      "loadError": "Persoonlijke gegevens laden mislukt.",
+      "preferences": {
+        "sectionTitle": "Voorkeuren",
+        "appearance": "Weergave",
+        "appearanceDescription": "Pas het thema van je Ordnary-account aan.",
+        "cookies": "Cookie-voorkeuren",
+        "cookiesDescription": "Beheer welke cookies Ordnary in deze browser mag gebruiken.",
+        "processors": {
+          "title": "Wie je gegevens verwerkt",
+          "intro": "We gebruiken een paar andere bedrijven om Ordnary te laten werken. Dit zijn ze allemaal: wat ze van ons krijgen, waar ze het bewaren en hoe het beschermd is als het de EU verlaat.",
+          "empty": "Geen andere bedrijven ontvangen je gegevens.",
+          "loadError": "Dit kon nu niet worden geladen. Probeer het later opnieuw.",
+          "loading": "Laden…",
+          "close": "Sluiten",
+          "back": "Terug",
+          "fields": {
+            "purpose": "Wat ze doen",
+            "receives": "Wat ze ontvangen",
+            "whose": "Van wie",
+            "stored": "Waar het bewaard wordt",
+            "transfer": "Buiten de EU"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Blijft binnen de Europese Economische Ruimte.",
+            "ADEQUACY_DECISION": "Toegestaan omdat de EU de gegevensbescherming in {country} als passend erkent.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Beschermd met de standaardcontractbepalingen van de EU.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Gecertificeerd onder het EU-VS Data Privacy Framework.",
+            "sccBackup": "De standaardcontractbepalingen van de EU gelden als extra waarborg."
+          },
+          "links": {
+            "dpa": "Verwerkersovereenkomst",
+            "privacy": "Privacybeleid",
+            "website": "Website",
+            "certification": "Certificering"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Controleert je identiteitsbewijs als je je geboortedatum wijzigt.",
+              "receives": [
+                "Naam",
+                "Geboortedatum",
+                "Foto van je identiteitsbewijs",
+                "Selfie",
+                "IP-adres"
+              ],
+              "whose": "Alleen mensen die een nieuwe geboortedatum laten controleren."
+            },
+            "resend": {
+              "purpose": "Verstuurt onze e-mail: inlogcodes, beveiligingsmeldingen en accountberichten.",
+              "receives": [
+                "E-mailadres",
+                "Weergavenaam",
+                "De inhoud van de e-mail, zoals inlogcodes, links en het IP-adres in beveiligingsmeldingen"
+              ],
+              "whose": "Iedereen die e-mail van Ordnary krijgt."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Privacyverzoeken",
+          "description": "Maak bezwaar of vraag een tijdelijke beperking van een verwerking aan (Art. 18 / Art. 21).",
+          "back": "Terug",
+          "close": "Sluiten",
+          "loading": "Laden…",
+          "loadError": "Privacyverzoeken laden is mislukt.",
+          "alreadyOpen": "Je hebt al een lopend verzoek met deze reikwijdte.",
+          "cooldown": "Je kunt hetzelfde verzoek over {hours} uur opnieuw indienen.",
+          "submitted": "Je verzoek is ontvangen.",
+          "withdrawn": "Verzoek ingetrokken.",
+          "fileNew": "Nieuw verzoek indienen",
+          "pickKind": "Wat wil je doen?",
+          "kinds": {
+            "OBJECTION": "Bezwaar tegen een verwerking (Art. 21)",
+            "RESTRICTION": "Verwerking tijdelijk beperken (Art. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Stop een specifieke verwerking voortaan, op basis van jouw bijzondere situatie.",
+            "RESTRICTION": "Pauzeer een specifieke verwerking terwijl er een geschil over je gegevens loopt."
+          },
+          "pickActivities": "Op welke verwerkingen is dit van toepassing?",
+          "activitiesHint": "Kies geen activiteiten om het op al onze verwerkingen toe te passen (algemene hold).",
+          "globalScope": "Alle verwerkingen (algemene hold)",
+          "yourStatement": "Jouw uitleg (aanbevolen)",
+          "statementPlaceholder": "Vertel ons waarom, bijvoorbeeld dat je niet wil dat we automatische risico-scoring toepassen terwijl een beveiligingsincident wordt onderzocht.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Verzoek indienen",
+          "submitting": "Bezig met indienen…",
+          "withdraw": "Intrekken",
+          "withdrawing": "Bezig met intrekken…",
+          "openTitle": "Openstaande verzoeken",
+          "emptyOpen": "Geen openstaande verzoeken.",
+          "historyTitle": "Eerdere verzoeken",
+          "historyEmpty": "Geen eerdere verzoeken.",
+          "holdsTitle": "Actieve holds",
+          "holdsEmpty": "Geen actieve holds.",
+          "appliesTo": "Geldt voor",
+          "effectiveUntil": "Geldig tot",
+          "statuses": {
+            "PENDING": "In behandeling",
+            "IN_REVIEW": "Wordt beoordeeld",
+            "RESOLVED": "Afgehandeld",
+            "WITHDRAWN": "Ingetrokken"
+          },
+          "outcomes": {
+            "GRANTED": "Toegekend",
+            "PARTIALLY_GRANTED": "Gedeeltelijk toegekend",
+            "REJECTED": "Afgewezen",
+            "ESCALATED": "Geëscaleerd"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Accountidentiteit & authenticatie",
+            "session-and-device-management": "Sessies & apparaten",
+            "oauth-issuance": "OAuth / OIDC-uitgifte",
+            "identity-verification": "Identiteitsverificatie (Stripe Identity)",
+            "payment-processing": "Betalingsverwerking",
+            "audit-logs-and-security-events": "Auditlogs & beveiligingsgebeurtenissen",
+            "risk-scoring": "Geautomatiseerde risico-scoring",
+            "consent-log": "Toestemmingslog",
+            "account-deletion": "Accountverwijdering",
+            "risk-review-queue": "Risk-review wachtrij"
+          },
+          "title": "Bezwaar of beperking"
+        },
+        "dsar": {
+          "label": "Privacy- en dataverzoeken",
+          "description": "Dien een formeel verzoek in om je gegevens in te zien, te corrigeren, te laten verwijderen of over te dragen (AVG art. 15-20).",
+          "title": "Privacy- en dataverzoeken",
+          "back": "Terug",
+          "close": "Sluiten",
+          "loading": "Laden…",
+          "loadError": "Verzoeken laden is mislukt.",
+          "submitted": "We hebben je verzoek ontvangen.",
+          "fastPathReady": "Je gegevens worden nu gedownload.",
+          "fastPathHint": "Wil je gewoon snel een kopie van je gegevens? Gebruik de knop \"Je gegevens exporteren\" bovenaan. Die downloadt direct zonder de formele wachtrij. Dien hier een verzoek in als je een menselijke beoordelaar wilt, voor iemand anders indient, of rectificatie of wissing wilt.",
+          "withdrawn": "Verzoek ingetrokken.",
+          "fileNew": "Nieuw verzoek indienen",
+          "pickKind": "Wat wil je doen?",
+          "kinds": {
+            "ACCESS": "Inzage (Art. 15)",
+            "RECTIFICATION": "Rectificatie (Art. 16)",
+            "ERASURE": "Wissing (Art. 17)",
+            "PORTABILITY": "Overdraagbaarheid (Art. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Ontvang een machine-leesbare kopie van de gegevens die wij over je hebben.",
+            "RECTIFICATION": "Corrigeer onjuiste of verouderde gegevens.",
+            "ERASURE": "Laat ons je account en bijbehorende gegevens verwijderen.",
+            "PORTABILITY": "Ontvang je gegevens in een gestructureerd formaat."
+          },
+          "filedBy": "Wie dient dit verzoek in?",
+          "filedByOptions": {
+            "SELF": "Ik dien dit voor mezelf in",
+            "PARENT_GUARDIAN": "Ik ben ouder of voogd en dien in voor een minderjarige",
+            "AUTHORISED_AGENT": "Ik ben gemachtigd (bijv. een advocaat) en dien in namens iemand anders"
+          },
+          "representativeBlock": {
+            "title": "Vertegenwoordigingsinformatie",
+            "emailLabel": "Jouw e-mailadres",
+            "notesLabel": "Relatie en bevoegdheid",
+            "notesHint": "Beschrijf kort je relatie tot de betrokkene en verwijs naar eventuele volmacht of voogdijdocumenten."
+          },
+          "subjectEmailLabel": "E-mailadres betrokkene",
+          "subjectEmailHint": "We sturen de verificatielink en het antwoord naar dit adres. Bij verzoeken namens een ander moet dit het eigen e-mailadres van de betrokkene zijn.",
+          "yourStatement": "Jouw uitleg (aanbevolen)",
+          "statementPlaceholder": "Wat wil je precies? Geef context die ons helpt het verzoek af te bakenen.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Verzoek indienen",
+          "submitting": "Bezig met indienen…",
+          "withdraw": "Intrekken",
+          "withdrawing": "Bezig met intrekken…",
+          "openTitle": "Openstaande verzoeken",
+          "emptyOpen": "Geen openstaande verzoeken.",
+          "historyTitle": "Eerdere verzoeken",
+          "historyEmpty": "Geen eerdere verzoeken.",
+          "due": "Deadline",
+          "extended": "Verlengd tot",
+          "awaitingVerification": "Wacht op e-mail­verificatie",
+          "statuses": {
+            "SUBMITTED": "Wacht op verificatie",
+            "VERIFIED": "Geverifieerd",
+            "IN_PROGRESS": "In behandeling",
+            "FULFILLED": "Afgehandeld",
+            "REJECTED": "Afgewezen",
+            "WITHDRAWN": "Ingetrokken"
+          },
+          "outcomes": {
+            "FULFILLED": "Afgehandeld",
+            "PARTIALLY_FULFILLED": "Gedeeltelijk afgehandeld",
+            "REJECTED": "Afgewezen"
+          },
+          "overdue": "Te laat"
+        },
+        "modalTitle": "Weergave",
+        "modalSubtitle": "Kies hoe het Account Center eruitziet. We onthouden je voorkeur op dit apparaat.",
+        "options": {
+          "lightLabel": "Licht",
+          "lightDescription": "Altijd een lichte achtergrond, ongeacht je systeeminstelling.",
+          "systemLabel": "Volg systeem",
+          "systemDescription": "Wisselt mee met de instelling van je apparaat.",
+          "darkLabel": "Donker",
+          "darkDescription": "Altijd een donkere achtergrond, fijn voor de avond."
+        },
+        "done": "Klaar"
+      },
+      "displayNameSection": {
+        "label": "Volledige naam",
+        "subtitle": "Je volledige naam wordt gebruikt op je accounts en profielen.",
+        "editButton": "Bewerken",
+        "modalTitle": "Volledige naam",
+        "editTitle": "Volledige naam wijzigen",
+        "modalSubtitle": "Voor het wijzigen van je volledige naam kun je terecht bij {email}.",
+        "currentLabel": "Huidige naam",
+        "supportNotice": "Voor het wijzigen van je volledige naam kun je terecht bij {email}.",
+        "copyEmail": "E-mailadres kopiëren",
+        "openEmail": "Open e-mail",
+        "mailSubject": "Verzoek tot wijziging volledige naam",
+        "mailBody": "Hallo,\n\nIk wil mijn volledige naam laten wijzigen.\n\nHuidige naam: {name}\nNieuwe naam: \n\nMet vriendelijke groet,\n{name}"
+      },
+      "loading": "Laden...",
+      "contact": {
+        "subtitle": "Beheer je e-mailadressen en wie je contactgegevens kan zien. Gebruik ze voor toegang tot de profielen en apparaten in dit Accountcentrum.",
+        "addNew": "Nieuw contact toevoegen",
+        "detailsDescription": "Je hebt dit e-mailadres toegevoegd aan deze accounts.",
+        "whoCanSee": "Wie kan je e-mailadres zien?",
+        "deleting": "Bezig met verwijderen...",
+        "delete": "E-mailadres verwijderen",
+        "deleteFailed": "Verwijderen mislukt",
+        "deleted": "E-mailadres verwijderd",
+        "addTitle": "Een e-mailadres toevoegen",
+        "addSubtitle": "We gebruiken dit e-mailadres voor al je accounts in het Accountcentrum om ervaringen te personaliseren.",
+        "learnMore": "Meer informatie",
+        "emailLabel": "E-mailadres",
+        "chooseAccounts": "Accounts kiezen voor dit e-mailadres",
+        "added": "E-mailadres succesvol toegevoegd",
+        "addFailed": "Er is iets misgegaan",
+        "next": "Volgende"
+      },
+      "birthdayModal": {
+        "subtitle": "Geef je geboortedatum op om te zorgen dat de ervaring aansluit op je leeftijd.",
+        "edit": "Bewerken",
+        "editTitle": "Je geboortedatum bewerken",
+        "editSubtitle": "Deze geboortedatum wordt gebruikt voor de accounts en profielen in dit Accountcentrum. Wijzigingen die je aanbrengt, worden op alle accounts en profielen toegepast.",
+        "day": "Dag",
+        "month": "Maand",
+        "year": "Jaar",
+        "verificationNotice": "Om je geboortedatum te wijzigen moet je je identiteit verifiëren met een geldig identiteitsdocument via onze partner Stripe Identity. Na het opslaan word je doorgestuurd naar de verificatieflow.",
+        "save": "Opslaan",
+        "saveFailed": "Er is iets misgegaan",
+        "verificationStartFailed": "Identiteitsverificatie kon niet worden gestart",
+        "completeFailed": "Verificatie afronden mislukt",
+        "updated": "Geboortedatum succesvol bijgewerkt na identiteitsverificatie",
+        "dobMismatch": "De geboortedatum op het identiteitsdocument komt niet overeen met wat je hebt ingevuld",
+        "dobUnavailable": "Stripe kon geen verifieerbare geboortedatum uit het identiteitsdocument halen",
+        "notFinished": "Identiteitsverificatie is nog niet afgerond"
+      }
+    },
+    "security": {
+      "title": "Wachtwoord en beveiliging",
+      "loadingName": "Gebruiker",
+      "pageLoadError": "Kan beveiligingsinstellingen niet laden.",
+      "sections": {
+        "signIn": {
+          "title": "Aanmelden en herstel",
+          "description": "Beheer je wachtwoorden, aanmeldvoorkeuren en herstelmethoden."
+        },
+        "controls": {
+          "title": "Beveiligingscontroles",
+          "description": "Controleer beveiligingsproblemen door apps, apparaten en verzonden e-mails na te kijken."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Wachtwoord wijzigen",
+          "loading": "Laden...",
+          "set": "Wachtwoord ingesteld",
+          "missing": "Geen wachtwoord ingesteld"
+        },
+        "twofactor": {
+          "label": "Tweestapsverificatie",
+          "loading": "Laden...",
+          "enabled": "Ingeschakeld",
+          "disabled": "Nog niet ingeschakeld"
+        },
+        "passkeys": {
+          "label": "Passkeys",
+          "loading": "Laden...",
+          "none": "Nog geen passkeys",
+          "active": "{count} actief"
+        },
+        "activity": {
+          "label": "Waar je bent aangemeld",
+          "summary": "{total} actieve sessies, {others} op andere apparaten"
+        },
+        "automated": {
+          "label": "Geautomatiseerde beslissingen",
+          "summary": "Bekijk welke geautomatiseerde regels je account beschermen en vraag een menselijke beoordeling aan."
+        }
+      },
+      "passwordModal": {
+        "title": "Wachtwoord wijzigen",
+        "subtitle": "Maak een wachtwoord met ten minste 12 tekens. Bedenk een wachtwoord dat anderen niet kunnen raden.",
+        "currentPassword": "Huidig wachtwoord",
+        "newPassword": "Nieuw wachtwoord",
+        "repeatPassword": "Herhaal nieuw wachtwoord",
+        "forgotPassword": "Wachtwoord vergeten?",
+        "logoutOthers": "Meld je af bij andere apparaten. Kies deze optie als iemand anders je account heeft gebruikt.",
+        "submit": "Wachtwoord wijzigen",
+        "pending": "Bezig...",
+        "success": "Je wachtwoord is bijgewerkt.",
+        "mismatch": "Je nieuwe wachtwoorden komen niet overeen.",
+        "submitError": "Wachtwoord wijzigen mislukt.",
+        "logoutOthersTitle": "Uitloggen op andere apparaten",
+        "logoutOthersHint": "Aanbevolen als iemand anders je account gebruikt kan hebben.",
+        "incorrect": "Je huidige wachtwoord klopt niet.",
+        "tooWeak": "Kies een wachtwoord dat aan alle eisen hieronder voldoet."
+      },
+      "twoFactor": {
+        "idleTitle": "Help je account te beschermen",
+        "idleSubtitle": "Stel tweestapsverificatie in en we vragen om een aanmeldcode wanneer iemand zich aanmeldt via een apparaat dat we niet herkennen.",
+        "manageTitle": "Tweestapsverificatie is ingeschakeld",
+        "manageSubtitle": "We vragen nu om een aanmeldcode elke keer dat je je aanmeldt op een apparaat dat we niet herkennen.",
+        "appSettingsTitle": "Verificatieapp",
+        "extraMethodsTitle": "Aanvullende methoden",
+        "extraMethodsSubtitle": "Als je andere beveiligingsmethoden niet beschikbaar zijn, kun je je nog steeds aanmelden met deze opties.",
+        "recoveryCodesTitle": "Herstelcodes",
+        "recoveryCodesSubtitle": "Je kunt elke herstelcode één keer gebruiken. Sla ze op een veilige plek op. Zonder deze codes kun je mogelijk geen toegang meer krijgen als je je telefoon of andere aanmeldmethode verliest.",
+        "setupTitle": "Configuratie-instructies",
+        "namingTitle": "Geef je apparaat een naam",
+        "namingSubtitle": "Geef je authenticator app een herkenbare naam zodat je weet welk apparaat je gebruikt.",
+        "verifyTitle": "Code invoeren",
+        "verifySubtitle": "Voer de 6-cijferige code uit je verificatieapp in om de setup te voltooien.",
+        "successTitle": "Tweestapsverificatie is ingeschakeld",
+        "successSubtitle": "We vragen nu om een aanmeldcode elke keer dat je je aanmeldt op een apparaat dat we niet herkennen. Wil je je contactgegevens wijzigen? Ga dan in Accountcentrum naar Persoonlijke gegevens.",
+        "verifiedTitle": "Back-upcodes",
+        "verifiedSubtitle": "Bewaar deze codes op een veilige plek. Je kunt ze gebruiken als je geen toegang meer hebt tot je verificatieapp.",
+        "learnMore": "Meer informatie",
+        "receiveCodesTitle": "Kies hoe je je codes wilt ontvangen",
+        "authenticatorTitle": "Verificatieapp",
+        "authenticatorDescription": "Ontvang eenmalige codes via een app, zoals Duo Mobile of Google Authenticator.",
+        "recommended": "Aanbevolen",
+        "continue": "Doorgaan",
+        "working": "Bezig...",
+        "enabledSuccess": "Tweestapsverificatie is uitgeschakeld.",
+        "disableError": "Verificatieapp uitschakelen mislukt.",
+        "startError": "Starten van verificatieapp-instelling mislukt.",
+        "verifyError": "Verificatie van verificatieapp mislukt.",
+        "regenerateError": "Nieuwe herstelcodes genereren mislukt.",
+        "downloadError": "Genereer eerst een nieuwe set herstelcodes voordat je ze downloadt.",
+        "recoveryRegenerated": "Nieuwe herstelcodes zijn gegenereerd.",
+        "manage": {
+          "receiveCodesTitle": "Aanmeldcodes ontvangen",
+          "authenticatorDescription": "Je krijgt een aanmeldcode via je verificatieapp.",
+          "additionalMethodsTitle": "Aanvullende methoden",
+          "additionalMethodsDescription": "Bekijk hoe je je veilig kunt aanmelden als andere methoden niet beschikbaar zijn."
+        },
+        "appSettings": {
+          "title": "Verificatieapp",
+          "description": "Je krijgt een aanmeldcode via je verificatieapp.",
+          "connectedDevicesTitle": "Verbonden apparaten",
+          "add": "Toevoegen",
+          "connectedDevicesDescription": "Je kunt meerdere apparaten toevoegen zodat elk gekoppeld apparaat 6-cijferige aanmeldcodes kan ontvangen van een verificatieapp op dat apparaat.",
+          "noDevices": "Nog geen verbonden apparaten",
+          "lastUsed": "Laatst gebruikt: {date}",
+          "added": "Toegevoegd: {date}",
+          "active": "Actieve verificatieapp"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Herstelcodes",
+          "recoveryCodesDescription": "Gebruik deze codes wanneer je geen toegang hebt tot je telefoon."
+        },
+        "recoveryCodes": {
+          "download": "Codes downloaden",
+          "regenerate": "Nieuwe codes ophalen",
+          "existing": "Je hebt {count} ongebruikte herstelcodes. Klik op \"Nieuwe codes ophalen\" om een nieuwe set te genereren.",
+          "empty": "Je hebt in deze sessie nog geen zichtbare herstelcodes. Klik op \"Nieuwe codes ophalen\" om een nieuwe set te genereren."
+        },
+        "setup": {
+          "step1Title": "1. Download een verificatieapp",
+          "step1Description": "We raden aan Duo Mobile of Google Authenticator te downloaden als je nog geen app hebt geïnstalleerd.",
+          "step2Title": "2. Scan deze QR-code of kopieer de sleutel",
+          "step2Description": "Scan deze QR-code in je verificatieapp of kopieer de sleutel en plak deze in de app.",
+          "copyKey": "Sleutel kopiëren",
+          "step3Title": "3. Kopieer de zescijferige code en voer deze in",
+          "step3Description": "Na het scannen van de QR-code of het invoeren van de sleutel genereert je app een 6-cijferige code. Tik hieronder op Code invoeren.",
+          "enterCode": "Code invoeren",
+          "qrAlt": "QR-code voor je verificatieapp"
+        },
+        "naming": {
+          "label": "Apparaatnaam (bijv. iPhone van Stijn)",
+          "next": "Volgende"
+        },
+        "verify": {
+          "label": "Code uit verificatieapp",
+          "submit": "Code verifiëren"
+        },
+        "success": {
+          "done": "Klaar"
+        },
+        "ui": {
+          "on": "Aan",
+          "turnOff": "Uitzetten",
+          "turnOffConfirm": "Tweestapsverificatie uitzetten? Inloggen vraagt dan alleen nog om je wachtwoord.",
+          "cancel": "Annuleren",
+          "copyKey": "Kopiëren",
+          "copied": "Gekopieerd",
+          "manualKey": "Instelsleutel",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Herstelbestand",
+          "rowDescription": "Een pdf waarmee je inlogt door hem te uploaden, zonder wachtwoord of code.",
+          "otherMethodsTitle": "Andere manieren om in te loggen",
+          "title": "Herstelbestand",
+          "subtitle": "Een pdf die je uploadt als je inlogt. Je bent dan meteen ingelogd, zonder wachtwoord of code. Handig als je je telefoon kwijt bent of je wachtwoord vergeten bent.",
+          "download": "Herstelbestand downloaden",
+          "downloading": "Je bestand wordt gemaakt…",
+          "downloaded": "Gedownload. Bewaar het bestand op een veilige plek.",
+          "made": "Gemaakt op {date}",
+          "lastUsed": "Laatst gebruikt op {date}",
+          "notUsed": "Nog niet gebruikt",
+          "remove": "Verwijderen",
+          "removeConfirm": "Je herstelbestand verwijderen? Het werkt dan meteen niet meer.",
+          "removed": "Herstelbestand verwijderd.",
+          "cancel": "Annuleren",
+          "newTitle": "Nieuw bestand nodig?",
+          "newText": "Je kunt een bestand maar één keer downloaden. Voor een nieuw bestand bevestig je met een code die we je mailen. Je huidige bestand werkt daarna niet meer.",
+          "requestCode": "Mail me een code",
+          "sending": "Versturen…",
+          "codeSent": "We hebben een code gestuurd naar {email}.",
+          "codeLabel": "Code",
+          "confirmDownload": "Bevestigen en downloaden",
+          "loadError": "Dit kon nu niet worden geladen. Probeer het later opnieuw.",
+          "errors": {
+            "code_invalid": "Die code klopt niet. Controleer de e-mail en probeer het opnieuw.",
+            "code_expired": "Deze code is verlopen. Vraag een nieuwe aan.",
+            "rate_limited": "Te veel pogingen. Probeer het later opnieuw.",
+            "send_failed": "We konden de e-mail nu niet versturen. Probeer het later opnieuw.",
+            "generic": "Er ging iets mis. Probeer het later opnieuw."
+          },
+          "points": [
+            {
+              "title": "Eén keer downloaden",
+              "text": "Je kunt het bestand alleen nu downloaden. Voor een nieuw bestand bevestig je later met een code die we je mailen."
+            },
+            {
+              "title": "Veilig bewaren",
+              "text": "Bijvoorbeeld geprint of op een versleutelde schijf. Iedereen met dit bestand kan inloggen op je account, dus mail of deel het niet."
+            },
+            {
+              "title": "Ermee inloggen",
+              "text": "Vul bij het inloggen je e-mailadres in, kies Wachtwoord vergeten?, dan Inloggen met een herstelbestand, en upload de pdf."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Passkeys",
+        "subtitle": "Passkeys zijn een veilige en gemakkelijke manier om in te loggen zonder wachtwoord. Je kunt je vingerafdruk, gezichtsherkenning of apparaatpincode gebruiken.",
+        "add": "Passkey toevoegen",
+        "empty": "Je hebt nog geen passkeys toegevoegd.",
+        "unnamed": "Naamloze passkey",
+        "addedOn": "Toegevoegd op {date}",
+        "lastUsed": "Laatst gebruikt: {date}",
+        "never": "Nooit",
+        "delete": "Verwijderen",
+        "count": "Je hebt {count} actieve passkeys.",
+        "none": "Je hebt nog geen passkeys ingesteld.",
+        "success": "Passkey succesvol geregistreerd!",
+        "error": "Passkey registratie mislukt.",
+        "pending": "Bezig met registreren...",
+        "emptyTitle": "Nog geen passkeys",
+        "emptyText": "Voeg er een toe om in te loggen met je vingerafdruk, gezicht of schermvergrendeling in plaats van je wachtwoord. Je wachtwoord blijft werken.",
+        "deleteConfirm": "Deze passkey verwijderen? Je kunt er dan niet meer mee inloggen.",
+        "cancel": "Annuleren",
+        "removing": "Verwijderen...",
+        "createTitle": "Passkey aanmaken",
+        "createSubtitle": "Met een passkey log je in met je vingerafdruk, gezicht of schermvergrendeling. Hij wordt bewaard op je apparaat of in je wachtwoordmanager en verlaat die nooit.",
+        "nameLabel": "Naam van de passkey",
+        "nameHint": "Zo kun je je passkeys uit elkaar houden, bijvoorbeeld het apparaat of de wachtwoordmanager waarin hij staat.",
+        "whatHappensTitle": "Wat er nu gebeurt",
+        "whatHappens1": "Je browser of wachtwoordmanager vraagt waar de passkey bewaard moet worden.",
+        "whatHappens2": "Bevestig met je vingerafdruk, gezicht of schermvergrendeling.",
+        "whatHappens3": "Daarna kies je de passkey gewoon bij het inloggen.",
+        "create": "Passkey aanmaken",
+        "waiting": "Volg de melding van je browser of wachtwoordmanager…",
+        "cancelled": "Er is geen passkey aangemaakt. Je kunt het opnieuw proberen.",
+        "doneTitle": "Passkey toegevoegd",
+        "doneSubtitle": "Je kunt nu inloggen met \"{name}\". Je wachtwoord blijft ook werken.",
+        "done": "Klaar",
+        "back": "Terug",
+        "removeError": "Kan de passkey niet verwijderen. Probeer het opnieuw.",
+        "defaultName": "{browser} op {system}",
+        "rowDescription": "Log in met je vingerafdruk, gezicht of pincode van je apparaat."
+      },
+      "activityModal": {
+        "title": "Aanmeldactiviteit van account",
+        "subtitle": "Waar je account nu is ingelogd. Log uit op elk apparaat dat je niet herkent.",
+        "unknownDevice": "Onbekend apparaat",
+        "unknownLocation": "Onbekende locatie",
+        "currentDevice": "Dit apparaat",
+        "lastActive": "Laatst actief {date}",
+        "revoke": "Afmelden",
+        "revokePending": "Bezig...",
+        "revokeAllTitle": "Aanmeldingen op andere apparaten",
+        "revokeAll": "Meld alle andere apparaten af",
+        "revokeAllPending": "Bezig...",
+        "revokeSuccess": "De sessie is ingetrokken.",
+        "revokeAllSuccess": "Alle andere sessies zijn afgemeld.",
+        "revokeError": "Sessie intrekken mislukt.",
+        "viewMore": "+ {count} andere apparaten bekijken",
+        "activeNow": "Nu actief",
+        "thisDeviceTitle": "Dit apparaat",
+        "otherEmpty": "Je bent op geen ander apparaat ingelogd.",
+        "showAll": "Alle {count} tonen",
+        "revokeAllConfirm": "Uitloggen op alle {count} andere apparaten? Wie ze gebruikt, moet opnieuw inloggen.",
+        "cancel": "Annuleren"
+      },
+      "automatedDecisions": {
+        "title": "Geautomatiseerde beslissingen",
+        "description": "Sommige accountbeveiligingsbeslissingen worden automatisch genomen op basis van signalen zoals aanmeldpatronen en verdachte activiteit. Je kunt vragen om een persoon bij Ordnary om de uitkomst te beoordelen.",
+        "back": "Terug",
+        "close": "Sluiten",
+        "loading": "Laden…",
+        "currentStateTitle": "Huidige geautomatiseerde status",
+        "riskLabels": {
+          "LOW": "Laag risico",
+          "MEDIUM": "Gemiddeld risico",
+          "HIGH": "Hoog risico"
+        },
+        "statusLabels": {
+          "ACTIVE": "Actief",
+          "SUSPENDED": "Tijdelijk geblokkeerd",
+          "DEACTIVATED": "Gedeactiveerd",
+          "DELETED": "Wordt verwijderd"
+        },
+        "suspendedExplanation": "Je account wordt momenteel beperkt door een geautomatiseerde regel. Je kunt hieronder een menselijke beoordeling aanvragen. Een persoon bij Ordnary bekijkt dan de signalen en jouw uitleg, en bevestigt de beslissing of draait deze terug.",
+        "elevatedExplanation": "Het risiconiveau van je account is verhoogd op basis van recente activiteit. Je kunt een menselijke beoordeling aanvragen als je denkt dat de signalen niet kloppen.",
+        "okExplanation": "We hebben geen geautomatiseerde beperkingen op je account vastgesteld. Je kunt nog steeds een eerdere beslissing laten beoordelen.",
+        "lastEvaluated": "Laatst geëvalueerd",
+        "signalsTitle": "Recente beveiligingssignalen",
+        "signalsEmpty": "Er zijn recent geen beveiligingssignalen vastgelegd.",
+        "appealTitle": "Menselijke beoordeling aanvragen",
+        "appealSubtitle": "Een beoordelaar bij Ordnary bekijkt de geautomatiseerde beslissing, jouw uitleg en de onderliggende signalen. We streven ernaar om binnen redelijke tijd te reageren.",
+        "pickReason": "Wat wil je betwisten?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Ik denk dat de blokkering onterecht is",
+          "RISK_LEVEL_OBJECTION": "Ik denk dat mijn risiconiveau niet klopt",
+          "SECURITY_EVENT_OBJECTION": "Ik wil een specifiek beveiligingssignaal aanvechten",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Ik wil dat een persoon de geautomatiseerde beslissingen op mijn account beoordeelt"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Je account is op dit moment geblokkeerd en je wilt die beslissing laten beoordelen.",
+          "RISK_LEVEL_OBJECTION": "Je risiconiveau is hoger dan verwacht en je wilt het opnieuw laten beoordelen.",
+          "SECURITY_EVENT_OBJECTION": "Er is een specifiek beveiligingssignaal vastgelegd dat je niet herkent.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Je wilt dat een persoon naar de geautomatiseerde beslissingen op je account kijkt."
+        },
+        "yourStatement": "Jouw uitleg (optioneel)",
+        "statementPlaceholder": "Vertel ons wat we moeten weten, bijvoorbeeld dat je op reis was, een nieuw apparaat gebruikte of dat iemand anders heeft geprobeerd in te breken.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Beoordelingsverzoek versturen",
+        "submitting": "Bezig met versturen...",
+        "submitted": "We hebben je verzoek ontvangen en komen erop terug.",
+        "pendingTitle": "Beoordeling loopt",
+        "pendingSubtitle": "Een persoon bij Ordnary bekijkt je verzoek. Je krijgt bericht zodra er een update is.",
+        "withdraw": "Verzoek intrekken",
+        "withdrawing": "Bezig met intrekken...",
+        "withdrawn": "Verzoek ingetrokken.",
+        "withdrawableHint": "Je kunt dit verzoek op elk moment intrekken.",
+        "historyTitle": "Eerdere beoordelingsverzoeken",
+        "historyEmpty": "Geen eerdere beoordelingsverzoeken.",
+        "outcomes": {
+          "UPHELD": "Bevestigd",
+          "OVERTURNED": "Teruggedraaid",
+          "ADJUSTED": "Aangepast",
+          "ESCALATED": "Geëscaleerd"
+        },
+        "statuses": {
+          "PENDING": "In behandeling",
+          "IN_REVIEW": "Wordt beoordeeld",
+          "RESOLVED": "Afgehandeld",
+          "WITHDRAWN": "Ingetrokken"
+        },
+        "loadError": "Details van geautomatiseerde beslissingen laden is mislukt.",
+        "alreadyOpen": "Je hebt al een lopend beoordelingsverzoek.",
+        "cooldown": "Je kunt over {hours} uur opnieuw een verzoek indienen. Met deze pauze kan een beoordelaar het vorige verzoek eerst afronden.",
+        "showAll": "Alles tonen ({count})",
+        "showLess": "Minder tonen"
+      },
+      "previewBadge": "Preview",
+      "previewBadgeTooltip": "Nieuw en nog in ontwikkeling. Passkeys werken, maar details kunnen nog veranderen."
+    },
+    "connections": {
+      "title": "Verbonden apps",
+      "description": "Applicaties die toegang hebben tot je Ordnary-accountgegevens.",
+      "empty": "Je hebt nog geen apps verbonden.",
+      "authorizedScopes": "Toegestane scopes: {scopes}",
+      "granted": "Toegang verleend: {date}",
+      "revoke": "Toegang intrekken"
+    },
+    "devices": {
+      "title": "Apparaten en sessies",
+      "description": "Beheer je actieve sessies op verschillende apparaten.",
+      "logoutOthers": "Log uit op alle andere apparaten",
+      "headers": {
+        "device": "Apparaat",
+        "location": "Locatie / IP",
+        "lastActive": "Laatst actief",
+        "type": "Type",
+        "actions": "Acties"
+      },
+      "unknownDevice": "Onbekend apparaat",
+      "currentSession": "(Huidige sessie)",
+      "typeFormat": "{browser} op {os}",
+      "revoke": "Intrekken"
+    },
+    "passkeysPage": {
+      "title": "Passkeys",
+      "description": "Beheer je biometrie en hardware keys voor wachtwoordloos aanmelden.",
+      "add": "+ Nieuwe passkey toevoegen",
+      "empty": "Je hebt nog geen passkeys toegevoegd.",
+      "unnamed": "Naamloze passkey",
+      "addedOn": "Toegevoegd op: {date}",
+      "lastUsed": "Laatst gebruikt: {date}",
+      "never": "Nooit",
+      "delete": "Verwijderen"
+    },
+    "activity": {
+      "title": "Recente activiteit",
+      "description": "Controleer en bewaak belangrijke gebeurtenissen en wijzigingen rond de beveiliging van je account.",
+      "details": "Details",
+      "dates": {
+        "today": "Vandaag, 17 april",
+        "yesterday": "Gisteren, 16 april"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Aangemeld",
+        "LOGIN_FAILED": "Aanmelden mislukt",
+        "LOGIN_LOCKED": "Aanmelden geblokkeerd",
+        "LOGOUT": "Afgemeld",
+        "SESSION_CREATED": "Nieuwe sessie",
+        "SESSION_REVOKED": "Sessie beëindigd",
+        "SESSION_ALL_REVOKED": "Overal afgemeld",
+        "PASSWORD_SET": "Wachtwoord ingesteld",
+        "PASSWORD_CHANGED": "Wachtwoord gewijzigd",
+        "PASSWORD_RESET_REQUESTED": "Wachtwoordherstel aangevraagd",
+        "PASSWORD_RESET_COMPLETED": "Wachtwoord hersteld",
+        "PASSKEY_REGISTERED": "Passkey toegevoegd",
+        "PASSKEY_USED": "Aangemeld met een passkey",
+        "PASSKEY_REMOVED": "Passkey verwijderd",
+        "PASSKEY_COUNTER_MISMATCH": "Passkey-waarschuwing",
+        "MFA_ENABLED": "Tweestapsverificatie aan",
+        "MFA_DISABLED": "Tweestapsverificatie uit",
+        "MFA_FACTOR_ENROLLED": "Authenticator toegevoegd",
+        "MFA_FACTOR_VERIFIED": "Authenticator bevestigd",
+        "MFA_FACTOR_REVOKED": "Authenticator verwijderd",
+        "RECOVERY_CODES_GENERATED": "Nieuwe herstelcodes",
+        "RECOVERY_CODE_USED": "Herstelcode gebruikt",
+        "STEP_UP_REQUIRED": "Bevestiging gevraagd",
+        "STEP_UP_COMPLETED": "Bevestigd dat jij het bent",
+        "EMAIL_ADDED": "E-mailadres toegevoegd",
+        "EMAIL_VERIFIED": "E-mailadres bevestigd",
+        "EMAIL_REMOVED": "E-mailadres verwijderd",
+        "EMAIL_PRIMARY_CHANGED": "Primair e-mailadres gewijzigd",
+        "ACCOUNT_CREATED": "Account aangemaakt",
+        "ACCOUNT_UPDATED": "Account bijgewerkt",
+        "ACCOUNT_DELETED": "Verwijdering gestart",
+        "ACCOUNT_REACTIVATED": "Account weer actief",
+        "OAUTH_CONSENT_GRANTED": "App heeft toegang gekregen",
+        "OAUTH_CONSENT_REVOKED": "Toegang van app ingetrokken",
+        "OAUTH_TOKEN_ISSUED": "App aangemeld",
+        "OAUTH_TOKEN_REVOKED": "App afgemeld",
+        "SUSPICIOUS_NEW_LOCATION": "Aanmelding vanaf een nieuwe plek",
+        "SUSPICIOUS_NEW_DEVICE": "Aanmelding op een nieuw apparaat",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Ongebruikelijke aanmelding",
+        "NOTIFICATION_PREFERENCE_CHANGED": "E-mailvoorkeuren gewijzigd",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Afgemeld voor e-mails",
+        "PRIVACY_REQUEST_FILED": "Privacyverzoek ingediend",
+        "PRIVACY_REQUEST_RESOLVED": "Privacyverzoek afgehandeld",
+        "DSAR_FILED": "Gegevensverzoek ingediend",
+        "DSAR_FULFILLED": "Gegevensverzoek afgerond",
+        "DSAR_REJECTED": "Gegevensverzoek afgewezen",
+        "RISK_REVIEW_REQUESTED": "Beoordeling aangevraagd",
+        "RISK_REVIEW_RESOLVED": "Beoordeling afgerond"
+      },
+      "severities": {
+        "INFO": "Info",
+        "MEDIUM": "Gemiddeld",
+        "HIGH": "Hoog",
+        "CRITICAL": "Kritiek",
+        "LOW": "Laag"
+      },
+      "empty": "Nog geen activiteit op je account.",
+      "filters": {
+        "all": "Alles",
+        "account": "Accountwijzigingen",
+        "security": "Beveiligingsmeldingen"
+      },
+      "retention": "Activiteit wordt {days} dagen bewaard. Je kunt dit wijzigen onder {link}.",
+      "retentionLink": "Je informatie en toestemmingen",
+      "emptyFiltered": "Niets te tonen in deze weergave.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Er is aangemeld op je account met het wachtwoord of een aanmeldcode.",
+        "LOGIN_FAILED": "Iemand probeerde aan te melden op je account, maar het wachtwoord of de code klopte niet. Een paar keer is meestal een typefout.",
+        "LOGIN_LOCKED": "Na te veel foute pogingen is aanmelden op je account een tijdje geblokkeerd, om het te beschermen.",
+        "LOGOUT": "Een sessie op je account is afgemeld.",
+        "SESSION_CREATED": "Je account is aangemeld op een apparaat of browser, waardoor een nieuwe sessie is gestart.",
+        "SESSION_REVOKED": "Eén sessie op je account is afgemeld, door jou of omdat die niet meer veilig was.",
+        "SESSION_ALL_REVOKED": "Je account is op alle andere apparaten afgemeld.",
+        "PASSWORD_SET": "Er is een wachtwoord aan je account toegevoegd.",
+        "PASSWORD_CHANGED": "Het wachtwoord van je account is gewijzigd.",
+        "PASSWORD_RESET_REQUESTED": "Er is een code om je wachtwoord te herstellen naar je e-mailadres gestuurd.",
+        "PASSWORD_RESET_COMPLETED": "Je wachtwoord is hersteld met een code uit je e-mail, en je bent overal afgemeld.",
+        "PASSKEY_REGISTERED": "Er is een passkey toegevoegd, zodat je kunt aanmelden met je apparaat in plaats van een wachtwoord.",
+        "PASSKEY_USED": "Er is aangemeld op je account met een van de passkeys.",
+        "PASSKEY_REMOVED": "Er is een passkey verwijderd; die kan niet meer worden gebruikt om aan te melden.",
+        "PASSKEY_COUNTER_MISMATCH": "Een passkey gaf iets onverwachts door, wat kan betekenen dat hij gekopieerd is. De aanmelding is geweigerd.",
+        "MFA_ENABLED": "Bij aanmelden wordt nu ook om een code uit je authenticator-app gevraagd.",
+        "MFA_DISABLED": "Bij aanmelden wordt niet meer om een code uit je authenticator-app gevraagd.",
+        "MFA_FACTOR_ENROLLED": "Er is een authenticator-app aan je account gekoppeld.",
+        "MFA_FACTOR_VERIFIED": "Een code uit je authenticator-app is bevestigd.",
+        "MFA_FACTOR_REVOKED": "Er is een authenticator-app van je account verwijderd.",
+        "RECOVERY_CODES_GENERATED": "Er is een nieuwe set herstelcodes gemaakt. De oude codes werken niet meer.",
+        "RECOVERY_CODE_USED": "Er is aangemeld met een van je herstelcodes in plaats van een authenticator-code. Die code werkt niet nog een keer.",
+        "STEP_UP_REQUIRED": "Voor een gevoelige wijziging werd gevraagd te bevestigen dat jij het bent, met een code per e-mail.",
+        "STEP_UP_COMPLETED": "Een code per e-mail bevestigde dat jij het was, waardoor een gevoelige wijziging even mocht.",
+        "EMAIL_ADDED": "Er is een e-mailadres aan je account toegevoegd en er is een bevestigingslink naartoe gestuurd.",
+        "EMAIL_VERIFIED": "Een e-mailadres op je account is bevestigd.",
+        "EMAIL_REMOVED": "Er is een e-mailadres van je account verwijderd.",
+        "EMAIL_PRIMARY_CHANGED": "Een ander e-mailadres is het hoofdadres van je account geworden, voor aanmelden en berichten.",
+        "ACCOUNT_CREATED": "Je Ordnary-account is aangemaakt.",
+        "ACCOUNT_UPDATED": "Een instelling of gegeven van je account is gewijzigd.",
+        "ACCOUNT_DELETED": "Je account is op verwijderen gezet. Het kan nog 30 dagen worden hersteld.",
+        "ACCOUNT_REACTIVATED": "Je account is weer aangezet na deactiveren of verwijderen.",
+        "OAUTH_CONSENT_GRANTED": "Een app heeft met Ordnary ID toegang tot je account gekregen.",
+        "OAUTH_CONSENT_REVOKED": "Een app heeft geen toegang meer tot je account.",
+        "OAUTH_TOKEN_ISSUED": "Een app die je met Ordnary ID gebruikt, kreeg een nieuw aanmeldtoken.",
+        "OAUTH_TOKEN_REVOKED": "Een aanmeldtoken van een app is ingetrokken.",
+        "SUSPICIOUS_NEW_LOCATION": "Je account is gebruikt vanaf een plek waar dat nog niet eerder gebeurde.",
+        "SUSPICIOUS_NEW_DEVICE": "Je account is gebruikt op een apparaat waar dat nog niet eerder gebeurde.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Je account is gebruikt vanaf twee plekken die te ver uit elkaar liggen om in die tijd te overbruggen.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Welke e-mails Ordnary je mag sturen, is gewijzigd.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Met een afmeldlink in een e-mail is een soort e-mail uitgezet.",
+        "PRIVACY_REQUEST_FILED": "Er is een verzoek ingediend om bezwaar te maken tegen of beperking van de verwerking van je gegevens.",
+        "PRIVACY_REQUEST_RESOLVED": "Ordnary heeft je verzoek over bezwaar of beperking afgehandeld.",
+        "DSAR_FILED": "Er is een verzoek over je gegevens ingediend (inzage, correctie, verwijdering of een kopie).",
+        "DSAR_FULFILLED": "Ordnary heeft je gegevensverzoek afgerond.",
+        "DSAR_REJECTED": "Ordnary heeft je gegevensverzoek afgewezen; de e-mail legt uit waarom.",
+        "RISK_REVIEW_REQUESTED": "Er is een beoordeling aangevraagd van een automatische beslissing over je account.",
+        "RISK_REVIEW_RESOLVED": "Iemand van Ordnary heeft een automatische beslissing over je account beoordeeld."
+      },
+      "detail": {
+        "ifNotYou": "Was jij dit niet? Wijzig je wachtwoord en meld je andere apparaten af onder Wachtwoord en beveiliging.",
+        "ifNotYouLink": "Naar Wachtwoord en beveiliging",
+        "generic": "Dit is op je account vastgelegd.",
+        "labels": {
+          "when": "Wanneer",
+          "where": "Waar",
+          "ip": "IP-adres",
+          "session": "Sessie",
+          "thisDevice": "Dit apparaat",
+          "event": "Gebeurtenis",
+          "source": "Vastgelegd in",
+          "severity": "Belang"
+        },
+        "sources": {
+          "AUDIT_LOG": "Accountlogboek",
+          "SECURITY_EVENT": "Beveiligingsbewaking"
+        },
+        "unknown": "Onbekend",
+        "times": "{count}×",
+        "timeSpan": "{from} tot {to}"
+      },
+      "showMore": "Eerdere dagen tonen",
+      "loadingMore": "Laden…",
+      "end": "Dit is alle activiteit die bewaard is.",
+      "loadFailed": "Kon niet meer laden. Probeer het opnieuw."
+    },
+    "connectedAppsDemo": {
+      "title": "Verbonden apps",
+      "description": "Applicaties en diensten van derden die toegang hebben gekregen tot een deel van je accountgegevens.",
+      "badges": {
+        "official": "Officieel",
+        "verified": "Geverifieerd"
+      },
+      "accessed": "Gebruikt {value}",
+      "revoke": "Toegang intrekken",
+      "apps": {
+        "consoleReason": "Beheer je cloudresources en deployment-pijplijnen.",
+        "figmaReason": "Ontwerptool voor collaboratieve prototypes.",
+        "unknownGameName": "Onbekend spel",
+        "unknownGameReason": "Een niet-geverifieerde app die toegang vroeg tot je profielgegevens.",
+        "currentSession": "Huidige sessie",
+        "twoDaysAgo": "2 dagen geleden",
+        "lastMonth": "Vorige maand"
+      }
+    },
+    "permissions": {
+      "title": "Je gegevens en toestemmingen",
+      "exportTitle": "Je gegevens exporteren",
+      "searchHistory": "Ordnary-activiteit",
+      "externalActivity": "Je activiteit buiten Ordnary-technologieën",
+      "appConnections": "Appverbindingen",
+      "manageContacts": "Contacten beheren",
+      "notice": "Ga naar Je gegevens exporteren om een kopie van je gegevens te downloaden of over te zetten.",
+      "footer": "Bepaal welke informatie Ordnary-technologieën kunnen gebruiken om je ervaringen te beïnvloeden.",
+      "privacyRightsTitle": "Je privacyrechten",
+      "dsarTitle": "Privacy- en dataverzoeken",
+      "dsarSubtitle": "Dien een formeel verzoek in onder Art. 15 (inzage), 16 (rectificatie), 17 (wissing) of 20 (overdraagbaarheid).",
+      "privacyRequestsTitle": "Bezwaar of beperking",
+      "privacyRequestsSubtitle": "Maak bezwaar tegen of beperk specifieke verwerkingen (Art. 18 / Art. 21).",
+      "processorsTitle": "Wie je gegevens verwerkt",
+      "processorsSubtitle": "De bedrijven die we gebruiken om Ordnary te laten werken, wat ze ontvangen en waar ze het bewaren.",
+      "cookiesTitle": "Cookie-voorkeuren",
+      "cookiesSubtitle": "Beheer welke cookies Ordnary in deze browser mag gebruiken.",
+      "minorConsentTitle": "Toestemming van een ouder",
+      "minorConsentSubtitle": "Ben je jonger dan de toestemmingsleeftijd in je land, dan moet een ouder of voogd akkoord geven (AVG art. 8).",
+      "notificationsTitle": "Notificatievoorkeuren",
+      "notificationsSubtitle": "Kies welke soorten e-mail Ordnary je mag sturen.",
+      "notifications": {
+        "title": "Notificatievoorkeuren",
+        "description": "Kies welke e-mail je van Ordnary krijgt.",
+        "close": "Sluiten",
+        "loading": "Laden…",
+        "loadError": "Dit kon nu niet worden geladen. Probeer het later opnieuw.",
+        "saveError": "Dat konden we niet opslaan. Probeer het opnieuw.",
+        "saved": "Opgeslagen.",
+        "alwaysOn": "Altijd aan",
+        "alwaysTitle": "Altijd aan",
+        "alwaysText": "Deze houden je account veilig en bevestigen wat je zelf hebt gevraagd, dus ze blijven aan.",
+        "choiceTitle": "Jij kiest",
+        "turnAllOff": "Alle optionele e-mail uitzetten",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Beveiligingsmeldingen",
+          "TRANSACTIONAL_ACCOUNT": "Accountberichten",
+          "PRODUCT_UPDATES": "Productnieuws",
+          "RECOMMENDATIONS": "Aanbevelingen",
+          "MARKETING": "Nieuws en aanbiedingen"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Inlogcodes, wachtwoordherstel en meldingen over nieuwe inlogs of wijzigingen in je beveiliging.",
+          "TRANSACTIONAL_ACCOUNT": "Bevestigingen van wat je zelf hebt gedaan, zoals een gegevensexport, een privacyverzoek of toestemming van een ouder.",
+          "PRODUCT_UPDATES": "Wat er nieuw is in Ordnary-producten, en wijzigingen in onze voorwaarden.",
+          "RECOMMENDATIONS": "Suggesties op basis van hoe je Ordnary gebruikt.",
+          "MARKETING": "Af en toe een nieuwsbrief of aanbieding."
+        }
+      },
+      "minorConsent": {
+        "title": "Toestemming van een ouder",
+        "description": "Ben je jonger dan de leeftijd waarop je online zelf toestemming mag geven, dan moet een ouder of voogd akkoord geven voordat we sommige gegevens van je mogen gebruiken. Dat staat in artikel 8 van de AVG.",
+        "close": "Sluiten",
+        "loading": "Laden…",
+        "loadError": "Dit kon nu niet worden geladen. Probeer het later opnieuw.",
+        "consentAge": "Toestemmingsleeftijd in {country}: {age}",
+        "yourAge": "Jouw leeftijd: {age}",
+        "adultTitle": "Niet nodig",
+        "adultBody": "Je bent oud genoeg om zelf toestemming te geven, dus je hebt geen toestemming van een ouder nodig.",
+        "unknownTitle": "We weten je leeftijd nog niet",
+        "unknownBody": "Vul je geboortedatum in, dan zien we of je toestemming van een ouder nodig hebt.",
+        "unknownAction": "Geboortedatum invullen",
+        "blockedTitle": "Toestemming nodig",
+        "blockedBody": "Tot een ouder of voogd akkoord geeft, zijn sommige delen van je account beperkt.",
+        "pendingTitle": "Wachten op je ouder of voogd",
+        "pendingBody": "We hebben een verzoek gestuurd naar {email}. De link werkt tot {date}.",
+        "verifiedTitle": "Toestemming gegeven",
+        "verifiedBody": "{email} heeft op {date} toestemming gegeven.",
+        "parentEmail": "E-mailadres van ouder of voogd",
+        "relationship": "Wie is dit, bijvoorbeeld moeder (optioneel)",
+        "addMessage": "Bericht toevoegen (optioneel)",
+        "notes": "Bericht voor je ouder of voogd",
+        "submit": "Verzoek versturen",
+        "submitting": "Versturen…",
+        "resend": "Opnieuw sturen",
+        "changeEmail": "Ander e-mailadres gebruiken",
+        "cancel": "Annuleren",
+        "revoke": "Intrekken",
+        "revokeConfirm": "Toestemming intrekken? Delen van je account worden weer beperkt tot een ouder of voogd opnieuw akkoord geeft.",
+        "revoking": "Intrekken…",
+        "revoked": "Toestemming ingetrokken.",
+        "notMinor": "Je bent oud genoeg om zelf toestemming te geven.",
+        "invalidEmail": "Vul een geldig e-mailadres in.",
+        "requestSent": "Verzoek verstuurd naar {email}.",
+        "points": [
+          {
+            "title": "Vul hun e-mailadres in",
+            "text": "Het e-mailadres van een ouder of voogd."
+          },
+          {
+            "title": "Zij geven akkoord",
+            "text": "Ze krijgen een e-mail met een link om akkoord te geven. De link werkt 14 dagen."
+          },
+          {
+            "title": "Je account werkt weer volledig",
+            "text": "Zodra ze akkoord geven, vervallen de beperkingen op je account."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Je kunt een kopie van je gegevens exporteren naar een externe service of naar je apparaat. Beschikbare gegevens omvatten content en informatie die je hebt gedeeld, je activiteit en informatie die we verzamelen.",
+      "exportButton": "Verstuur download link",
+      "exportModalContentsTitle": "Wat zit er in je export:",
+      "exportModalContents": [
+        "Profielgegevens en accountinstellingen",
+        "E-mailadressen en telefoonnummers",
+        "Beveiligingsinstellingen (passkeys, MFA, apparaten)",
+        "Sessie- en inloggeschiedenis",
+        "Betalingsgegevens",
+        "Verbonden apps en OAuth-toestemmingen",
+        "Activiteitenlog en beveiligingsgebeurtenissen",
+        "Privacy- en cookietoestemmingen"
+      ],
+      "exportModalFormat": "Formaat: ZIP-archief met gestructureerde JSON-bestanden en een leesbare README.",
+      "exportModalRateLimit": "Je ontvangt een email met een eenmalige download link. Maximaal 3 exports per 24 uur.",
+      "exportDownload": {
+        "loading": "Even geduld...",
+        "readyTitle": "Je data export is klaar",
+        "readyDescription": "Klik op de knop hieronder om je accountgegevens te downloaden als ZIP-archief. Deze link is eenmalig en verloopt na 24 uur.",
+        "downloadButton": "Download je data",
+        "readyHint": "Het bestand bevat al je persoonlijke gegevens, beveiligingsinstellingen, activiteitenlog en meer in gestructureerde JSON-bestanden.",
+        "downloadingTitle": "Bezig met downloaden...",
+        "downloadingDescription": "Je export wordt voorbereid. Dit kan een paar seconden duren.",
+        "successTitle": "Download gestart",
+        "successDescription": "Je data export wordt gedownload. Bewaar het bestand op een veilige plek, want het bevat gevoelige persoonlijke informatie.",
+        "successHint": "Deze download link is nu verlopen. Als je een nieuwe export nodig hebt, kun je er een aanvragen via je accountinstellingen.",
+        "backToSettings": "Terug naar accountinstellingen",
+        "expiredTitle": "Link verlopen",
+        "expiredDescription": "Deze download link is verlopen of al eerder gebruikt. Download links zijn 24 uur geldig en kunnen maar één keer worden gebruikt.",
+        "newExportButton": "Nieuwe export aanvragen",
+        "errorTitle": "Iets ging mis",
+        "errorDefault": "Er is een fout opgetreden bij het ophalen van je export.",
+        "noToken": "Geen download token gevonden."
+      },
+      "appConnectionsModalSubtitle": "Met app-koppelingen kun je dingen doen in verschillende Ordnary-producten en met andere bedrijven.",
+      "connectButton": "Koppelen",
+      "activityModalSubtitle": "Bekijk en beheer je activiteit binnen het Ordnary-ecosysteem, inclusief onze SaaS-producten en applicaties. We gebruiken deze informatie om van je gedrag te leren en je ervaring op al onze platformen te optimaliseren.",
+      "accountsAndProfiles": "Je accounts en profielen",
+      "keepActivityFor": "Activiteit bewaren voor",
+      "clearActivityButton": "Alle activiteit wissen",
+      "days3": "3 dagen",
+      "days7": "7 dagen",
+      "days14": "14 dagen",
+      "standardOption": "Standaard",
+      "noticeTitle": "Een kopie van je gegevens",
+      "noticeText": "Download je accountgegevens om te bewaren, of om ze naar een andere dienst over te zetten.",
+      "noticeAction": "Gegevens exporteren",
+      "experimentBadge": "Experiment",
+      "userFallback": "Gebruiker",
+      "avatarAlt": "Profielfoto",
+      "exportSent": "Downloadlink verstuurd naar {email}",
+      "exportFailed": "Export mislukt. Probeer het opnieuw.",
+      "exportInProgress": "Er wordt al een export gegenereerd. Probeer het zo opnieuw.",
+      "exportRateLimited": "Je hebt het maximum aantal exports bereikt. Probeer het over {time} opnieuw.",
+      "saveFailed": "Opslaan mislukt. Probeer het opnieuw.",
+      "autoClear": {
+        "title": "Ordnary-activiteit automatisch wissen",
+        "subtitle": "Kies hoe lang we je activiteit bewaren. Oudere activiteit wordt automatisch verwijderd, voor alle accounts en profielen in het Accountcentrum.",
+        "standard": "Standaard",
+        "saving": "Opslaan…",
+        "saved": "Opgeslagen.",
+        "back": "Terug",
+        "close": "Sluiten",
+        "howTitle": "Wat er wordt verwijderd",
+        "howText": "Je inloggeschiedenis en de beveiligingsgebeurtenissen op je account, zoals nieuwe inlogs, wachtwoordwijzigingen en geblokkeerde pogingen, zodra ze ouder zijn dan de gekozen periode.",
+        "howPermanent": "Verwijderde activiteit kun je niet terughalen. Download eerst een kopie als je die wilt bewaren.",
+        "learnMore": "Meer over automatisch wissen in de Ordnary-documentatie"
+      },
+      "days30": "30 dagen",
+      "experimentBadgeTooltip": "Nog in ontwikkeling. Je kunt rondkijken, maar apps koppelen werkt nog niet."
+    },
+    "payments": {
+      "title": "Pay",
+      "subtitle": "Beheer je opgeslagen betalingsgegevens en welke accounts daar toegang toe hebben. {learnMore}",
+      "syncInfo": "Gesynchroniseerd tussen 2 accounts",
+      "addMethodTitle": "Een betalingsmethode toevoegen",
+      "addMethodSubtitle": "Sla een kaart op of koppel je PayPal om je volgende aankoop eenvoudiger te maken.",
+      "addMethodButton": "Betalingsmethode toevoegen",
+      "shippingTitle": "Verzendgegevens",
+      "shippingAddress": "Bezorgadres",
+      "emailAddress": "E-mailadres",
+      "phoneNumber": "Telefoonnummer",
+      "addModal": {
+        "title": "Betalingsmethode toevoegen",
+        "card": "Creditcard of betaalkaart",
+        "paypal": "PayPal",
+        "footer": "Deze informatie wordt opgeslagen bij Ordnary Pay en gesynchroniseerd in Accountcentrum, waar de informatie kan worden beheerd. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Kaart toevoegen",
+        "subtitle": "Je kaartnummer is versleuteld en veilig opgeslagen",
+        "cardNumber": "Kaartnummer",
+        "expiry": "Vervaldatum (MM/JJ)",
+        "cvv": "CVV",
+        "name": "Naam op de kaart",
+        "submit": "Volgende",
+        "cvvTooltip": "Je Verificatiecode (CVV) is het beveiligingsnummer op de achter- of voorkant van je kaart.",
+        "footer": "Deze informatie wordt opgeslagen bij Ordnary Pay en gesynchroniseerd in Accountcentrum, waar de informatie kan worden beheerd. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Bezorgadres instellen",
+        "subtitle": "Voeg een bezorgadres toe voor Ordnary Pay. Dit staat los van je kaartflow.",
+        "search": "Adres zoeken",
+        "country": "Land of regio",
+        "fullName": "Volledige naam",
+        "street": "Adres",
+        "street2": "Adresregel 2 (optioneel)",
+        "city": "Plaats/district",
+        "state": "Staat/provincie/regio",
+        "zip": "Postcode",
+        "submit": "Adres opslaan"
+      }
+    },
+    "subscriptions": {
+      "description": "Beheer je actieve Ordnary-abonnementen, verlengingen en facturatie-instellingen.",
+      "emptyTitle": "Geen actieve abonnementen",
+      "emptyDescription": "Abonnementen verschijnen hier zodra ze gekoppeld zijn aan je account.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Onbeperkte toegang tot premium media van Ordnary Pictures, waaronder geselecteerde films, series, previews en exclusieve releases voor leden binnen ondersteunde Ordnary-ervaringen.",
+          "status": "Actief",
+          "renewal": "Vernieuwt maandelijks",
+          "price": "€9,99 per maand"
+        }
+      },
+      "manageSubscription": "Abonnement beheren"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Toegang geweigerd",
+        "description": "Je hebt momenteel geen toegang tot dit Accountcentrum. Dit kan komen doordat je sessie is verlopen of doordat je account is beperkt.",
+        "action": "Opnieuw inloggen"
+      },
+      "suspended": {
+        "title": "Account gedeactiveerd",
+        "description": "Dit account is momenteel gedeactiveerd of tijdelijk beperkt. Neem contact op met support als je denkt dat dit een fout is.",
+        "action": "Support raadplegen"
+      },
+      "banned": {
+        "title": "Toegang permanent ontzegd",
+        "description": "Je account is permanent geblokkeerd wegens schending van onze servicevoorwaarden.",
+        "action": "Voorwaarden bekijken"
+      },
+      "offline": {
+        "title": "Geen internetverbinding",
+        "description": "Het lijkt erop dat je offline bent. Controleer je internetverbinding om door te gaan.",
+        "action": "Opnieuw proberen"
+      },
+      "unknown": {
+        "title": "Systeemfout",
+        "description": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw.",
+        "action": "Terug naar start"
+      },
+      "previousPage": "Vorige pagina"
+    },
+    "common": {
+      "noResults": "Geen resultaten",
+      "searchPlaceholder": "Zoeken..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} wil toegang tot je account",
+      "description": "Je bent ingelogd als {displayName}. Geef alleen toegang als je deze app vertrouwt.",
+      "requestedPermissions": "Gevraagde rechten",
+      "approve": "Toegang geven",
+      "deny": "Weigeren",
+      "errorTitle": "Er is een probleem met het verzoek",
+      "errorDescription": "De authorize-aanvraag is ongeldig of incompleet. Controleer de parameters.",
+      "unknownAppTitle": "Kan de app niet verifiëren",
+      "unknownAppDescription": "Deze app kan niet worden geïdentificeerd door Ordnary. Dit komt meestal door een onjuiste client_id of redirect_uri. Voor je veiligheid kunnen we niet doorgaan."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Deze pagina is niet beschikbaar",
+      "description": "De link is mogelijk buiten werking of de pagina is verwijderd. Controleer of de link die je probeert te openen correct is.",
+      "button": "Naar accountinstellingen"
+    },
+    "serverError": {
+      "title": "Er is iets misgegaan",
+      "description": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw.",
+      "button": "Opnieuw proberen"
+    }
+  },
+  "cookieConsent": {
+    "title": "Het gebruik van cookies van Ordnary toestaan in deze browser?",
+    "description": "We gebruiken cookies en vergelijkbare technologieën om inhoud in Ordnary-producten aan te bieden en te verbeteren. We gebruiken ze ook om een veiligere ervaring te bieden door informatie te gebruiken die we ontvangen op en buiten Ordnary. Deze cookies zijn optioneel.",
+    "essentialTitle": "Essentiële cookies",
+    "essentialDesc": "Deze cookies zijn vereist om Ordnary-producten te kunnen gebruiken en zijn noodzakelijk om onze sites naar behoren te laten werken.",
+    "optionalTitle": "Cookies van andere bedrijven",
+    "optionalDesc": "We gebruiken deze cookies om advertenties aan je weer te geven buiten Ordnary-producten en om functies als kaarten en video's aan te bieden in Ordnary-producten. Deze cookies zijn optioneel.",
+    "policyInfo": "Jij bepaalt welke optionele cookies we kunnen gebruiken. In ons {cookiePolicy} vind je meer informatie over cookies en hoe we ze gebruiken, en je kunt je keuzes op ieder moment controleren of wijzigen.",
+    "cookiePolicy": "cookiebeleid",
+    "infoTitle": "Informatie over cookies",
+    "policyRefreshNotice": "We hebben de manier waarop we cookie-keuzes vastleggen aangepast. Bevestig je voorkeuren opnieuw zodat we een actueel verslag bewaren.",
+    "policyRevisionNotice": "Ons cookiebeleid is bijgewerkt. Bekijk je voorkeuren opnieuw.",
+    "preferencesTitle": "Je cookievoorkeuren",
+    "preferencesDescription": "Kies welke categorieën cookies Ordnary in deze browser mag gebruiken. Je kunt deze instellingen op ieder moment wijzigen vanuit je account.",
+    "alwaysOn": "Altijd aan",
+    "categories": {
+      "essential": {
+        "title": "Essentieel",
+        "description": "Nodig voor inloggen, beveiliging en het functioneren van het product."
+      },
+      "functional": {
+        "title": "Functioneel",
+        "description": "Onthoudt voorkeuren zoals taal, thema en recente accounts."
+      },
+      "analytics": {
+        "title": "Analytisch",
+        "description": "Helpt ons te begrijpen hoe Ordnary wordt gebruikt zodat we het kunnen verbeteren."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Persoonlijke berichten van Ordnary over producten en aanbiedingen."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "Wat zijn cookies?",
+        "button": "Meer informatie"
+      },
+      "why": {
+        "title": "Waarom gebruiken we cookies?",
+        "button": "Meer informatie"
+      },
+      "products": {
+        "title": "Wat zijn Ordnary-producten?",
+        "button": "Meer informatie"
+      },
+      "preferences": {
+        "title": "Je cookievoorkeuren",
+        "button": "Meer informatie"
+      }
+    },
+    "buttons": {
+      "reject": "Optionele cookies afwijzen",
+      "accept": "Alle cookies toestaan",
+      "rejectShort": "Afwijzen",
+      "acceptShort": "Toestaan",
+      "customize": "Aanpassen",
+      "save": "Voorkeuren opslaan",
+      "saveShort": "Opslaan",
+      "close": "Sluiten"
+    }
+  },
+  "recentAccounts": {
+    "title": "Aanmelden met je Ordnary-account",
+    "continueAs": "Doorgaan als {name}",
+    "loginAnother": "Aanmelden bij een ander account",
+    "remove": "Account verwijderen"
+  },
+  "reauthenticate": {
+    "title": "Bevestig dat jij het bent",
+    "description": "Hoi {name}, voor je veiligheid moeten we controleren dat jij het bent voordat je {action}.",
+    "codeSentTo": "We hebben een code gestuurd naar {email}.",
+    "codeSent": "We hebben een beveiligingscode van 6 cijfers naar je e-mail gestuurd.",
+    "securityCode": "Beveiligingscode",
+    "continue": "Doorgaan",
+    "verifying": "Controleren…",
+    "sending": "Versturen…",
+    "cancel": "Annuleren",
+    "errors": {
+      "sendFailed": "Beveiligingscode versturen is mislukt.",
+      "invalidCode": "Ongeldige code.",
+      "network": "Netwerkfout. Probeer het opnieuw."
+    },
+    "actions": {
+      "changePassword": "je wachtwoord wijzigt",
+      "changeEmail": "je e-mailadressen beheert",
+      "managePasskeys": "je passkeys beheert",
+      "manageMfa": "tweestapsverificatie beheert",
+      "revokeAllSessions": "overal uitlogt",
+      "manageAccount": "je account deactiveert of verwijdert",
+      "rotateClientSecret": "dit clientgeheim vervangt",
+      "managePaymentMethods": "je betaalmethoden beheert",
+      "authorizeApp": "deze applicatie toegang geeft",
+      "generic": "doorgaat met deze gevoelige actie"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Ouderlijke toestemming bevestigen",
+    "description": "Iemand heeft je gevraagd toestemming te geven voor zijn of haar Ordnary-account, op grond van artikel 8 van de AVG. Klik hieronder op bevestigen om je toestemming vast te leggen. Je kunt die later altijd intrekken door te reageren op de oorspronkelijke e-mail of contact op te nemen met {email}.",
+    "idle": "Open deze pagina via de link in de aanvraagmail, zodat de bevestigingscode wordt meegestuurd.",
+    "verifying": "Controleren…",
+    "success": "Bedankt. De ouderlijke toestemming is bevestigd en het account is vrijgegeven. De gebruiker krijgt hier ook een melding van.",
+    "errors": {
+      "tokenRequired": "Er is geen bevestigingscode meegegeven.",
+      "tokenNotFound": "Deze bevestigingslink is niet meer geldig.",
+      "alreadyVerified": "Deze bevestiging is al vastgelegd.",
+      "requestRevoked": "Dit verzoek is ingetrokken of vervangen door een nieuwer verzoek.",
+      "tokenExpired": "Deze bevestigingslink is verlopen. Vraag de gebruiker om een nieuw verzoek te sturen.",
+      "invalidBody": "Het bevestigingsverzoek is ongeldig.",
+      "generic": "We konden deze bevestigingslink niet controleren. Vraag de gebruiker om een nieuw verzoek te sturen."
+    }
+  },
+  "unsubscribe": {
+    "title": "Afmelden",
+    "idle": "Open deze pagina via de link in de e-mail, zodat de afmeldcode wordt meegestuurd.",
+    "verifying": "Je voorkeur opslaan…",
+    "success": "Je bent afgemeld.",
+    "successWithCategory": "Je bent afgemeld voor {category}.",
+    "manageAt": "Je kunt al je meldingsvoorkeuren altijd aanpassen in {link}.",
+    "categories": {
+      "transactionalSecurity": "beveiligingsmeldingen",
+      "transactionalAccount": "accountmeldingen",
+      "productUpdates": "productupdates",
+      "recommendations": "aanbevelingen",
+      "marketing": "marketingmails"
+    },
+    "errors": {
+      "tokenRequired": "Er is geen afmeldcode meegegeven.",
+      "tokenNotFound": "Deze afmeldlink is niet meer geldig.",
+      "alreadyRedeemed": "Je bent al afgemeld voor deze categorie.",
+      "tokenExpired": "Deze afmeldlink is verlopen. Je kunt je voorkeuren beheren in het Accountcentrum nadat je bent ingelogd.",
+      "categoryMandatory": "Deze categorie kan niet worden uitgezet, omdat het om beveiligings- en verplichte accountmeldingen gaat.",
+      "generic": "We konden deze afmeldlink niet verwerken. Log in en pas je voorkeuren direct aan."
+    }
+  },
+  "dsarVerify": {
+    "title": "Bevestig je privacyverzoek",
+    "description": "Bevestig dat je dit verzoek over je gegevens bij Ordnary hebt ingediend. Heb je dat niet gedaan, sluit deze pagina dan en laat het ons weten via {email}.",
+    "idle": "Open deze pagina via de link in de e-mail die we hebben gestuurd, zodat de bevestiging erbij zit.",
+    "confirm": "Verzoek bevestigen",
+    "verifying": "Bevestigen…",
+    "success": "Bedankt, je verzoek is bevestigd. We handelen het binnen de wettelijke termijn af en mailen je zodra het klaar is.",
+    "errors": {
+      "tokenRequired": "Deze link mist de bevestigingscode.",
+      "tokenNotFound": "Deze link is niet meer geldig.",
+      "tokenExpired": "Deze link is verlopen. Dien het verzoek opnieuw in via het Accountcentrum.",
+      "alreadyProcessed": "Dit verzoek is al bevestigd of afgehandeld.",
+      "generic": "We konden dit verzoek niet bevestigen. Probeer het opnieuw of neem contact op via {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Je bent afgemeld. Meld je opnieuw aan en probeer het nog eens.",
+    "not_authenticated": "Je bent afgemeld. Meld je opnieuw aan en probeer het nog eens.",
+    "step_up_required": "Bevestig eerst dat jij het bent en probeer het dan opnieuw.",
+    "rate_limited": "Te veel pogingen. Wacht een paar minuten en probeer het opnieuw.",
+    "first_party_only": "Dit kan alleen in de eigen apps van Ordnary.",
+    "invalid_request": "Er klopt iets niet aan dit verzoek. Laad de pagina opnieuw en probeer het nog eens.",
+    "invalid_body": "Er klopt iets niet aan dit verzoek. Laad de pagina opnieuw en probeer het nog eens.",
+    "invalid_action": "Die actie is hier niet beschikbaar.",
+    "missing_fields": "Vul alle velden in.",
+    "internal_error": "Er ging aan onze kant iets mis. Probeer het zo opnieuw.",
+    "internal_server_error": "Er ging aan onze kant iets mis. Probeer het zo opnieuw.",
+    "unavailable": "Dit is nu niet beschikbaar. Probeer het later opnieuw.",
+    "send_failed": "We konden de e-mail niet versturen. Probeer het zo opnieuw.",
+    "user_not_found": "We konden dit account niet vinden.",
+    "invalid_email": "Vul een geldig e-mailadres in.",
+    "missing_address": "Vul een e-mailadres in.",
+    "email_already_exists": "Dat e-mailadres is al in gebruik.",
+    "email_not_found": "Dat e-mailadres hoort niet bij je account.",
+    "cannot_delete_primary_email": "Je primaire e-mailadres kun je niet verwijderen.",
+    "failed_to_add_email": "We konden dit e-mailadres niet toevoegen.",
+    "failed_to_delete_email": "We konden dit e-mailadres niet verwijderen.",
+    "failed_to_send_verification_email": "We konden de verificatiemail niet versturen, dus het adres is niet toegevoegd.",
+    "no_email": "Je account heeft geen e-mailadres om naar te sturen.",
+    "no_primary_email": "Je account heeft geen primair e-mailadres.",
+    "password_mismatch": "De nieuwe wachtwoorden komen niet overeen.",
+    "password_incorrect": "Je huidige wachtwoord klopt niet.",
+    "password_too_weak": "Het nieuwe wachtwoord voldoet niet aan de eisen.",
+    "password_change_failed": "We konden je wachtwoord niet wijzigen.",
+    "no_password": "Je account heeft nog geen wachtwoord.",
+    "passkey_not_found": "Die passkey bestaat niet meer.",
+    "missing_passkey_id": "Kies eerst een passkey.",
+    "session_not_found": "Die sessie bestaat niet meer.",
+    "missing_session_id": "Kies eerst een sessie.",
+    "cannot_revoke_current_session": "De sessie die je hier gebruikt, kun je niet afmelden.",
+    "code_required": "Vul de code uit de e-mail in.",
+    "code_invalid": "Die code klopt niet.",
+    "code_expired": "Die code is verlopen. Vraag een nieuwe aan.",
+    "exists": "Je hebt er al een.",
+    "not_deactivated": "Je account is niet gedeactiveerd.",
+    "grace_period_expired": "De 30 dagen om dit account te herstellen zijn voorbij.",
+    "token_required": "Deze link is onvolledig.",
+    "token_not_found": "Deze link is niet meer geldig.",
+    "token_expired": "Deze link is verlopen.",
+    "already_redeemed": "Deze link is al gebruikt.",
+    "already_downloaded": "Deze download is al gebruikt.",
+    "already_verified": "Dit is al bevestigd.",
+    "already_processed": "Dit verzoek is al afgehandeld.",
+    "already_extended": "De termijn van dit verzoek is al verlengd.",
+    "invalid_date": "Vul een geldige datum in.",
+    "birthday_verification_attempt_not_found": "We konden die ID-controle niet vinden. Begin opnieuw.",
+    "identity_verification_incomplete": "De ID-controle is nog niet klaar.",
+    "identity_verification_dob_mismatch": "De geboortedatum op je ID komt niet overeen met wat je hebt ingevuld.",
+    "identity_verification_dob_unavailable": "We konden geen geboortedatum van je ID lezen.",
+    "missing_attempt_id": "De ID-controle ontbreekt. Begin opnieuw.",
+    "invalid_kind": "Kies wat voor verzoek dit is.",
+    "invalid_applies_to": "Kies waar het verzoek over gaat.",
+    "invalid_filed_by": "Geef aan wie dit verzoek indient.",
+    "subject_email_required": "Vul het e-mailadres in waar het verzoek over gaat.",
+    "representative_email_required": "Vul het e-mailadres van de vertegenwoordiger in.",
+    "request_not_found": "We konden dit verzoek niet vinden.",
+    "request_already_open": "Je hebt al een open verzoek van deze soort.",
+    "request_cooldown_active": "Je hebt dit verzoek pas ingediend. Probeer het later opnieuw.",
+    "request_closed": "Dit verzoek is al gesloten.",
+    "request_not_open": "Dit verzoek staat niet meer open.",
+    "request_not_verified": "Dit verzoek is nog niet bevestigd.",
+    "request_revoked": "Dit verzoek is ingetrokken of vervangen.",
+    "no_download_for_kind": "Bij dit soort verzoek hoort geen download.",
+    "export_already_in_progress": "Er wordt al een export klaargemaakt.",
+    "export_rate_limited": "Je hebt pas een export gemaakt. Probeer het later opnieuw.",
+    "invalid_retention_days": "Kies een van de aangeboden periodes.",
+    "invalid_category": "Die meldingscategorie bestaat niet.",
+    "category_mandatory": "Deze e-mails kun je niet uitzetten.",
+    "review_not_found": "We konden deze beoordeling niet vinden.",
+    "review_already_open": "Je hebt al een open beoordeling.",
+    "review_cooldown_active": "Je hebt pas om een beoordeling gevraagd. Probeer het later opnieuw.",
+    "review_not_open": "Deze beoordeling staat niet meer open.",
+    "review_not_pending": "Deze beoordeling kan niet meer worden gewijzigd.",
+    "invalid_review_type": "Kies wat voor beoordeling dit is.",
+    "no_active_consent": "Er is geen actieve toestemming om in te trekken.",
+    "not_a_minor": "Voor dit account is geen ouderlijke toestemming nodig.",
+    "parent_email_required": "Vul het e-mailadres van je ouder of voogd in.",
+    "invalid_parent_email": "Vul een geldig e-mailadres in voor je ouder of voogd.",
+    "connection_not_found": "Die app is niet meer gekoppeld.",
+    "client_not_found": "We konden die app niet vinden.",
+    "too_large": "Dat bestand is te groot.",
+    "unsupported_type": "Dat bestandstype wordt niet ondersteund.",
+    "no_file": "Kies eerst een bestand."
+  }
+}

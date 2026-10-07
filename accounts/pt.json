@@ -1,0 +1,1734 @@
+{
+  "global": {
+    "accountCenterTitle": "Central de contas",
+    "accountCenterSubtitle": "Gerencie suas experiências conectadas e as configurações da sua conta em todas as tecnologias da Ordnary.",
+    "learnMore": "Saiba mais",
+    "loading": "Carregando...",
+    "back": "Voltar",
+    "close": "Fechar",
+    "backToHome": "Voltar para o início"
+  },
+  "nav": {
+    "profiles": "Perfis",
+    "connectedExperiences": "Experiências conectadas",
+    "passwordAndSecurity": "Senha e segurança",
+    "personalDetails": "Detalhes pessoais e configurações",
+    "education": "Educação",
+    "permissions": "Suas informações e permissões",
+    "adPreferences": "Preferências de anúncios",
+    "payments": "Ordnary Pay",
+    "subscriptions": "Assinaturas",
+    "accounts": "Contas",
+    "activity": "Atividade"
+  },
+  "education": {
+    "title": "Educação",
+    "description": "Confirme com seu e-mail escolar que você é estudante para ter benefícios para estudantes nos produtos Ordnary que os oferecem.",
+    "statusLabel": "Status de estudante",
+    "statuses": {
+      "none": "Não verificado",
+      "pending": "Aguardando você abrir o link",
+      "verified": "Verificado",
+      "revoked": "Não está mais ativo"
+    },
+    "details": {
+      "title": "Seus dados",
+      "school": "Escola",
+      "email": "E-mail da escola",
+      "verifiedOn": "Verificado em"
+    },
+    "dialog": {
+      "title": "Verificação de estudante",
+      "subtitle": "Confirme com o e-mail da sua escola que você é estudante. Usamos esse endereço apenas para essa verificação e nunca enviamos mais nada para ele.",
+      "close": "Fechar",
+      "verifiedTitle": "Verificado",
+      "verifiedBody": "{email} em {school}, desde {date}.",
+      "pendingTitle": "Aguardando você abrir o link",
+      "pendingBody": "Enviamos um link para {email}. Abra-o em até 24 horas para concluir.",
+      "revokedTitle": "Não está mais ativo",
+      "revokedBody": "Seu status de estudante terminou. Confirme novamente com o e-mail da sua escola.",
+      "changeEmail": "Usar outro e-mail da escola",
+      "resend": "Enviar novamente",
+      "cancel": "Cancelar",
+      "emailLabel": "E-mail da escola",
+      "detected": "{school}",
+      "notRecognised": "Não reconhecemos este endereço como um e-mail de escola. Use o endereço que sua escola forneceu.",
+      "send": "Enviar link",
+      "sending": "Enviando…",
+      "sent": "Link enviado para {email}.",
+      "sentWhileVerified": "Enviamos um link para {email}. Você continua verificado na sua escola atual até abri-lo.",
+      "points": [
+        {
+          "title": "Digite o e-mail da escola",
+          "text": "Mostramos a qual escola o endereço pertence."
+        },
+        {
+          "title": "Abra o link",
+          "text": "Enviamos um link para esse endereço. Ele funciona por 24 horas."
+        },
+        {
+          "title": "Você está verificado",
+          "text": "Seu status de estudante fica ativo nos produtos Ordnary que oferecem benefícios para estudantes."
+        }
+      ]
+    },
+    "messages": {
+      "verificationSuccess": "Seu status de estudante já está ativo.",
+      "verificationError": "Este link não funciona mais. Solicite um novo."
+    },
+    "errors": {
+      "not_academic": "Não reconhecemos este endereço como um e-mail de escola. Use o endereço que sua escola forneceu.",
+      "account": "Algo deu errado com sua conta. Tente novamente mais tarde.",
+      "send_failed": "Não foi possível enviar o link agora. Tente novamente mais tarde.",
+      "no_pending": "Não há solicitação para reenviar. Digite o e-mail da sua escola.",
+      "not_authenticated": "Entre novamente para continuar."
+    }
+  },
+  "profiles": {
+    "title": "Perfis",
+    "description": "Gerencie suas experiências conectadas e as configurações da sua conta em todas as tecnologias da Ordnary.",
+    "addAccounts": "Adicionar contas",
+    "detail": {
+      "aboutTitle": "Sobre este perfil",
+      "accessTitle": "O que {app} pode acessar",
+      "linksTitle": "Políticas de {app}",
+      "mainProfile": "Perfil principal",
+      "connected": "App conectado",
+      "verified": "Verificado pela Ordnary",
+      "connectedOn": "Conectado em",
+      "lastUsed": "Último uso",
+      "never": "Ainda não",
+      "activeSignIns": "Logins ativos",
+      "profileId": "ID do perfil",
+      "email": "Endereço de e-mail",
+      "memberSince": "Membro desde",
+      "twoFactor": "Autenticação em duas etapas",
+      "on": "Ativada",
+      "off": "Desativada",
+      "passkeys": "Chaves de acesso",
+      "privacy": "Política de privacidade",
+      "terms": "Termos de serviço",
+      "disconnect": "Desconectar",
+      "disconnectTitle": "Desconectar {app}?",
+      "disconnectText": "{app} não poderá mais usar sua conta Ordnary e você será desconectado dele. Você pode conectar novamente entrando em {app} mais tarde.",
+      "disconnecting": "Desconectando...",
+      "cancel": "Cancelar",
+      "copied": "Copiado",
+      "copy": "Copiar",
+      "scopes": {
+        "openid": "Reconhecer você com sua conta Ordnary",
+        "profile": "Seu nome e foto de perfil",
+        "email": "Seu endereço de e-mail",
+        "offline_access": "Manter você conectado quando não estiver usando",
+        "phone": "Seu número de telefone",
+        "address": "Seu endereço"
+      },
+      "change": "Alterar",
+      "setUp": "Configurar",
+      "manage": "Gerenciar",
+      "add": "Adicionar",
+      "none": "Nenhuma ainda"
+    },
+    "revokedSuccess": "Desconectado",
+    "revokedError": "Não foi possível desconectar. Tente novamente."
+  },
+  "auth": {
+    "titles": {
+      "accountNotFound": "Criar uma nova conta Ordnary?",
+      "registrationName": "Qual é o seu nome?",
+      "registrationBirthday": "Quando é o seu aniversário?",
+      "registrationPassword": "Crie uma senha",
+      "saveLoginInfo": "Salvar informações de login?",
+      "registrationReview": "Conclua a criação da sua conta",
+      "verifyEmailCode": "Digite o código de confirmação",
+      "editEmail": "Qual é o seu endereço de e-mail?",
+      "loginCodeEntry": "Verifique seu e-mail",
+      "recoveryCodeEntry": "Confirme sua conta",
+      "resetPassword": "Crie uma nova senha",
+      "passwordEntry": "Digite sua senha",
+      "identifierLookup": "Qual é o seu e-mail?",
+      "signIn": "Entrar",
+      "mfaCodeEntry": "Digite seu código de verificação"
+    },
+    "descriptions": {
+      "identifierLookup": "Digite seu e-mail para entrar em uma conta ou criar uma nova.",
+      "passwordEntry": "Para entrar, digite a senha associada a {identifier}.",
+      "accountNotFound": "Não conseguimos encontrar uma conta Ordnary para {email}. Talvez você ainda não tenha criado uma. Se já criou, ela pode estar usando outro identificador.",
+      "registrationName": "Esse nome será usado para recuperação da conta e comunicações sobre sua conta. Ele não será visível ao público.",
+      "registrationBirthday": "Use sua data de nascimento real, mesmo que esta conta seja para uma empresa ou outra finalidade. Essas informações não serão públicas.",
+      "registrationPassword": "Crie uma senha que outras pessoas não consigam adivinhar.",
+      "saveLoginInfo": "Vamos salvar as informações de login da sua conta para que você não precise digitá-las novamente na próxima vez que entrar.",
+      "verifyEmailCode": "Digite o código de 6 dígitos enviado para {identifier} para confirmar sua conta.",
+      "editEmail": "Digite o endereço de e-mail pelo qual podemos entrar em contato com você. Esse endereço será usado para login e gerenciamento da conta e não será visível ao público.",
+      "loginCodeEntry": "Para entrar, digite o código que enviamos para {identifier}. Talvez seja necessário verificar sua pasta de spam ou social.",
+      "recoveryCodeEntry": "Enviamos um código para {identifier}. Digite esse código para confirmar sua conta.",
+      "resetPassword": "Você usará esta senha para entrar na sua conta Ordnary. Use pelo menos 6 letras e números.",
+      "mfaCodeEntry": "Digite o código de 6 dígitos do seu app autenticador para continuar."
+    },
+    "buttons": {
+      "createNewAccount": "Criar nova conta",
+      "alreadyHaveAccount": "Já tenho uma conta",
+      "next": "Avancar",
+      "save": "Salvar",
+      "notNow": "Agora não",
+      "finish": "Concluir",
+      "resendCode": "Reenviar código",
+      "enterPassword": "Digitar senha",
+      "forgotPassword": "Esqueceu a senha?",
+      "switchAccount": "Trocar conta",
+      "yes": "Sim",
+      "no": "Não",
+      "useEmailCode": "Entrar com um código por e-mail",
+      "signInWithPasskey": "Entrar com uma chave de acesso",
+      "useRecoveryCode": "Usar um código de recuperação",
+      "useAuthenticatorCode": "Usar seu app autenticador"
+    },
+    "labels": {
+      "name": "Nome",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "day": "Dia",
+      "month": "Mês",
+      "year": "Ano",
+      "dateOfBirth": "Data de nascimento",
+      "confirmationCode": "Código de confirmação",
+      "email": "Endereço de e-mail",
+      "password": "Senha",
+      "newPassword": "Nova senha",
+      "logoutOthers": "Saia de todos os outros lugares para garantir que ninguém mais ainda possa acessar sua conta",
+      "marketingEmails": "Gostaria de receber e-mails sobre apps, recomendações e ofertas da Ordnary Identity.",
+      "showPassword": "Mostrar senha",
+      "hidePassword": "Ocultar senha",
+      "clearInput": "Limpar campo",
+      "recoveryCode": "Código de recuperação"
+    },
+    "links": {
+      "whyNeedBirthday": "Por que preciso informar minha data de nascimento?",
+      "learnMore": "Saiba mais",
+      "editEmail": "Editar endereço de e-mail",
+      "noAccessEmail": "Não tem mais acesso a este endereço de e-mail?",
+      "termsOfService": "Termos de serviço",
+      "privacyPolicy": "Política de privacidade",
+      "cookiePolicy": "Política de cookies"
+    },
+    "messages": {
+      "nameHelp": "Usar seu nome real facilita a recuperação da sua conta se você perder o acesso.",
+      "emailHelp": "Use seu e-mail de trabalho ou pessoal para acessar seus serviços Ordnary.",
+      "existingSessionTitle": "Você já tem uma sessão ativa",
+      "existingSessionDescription": "Você já está conectado. Redirecionando para a Central de contas em {seconds} segundos.",
+      "summaryPrivacy": "Os detalhes da sua conta Ordnary não são públicos.",
+      "verifyEmailLookFor": "Procure um e-mail de notification@ordnary.com. Talvez seja necessário verificar sua pasta de spam ou social.",
+      "termsAgreement": "Ao clicar em \"Concluir\", você concorda com nossos Termos de serviço e nossa Política de privacidade e confirma que leu nossa Política de cookies.",
+      "footerAgreement": "Ao continuar, você reconhece que leu e concorda com nossos Termos de serviço, nossa Política de privacidade e as diretrizes aplicáveis de processamento de dados. Você também concorda em receber notificações essenciais de conta e segurança relacionadas ao seu uso da plataforma.",
+      "emailMissing": "O endereço de e-mail está ausente.",
+      "resendCodeError": "Ocorreu um erro inesperado ao reenviar o código.",
+      "invalidInput": "Entrada inválida.",
+      "credentialsPrompt": "Para entrar, digite a senha associada a {identifier}.",
+      "checkEmailPrompt": "Para entrar, digite o código que enviamos para {identifier}.",
+      "termsIntro": "Ao tocar em Concluir, você concorda com nossos"
+    },
+    "validation": {
+      "emailRequired": "O endereço de e-mail é obrigatório.",
+      "passwordRequired": "A senha é obrigatória.",
+      "passwordMin": "A senha deve ter pelo menos 12 caracteres.",
+      "passwordMax": "A senha não pode exceder 128 caracteres.",
+      "emailInvalid": "Digite um endereço de e-mail válido.",
+      "displayNameMin": "O nome de exibição deve ter pelo menos 2 caracteres.",
+      "resetTokenRequired": "O token de redefinição é obrigatório.",
+      "verificationTokenRequired": "O token de verificação é obrigatório."
+    },
+    "errors": {
+      "invalidInput": "Entrada inválida.",
+      "genericLoginFailed": "Não foi possível fazer seu login. Tente novamente.",
+      "loginInvalidCredentials": "E-mail ou senha inválidos.",
+      "accountLocked": "Sua conta está bloqueada ou suspensa.",
+      "passwordIncorrect": "A senha digitada esta incorreta.",
+      "notAuthenticated": "Você não está autenticado.",
+      "registrationMissingInfo": "Faltam informações obrigatórias de cadastro.",
+      "registrationEmailExists": "Já existe uma conta com este e-mail.",
+      "systemNoDefaultTenant": "Erro do sistema: nenhum tenant padrão encontrado.",
+      "registrationFailed": "Falha no cadastro. Tente novamente.",
+      "invalidVerificationRequest": "Solicitação de verificação inválida.",
+      "accountNotFound": "Conta não encontrada.",
+      "verificationCodeInvalidOrExpired": "Código de verificação inválido ou expirado.",
+      "verificationFailedTryAgain": "Falha na verificação. Tente novamente.",
+      "invalidRequest": "Solicitação inválida.",
+      "userNotFound": "Usuário não encontrado.",
+      "codeInvalidOrExpired": "Código inválido ou expirado.",
+      "verificationFailed": "Falha na verificação.",
+      "missingInformation": "Informações ausentes.",
+      "passwordResetFailed": "Falha ao redefinir a senha.",
+      "emailMissing": "Endereço de e-mail ausente.",
+      "resendCodeFailed": "Falha ao reenviar o código. Tente novamente.",
+      "loginRequestFailed": "Não foi possível processar sua solicitação de login. Tente novamente.",
+      "mfaDataMissing": "Os dados de verificação estão ausentes. Entre novamente.",
+      "mfaNoAuthenticator": "Nenhum app autenticador ativo foi encontrado para esta conta.",
+      "mfaCodeInvalid": "Código de verificação inválido.",
+      "mfaVerificationFailed": "A verificação falhou. Entre novamente.",
+      "requestRejected": "Não foi possível processar esta solicitação. Tente novamente.",
+      "tooManyAttempts": "Muitas tentativas. Tente novamente mais tarde.",
+      "tooManyFailedLogins": "Muitas tentativas de login malsucedidas. Aguarde um momento antes de tentar novamente.",
+      "permanentEmailRequired": "Use um endereço de e-mail permanente.",
+      "recoveryFileInvalid": "Este arquivo de recuperação não funciona. Ele pode ter sido substituído por um mais recente ou removido.",
+      "passkeyFailed": "Não foi possível entrar com a chave de acesso. Tente novamente ou continue com seu e-mail.",
+      "passwordTooWeak": "Escolha uma senha que atenda a todos os requisitos abaixo."
+    },
+    "months": [
+      "janeiro",
+      "fevereiro",
+      "marco",
+      "abril",
+      "maio",
+      "junho",
+      "julho",
+      "agosto",
+      "setembro",
+      "outubro",
+      "novembro",
+      "dezembro"
+    ],
+    "recoveryFile": {
+      "link": "Entrar com um arquivo de recuperação",
+      "title": "Entrar com um arquivo de recuperação",
+      "description": "Envie o arquivo de recuperação desta conta que você baixou da Central de contas. Você entra na hora.",
+      "choose": "Escolher arquivo",
+      "reading": "Entrando…",
+      "pasteInstead": "Colar o código em vez disso",
+      "codeLabel": "Código do arquivo",
+      "signIn": "Entrar",
+      "notAFile": "Este não é um arquivo de recuperação da Ordnary. Escolha o PDF que você baixou da Central de contas.",
+      "back": "Usar o código do e-mail"
+    },
+    "passwordRules": {
+      "length": "Pelo menos 12 caracteres",
+      "upper": "Uma letra maiúscula",
+      "lower": "Uma letra minúscula",
+      "digit": "Um número"
+    }
+  },
+  "accountCenter": {
+    "layout": {
+      "logoAlt": "Ordnary",
+      "navSectionTitle": "Configurações da conta",
+      "appearanceLabel": "Aparência",
+      "appearanceLight": "Claro",
+      "appearanceSystem": "Seguir o sistema",
+      "appearanceDark": "Escuro",
+      "logout": "Sair",
+      "sessionExpired": "Sua sessão expirou. Entre novamente para continuar.",
+      "logoutConfirmTitle": "Sair do Ordnary?",
+      "logoutCancel": "Cancelar",
+      "logoutConfirm": "Sair",
+      "language": "Idioma"
+    },
+    "reactivate": {
+      "title": "Bem-vindo de volta, sua conta está desativada",
+      "description": "Pausamos e-mails e notificações quando você desativou sua conta. Reative para trazer tudo de volta ou saia e decida depois. Seus dados continuam aqui.",
+      "reactivate": "Reativar minha conta",
+      "reactivating": "Reativando...",
+      "signOut": "Sair",
+      "signingOut": "Saindo...",
+      "footer": "Se preferir excluir sua conta permanentemente, entre e escolha Excluir conta em Detalhes pessoais.",
+      "successNotification": "Bem-vindo de volta. Sua conta está ativa novamente.",
+      "errorGeneric": "Não foi possível reativar sua conta. Tente novamente em instantes.",
+      "deletedTitle": "Sua conta será excluída",
+      "deletedDescription": "Ela será excluída de vez em {date}. Restaure-a para manter tudo, ou saia e deixe a exclusão seguir.",
+      "restore": "Restaurar minha conta",
+      "restoring": "Restaurando..."
+    },
+    "personalInfo": {
+      "photo": {
+        "label": "Foto de perfil",
+        "custom": "Sua própria foto",
+        "default": "Avatar gerado",
+        "modalTitle": "Foto de perfil",
+        "subtitle": "Exibida com seu nome nos apps da Ordnary e na comunidade. Sem uma foto sua, você recebe um avatar exclusivo da sua conta.",
+        "choose": "Escolher uma foto",
+        "change": "Escolher outra",
+        "remove": "Remover foto",
+        "save": "Salvar foto",
+        "saving": "Salvando...",
+        "hint": "JPG, PNG ou WebP. Sua foto é cortada em formato quadrado.",
+        "errorType": "Esse arquivo não é uma imagem que possamos usar. Escolha um JPG, PNG ou WebP.",
+        "errorFailed": "Não foi possível salvar sua foto. Tente novamente."
+      },
+      "title": "Detalhes pessoais e configurações",
+      "description": "A Ordnary usa esses dados para verificar sua identidade e ajudar a manter a comunidade segura. Você controla quais dados pessoais ficam visíveis para outras pessoas.",
+      "contactDetails": "Informações de contato",
+      "birthday": "Aniversário",
+      "ownership": "Propriedade e controle da conta",
+      "ownershipDescription": "Gerencie seus dados, atualize seu contato herdeiro para contas em memória e desative ou exclua suas contas e perfis.",
+      "loadingName": "Usuário",
+      "modal": {
+        "title": "Propriedade e controle da conta",
+        "deactivationIndexTitle": "Desativação ou exclusão",
+        "deactivationIndexDescription": "Desative temporariamente ou exclua permanentemente suas contas e perfis.",
+        "optionsTitle": "Desative ou exclua sua conta Ordnary",
+        "optionsDescription": "Precisa de uma pausa? Desative sua conta e volte quando quiser. Quer sair do Ordnary? Exclua sua conta.",
+        "deactivateTitle": "Desativar conta",
+        "deactivateDescription": "A desativação da sua conta é temporária. Sua conta ficará desativada e oculta para outras pessoas.",
+        "deleteTitle": "Excluir conta",
+        "deleteDescription": "A exclusão da sua conta é permanente. Após 30 dias, você não poderá reativá-la nem recuperar os dados dela.",
+        "deactivateConfirmTitle": "Desativar sua conta?",
+        "deactivateConfirmPoints": [
+          {
+            "title": "Você sairá de todos os lugares",
+            "text": "Em todos os seus dispositivos e em cada app que você usa com sua conta Ordnary."
+          },
+          {
+            "title": "Seu perfil fica oculto",
+            "text": "Ninguém vê seu nome ou perfil enquanto sua conta estiver desativada."
+          },
+          {
+            "title": "Volte quando quiser",
+            "text": "Entre novamente para reativar sua conta. Tudo estará como você deixou."
+          }
+        ],
+        "deactivateConfirmButton": "Desativar conta",
+        "deleteConfirmTitle": "Excluir sua conta?",
+        "deleteConfirmPoints": [
+          {
+            "title": "Você sairá de todos os lugares",
+            "text": "Em todos os seus dispositivos e em cada app que você usa com sua conta Ordnary."
+          },
+          {
+            "title": "Você perde o acesso",
+            "text": "Ao Ordnary e a cada app em que você entra com sua conta Ordnary."
+          },
+          {
+            "title": "Excluída de vez após 30 dias",
+            "text": "Até lá, você ainda pode mudar de ideia. Depois disso, sua conta e seus dados não poderão ser recuperados."
+          }
+        ],
+        "deleteConfirmCheck": "Entendo que minha conta e meus dados serão excluídos permanentemente após 30 dias.",
+        "deleteConfirmButton": "Excluir conta",
+        "cancel": "Cancelar",
+        "continue": "Continuar",
+        "working": "Processando...",
+        "deactivateSuccess": "Sua conta foi desativada. Redirecionando para o login...",
+        "deleteSuccess": "Sua conta foi programada para exclusão. Redirecionando para o login...",
+        "submitError": "Não foi possível atualizar sua conta agora."
+      },
+      "missingBirthday": "Não definido",
+      "loadError": "Falha ao carregar os dados pessoais.",
+      "preferences": {
+        "sectionTitle": "Preferências",
+        "appearance": "Aparência",
+        "appearanceDescription": "Ajuste o visual da sua conta Ordnary.",
+        "cookies": "Preferências de cookies",
+        "cookiesDescription": "Gerencie quais cookies a Ordnary pode usar neste navegador.",
+        "processors": {
+          "title": "Quem processa os seus dados",
+          "intro": "Usamos algumas outras empresas para operar o Ordnary. Estas são todas: o que recebem de nós, onde guardam e como os dados são protegidos quando saem da UE.",
+          "empty": "Nenhuma outra empresa recebe os seus dados.",
+          "loadError": "Não foi possível carregar isto agora. Tente novamente mais tarde.",
+          "loading": "Carregando...",
+          "close": "Fechar",
+          "back": "Voltar",
+          "fields": {
+            "purpose": "O que fazem",
+            "receives": "O que recebem",
+            "whose": "Dados de quem",
+            "stored": "Onde ficam guardados",
+            "transfer": "Fora da UE"
+          },
+          "mechanism": {
+            "INTRA_EEA": "Permanecem dentro do Espaço Econômico Europeu.",
+            "ADEQUACY_DECISION": "Permitido porque a UE reconhece a proteção de dados em {country} como adequada.",
+            "STANDARD_CONTRACTUAL_CLAUSES": "Protegidos pelas cláusulas contratuais-tipo da UE.",
+            "EU_US_DATA_PRIVACY_FRAMEWORK": "Certificado no EU-US Data Privacy Framework.",
+            "sccBackup": "As cláusulas contratuais-tipo da UE também se aplicam, como proteção adicional."
+          },
+          "links": {
+            "dpa": "Acordo de processamento de dados",
+            "privacy": "Política de privacidade",
+            "website": "Site",
+            "certification": "Certificação"
+          },
+          "items": {
+            "stripe": {
+              "purpose": "Verifica o seu documento de identidade quando você altera a data de nascimento.",
+              "receives": [
+                "Nome",
+                "Data de nascimento",
+                "Foto do documento de identidade",
+                "Selfie",
+                "Endereço IP"
+              ],
+              "whose": "Apenas pessoas que verificam uma nova data de nascimento."
+            },
+            "resend": {
+              "purpose": "Envia os nossos e-mails: códigos de login, alertas de segurança e notificações da conta.",
+              "receives": [
+                "Endereço de e-mail",
+                "Nome de exibição",
+                "O conteúdo do e-mail, como códigos de login, links e o endereço IP nos alertas de segurança"
+              ],
+              "whose": "Todas as pessoas que recebem e-mails do Ordnary."
+            }
+          }
+        },
+        "privacyRequests": {
+          "label": "Solicitações de privacidade",
+          "description": "Oponha-se a atividades de tratamento específicas ou restrinja-as (art. 18 / art. 21).",
+          "back": "Voltar",
+          "close": "Fechar",
+          "loading": "Carregando…",
+          "loadError": "Não foi possível carregar as solicitações de privacidade.",
+          "alreadyOpen": "Você já tem uma solicitação aberta para este escopo.",
+          "cooldown": "Você pode enviar a mesma solicitação novamente em {hours} hora(s).",
+          "submitted": "Sua solicitação foi recebida.",
+          "withdrawn": "Solicitação retirada.",
+          "fileNew": "Enviar nova solicitação",
+          "pickKind": "O que você quer fazer?",
+          "kinds": {
+            "OBJECTION": "Opor-se a uma atividade de tratamento (art. 21)",
+            "RESTRICTION": "Restringir o tratamento temporariamente (art. 18)"
+          },
+          "kindDescriptions": {
+            "OBJECTION": "Interrompa uma atividade de tratamento específica daqui em diante, com base na sua situação particular.",
+            "RESTRICTION": "Pause uma atividade de tratamento específica enquanto uma disputa sobre seus dados é analisada."
+          },
+          "pickActivities": "A quais atividades isso deve se aplicar?",
+          "activitiesHint": "Não escolha nenhuma para aplicar a todas as nossas atividades de tratamento (bloqueio global).",
+          "globalScope": "Todo o tratamento (bloqueio global)",
+          "yourStatement": "Sua declaração (recomendado)",
+          "statementPlaceholder": "Conte por quê, por exemplo, que você não quer mais que apliquemos pontuação de risco automatizada enquanto investiga um evento de segurança conosco.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Enviar solicitação",
+          "submitting": "Enviando…",
+          "withdraw": "Retirar",
+          "withdrawing": "Retirando…",
+          "openTitle": "Solicitações abertas",
+          "emptyOpen": "Nenhuma solicitação aberta.",
+          "historyTitle": "Solicitações anteriores",
+          "historyEmpty": "Nenhuma solicitação anterior.",
+          "holdsTitle": "Bloqueios ativos no momento",
+          "holdsEmpty": "Nenhum bloqueio ativo.",
+          "appliesTo": "Aplica-se a",
+          "effectiveUntil": "Em vigor até",
+          "statuses": {
+            "PENDING": "Pendente",
+            "IN_REVIEW": "Em análise",
+            "RESOLVED": "Resolvida",
+            "WITHDRAWN": "Retirada"
+          },
+          "outcomes": {
+            "GRANTED": "Concedida",
+            "PARTIALLY_GRANTED": "Parcialmente concedida",
+            "REJECTED": "Rejeitada",
+            "ESCALATED": "Encaminhada"
+          },
+          "activitiesLabels": {
+            "account-identity-and-authentication": "Identidade da conta e autenticação",
+            "session-and-device-management": "Sessões e dispositivos",
+            "oauth-issuance": "Emissão de tokens OAuth / OIDC",
+            "identity-verification": "Verificação de identidade (Stripe Identity)",
+            "payment-processing": "Processamento de pagamentos",
+            "audit-logs-and-security-events": "Registros de auditoria e eventos de segurança",
+            "risk-scoring": "Pontuação de risco automatizada",
+            "consent-log": "Registro de consentimentos",
+            "account-deletion": "Exclusão de conta",
+            "risk-review-queue": "Fila de análise de risco"
+          },
+          "title": "Opor-se ou restringir"
+        },
+        "dsar": {
+          "label": "Solicitações de privacidade e dados",
+          "description": "Envie uma solicitação formal de acesso, retificação, eliminação ou portabilidade (art. 15-20).",
+          "title": "Solicitações de privacidade e dados",
+          "back": "Voltar",
+          "close": "Fechar",
+          "loading": "Carregando…",
+          "loadError": "Não foi possível carregar as solicitações.",
+          "submitted": "Recebemos sua solicitação.",
+          "fastPathReady": "Seus dados estão sendo baixados agora.",
+          "fastPathHint": "Só quer uma cópia rápida dos seus dados? Use o botão \"Exportar suas informações\" no topo. Ele baixa na hora, sem passar pela fila formal. Envie uma solicitação aqui quando quiser uma pessoa para analisar, estiver enviando em nome de outra pessoa ou precisar de retificação ou eliminação.",
+          "withdrawn": "Solicitação retirada.",
+          "fileNew": "Enviar nova solicitação",
+          "pickKind": "O que você quer fazer?",
+          "kinds": {
+            "ACCESS": "Acesso (art. 15)",
+            "RECTIFICATION": "Retificação (art. 16)",
+            "ERASURE": "Eliminação (art. 17)",
+            "PORTABILITY": "Portabilidade (art. 20)"
+          },
+          "kindDescriptions": {
+            "ACCESS": "Receba uma cópia completa, legível por máquina, dos dados que mantemos sobre você.",
+            "RECTIFICATION": "Corrija dados que mantemos sobre você que estejam errados ou desatualizados.",
+            "ERASURE": "Peça que excluamos sua conta e os dados que mantemos sobre você.",
+            "PORTABILITY": "Receba seus dados em um formato estruturado e de uso comum."
+          },
+          "filedBy": "Quem está enviando esta solicitação?",
+          "filedByOptions": {
+            "SELF": "Estou enviando por mim mesmo",
+            "PARENT_GUARDIAN": "Sou pai, mãe ou responsável e estou enviando por um menor",
+            "AUTHORISED_AGENT": "Sou um representante autorizado (por exemplo, um advogado) enviando em nome de outra pessoa"
+          },
+          "representativeBlock": {
+            "title": "Informações do representante",
+            "emailLabel": "Seu endereço de e-mail",
+            "notesLabel": "Relação e autoridade",
+            "notesHint": "Descreva brevemente sua relação com o titular dos dados e anexe referências a qualquer procuração ou documento de guarda."
+          },
+          "subjectEmailLabel": "E-mail do titular",
+          "subjectEmailHint": "Enviamos o link de verificação e a resposta para este endereço. Em solicitações enviadas por representante, deve ser o e-mail do próprio titular dos dados.",
+          "yourStatement": "Sua declaração (recomendado)",
+          "statementPlaceholder": "O que exatamente você quer? Qualquer contexto que nos ajude a definir o alcance da resposta.",
+          "statementCounter": "{count} / {max}",
+          "submit": "Enviar solicitação",
+          "submitting": "Enviando…",
+          "withdraw": "Retirar",
+          "withdrawing": "Retirando…",
+          "openTitle": "Solicitações abertas",
+          "emptyOpen": "Nenhuma solicitação aberta.",
+          "historyTitle": "Solicitações anteriores",
+          "historyEmpty": "Nenhuma solicitação anterior.",
+          "due": "Prazo",
+          "extended": "Prorrogado até",
+          "awaitingVerification": "Aguardando verificação de e-mail",
+          "statuses": {
+            "SUBMITTED": "Aguardando verificação",
+            "VERIFIED": "Verificada",
+            "IN_PROGRESS": "Em andamento",
+            "FULFILLED": "Atendida",
+            "REJECTED": "Rejeitada",
+            "WITHDRAWN": "Retirada"
+          },
+          "outcomes": {
+            "FULFILLED": "Atendida",
+            "PARTIALLY_FULFILLED": "Parcialmente atendida",
+            "REJECTED": "Rejeitada"
+          },
+          "overdue": "Atrasado"
+        },
+        "modalTitle": "Aparência",
+        "modalSubtitle": "Escolha como a Central de contas aparece. Vamos lembrar sua preferência neste dispositivo.",
+        "options": {
+          "lightLabel": "Claro",
+          "lightDescription": "Sempre usa um fundo claro, independentemente da configuração do sistema.",
+          "systemLabel": "Seguir o sistema",
+          "systemDescription": "Muda de acordo com a configuração do seu dispositivo.",
+          "darkLabel": "Escuro",
+          "darkDescription": "Sempre usa um fundo escuro, mais confortável à noite."
+        },
+        "done": "Concluído"
+      },
+      "displayNameSection": {
+        "label": "Nome completo",
+        "subtitle": "Seu nome completo é usado em todas as suas contas e perfis.",
+        "editButton": "Editar",
+        "modalTitle": "Nome completo",
+        "editTitle": "Alterar nome completo",
+        "modalSubtitle": "Para alterar seu nome completo, entre em contato com {email}.",
+        "currentLabel": "Nome atual",
+        "supportNotice": "Para alterar seu nome completo, entre em contato com {email}.",
+        "copyEmail": "Copiar endereço de e-mail",
+        "openEmail": "Abrir e-mail",
+        "mailSubject": "Solicitação para alterar o nome completo",
+        "mailBody": "Olá,\n\nGostaria de alterar meu nome completo.\n\nNome atual: {name}\nNovo nome: \n\nAtenciosamente,\n{name}"
+      },
+      "loading": "Carregando...",
+      "contact": {
+        "subtitle": "Gerencie seus endereços de e-mail e quem pode ver seus dados de contato. Use-os para acessar os perfis e dispositivos desta Central de contas.",
+        "addNew": "Adicionar novo contato",
+        "detailsDescription": "Você adicionou este endereço de e-mail a estas contas.",
+        "whoCanSee": "Quem pode ver seu endereço de e-mail?",
+        "deleting": "Removendo...",
+        "delete": "Remover endereço de e-mail",
+        "deleteFailed": "Não foi possível remover este endereço de e-mail.",
+        "deleted": "Endereço de e-mail removido",
+        "addTitle": "Adicionar um endereço de e-mail",
+        "addSubtitle": "Usamos este endereço de e-mail em suas contas na Central de contas para personalizar sua experiência.",
+        "learnMore": "Saiba mais",
+        "emailLabel": "Endereço de e-mail",
+        "chooseAccounts": "Escolha as contas para este endereço de e-mail",
+        "added": "Endereço de e-mail adicionado",
+        "addFailed": "Algo deu errado. Tente novamente.",
+        "next": "Avançar"
+      },
+      "birthdayModal": {
+        "subtitle": "Adicione sua data de nascimento para que a experiência combine com a sua idade.",
+        "edit": "Editar",
+        "editTitle": "Editar sua data de nascimento",
+        "editSubtitle": "Esta data de nascimento é usada nas contas e perfis desta Central de contas. Qualquer alteração vale para todos eles.",
+        "day": "Dia",
+        "month": "Mês",
+        "year": "Ano",
+        "verificationNotice": "Para alterar sua data de nascimento, você precisa confirmar sua identidade com um documento de identificação válido por meio do nosso parceiro Stripe Identity. Depois de salvar, levaremos você ao fluxo de verificação.",
+        "save": "Salvar",
+        "saveFailed": "Algo deu errado. Tente novamente.",
+        "verificationStartFailed": "Não foi possível iniciar a verificação de identidade.",
+        "completeFailed": "Não foi possível concluir a verificação.",
+        "updated": "Sua data de nascimento foi atualizada após a verificação de identidade.",
+        "dobMismatch": "A data de nascimento no seu documento de identificação não corresponde à que você informou.",
+        "dobUnavailable": "O Stripe não conseguiu ler uma data de nascimento verificável no seu documento de identificação.",
+        "notFinished": "A verificação de identidade ainda não foi concluída."
+      }
+    },
+    "security": {
+      "title": "Senha e segurança",
+      "loadingName": "Usuário",
+      "pageLoadError": "Falha ao carregar as configurações de segurança.",
+      "sections": {
+        "signIn": {
+          "title": "Login e recuperação",
+          "description": "Gerencie suas senhas, preferências de login e métodos de recuperação."
+        },
+        "controls": {
+          "title": "Verificações de segurança",
+          "description": "Analise problemas de segurança verificando apps, dispositivos e e-mails enviados."
+        }
+      },
+      "cards": {
+        "password": {
+          "label": "Alterar senha",
+          "loading": "Carregando...",
+          "set": "Senha definida",
+          "missing": "Nenhuma senha definida"
+        },
+        "twofactor": {
+          "label": "Autenticação em duas etapas",
+          "loading": "Carregando...",
+          "enabled": "Ativado",
+          "disabled": "Ainda não ativado"
+        },
+        "passkeys": {
+          "label": "Chaves de acesso",
+          "loading": "Carregando...",
+          "none": "Nenhuma chave de acesso ainda",
+          "active": "{count} ativas"
+        },
+        "activity": {
+          "label": "Onde você está conectado",
+          "summary": "{total} sessões ativas, {others} em outros dispositivos"
+        },
+        "automated": {
+          "label": "Decisões automatizadas",
+          "summary": "Veja quais regras automáticas protegem sua conta e peça uma análise humana."
+        }
+      },
+      "passwordModal": {
+        "title": "Alterar senha",
+        "subtitle": "Crie uma senha com pelo menos 12 caracteres. Escolha algo que outras pessoas não consigam adivinhar.",
+        "currentPassword": "Senha atual",
+        "newPassword": "Nova senha",
+        "repeatPassword": "Repita a nova senha",
+        "forgotPassword": "Esqueceu a senha?",
+        "logoutOthers": "Sair em outros dispositivos. Escolha isso se outra pessoa usou sua conta.",
+        "submit": "Alterar senha",
+        "pending": "Processando...",
+        "success": "Sua senha foi atualizada.",
+        "mismatch": "As novas senhas não coincidem.",
+        "submitError": "Falha ao alterar a senha.",
+        "logoutOthersTitle": "Sair de outros dispositivos",
+        "logoutOthersHint": "Recomendado se outra pessoa pode ter usado sua conta.",
+        "incorrect": "Sua senha atual está incorreta.",
+        "tooWeak": "Escolha uma senha que atenda a todos os requisitos abaixo."
+      },
+      "twoFactor": {
+        "idleTitle": "Ajude a proteger sua conta",
+        "idleSubtitle": "Configure a autenticação em duas etapas e pediremos um código de login quando alguém entrar de um dispositivo que não reconhecemos.",
+        "manageTitle": "A autenticação em duas etapas está ativada",
+        "manageSubtitle": "Agora pedimos um código de login sempre que você entra de um dispositivo que não reconhecemos.",
+        "appSettingsTitle": "App autenticador",
+        "extraMethodsTitle": "Métodos adicionais",
+        "extraMethodsSubtitle": "Se seus outros métodos de segurança não estiverem disponíveis, você ainda poderá entrar com estas opções.",
+        "recoveryCodesTitle": "Códigos de recuperação",
+        "recoveryCodesSubtitle": "Cada código de recuperação pode ser usado uma vez. Guarde-os em um lugar seguro. Sem eles, você pode perder o acesso se perder o celular ou outro método de login.",
+        "setupTitle": "Instruções de configuração",
+        "namingTitle": "Dê um nome ao dispositivo",
+        "namingSubtitle": "Dê ao app autenticador um nome fácil de reconhecer para saber qual dispositivo você está usando.",
+        "verifyTitle": "Inserir código",
+        "verifySubtitle": "Insira o código de 6 dígitos do seu app autenticador para concluir a configuração.",
+        "successTitle": "A autenticação em duas etapas está ativada",
+        "successSubtitle": "Agora pedimos um código de login sempre que você entra de um dispositivo que não reconhecemos. Quer atualizar suas informações de contato? Acesse Detalhes pessoais na Central de contas.",
+        "verifiedTitle": "Códigos de backup",
+        "verifiedSubtitle": "Guarde estes códigos em um lugar seguro. Você pode usá-los se perder o acesso ao app autenticador.",
+        "learnMore": "Saiba mais",
+        "receiveCodesTitle": "Escolha como quer receber seus códigos",
+        "authenticatorTitle": "App autenticador",
+        "authenticatorDescription": "Receba códigos de uso único em um app como Duo Mobile ou Google Authenticator.",
+        "recommended": "Recomendado",
+        "continue": "Continuar",
+        "working": "Processando...",
+        "enabledSuccess": "A autenticação em duas etapas foi desativada.",
+        "disableError": "Falha ao desativar o app autenticador.",
+        "startError": "Falha ao iniciar a configuração do autenticador.",
+        "verifyError": "Falha ao verificar o app autenticador.",
+        "regenerateError": "Falha ao gerar novos códigos de recuperação.",
+        "downloadError": "Gere um novo conjunto de códigos de recuperação antes de baixá-los.",
+        "recoveryRegenerated": "Novos códigos de recuperação foram gerados.",
+        "manage": {
+          "receiveCodesTitle": "Receber códigos de login",
+          "authenticatorDescription": "Você recebe um código de login pelo seu app autenticador.",
+          "additionalMethodsTitle": "Métodos adicionais",
+          "additionalMethodsDescription": "Veja como você ainda pode entrar com segurança se outros métodos não estiverem disponíveis."
+        },
+        "appSettings": {
+          "title": "App autenticador",
+          "description": "Você recebe um código de login pelo seu app autenticador.",
+          "connectedDevicesTitle": "Dispositivos conectados",
+          "add": "Adicionar",
+          "connectedDevicesDescription": "Você pode adicionar vários dispositivos para que cada um deles receba códigos de login de 6 dígitos de um app autenticador nele.",
+          "noDevices": "Nenhum dispositivo conectado ainda",
+          "lastUsed": "Último uso: {date}",
+          "added": "Adicionado: {date}",
+          "active": "App autenticador ativo"
+        },
+        "extraMethods": {
+          "recoveryCodesTitle": "Códigos de recuperação",
+          "recoveryCodesDescription": "Use estes códigos quando não tiver acesso ao celular."
+        },
+        "recoveryCodes": {
+          "download": "Baixar códigos",
+          "regenerate": "Obter novos códigos",
+          "existing": "Você tem {count} códigos de recuperação não usados. Clique em \"Obter novos códigos\" para gerar um novo conjunto.",
+          "empty": "Você ainda não tem códigos de recuperação visíveis nesta sessão. Clique em \"Obter novos códigos\" para gerar um novo conjunto."
+        },
+        "setup": {
+          "step1Title": "1. Baixe um app autenticador",
+          "step1Description": "Recomendamos baixar o Duo Mobile ou o Google Authenticator se você ainda não tiver um instalado.",
+          "step2Title": "2. Escaneie este QR code ou copie a chave",
+          "step2Description": "Escaneie este QR code no app autenticador ou copie a chave e cole no app.",
+          "copyKey": "Copiar chave",
+          "step3Title": "3. Copie o código de seis dígitos e insira-o",
+          "step3Description": "Depois de escanear o QR code ou inserir a chave, seu app vai gerar um código de 6 dígitos. Toque em Inserir código abaixo.",
+          "enterCode": "Inserir código",
+          "qrAlt": "Código QR para seu app autenticador"
+        },
+        "naming": {
+          "label": "Nome do dispositivo (por exemplo: iPhone do Stijn)",
+          "next": "Próximo"
+        },
+        "verify": {
+          "label": "Código do app autenticador",
+          "submit": "Verificar código"
+        },
+        "success": {
+          "done": "Concluído"
+        },
+        "ui": {
+          "on": "Ativada",
+          "turnOff": "Desativar",
+          "turnOffConfirm": "Desativar a autenticação em duas etapas? Para entrar, será necessária apenas sua senha.",
+          "cancel": "Cancelar",
+          "copyKey": "Copiar",
+          "copied": "Copiado",
+          "manualKey": "Chave de configuração",
+          "status": "Status"
+        },
+        "recoveryDocument": {
+          "rowTitle": "Arquivo de recuperação",
+          "rowDescription": "Um PDF que faz você entrar quando é enviado, sem senha nem código.",
+          "otherMethodsTitle": "Outras formas de acessar",
+          "title": "Arquivo de recuperação",
+          "subtitle": "Um PDF que você envia ao entrar. Ele faz você entrar na hora, sem senha nem código. Útil se você perder o celular ou esquecer a senha.",
+          "download": "Baixar arquivo de recuperação",
+          "downloading": "Criando seu arquivo…",
+          "downloaded": "Baixado. Guarde o arquivo em um lugar seguro.",
+          "made": "Criado em {date}",
+          "lastUsed": "Último uso em {date}",
+          "notUsed": "Ainda não usado",
+          "remove": "Remover",
+          "removeConfirm": "Remover seu arquivo de recuperação? Ele deixa de funcionar na hora.",
+          "removed": "Arquivo de recuperação removido.",
+          "cancel": "Cancelar",
+          "newTitle": "Precisa de um novo arquivo?",
+          "newText": "Você só pode baixar um arquivo uma vez. Para obter um novo, confirme com um código que enviamos por e-mail. O arquivo atual deixa de funcionar.",
+          "requestCode": "Enviar um código por e-mail",
+          "sending": "Enviando…",
+          "codeSent": "Enviamos um código para {email}.",
+          "codeLabel": "Código",
+          "confirmDownload": "Confirmar e baixar",
+          "loadError": "Não foi possível carregar isso agora. Tente novamente mais tarde.",
+          "errors": {
+            "code_invalid": "Esse código não está correto. Verifique o e-mail e tente novamente.",
+            "code_expired": "Este código expirou. Peça um novo.",
+            "rate_limited": "Muitas tentativas. Tente novamente mais tarde.",
+            "send_failed": "Não foi possível enviar o e-mail agora. Tente novamente mais tarde.",
+            "generic": "Algo deu errado. Tente novamente mais tarde."
+          },
+          "points": [
+            {
+              "title": "Baixe uma vez",
+              "text": "Você só pode baixar o arquivo agora. Para um novo depois, você confirma com um código que enviamos por e-mail."
+            },
+            {
+              "title": "Guarde em segurança",
+              "text": "Por exemplo impresso ou em uma unidade criptografada. Qualquer pessoa com este arquivo pode entrar na sua conta, então não o envie por e-mail nem o compartilhe."
+            },
+            {
+              "title": "Entre com ele",
+              "text": "Digite seu e-mail ao entrar, escolha \"Esqueceu a senha?\", depois \"Entrar com um arquivo de recuperação\" e envie o PDF."
+            }
+          ]
+        }
+      },
+      "passkeysModal": {
+        "title": "Chaves de acesso",
+        "subtitle": "Chaves de acesso são uma forma segura e fácil de entrar sem senha. Você pode usar sua impressão digital, seu rosto ou o bloqueio de tela do dispositivo.",
+        "add": "Adicionar chave de acesso",
+        "empty": "Você ainda não adicionou nenhuma chave de acesso.",
+        "unnamed": "Chave de acesso sem nome",
+        "addedOn": "Adicionada em {date}",
+        "lastUsed": "Último uso {date}",
+        "never": "Nunca usada",
+        "delete": "Excluir",
+        "count": "Você tem {count} chaves de acesso ativas.",
+        "none": "Você ainda não configurou nenhuma chave de acesso.",
+        "success": "Chave de acesso registrada com sucesso!",
+        "error": "Falha ao registrar a chave de acesso.",
+        "pending": "Registrando...",
+        "emptyTitle": "Nenhuma chave de acesso ainda",
+        "emptyText": "Adicione uma para entrar com sua impressão digital, rosto ou bloqueio de tela do dispositivo em vez da senha. Sua senha continua funcionando.",
+        "deleteConfirm": "Remover esta chave de acesso? Você não poderá mais entrar com ela.",
+        "cancel": "Cancelar",
+        "removing": "Removendo...",
+        "createTitle": "Criar uma chave de acesso",
+        "createSubtitle": "Uma chave de acesso permite entrar com sua impressão digital, rosto ou bloqueio de tela do dispositivo. Ela fica guardada no seu dispositivo ou gerenciador de senhas e nunca sai dele.",
+        "nameLabel": "Nome da chave de acesso",
+        "nameHint": "Para você diferenciar suas chaves de acesso, por exemplo pelo dispositivo ou gerenciador de senhas em que está salva.",
+        "whatHappensTitle": "O que acontece em seguida",
+        "whatHappens1": "Seu navegador ou gerenciador de senhas pergunta onde salvar a chave de acesso.",
+        "whatHappens2": "Confirme com sua impressão digital, rosto ou bloqueio de tela.",
+        "whatHappens3": "A partir daí, você pode escolher a chave de acesso ao entrar.",
+        "create": "Criar chave de acesso",
+        "waiting": "Siga as instruções do seu navegador ou gerenciador de senhas…",
+        "cancelled": "Nenhuma chave de acesso foi criada. Você pode tentar novamente.",
+        "doneTitle": "Chave de acesso adicionada",
+        "doneSubtitle": "Agora você pode entrar com \"{name}\". Sua senha também continua funcionando.",
+        "done": "Concluído",
+        "back": "Voltar",
+        "removeError": "Não foi possível remover a chave de acesso. Tente novamente.",
+        "defaultName": "{browser} em {system}",
+        "rowDescription": "Entre com sua impressão digital, seu rosto ou o PIN do dispositivo."
+      },
+      "activityModal": {
+        "title": "Atividade de login da conta",
+        "subtitle": "Onde sua conta está conectada agora. Saia de qualquer dispositivo que você não reconheça.",
+        "unknownDevice": "Dispositivo desconhecido",
+        "unknownLocation": "Local desconhecido",
+        "currentDevice": "Este dispositivo",
+        "lastActive": "Última atividade {date}",
+        "revoke": "Sair",
+        "revokePending": "Processando...",
+        "revokeAllTitle": "Logins em outros dispositivos",
+        "revokeAll": "Sair de todos os outros dispositivos",
+        "revokeAllPending": "Processando...",
+        "revokeSuccess": "A sessão foi revogada.",
+        "revokeAllSuccess": "Todas as outras sessões foram encerradas.",
+        "revokeError": "Falha ao revogar a sessão.",
+        "viewMore": "+ {count} outros dispositivos",
+        "activeNow": "Ativo agora",
+        "thisDeviceTitle": "Este dispositivo",
+        "otherEmpty": "Você não está conectado em nenhum outro dispositivo.",
+        "showAll": "Mostrar todos ({count})",
+        "revokeAllConfirm": "Sair de todos os outros {count} dispositivos? Quem estiver usando precisará entrar novamente.",
+        "cancel": "Cancelar"
+      },
+      "automatedDecisions": {
+        "title": "Decisões automatizadas",
+        "description": "Algumas decisões de proteção da conta são tomadas automaticamente com base em sinais como padrões de login e atividade suspeita. Você pode pedir que uma pessoa da Ordnary analise o resultado.",
+        "back": "Voltar",
+        "close": "Fechar",
+        "loading": "Carregando…",
+        "currentStateTitle": "Estado automatizado atual",
+        "riskLabels": {
+          "LOW": "Risco baixo",
+          "MEDIUM": "Risco médio",
+          "HIGH": "Risco alto"
+        },
+        "statusLabels": {
+          "ACTIVE": "Ativa",
+          "SUSPENDED": "Suspensa temporariamente",
+          "DEACTIVATED": "Desativada",
+          "DELETED": "Exclusão pendente"
+        },
+        "suspendedExplanation": "Sua conta está restrita no momento por uma regra automática. Você pode pedir uma análise humana abaixo. Uma pessoa da Ordnary vai examinar os sinais e sua declaração e confirmar ou reverter a decisão.",
+        "elevatedExplanation": "O nível de risco da sua conta foi elevado com base em atividade recente. Você pode pedir uma análise humana se achar que os sinais estão errados.",
+        "okExplanation": "Não sinalizamos nenhuma restrição automática na sua conta. Você ainda pode pedir a análise de qualquer decisão anterior abaixo.",
+        "lastEvaluated": "Última avaliação",
+        "signalsTitle": "Sinais de segurança recentes",
+        "signalsEmpty": "Nenhum sinal de segurança foi registrado recentemente.",
+        "appealTitle": "Pedir análise humana",
+        "appealSubtitle": "Um analista da Ordnary vai examinar a decisão automática, sua declaração e os sinais que a originaram. Procuramos responder em um prazo razoável.",
+        "pickReason": "O que você está contestando?",
+        "reasons": {
+          "SUSPENSION_APPEAL": "Acho que a suspensão está errada",
+          "RISK_LEVEL_OBJECTION": "Acho que meu nível de risco está incorreto",
+          "SECURITY_EVENT_OBJECTION": "Quero contestar um sinal de segurança específico",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Quero que uma pessoa analise decisões automatizadas da minha conta"
+        },
+        "reasonDescriptions": {
+          "SUSPENSION_APPEAL": "Sua conta está suspensa no momento e você gostaria que essa decisão fosse analisada.",
+          "RISK_LEVEL_OBJECTION": "Seu nível de risco está mais alto do que o esperado e você gostaria que fosse reavaliado.",
+          "SECURITY_EVENT_OBJECTION": "Um evento de segurança específico foi registrado e você não o reconhece.",
+          "GENERAL_AUTOMATED_DECISION_REVIEW": "Você quer que uma pessoa analise as decisões automatizadas da sua conta."
+        },
+        "yourStatement": "Sua declaração (opcional)",
+        "statementPlaceholder": "Conte o que devemos saber, por exemplo, que você estava viajando, usou um dispositivo novo ou alguém tem tentado invadir sua conta.",
+        "statementCounter": "{count} / {max}",
+        "submit": "Enviar pedido de análise",
+        "submitting": "Enviando...",
+        "submitted": "Recebemos seu pedido e entraremos em contato.",
+        "pendingTitle": "Análise em andamento",
+        "pendingSubtitle": "Uma pessoa da Ordnary está analisando seu pedido. Você será avisado quando houver novidades.",
+        "withdraw": "Retirar pedido",
+        "withdrawing": "Retirando...",
+        "withdrawn": "Pedido retirado.",
+        "withdrawableHint": "Você pode retirar este pedido a qualquer momento.",
+        "historyTitle": "Pedidos de análise anteriores",
+        "historyEmpty": "Nenhum pedido de análise anterior.",
+        "outcomes": {
+          "UPHELD": "Mantida",
+          "OVERTURNED": "Revertida",
+          "ADJUSTED": "Ajustada",
+          "ESCALATED": "Encaminhada"
+        },
+        "statuses": {
+          "PENDING": "Pendente",
+          "IN_REVIEW": "Em análise",
+          "RESOLVED": "Resolvido",
+          "WITHDRAWN": "Retirado"
+        },
+        "loadError": "Não foi possível carregar os detalhes das decisões automatizadas.",
+        "alreadyOpen": "Você já tem um pedido de análise aberto.",
+        "cooldown": "Você poderá enviar um novo pedido de análise em {hours} hora(s). Esse intervalo ajuda o analista a chegar ao pedido anterior.",
+        "showAll": "Mostrar todos ({count})",
+        "showLess": "Mostrar menos"
+      },
+      "previewBadge": "Prévia",
+      "previewBadgeTooltip": "Novo e ainda em aprimoramento. As chaves de acesso funcionam, mas os detalhes podem mudar."
+    },
+    "connections": {
+      "title": "Apps conectados",
+      "description": "Aplicativos que têm acesso aos dados da sua conta Ordnary.",
+      "empty": "Você ainda não conectou nenhum app.",
+      "authorizedScopes": "Escopos autorizados: {scopes}",
+      "granted": "Concedido: {date}",
+      "revoke": "Revogar acesso"
+    },
+    "devices": {
+      "title": "Dispositivos e sessões",
+      "description": "Gerencie suas sessões ativas em diferentes dispositivos.",
+      "logoutOthers": "Sair de todos os outros dispositivos",
+      "headers": {
+        "device": "Dispositivo",
+        "location": "Local / IP",
+        "lastActive": "Última atividade",
+        "type": "Tipo",
+        "actions": "Ações"
+      },
+      "unknownDevice": "Dispositivo desconhecido",
+      "currentSession": "(Sessão atual)",
+      "typeFormat": "{browser} em {os}",
+      "revoke": "Revogar"
+    },
+    "passkeysPage": {
+      "title": "Chaves de acesso",
+      "description": "Gerencie sua biometria e chaves de hardware para login sem senha.",
+      "add": "+ Adicionar nova chave de acesso",
+      "empty": "Você ainda não adicionou nenhuma chave de acesso.",
+      "unnamed": "Chave de acesso sem nome",
+      "addedOn": "Adicionada em: {date}",
+      "lastUsed": "Último uso: {date}",
+      "never": "Nunca",
+      "delete": "Excluir"
+    },
+    "activity": {
+      "title": "Atividade recente",
+      "description": "Revise e monitore eventos e alterações importantes relacionados à segurança da sua conta.",
+      "details": "Detalhes",
+      "dates": {
+        "today": "Hoje, 17 de abril",
+        "yesterday": "Ontem, 16 de abril"
+      },
+      "types": {
+        "LOGIN_SUCCESS": "Login feito",
+        "LOGIN_FAILED": "Falha no login",
+        "LOGIN_LOCKED": "Login bloqueado",
+        "LOGOUT": "Saiu da conta",
+        "SESSION_CREATED": "Sessão criada",
+        "SESSION_REVOKED": "Sessão encerrada",
+        "SESSION_ALL_REVOKED": "Saiu de todos os dispositivos",
+        "PASSWORD_SET": "Senha definida",
+        "PASSWORD_CHANGED": "Senha alterada",
+        "PASSWORD_RESET_REQUESTED": "Redefinição de senha solicitada",
+        "PASSWORD_RESET_COMPLETED": "Senha redefinida",
+        "PASSKEY_REGISTERED": "Chave de acesso registrada",
+        "PASSKEY_USED": "Login com uma chave de acesso",
+        "PASSKEY_REMOVED": "Chave de acesso removida",
+        "PASSKEY_COUNTER_MISMATCH": "Alerta de chave de acesso",
+        "MFA_ENABLED": "Autenticação em duas etapas ativada",
+        "MFA_DISABLED": "Autenticação em duas etapas desativada",
+        "MFA_FACTOR_ENROLLED": "App autenticador adicionado",
+        "MFA_FACTOR_VERIFIED": "App autenticador confirmado",
+        "MFA_FACTOR_REVOKED": "App autenticador removido",
+        "RECOVERY_CODES_GENERATED": "Novos códigos de recuperação",
+        "RECOVERY_CODE_USED": "Código de recuperação usado",
+        "STEP_UP_REQUIRED": "Confirmação solicitada",
+        "STEP_UP_COMPLETED": "Identidade confirmada",
+        "EMAIL_ADDED": "Endereço de e-mail adicionado",
+        "EMAIL_VERIFIED": "Endereço de e-mail confirmado",
+        "EMAIL_REMOVED": "Endereço de e-mail removido",
+        "EMAIL_PRIMARY_CHANGED": "E-mail principal alterado",
+        "ACCOUNT_CREATED": "Conta criada",
+        "ACCOUNT_UPDATED": "Conta atualizada",
+        "ACCOUNT_DELETED": "Exclusão da conta iniciada",
+        "ACCOUNT_REACTIVATED": "Conta reativada",
+        "OAUTH_CONSENT_GRANTED": "Acesso concedido a um app",
+        "OAUTH_CONSENT_REVOKED": "Acesso de um app removido",
+        "OAUTH_TOKEN_ISSUED": "App conectado",
+        "OAUTH_TOKEN_REVOKED": "App desconectado",
+        "SUSPICIOUS_NEW_LOCATION": "Login de um novo local",
+        "SUSPICIOUS_NEW_DEVICE": "Login em um novo dispositivo",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Login incomum",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Preferências de e-mail alteradas",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Inscrição cancelada",
+        "PRIVACY_REQUEST_FILED": "Solicitação de privacidade enviada",
+        "PRIVACY_REQUEST_RESOLVED": "Solicitação de privacidade tratada",
+        "DSAR_FILED": "Solicitação de dados enviada",
+        "DSAR_FULFILLED": "Solicitação de dados atendida",
+        "DSAR_REJECTED": "Solicitação de dados recusada",
+        "RISK_REVIEW_REQUESTED": "Revisão solicitada",
+        "RISK_REVIEW_RESOLVED": "Revisão concluída"
+      },
+      "severities": {
+        "INFO": "Informações",
+        "MEDIUM": "Médio",
+        "HIGH": "Alto",
+        "CRITICAL": "Crítico",
+        "LOW": "Baixo"
+      },
+      "empty": "Ainda não há atividade na sua conta.",
+      "filters": {
+        "all": "Tudo",
+        "account": "Alterações na conta",
+        "security": "Alertas de segurança"
+      },
+      "retention": "A atividade fica guardada por {days} dias. Você pode mudar isso em {link}.",
+      "retentionLink": "Suas informações e permissões",
+      "emptyFiltered": "Nada para mostrar nesta visualização.",
+      "explanations": {
+        "LOGIN_SUCCESS": "Alguém entrou na sua conta com a senha ou um código de login.",
+        "LOGIN_FAILED": "Alguém tentou entrar na sua conta, mas a senha ou o código estava errado. Algumas tentativas assim geralmente são um erro de digitação.",
+        "LOGIN_LOCKED": "Depois de muitas tentativas erradas, o login na sua conta foi bloqueado por um tempo para protegê-la.",
+        "LOGOUT": "Uma sessão da sua conta foi encerrada.",
+        "SESSION_CREATED": "Foi feito login na sua conta em um dispositivo ou navegador, o que iniciou uma nova sessão.",
+        "SESSION_REVOKED": "Uma sessão da sua conta foi encerrada, por você ou porque não era mais seguro mantê-la.",
+        "SESSION_ALL_REVOKED": "Sua conta foi desconectada de todos os outros dispositivos.",
+        "PASSWORD_SET": "Uma senha foi adicionada à sua conta.",
+        "PASSWORD_CHANGED": "A senha da sua conta foi alterada.",
+        "PASSWORD_RESET_REQUESTED": "Um código para redefinir sua senha foi enviado para seu endereço de e-mail.",
+        "PASSWORD_RESET_COMPLETED": "Sua senha foi redefinida com um código do seu e-mail, e você foi desconectado de todos os dispositivos.",
+        "PASSKEY_REGISTERED": "Uma chave de acesso foi adicionada, então você pode entrar com seu dispositivo em vez de uma senha.",
+        "PASSKEY_USED": "Alguém entrou na sua conta com uma das chaves de acesso dela.",
+        "PASSKEY_REMOVED": "Uma chave de acesso foi removida e não pode mais ser usada para entrar.",
+        "PASSKEY_COUNTER_MISMATCH": "Uma chave de acesso informou algo inesperado, o que pode significar que ela foi copiada. O login foi recusado.",
+        "MFA_ENABLED": "Agora o login também pede um código do seu app autenticador.",
+        "MFA_DISABLED": "O login não pede mais um código do seu app autenticador.",
+        "MFA_FACTOR_ENROLLED": "Um app autenticador foi vinculado à sua conta.",
+        "MFA_FACTOR_VERIFIED": "Um código do seu app autenticador foi confirmado.",
+        "MFA_FACTOR_REVOKED": "Um app autenticador foi removido da sua conta.",
+        "RECOVERY_CODES_GENERATED": "Um novo conjunto de códigos de recuperação foi criado. Os códigos antigos não funcionam mais.",
+        "RECOVERY_CODE_USED": "Alguém entrou com um dos seus códigos de recuperação em vez de um código do autenticador. Esse código não pode ser usado de novo.",
+        "STEP_UP_REQUIRED": "Antes de uma alteração importante, foi pedido que você confirmasse sua identidade com um código por e-mail.",
+        "STEP_UP_COMPLETED": "Um código por e-mail confirmou que era você, o que permitiu uma alteração importante por um tempo.",
+        "EMAIL_ADDED": "Um endereço de e-mail foi adicionado à sua conta e recebeu um link de confirmação.",
+        "EMAIL_VERIFIED": "Um endereço de e-mail da sua conta foi confirmado.",
+        "EMAIL_REMOVED": "Um endereço de e-mail foi removido da sua conta.",
+        "EMAIL_PRIMARY_CHANGED": "Outro endereço de e-mail passou a ser o endereço principal da sua conta, para login e mensagens.",
+        "ACCOUNT_CREATED": "Sua conta Ordnary foi criada.",
+        "ACCOUNT_UPDATED": "Uma configuração ou informação da sua conta foi alterada.",
+        "ACCOUNT_DELETED": "Sua conta foi marcada para exclusão. Ela pode ser restaurada por 30 dias.",
+        "ACCOUNT_REACTIVATED": "Sua conta foi reativada depois de ter sido desativada ou excluída.",
+        "OAUTH_CONSENT_GRANTED": "Um app recebeu acesso à sua conta com o Ordnary ID.",
+        "OAUTH_CONSENT_REVOKED": "Um app não tem mais acesso à sua conta.",
+        "OAUTH_TOKEN_ISSUED": "Um app que você usa com o Ordnary ID recebeu um novo token de login.",
+        "OAUTH_TOKEN_REVOKED": "Um token de login de um app foi revogado.",
+        "SUSPICIOUS_NEW_LOCATION": "Sua conta foi usada de um local de onde nunca tinha sido usada antes.",
+        "SUSPICIOUS_NEW_DEVICE": "Sua conta foi usada em um dispositivo em que nunca tinha sido usada antes.",
+        "SUSPICIOUS_IMPOSSIBLE_TRAVEL": "Sua conta foi usada de dois locais distantes demais para uma pessoa se deslocar entre eles nesse tempo.",
+        "NOTIFICATION_PREFERENCE_CHANGED": "Os e-mails que o Ordnary pode enviar para você foram alterados.",
+        "NOTIFICATION_UNSUBSCRIBE_LINK_USED": "Um link de cancelamento de inscrição em um e-mail desativou um tipo de e-mail.",
+        "PRIVACY_REQUEST_FILED": "Foi enviada uma solicitação de oposição ou de restrição ao tratamento dos seus dados.",
+        "PRIVACY_REQUEST_RESOLVED": "O Ordnary tratou sua solicitação de oposição ou de restrição ao tratamento.",
+        "DSAR_FILED": "Foi enviada uma solicitação sobre seus dados (acesso, correção, exclusão ou uma cópia).",
+        "DSAR_FULFILLED": "O Ordnary atendeu sua solicitação de dados.",
+        "DSAR_REJECTED": "O Ordnary recusou sua solicitação de dados; o e-mail explica o motivo.",
+        "RISK_REVIEW_REQUESTED": "Foi solicitada a revisão de uma decisão automatizada sobre sua conta.",
+        "RISK_REVIEW_RESOLVED": "Uma pessoa do Ordnary revisou uma decisão automatizada sobre sua conta."
+      },
+      "detail": {
+        "ifNotYou": "Não foi você? Altere sua senha e saia dos seus outros dispositivos em Senha e segurança.",
+        "ifNotYouLink": "Ir para Senha e segurança",
+        "generic": "Isto foi registrado na sua conta.",
+        "labels": {
+          "when": "Quando",
+          "where": "Onde",
+          "ip": "Endereço IP",
+          "session": "Sessão",
+          "thisDevice": "Este dispositivo",
+          "event": "Evento",
+          "source": "Registrado em",
+          "severity": "Importância"
+        },
+        "sources": {
+          "AUDIT_LOG": "Registro da conta",
+          "SECURITY_EVENT": "Monitoramento de segurança"
+        },
+        "unknown": "Desconhecido",
+        "times": "{count}×",
+        "timeSpan": "{from} a {to}"
+      },
+      "showMore": "Mostrar dias anteriores",
+      "loadingMore": "Carregando…",
+      "end": "Essa é toda a atividade guardada.",
+      "loadFailed": "Não foi possível carregar mais. Tente novamente."
+    },
+    "connectedAppsDemo": {
+      "title": "Apps conectados",
+      "description": "Aplicativos e serviços de terceiros aos quais você deu acesso a alguns dados da sua conta.",
+      "badges": {
+        "official": "Oficial",
+        "verified": "Verificado"
+      },
+      "accessed": "Acessado {value}",
+      "revoke": "Revogar acesso",
+      "apps": {
+        "consoleReason": "Gerencie seus recursos de nuvem e pipelines de implantação.",
+        "figmaReason": "Ferramenta de design usada para prototipagem colaborativa.",
+        "unknownGameName": "Jogo desconhecido",
+        "unknownGameReason": "Um app não verificado que solicitou as informações do seu perfil.",
+        "currentSession": "Sessão atual",
+        "twoDaysAgo": "2 dias atrás",
+        "lastMonth": "Mês passado"
+      }
+    },
+    "permissions": {
+      "title": "Suas informações e permissões",
+      "exportTitle": "Exportar suas informações",
+      "searchHistory": "Atividade na Ordnary",
+      "externalActivity": "Sua atividade fora das tecnologias da Ordnary",
+      "appConnections": "Conexões de apps",
+      "manageContacts": "Gerenciar contatos",
+      "notice": "Acesse Exportar suas informações para baixar ou transferir uma cópia das suas informações.",
+      "footer": "Decida quais informações as tecnologias da Ordnary podem usar para influenciar suas experiências.",
+      "privacyRightsTitle": "Seus direitos de privacidade",
+      "dsarTitle": "Solicitações de privacidade e dados",
+      "dsarSubtitle": "Envie uma solicitação formal de acesso, retificação, eliminação ou portabilidade (art. 15-20).",
+      "privacyRequestsTitle": "Opor-se ou restringir",
+      "privacyRequestsSubtitle": "Oponha-se a atividades de tratamento específicas ou restrinja-as (art. 18 / art. 21).",
+      "processorsTitle": "Quem processa os seus dados",
+      "processorsSubtitle": "As empresas que usamos para operar o Ordnary, o que elas recebem e onde guardam.",
+      "cookiesTitle": "Preferências de cookies",
+      "cookiesSubtitle": "Gerencie quais cookies a Ordnary pode usar neste navegador.",
+      "minorConsentTitle": "Consentimento dos pais",
+      "minorConsentSubtitle": "Se você tem menos que a idade de consentimento no seu país, um dos pais ou responsável precisa concordar (art. 8 do RGPD).",
+      "notificationsTitle": "Preferências de notificação",
+      "notificationsSubtitle": "Escolha quais tipos de e-mail a Ordnary pode enviar a você.",
+      "notifications": {
+        "title": "Preferências de notificação",
+        "close": "Fechar",
+        "loading": "Carregando…",
+        "alwaysOn": "Sempre ativo",
+        "description": "Escolha quais e-mails você recebe da Ordnary.",
+        "loadError": "Não conseguimos carregar isso agora. Tente novamente mais tarde.",
+        "saveError": "Não conseguimos salvar. Tente novamente.",
+        "saved": "Salvo.",
+        "alwaysTitle": "Sempre ativos",
+        "alwaysText": "Esses e-mails mantêm sua conta segura e confirmam o que você pediu, por isso continuam ativos.",
+        "choiceTitle": "Sua escolha",
+        "turnAllOff": "Desativar todos os e-mails opcionais",
+        "categoryLabels": {
+          "TRANSACTIONAL_SECURITY": "Alertas de segurança",
+          "TRANSACTIONAL_ACCOUNT": "Mensagens da conta",
+          "PRODUCT_UPDATES": "Novidades dos produtos",
+          "RECOMMENDATIONS": "Recomendações",
+          "MARKETING": "Notícias e ofertas"
+        },
+        "categoryDescriptions": {
+          "TRANSACTIONAL_SECURITY": "Códigos de login, redefinições de senha e alertas sobre novos logins ou mudanças na sua segurança.",
+          "TRANSACTIONAL_ACCOUNT": "Confirmações do que você fez, como uma exportação de dados, uma solicitação de privacidade ou o consentimento dos pais.",
+          "PRODUCT_UPDATES": "As novidades dos produtos da Ordnary e mudanças nos nossos termos.",
+          "RECOMMENDATIONS": "Sugestões com base em como você usa a Ordnary.",
+          "MARKETING": "Newsletters e ofertas, de vez em quando."
+        }
+      },
+      "minorConsent": {
+        "title": "Consentimento dos pais",
+        "description": "Se você tem menos que a idade em que pode concordar sozinho com coisas online, um dos pais ou responsável precisa concordar antes que possamos usar algumas das suas informações. Isso vem do artigo 8 do RGPD.",
+        "close": "Fechar",
+        "loading": "Carregando…",
+        "loadError": "Não foi possível carregar isto agora. Tente novamente mais tarde.",
+        "consentAge": "Idade de consentimento em {country}: {age}",
+        "yourAge": "Sua idade: {age}",
+        "adultTitle": "Não necessário",
+        "adultBody": "Você tem idade suficiente para concordar sozinho, então não precisa do consentimento dos pais.",
+        "unknownTitle": "Ainda não sabemos sua idade",
+        "unknownBody": "Adicione sua data de nascimento para sabermos se você precisa do consentimento dos pais.",
+        "unknownAction": "Adicionar data de nascimento",
+        "blockedTitle": "Consentimento necessário",
+        "blockedBody": "Até que um dos pais ou responsável concorde, algumas partes da sua conta ficam limitadas.",
+        "pendingTitle": "Aguardando seu pai, mãe ou responsável",
+        "pendingBody": "Enviamos um pedido para {email}. O link funciona até {date}.",
+        "verifiedTitle": "Consentimento dado",
+        "verifiedBody": "{email} concordou em {date}.",
+        "parentEmail": "E-mail do pai, mãe ou responsável",
+        "relationship": "Quem é essa pessoa, por exemplo, mãe (opcional)",
+        "addMessage": "Adicionar uma mensagem (opcional)",
+        "notes": "Mensagem para seu pai, mãe ou responsável",
+        "submit": "Enviar pedido",
+        "submitting": "Enviando…",
+        "resend": "Enviar novamente",
+        "changeEmail": "Usar outro e-mail",
+        "cancel": "Cancelar",
+        "revoke": "Retirar",
+        "revokeConfirm": "Retirar o consentimento? Partes da sua conta ficarão limitadas novamente até que um dos pais ou responsável concorde de novo.",
+        "revoking": "Retirando…",
+        "revoked": "Consentimento retirado.",
+        "notMinor": "Você tem idade suficiente para concordar sozinho.",
+        "invalidEmail": "Digite um endereço de e-mail válido.",
+        "requestSent": "Pedido enviado para {email}.",
+        "points": [
+          {
+            "title": "Digite o e-mail deles",
+            "text": "O endereço de e-mail de um dos pais ou responsável."
+          },
+          {
+            "title": "Eles concordam",
+            "text": "Eles recebem um e-mail com um link para concordar. O link funciona por 14 dias."
+          },
+          {
+            "title": "Sua conta funciona por completo",
+            "text": "Quando eles concordarem, os limites da sua conta são removidos."
+          }
+        ]
+      },
+      "exportModalSubtitle": "Você pode exportar uma cópia das suas informações para um serviço externo ou para o seu dispositivo. Os dados disponíveis incluem conteúdo e informações que você compartilhou, sua atividade e informações que coletamos.",
+      "exportButton": "Enviar link de download",
+      "exportModalContentsTitle": "O que está incluído na sua exportação:",
+      "exportModalContents": [
+        "Dados do perfil e configurações da conta",
+        "Endereços de e-mail e números de telefone",
+        "Configurações de segurança (chaves de acesso, MFA, dispositivos)",
+        "Histórico de sessões e logins",
+        "Dados de pagamento",
+        "Apps conectados e consentimentos OAuth",
+        "Registro de atividade e eventos de segurança",
+        "Consentimentos de privacidade e cookies"
+      ],
+      "exportModalFormat": "Formato: arquivo ZIP com arquivos JSON estruturados e um README legível.",
+      "exportModalRateLimit": "Você receberá um e-mail com um link de download de uso único. No máximo 3 exportações a cada 24 horas.",
+      "exportDownload": {
+        "loading": "Só um momento...",
+        "readyTitle": "Sua exportação de dados está pronta",
+        "readyDescription": "Clique no botão abaixo para baixar os dados da sua conta como um arquivo ZIP. Este link é de uso único e expira após 24 horas.",
+        "downloadButton": "Baixar seus dados",
+        "readyHint": "O arquivo contém todos os seus dados pessoais, configurações de segurança, registro de atividade e mais, em arquivos JSON estruturados.",
+        "downloadingTitle": "Baixando...",
+        "downloadingDescription": "Sua exportação está sendo preparada. Isso pode levar alguns segundos.",
+        "successTitle": "Download iniciado",
+        "successDescription": "Sua exportação de dados está sendo baixada. Guarde o arquivo em um lugar seguro, pois ele contém informações pessoais sensíveis.",
+        "successHint": "Este link de download expirou. Se precisar de uma nova exportação, você pode pedir uma nas configurações da sua conta.",
+        "backToSettings": "Voltar às configurações da conta",
+        "expiredTitle": "Link expirado",
+        "expiredDescription": "Este link de download expirou ou já foi usado. Os links de download são válidos por 24 horas e só podem ser usados uma vez.",
+        "newExportButton": "Pedir nova exportação",
+        "errorTitle": "Algo deu errado",
+        "errorDefault": "Ocorreu um erro ao obter sua exportação.",
+        "noToken": "Nenhum token de download encontrado."
+      },
+      "appConnectionsModalSubtitle": "Com as conexões de apps, você pode fazer coisas em vários produtos da Ordnary e com outras empresas.",
+      "connectButton": "Conectar",
+      "activityModalSubtitle": "Veja e gerencie sua atividade no ecossistema da Ordnary, incluindo nossos produtos e aplicativos SaaS. Usamos essas informações para aprender com seu comportamento e otimizar sua experiência em todas as nossas plataformas.",
+      "accountsAndProfiles": "Suas contas e perfis",
+      "keepActivityFor": "Manter atividade por",
+      "clearActivityButton": "Limpar toda a atividade",
+      "days3": "3 dias",
+      "days7": "7 dias",
+      "days14": "14 dias",
+      "standardOption": "Padrão",
+      "noticeTitle": "Receba uma cópia das suas informações",
+      "noticeText": "Baixe os dados da sua conta para guardá-los ou levá-los para outro serviço.",
+      "noticeAction": "Exportar informações",
+      "experimentBadge": "Experimento",
+      "userFallback": "Usuário",
+      "avatarAlt": "Foto de perfil",
+      "exportSent": "Link de download enviado para {email}",
+      "exportFailed": "Falha na exportação. Tente novamente.",
+      "exportInProgress": "Uma exportação já está sendo preparada. Tente novamente em instantes.",
+      "exportRateLimited": "Você atingiu o número máximo de exportações. Tente novamente em {time}.",
+      "saveFailed": "Não foi possível salvar. Tente novamente.",
+      "days30": "30 dias",
+      "autoClear": {
+        "title": "Limpar automaticamente a atividade na Ordnary",
+        "subtitle": "Escolha por quanto tempo guardamos sua atividade. A atividade mais antiga é removida automaticamente, para todas as contas e perfis na Central de contas.",
+        "standard": "Padrão",
+        "saving": "Salvando…",
+        "saved": "Salvo.",
+        "back": "Voltar",
+        "close": "Fechar",
+        "howTitle": "O que é removido",
+        "howText": "Seu histórico de logins e os eventos de segurança da sua conta, como novos logins, alterações de senha e tentativas bloqueadas, depois que ficam mais antigos que o período escolhido.",
+        "howPermanent": "A atividade removida não pode ser recuperada. Baixe uma cópia antes se quiser guardá-la.",
+        "learnMore": "Saiba mais sobre a limpeza automática na documentação da Ordnary"
+      },
+      "experimentBadgeTooltip": "Ainda em desenvolvimento. Você pode dar uma olhada, mas conectar apps ainda não funciona."
+    },
+    "payments": {
+      "title": "Pay",
+      "subtitle": "Gerencie suas informações de pagamento salvas e quais contas têm acesso a elas. {learnMore}",
+      "syncInfo": "Sincronizado entre 2 contas",
+      "addMethodTitle": "Adicionar forma de pagamento",
+      "addMethodSubtitle": "Salve um cartão ou vincule seu PayPal para facilitar sua próxima compra.",
+      "addMethodButton": "Adicionar forma de pagamento",
+      "shippingTitle": "Dados de entrega",
+      "shippingAddress": "Endereço de entrega",
+      "emailAddress": "Endereço de e-mail",
+      "phoneNumber": "Número de telefone",
+      "addModal": {
+        "title": "Adicionar forma de pagamento",
+        "card": "Cartão de crédito ou débito",
+        "paypal": "PayPal",
+        "footer": "Essas informações serão salvas no Ordnary Pay e sincronizadas na Central de contas, onde podem ser gerenciadas. {learnMore}"
+      },
+      "creditCard": {
+        "title": "Adicionar cartão",
+        "subtitle": "O número do seu cartão é criptografado e armazenado com segurança",
+        "cardNumber": "Número do cartão",
+        "expiry": "Validade (MM/AA)",
+        "cvv": "CVV",
+        "name": "Nome no cartão",
+        "submit": "Avançar",
+        "cvvTooltip": "Seu código de verificação (CVV) é o número de segurança no verso ou na frente do seu cartão.",
+        "footer": "Essas informações serão salvas no Ordnary Pay e sincronizadas na Central de contas, onde podem ser gerenciadas. {learnMore}"
+      },
+      "billingAddress": {
+        "title": "Definir endereço de entrega",
+        "subtitle": "Adicione um endereço de entrega para o Ordnary Pay. Ele é separado da configuração do seu cartão.",
+        "search": "Pesquisar endereço",
+        "country": "País ou região",
+        "fullName": "Nome completo",
+        "street": "Endereço",
+        "street2": "Complemento (opcional)",
+        "city": "Cidade/bairro",
+        "state": "Estado/província/região",
+        "zip": "CEP",
+        "submit": "Salvar endereço"
+      }
+    },
+    "subscriptions": {
+      "description": "Gerencie suas assinaturas Ordnary ativas, renovações e configurações de cobrança.",
+      "emptyTitle": "Nenhuma assinatura ativa",
+      "emptyDescription": "As assinaturas aparecerão aqui quando forem vinculadas à sua conta.",
+      "plans": {
+        "ordnarySelect": {
+          "name": "Ordnary Select",
+          "description": "Acesso ilimitado a mídia premium da Ordnary Pictures, incluindo filmes selecionados, séries, prévias e lançamentos exclusivos para membros nas experiências Ordnary compatíveis.",
+          "status": "Ativa",
+          "renewal": "Renovação mensal",
+          "price": "€ 9,99 por mês"
+        }
+      },
+      "manageSubscription": "Gerenciar assinatura"
+    },
+    "status": {
+      "unauthorized": {
+        "title": "Acesso negado",
+        "description": "Você não tem acesso à Central de contas no momento. Sua sessão pode ter expirado ou sua conta pode estar restrita.",
+        "action": "Entrar novamente"
+      },
+      "suspended": {
+        "title": "Conta desativada",
+        "description": "Esta conta está desativada ou temporariamente restrita. Entre em contato com o suporte se achar que é um engano.",
+        "action": "Falar com o suporte"
+      },
+      "banned": {
+        "title": "Acesso negado permanentemente",
+        "description": "Sua conta foi bloqueada permanentemente por violar nossos Termos de Serviço.",
+        "action": "Ver termos"
+      },
+      "offline": {
+        "title": "Sem conexão com a internet",
+        "description": "Parece que você está offline. Verifique sua conexão com a internet para continuar.",
+        "action": "Tentar novamente"
+      },
+      "unknown": {
+        "title": "Erro do sistema",
+        "description": "Algo inesperado deu errado. Tente novamente mais tarde.",
+        "action": "Voltar ao início"
+      },
+      "previousPage": "Página anterior"
+    },
+    "common": {
+      "noResults": "Nenhum resultado",
+      "searchPlaceholder": "Pesquisar..."
+    }
+  },
+  "oauth": {
+    "consent": {
+      "title": "{clientName} quer acessar sua conta",
+      "description": "Você está conectado como {displayName}. Só conceda acesso se confiar neste app.",
+      "requestedPermissions": "Permissões solicitadas",
+      "approve": "Conceder acesso",
+      "deny": "Negar",
+      "errorTitle": "Há um problema com a solicitação",
+      "errorDescription": "A solicitação de autorização é inválida ou está incompleta. Verifique os parâmetros.",
+      "unknownAppTitle": "Não foi possível verificar o aplicativo",
+      "unknownAppDescription": "Esse app não pode ser identificado pela Ordnary. Isso geralmente ocorre por um client_id ou redirect_uri incorreto. Por sua segurança, não podemos prosseguir."
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Esta página não está disponível",
+      "description": "O link pode estar quebrado ou a página pode ter sido removida. Verifique se o link que você está tentando abrir está correto.",
+      "button": "Ir para as configurações da conta"
+    },
+    "serverError": {
+      "title": "Algo deu errado",
+      "description": "Ocorreu um erro inesperado. Tente novamente mais tarde.",
+      "button": "Tentar novamente"
+    }
+  },
+  "cookieConsent": {
+    "title": "Permitir o uso de cookies da Ordnary neste navegador?",
+    "description": "Usamos cookies e tecnologias semelhantes para fornecer conteúdo nos produtos da Ordnary e melhorá-los. Também os usamos para oferecer uma experiência mais segura, com informações que recebemos dentro e fora da Ordnary. Esses cookies são opcionais.",
+    "essentialTitle": "Cookies essenciais",
+    "essentialDesc": "Esses cookies são necessários para usar os produtos da Ordnary e para que nossos sites funcionem corretamente.",
+    "optionalTitle": "Cookies de outras empresas",
+    "optionalDesc": "Usamos esses cookies para mostrar anúncios fora dos produtos da Ordnary e oferecer recursos como mapas e vídeos nos produtos da Ordnary. Esses cookies são opcionais.",
+    "policyInfo": "Você decide quais cookies opcionais podemos usar. Em nossa {cookiePolicy} você encontra mais informações sobre cookies e como os usamos, e pode rever ou alterar suas escolhas a qualquer momento.",
+    "cookiePolicy": "política de cookies",
+    "infoTitle": "Informações sobre cookies",
+    "policyRefreshNotice": "Mudamos a forma como registramos as escolhas de cookies. Confirme suas preferências novamente para mantermos um registro atualizado.",
+    "policyRevisionNotice": "Nossa política de cookies foi atualizada. Revise suas preferências novamente.",
+    "preferencesTitle": "Suas preferências de cookies",
+    "preferencesDescription": "Escolha quais categorias de cookies a Ordnary pode usar neste navegador. Você pode alterar essas configurações a qualquer momento na sua conta.",
+    "alwaysOn": "Sempre ativos",
+    "categories": {
+      "essential": {
+        "title": "Essenciais",
+        "description": "Necessários para o login, a segurança e o funcionamento do restante do produto."
+      },
+      "functional": {
+        "title": "Funcionais",
+        "description": "Lembram preferências como idioma, tema e contas recentes."
+      },
+      "analytics": {
+        "title": "Análise",
+        "description": "Ajudam a entender como a Ordnary é usada para podermos melhorá-la."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Mensagens personalizadas da Ordnary sobre produtos e ofertas."
+      }
+    },
+    "items": {
+      "what": {
+        "title": "O que são cookies?",
+        "button": "Saiba mais"
+      },
+      "why": {
+        "title": "Por que usamos cookies?",
+        "button": "Saiba mais"
+      },
+      "products": {
+        "title": "O que são os produtos da Ordnary?",
+        "button": "Saiba mais"
+      },
+      "preferences": {
+        "title": "Suas preferências de cookies",
+        "button": "Saiba mais"
+      }
+    },
+    "buttons": {
+      "reject": "Recusar cookies opcionais",
+      "accept": "Permitir todos os cookies",
+      "rejectShort": "Recusar",
+      "acceptShort": "Permitir",
+      "customize": "Personalizar",
+      "save": "Salvar preferências",
+      "saveShort": "Salvar",
+      "close": "Fechar"
+    }
+  },
+  "recentAccounts": {
+    "title": "Entre com sua conta Ordnary",
+    "continueAs": "Continuar como {name}",
+    "loginAnother": "Entrar com outra conta",
+    "remove": "Remover conta"
+  },
+  "reauthenticate": {
+    "title": "Confirme que é você",
+    "description": "Olá, {name}. Para sua segurança, precisamos verificar que é você antes de {action}.",
+    "codeSentTo": "Enviamos um código para {email}.",
+    "codeSent": "Enviamos um código de segurança de 6 dígitos para seu e-mail.",
+    "securityCode": "Código de segurança",
+    "continue": "Continuar",
+    "verifying": "Verificando…",
+    "sending": "Enviando…",
+    "cancel": "Cancelar",
+    "errors": {
+      "sendFailed": "Falha ao enviar o código de segurança.",
+      "invalidCode": "Código inválido.",
+      "network": "Erro de rede. Tente novamente."
+    },
+    "actions": {
+      "changePassword": "alterar sua senha",
+      "changeEmail": "gerenciar seus endereços de e-mail",
+      "managePasskeys": "gerenciar suas chaves de acesso",
+      "manageMfa": "gerenciar a autenticação de dois fatores",
+      "revokeAllSessions": "sair de todos os lugares",
+      "manageAccount": "desativar ou excluir sua conta",
+      "rotateClientSecret": "girar este segredo do cliente",
+      "managePaymentMethods": "gerenciar suas formas de pagamento",
+      "authorizeApp": "autorizar este aplicativo",
+      "generic": "continuar com esta ação sensível"
+    }
+  },
+  "minorConsentVerify": {
+    "title": "Confirmar consentimento dos pais",
+    "description": "Um usuário pediu que você autorize a conta Ordnary dele conforme o art. 8 do GDPR. Clique em confirmar abaixo para registrar seu consentimento. Você pode revogá-lo a qualquer momento respondendo ao e-mail original ou entrando em contato com {email}.",
+    "idle": "Esta página deve ser aberta pelo link no e-mail da solicitação, para que o token de confirmação seja incluído.",
+    "verifying": "Verificando…",
+    "success": "Obrigado. O consentimento dos pais foi confirmado e desbloqueamos a conta do lado do usuário. Ele também receberá uma notificação.",
+    "errors": {
+      "tokenRequired": "Nenhum token de verificação foi informado.",
+      "tokenNotFound": "Este link de confirmação não é mais válido.",
+      "alreadyVerified": "Esta confirmação já foi registrada.",
+      "requestRevoked": "Esta solicitação foi retirada ou substituída por uma mais recente.",
+      "tokenExpired": "Este link de confirmação expirou. Peça ao usuário que envie uma nova solicitação.",
+      "invalidBody": "A solicitação de verificação estava malformada.",
+      "generic": "Não foi possível verificar este link de confirmação. Peça ao usuário que envie uma nova solicitação."
+    }
+  },
+  "unsubscribe": {
+    "title": "Cancelar inscrição",
+    "idle": "Abra esta página pelo link no e-mail, para que o token de cancelamento seja incluído.",
+    "verifying": "Salvando sua preferência…",
+    "success": "Você cancelou a inscrição.",
+    "successWithCategory": "Você cancelou a inscrição em {category}.",
+    "manageAt": "Você pode ajustar todas as suas preferências de notificação a qualquer momento em {link}.",
+    "categories": {
+      "transactionalSecurity": "alertas de segurança",
+      "transactionalAccount": "notificações da conta",
+      "productUpdates": "novidades do produto",
+      "recommendations": "recomendações",
+      "marketing": "e-mails de marketing"
+    },
+    "errors": {
+      "tokenRequired": "Nenhum token de cancelamento foi informado.",
+      "tokenNotFound": "Este link de cancelamento não é mais válido.",
+      "alreadyRedeemed": "Você já cancelou a inscrição nesta categoria.",
+      "tokenExpired": "Este link de cancelamento expirou. Você pode gerenciar as preferências na Central de contas depois de entrar.",
+      "categoryMandatory": "Esta categoria não pode ser desativada, pois abrange notificações de segurança e exigidas pela conta.",
+      "generic": "Não foi possível processar este link de cancelamento. Entre e ajuste suas preferências diretamente."
+    }
+  },
+  "dsarVerify": {
+    "title": "Confirme sua solicitação de privacidade",
+    "description": "Confirme que você fez esta solicitação sobre seus dados à Ordnary. Se não fez, feche esta página e nos avise em {email}.",
+    "idle": "Abra esta página pelo link do e-mail que enviamos, para que a confirmação esteja incluída.",
+    "confirm": "Confirmar solicitação",
+    "verifying": "Confirmando…",
+    "success": "Obrigado, sua solicitação foi confirmada. Vamos atendê-la dentro do prazo legal e enviaremos um e-mail quando estiver pronta.",
+    "errors": {
+      "tokenRequired": "Falta o código de confirmação neste link.",
+      "tokenNotFound": "Este link não é mais válido.",
+      "tokenExpired": "Este link expirou. Faça a solicitação novamente pela Central da conta.",
+      "alreadyProcessed": "Esta solicitação já foi confirmada ou atendida.",
+      "generic": "Não foi possível confirmar esta solicitação. Tente de novo ou fale com {email}."
+    }
+  },
+  "errorCodes": {
+    "unauthorized": "Você saiu da sua conta. Entre novamente e tente de novo.",
+    "not_authenticated": "Você saiu da sua conta. Entre novamente e tente de novo.",
+    "step_up_required": "Primeiro confirme que é você e depois tente novamente.",
+    "rate_limited": "Muitas tentativas. Aguarde alguns minutos e tente novamente.",
+    "first_party_only": "Isso só está disponível nos apps da própria Ordnary.",
+    "invalid_request": "Há algo errado nesta solicitação. Recarregue a página e tente novamente.",
+    "invalid_body": "Há algo errado nesta solicitação. Recarregue a página e tente novamente.",
+    "invalid_action": "Essa ação não está disponível aqui.",
+    "missing_fields": "Preencha todos os campos.",
+    "internal_error": "Algo deu errado do nosso lado. Tente novamente em instantes.",
+    "internal_server_error": "Algo deu errado do nosso lado. Tente novamente em instantes.",
+    "unavailable": "Isso não está disponível no momento. Tente novamente mais tarde.",
+    "send_failed": "Não conseguimos enviar o e-mail. Tente novamente em instantes.",
+    "user_not_found": "Não encontramos esta conta.",
+    "invalid_email": "Digite um endereço de e-mail válido.",
+    "missing_address": "Digite um endereço de e-mail.",
+    "email_already_exists": "Esse endereço de e-mail já está em uso.",
+    "email_not_found": "Esse endereço de e-mail não está na sua conta.",
+    "cannot_delete_primary_email": "Você não pode remover seu endereço de e-mail principal.",
+    "failed_to_add_email": "Não conseguimos adicionar este endereço de e-mail.",
+    "failed_to_delete_email": "Não conseguimos remover este endereço de e-mail.",
+    "failed_to_send_verification_email": "Não conseguimos enviar o e-mail de verificação, então o endereço não foi adicionado.",
+    "no_email": "Sua conta não tem nenhum endereço de e-mail para envio.",
+    "no_primary_email": "Sua conta não tem um endereço de e-mail principal.",
+    "password_mismatch": "As novas senhas não coincidem.",
+    "password_incorrect": "Sua senha atual está incorreta.",
+    "password_too_weak": "A nova senha não atende aos requisitos.",
+    "password_change_failed": "Não conseguimos alterar sua senha.",
+    "no_password": "Sua conta ainda não tem senha.",
+    "passkey_not_found": "Essa chave de acesso não existe mais.",
+    "missing_passkey_id": "Escolha uma chave de acesso primeiro.",
+    "session_not_found": "Essa sessão não existe mais.",
+    "missing_session_id": "Escolha uma sessão primeiro.",
+    "cannot_revoke_current_session": "Você não pode encerrar a sessão que está usando aqui.",
+    "code_required": "Digite o código do e-mail.",
+    "code_invalid": "Esse código está incorreto.",
+    "code_expired": "Esse código expirou. Peça um novo.",
+    "exists": "Você já tem um.",
+    "not_deactivated": "Sua conta não está desativada.",
+    "grace_period_expired": "O prazo de 30 dias para restaurar esta conta já passou.",
+    "token_required": "Este link está incompleto.",
+    "token_not_found": "Este link não é mais válido.",
+    "token_expired": "Este link expirou.",
+    "already_redeemed": "Este link já foi usado.",
+    "already_downloaded": "Este download já foi usado.",
+    "already_verified": "Isso já foi confirmado.",
+    "already_processed": "Esta solicitação já foi tratada.",
+    "already_extended": "O prazo desta solicitação já foi prorrogado.",
+    "invalid_date": "Digite uma data válida.",
+    "birthday_verification_attempt_not_found": "Não encontramos essa verificação de documento. Comece novamente.",
+    "identity_verification_incomplete": "A verificação de documento ainda não terminou.",
+    "identity_verification_dob_mismatch": "A data de nascimento no seu documento não corresponde à que você digitou.",
+    "identity_verification_dob_unavailable": "Não conseguimos ler uma data de nascimento no seu documento.",
+    "missing_attempt_id": "A verificação de documento está faltando. Comece novamente.",
+    "invalid_kind": "Escolha o tipo desta solicitação.",
+    "invalid_applies_to": "Escolha a que a solicitação se refere.",
+    "invalid_filed_by": "Informe quem está enviando esta solicitação.",
+    "subject_email_required": "Digite o endereço de e-mail ao qual a solicitação se refere.",
+    "representative_email_required": "Digite o endereço de e-mail do representante.",
+    "request_not_found": "Não encontramos esta solicitação.",
+    "request_already_open": "Você já tem uma solicitação aberta deste tipo.",
+    "request_cooldown_active": "Você enviou esta solicitação recentemente. Tente novamente mais tarde.",
+    "request_closed": "Esta solicitação já está encerrada.",
+    "request_not_open": "Esta solicitação não está mais aberta.",
+    "request_not_verified": "Esta solicitação ainda não foi confirmada.",
+    "request_revoked": "Esta solicitação foi retirada ou substituída.",
+    "no_download_for_kind": "Este tipo de solicitação não tem download.",
+    "export_already_in_progress": "Uma exportação já está sendo preparada.",
+    "export_rate_limited": "Você fez uma exportação recentemente. Tente novamente mais tarde.",
+    "invalid_retention_days": "Escolha um dos períodos oferecidos.",
+    "invalid_category": "Essa categoria de notificação não existe.",
+    "category_mandatory": "Esses e-mails não podem ser desativados.",
+    "review_not_found": "Não encontramos esta análise.",
+    "review_already_open": "Você já tem uma análise aberta.",
+    "review_cooldown_active": "Você pediu uma análise recentemente. Tente novamente mais tarde.",
+    "review_not_open": "Esta análise não está mais aberta.",
+    "review_not_pending": "Esta análise não pode mais ser alterada.",
+    "invalid_review_type": "Escolha o tipo desta análise.",
+    "no_active_consent": "Não há nenhum consentimento ativo para retirar.",
+    "not_a_minor": "Esta conta não precisa de consentimento dos pais.",
+    "parent_email_required": "Digite o endereço de e-mail do seu pai, mãe ou responsável.",
+    "invalid_parent_email": "Digite um endereço de e-mail válido do seu pai, mãe ou responsável.",
+    "connection_not_found": "Esse app não está mais conectado.",
+    "client_not_found": "Não encontramos esse app.",
+    "too_large": "Esse arquivo é grande demais.",
+    "unsupported_type": "Esse tipo de arquivo não é compatível.",
+    "no_file": "Escolha um arquivo primeiro."
+  }
+}
