@@ -41,12 +41,13 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- . ':!source'; then
+          # source/ (the checked-out product repositories) is in .gitignore.
+          if [ -z "$(git status --porcelain)" ]; then
             echo "Nothing new."
             exit 0
           fi
           git config user.name "ordnary-translations"
           git config user.email "translations@ordnary.com"
-          git add -- . ':!source'
+          git add -A
           git commit -m "Sync English and new keys from the product repositories"
           git push
