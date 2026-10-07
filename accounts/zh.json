@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "选择 Ordnary 可以向你发送哪些类型的邮件。",
       "notifications": {
         "title": "通知偏好",
+        "description": "选择你想接收哪些来自 Ordnary 的邮件。",
         "close": "关闭",
         "loading": "正在加载…",
-        "alwaysOn": "始终开启",
-        "description": "选择你想接收哪些来自 Ordnary 的邮件。",
         "loadError": "暂时无法加载。请稍后再试。",
         "saveError": "无法保存。请重试。",
         "saved": "已保存。",
+        "alwaysOn": "始终开启",
         "alwaysTitle": "始终开启",
         "alwaysText": "这些邮件用于保护你的账户安全，并确认你提出的请求，因此始终开启。",
         "choiceTitle": "由你选择",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "已有导出正在准备中。请稍后再试。",
       "exportRateLimited": "你已达到导出次数上限。请在 {time}后重试。",
       "saveFailed": "无法保存。请重试。",
-      "days30": "30 天",
       "autoClear": {
         "title": "自动清除 Ordnary 活动",
         "subtitle": "选择我们保留你的活动多长时间。更早的活动会自动删除，适用于账户中心内的所有账户和个人资料。",
@@ -1375,6 +1374,7 @@
         "howPermanent": "已删除的活动无法恢复。如果想保留，请先下载一份副本。",
         "learnMore": "在 Ordnary 文档中进一步了解自动清除"
       },
+      "days30": "30 天",
       "experimentBadgeTooltip": "仍在开发中。你可以先看看,但暂时还不能连接应用。"
     },
     "payments": {

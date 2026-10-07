@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Ordnary'nin sana hangi türde e-posta gönderebileceğini seç.",
       "notifications": {
         "title": "Bildirim tercihleri",
+        "description": "Ordnary'den hangi e-postaları alacağını seç.",
         "close": "Kapat",
         "loading": "Yükleniyor…",
-        "alwaysOn": "Her zaman açık",
-        "description": "Ordnary'den hangi e-postaları alacağını seç.",
         "loadError": "Bunu şu anda yükleyemedik. Lütfen daha sonra tekrar dene.",
         "saveError": "Bunu kaydedemedik. Tekrar dene.",
         "saved": "Kaydedildi.",
+        "alwaysOn": "Her zaman açık",
         "alwaysTitle": "Her zaman açık",
         "alwaysText": "Bu e-postalar hesabını güvende tutar ve istediğin işlemleri onaylar, bu yüzden açık kalır.",
         "choiceTitle": "Senin seçimin",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Bir dışa aktarma zaten hazırlanıyor. Kısa süre sonra tekrar dene.",
       "exportRateLimited": "Maksimum dışa aktarma sayısına ulaştın. {time} sonra tekrar dene.",
       "saveFailed": "Kaydedilemedi. Tekrar dene.",
-      "days30": "30 gün",
       "autoClear": {
         "title": "Ordnary etkinliğini otomatik temizle",
         "subtitle": "Etkinliğini ne kadar süre tuttuğumuzu seç. Daha eski etkinlik, Hesap Merkezi'ndeki tüm hesaplar ve profiller için otomatik olarak kaldırılır.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Kaldırılan etkinlik geri getirilemez. Saklamak istiyorsan önce bir kopya indir.",
         "learnMore": "Ordnary belgelerinde otomatik temizleme hakkında daha fazla bilgi"
       },
+      "days30": "30 gün",
       "experimentBadgeTooltip": "Hâlâ geliştirme aşamasında. Göz atabilirsin, ancak uygulama bağlama henüz çalışmıyor."
     },
     "payments": {

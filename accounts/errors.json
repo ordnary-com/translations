@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "notFound": {
+      "title": "Deze pagina is niet beschikbaar",
+      "description": "De link is mogelijk buiten werking of de pagina is verwijderd. Controleer of de link die je probeert te openen correct is.",
+      "button": "Naar accountinstellingen"
+    },
+    "serverError": {
+      "title": "Er is iets misgegaan",
+      "description": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw.",
+      "button": "Opnieuw proberen"
+    }
+  }
+}

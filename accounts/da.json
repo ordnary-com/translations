@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Vælg, hvilke slags mails Ordnary må sende dig.",
       "notifications": {
         "title": "Notifikationspræferencer",
+        "description": "Vælg, hvilke e-mails du får fra Ordnary.",
         "close": "Luk",
         "loading": "Indlæser…",
-        "alwaysOn": "Altid til",
-        "description": "Vælg, hvilke e-mails du får fra Ordnary.",
         "loadError": "Vi kunne ikke indlæse det lige nu. Prøv igen senere.",
         "saveError": "Vi kunne ikke gemme det. Prøv igen.",
         "saved": "Gemt.",
+        "alwaysOn": "Altid til",
         "alwaysTitle": "Altid slået til",
         "alwaysText": "Disse e-mails holder din konto sikker og bekræfter det, du har bedt om, så de forbliver slået til.",
         "choiceTitle": "Dit valg",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Der er allerede en eksport under forberedelse. Prøv igen om lidt.",
       "exportRateLimited": "Du har nået det maksimale antal eksporter. Prøv igen om {time}.",
       "saveFailed": "Kunne ikke gemme. Prøv igen.",
-      "days30": "30 dage",
       "autoClear": {
         "title": "Ryd Ordnary-aktivitet automatisk",
         "subtitle": "Vælg, hvor længe vi gemmer din aktivitet. Ældre aktivitet fjernes automatisk for alle konti og profiler i Kontocenter.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Fjernet aktivitet kan ikke gendannes. Hent en kopi først, hvis du vil beholde den.",
         "learnMore": "Mere om automatisk rydning i Ordnary-dokumentationen"
       },
+      "days30": "30 dage",
       "experimentBadgeTooltip": "Stadig under udvikling. Du kan kigge dig omkring, men tilslutning af apps virker ikke endnu."
     },
     "payments": {

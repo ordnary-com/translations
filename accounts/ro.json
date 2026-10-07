@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Alege ce fel de e-mailuri îți poate trimite Ordnary.",
       "notifications": {
         "title": "Preferințe de notificare",
+        "description": "Alege ce e-mailuri primești de la Ordnary.",
         "close": "Închide",
         "loading": "Se încarcă…",
-        "alwaysOn": "Mereu activat",
-        "description": "Alege ce e-mailuri primești de la Ordnary.",
         "loadError": "Nu am putut încărca acest lucru acum. Încearcă din nou mai târziu.",
         "saveError": "Nu am putut salva. Încearcă din nou.",
         "saved": "Salvat.",
+        "alwaysOn": "Mereu activat",
         "alwaysTitle": "Mereu active",
         "alwaysText": "Aceste e-mailuri îți protejează contul și confirmă ce ai cerut, așa că rămân active.",
         "choiceTitle": "Alegerea ta",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Un export este deja în curs de pregătire. Încearcă din nou în scurt timp.",
       "exportRateLimited": "Ai atins numărul maxim de exporturi. Încearcă din nou peste {time}.",
       "saveFailed": "Nu am putut salva. Încearcă din nou.",
-      "days30": "30 zile",
       "autoClear": {
         "title": "Șterge automat activitatea Ordnary",
         "subtitle": "Alege cât timp păstrăm activitatea ta. Activitatea mai veche este eliminată automat, pentru toate conturile și profilurile din Centrul de conturi.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Activitatea eliminată nu poate fi recuperată. Descarcă mai întâi o copie dacă vrei să o păstrezi.",
         "learnMore": "Mai multe despre ștergerea automată în documentația Ordnary"
       },
+      "days30": "30 zile",
       "experimentBadgeTooltip": "Încă în dezvoltare. Poți arunca o privire, dar conectarea aplicațiilor nu funcționează încă."
     },
     "payments": {

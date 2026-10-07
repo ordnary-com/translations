@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Escolha quais tipos de e-mail a Ordnary pode enviar a você.",
       "notifications": {
         "title": "Preferências de notificação",
+        "description": "Escolha quais e-mails você recebe da Ordnary.",
         "close": "Fechar",
         "loading": "Carregando…",
-        "alwaysOn": "Sempre ativo",
-        "description": "Escolha quais e-mails você recebe da Ordnary.",
         "loadError": "Não conseguimos carregar isso agora. Tente novamente mais tarde.",
         "saveError": "Não conseguimos salvar. Tente novamente.",
         "saved": "Salvo.",
+        "alwaysOn": "Sempre ativo",
         "alwaysTitle": "Sempre ativos",
         "alwaysText": "Esses e-mails mantêm sua conta segura e confirmam o que você pediu, por isso continuam ativos.",
         "choiceTitle": "Sua escolha",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Uma exportação já está sendo preparada. Tente novamente em instantes.",
       "exportRateLimited": "Você atingiu o número máximo de exportações. Tente novamente em {time}.",
       "saveFailed": "Não foi possível salvar. Tente novamente.",
-      "days30": "30 dias",
       "autoClear": {
         "title": "Limpar automaticamente a atividade na Ordnary",
         "subtitle": "Escolha por quanto tempo guardamos sua atividade. A atividade mais antiga é removida automaticamente, para todas as contas e perfis na Central de contas.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "A atividade removida não pode ser recuperada. Baixe uma cópia antes se quiser guardá-la.",
         "learnMore": "Saiba mais sobre a limpeza automática na documentação da Ordnary"
       },
+      "days30": "30 dias",
       "experimentBadgeTooltip": "Ainda em desenvolvimento. Você pode dar uma olhada, mas conectar apps ainda não funciona."
     },
     "payments": {

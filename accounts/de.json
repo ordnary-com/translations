@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Wähle, welche Arten von E-Mails Ordnary dir senden darf.",
       "notifications": {
         "title": "Benachrichtigungseinstellungen",
+        "description": "Wähle, welche E-Mails du von Ordnary bekommst.",
         "close": "Schließen",
         "loading": "Wird geladen…",
-        "alwaysOn": "Immer an",
-        "description": "Wähle, welche E-Mails du von Ordnary bekommst.",
         "loadError": "Das konnten wir gerade nicht laden. Versuche es später noch einmal.",
         "saveError": "Das konnten wir nicht speichern. Versuche es noch einmal.",
         "saved": "Gespeichert.",
+        "alwaysOn": "Immer an",
         "alwaysTitle": "Immer aktiv",
         "alwaysText": "Diese E-Mails schützen dein Konto und bestätigen, was du angefordert hast. Deshalb bleiben sie an.",
         "choiceTitle": "Deine Wahl",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Ein Export wird bereits vorbereitet. Versuche es in Kürze erneut.",
       "exportRateLimited": "Du hast die maximale Anzahl an Exporten erreicht. Versuche es in {time} erneut.",
       "saveFailed": "Speichern nicht möglich. Versuche es erneut.",
-      "days30": "30 Tage",
       "autoClear": {
         "title": "Ordnary-Aktivität automatisch löschen",
         "subtitle": "Lege fest, wie lange wir deine Aktivität speichern. Ältere Aktivität wird automatisch entfernt, für alle Konten und Profile im Kontozentrum.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Entfernte Aktivität kann nicht wiederhergestellt werden. Lade vorher eine Kopie herunter, wenn du sie behalten möchtest.",
         "learnMore": "Mehr zum automatischen Löschen in der Ordnary-Dokumentation"
       },
+      "days30": "30 Tage",
       "experimentBadgeTooltip": "Noch in Entwicklung. Du kannst dich umsehen, aber das Verbinden von Apps funktioniert noch nicht."
     },
     "payments": {

@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Wybierz, jakie rodzaje e-maili Ordnary może Ci wysyłać.",
       "notifications": {
         "title": "Preferencje powiadomień",
+        "description": "Wybierz, jakie e-maile dostajesz od Ordnary.",
         "close": "Zamknij",
         "loading": "Wczytywanie…",
-        "alwaysOn": "Zawsze włączone",
-        "description": "Wybierz, jakie e-maile dostajesz od Ordnary.",
         "loadError": "Nie udało się tego teraz wczytać. Spróbuj ponownie później.",
         "saveError": "Nie udało się tego zapisać. Spróbuj ponownie.",
         "saved": "Zapisano.",
+        "alwaysOn": "Zawsze włączone",
         "alwaysTitle": "Zawsze włączone",
         "alwaysText": "Te e-maile chronią Twoje konto i potwierdzają to, o co prosisz, więc zawsze są włączone.",
         "choiceTitle": "Twój wybór",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Eksport jest już przygotowywany. Spróbuj ponownie za chwilę.",
       "exportRateLimited": "Osiągnięto maksymalną liczbę eksportów. Spróbuj ponownie za {time}.",
       "saveFailed": "Nie udało się zapisać. Spróbuj ponownie.",
-      "days30": "30 dni",
       "autoClear": {
         "title": "Automatycznie czyść aktywność w Ordnary",
         "subtitle": "Wybierz, jak długo przechowujemy Twoją aktywność. Starsza aktywność jest usuwana automatycznie, dla wszystkich kont i profili w Centrum konta.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Usuniętej aktywności nie można przywrócić. Jeśli chcesz ją zachować, najpierw pobierz kopię.",
         "learnMore": "Więcej o automatycznym czyszczeniu w dokumentacji Ordnary"
       },
+      "days30": "30 dni",
       "experimentBadgeTooltip": "Wciąż w rozwoju. Możesz się rozejrzeć, ale łączenie aplikacji jeszcze nie działa."
     },
     "payments": {

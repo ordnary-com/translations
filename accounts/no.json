@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Velg hvilke typer e-post Ordnary kan sende deg.",
       "notifications": {
         "title": "Varselinnstillinger",
+        "description": "Velg hvilke e-poster du får fra Ordnary.",
         "close": "Lukk",
         "loading": "Laster…",
-        "alwaysOn": "Alltid på",
-        "description": "Velg hvilke e-poster du får fra Ordnary.",
         "loadError": "Vi kunne ikke laste dette akkurat nå. Prøv igjen senere.",
         "saveError": "Vi kunne ikke lagre dette. Prøv igjen.",
         "saved": "Lagret.",
+        "alwaysOn": "Alltid på",
         "alwaysTitle": "Alltid på",
         "alwaysText": "Disse e-postene holder kontoen din trygg og bekrefter det du har bedt om, så de er alltid på.",
         "choiceTitle": "Ditt valg",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "En eksport er allerede under forberedelse. Prøv igjen om litt.",
       "exportRateLimited": "Du har nådd maksimalt antall eksporter. Prøv igjen om {time}.",
       "saveFailed": "Kunne ikke lagre. Prøv igjen.",
-      "days30": "30 dager",
       "autoClear": {
         "title": "Slett Ordnary-aktivitet automatisk",
         "subtitle": "Velg hvor lenge vi beholder aktiviteten din. Eldre aktivitet fjernes automatisk, for alle kontoer og profiler i Kontosenter.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Fjernet aktivitet kan ikke gjenopprettes. Last ned en kopi først hvis du vil beholde den.",
         "learnMore": "Mer om automatisk sletting i Ordnary-dokumentasjonen"
       },
+      "days30": "30 dager",
       "experimentBadgeTooltip": "Fortsatt under utvikling. Du kan se deg rundt, men tilkobling av apper fungerer ikke ennå."
     },
     "payments": {

@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Válaszd ki, milyen e-maileket küldhet neked az Ordnary.",
       "notifications": {
         "title": "Értesítési beállítások",
+        "description": "Válaszd ki, milyen e-maileket kapsz az Ordnarytól.",
         "close": "Bezárás",
         "loading": "Betöltés…",
-        "alwaysOn": "Mindig be",
-        "description": "Válaszd ki, milyen e-maileket kapsz az Ordnarytól.",
         "loadError": "Ezt most nem sikerült betölteni. Próbáld újra később.",
         "saveError": "Ezt nem sikerült menteni. Próbáld újra.",
         "saved": "Mentve.",
+        "alwaysOn": "Mindig be",
         "alwaysTitle": "Mindig bekapcsolva",
         "alwaysText": "Ezek az e-mailek biztonságban tartják a fiókodat, és megerősítik, amit kértél, ezért bekapcsolva maradnak.",
         "choiceTitle": "A te döntésed",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Már készül egy exportálás. Próbáld újra egy kis idő múlva.",
       "exportRateLimited": "Elérted az exportálások maximális számát. Próbáld újra ennyi idő múlva: {time}.",
       "saveFailed": "Nem sikerült menteni. Próbáld újra.",
-      "days30": "30 nap",
       "autoClear": {
         "title": "Ordnary-tevékenység automatikus törlése",
         "subtitle": "Válaszd ki, mennyi ideig őrizzük meg a tevékenységedet. A régebbi tevékenység automatikusan törlődik, a Fiókközpont összes fiókjára és profiljára.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "A törölt tevékenység nem állítható vissza. Ha meg szeretnéd őrizni, előbb tölts le egy másolatot.",
         "learnMore": "További információ az automatikus törlésről az Ordnary dokumentációjában"
       },
+      "days30": "30 nap",
       "experimentBadgeTooltip": "Még fejlesztés alatt áll. Körülnézhetsz, de az alkalmazások csatlakoztatása még nem működik."
     },
     "payments": {

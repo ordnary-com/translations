@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Valitse, minkä tyyppisiä sähköposteja Ordnary saa lähettää sinulle.",
       "notifications": {
         "title": "Ilmoitusasetukset",
+        "description": "Valitse, mitä sähköpostia saat Ordnarylta.",
         "close": "Sulje",
         "loading": "Ladataan…",
-        "alwaysOn": "Aina päällä",
-        "description": "Valitse, mitä sähköpostia saat Ordnarylta.",
         "loadError": "Tätä ei voitu ladata juuri nyt. Yritä myöhemmin uudelleen.",
         "saveError": "Tätä ei voitu tallentaa. Yritä uudelleen.",
         "saved": "Tallennettu.",
+        "alwaysOn": "Aina päällä",
         "alwaysTitle": "Aina käytössä",
         "alwaysText": "Nämä viestit pitävät tilisi turvassa ja vahvistavat sen, mitä olet pyytänyt, joten ne pysyvät käytössä.",
         "choiceTitle": "Sinun valintasi",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Vientiä valmistellaan jo. Yritä hetken kuluttua uudelleen.",
       "exportRateLimited": "Olet saavuttanut vientien enimmäismäärän. Yritä uudelleen {time} kuluttua.",
       "saveFailed": "Tallennus epäonnistui. Yritä uudelleen.",
-      "days30": "30 päivää",
       "autoClear": {
         "title": "Tyhjennä Ordnary-toiminta automaattisesti",
         "subtitle": "Valitse, kuinka kauan säilytämme toimintasi. Vanhempi toiminta poistetaan automaattisesti kaikilta Tilikeskuksen tileiltä ja profiileilta.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Poistettua toimintaa ei voi palauttaa. Lataa ensin kopio, jos haluat säilyttää sen.",
         "learnMore": "Lisätietoja automaattisesta tyhjentämisestä Ordnaryn dokumentaatiossa"
       },
+      "days30": "30 päivää",
       "experimentBadgeTooltip": "Vielä kehitteillä. Voit katsella ympärillesi, mutta sovellusten yhdistäminen ei vielä toimi."
     },
     "payments": {

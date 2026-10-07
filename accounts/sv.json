@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Välj vilka sorters e-post Ordnary får skicka till dig.",
       "notifications": {
         "title": "Aviseringsinställningar",
+        "description": "Välj vilka e-postmeddelanden du får från Ordnary.",
         "close": "Stäng",
         "loading": "Läser in…",
-        "alwaysOn": "Alltid på",
-        "description": "Välj vilka e-postmeddelanden du får från Ordnary.",
         "loadError": "Vi kunde inte läsa in det just nu. Försök igen senare.",
         "saveError": "Vi kunde inte spara det. Försök igen.",
         "saved": "Sparat.",
+        "alwaysOn": "Alltid på",
         "alwaysTitle": "Alltid på",
         "alwaysText": "De här meddelandena skyddar ditt konto och bekräftar det du har bett om, så de är alltid på.",
         "choiceTitle": "Ditt val",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "En export förbereds redan. Försök igen om en stund.",
       "exportRateLimited": "Du har nått det maximala antalet exporter. Försök igen om {time}.",
       "saveFailed": "Det gick inte att spara. Försök igen.",
-      "days30": "30 dagar",
       "autoClear": {
         "title": "Rensa Ordnary-aktivitet automatiskt",
         "subtitle": "Välj hur länge vi sparar din aktivitet. Äldre aktivitet tas bort automatiskt, för alla konton och profiler i Kontocenter.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Borttagen aktivitet kan inte återställas. Ladda ner en kopia först om du vill behålla den.",
         "learnMore": "Mer om automatisk rensning i Ordnary-dokumentationen"
       },
+      "days30": "30 dagar",
       "experimentBadgeTooltip": "Fortfarande under utveckling. Du kan titta runt, men det går ännu inte att ansluta appar."
     },
     "payments": {

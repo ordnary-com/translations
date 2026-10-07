@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Scegli quali tipi di email Ordnary può inviarti.",
       "notifications": {
         "title": "Preferenze di notifica",
+        "description": "Scegli quali e-mail ricevere da Ordnary.",
         "close": "Chiudi",
         "loading": "Caricamento…",
-        "alwaysOn": "Sempre attive",
-        "description": "Scegli quali e-mail ricevere da Ordnary.",
         "loadError": "Non siamo riusciti a caricarlo ora. Riprova più tardi.",
         "saveError": "Non siamo riusciti a salvare. Riprova.",
         "saved": "Salvato.",
+        "alwaysOn": "Sempre attive",
         "alwaysTitle": "Sempre attive",
         "alwaysText": "Queste e-mail proteggono il tuo account e confermano ciò che hai richiesto, quindi restano attive.",
         "choiceTitle": "La tua scelta",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Un'esportazione è già in preparazione. Riprova tra poco.",
       "exportRateLimited": "Hai raggiunto il numero massimo di esportazioni. Riprova tra {time}.",
       "saveFailed": "Impossibile salvare. Riprova.",
-      "days30": "30 giorni",
       "autoClear": {
         "title": "Cancella automaticamente l'attività su Ordnary",
         "subtitle": "Scegli per quanto tempo conserviamo la tua attività. Le attività più vecchie vengono rimosse automaticamente, per tutti gli account e i profili nel Centro account.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "L'attività rimossa non può essere recuperata. Scarica prima una copia se vuoi conservarla.",
         "learnMore": "Scopri di più sulla cancellazione automatica nella documentazione di Ordnary"
       },
+      "days30": "30 giorni",
       "experimentBadgeTooltip": "Ancora in sviluppo. Puoi dare un'occhiata, ma il collegamento delle app non funziona ancora."
     },
     "payments": {

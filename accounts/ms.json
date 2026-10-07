@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Pilih jenis e-mel yang boleh dihantar oleh Ordnary kepada anda.",
       "notifications": {
         "title": "Keutamaan pemberitahuan",
+        "description": "Pilih e-mel yang anda terima daripada Ordnary.",
         "close": "Tutup",
         "loading": "Memuatkan…",
-        "alwaysOn": "Sentiasa hidup",
-        "description": "Pilih e-mel yang anda terima daripada Ordnary.",
         "loadError": "Kami tidak dapat memuatkannya sekarang. Cuba lagi nanti.",
         "saveError": "Kami tidak dapat menyimpannya. Cuba lagi.",
         "saved": "Disimpan.",
+        "alwaysOn": "Sentiasa hidup",
         "alwaysTitle": "Sentiasa dihidupkan",
         "alwaysText": "E-mel ini memastikan akaun anda selamat dan mengesahkan perkara yang anda minta, jadi ia sentiasa dihidupkan.",
         "choiceTitle": "Pilihan anda",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Eksport sedang disediakan. Cuba lagi sebentar lagi.",
       "exportRateLimited": "Anda telah mencapai bilangan eksport maksimum. Cuba lagi dalam {time}.",
       "saveFailed": "Tidak dapat menyimpan. Cuba lagi.",
-      "days30": "30 hari",
       "autoClear": {
         "title": "Kosongkan aktiviti Ordnary secara automatik",
         "subtitle": "Pilih berapa lama kami menyimpan aktiviti anda. Aktiviti yang lebih lama dialih keluar secara automatik, untuk semua akaun dan profil dalam Pusat Akaun.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Aktiviti yang dialih keluar tidak boleh dipulihkan. Muat turun salinan dahulu jika anda mahu menyimpannya.",
         "learnMore": "Lebih lanjut tentang kosongkan secara automatik dalam dokumen Ordnary"
       },
+      "days30": "30 hari",
       "experimentBadgeTooltip": "Masih dalam pembangunan. Anda boleh melihat-lihat, tetapi menyambungkan apl belum berfungsi."
     },
     "payments": {

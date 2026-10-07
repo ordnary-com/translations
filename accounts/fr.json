@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Choisissez les types d'e-mails qu'Ordnary peut vous envoyer.",
       "notifications": {
         "title": "Préférences de notification",
+        "description": "Choisissez les e-mails que vous recevez d'Ordnary.",
         "close": "Fermer",
         "loading": "Chargement…",
-        "alwaysOn": "Toujours activé",
-        "description": "Choisissez les e-mails que vous recevez d'Ordnary.",
         "loadError": "Nous n'avons pas pu charger cette page pour le moment. Réessayez plus tard.",
         "saveError": "Nous n'avons pas pu enregistrer. Réessayez.",
         "saved": "Enregistré.",
+        "alwaysOn": "Toujours activé",
         "alwaysTitle": "Toujours actifs",
         "alwaysText": "Ces e-mails protègent votre compte et confirment ce que vous avez demandé. Ils restent donc activés.",
         "choiceTitle": "Votre choix",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Une exportation est déjà en préparation. Réessayez dans un instant.",
       "exportRateLimited": "Vous avez atteint le nombre maximal d'exportations. Réessayez dans {time}.",
       "saveFailed": "Enregistrement impossible. Réessayez.",
-      "days30": "30 jours",
       "autoClear": {
         "title": "Effacer automatiquement l'activité Ordnary",
         "subtitle": "Choisissez combien de temps nous conservons votre activité. Les activités plus anciennes sont supprimées automatiquement, pour tous les comptes et profils du Centre de compte.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Une activité supprimée ne peut pas être récupérée. Téléchargez d'abord une copie si vous voulez la conserver.",
         "learnMore": "En savoir plus sur l'effacement automatique dans la documentation Ordnary"
       },
+      "days30": "30 jours",
       "experimentBadgeTooltip": "Encore en développement. Vous pouvez jeter un œil, mais la connexion d'applications ne fonctionne pas encore."
     },
     "payments": {

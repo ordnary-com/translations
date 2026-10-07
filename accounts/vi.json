@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Chọn loại email mà Ordnary có thể gửi cho bạn.",
       "notifications": {
         "title": "Tùy chọn thông báo",
+        "description": "Chọn email bạn nhận từ Ordnary.",
         "close": "Đóng",
         "loading": "Đang tải…",
-        "alwaysOn": "Luôn bật",
-        "description": "Chọn email bạn nhận từ Ordnary.",
         "loadError": "Hiện chúng tôi không tải được nội dung này. Hãy thử lại sau.",
         "saveError": "Chúng tôi không lưu được. Hãy thử lại.",
         "saved": "Đã lưu.",
+        "alwaysOn": "Luôn bật",
         "alwaysTitle": "Luôn bật",
         "alwaysText": "Những email này giữ tài khoản của bạn an toàn và xác nhận điều bạn đã yêu cầu, nên luôn được bật.",
         "choiceTitle": "Lựa chọn của bạn",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Một bản xuất đang được chuẩn bị. Hãy thử lại sau ít phút.",
       "exportRateLimited": "Bạn đã đạt số lần xuất tối đa. Hãy thử lại sau {time}.",
       "saveFailed": "Không thể lưu. Hãy thử lại.",
-      "days30": "30 ngày",
       "autoClear": {
         "title": "Tự động xóa hoạt động trên Ordnary",
         "subtitle": "Chọn thời gian chúng tôi lưu hoạt động của bạn. Hoạt động cũ hơn sẽ tự động bị xóa, cho tất cả tài khoản và hồ sơ trong Trung tâm tài khoản.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Hoạt động đã xóa không thể khôi phục. Hãy tải xuống một bản sao trước nếu bạn muốn giữ lại.",
         "learnMore": "Tìm hiểu thêm về tự động xóa trong tài liệu Ordnary"
       },
+      "days30": "30 ngày",
       "experimentBadgeTooltip": "Vẫn đang phát triển. Bạn có thể xem qua, nhưng kết nối ứng dụng chưa hoạt động."
     },
     "payments": {

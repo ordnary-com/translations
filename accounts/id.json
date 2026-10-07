@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Pilih jenis email yang boleh dikirim Ordnary kepada Anda.",
       "notifications": {
         "title": "Preferensi notifikasi",
+        "description": "Pilih email apa yang Anda terima dari Ordnary.",
         "close": "Tutup",
         "loading": "Memuat…",
-        "alwaysOn": "Selalu aktif",
-        "description": "Pilih email apa yang Anda terima dari Ordnary.",
         "loadError": "Kami tidak dapat memuatnya saat ini. Coba lagi nanti.",
         "saveError": "Kami tidak dapat menyimpannya. Coba lagi.",
         "saved": "Tersimpan.",
+        "alwaysOn": "Selalu aktif",
         "alwaysTitle": "Selalu aktif",
         "alwaysText": "Email ini menjaga akun Anda tetap aman dan mengonfirmasi hal yang Anda minta, jadi selalu aktif.",
         "choiceTitle": "Pilihan Anda",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Sebuah ekspor sedang disiapkan. Coba lagi sebentar lagi.",
       "exportRateLimited": "Anda telah mencapai jumlah ekspor maksimum. Coba lagi dalam {time}.",
       "saveFailed": "Gagal menyimpan. Coba lagi.",
-      "days30": "30 hari",
       "autoClear": {
         "title": "Hapus otomatis aktivitas Ordnary",
         "subtitle": "Pilih berapa lama kami menyimpan aktivitas Anda. Aktivitas yang lebih lama dihapus otomatis, untuk semua akun dan profil di Pusat Akun.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Aktivitas yang dihapus tidak dapat dikembalikan. Unduh salinannya dulu jika ingin menyimpannya.",
         "learnMore": "Selengkapnya tentang hapus otomatis di dokumentasi Ordnary"
       },
+      "days30": "30 hari",
       "experimentBadgeTooltip": "Masih dalam pengembangan. Anda bisa melihat-lihat, tetapi menghubungkan aplikasi belum berfungsi."
     },
     "payments": {

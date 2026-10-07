@@ -1230,13 +1230,13 @@
       "notificationsSubtitle": "Vyberte, jaké druhy e-mailů vám Ordnary smí posílat.",
       "notifications": {
         "title": "Předvolby oznámení",
+        "description": "Vyberte si, které e-maily od Ordnary chcete dostávat.",
         "close": "Zavřít",
         "loading": "Načítání…",
-        "alwaysOn": "Vždy zapnuto",
-        "description": "Vyberte si, které e-maily od Ordnary chcete dostávat.",
         "loadError": "Teď se to nepodařilo načíst. Zkuste to později.",
         "saveError": "Nepodařilo se to uložit. Zkuste to znovu.",
         "saved": "Uloženo.",
+        "alwaysOn": "Vždy zapnuto",
         "alwaysTitle": "Vždy zapnuto",
         "alwaysText": "Tyto e-maily chrání váš účet a potvrzují, o co jste požádali, takže zůstávají zapnuté.",
         "choiceTitle": "Vaše volba",
@@ -1361,7 +1361,6 @@
       "exportInProgress": "Export se již připravuje. Zkuste to za chvíli znovu.",
       "exportRateLimited": "Dosáhli jste maximálního počtu exportů. Zkuste to znovu za {time}.",
       "saveFailed": "Uložení se nezdařilo. Zkuste to znovu.",
-      "days30": "30 dní",
       "autoClear": {
         "title": "Automaticky mazat aktivitu v Ordnary",
         "subtitle": "Vyberte, jak dlouho uchováváme vaši aktivitu. Starší aktivita se automaticky odstraní, pro všechny účty a profily v Centru účtu.",
@@ -1375,6 +1374,7 @@
         "howPermanent": "Odstraněnou aktivitu nelze obnovit. Pokud ji chcete zachovat, nejdřív si stáhněte kopii.",
         "learnMore": "Více o automatickém mazání v dokumentaci Ordnary"
       },
+      "days30": "30 dní",
       "experimentBadgeTooltip": "Stále ve vývoji. Můžete se porozhlédnout, ale připojování aplikací zatím nefunguje."
     },
     "payments": {
