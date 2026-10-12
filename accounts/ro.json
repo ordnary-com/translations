@@ -645,7 +645,13 @@
         "chooseAccounts": "Alege conturile pentru această adresă de e-mail",
         "added": "Adresa de e-mail a fost adăugată",
         "addFailed": "Ceva nu a funcționat. Încearcă din nou.",
-        "next": "Înainte"
+        "next": "Înainte",
+        "primaryBadge": "Principală",
+        "primaryNotice": "Aceasta este adresa ta de e-mail principală. O folosești pentru autentificare și îți trimitem pe ea notificările contului.",
+        "unverifiedNotice": "Verifică mai întâi această adresă de e-mail. Apoi o poți seta ca adresă principală.",
+        "makePrimary": "Setează ca adresă de e-mail principală",
+        "madePrimary": "Adresa de e-mail principală a fost actualizată",
+        "makePrimaryFailed": "Nu am putut schimba adresa ta de e-mail principală."
       },
       "birthdayModal": {
         "subtitle": "Adaugă data nașterii pentru ca experiența ta să se potrivească vârstei tale.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Nu am găsit această aplicație.",
     "too_large": "Fișierul este prea mare.",
     "unsupported_type": "Acest tip de fișier nu este acceptat.",
-    "no_file": "Alege mai întâi un fișier."
+    "no_file": "Alege mai întâi un fișier.",
+    "email_not_verified": "Verifică mai întâi această adresă de e-mail.",
+    "failed_to_set_primary_email": "Nu am putut schimba adresa ta de e-mail principală."
   }
 }

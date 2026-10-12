@@ -645,7 +645,13 @@
         "chooseAccounts": "Vyberte účty pro tuto e-mailovou adresu",
         "added": "E-mailová adresa byla přidána",
         "addFailed": "Něco se pokazilo. Zkuste to prosím znovu.",
-        "next": "Další"
+        "next": "Další",
+        "primaryBadge": "Primární",
+        "primaryNotice": "Toto je vaše primární e-mailová adresa. Používáte ji k přihlášení a posíláme na ni oznámení o účtu.",
+        "unverifiedNotice": "Nejdříve tuto e-mailovou adresu ověřte. Potom ji můžete nastavit jako primární.",
+        "makePrimary": "Nastavit jako primární e-mail",
+        "madePrimary": "Primární e-mailová adresa byla aktualizována",
+        "makePrimaryFailed": "Vaši primární e-mailovou adresu se nepodařilo změnit."
       },
       "birthdayModal": {
         "subtitle": "Přidejte své datum narození, aby vaše prostředí odpovídalo vašemu věku.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Tuto aplikaci jsme nenašli.",
     "too_large": "Tento soubor je příliš velký.",
     "unsupported_type": "Tento typ souboru není podporován.",
-    "no_file": "Nejdřív vyberte soubor."
+    "no_file": "Nejdřív vyberte soubor.",
+    "email_not_verified": "Nejdříve tuto e-mailovou adresu ověřte.",
+    "failed_to_set_primary_email": "Vaši primární e-mailovou adresu se nepodařilo změnit."
   }
 }

@@ -645,7 +645,13 @@
         "chooseAccounts": "Elige las cuentas para esta dirección de correo electrónico",
         "added": "Dirección de correo electrónico añadida",
         "addFailed": "Algo salió mal. Inténtalo de nuevo.",
-        "next": "Siguiente"
+        "next": "Siguiente",
+        "primaryBadge": "Principal",
+        "primaryNotice": "Esta es tu dirección de correo principal. La usas para iniciar sesión y te enviamos a ella las notificaciones de la cuenta.",
+        "unverifiedNotice": "Primero verifica esta dirección de correo. Después podrás convertirla en tu dirección principal.",
+        "makePrimary": "Establecer como correo principal",
+        "madePrimary": "Correo principal actualizado",
+        "makePrimaryFailed": "No hemos podido cambiar tu dirección de correo principal."
       },
       "birthdayModal": {
         "subtitle": "Añade tu cumpleaños para que tu experiencia se ajuste a tu edad.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "No pudimos encontrar esa aplicación.",
     "too_large": "Ese archivo es demasiado grande.",
     "unsupported_type": "Ese tipo de archivo no es compatible.",
-    "no_file": "Primero elige un archivo."
+    "no_file": "Primero elige un archivo.",
+    "email_not_verified": "Primero verifica esta dirección de correo.",
+    "failed_to_set_primary_email": "No hemos podido cambiar tu dirección de correo principal."
   }
 }

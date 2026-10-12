@@ -645,7 +645,13 @@
         "chooseAccounts": "Escolha as contas para este endereço de e-mail",
         "added": "Endereço de e-mail adicionado",
         "addFailed": "Algo deu errado. Tente novamente.",
-        "next": "Avançar"
+        "next": "Avançar",
+        "primaryBadge": "Principal",
+        "primaryNotice": "Este é o seu endereço de e-mail principal. Você o usa para entrar e enviamos as notificações da conta para ele.",
+        "unverifiedNotice": "Verifique primeiro este endereço de e-mail. Depois você poderá defini-lo como principal.",
+        "makePrimary": "Definir como e-mail principal",
+        "madePrimary": "E-mail principal atualizado",
+        "makePrimaryFailed": "Não foi possível alterar o seu endereço de e-mail principal."
       },
       "birthdayModal": {
         "subtitle": "Adicione sua data de nascimento para que a experiência combine com a sua idade.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Não encontramos esse app.",
     "too_large": "Esse arquivo é grande demais.",
     "unsupported_type": "Esse tipo de arquivo não é compatível.",
-    "no_file": "Escolha um arquivo primeiro."
+    "no_file": "Escolha um arquivo primeiro.",
+    "email_not_verified": "Verifique primeiro este endereço de e-mail.",
+    "failed_to_set_primary_email": "Não foi possível alterar o seu endereço de e-mail principal."
   }
 }

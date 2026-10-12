@@ -645,7 +645,13 @@
         "chooseAccounts": "Välj konton för den här e-postadressen",
         "added": "E-postadressen har lagts till",
         "addFailed": "Något gick fel. Försök igen.",
-        "next": "Nästa"
+        "next": "Nästa",
+        "primaryBadge": "Primär",
+        "primaryNotice": "Det här är din primära e-postadress. Du loggar in med den och vi skickar kontoaviseringar till den.",
+        "unverifiedNotice": "Verifiera den här e-postadressen först. Sedan kan du göra den till din primära e-postadress.",
+        "makePrimary": "Gör till primär e-postadress",
+        "madePrimary": "Primär e-postadress uppdaterad",
+        "makePrimaryFailed": "Vi kunde inte ändra din primära e-postadress."
       },
       "birthdayModal": {
         "subtitle": "Lägg till din födelsedag så att upplevelsen passar din ålder.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Vi kunde inte hitta den appen.",
     "too_large": "Filen är för stor.",
     "unsupported_type": "Den filtypen stöds inte.",
-    "no_file": "Välj en fil först."
+    "no_file": "Välj en fil först.",
+    "email_not_verified": "Verifiera den här e-postadressen först.",
+    "failed_to_set_primary_email": "Vi kunde inte ändra din primära e-postadress."
   }
 }

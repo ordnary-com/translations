@@ -645,7 +645,13 @@
         "chooseAccounts": "Velg kontoer for denne e-postadressen",
         "added": "E-postadressen er lagt til",
         "addFailed": "Noe gikk galt. Prøv igjen.",
-        "next": "Neste"
+        "next": "Neste",
+        "primaryBadge": "Primær",
+        "primaryNotice": "Dette er den primære e-postadressen din. Du bruker den til å logge på, og vi sender kontovarsler til den.",
+        "unverifiedNotice": "Bekreft denne e-postadressen først. Deretter kan du gjøre den til den primære e-postadressen din.",
+        "makePrimary": "Gjør til primær e-postadresse",
+        "madePrimary": "Primær e-postadresse oppdatert",
+        "makePrimaryFailed": "Vi kunne ikke endre den primære e-postadressen din."
       },
       "birthdayModal": {
         "subtitle": "Legg til fødselsdagen din, så passer opplevelsen din til alderen din.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Vi fant ikke den appen.",
     "too_large": "Den filen er for stor.",
     "unsupported_type": "Den filtypen støttes ikke.",
-    "no_file": "Velg en fil først."
+    "no_file": "Velg en fil først.",
+    "email_not_verified": "Bekreft denne e-postadressen først.",
+    "failed_to_set_primary_email": "Vi kunne ikke endre den primære e-postadressen din."
   }
 }

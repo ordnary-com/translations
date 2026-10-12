@@ -645,7 +645,13 @@
         "chooseAccounts": "Choisissez les comptes pour cette adresse e-mail",
         "added": "Adresse e-mail ajoutée",
         "addFailed": "Une erreur s'est produite. Veuillez réessayer.",
-        "next": "Suivant"
+        "next": "Suivant",
+        "primaryBadge": "Principale",
+        "primaryNotice": "Il s'agit de votre adresse e-mail principale. Vous l'utilisez pour vous connecter et nous y envoyons les notifications de votre compte.",
+        "unverifiedNotice": "Vérifiez d'abord cette adresse e-mail. Vous pourrez ensuite en faire votre adresse e-mail principale.",
+        "makePrimary": "Définir comme adresse e-mail principale",
+        "madePrimary": "Adresse e-mail principale mise à jour",
+        "makePrimaryFailed": "Nous n'avons pas pu modifier votre adresse e-mail principale."
       },
       "birthdayModal": {
         "subtitle": "Ajoutez votre date de naissance pour adapter votre expérience à votre âge.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Nous n'avons pas trouvé cette application.",
     "too_large": "Ce fichier est trop volumineux.",
     "unsupported_type": "Ce type de fichier n'est pas pris en charge.",
-    "no_file": "Choisissez d'abord un fichier."
+    "no_file": "Choisissez d'abord un fichier.",
+    "email_not_verified": "Vérifiez d'abord cette adresse e-mail.",
+    "failed_to_set_primary_email": "Nous n'avons pas pu modifier votre adresse e-mail principale."
   }
 }

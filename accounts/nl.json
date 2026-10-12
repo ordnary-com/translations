@@ -645,7 +645,13 @@
         "chooseAccounts": "Accounts kiezen voor dit e-mailadres",
         "added": "E-mailadres succesvol toegevoegd",
         "addFailed": "Er is iets misgegaan",
-        "next": "Volgende"
+        "next": "Volgende",
+        "primaryBadge": "Primair",
+        "primaryNotice": "Dit is je primaire e-mailadres. Je gebruikt het om in te loggen en we sturen er accountmeldingen naartoe.",
+        "unverifiedNotice": "Verifieer eerst dit e-mailadres. Daarna kun je het als primair e-mailadres instellen.",
+        "makePrimary": "Instellen als primair e-mailadres",
+        "madePrimary": "Primair e-mailadres bijgewerkt",
+        "makePrimaryFailed": "We konden je primaire e-mailadres niet wijzigen."
       },
       "birthdayModal": {
         "subtitle": "Geef je geboortedatum op om te zorgen dat de ervaring aansluit op je leeftijd.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "We konden die app niet vinden.",
     "too_large": "Dat bestand is te groot.",
     "unsupported_type": "Dat bestandstype wordt niet ondersteund.",
-    "no_file": "Kies eerst een bestand."
+    "no_file": "Kies eerst een bestand.",
+    "email_not_verified": "Verifieer eerst dit e-mailadres.",
+    "failed_to_set_primary_email": "We konden je primaire e-mailadres niet wijzigen."
   }
 }

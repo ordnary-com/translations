@@ -645,7 +645,13 @@
         "chooseAccounts": "Chọn tài khoản cho địa chỉ email này",
         "added": "Đã thêm địa chỉ email",
         "addFailed": "Đã xảy ra lỗi. Vui lòng thử lại.",
-        "next": "Tiếp theo"
+        "next": "Tiếp theo",
+        "primaryBadge": "Chính",
+        "primaryNotice": "Đây là địa chỉ email chính của bạn. Bạn dùng nó để đăng nhập và chúng tôi gửi thông báo tài khoản đến địa chỉ này.",
+        "unverifiedNotice": "Hãy xác minh địa chỉ email này trước. Sau đó bạn có thể đặt nó làm email chính.",
+        "makePrimary": "Đặt làm email chính",
+        "madePrimary": "Đã cập nhật email chính",
+        "makePrimaryFailed": "Chúng tôi không thể thay đổi email chính của bạn."
       },
       "birthdayModal": {
         "subtitle": "Thêm ngày sinh để trải nghiệm phù hợp với độ tuổi của bạn.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Chúng tôi không tìm thấy ứng dụng đó.",
     "too_large": "Tệp đó quá lớn.",
     "unsupported_type": "Loại tệp đó không được hỗ trợ.",
-    "no_file": "Hãy chọn một tệp trước."
+    "no_file": "Hãy chọn một tệp trước.",
+    "email_not_verified": "Hãy xác minh địa chỉ email này trước.",
+    "failed_to_set_primary_email": "Chúng tôi không thể thay đổi email chính của bạn."
   }
 }

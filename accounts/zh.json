@@ -645,7 +645,13 @@
         "chooseAccounts": "为此电子邮件地址选择账户",
         "added": "电子邮件地址已添加",
         "addFailed": "出了点问题。请重试。",
-        "next": "下一步"
+        "next": "下一步",
+        "primaryBadge": "主邮箱",
+        "primaryNotice": "这是你的主邮箱地址。你用它登录，我们也会将账户通知发送到这个地址。",
+        "unverifiedNotice": "请先验证此邮箱地址，然后才能将其设为主邮箱。",
+        "makePrimary": "设为主邮箱地址",
+        "madePrimary": "主邮箱地址已更新",
+        "makePrimaryFailed": "无法更改你的主邮箱地址。"
       },
       "birthdayModal": {
         "subtitle": "添加你的生日，让体验更适合你的年龄。",
@@ -1729,6 +1735,8 @@
     "client_not_found": "我们找不到该应用。",
     "too_large": "文件太大。",
     "unsupported_type": "不支持该文件类型。",
-    "no_file": "请先选择一个文件。"
+    "no_file": "请先选择一个文件。",
+    "email_not_verified": "请先验证此邮箱地址。",
+    "failed_to_set_primary_email": "无法更改你的主邮箱地址。"
   }
 }

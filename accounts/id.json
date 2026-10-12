@@ -645,7 +645,13 @@
         "chooseAccounts": "Pilih akun untuk alamat email ini",
         "added": "Alamat email ditambahkan",
         "addFailed": "Terjadi kesalahan. Silakan coba lagi.",
-        "next": "Berikutnya"
+        "next": "Berikutnya",
+        "primaryBadge": "Utama",
+        "primaryNotice": "Ini adalah alamat email utama Anda. Anda menggunakannya untuk masuk, dan kami mengirim notifikasi akun ke alamat ini.",
+        "unverifiedNotice": "Verifikasi alamat email ini terlebih dahulu. Setelah itu Anda dapat menjadikannya alamat email utama.",
+        "makePrimary": "Jadikan alamat email utama",
+        "madePrimary": "Alamat email utama diperbarui",
+        "makePrimaryFailed": "Kami tidak dapat mengubah alamat email utama Anda."
       },
       "birthdayModal": {
         "subtitle": "Tambahkan tanggal lahir Anda agar pengalaman Anda sesuai dengan usia Anda.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Kami tidak dapat menemukan aplikasi tersebut.",
     "too_large": "File tersebut terlalu besar.",
     "unsupported_type": "Jenis file tersebut tidak didukung.",
-    "no_file": "Pilih file terlebih dahulu."
+    "no_file": "Pilih file terlebih dahulu.",
+    "email_not_verified": "Verifikasi alamat email ini terlebih dahulu.",
+    "failed_to_set_primary_email": "Kami tidak dapat mengubah alamat email utama Anda."
   }
 }

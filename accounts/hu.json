@@ -645,7 +645,13 @@
         "chooseAccounts": "Válaszd ki a fiókokat ehhez az e-mail-címhez",
         "added": "E-mail-cím hozzáadva",
         "addFailed": "Hiba történt. Kérlek, próbáld újra.",
-        "next": "Tovább"
+        "next": "Tovább",
+        "primaryBadge": "Elsődleges",
+        "primaryNotice": "Ez az elsődleges e-mail-címed. Ezzel jelentkezel be, és ide küldjük a fiókértesítéseket.",
+        "unverifiedNotice": "Először erősítsd meg ezt az e-mail-címet. Utána beállíthatod elsődlegesként.",
+        "makePrimary": "Beállítás elsődleges e-mail-címként",
+        "madePrimary": "Elsődleges e-mail-cím frissítve",
+        "makePrimaryFailed": "Nem sikerült módosítani az elsődleges e-mail-címedet."
       },
       "birthdayModal": {
         "subtitle": "Add meg a születésnapodat, hogy az élményed illeszkedjen a korodhoz.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Nem találjuk ezt az alkalmazást.",
     "too_large": "Ez a fájl túl nagy.",
     "unsupported_type": "Ez a fájltípus nem támogatott.",
-    "no_file": "Előbb válassz egy fájlt."
+    "no_file": "Előbb válassz egy fájlt.",
+    "email_not_verified": "Először erősítsd meg ezt az e-mail-címet.",
+    "failed_to_set_primary_email": "Nem sikerült módosítani az elsődleges e-mail-címedet."
   }
 }

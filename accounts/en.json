@@ -645,7 +645,13 @@
         "chooseAccounts": "Choose accounts for this email address",
         "added": "Email address added",
         "addFailed": "Something went wrong. Please try again.",
-        "next": "Next"
+        "next": "Next",
+        "primaryBadge": "Primary",
+        "primaryNotice": "This is your primary email address. You use it to sign in, and we send account notifications to it.",
+        "unverifiedNotice": "Verify this email address first. Then you can make it your primary email address.",
+        "makePrimary": "Make primary email address",
+        "madePrimary": "Primary email address updated",
+        "makePrimaryFailed": "We couldn't change your primary email address."
       },
       "birthdayModal": {
         "subtitle": "Add your birthday so your experience fits your age.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "We couldn't find that app.",
     "too_large": "That file is too large.",
     "unsupported_type": "That file type isn't supported.",
-    "no_file": "Choose a file first."
+    "no_file": "Choose a file first.",
+    "email_not_verified": "Verify this email address first.",
+    "failed_to_set_primary_email": "We couldn't change your primary email address."
   }
 }

@@ -645,7 +645,13 @@
         "chooseAccounts": "Wybierz konta dla tego adresu e-mail",
         "added": "Adres e-mail dodany",
         "addFailed": "Coś poszło nie tak. Spróbuj ponownie.",
-        "next": "Dalej"
+        "next": "Dalej",
+        "primaryBadge": "Główny",
+        "primaryNotice": "To jest Twój główny adres e-mail. Używasz go do logowania, a my wysyłamy na niego powiadomienia o koncie.",
+        "unverifiedNotice": "Najpierw zweryfikuj ten adres e-mail. Potem możesz ustawić go jako główny.",
+        "makePrimary": "Ustaw jako główny adres e-mail",
+        "madePrimary": "Główny adres e-mail zaktualizowany",
+        "makePrimaryFailed": "Nie udało się zmienić Twojego głównego adresu e-mail."
       },
       "birthdayModal": {
         "subtitle": "Dodaj datę urodzenia, aby dopasować doświadczenia do swojego wieku.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Nie znaleźliśmy tej aplikacji.",
     "too_large": "Ten plik jest za duży.",
     "unsupported_type": "Ten typ pliku nie jest obsługiwany.",
-    "no_file": "Najpierw wybierz plik."
+    "no_file": "Najpierw wybierz plik.",
+    "email_not_verified": "Najpierw zweryfikuj ten adres e-mail.",
+    "failed_to_set_primary_email": "Nie udało się zmienić Twojego głównego adresu e-mail."
   }
 }

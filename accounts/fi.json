@@ -645,7 +645,13 @@
         "chooseAccounts": "Valitse tilit tälle sähköpostiosoitteelle",
         "added": "Sähköpostiosoite lisätty",
         "addFailed": "Jokin meni pieleen. Yritä uudelleen.",
-        "next": "Seuraava"
+        "next": "Seuraava",
+        "primaryBadge": "Ensisijainen",
+        "primaryNotice": "Tämä on ensisijainen sähköpostiosoitteesi. Kirjaudut sillä sisään, ja lähetämme tilin ilmoitukset siihen.",
+        "unverifiedNotice": "Vahvista tämä sähköpostiosoite ensin. Sen jälkeen voit asettaa sen ensisijaiseksi.",
+        "makePrimary": "Aseta ensisijaiseksi sähköpostiosoitteeksi",
+        "madePrimary": "Ensisijainen sähköpostiosoite päivitetty",
+        "makePrimaryFailed": "Emme voineet vaihtaa ensisijaista sähköpostiosoitettasi."
       },
       "birthdayModal": {
         "subtitle": "Lisää syntymäpäiväsi, jotta kokemuksesi sopii ikääsi.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Emme löytäneet tätä sovellusta.",
     "too_large": "Tiedosto on liian suuri.",
     "unsupported_type": "Tätä tiedostotyyppiä ei tueta.",
-    "no_file": "Valitse ensin tiedosto."
+    "no_file": "Valitse ensin tiedosto.",
+    "email_not_verified": "Vahvista tämä sähköpostiosoite ensin.",
+    "failed_to_set_primary_email": "Emme voineet vaihtaa ensisijaista sähköpostiosoitettasi."
   }
 }

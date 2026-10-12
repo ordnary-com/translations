@@ -645,7 +645,13 @@
         "chooseAccounts": "Pilih akaun untuk alamat e-mel ini",
         "added": "Alamat e-mel ditambah",
         "addFailed": "Sesuatu telah berlaku. Sila cuba lagi.",
-        "next": "Seterusnya"
+        "next": "Seterusnya",
+        "primaryBadge": "Utama",
+        "primaryNotice": "Ini ialah alamat e-mel utama anda. Anda menggunakannya untuk log masuk, dan kami menghantar pemberitahuan akaun kepadanya.",
+        "unverifiedNotice": "Sahkan alamat e-mel ini dahulu. Selepas itu anda boleh menjadikannya alamat e-mel utama.",
+        "makePrimary": "Jadikan alamat e-mel utama",
+        "madePrimary": "Alamat e-mel utama dikemas kini",
+        "makePrimaryFailed": "Kami tidak dapat menukar alamat e-mel utama anda."
       },
       "birthdayModal": {
         "subtitle": "Tambah hari lahir anda supaya pengalaman anda sesuai dengan umur anda.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Kami tidak dapat menemui aplikasi itu.",
     "too_large": "Fail itu terlalu besar.",
     "unsupported_type": "Jenis fail itu tidak disokong.",
-    "no_file": "Pilih fail dahulu."
+    "no_file": "Pilih fail dahulu.",
+    "email_not_verified": "Sahkan alamat e-mel ini dahulu.",
+    "failed_to_set_primary_email": "Kami tidak dapat menukar alamat e-mel utama anda."
   }
 }

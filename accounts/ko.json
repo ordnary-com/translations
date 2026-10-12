@@ -645,7 +645,13 @@
         "chooseAccounts": "이 이메일 주소를 사용할 계정 선택",
         "added": "이메일 주소를 추가했습니다",
         "addFailed": "문제가 발생했습니다. 다시 시도하세요.",
-        "next": "다음"
+        "next": "다음",
+        "primaryBadge": "기본",
+        "primaryNotice": "기본 이메일 주소입니다. 로그인에 사용되며 계정 알림도 이 주소로 발송됩니다.",
+        "unverifiedNotice": "먼저 이 이메일 주소를 인증하세요. 그런 다음 기본 이메일 주소로 설정할 수 있습니다.",
+        "makePrimary": "기본 이메일 주소로 설정",
+        "madePrimary": "기본 이메일 주소가 업데이트되었습니다",
+        "makePrimaryFailed": "기본 이메일 주소를 변경하지 못했습니다."
       },
       "birthdayModal": {
         "subtitle": "나이에 맞는 환경을 위해 생년월일을 추가하세요.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "해당 앱을 찾을 수 없습니다.",
     "too_large": "파일이 너무 큽니다.",
     "unsupported_type": "지원되지 않는 파일 형식입니다.",
-    "no_file": "먼저 파일을 선택하세요."
+    "no_file": "먼저 파일을 선택하세요.",
+    "email_not_verified": "먼저 이 이메일 주소를 인증하세요.",
+    "failed_to_set_primary_email": "기본 이메일 주소를 변경하지 못했습니다."
   }
 }

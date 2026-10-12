@@ -645,7 +645,13 @@
         "chooseAccounts": "Bu e-posta adresi için hesapları seç",
         "added": "E-posta adresi eklendi",
         "addFailed": "Bir şeyler ters gitti. Lütfen tekrar dene.",
-        "next": "İleri"
+        "next": "İleri",
+        "primaryBadge": "Birincil",
+        "primaryNotice": "Bu, birincil e-posta adresin. Oturum açmak için bunu kullanırsın ve hesap bildirimlerini buraya göndeririz.",
+        "unverifiedNotice": "Önce bu e-posta adresini doğrula. Ardından birincil e-posta adresin yapabilirsin.",
+        "makePrimary": "Birincil e-posta adresi yap",
+        "madePrimary": "Birincil e-posta adresi güncellendi",
+        "makePrimaryFailed": "Birincil e-posta adresini değiştiremedik."
       },
       "birthdayModal": {
         "subtitle": "Deneyimin yaşına uygun olsun diye doğum gününü ekle.",
@@ -1729,6 +1735,8 @@
     "client_not_found": "Bu uygulama bulunamadı.",
     "too_large": "Bu dosya çok büyük.",
     "unsupported_type": "Bu dosya türü desteklenmiyor.",
-    "no_file": "Önce bir dosya seç."
+    "no_file": "Önce bir dosya seç.",
+    "email_not_verified": "Önce bu e-posta adresini doğrula.",
+    "failed_to_set_primary_email": "Birincil e-posta adresini değiştiremedik."
   }
 }
