@@ -245,6 +245,7 @@
       "passwordIncorrect": "Passordet du skrev inn er feil.",
       "notAuthenticated": "Du er ikke autentisert.",
       "registrationMissingInfo": "Nødvendig registreringsinformasjon mangler.",
+      "registrationInvalidName": "Navnet ditt kan ikke inneholde < eller > eller andre spesialtegn.",
       "registrationEmailExists": "Det finnes allerede en konto med denne e-postadressen.",
       "systemNoDefaultTenant": "Systemfeil: fant ingen standard-tenant.",
       "registrationFailed": "Registreringen mislyktes. Prøv igjen.",

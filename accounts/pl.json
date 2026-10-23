@@ -245,6 +245,7 @@
       "passwordIncorrect": "Wpisane hasło jest nieprawidłowe.",
       "notAuthenticated": "Nie jesteś uwierzytelniony(-a).",
       "registrationMissingInfo": "Brakuje wymaganych informacji rejestracyjnych.",
+      "registrationInvalidName": "Imię i nazwisko nie mogą zawierać znaków < ani > ani innych znaków specjalnych.",
       "registrationEmailExists": "Konto z tym adresem e-mail już istnieje.",
       "systemNoDefaultTenant": "Błąd systemu: nie znaleziono domyślnego tenanta.",
       "registrationFailed": "Rejestracja nie powiodła się. Spróbuj ponownie.",

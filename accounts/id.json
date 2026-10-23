@@ -245,6 +245,7 @@
       "passwordIncorrect": "Kata sandi yang Anda masukkan salah.",
       "notAuthenticated": "Anda belum diautentikasi.",
       "registrationMissingInfo": "Informasi pendaftaran yang wajib masih kurang.",
+      "registrationInvalidName": "Nama Anda tidak boleh berisi < atau > atau karakter khusus lainnya.",
       "registrationEmailExists": "Akun dengan email ini sudah ada.",
       "systemNoDefaultTenant": "Kesalahan sistem: tenant default tidak ditemukan.",
       "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",

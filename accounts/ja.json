@@ -245,6 +245,7 @@
       "passwordIncorrect": "入力したパスワードが正しくありません。",
       "notAuthenticated": "認証されていません。",
       "registrationMissingInfo": "必要な登録情報が不足しています。",
+      "registrationInvalidName": "名前に < や > などの特殊文字は使用できません。",
       "registrationEmailExists": "このメールアドレスのアカウントはすでに存在します。",
       "systemNoDefaultTenant": "システムエラー：デフォルトのテナントが見つかりません。",
       "registrationFailed": "登録に失敗しました。もう一度お試しください。",

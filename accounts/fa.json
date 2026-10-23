@@ -245,6 +245,7 @@
       "passwordIncorrect": "گذرواژه‌ای که وارد کرده‌اید نادرست است.",
       "notAuthenticated": "شما احراز هویت نشده‌اید.",
       "registrationMissingInfo": "اطلاعات لازم برای ثبت‌نام موجود نیست.",
+      "registrationInvalidName": "نام شما نمی‌تواند شامل < یا > یا نویسه‌های ویژهٔ دیگر باشد.",
       "registrationEmailExists": "حسابی با این ایمیل از قبل وجود دارد.",
       "systemNoDefaultTenant": "خطای سیستم: tenant پیش‌فرض پیدا نشد.",
       "registrationFailed": "ثبت‌نام ناموفق بود. لطفاً دوباره تلاش کنید.",

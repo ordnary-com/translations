@@ -245,6 +245,7 @@
       "passwordIncorrect": "Lösenordet du angav är fel.",
       "notAuthenticated": "Du är inte inloggad.",
       "registrationMissingInfo": "Obligatorisk registreringsinformation saknas.",
+      "registrationInvalidName": "Ditt namn får inte innehålla < eller > eller andra specialtecken.",
       "registrationEmailExists": "Det finns redan ett konto med den här e-postadressen.",
       "systemNoDefaultTenant": "Systemfel: ingen standardtenant hittades.",
       "registrationFailed": "Registreringen misslyckades. Försök igen.",

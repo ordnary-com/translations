@@ -245,6 +245,7 @@
       "passwordIncorrect": "Syöttämäsi salasana on väärin.",
       "notAuthenticated": "Sinua ei ole todennettu.",
       "registrationMissingInfo": "Pakollisia rekisteröintitietoja puuttuu.",
+      "registrationInvalidName": "Nimesi ei voi sisältää merkkejä < tai > eikä muita erikoismerkkejä.",
       "registrationEmailExists": "Tällä sähköpostiosoitteella on jo tili.",
       "systemNoDefaultTenant": "Järjestelmävirhe: oletus-tenantia ei löytynyt.",
       "registrationFailed": "Rekisteröinti epäonnistui. Yritä uudelleen.",

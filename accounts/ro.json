@@ -245,6 +245,7 @@
       "passwordIncorrect": "Parola introdusă este incorectă.",
       "notAuthenticated": "Nu ești autentificat.",
       "registrationMissingInfo": "Lipsesc informații obligatorii pentru înregistrare.",
+      "registrationInvalidName": "Numele tău nu poate conține < sau > sau alte caractere speciale.",
       "registrationEmailExists": "Există deja un cont cu acest e-mail.",
       "systemNoDefaultTenant": "Eroare de sistem: nu a fost găsit tenantul implicit.",
       "registrationFailed": "Înregistrarea a eșuat. Încearcă din nou.",

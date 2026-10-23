@@ -245,6 +245,7 @@
       "passwordIncorrect": "รหัสผ่านที่คุณป้อนไม่ถูกต้อง",
       "notAuthenticated": "คุณยังไม่ได้รับการยืนยันตัวตน",
       "registrationMissingInfo": "ขาดข้อมูลการลงทะเบียนที่จำเป็น",
+      "registrationInvalidName": "ชื่อของคุณต้องไม่มี < หรือ > หรืออักขระพิเศษอื่นๆ",
       "registrationEmailExists": "มีบัญชีที่ใช้อีเมลนี้อยู่แล้ว",
       "systemNoDefaultTenant": "ข้อผิดพลาดของระบบ: ไม่พบ tenant เริ่มต้น",
       "registrationFailed": "การลงทะเบียนล้มเหลว โปรดลองอีกครั้ง",

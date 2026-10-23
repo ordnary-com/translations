@@ -245,6 +245,7 @@
       "passwordIncorrect": "Mật khẩu bạn nhập không đúng.",
       "notAuthenticated": "Bạn chưa được xác thực.",
       "registrationMissingInfo": "Thiếu thông tin đăng ký bắt buộc.",
+      "registrationInvalidName": "Tên của bạn không được chứa < hoặc > hoặc các ký tự đặc biệt khác.",
       "registrationEmailExists": "Đã có tài khoản dùng email này.",
       "systemNoDefaultTenant": "Lỗi hệ thống: không tìm thấy tenant mặc định.",
       "registrationFailed": "Đăng ký thất bại. Vui lòng thử lại.",

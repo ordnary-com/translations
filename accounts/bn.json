@@ -245,6 +245,7 @@
       "passwordIncorrect": "আপনি যে পাসওয়ার্ড লিখেছেন তা সঠিক নয়।",
       "notAuthenticated": "আপনি প্রমাণীকৃত নন।",
       "registrationMissingInfo": "প্রয়োজনীয় নিবন্ধন তথ্য অনুপস্থিত।",
+      "registrationInvalidName": "আপনার নামে < বা > অথবা অন্য কোনো বিশেষ অক্ষর থাকতে পারবে না।",
       "registrationEmailExists": "এই ইমেল দিয়ে ইতিমধ্যেই একটি অ্যাকাউন্ট রয়েছে।",
       "systemNoDefaultTenant": "সিস্টেম ত্রুটি: কোনও ডিফল্ট টেন্যান্ট পাওয়া যায়নি।",
       "registrationFailed": "নিবন্ধন ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।",

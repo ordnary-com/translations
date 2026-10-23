@@ -245,6 +245,7 @@
       "passwordIncorrect": "La password inserita non è corretta.",
       "notAuthenticated": "Non sei autenticato.",
       "registrationMissingInfo": "Mancano informazioni di registrazione obbligatorie.",
+      "registrationInvalidName": "Il tuo nome non può contenere < o > o altri caratteri speciali.",
       "registrationEmailExists": "Esiste già un account con questa email.",
       "systemNoDefaultTenant": "Errore di sistema: nessun tenant predefinito trovato.",
       "registrationFailed": "Registrazione non riuscita. Riprova.",

@@ -245,6 +245,7 @@
       "passwordIncorrect": "你输入的密码不正确。",
       "notAuthenticated": "你尚未通过身份验证。",
       "registrationMissingInfo": "缺少必需的注册信息。",
+      "registrationInvalidName": "姓名不能包含 < 或 > 等特殊字符。",
       "registrationEmailExists": "此电子邮件地址已存在账户。",
       "systemNoDefaultTenant": "系统错误：未找到默认租户。",
       "registrationFailed": "注册失败。请重试。",

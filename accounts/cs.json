@@ -245,6 +245,7 @@
       "passwordIncorrect": "Zadané heslo není správné.",
       "notAuthenticated": "Nejste ověřeni.",
       "registrationMissingInfo": "Chybí povinné registrační údaje.",
+      "registrationInvalidName": "Jméno nesmí obsahovat < ani > ani jiné speciální znaky.",
       "registrationEmailExists": "Účet s tímto e-mailem již existuje.",
       "systemNoDefaultTenant": "Systémová chyba: nebyl nalezen výchozí tenant.",
       "registrationFailed": "Registrace se nezdařila. Zkuste to znovu.",

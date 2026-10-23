@@ -245,6 +245,7 @@
       "passwordIncorrect": "Den adgangskode, du indtastede, er forkert.",
       "notAuthenticated": "Du er ikke autentificeret.",
       "registrationMissingInfo": "Påkrævede registreringsoplysninger mangler.",
+      "registrationInvalidName": "Dit navn må ikke indeholde < eller > eller andre specialtegn.",
       "registrationEmailExists": "Der findes allerede en konto med denne e-mailadresse.",
       "systemNoDefaultTenant": "Systemfejl: ingen standard-tenant fundet.",
       "registrationFailed": "Registreringen mislykkedes. Prøv igen.",

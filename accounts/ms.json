@@ -245,6 +245,7 @@
       "passwordIncorrect": "Kata laluan yang anda masukkan tidak betul.",
       "notAuthenticated": "Anda tidak disahkan.",
       "registrationMissingInfo": "Maklumat pendaftaran yang diperlukan tiada.",
+      "registrationInvalidName": "Nama anda tidak boleh mengandungi < atau > atau aksara khas lain.",
       "registrationEmailExists": "Akaun dengan e-mel ini sudah wujud.",
       "systemNoDefaultTenant": "Ralat sistem: tenant lalai tidak ditemui.",
       "registrationFailed": "Pendaftaran gagal. Sila cuba lagi.",

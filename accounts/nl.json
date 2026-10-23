@@ -245,6 +245,7 @@
       "passwordIncorrect": "Het ingevoerde wachtwoord is onjuist.",
       "notAuthenticated": "Je bent niet geauthenticeerd.",
       "registrationMissingInfo": "Verplichte registratiegegevens ontbreken.",
+      "registrationInvalidName": "Je naam mag geen < of > of andere speciale tekens bevatten.",
       "registrationEmailExists": "Er bestaat al een account met dit e-mailadres.",
       "systemNoDefaultTenant": "Systeemfout: geen standaard-tenant gevonden.",
       "registrationFailed": "Registratie is mislukt. Probeer het opnieuw.",

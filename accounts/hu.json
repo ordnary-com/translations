@@ -245,6 +245,7 @@
       "passwordIncorrect": "A megadott jelszó helytelen.",
       "notAuthenticated": "Nem vagy hitelesítve.",
       "registrationMissingInfo": "Hiányoznak a kötelező regisztrációs adatok.",
+      "registrationInvalidName": "A neved nem tartalmazhat < vagy > jelet, sem más különleges karaktert.",
       "registrationEmailExists": "Már létezik fiók ezzel az e-mail-címmel.",
       "systemNoDefaultTenant": "Rendszerhiba: nem található alapértelmezett tenant.",
       "registrationFailed": "A regisztráció sikertelen volt. Próbáld újra.",

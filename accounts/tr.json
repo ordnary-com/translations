@@ -245,6 +245,7 @@
       "passwordIncorrect": "Girdiğin parola yanlış.",
       "notAuthenticated": "Kimliğin doğrulanmadı.",
       "registrationMissingInfo": "Gerekli kayıt bilgileri eksik.",
+      "registrationInvalidName": "Adınız < veya > ya da başka özel karakterler içeremez.",
       "registrationEmailExists": "Bu e-posta ile zaten bir hesap var.",
       "systemNoDefaultTenant": "Sistem hatası: varsayılan kiracı bulunamadı.",
       "registrationFailed": "Kayıt başarısız oldu. Lütfen tekrar dene.",

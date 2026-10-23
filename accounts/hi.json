@@ -245,6 +245,7 @@
       "passwordIncorrect": "आपने जो पासवर्ड दर्ज किया है वह गलत है।",
       "notAuthenticated": "आप प्रमाणित नहीं हैं।",
       "registrationMissingInfo": "आवश्यक पंजीकरण जानकारी गायब है।",
+      "registrationInvalidName": "आपके नाम में < या > या अन्य विशेष वर्ण नहीं हो सकते।",
       "registrationEmailExists": "इस ईमेल के साथ एक अकाउंट पहले से मौजूद है।",
       "systemNoDefaultTenant": "सिस्टम त्रुटि: कोई डिफ़ॉल्ट टेनेंट नहीं मिला।",
       "registrationFailed": "पंजीकरण विफल हुआ। कृपया फिर कोशिश करें।",

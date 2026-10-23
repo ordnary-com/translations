@@ -245,6 +245,7 @@
       "passwordIncorrect": "Введений пароль неправильний.",
       "notAuthenticated": "Ви не автентифіковані.",
       "registrationMissingInfo": "Відсутня обов'язкова реєстраційна інформація.",
+      "registrationInvalidName": "Ім'я не може містити символи < і > або інші спеціальні символи.",
       "registrationEmailExists": "Обліковий запис із цією електронною поштою вже існує.",
       "systemNoDefaultTenant": "Системна помилка: не знайдено стандартного tenant.",
       "registrationFailed": "Реєстрація не вдалася. Будь ласка, спробуйте ще раз.",

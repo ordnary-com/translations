@@ -245,6 +245,7 @@
       "passwordIncorrect": "Le mot de passe saisi est incorrect.",
       "notAuthenticated": "Vous n'êtes pas authentifié.",
       "registrationMissingInfo": "Des informations d'inscription obligatoires sont manquantes.",
+      "registrationInvalidName": "Votre nom ne peut pas contenir < ou > ni d'autres caractères spéciaux.",
       "registrationEmailExists": "Un compte avec cette adresse e-mail existe déjà.",
       "systemNoDefaultTenant": "Erreur système : aucun locataire par défaut trouvé.",
       "registrationFailed": "Échec de l'inscription. Veuillez réessayer.",

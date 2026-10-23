@@ -245,6 +245,7 @@
       "passwordIncorrect": "הסיסמה שהזנתם אינה נכונה.",
       "notAuthenticated": "אינכם מאומתים.",
       "registrationMissingInfo": "חסר מידע רישום נדרש.",
+      "registrationInvalidName": "השם שלך לא יכול להכיל < או > או תווים מיוחדים אחרים.",
       "registrationEmailExists": "כבר קיים חשבון עם האימייל הזה.",
       "systemNoDefaultTenant": "שגיאת מערכת: לא נמצא tenant ברירת מחדל.",
       "registrationFailed": "הרישום נכשל. נסו שוב.",

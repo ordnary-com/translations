@@ -245,6 +245,7 @@
       "passwordIncorrect": "كلمة المرور التي أدخلتها غير صحيحة.",
       "notAuthenticated": "أنت غير مصادق عليه.",
       "registrationMissingInfo": "معلومات التسجيل المطلوبة مفقودة.",
+      "registrationInvalidName": "لا يمكن أن يحتوي اسمك على < أو > أو أحرف خاصة أخرى.",
       "registrationEmailExists": "يوجد حساب بهذا البريد الإلكتروني بالفعل.",
       "systemNoDefaultTenant": "خطأ في النظام: لم يتم العثور على مستأجر افتراضي.",
       "registrationFailed": "فشل التسجيل. يرجى المحاولة مرة أخرى.",
