@@ -29,13 +29,19 @@
       "none": "확인되지 않음",
       "pending": "링크를 열기를 기다리는 중입니다",
       "verified": "확인됨",
-      "revoked": "더 이상 유효하지 않음"
+      "revoked": "더 이상 유효하지 않음",
+      "expired": "만료됨"
     },
     "details": {
       "title": "내 정보",
       "school": "학교",
       "email": "학교 이메일",
-      "verifiedOn": "확인한 날짜"
+      "verifiedOn": "확인한 날짜",
+      "validUntil": "유효 기간"
+    },
+    "notices": {
+      "renew": "학생 상태가 {date}에 종료됩니다. 학생 혜택을 유지하려면 학교 이메일로 다시 확인하세요.",
+      "expired": "학생 상태가 종료되었습니다. 학생 혜택을 다시 받으려면 학교 이메일로 다시 확인하세요."
     },
     "dialog": {
       "title": "학생 인증",
@@ -43,6 +49,12 @@
       "close": "닫기",
       "verifiedTitle": "확인됨",
       "verifiedBody": "{school}의 {email}, {date}부터.",
+      "validUntil": "{date}까지 유효합니다.",
+      "renewTitle": "다시 확인",
+      "renewBody": "{school}의 학생 상태가 {date}에 종료됩니다. {email}(으)로 새 링크를 보냅니다. 링크를 열면 2년 더 인증 상태가 유지됩니다.",
+      "renew": "새 링크 보내기",
+      "expiredTitle": "만료됨",
+      "expiredBody": "{school}의 학생 상태가 마지막 확인 후 2년이 지난 {date}에 종료되었습니다. 아직 재학 중이신가요? {email}(으)로 새 링크를 보내세요.",
       "pendingTitle": "링크를 열어 주세요",
       "pendingBody": "{email}(으)로 링크를 보냈습니다. 완료하려면 24시간 이내에 열어 주세요.",
       "revokedTitle": "더 이상 유효하지 않음",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Ordnary에서 로그아웃할까요?",
       "logoutCancel": "취소",
       "logoutConfirm": "로그아웃",
-      "language": "언어"
+      "language": "언어",
+      "discord": {
+        "title": "Ordnary Discord에 참여하세요",
+        "text": "새로운 기능 소식을 가장 먼저 받고, 질문하고, 저희 팀 및 다른 Ordnary 사용자와 이야기하세요.",
+        "action": "Discord 참여하기"
+      }
     },
     "reactivate": {
       "title": "다시 오신 것을 환영합니다. 계정이 비활성화되어 있습니다",

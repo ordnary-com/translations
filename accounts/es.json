@@ -29,13 +29,19 @@
       "none": "No verificado",
       "pending": "Esperando a que abras el enlace",
       "verified": "Verificado",
-      "revoked": "Ya no está activo"
+      "revoked": "Ya no está activo",
+      "expired": "Caducado"
     },
     "details": {
       "title": "Tus datos",
       "school": "Centro educativo",
       "email": "Correo del centro",
-      "verifiedOn": "Verificado el"
+      "verifiedOn": "Verificado el",
+      "validUntil": "Válido hasta"
+    },
+    "notices": {
+      "renew": "Tu estado de estudiante termina el {date}. Confírmalo de nuevo con tu correo escolar para mantener tus ventajas de estudiante.",
+      "expired": "Tu estado de estudiante ha terminado. Confírmalo de nuevo con tu correo escolar para recuperar tus ventajas de estudiante."
     },
     "dialog": {
       "title": "Verificación de estudiante",
@@ -43,6 +49,12 @@
       "close": "Cerrar",
       "verifiedTitle": "Verificado",
       "verifiedBody": "{email} en {school}, desde {date}.",
+      "validUntil": "Válido hasta el {date}.",
+      "renewTitle": "Confirmar de nuevo",
+      "renewBody": "Tu estado de estudiante en {school} termina el {date}. Enviamos un nuevo enlace a {email}. Ábrelo para seguir verificado dos años más.",
+      "renew": "Enviar nuevo enlace",
+      "expiredTitle": "Caducado",
+      "expiredBody": "Tu estado de estudiante en {school} terminó el {date}, dos años después de tu última confirmación. ¿Sigues estudiando allí? Envía un nuevo enlace a {email}.",
       "pendingTitle": "Esperando a que abras el enlace",
       "pendingBody": "Hemos enviado un enlace a {email}. Ábrelo en un plazo de 24 horas para terminar.",
       "revokedTitle": "Ya no está activo",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "¿Cerrar sesión en Ordnary?",
       "logoutCancel": "Cancelar",
       "logoutConfirm": "Cerrar sesión",
-      "language": "Idioma"
+      "language": "Idioma",
+      "discord": {
+        "title": "Únete al Discord de Ordnary",
+        "text": "Entérate antes que nadie de las novedades, haz preguntas y habla con nuestro equipo y con otras personas que usan Ordnary.",
+        "action": "Unirse a Discord"
+      }
     },
     "reactivate": {
       "title": "Te damos la bienvenida de nuevo, tu cuenta está desactivada",

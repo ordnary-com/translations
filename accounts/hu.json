@@ -29,13 +29,19 @@
       "none": "Nincs ellenőrizve",
       "pending": "Arra várunk, hogy megnyisd a linket",
       "verified": "Megerősítve",
-      "revoked": "Már nem aktív"
+      "revoked": "Már nem aktív",
+      "expired": "Lejárt"
     },
     "details": {
       "title": "Az adataid",
       "school": "Iskola",
       "email": "Iskolai e-mail-cím",
-      "verifiedOn": "Igazolás dátuma"
+      "verifiedOn": "Igazolás dátuma",
+      "validUntil": "Érvényes eddig"
+    },
+    "notices": {
+      "renew": "A hallgatói státuszod {date} napon lejár. Erősítsd meg újra az iskolai e-mail-címeddel, hogy megtartsd a hallgatói kedvezményeket.",
+      "expired": "A hallgatói státuszod lejárt. Erősítsd meg újra az iskolai e-mail-címeddel, hogy visszakapd a hallgatói kedvezményeket."
     },
     "dialog": {
       "title": "Diákigazolás",
@@ -43,6 +49,12 @@
       "close": "Bezárás",
       "verifiedTitle": "Igazolva",
       "verifiedBody": "{email}, {school}, {date} óta.",
+      "validUntil": "Érvényes eddig: {date}.",
+      "renewTitle": "Megerősítés újra",
+      "renewBody": "A hallgatói státuszod ({school}) {date} napon lejár. Új linket küldünk ide: {email}. Nyisd meg, és további két évig igazolt maradsz.",
+      "renew": "Új link küldése",
+      "expiredTitle": "Lejárt",
+      "expiredBody": "A hallgatói státuszod ({school}) {date} napon lejárt, két évvel az utolsó megerősítés után. Még mindig ott tanulsz? Küldj új linket ide: {email}.",
       "pendingTitle": "Várjuk, hogy megnyisd a hivatkozást",
       "pendingBody": "Küldtünk egy hivatkozást a(z) {email} címre. A befejezéshez nyisd meg 24 órán belül.",
       "revokedTitle": "Már nem aktív",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Kijelentkezel az Ordnaryből?",
       "logoutCancel": "Mégse",
       "logoutConfirm": "Kijelentkezés",
-      "language": "Nyelv"
+      "language": "Nyelv",
+      "discord": {
+        "title": "Csatlakozz az Ordnary Discordhoz",
+        "text": "Értesülj elsőként az újdonságokról, kérdezz, és beszélgess a csapatunkkal és más Ordnary-felhasználókkal.",
+        "action": "Csatlakozás a Discordhoz"
+      }
     },
     "reactivate": {
       "title": "Üdv újra, a fiókod inaktív",

@@ -29,13 +29,19 @@
       "none": "Chưa xác minh",
       "pending": "Đang chờ bạn mở liên kết",
       "verified": "Đã xác minh",
-      "revoked": "Không còn hiệu lực"
+      "revoked": "Không còn hiệu lực",
+      "expired": "Đã hết hạn"
     },
     "details": {
       "title": "Thông tin của bạn",
       "school": "Trường học",
       "email": "Email trường",
-      "verifiedOn": "Xác minh vào"
+      "verifiedOn": "Xác minh vào",
+      "validUntil": "Có hiệu lực đến"
+    },
+    "notices": {
+      "renew": "Trạng thái sinh viên của bạn hết hạn vào {date}. Hãy xác nhận lại bằng email trường để giữ ưu đãi sinh viên.",
+      "expired": "Trạng thái sinh viên của bạn đã hết hạn. Hãy xác nhận lại bằng email trường để nhận lại ưu đãi sinh viên."
     },
     "dialog": {
       "title": "Xác minh sinh viên",
@@ -43,6 +49,12 @@
       "close": "Đóng",
       "verifiedTitle": "Đã xác minh",
       "verifiedBody": "{email} tại {school}, từ {date}.",
+      "validUntil": "Có hiệu lực đến {date}.",
+      "renewTitle": "Xác nhận lại",
+      "renewBody": "Trạng thái sinh viên của bạn tại {school} hết hạn vào {date}. Chúng tôi gửi liên kết mới đến {email}. Mở liên kết để tiếp tục được xác minh thêm hai năm.",
+      "renew": "Gửi liên kết mới",
+      "expiredTitle": "Đã hết hạn",
+      "expiredBody": "Trạng thái sinh viên của bạn tại {school} đã hết hạn vào {date}, hai năm sau lần xác nhận gần nhất. Bạn vẫn học ở đó? Gửi liên kết mới đến {email}.",
       "pendingTitle": "Đang chờ bạn mở liên kết",
       "pendingBody": "Chúng tôi đã gửi một liên kết đến {email}. Hãy mở liên kết trong vòng 24 giờ để hoàn tất.",
       "revokedTitle": "Không còn hiệu lực",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Đăng xuất khỏi Ordnary?",
       "logoutCancel": "Hủy",
       "logoutConfirm": "Đăng xuất",
-      "language": "Ngôn ngữ"
+      "language": "Ngôn ngữ",
+      "discord": {
+        "title": "Tham gia Discord của Ordnary",
+        "text": "Biết trước về tính năng mới, đặt câu hỏi và trò chuyện với đội ngũ của chúng tôi cùng những người dùng Ordnary khác.",
+        "action": "Tham gia Discord"
+      }
     },
     "reactivate": {
       "title": "Chào mừng bạn trở lại, tài khoản của bạn đã bị vô hiệu hóa",

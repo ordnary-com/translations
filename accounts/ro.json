@@ -29,13 +29,19 @@
       "none": "Neverificat",
       "pending": "Așteptăm să deschizi linkul",
       "verified": "Verificat",
-      "revoked": "Nu mai este activ"
+      "revoked": "Nu mai este activ",
+      "expired": "Expirat"
     },
     "details": {
       "title": "Detaliile tale",
       "school": "Școală",
       "email": "E-mail școlar",
-      "verifiedOn": "Verificat la"
+      "verifiedOn": "Verificat la",
+      "validUntil": "Valabil până la"
+    },
+    "notices": {
+      "renew": "Statutul tău de student expiră pe {date}. Confirmă-l din nou cu e-mailul școlii ca să îți păstrezi beneficiile de student.",
+      "expired": "Statutul tău de student a expirat. Confirmă-l din nou cu e-mailul școlii ca să îți recapeți beneficiile de student."
     },
     "dialog": {
       "title": "Verificare student",
@@ -43,6 +49,12 @@
       "close": "Închide",
       "verifiedTitle": "Verificat",
       "verifiedBody": "{email} la {school}, din {date}.",
+      "validUntil": "Valabil până la {date}.",
+      "renewTitle": "Confirmă din nou",
+      "renewBody": "Statutul tău de student la {school} expiră pe {date}. Trimitem un link nou la {email}. Deschide-l ca să rămâi verificat încă doi ani.",
+      "renew": "Trimite link nou",
+      "expiredTitle": "Expirat",
+      "expiredBody": "Statutul tău de student la {school} a expirat pe {date}, la doi ani după ultima confirmare. Încă studiezi acolo? Trimite un link nou la {email}.",
       "pendingTitle": "Se așteaptă să deschizi linkul",
       "pendingBody": "Am trimis un link la {email}. Deschide-l în 24 de ore pentru a finaliza.",
       "revokedTitle": "Nu mai este activ",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Te deconectezi de la Ordnary?",
       "logoutCancel": "Anulează",
       "logoutConfirm": "Deconectează-te",
-      "language": "Limbă"
+      "language": "Limbă",
+      "discord": {
+        "title": "Alătură-te serverului Discord Ordnary",
+        "text": "Află primul despre funcții noi, pune întrebări și vorbește cu echipa noastră și cu alți utilizatori Ordnary.",
+        "action": "Intră pe Discord"
+      }
     },
     "reactivate": {
       "title": "Bine ai revenit, contul tău este dezactivat",

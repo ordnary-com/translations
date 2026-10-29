@@ -29,13 +29,19 @@
       "none": "Not verified",
       "pending": "Waiting for you to open the link",
       "verified": "Verified",
-      "revoked": "No longer active"
+      "revoked": "No longer active",
+      "expired": "Expired"
     },
     "details": {
       "title": "Your details",
       "school": "School",
       "email": "School email",
-      "verifiedOn": "Verified on"
+      "verifiedOn": "Verified on",
+      "validUntil": "Valid until"
+    },
+    "notices": {
+      "renew": "Your student status ends on {date}. Confirm again with your school email to keep your student benefits.",
+      "expired": "Your student status has ended. Confirm again with your school email to get your student benefits back."
     },
     "dialog": {
       "title": "Student verification",
@@ -43,6 +49,12 @@
       "close": "Close",
       "verifiedTitle": "Verified",
       "verifiedBody": "{email} at {school}, since {date}.",
+      "validUntil": "Valid until {date}.",
+      "renewTitle": "Confirm again",
+      "renewBody": "Your student status at {school} ends on {date}. We send a new link to {email}. Open it to stay verified for another two years.",
+      "renew": "Send new link",
+      "expiredTitle": "Expired",
+      "expiredBody": "Your student status at {school} ended on {date}, two years after you last confirmed it. Still studying there? Send a new link to {email}.",
       "pendingTitle": "Waiting for you to open the link",
       "pendingBody": "We sent a link to {email}. Open it within 24 hours to finish.",
       "revokedTitle": "No longer active",
@@ -68,7 +80,7 @@
         },
         {
           "title": "You're verified",
-          "text": "Your student status is active in Ordnary products that offer student benefits."
+          "text": "Your student status is active for two years in Ordnary products that offer student benefits. After that, you confirm again."
         }
       ]
     },
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Sign out of Ordnary?",
       "logoutCancel": "Cancel",
       "logoutConfirm": "Sign out",
-      "language": "Language"
+      "language": "Language",
+      "discord": {
+        "title": "Join the Ordnary Discord",
+        "text": "Hear about new features first, ask questions and talk with our team and other people who use Ordnary.",
+        "action": "Join Discord"
+      }
     },
     "reactivate": {
       "title": "Welcome back, your account is deactivated",

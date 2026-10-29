@@ -29,13 +29,19 @@
       "none": "Ikke bekræftet",
       "pending": "Venter på, at du åbner linket",
       "verified": "Bekræftet",
-      "revoked": "Ikke længere aktiv"
+      "revoked": "Ikke længere aktiv",
+      "expired": "Udløbet"
     },
     "details": {
       "title": "Dine oplysninger",
       "school": "Skole",
       "email": "Skolemail",
-      "verifiedOn": "Bekræftet den"
+      "verifiedOn": "Bekræftet den",
+      "validUntil": "Gyldig til"
+    },
+    "notices": {
+      "renew": "Din studiestatus udløber den {date}. Bekræft igen med din skolemail for at beholde dine studiefordele.",
+      "expired": "Din studiestatus er udløbet. Bekræft igen med din skolemail for at få dine studiefordele tilbage."
     },
     "dialog": {
       "title": "Bekræftelse som studerende",
@@ -43,6 +49,12 @@
       "close": "Luk",
       "verifiedTitle": "Bekræftet",
       "verifiedBody": "{email} på {school}, siden {date}.",
+      "validUntil": "Gyldig til {date}.",
+      "renewTitle": "Bekræft igen",
+      "renewBody": "Din studiestatus hos {school} udløber den {date}. Vi sender et nyt link til {email}. Åbn det for at forblive bekræftet i to år mere.",
+      "renew": "Send nyt link",
+      "expiredTitle": "Udløbet",
+      "expiredBody": "Din studiestatus hos {school} udløb den {date}, to år efter du sidst bekræftede den. Studerer du der stadig? Send et nyt link til {email}.",
       "pendingTitle": "Venter på, at du åbner linket",
       "pendingBody": "Vi har sendt et link til {email}. Åbn det inden for 24 timer for at gøre det færdigt.",
       "revokedTitle": "Ikke længere aktiv",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Log ud af Ordnary?",
       "logoutCancel": "Annuller",
       "logoutConfirm": "Log ud",
-      "language": "Sprog"
+      "language": "Sprog",
+      "discord": {
+        "title": "Bliv en del af Ordnarys Discord",
+        "text": "Hør om nye funktioner først, stil spørgsmål og tal med vores team og andre, der bruger Ordnary.",
+        "action": "Gå til Discord"
+      }
     },
     "reactivate": {
       "title": "Velkommen tilbage, din konto er deaktiveret",

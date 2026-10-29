@@ -29,13 +29,19 @@
       "none": "Neověřeno",
       "pending": "Čekáme, až otevřete odkaz",
       "verified": "Ověřeno",
-      "revoked": "Již není aktivní"
+      "revoked": "Již není aktivní",
+      "expired": "Vypršel"
     },
     "details": {
       "title": "Vaše údaje",
       "school": "Škola",
       "email": "E-mail školy",
-      "verifiedOn": "Ověřeno dne"
+      "verifiedOn": "Ověřeno dne",
+      "validUntil": "Platný do"
+    },
+    "notices": {
+      "renew": "Tvůj studentský status končí {date}. Potvrď ho znovu školním e-mailem, abys o studentské výhody nepřišel.",
+      "expired": "Tvůj studentský status skončil. Potvrď ho znovu školním e-mailem a získej studentské výhody zpět."
     },
     "dialog": {
       "title": "Ověření studenta",
@@ -43,6 +49,12 @@
       "close": "Zavřít",
       "verifiedTitle": "Ověřeno",
       "verifiedBody": "{email} ve škole {school}, od {date}.",
+      "validUntil": "Platný do {date}.",
+      "renewTitle": "Potvrdit znovu",
+      "renewBody": "Tvůj studentský status na {school} končí {date}. Pošleme nový odkaz na {email}. Otevři ho a zůstaneš ověřený další dva roky.",
+      "renew": "Poslat nový odkaz",
+      "expiredTitle": "Vypršel",
+      "expiredBody": "Tvůj studentský status na {school} skončil {date}, dva roky po posledním potvrzení. Pořád tam studuješ? Pošli nový odkaz na {email}.",
       "pendingTitle": "Čekáme, až otevřete odkaz",
       "pendingBody": "Poslali jsme odkaz na {email}. Otevřete ho do 24 hodin a dokončete tak ověření.",
       "revokedTitle": "Již není aktivní",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Odhlásit se z Ordnary?",
       "logoutCancel": "Zrušit",
       "logoutConfirm": "Odhlásit se",
-      "language": "Jazyk"
+      "language": "Jazyk",
+      "discord": {
+        "title": "Přidej se na Discord Ordnary",
+        "text": "Dozvídej se o novinkách jako první, ptej se a mluv s naším týmem i dalšími uživateli Ordnary.",
+        "action": "Přidat se na Discord"
+      }
     },
     "reactivate": {
       "title": "Vítejte zpět, váš účet je deaktivován",

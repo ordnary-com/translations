@@ -29,13 +29,19 @@
       "none": "未確認",
       "pending": "リンクが開かれるのを待っています",
       "verified": "確認済み",
-      "revoked": "利用終了"
+      "revoked": "利用終了",
+      "expired": "期限切れ"
     },
     "details": {
       "title": "あなたの情報",
       "school": "学校",
       "email": "学校のメールアドレス",
-      "verifiedOn": "確認日"
+      "verifiedOn": "確認日",
+      "validUntil": "有効期限"
+    },
+    "notices": {
+      "renew": "学生ステータスは{date}に終了します。学生特典を続けて受けるには、学校のメールアドレスで再度確認してください。",
+      "expired": "学生ステータスは終了しました。学生特典を再び受けるには、学校のメールアドレスで再度確認してください。"
     },
     "dialog": {
       "title": "学生認証",
@@ -43,6 +49,12 @@
       "close": "閉じる",
       "verifiedTitle": "確認済み",
       "verifiedBody": "{school} の {email}、{date} から。",
+      "validUntil": "{date}まで有効。",
+      "renewTitle": "再度確認する",
+      "renewBody": "{school}での学生ステータスは{date}に終了します。{email}に新しいリンクを送信します。リンクを開くと、さらに2年間認証が続きます。",
+      "renew": "新しいリンクを送信",
+      "expiredTitle": "期限切れ",
+      "expiredBody": "{school}での学生ステータスは、最後の確認から2年後の{date}に終了しました。まだ在学中ですか？{email}に新しいリンクを送信してください。",
       "pendingTitle": "リンクを開くのをお待ちしています",
       "pendingBody": "{email} にリンクを送信しました。完了するには 24 時間以内に開いてください。",
       "revokedTitle": "利用終了",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Ordnary からログアウトしますか？",
       "logoutCancel": "キャンセル",
       "logoutConfirm": "ログアウト",
-      "language": "言語"
+      "language": "言語",
+      "discord": {
+        "title": "Ordnary の Discord に参加しよう",
+        "text": "新機能をいち早く知り、質問したり、チームや他の Ordnary ユーザーと話したりできます。",
+        "action": "Discord に参加"
+      }
     },
     "reactivate": {
       "title": "おかえりなさい。アカウントは無効になっています",

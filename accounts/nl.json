@@ -29,13 +29,19 @@
       "none": "Niet geverifieerd",
       "pending": "Wacht tot je de link opent",
       "verified": "Geverifieerd",
-      "revoked": "Niet meer actief"
+      "revoked": "Niet meer actief",
+      "expired": "Verlopen"
     },
     "details": {
       "title": "Je gegevens",
       "school": "School",
       "email": "Schoolmail",
-      "verifiedOn": "Geverifieerd op"
+      "verifiedOn": "Geverifieerd op",
+      "validUntil": "Geldig tot"
+    },
+    "notices": {
+      "renew": "Je studentenstatus loopt af op {date}. Bevestig opnieuw met je schoolmail om je studentvoordelen te houden.",
+      "expired": "Je studentenstatus is verlopen. Bevestig opnieuw met je schoolmail om je studentvoordelen terug te krijgen."
     },
     "dialog": {
       "title": "Studentverificatie",
@@ -43,6 +49,12 @@
       "close": "Sluiten",
       "verifiedTitle": "Geverifieerd",
       "verifiedBody": "{email} bij {school}, sinds {date}.",
+      "validUntil": "Geldig tot {date}.",
+      "renewTitle": "Opnieuw bevestigen",
+      "renewBody": "Je studentenstatus bij {school} loopt af op {date}. We sturen een nieuwe link naar {email}. Open die om nog twee jaar geverifieerd te blijven.",
+      "renew": "Nieuwe link sturen",
+      "expiredTitle": "Verlopen",
+      "expiredBody": "Je studentenstatus bij {school} is verlopen op {date}, twee jaar nadat je die voor het laatst hebt bevestigd. Studeer je daar nog? Stuur een nieuwe link naar {email}.",
       "pendingTitle": "Wacht tot je de link opent",
       "pendingBody": "We hebben een link gestuurd naar {email}. Open die binnen 24 uur om af te ronden.",
       "revokedTitle": "Niet meer actief",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Afmelden bij Ordnary?",
       "logoutCancel": "Annuleren",
       "logoutConfirm": "Afmelden",
-      "language": "Taal"
+      "language": "Taal",
+      "discord": {
+        "title": "Word lid van de Ordnary Discord",
+        "text": "Hoor als eerste over nieuwe functies, stel je vragen en praat met ons team en anderen die Ordnary gebruiken.",
+        "action": "Naar Discord"
+      }
     },
     "reactivate": {
       "title": "Welkom terug, je account is gedeactiveerd",

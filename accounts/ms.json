@@ -29,13 +29,19 @@
       "none": "Belum disahkan",
       "pending": "Menunggu anda membuka pautan",
       "verified": "Disahkan",
-      "revoked": "Tidak lagi aktif"
+      "revoked": "Tidak lagi aktif",
+      "expired": "Tamat tempoh"
     },
     "details": {
       "title": "Butiran anda",
       "school": "Sekolah",
       "email": "E-mel sekolah",
-      "verifiedOn": "Disahkan pada"
+      "verifiedOn": "Disahkan pada",
+      "validUntil": "Sah hingga"
+    },
+    "notices": {
+      "renew": "Status pelajar anda tamat pada {date}. Sahkan semula dengan e-mel sekolah anda untuk mengekalkan faedah pelajar.",
+      "expired": "Status pelajar anda telah tamat. Sahkan semula dengan e-mel sekolah anda untuk mendapatkan semula faedah pelajar."
     },
     "dialog": {
       "title": "Pengesahan pelajar",
@@ -43,6 +49,12 @@
       "close": "Tutup",
       "verifiedTitle": "Disahkan",
       "verifiedBody": "{email} di {school}, sejak {date}.",
+      "validUntil": "Sah hingga {date}.",
+      "renewTitle": "Sahkan semula",
+      "renewBody": "Status pelajar anda di {school} tamat pada {date}. Kami menghantar pautan baharu ke {email}. Bukanya untuk kekal disahkan selama dua tahun lagi.",
+      "renew": "Hantar pautan baharu",
+      "expiredTitle": "Tamat tempoh",
+      "expiredBody": "Status pelajar anda di {school} tamat pada {date}, dua tahun selepas kali terakhir anda mengesahkannya. Masih belajar di sana? Hantar pautan baharu ke {email}.",
       "pendingTitle": "Menunggu anda membuka pautan",
       "pendingBody": "Kami menghantar pautan ke {email}. Buka dalam masa 24 jam untuk selesai.",
       "revokedTitle": "Tidak lagi aktif",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Log keluar daripada Ordnary?",
       "logoutCancel": "Batal",
       "logoutConfirm": "Log keluar",
-      "language": "Bahasa"
+      "language": "Bahasa",
+      "discord": {
+        "title": "Sertai Discord Ordnary",
+        "text": "Jadi yang pertama tahu tentang ciri baharu, tanya soalan dan berbual dengan pasukan kami serta pengguna Ordnary lain.",
+        "action": "Sertai Discord"
+      }
     },
     "reactivate": {
       "title": "Selamat kembali, akaun anda dinyahaktifkan",

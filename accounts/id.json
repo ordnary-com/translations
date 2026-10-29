@@ -29,13 +29,19 @@
       "none": "Belum diverifikasi",
       "pending": "Menunggu Anda membuka tautan",
       "verified": "Terverifikasi",
-      "revoked": "Tidak aktif lagi"
+      "revoked": "Tidak aktif lagi",
+      "expired": "Kedaluwarsa"
     },
     "details": {
       "title": "Detail Anda",
       "school": "Sekolah",
       "email": "Email sekolah",
-      "verifiedOn": "Diverifikasi pada"
+      "verifiedOn": "Diverifikasi pada",
+      "validUntil": "Berlaku hingga"
+    },
+    "notices": {
+      "renew": "Status pelajarmu berakhir pada {date}. Konfirmasi lagi dengan email sekolahmu agar tetap mendapat keuntungan pelajar.",
+      "expired": "Status pelajarmu telah berakhir. Konfirmasi lagi dengan email sekolahmu untuk mendapatkan kembali keuntungan pelajar."
     },
     "dialog": {
       "title": "Verifikasi pelajar",
@@ -43,6 +49,12 @@
       "close": "Tutup",
       "verifiedTitle": "Terverifikasi",
       "verifiedBody": "{email} di {school}, sejak {date}.",
+      "validUntil": "Berlaku hingga {date}.",
+      "renewTitle": "Konfirmasi lagi",
+      "renewBody": "Status pelajarmu di {school} berakhir pada {date}. Kami mengirim tautan baru ke {email}. Buka tautan itu agar tetap terverifikasi dua tahun lagi.",
+      "renew": "Kirim tautan baru",
+      "expiredTitle": "Kedaluwarsa",
+      "expiredBody": "Status pelajarmu di {school} berakhir pada {date}, dua tahun setelah terakhir kamu konfirmasi. Masih belajar di sana? Kirim tautan baru ke {email}.",
       "pendingTitle": "Menunggu Anda membuka tautan",
       "pendingBody": "Kami mengirim tautan ke {email}. Buka dalam 24 jam untuk menyelesaikan.",
       "revokedTitle": "Tidak aktif lagi",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Keluar dari Ordnary?",
       "logoutCancel": "Batal",
       "logoutConfirm": "Keluar",
-      "language": "Bahasa"
+      "language": "Bahasa",
+      "discord": {
+        "title": "Gabung Discord Ordnary",
+        "text": "Jadilah yang pertama tahu fitur baru, ajukan pertanyaan, dan ngobrol dengan tim kami serta pengguna Ordnary lainnya.",
+        "action": "Gabung Discord"
+      }
     },
     "reactivate": {
       "title": "Selamat datang kembali, akun Anda dinonaktifkan",

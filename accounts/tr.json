@@ -29,13 +29,19 @@
       "none": "Doğrulanmadı",
       "pending": "Bağlantıyı açmanı bekliyoruz",
       "verified": "Doğrulandı",
-      "revoked": "Artık etkin değil"
+      "revoked": "Artık etkin değil",
+      "expired": "Süresi doldu"
     },
     "details": {
       "title": "Bilgilerin",
       "school": "Okul",
       "email": "Okul e-postası",
-      "verifiedOn": "Doğrulanma tarihi"
+      "verifiedOn": "Doğrulanma tarihi",
+      "validUntil": "Geçerlilik tarihi"
+    },
+    "notices": {
+      "renew": "Öğrenci durumun {date} tarihinde sona eriyor. Öğrenci avantajlarını korumak için okul e-postanla yeniden onayla.",
+      "expired": "Öğrenci durumunun süresi doldu. Öğrenci avantajlarını geri almak için okul e-postanla yeniden onayla."
     },
     "dialog": {
       "title": "Öğrenci doğrulaması",
@@ -43,6 +49,12 @@
       "close": "Kapat",
       "verifiedTitle": "Doğrulandı",
       "verifiedBody": "{email}, {school}, {date} tarihinden beri.",
+      "validUntil": "{date} tarihine kadar geçerli.",
+      "renewTitle": "Yeniden onayla",
+      "renewBody": "{school} öğrenci durumun {date} tarihinde sona eriyor. {email} adresine yeni bir bağlantı gönderiyoruz. İki yıl daha doğrulanmış kalmak için onu aç.",
+      "renew": "Yeni bağlantı gönder",
+      "expiredTitle": "Süresi doldu",
+      "expiredBody": "{school} öğrenci durumun, son onayından iki yıl sonra {date} tarihinde sona erdi. Hâlâ orada mı okuyorsun? {email} adresine yeni bir bağlantı gönder.",
       "pendingTitle": "Bağlantıyı açmanı bekliyoruz",
       "pendingBody": "{email} adresine bir bağlantı gönderdik. Tamamlamak için 24 saat içinde aç.",
       "revokedTitle": "Artık etkin değil",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Ordnary'den çıkış yapılsın mı?",
       "logoutCancel": "İptal",
       "logoutConfirm": "Çıkış yap",
-      "language": "Dil"
+      "language": "Dil",
+      "discord": {
+        "title": "Ordnary Discord'una katıl",
+        "text": "Yeni özelliklerden ilk sen haberdar ol, soru sor, ekibimizle ve Ordnary kullanan diğer kişilerle sohbet et.",
+        "action": "Discord'a katıl"
+      }
     },
     "reactivate": {
       "title": "Tekrar hoş geldin, hesabın devre dışı",

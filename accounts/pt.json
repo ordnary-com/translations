@@ -29,13 +29,19 @@
       "none": "Não verificado",
       "pending": "Aguardando você abrir o link",
       "verified": "Verificado",
-      "revoked": "Não está mais ativo"
+      "revoked": "Não está mais ativo",
+      "expired": "Expirado"
     },
     "details": {
       "title": "Seus dados",
       "school": "Escola",
       "email": "E-mail da escola",
-      "verifiedOn": "Verificado em"
+      "verifiedOn": "Verificado em",
+      "validUntil": "Válido até"
+    },
+    "notices": {
+      "renew": "O teu estatuto de estudante termina a {date}. Confirma novamente com o teu e-mail escolar para manter as vantagens de estudante.",
+      "expired": "O teu estatuto de estudante terminou. Confirma novamente com o teu e-mail escolar para recuperar as vantagens de estudante."
     },
     "dialog": {
       "title": "Verificação de estudante",
@@ -43,6 +49,12 @@
       "close": "Fechar",
       "verifiedTitle": "Verificado",
       "verifiedBody": "{email} em {school}, desde {date}.",
+      "validUntil": "Válido até {date}.",
+      "renewTitle": "Confirmar novamente",
+      "renewBody": "O teu estatuto de estudante em {school} termina a {date}. Enviamos um novo link para {email}. Abre-o para continuares verificado por mais dois anos.",
+      "renew": "Enviar novo link",
+      "expiredTitle": "Expirado",
+      "expiredBody": "O teu estatuto de estudante em {school} terminou a {date}, dois anos após a última confirmação. Ainda estudas lá? Envia um novo link para {email}.",
       "pendingTitle": "Aguardando você abrir o link",
       "pendingBody": "Enviamos um link para {email}. Abra-o em até 24 horas para concluir.",
       "revokedTitle": "Não está mais ativo",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Sair do Ordnary?",
       "logoutCancel": "Cancelar",
       "logoutConfirm": "Sair",
-      "language": "Idioma"
+      "language": "Idioma",
+      "discord": {
+        "title": "Junta-te ao Discord da Ordnary",
+        "text": "Sabe primeiro das novidades, faz perguntas e fala com a nossa equipa e com outras pessoas que usam a Ordnary.",
+        "action": "Entrar no Discord"
+      }
     },
     "reactivate": {
       "title": "Bem-vindo de volta, sua conta está desativada",

@@ -29,13 +29,19 @@
       "none": "Non verificato",
       "pending": "In attesa che tu apra il link",
       "verified": "Verificato",
-      "revoked": "Non più attivo"
+      "revoked": "Non più attivo",
+      "expired": "Scaduto"
     },
     "details": {
       "title": "I tuoi dati",
       "school": "Scuola",
       "email": "Email della scuola",
-      "verifiedOn": "Verificato il"
+      "verifiedOn": "Verificato il",
+      "validUntil": "Valido fino al"
+    },
+    "notices": {
+      "renew": "Il tuo stato di studente scade il {date}. Confermalo di nuovo con la tua email scolastica per mantenere i vantaggi per studenti.",
+      "expired": "Il tuo stato di studente è scaduto. Confermalo di nuovo con la tua email scolastica per riavere i vantaggi per studenti."
     },
     "dialog": {
       "title": "Verifica dello studente",
@@ -43,6 +49,12 @@
       "close": "Chiudi",
       "verifiedTitle": "Verificato",
       "verifiedBody": "{email} presso {school}, dal {date}.",
+      "validUntil": "Valido fino al {date}.",
+      "renewTitle": "Conferma di nuovo",
+      "renewBody": "Il tuo stato di studente presso {school} scade il {date}. Inviamo un nuovo link a {email}. Aprilo per restare verificato per altri due anni.",
+      "renew": "Invia nuovo link",
+      "expiredTitle": "Scaduto",
+      "expiredBody": "Il tuo stato di studente presso {school} è scaduto il {date}, due anni dopo l'ultima conferma. Studi ancora lì? Invia un nuovo link a {email}.",
       "pendingTitle": "In attesa che tu apra il link",
       "pendingBody": "Abbiamo inviato un link a {email}. Aprilo entro 24 ore per completare.",
       "revokedTitle": "Non più attivo",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Uscire da Ordnary?",
       "logoutCancel": "Annulla",
       "logoutConfirm": "Esci",
-      "language": "Lingua"
+      "language": "Lingua",
+      "discord": {
+        "title": "Unisciti al Discord di Ordnary",
+        "text": "Scopri per primo le novità, fai domande e parla con il nostro team e con altre persone che usano Ordnary.",
+        "action": "Entra su Discord"
+      }
     },
     "reactivate": {
       "title": "Bentornato, il tuo account è disattivato",

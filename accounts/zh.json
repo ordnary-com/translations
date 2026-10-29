@@ -29,13 +29,19 @@
       "none": "未验证",
       "pending": "正在等你打开链接",
       "verified": "已验证",
-      "revoked": "已失效"
+      "revoked": "已失效",
+      "expired": "已过期"
     },
     "details": {
       "title": "你的详细信息",
       "school": "学校",
       "email": "学校邮箱",
-      "verifiedOn": "验证日期"
+      "verifiedOn": "验证日期",
+      "validUntil": "有效期至"
+    },
+    "notices": {
+      "renew": "你的学生身份将于 {date} 到期。请用学校邮箱重新确认，以继续享受学生优惠。",
+      "expired": "你的学生身份已到期。请用学校邮箱重新确认，以恢复学生优惠。"
     },
     "dialog": {
       "title": "学生身份验证",
@@ -43,6 +49,12 @@
       "close": "关闭",
       "verifiedTitle": "已验证",
       "verifiedBody": "{email}，{school}，自 {date} 起。",
+      "validUntil": "有效期至 {date}。",
+      "renewTitle": "重新确认",
+      "renewBody": "你在 {school} 的学生身份将于 {date} 到期。我们会向 {email} 发送新链接。打开链接即可再保持认证两年。",
+      "renew": "发送新链接",
+      "expiredTitle": "已过期",
+      "expiredBody": "你在 {school} 的学生身份已于 {date} 到期，距上次确认已满两年。仍在那里就读？向 {email} 发送新链接。",
       "pendingTitle": "等待你打开链接",
       "pendingBody": "我们已向 {email} 发送了一个链接。请在 24 小时内打开以完成验证。",
       "revokedTitle": "已失效",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "要退出 Ordnary 吗？",
       "logoutCancel": "取消",
       "logoutConfirm": "退出",
-      "language": "语言"
+      "language": "语言",
+      "discord": {
+        "title": "加入 Ordnary Discord",
+        "text": "第一时间了解新功能，提出问题，并与我们的团队和其他 Ordnary 用户交流。",
+        "action": "加入 Discord"
+      }
     },
     "reactivate": {
       "title": "欢迎回来，你的账户已停用",

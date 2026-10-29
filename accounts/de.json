@@ -29,13 +29,19 @@
       "none": "Nicht verifiziert",
       "pending": "Warten darauf, dass du den Link öffnest",
       "verified": "Bestätigt",
-      "revoked": "Nicht mehr aktiv"
+      "revoked": "Nicht mehr aktiv",
+      "expired": "Abgelaufen"
     },
     "details": {
       "title": "Deine Angaben",
       "school": "Schule",
       "email": "Schul-E-Mail",
-      "verifiedOn": "Bestätigt am"
+      "verifiedOn": "Bestätigt am",
+      "validUntil": "Gültig bis"
+    },
+    "notices": {
+      "renew": "Dein Studierendenstatus endet am {date}. Bestätige ihn erneut mit deiner Hochschul-E-Mail, um deine Studierendenvorteile zu behalten.",
+      "expired": "Dein Studierendenstatus ist abgelaufen. Bestätige ihn erneut mit deiner Hochschul-E-Mail, um deine Studierendenvorteile zurückzubekommen."
     },
     "dialog": {
       "title": "Schülerverifizierung",
@@ -43,6 +49,12 @@
       "close": "Schließen",
       "verifiedTitle": "Bestätigt",
       "verifiedBody": "{email} an {school}, seit {date}.",
+      "validUntil": "Gültig bis {date}.",
+      "renewTitle": "Erneut bestätigen",
+      "renewBody": "Dein Studierendenstatus bei {school} endet am {date}. Wir senden einen neuen Link an {email}. Öffne ihn, um zwei weitere Jahre verifiziert zu bleiben.",
+      "renew": "Neuen Link senden",
+      "expiredTitle": "Abgelaufen",
+      "expiredBody": "Dein Studierendenstatus bei {school} ist am {date} abgelaufen, zwei Jahre nach deiner letzten Bestätigung. Studierst du dort noch? Sende einen neuen Link an {email}.",
       "pendingTitle": "Warten darauf, dass du den Link öffnest",
       "pendingBody": "Wir haben einen Link an {email} gesendet. Öffne ihn innerhalb von 24 Stunden, um fertig zu werden.",
       "revokedTitle": "Nicht mehr aktiv",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Von Ordnary abmelden?",
       "logoutCancel": "Abbrechen",
       "logoutConfirm": "Abmelden",
-      "language": "Sprache"
+      "language": "Sprache",
+      "discord": {
+        "title": "Tritt dem Ordnary-Discord bei",
+        "text": "Erfahre als Erstes von neuen Funktionen, stell Fragen und sprich mit unserem Team und anderen, die Ordnary nutzen.",
+        "action": "Discord beitreten"
+      }
     },
     "reactivate": {
       "title": "Willkommen zurück, dein Konto ist deaktiviert",

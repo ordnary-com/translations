@@ -29,13 +29,19 @@
       "none": "Niezweryfikowano",
       "pending": "Czekamy, aż otworzysz link",
       "verified": "Zweryfikowano",
-      "revoked": "Już nieaktywne"
+      "revoked": "Już nieaktywne",
+      "expired": "Wygasł"
     },
     "details": {
       "title": "Twoje dane",
       "school": "Szkoła",
       "email": "E-mail szkolny",
-      "verifiedOn": "Zweryfikowano"
+      "verifiedOn": "Zweryfikowano",
+      "validUntil": "Ważny do"
+    },
+    "notices": {
+      "renew": "Twój status studenta wygasa {date}. Potwierdź go ponownie szkolnym e-mailem, aby zachować zniżki studenckie.",
+      "expired": "Twój status studenta wygasł. Potwierdź go ponownie szkolnym e-mailem, aby odzyskać zniżki studenckie."
     },
     "dialog": {
       "title": "Weryfikacja ucznia",
@@ -43,6 +49,12 @@
       "close": "Zamknij",
       "verifiedTitle": "Zweryfikowano",
       "verifiedBody": "{email} w szkole {school}, od {date}.",
+      "validUntil": "Ważny do {date}.",
+      "renewTitle": "Potwierdź ponownie",
+      "renewBody": "Twój status studenta w {school} wygasa {date}. Wyślemy nowy link na {email}. Otwórz go, aby pozostać zweryfikowanym przez kolejne dwa lata.",
+      "renew": "Wyślij nowy link",
+      "expiredTitle": "Wygasł",
+      "expiredBody": "Twój status studenta w {school} wygasł {date}, dwa lata po ostatnim potwierdzeniu. Nadal tam studiujesz? Wyślij nowy link na {email}.",
       "pendingTitle": "Czekamy na otwarcie linku",
       "pendingBody": "Wysłaliśmy link na adres {email}. Otwórz go w ciągu 24 godzin, aby zakończyć.",
       "revokedTitle": "Już nieaktywne",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Wylogować się z Ordnary?",
       "logoutCancel": "Anuluj",
       "logoutConfirm": "Wyloguj się",
-      "language": "Język"
+      "language": "Język",
+      "discord": {
+        "title": "Dołącz do Discorda Ordnary",
+        "text": "Dowiaduj się pierwszy o nowościach, zadawaj pytania i rozmawiaj z naszym zespołem i innymi użytkownikami Ordnary.",
+        "action": "Dołącz do Discorda"
+      }
     },
     "reactivate": {
       "title": "Witaj ponownie, Twoje konto jest dezaktywowane",

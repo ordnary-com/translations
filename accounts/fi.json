@@ -29,13 +29,19 @@
       "none": "Ei vahvistettu",
       "pending": "Odotetaan, että avaat linkin",
       "verified": "Vahvistettu",
-      "revoked": "Ei enää voimassa"
+      "revoked": "Ei enää voimassa",
+      "expired": "Vanhentunut"
     },
     "details": {
       "title": "Tietosi",
       "school": "Koulu",
       "email": "Koulun sähköposti",
-      "verifiedOn": "Vahvistettu"
+      "verifiedOn": "Vahvistettu",
+      "validUntil": "Voimassa"
+    },
+    "notices": {
+      "renew": "Opiskelijastatuksesi päättyy {date}. Vahvista se uudelleen koulusähköpostillasi, niin opiskelijaedut säilyvät.",
+      "expired": "Opiskelijastatuksesi on päättynyt. Vahvista se uudelleen koulusähköpostillasi saadaksesi opiskelijaedut takaisin."
     },
     "dialog": {
       "title": "Opiskelijan vahvistus",
@@ -43,6 +49,12 @@
       "close": "Sulje",
       "verifiedTitle": "Vahvistettu",
       "verifiedBody": "{email}, {school}, {date} alkaen.",
+      "validUntil": "Voimassa {date} asti.",
+      "renewTitle": "Vahvista uudelleen",
+      "renewBody": "Opiskelijastatuksesi oppilaitoksessa {school} päättyy {date}. Lähetämme uuden linkin osoitteeseen {email}. Avaa se, niin pysyt vahvistettuna vielä kaksi vuotta.",
+      "renew": "Lähetä uusi linkki",
+      "expiredTitle": "Vanhentunut",
+      "expiredBody": "Opiskelijastatuksesi oppilaitoksessa {school} päättyi {date}, kaksi vuotta viimeisen vahvistuksen jälkeen. Opiskeletko siellä yhä? Lähetä uusi linkki osoitteeseen {email}.",
       "pendingTitle": "Odotamme, että avaat linkin",
       "pendingBody": "Lähetimme linkin osoitteeseen {email}. Avaa se 24 tunnin sisällä viimeistelläksesi.",
       "revokedTitle": "Ei enää voimassa",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Kirjaudutaanko ulos Ordnarysta?",
       "logoutCancel": "Peruuta",
       "logoutConfirm": "Kirjaudu ulos",
-      "language": "Kieli"
+      "language": "Kieli",
+      "discord": {
+        "title": "Liity Ordnaryn Discordiin",
+        "text": "Kuule uusista ominaisuuksista ensimmäisenä, kysy ja keskustele tiimimme ja muiden Ordnaryn käyttäjien kanssa.",
+        "action": "Liity Discordiin"
+      }
     },
     "reactivate": {
       "title": "Tervetuloa takaisin, tilisi on poistettu käytöstä",

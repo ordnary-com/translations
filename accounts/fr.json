@@ -29,13 +29,19 @@
       "none": "Non vérifié",
       "pending": "En attente de l'ouverture du lien",
       "verified": "Vérifié",
-      "revoked": "Plus actif"
+      "revoked": "Plus actif",
+      "expired": "Expiré"
     },
     "details": {
       "title": "Vos informations",
       "school": "Établissement",
       "email": "E-mail de l'établissement",
-      "verifiedOn": "Vérifié le"
+      "verifiedOn": "Vérifié le",
+      "validUntil": "Valable jusqu'au"
+    },
+    "notices": {
+      "renew": "Ton statut étudiant prend fin le {date}. Confirme-le à nouveau avec ton e-mail scolaire pour garder tes avantages étudiants.",
+      "expired": "Ton statut étudiant a pris fin. Confirme-le à nouveau avec ton e-mail scolaire pour retrouver tes avantages étudiants."
     },
     "dialog": {
       "title": "Vérification du statut d'étudiant",
@@ -43,6 +49,12 @@
       "close": "Fermer",
       "verifiedTitle": "Vérifié",
       "verifiedBody": "{email} à {school}, depuis le {date}.",
+      "validUntil": "Valable jusqu'au {date}.",
+      "renewTitle": "Confirmer à nouveau",
+      "renewBody": "Ton statut étudiant auprès de {school} prend fin le {date}. Nous envoyons un nouveau lien à {email}. Ouvre-le pour rester vérifié deux ans de plus.",
+      "renew": "Envoyer un nouveau lien",
+      "expiredTitle": "Expiré",
+      "expiredBody": "Ton statut étudiant auprès de {school} a pris fin le {date}, deux ans après ta dernière confirmation. Tu y étudies toujours ? Envoie un nouveau lien à {email}.",
       "pendingTitle": "En attente de l'ouverture du lien",
       "pendingBody": "Nous avons envoyé un lien à {email}. Ouvrez-le dans les 24 heures pour terminer.",
       "revokedTitle": "Plus actif",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Se déconnecter d'Ordnary ?",
       "logoutCancel": "Annuler",
       "logoutConfirm": "Se déconnecter",
-      "language": "Langue"
+      "language": "Langue",
+      "discord": {
+        "title": "Rejoins le Discord d'Ordnary",
+        "text": "Découvre les nouveautés en premier, pose tes questions et échange avec notre équipe et d'autres utilisateurs d'Ordnary.",
+        "action": "Rejoindre Discord"
+      }
     },
     "reactivate": {
       "title": "Content de vous revoir, votre compte est désactivé",

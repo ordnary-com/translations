@@ -29,13 +29,19 @@
       "none": "Inte verifierad",
       "pending": "Väntar på att du öppnar länken",
       "verified": "Verifierad",
-      "revoked": "Inte längre aktiv"
+      "revoked": "Inte längre aktiv",
+      "expired": "Utgången"
     },
     "details": {
       "title": "Dina uppgifter",
       "school": "Skola",
       "email": "Skolans e-postadress",
-      "verifiedOn": "Verifierad den"
+      "verifiedOn": "Verifierad den",
+      "validUntil": "Giltig till"
+    },
+    "notices": {
+      "renew": "Din studentstatus upphör {date}. Bekräfta igen med din skolmejl för att behålla dina studentförmåner.",
+      "expired": "Din studentstatus har upphört. Bekräfta igen med din skolmejl för att få tillbaka dina studentförmåner."
     },
     "dialog": {
       "title": "Studentverifiering",
@@ -43,6 +49,12 @@
       "close": "Stäng",
       "verifiedTitle": "Verifierad",
       "verifiedBody": "{email} på {school}, sedan {date}.",
+      "validUntil": "Giltig till {date}.",
+      "renewTitle": "Bekräfta igen",
+      "renewBody": "Din studentstatus vid {school} upphör {date}. Vi skickar en ny länk till {email}. Öppna den för att vara verifierad i två år till.",
+      "renew": "Skicka ny länk",
+      "expiredTitle": "Utgången",
+      "expiredBody": "Din studentstatus vid {school} upphörde {date}, två år efter att du senast bekräftade den. Studerar du fortfarande där? Skicka en ny länk till {email}.",
       "pendingTitle": "Väntar på att du öppnar länken",
       "pendingBody": "Vi har skickat en länk till {email}. Öppna den inom 24 timmar för att slutföra.",
       "revokedTitle": "Inte längre aktiv",
@@ -320,7 +332,12 @@
       "logoutConfirmTitle": "Logga ut från Ordnary?",
       "logoutCancel": "Avbryt",
       "logoutConfirm": "Logga ut",
-      "language": "Språk"
+      "language": "Språk",
+      "discord": {
+        "title": "Gå med i Ordnarys Discord",
+        "text": "Få veta om nya funktioner först, ställ frågor och prata med vårt team och andra som använder Ordnary.",
+        "action": "Gå med i Discord"
+      }
     },
     "reactivate": {
       "title": "Välkommen tillbaka, ditt konto är avaktiverat",
